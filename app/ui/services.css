@@ -294,6 +294,7 @@
     justify-content: center;
     gap: 30px;
     border-bottom: 1px solid #F3F1F1;
+    position: relative;
 }
 
 .service-listing-heading-section div{
@@ -398,4 +399,14 @@
 
 .business-today-section button:hover{
     background-color: white;
+}
+
+.globe-image{
+    margin-left: auto;
+}
+
+#path-5{
+    position: absolute;
+    top: 65%;
+    right: 13%;
 }

@@ -8,9 +8,11 @@ import service3 from "@/public/service-3.png";
 import service4 from "@/public/service-4.png";
 import service5 from "@/public/service-5.png";
 import service6 from "@/public/service-6.png";
+import globe from "@/public/globe.svg";
 import Footer from "../ui/global/footer";
 import CopyrightBar from "../ui/global/copyrightbar";
 import Button from "../ui/global/button";
+import Path5 from "../ui/global/path-5";
 
 export default function ServicesListing() {
   return (
@@ -30,7 +32,9 @@ export default function ServicesListing() {
 function ServiceListingHeadSection() {
   return (
     <div className="balance-section service-listing-heading-section">
-      <div className=""></div>
+      <div>
+        <Image className="globe-image" src={globe} alt="" />
+      </div>
       <div>
         <h1 className="heading1">OUR SERVICES</h1>
         <h2 className="section-heading heading2">
@@ -45,6 +49,7 @@ function ServiceListingHeadSection() {
           </span>
         </div>
       </div>
+      <Path5 />
     </div>
   );
 }
