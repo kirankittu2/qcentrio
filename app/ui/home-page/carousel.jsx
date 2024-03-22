@@ -15,10 +15,12 @@ export default function Carousel() {
   const layer = useRef(null);
   const [index, setIndex] = useState(0);
   const [slideItem, setItem] = useState("");
-  const [allImages, setAllImages] = useState([]);
-  const [allBoxes, setAllBoxes] = useState([]);
-  const [wid, setWidth] = useState(0);
-  const [hei, setHeight] = useState(0);
+  // const [allImages, setAllImages] = useState([]);
+  // const [allBoxes, setAllBoxes] = useState([]);
+  // const [wid, setWidth] = useState(0);
+  // const [hei, setHeight] = useState(0);
+  // const intervalRef = useRef(null);
+  // const [hovered, setHovered] = useState(false);
 
   useEffect(() => {
     const items = wrapper.current.querySelectorAll(".hero-slide");
@@ -65,6 +67,22 @@ export default function Carousel() {
     // }
     // setAllBoxes(() => tempAllBoxes);
   }, []);
+
+  // useEffect(() => {
+  //   const changeIndex = () => {
+  //     if (index < wrapper.current.querySelectorAll(".hero-slide").length - 1) {
+  //       setIndex((num) => num + 1);
+  //     } else {
+  //       setIndex(0);
+  //     }
+  //   };
+
+  //   if (hovered != true) {
+  //     intervalRef.current = setInterval(changeIndex, 5000);
+  //   }
+
+  //   return () => clearInterval(intervalRef.current);
+  // }, [index, hovered]);
 
   useEffect(() => {
     // if (allBoxes.length != 0) {
@@ -135,7 +153,7 @@ export default function Carousel() {
         }
       });
     }
-  }, [index, slideItem, allBoxes, allImages, hei, wid]);
+  }, [index, slideItem]);
 
   function handleRight() {
     if (index < wrapper.current.querySelectorAll(".hero-slide").length - 1) {
@@ -164,7 +182,12 @@ export default function Carousel() {
   return (
     <div ref={conatiner} className="hero-carousel-container">
       <div ref={wrapper} className="hero-carousel-wrapper">
-        <div data-index="0" className="hero-slide-1 hero-slide active">
+        <div
+          data-index="0"
+          className="hero-slide-1 hero-slide active"
+          // onMouseOver={() => setHovered((hover) => (hover = true))}
+          // onMouseLeave={() => setHovered((hover) => (hover = false))}
+        >
           <div>
             <Img className="slide-image" src={herobanner1} alt="" />
             <div className="hero-content ">
@@ -183,7 +206,12 @@ export default function Carousel() {
             </div>
           </div>
         </div>
-        <div data-index="1" className="hero-slide-2 hero-slide">
+        <div
+          data-index="1"
+          className="hero-slide-2 hero-slide"
+          // onMouseOver={() => setHovered((hover) => (hover = true))}
+          // onMouseLeave={() => setHovered((hover) => (hover = false))}
+        >
           <div>
             <Img className="slide-image" src={herobanner2} alt="" />
             <div className="hero-content">
@@ -202,7 +230,12 @@ export default function Carousel() {
             </div>
           </div>
         </div>
-        <div data-index="2" className="hero-slide-3 hero-slide">
+        <div
+          data-index="2"
+          className="hero-slide-3 hero-slide"
+          // onMouseOver={() => setHovered((hover) => (hover = true))}
+          // onMouseLeave={() => setHovered((hover) => (hover = false))}
+        >
           <div>
             <Img className="slide-image" src={herobanner3} alt="" />
             <div className="hero-content">

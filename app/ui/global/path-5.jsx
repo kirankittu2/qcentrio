@@ -51,12 +51,12 @@ export default function Path5() {
       viewBox="0 0 500.384 364.1">
       <path
         ref={path}
-        data-name="Path 4563"
+        dataName="Path 4563"
         d="M-15395.485,478.221s360.366,55.385,365.517,190.16-139.5,132.407-153.449,89.381,32.063-148.994,286.672,81.1"
         transform="translate(15395.789 -476.244)"
         fill="none"
         stroke="#089768"
-        stroke-width="4"
+        strokeWidth="4"
       />
     </svg>
   );
