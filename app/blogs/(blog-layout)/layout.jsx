@@ -1,0 +1,29 @@
+import BlogHero from "@/app/ui/blogs/blog-hero";
+import CopyrightBar from "@/app/ui/global/copyrightbar";
+import Footer from "@/app/ui/global/footer";
+import Navbar from "@/app/ui/global/nav-bar";
+import SocialLinks from "@/app/ui/global/social-links";
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className="blog">
+        <div className="blog-page-hero">
+          <Navbar />
+          <div className="relative blog-page-container">
+            {children}
+            <div className="blog-page-social-column">
+              <div className="social-links-container">
+                <h2>SHARE THIS ARTICLE</h2>
+                <SocialLinks />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="h-[700px] w-full bg-[#F9F9F9] absolute top-0 z-[-1]"></div>
+        <Footer />
+        <CopyrightBar />
+      </body>
+    </html>
+  );
+}

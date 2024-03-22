@@ -1,0 +1,217 @@
+/* contact us section styles */
+.contact .hero{
+    padding-bottom: clamp(50px, 7.81vw, 80px);
+    background: transparent linear-gradient(96deg, #089768 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.contact-us-main-section .hero-heading{
+    color: black;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.contact-us-main-section{
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.contact-us-main-section-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-main-section-form{
+    flex: 1;
+}
+
+.contact-us-sub-heading{
+    font-size: var(--general-text);
+    font-family: "Quadran-Bold";
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.contact-us-main-section-form textarea{
+    border: 0.5px solid #0A996A99;
+    border-radius: 12px;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 20px;
+    font-family: "Quadran-Light";
+}
+
+.contact-us-main-section-form .contact-column{
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-us-main-section-form button{
+    margin-left: auto;
+}
+
+.contact-us-main-section-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-column-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-column-1 .section-heading{
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+
+.contact-us-column-2 .section-heading{
+    margin-bottom: 30px;
+}
+
+.contact-us-column-2 .about-showcase-container{
+    margin-bottom: 0px;
+}
+
+/* contact us banner styles */
+.contact-us-banner-section{
+    border-top: 1px solid #ECECEC;
+}
+
+/* infra section styles */
+.contact-us-infra-section .section-heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-us-infra-section{
+    padding-top: 0px;
+    position: relative;
+    border-bottom: 1px solid #ECECEC;
+}
+
+/* reach out section styles */
+.reach-out-section{
+    padding-left: clamp(50px, 7.81vw, 80px);
+    padding-right: clamp(50px, 7.81vw, 80px);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.reach-out-container{
+    padding: 50px 100px;
+
+    background-color: #F7FFEC;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reach-out-heading{
+    font-size: 14px;
+    font-family: "Quadran-Bold";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.reach-out-holders{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reach-out-holders p{
+    font-size: var(--heading-highlight);
+    font-family: "Quadran-Bold";
+    text-align: center;
+}
+
+.reach-out-holder-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+.reach-out-holder-divider{
+    height: 60px;
+    width: 8px;
+    background-color: var(--primary-color);
+}
+
+.reach-out-holder-column img{
+    margin-bottom: 30px;
+}
+
+/* global presence section styles */
+.global-presence-section{
+    padding-left: clamp(50px, 7.81vw, 80px);
+    padding-right: clamp(50px, 7.81vw, 80px);
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.global-presence-section .section-heading{
+    text-align: center;
+}
+
+.global-presence-sub-heading{
+    font-size: var(--general-text-no-frequent);
+    font-family: "Quadran-Light";
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.country-card-container{
+    background-color: #F9F9F9;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.flag-container{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 3px solid #089768;
+    padding: 4px;
+    margin-bottom: 15px;
+}
+
+.country-card-container h2{
+    font-size: 18px;
+    font-family: "Quadran-Bold";
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+
+.country-card-container p{
+    font-size: 18px;
+    font-family: "Quadran-Light"; 
+    text-align: center;
+}
+
+.all-countries{
+    display: flex;
+    gap: 20px;
+}
+
+#path-3{
+    position: absolute;
+    right:  -5px;
+    top: 40%;
+}
+
+#path-4{
+    position: absolute;
+    top: 40%;
+    left: -5px;
+}

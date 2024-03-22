@@ -1,0 +1,88 @@
+.about-us-hero-content{
+  position: absolute;
+  left: clamp(50px, 7.81vw, 140px);
+  top: 50%;
+  width: 45%;
+  transform: translateY(-50%);
+}
+
+.about-us-blog-hero{
+    background: transparent linear-gradient(110deg, #089768 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    padding-left: clamp(50px, 7.81vw, 140px);
+}
+
+.about-us-services{
+    background: transparent linear-gradient(180deg, #F7FFEC 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+}
+
+.about-us-services-head-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-us-services-head-container span{
+    height: 5px;
+    width: 100px;
+    background-color: var(--primary-color);
+}
+
+.about-us-services-head-container .sub-heading{
+    margin-bottom: 0px;
+    color: black;
+}
+
+.about-us-services-head-container .section-heading{
+    color: var(--primary-color);
+    margin-bottom: 0px;
+}
+
+/* why qucentrio section */
+.about-us-why-qcentrio-section{
+    padding-top: 0px;
+}
+
+.about-us-why-qcentrio-section .head{
+    text-align: center;
+    color: var(--primary-color);
+    font-family: "Quadran-Black";
+}
+
+.about-us-why-qcentrio-section .subhead{
+    text-align: center;
+    color: black;
+    margin-bottom: 40px;
+}
+
+/* join us buttons styles */
+.join-us-buttons-container{
+    background-color: #F7FFEC;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: clamp(50px, 7.81vw, 140px);
+    margin-right: clamp(50px, 7.81vw, 140px);
+}
+
+.join-us-buttons-container .section-heading{
+    font-family: "Quadran-Black";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.join-us-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.join-us-buttons .divider{
+    width: 70px;
+    height: 3px;
+    background-color: #E9E9E9;
+}
+
+.join-us-buttons button:last-child{
+    background-color: black;
+}

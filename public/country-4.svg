@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59" height="59" viewBox="0 0 59 59">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_46" data-name="Ellipse 46" cx="29.5" cy="29.5" r="29.5" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_168" data-name="Group 168" transform="translate(-75)">
+    <g id="Group_167" data-name="Group 167" transform="translate(75)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_189" data-name="Rectangle 189" width="88.5" height="29.5" transform="translate(-14.75)" fill="#ed2939"/>
+      <rect id="Rectangle_190" data-name="Rectangle 190" width="88.5" height="29.5" transform="translate(-14.75 29.5)" fill="#fff"/>
+      <path id="Path_2015" data-name="Path 2015" d="M96.234,29.687a10.482,10.482,0,0,1,10.047-10.472,11.093,11.093,0,1,0,0,20.945A10.482,10.482,0,0,1,96.234,29.687" transform="translate(-88.278 -14.937)" fill="#fff"/>
+      <path id="Path_2016" data-name="Path 2016" d="M138.8,56.445l-1.507-1.156-1.506,1.157.58-1.864-1.512-1.149,1.865,0,.572-1.867.573,1.867,1.866,0-1.511,1.15Z" transform="translate(-123.084 -41.428)" fill="#fff"/>
+      <path id="Path_2017" data-name="Path 2017" d="M198.924,56.445l-1.507-1.156-1.506,1.157.58-1.864-1.512-1.149,1.865,0,.572-1.867.573,1.867,1.866,0-1.511,1.15Z" transform="translate(-171.383 -41.428)" fill="#fff"/>
+      <path id="Path_2018" data-name="Path 2018" d="M168.893,34.132l-1.507-1.156-1.506,1.157.58-1.864-1.512-1.149,1.865,0,.572-1.867.573,1.867,1.866,0-1.511,1.15Z" transform="translate(-147.258 -23.502)" fill="#fff"/>
+      <path id="Path_2019" data-name="Path 2019" d="M150.05,92.148l-1.507-1.156-1.506,1.157.58-1.864-1.512-1.149,1.865,0,.572-1.867.573,1.867,1.866,0-1.511,1.15Z" transform="translate(-132.121 -70.109)" fill="#fff"/>
+      <path id="Path_2020" data-name="Path 2020" d="M187.674,92.148l-1.507-1.156-1.506,1.157.58-1.864-1.512-1.149,1.865,0,.572-1.867.573,1.867,1.866,0-1.511,1.15Z" transform="translate(-162.346 -70.109)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
