@@ -3,7 +3,7 @@ import ContactMain from "../../ui/contact-us/contact-main";
 import ContactWhyQcentrio from "../../ui/contact-us/contact-why-qcentrio";
 import Navbar from "../../ui/global/nav-bar";
 import banner from "@/public/contact-banner.png";
-import SuccessPath from "../../ui/services/success-path";
+import SuccessPath from "../../ui/offerings/success-path";
 import Card from "../../ui/global/card";
 import Footer from "../../ui/global/footer";
 import ReachOut from "../../ui/contact-us/reach-out";

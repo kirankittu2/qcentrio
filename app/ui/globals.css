@@ -223,6 +223,7 @@ header {
 .main-nav-link a {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 .search-container {
@@ -251,11 +252,9 @@ header {
 }
 
 .nav-options{
-  padding: 20px;
   background-color: white;
   position: absolute;
   top: 104%;
-  
   z-index: 1000;
   width: fit-content;
   border-radius: 6px;
@@ -274,9 +273,96 @@ header {
   color: white;
 }
 
-.nav-options.large{
+.nav-options.mega-menu{
   left: 50%;
   transform: translateX(-50%);
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.nav-options.mega-menu{
+  display: flex;
+ 
+}
+
+.mega-menu-column{
+  padding: 0px 20px;
+  flex: 1;
+}
+
+.mega-menu-middle-column{
+  flex: 2;
+}
+
+.mega-menu-main-nav-link{
+  padding: 14px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.mega-menu-main-nav-link img{
+  margin-left: auto;
+  rotate: 152deg;
+}
+
+.mega-menu-main-nav-link:hover{
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.mega-menu-heading{
+  font-size: 16px;
+  font-family: "Quadran-Medium";
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.mega-menu-middle-columns-container{
+  display: flex;
+  gap: 30px;
+}
+
+.mega-menu-middle-columns-container > div{
+  flex: 1;
+}
+
+.mega-menu-sub-nav-link{
+  color: #404040;
+  font-family: "Quadran-Regular";
+  font-size: 16px;
+  padding: 14px 0px;
+}
+
+.what-new-col-container{
+  width: 100%;
+  height: 88.6%;
+  border: 1px solid #7070702E;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+}
+
+.what-new-title{
+  font-size: 16px;
+  color: #404040;
+  font-family: "Quadran-Regular";
+}
+
+.what-new-btn{
+  color: var(--primary-color);
+  margin-top: auto;
+  font-family: "Quadran-Medium";
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  width: fit-content;
 }
 
 /* Hero section styles */
@@ -613,7 +699,6 @@ header {
 .main-nav-link {
   display: flex;
   align-items: center;
-  cursor: pointer;
 }
 
 

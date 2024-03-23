@@ -4,10 +4,10 @@ import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Footer from "@/app/ui/global/footer";
 import Navbar from "@/app/ui/global/nav-bar";
 import Insignts from "@/app/ui/home-page/insights";
-import Glimpse from "@/app/ui/services/glimpse";
-import ServicesContent from "@/app/ui/services/services";
-import StrategicPath from "@/app/ui/services/strategic-path";
-import SuccessPath from "@/app/ui/services/success-path";
+import Glimpse from "@/app/ui/offerings/glimpse";
+import ServicesContent from "@/app/ui/offerings/services";
+import StrategicPath from "@/app/ui/offerings/strategic-path";
+import SuccessPath from "@/app/ui/offerings/success-path";
 import cloud from "@/public/cloud-service.svg";
 import salesforce from "@/public/salesforce.svg";
 import azure from "@/public/azure.svg";
@@ -66,39 +66,46 @@ export default function Services() {
       {
         index: 1,
         title: "Discovery & Analysis",
-        content: "Understand your business needs, existing systems, and process workflows.",
+        content:
+          "Understand your business needs, existing systems, and process workflows.",
       },
       {
         index: 2,
         title: "Strategy Development",
-        content: "Outline a strategic plan that includes AI/ML and RPA objectives, timeline, and expected outcomes.",
+        content:
+          "Outline a strategic plan that includes AI/ML and RPA objectives, timeline, and expected outcomes.",
       },
       {
         index: 3,
         title: "Development and Integration",
-        content: "Develop the AI/ML and RPA solutions and integrate them with existing business processes and systems.",
+        content:
+          "Develop the AI/ML and RPA solutions and integrate them with existing business processes and systems.",
       },
       {
         index: 4,
         title: "Solution Designing",
-        content: "Design AI/ML models and RPA bots tailored to the business needs identified in the discovery phase.",
+        content:
+          "Design AI/ML models and RPA bots tailored to the business needs identified in the discovery phase.",
       },
     ],
     accordation2: [
       {
         index: 5,
         title: "Testing and Training",
-        content: " Test the integrated solutions for functionality and accuracy and train the end-users.",
+        content:
+          " Test the integrated solutions for functionality and accuracy and train the end-users.",
       },
       {
         index: 6,
         title: "Deployment",
-        content: "Roll out the AI/ML and RPA solutions in a controlled environment.",
+        content:
+          "Roll out the AI/ML and RPA solutions in a controlled environment.",
       },
       {
         index: 7,
         title: "Monitoring and Optimization",
-        content: "Continuously monitor the performance of AI/ML and RPA solutions.",
+        content:
+          "Continuously monitor the performance of AI/ML and RPA solutions.",
       },
       {
         index: 8,
@@ -181,7 +188,10 @@ export default function Services() {
           <div className="breadcrump">
             HOME <span></span> SERVICES
           </div>
-          <h1>FUEL GROWTH AND SCALE TIME TO INSIGHTS WITH BUSINESS VALUE ENHANCEMENT SERVICES</h1>
+          <h1>
+            FUEL GROWTH AND SCALE TIME TO INSIGHTS WITH BUSINESS VALUE
+            ENHANCEMENT SERVICES
+          </h1>
           <Button name="Get Started" />
         </div>
       </div>
