@@ -25,7 +25,7 @@ export default function Discover() {
             trigger="loop"
             delay="2000"
             colors="primary:#089768,secondary:#089768"
-            style={{ width: "150px;", height: "150px" }}></lord-icon>
+            style={{ width: "110px;", height: "150px" }}></lord-icon>
         </div>
       </div>
       <div className="discover-card">
@@ -45,7 +45,7 @@ export default function Discover() {
             trigger="loop"
             delay="2000"
             colors="primary:#089768,secondary:#089768"
-            style={{ width: "150px", height: "150px" }}></lord-icon>
+            style={{ width: "110px", height: "150px" }}></lord-icon>
         </div>
       </div>
     </div>
