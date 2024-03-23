@@ -4,10 +4,10 @@ import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Footer from "@/app/ui/global/footer";
 import Navbar from "@/app/ui/global/nav-bar";
 import Insignts from "@/app/ui/home-page/insights";
-import Glimpse from "@/app/ui/services/glimpse";
-import ServicesContent from "@/app/ui/services/services";
-import StrategicPath from "@/app/ui/services/strategic-path";
-import SuccessPath from "@/app/ui/services/success-path";
+import Glimpse from "@/app/ui/offerings/glimpse";
+import ServicesContent from "@/app/ui/offerings/services";
+import StrategicPath from "@/app/ui/offerings/strategic-path";
+import SuccessPath from "@/app/ui/offerings/success-path";
 import cloud from "@/public/cloud-service.svg";
 import salesforce from "@/public/salesforce.svg";
 import azure from "@/public/azure.svg";
@@ -23,7 +23,8 @@ import secure from "@/public/secure.svg";
 
 export default function Services() {
   const glimpseContent = {
-    heading1: "Unlock Top-Line and Bottom-Line Growth by Optimizing Your Business",
+    heading1:
+      "Unlock Top-Line and Bottom-Line Growth by Optimizing Your Business",
     heading2: "Here's how we've helped our customers win",
     content1:
       "Enterprises always seek new approaches and expertise to optimize their operations, productivity, and products to drive top-line and bottom-line growth.",
@@ -35,8 +36,7 @@ export default function Services() {
 
   const servicesContent = {
     heading: "OPTIMIZE CORE BUSINESS PROCESSES",
-    subheading:
-      "And Operations For Short-Term And Long-Term Tangible Benefits",
+    subheading: "And Operations For Short-Term And Long-Term Tangible Benefits",
     children: [
       {
         image: cloud,
@@ -66,39 +66,46 @@ export default function Services() {
       {
         index: 1,
         title: "Initial Assessment",
-        content: "Evaluate current business processes and analytics capabilities.",
+        content:
+          "Evaluate current business processes and analytics capabilities.",
       },
       {
         index: 2,
         title: "Strategy Development",
-        content: "Define a strategy for integrating analytics tools and platforms.",
+        content:
+          "Define a strategy for integrating analytics tools and platforms.",
       },
       {
         index: 3,
         title: "Custom Solution Design",
-        content: "Craft tailored analytics solutions, including data warehousing and BI tools.",
+        content:
+          "Craft tailored analytics solutions, including data warehousing and BI tools.",
       },
       {
         index: 4,
         title: "Implementation and Integration",
-        content: "Deploy and integrate analytics solutions with existing systems.",
+        content:
+          "Deploy and integrate analytics solutions with existing systems.",
       },
     ],
     accordation2: [
       {
         index: 5,
         title: "Training and Adoption",
-        content: "Train staff on new tools and promote adoption across the organization.",
+        content:
+          "Train staff on new tools and promote adoption across the organization.",
       },
       {
         index: 6,
         title: "Continuous Improvement",
-        content: "Measure performance, gather insights, and refine analytics solutions.",
+        content:
+          "Measure performance, gather insights, and refine analytics solutions.",
       },
       {
         index: 7,
         title: "Ongoing Support",
-        content: "Provide expert ongoing support and iterative enhancements to the analytics systems.",
+        content:
+          "Provide expert ongoing support and iterative enhancements to the analytics systems.",
       },
     ],
   };
@@ -176,7 +183,10 @@ export default function Services() {
           <div className="breadcrump">
             HOME <span></span> SERVICES
           </div>
-          <h1>ACHIEVE OPERATIONAL EXCELLENCE AND GROWTH WITH BUSINESS OPTIMIZATION AND ANALYTICS SERVICES</h1>
+          <h1>
+            ACHIEVE OPERATIONAL EXCELLENCE AND GROWTH WITH BUSINESS OPTIMIZATION
+            AND ANALYTICS SERVICES
+          </h1>
           <Button name="Get Started" />
         </div>
       </div>

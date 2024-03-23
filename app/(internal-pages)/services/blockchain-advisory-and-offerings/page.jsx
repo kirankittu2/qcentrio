@@ -4,10 +4,10 @@ import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Footer from "@/app/ui/global/footer";
 import Navbar from "@/app/ui/global/nav-bar";
 import Insignts from "@/app/ui/home-page/insights";
-import Glimpse from "@/app/ui/services/glimpse";
-import ServicesContent from "@/app/ui/services/services";
-import StrategicPath from "@/app/ui/services/strategic-path";
-import SuccessPath from "@/app/ui/services/success-path";
+import Glimpse from "@/app/ui/offerings/glimpse";
+import ServicesContent from "@/app/ui/offerings/services";
+import StrategicPath from "@/app/ui/offerings/strategic-path";
+import SuccessPath from "@/app/ui/offerings/success-path";
 import cloud from "@/public/cloud-service.svg";
 import salesforce from "@/public/salesforce.svg";
 import azure from "@/public/azure.svg";
@@ -35,8 +35,7 @@ export default function Services() {
 
   const servicesContent = {
     heading: "ESTABLISH DATA TRUST AND TRANSPARENCY",
-    subheading:
-      "Empowering Numerous Impactful Applications",
+    subheading: "Empowering Numerous Impactful Applications",
     children: [
       {
         image: cloud,
@@ -72,7 +71,8 @@ export default function Services() {
       {
         index: 1,
         title: "Stakeholder Engagement",
-        content: "Collaborate closely with stakeholders to understand their needs and challenges.",
+        content:
+          "Collaborate closely with stakeholders to understand their needs and challenges.",
       },
       {
         index: 2,
@@ -82,19 +82,22 @@ export default function Services() {
       {
         index: 3,
         title: "Pilot Testing",
-        content: "Test the solution in real-world scenarios and gather feedback.",
+        content:
+          "Test the solution in real-world scenarios and gather feedback.",
       },
     ],
     accordation2: [
       {
         index: 4,
         title: "Evaluation and Refinement",
-        content: "Improve the solution based on feedback and technical assessments.",
+        content:
+          "Improve the solution based on feedback and technical assessments.",
       },
       {
         index: 5,
         title: "Rollout and Training",
-        content: "Implement the solution across the organization and provide comprehensive training.",
+        content:
+          "Implement the solution across the organization and provide comprehensive training.",
       },
     ],
   };
@@ -172,7 +175,10 @@ export default function Services() {
           <div className="breadcrump">
             HOME <span></span> SERVICES
           </div>
-          <h1>CREATE A RELIABLE, TRUSTED, AND SUSTAINABLE ECOSYSTEM FOR YOUR ENTERPRISE WITH BLOCKCHAIN ADVISORY AND OFFERINGS</h1>
+          <h1>
+            CREATE A RELIABLE, TRUSTED, AND SUSTAINABLE ECOSYSTEM FOR YOUR
+            ENTERPRISE WITH BLOCKCHAIN ADVISORY AND OFFERINGS
+          </h1>
           <Button name="Get Started" />
         </div>
       </div>

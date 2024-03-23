@@ -4,10 +4,10 @@ import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Footer from "@/app/ui/global/footer";
 import Navbar from "@/app/ui/global/nav-bar";
 import Insignts from "@/app/ui/home-page/insights";
-import Glimpse from "@/app/ui/services/glimpse";
-import ServicesContent from "@/app/ui/services/services";
-import StrategicPath from "@/app/ui/services/strategic-path";
-import SuccessPath from "@/app/ui/services/success-path";
+import Glimpse from "@/app/ui/offerings/glimpse";
+import ServicesContent from "@/app/ui/offerings/services";
+import StrategicPath from "@/app/ui/offerings/strategic-path";
+import SuccessPath from "@/app/ui/offerings/success-path";
 import cloud from "@/public/cloud-service.svg";
 import salesforce from "@/public/salesforce.svg";
 import azure from "@/public/azure.svg";
@@ -101,7 +101,8 @@ export default function Services() {
       {
         index: 2,
         title: "Design",
-        content: "Architect a cloud infrastructure tailored to business needs, emphasizing security.",
+        content:
+          "Architect a cloud infrastructure tailored to business needs, emphasizing security.",
       },
       {
         index: 3,
@@ -118,22 +119,26 @@ export default function Services() {
       {
         index: 5,
         title: "Optimization",
-        content: "Fine-tune performance and cost-efficiency of cloud resources.",
+        content:
+          "Fine-tune performance and cost-efficiency of cloud resources.",
       },
       {
         index: 6,
         title: "Security Enhancement",
-        content: "Implement advanced security protocols and compliance measures.",
+        content:
+          "Implement advanced security protocols and compliance measures.",
       },
       {
         index: 7,
         title: "Monitoring & Management",
-        content: "Continuously monitor for threats and optimize resource utilization.",
+        content:
+          "Continuously monitor for threats and optimize resource utilization.",
       },
       {
         index: 8,
         title: "Evolution",
-        content: "Adapt and upgrade infrastructure to meet emerging tech and security trends.",
+        content:
+          "Adapt and upgrade infrastructure to meet emerging tech and security trends.",
       },
     ],
   };
@@ -211,7 +216,10 @@ export default function Services() {
           <div className="breadcrump">
             HOME <span></span> SERVICES
           </div>
-          <h1>MODERNIZE YOUR DATA ESTATE TO A CLOUD-READY, FUTURE-FIT, SCALABLE ECOSYSTEM</h1>
+          <h1>
+            MODERNIZE YOUR DATA ESTATE TO A CLOUD-READY, FUTURE-FIT, SCALABLE
+            ECOSYSTEM
+          </h1>
           <Button name="Get Started" />
         </div>
       </div>

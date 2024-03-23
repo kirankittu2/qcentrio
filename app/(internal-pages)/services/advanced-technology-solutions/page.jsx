@@ -4,10 +4,10 @@ import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Footer from "@/app/ui/global/footer";
 import Navbar from "@/app/ui/global/nav-bar";
 import Insignts from "@/app/ui/home-page/insights";
-import Glimpse from "@/app/ui/services/glimpse";
-import ServicesContent from "@/app/ui/services/services";
-import StrategicPath from "@/app/ui/services/strategic-path";
-import SuccessPath from "@/app/ui/services/success-path";
+import Glimpse from "@/app/ui/offerings/glimpse";
+import ServicesContent from "@/app/ui/offerings/services";
+import StrategicPath from "@/app/ui/offerings/strategic-path";
+import SuccessPath from "@/app/ui/offerings/success-path";
 import cloud from "@/public/cloud-service.svg";
 import salesforce from "@/public/salesforce.svg";
 import azure from "@/public/azure.svg";
@@ -79,39 +79,46 @@ export default function Services() {
 
   const strategicPathContent = {
     upperheading: "QCENTRIO’S",
-    heading: "Strategic Digital Roadmap to Providing Advisory and Strategic Services",
+    heading:
+      "Strategic Digital Roadmap to Providing Advisory and Strategic Services",
     accordation1: [
       {
         index: 1,
         title: "Transformation Strategies",
-        content: "Creating bespoke transformation strategies aligning with your core business goals.",
+        content:
+          "Creating bespoke transformation strategies aligning with your core business goals.",
       },
       {
         index: 2,
         title: "Domain Leadership",
-        content: "Customizing digital services and solutions, enabling you to lead in your domain.",
+        content:
+          "Customizing digital services and solutions, enabling you to lead in your domain.",
       },
       {
         index: 3,
         title: "Success Stories",
-        content: "Highlighting success stories where our digital strategies have significantly improved business operations.",
+        content:
+          "Highlighting success stories where our digital strategies have significantly improved business operations.",
       },
     ],
     accordation2: [
       {
         index: 4,
         title: "Streamlined Operations",
-        content: "Implementing custom solutions to streamline your business processes and operations.",
+        content:
+          "Implementing custom solutions to streamline your business processes and operations.",
       },
       {
         index: 5,
         title: "Risk Mitigation",
-        content: "Introducing strategic measures to minimize digital adoption risks, ensuring a smooth transition.",
+        content:
+          "Introducing strategic measures to minimize digital adoption risks, ensuring a smooth transition.",
       },
       {
         index: 6,
         title: "Strategic Timelines",
-        content: "Setting strategic timelines for agile, phased rollouts, prioritizing quick wins and scalable, long-term growth.",
+        content:
+          "Setting strategic timelines for agile, phased rollouts, prioritizing quick wins and scalable, long-term growth.",
       },
     ],
   };
@@ -187,9 +194,13 @@ export default function Services() {
         <div className="bg-decor"></div>
         <div className="services-hero-content">
           <div className="breadcrump">
-            HOME <span></span> SERVICES <span></span> ADVANCED TECHNOLOGY SOLUTIONS
+            HOME <span></span> SERVICES <span></span> ADVANCED TECHNOLOGY
+            SOLUTIONS
           </div>
-          <h1>DRIVE ENTERPRISE-WIDE EFFICIENCY, INNOVATION, AND GROWTH WITH ADVANCED TECHNOLOGY SOLUTIONS</h1>
+          <h1>
+            DRIVE ENTERPRISE-WIDE EFFICIENCY, INNOVATION, AND GROWTH WITH
+            ADVANCED TECHNOLOGY SOLUTIONS
+          </h1>
           <Button name="Get Started" />
         </div>
       </div>
