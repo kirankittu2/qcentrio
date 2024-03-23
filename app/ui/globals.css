@@ -176,12 +176,24 @@ textarea {
   letter-spacing: -1px;
 }
 
+.link-with-down-arrow{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* .nav-arrow-img{
+  rotate: 299deg;
+} */
+
+
 /* Navbar styles  */
 .main-nav {
   display: flex;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  position: relative;
 }
 
 .main-nav li:first-child {
@@ -238,13 +250,40 @@ header {
   transform: translateY(-50%);
 }
 
+.nav-options{
+  padding: 20px;
+  background-color: white;
+  position: absolute;
+  top: 104%;
+  
+  z-index: 1000;
+  width: fit-content;
+  border-radius: 6px;
+}
+
+.nav-option-link{
+  white-space: nowrap;
+  padding: 14px 20px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.nav-option-link:hover{
+  background-color: var(--primary-color);
+}
+
+.nav-options.large{
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /* Hero section styles */
 .hero {
   padding-left: clamp(50px, 7.81vw, 140px);
   padding-bottom: clamp(50px, 7.81vw, 140px);
   background-color: var(--primary-color);
   position: relative;
-  overflow: hidden;
+  overflow-x: clip;
 }
 
 .blog-hero {
