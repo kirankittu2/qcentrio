@@ -86,7 +86,7 @@ export default function Journey() {
                       </div>
                     </div>
                   </div>
-                  <Link href="/case-study/sample-1">
+                  <Link href="/case-study/enhancing-patient-care-with-bi-and-sql-analytics">
                     <Button name="Read More" />
                   </Link>
                 </div>
@@ -131,7 +131,9 @@ export default function Journey() {
                       </div>
                     </div>
                   </div>
-                  <Button name="Read More" />
+                  <Link href="/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration">
+                    <Button name="Read More" />
+                  </Link>
                 </div>
               </div>
             </div>
