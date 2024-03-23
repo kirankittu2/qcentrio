@@ -8,37 +8,55 @@ export default function Footer() {
       <div className="footer-column-container">
         <div className="footer-column">
           <h2 className="footer-heading">Resources</h2>
-          <p className="footer-item">Blog</p>
-          <p className="footer-item">How to Videos</p>
           <p className="footer-item">Case Studies</p>
-          <p className="footer-item">Webinars & Podcast</p>
+          <p className="footer-item">Insights</p>
+          <p className="footer-item">Thought Leadership</p>
           <p className="footer-item">News</p>
         </div>
         <div className="footer-column">
           <h2 className="footer-heading">Company</h2>
           <p className="footer-item">About Us</p>
-          <p className="footer-item">Our Story</p>
+          <p className="footer-item">Careers</p>
           <p className="footer-item">Partners</p>
-          <p className="footer-item">Success Stories</p>
-          <p className="footer-item">UniQ Voices</p>
         </div>
         <div className="footer-column">
           <h2 className="footer-heading">Transformations</h2>
           <p className="footer-item">
-            Technology & Digital Digital Transformation
+            <a href="/services/business-value-enhancement-services">
+              Business Value Enhancement
+            </a>
           </p>
-          <p className="footer-item">Cutting Edge Technology Solutions</p>
-          <p className="footer-item">Enhancing Business Efficiencies</p>
-          <p className="footer-item">Agile Innovation</p>
-          <p className="footer-item">Harnessing Intelligence</p>
+          <p className="footer-item">
+            <a href="/services/advisory-and-strategic-services">
+              Advisory and Strategic Services
+            </a>
+          </p>
+          <p className="footer-item">
+            <a href="/services/business-optimization-and-analytics-services">
+              Business Optimization and Analytics
+            </a>
+          </p>
+          <p className="footer-item">
+            <a href="/services/advanced-technology-solutions">
+              Advanced Technology Solutions
+            </a>
+          </p>
+          <p className="footer-item">
+            <a href="/services/cloud-infra-and-security-services">
+              Cloud Infrastructure & Security
+            </a>
+          </p>
+          <p className="footer-item">
+            <a href="/services/blockchain-advisory-and-offerings">
+              Blockchain Services & Solutions
+            </a>
+          </p>
         </div>
         <div className="footer-column">
           <h2 className="footer-heading">Legal</h2>
-          <p className="footer-item">Terms & Use</p>
-          <p className="footer-item">Privacy Notice</p>
-          <p className="footer-item">Accessibility</p>
-          <p className="footer-item">Cookie Notice</p>
-          <p className="footer-item">Manage Cookies</p>
+          <p className="footer-item">Terms & Conditions</p>
+          <p className="footer-item">Privacy Policy</p>
+          <p className="footer-item">Cookie Policy</p>
         </div>
         <div className="footer-form-column">
           <h2 className="footer-form-heading">
@@ -49,7 +67,12 @@ export default function Footer() {
             facing global businesses.
           </p>
           <div className="flex items-center">
-            <input type="checkbox" className="footer-checkbox" />
+            <input
+              type="checkbox"
+              id="privacyCheckbox"
+              className="footerCheckbox"
+            />
+            <label htmlFor="privacyCheckbox" className="customCheckbox"></label>{" "}
             <span className="privacy-checkbox-text">
               *I have read the Privacy Policy and agree to its terms.
             </span>
