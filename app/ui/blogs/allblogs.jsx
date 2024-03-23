@@ -243,8 +243,8 @@ export default function AllBlogs() {
             </div>
           </div>
         </div>
-        <Pagination />
       </div>
+      <Pagination />
     </>
   );
 }
