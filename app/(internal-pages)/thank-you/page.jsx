@@ -33,7 +33,7 @@ function ThankYouPageContent() {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [count]);
+  }, [count, router]);
 
   return (
     <div className="thank-you-content-holder">

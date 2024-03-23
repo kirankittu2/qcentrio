@@ -1370,6 +1370,7 @@ header {
   height: 100vh;
   padding-bottom: 0px;
   background: transparent linear-gradient(123deg, #089768 0%, #0A3815 100%) 0% 0% no-repeat padding-box;
+  overflow: hidden;
 }
 
 .thank-you-content-holder{
