@@ -1325,3 +1325,60 @@ header {
   border: 2px solid var(--primary-color);
   color: var(--primary-color);
 }
+
+/* thank you page styles */
+.thank-you-page{
+  height: 100vh;
+  padding-bottom: 0px;
+  background: transparent linear-gradient(123deg, #089768 0%, #0A3815 100%) 0% 0% no-repeat padding-box;
+}
+
+.thank-you-content-holder{
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+}
+
+.thank-you-content-holder p{
+  text-align: center;
+}
+
+.thank-you-content-holder a{
+  color: white;
+}
+
+
+.thank-you-content-holder .section-heading{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.thank-you-content-holder .text-highlight{
+  font-family: "Quadran-Bold";
+  margin-bottom: 40px;
+}
+
+.thank-you-content-container{
+  margin-right: clamp(50px, 7.81vw, 140px);
+  height: 100%;
+  color: white;
+}
+
+.thank-you-note{
+  background-color: white;
+  color: #404040;
+  padding: 15px 50px;
+  border-radius: 6px;
+  margin-bottom: 50px;
+}
+
+.thank-you-note strong{
+  font-family: "Quadran-Regular";
+  color: var(--primary-color);
+}
