@@ -1,9 +1,9 @@
-import AllBlogs from "../ui/blogs/allblogs";
-import BlogHero from "../ui/blogs/blog-hero";
-import Contact from "../ui/global/contact";
-import CopyrightBar from "../ui/global/copyrightbar";
-import Footer from "../ui/global/footer";
-import Navbar from "../ui/global/nav-bar";
+import AllBlogs from "@/app/ui/blogs/allblogs";
+import BlogHero from "@/app/ui/blogs/blog-hero";
+import Contact from "@/app/ui/global/contact";
+import CopyrightBar from "@/app/ui/global/copyrightbar";
+import Footer from "@/app/ui/global/footer";
+import Navbar from "@/app/ui/global/nav-bar";
 
 export default function Blogs() {
   return (

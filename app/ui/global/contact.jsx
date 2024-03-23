@@ -11,11 +11,26 @@ export default function Contact() {
       </p>
       <form action={sendMail}>
         <div className="contact-column">
-          <input name="first-name" type="text" placeholder="First Name" />
-          <input name="last-name" type="text" placeholder="Last Name" />
+          <input
+            name="first-name"
+            type="text"
+            placeholder="First Name"
+            required
+          />
+          <input
+            name="last-name"
+            type="text"
+            placeholder="Last Name"
+            required
+          />
         </div>
         <div className="contact-column">
-          <input name="email" type="email" placeholder="Email Address" />
+          <input
+            name="email"
+            type="email"
+            placeholder="Email Address"
+            required
+          />
           <input name="contact" type="text" placeholder="Contact Number" />
         </div>
         <textarea
