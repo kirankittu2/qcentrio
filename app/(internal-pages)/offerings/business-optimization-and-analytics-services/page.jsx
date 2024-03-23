@@ -181,12 +181,13 @@ export default function Services() {
           backgroundImage:
             'url("../../business-optimization-and-analytics-services.png")',
         }}
-        className="services-hero digital-data-service-page-bg">
+        className="services-hero digital-data-service-page-bg"
+      >
         <Navbar />
         <div className="bg-decor"></div>
         <div className="services-hero-content">
           <div className="breadcrump">
-            HOME <span></span> SERVICES
+            OFFERINGS <span></span> BUSINESS OPTIMIZATION AND ANALYTICS SERVICES
           </div>
           <h1>
             ACHIEVE OPERATIONAL EXCELLENCE AND GROWTH WITH BUSINESS OPTIMIZATION

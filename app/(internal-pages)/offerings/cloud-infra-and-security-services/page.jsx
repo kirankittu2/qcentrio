@@ -218,12 +218,13 @@ export default function Services() {
         style={{
           backgroundImage: 'url("../../cloud-infra-and-security-services.png")',
         }}
-        className="services-hero digital-data-service-page-bg">
+        className="services-hero digital-data-service-page-bg"
+      >
         <Navbar />
         <div className="bg-decor"></div>
         <div className="services-hero-content">
           <div className="breadcrump">
-            HOME <span></span> SERVICES
+            OFFERINGS <span></span> CLOUD INFRA AND SECURITY SERVICES
           </div>
           <h1>
             MODERNIZE YOUR DATA ESTATE TO A CLOUD-READY, FUTURE-FIT, SCALABLE

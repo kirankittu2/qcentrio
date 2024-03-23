@@ -196,13 +196,13 @@ export default function Services() {
         style={{
           backgroundImage: 'url("../../advanced-technology-solutions.png")',
         }}
-        className="services-hero digital-data-service-page-bg">
+        className="services-hero digital-data-service-page-bg"
+      >
         <Navbar />
         <div className="bg-decor"></div>
         <div className="services-hero-content">
           <div className="breadcrump">
-            HOME <span></span> SERVICES <span></span> ADVANCED TECHNOLOGY
-            SOLUTIONS
+            OFFERINGS <span></span> ADVANCED TECHNOLOGY SOLUTIONS
           </div>
           <h1>
             DRIVE ENTERPRISE-WIDE EFFICIENCY, INNOVATION, AND GROWTH WITH

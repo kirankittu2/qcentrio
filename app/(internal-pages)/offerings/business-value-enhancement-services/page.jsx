@@ -186,12 +186,13 @@ export default function Services() {
           backgroundImage:
             'url("../../business-value-enhancement-services.png")',
         }}
-        className="services-hero digital-data-service-page-bg">
+        className="services-hero digital-data-service-page-bg"
+      >
         <Navbar />
         <div className="bg-decor"></div>
         <div className="services-hero-content">
           <div className="breadcrump">
-            HOME <span></span> SERVICES
+            OFFERINGS <span></span> BUSINESS VALUE ENHANCEMENT SERVICES
           </div>
           <h1>
             FUEL GROWTH AND SCALE TIME TO INSIGHTS WITH BUSINESS VALUE
