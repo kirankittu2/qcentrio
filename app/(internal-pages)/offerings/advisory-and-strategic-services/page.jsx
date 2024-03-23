@@ -188,12 +188,13 @@ export default function Services() {
         style={{
           backgroundImage: 'url("../../advisory-and-strategic-services.png")',
         }}
-        className="services-hero digital-data-service-page-bg">
+        className="services-hero digital-data-service-page-bg"
+      >
         <Navbar />
         <div className="bg-decor"></div>
         <div className="services-hero-content">
           <div className="breadcrump">
-            HOME <span></span> SERVICES
+            OFFERINGS <span></span> ADVISORY AND STRATEGIC SERVICES
           </div>
           <h1>
             EMPOWER YOUR DIGITAL STRATEGY WITH CATEGORY-LEADING ADVISORY AND
