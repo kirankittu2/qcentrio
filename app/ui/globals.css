@@ -266,10 +266,12 @@ header {
   padding: 14px 20px;
   border-radius: 6px;
   text-align: center;
+  color: #9B9B9B;
 }
 
 .nav-option-link:hover{
   background-color: var(--primary-color);
+  color: white;
 }
 
 .nav-options.large{
