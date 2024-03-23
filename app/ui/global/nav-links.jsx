@@ -182,7 +182,7 @@ export default function NavLinks() {
             <Image
               data-option="link"
               className={`nav-arrow-img ${
-                servicesHovered ? "rotate-0" : "rotate-[299deg]"
+                servicesHovered ? "rotate-[299deg]" : "rotate-0"
               }`}
               src={tri}
               alt=""
@@ -343,7 +343,7 @@ export default function NavLinks() {
             <Image
               data-option="link"
               className={`nav-arrow-img ${
-                resourcesHovered ? "rotate-0" : "rotate-[299deg]"
+                resourcesHovered ? "rotate-[299deg]" : "rotate-0"
               }`}
               src={tri}
               alt=""
