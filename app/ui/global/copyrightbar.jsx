@@ -5,7 +5,9 @@ export default function CopyrightBar() {
   return (
     <div className="copyright-section">
       <div>Copyrights © 2024 Qcentrio, All Rights Reserved.</div>
-      <Image src={logo} alt="" />
+      <div>
+        <Image className="copy-right-logo" src={logo} alt="" />
+      </div>
       <div className="handcrafted">Handcrafted with ❤ by X-Verity</div>
     </div>
   );

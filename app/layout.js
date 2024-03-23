@@ -5,7 +5,7 @@ import "@/app/ui/contact-us.css";
 import "@/app/ui/about-us.css";
 
 export const metadata = {
-  title: "Qcentrio",
+  title: "Qcentrio - Home",
   description: "Shapped in X-Verity",
 };
 

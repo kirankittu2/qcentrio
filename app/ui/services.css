@@ -6,13 +6,13 @@
     position: relative;
 }
 
-.digital-data-service-page-bg{
+/* .digital-data-service-page-bg{
     background-image: url("../../public/service-banner.png");
-}
+} */
 
-.analytics-data-service-page-bg{
+/* .analytics-data-service-page-bg{
     background-image: url("../../public/analytics-service-page-banner.png");
-}
+} */
 
 .services-hero h1{
     font-family: "Quadran-Black";
@@ -90,7 +90,7 @@
 .services-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
     gap: 30px;
 }
 

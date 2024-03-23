@@ -21,6 +21,11 @@ import strategy from "@/public/strategy.svg";
 import support from "@/public/support.svg";
 import secure from "@/public/secure.svg";
 
+export const metadata = {
+  title: "Cloud Infra and Security Services - Services",
+  description: "Shapped in X-Verity",
+};
+
 export default function Services() {
   const glimpseContent = {
     heading1: "Transform Into a Data Powerhouse with Qcentrio",
@@ -209,7 +214,11 @@ export default function Services() {
 
   return (
     <>
-      <div className="services-hero digital-data-service-page-bg">
+      <div
+        style={{
+          backgroundImage: 'url("../../cloud-infra-and-security-services.png")',
+        }}
+        className="services-hero digital-data-service-page-bg">
         <Navbar />
         <div className="bg-decor"></div>
         <div className="services-hero-content">

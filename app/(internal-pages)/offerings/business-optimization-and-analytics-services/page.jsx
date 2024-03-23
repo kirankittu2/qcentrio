@@ -11,15 +11,15 @@ import SuccessPath from "@/app/ui/offerings/success-path";
 import cloud from "@/public/cloud-service.svg";
 import salesforce from "@/public/salesforce.svg";
 import azure from "@/public/azure.svg";
-import aws from "@/public/aws.svg";
-import gcp from "@/public/gcp.svg";
-import cybersecurity from "@/public/cyber-security.svg";
-import itsupport from "@/public/it-support.svg";
-import offshore from "@/public/offshore-dev.svg";
 import settings from "@/public/settings.svg";
 import strategy from "@/public/strategy.svg";
 import support from "@/public/support.svg";
 import secure from "@/public/secure.svg";
+
+export const metadata = {
+  title: "Business Optimization and Analytics Services - Services",
+  description: "Shapped in X-Verity",
+};
 
 export default function Services() {
   const glimpseContent = {
@@ -176,7 +176,12 @@ export default function Services() {
 
   return (
     <>
-      <div className="services-hero digital-data-service-page-bg">
+      <div
+        style={{
+          backgroundImage:
+            'url("../../business-optimization-and-analytics-services.png")',
+        }}
+        className="services-hero digital-data-service-page-bg">
         <Navbar />
         <div className="bg-decor"></div>
         <div className="services-hero-content">

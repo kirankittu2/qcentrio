@@ -1212,6 +1212,10 @@ header {
   font-family: "Quadran-Light";
 }
 
+.copyright-section > div{
+  flex: 1;
+}
+
 /* single blog-page styles */
 .blog {
   position: relative;

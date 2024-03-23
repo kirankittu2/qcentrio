@@ -16,6 +16,11 @@ import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Path5 from "@/app/ui/global/path-5";
 
+export const metadata = {
+  title: "Qcentriio Services",
+  description: "Shapped in X-Verity",
+};
+
 export default function ServicesListing() {
   return (
     <div className="service-listing">
