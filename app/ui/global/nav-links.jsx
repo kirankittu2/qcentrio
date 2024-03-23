@@ -9,6 +9,7 @@ import tri from "@/public/up-tri.svg";
 import { useState } from "react";
 import arrow from "@/public/blog-arrow.svg";
 import triWhite from "@/public/up-tri-white.svg";
+import whatNew from "@/public/bi-andsql-analytics.png";
 
 export default function NavLinks() {
   const [resourcesHovered, setResHovered] = useState(false);
@@ -310,6 +311,7 @@ export default function NavLinks() {
             <div className="mega-menu-column">
               <h2 className="mega-menu-heading ">What's New?</h2>
               <div className="what-new-col-container">
+                <Image className="mb-[20px]" src={whatNew} alt="" />
                 <div className="what-new-title">
                   Enhancing Patient Care with BI and SQL Analytics at Qcentrio
                 </div>

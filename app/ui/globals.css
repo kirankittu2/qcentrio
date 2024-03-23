@@ -671,6 +671,7 @@ header {
 .blog-card-content-container {
   padding: 30px;
   border: 1px solid #f3f1f1;
+  border-top: none;
   min-height: 90px;
   max-height: fit-content;
   /* min-height: 150px; */
