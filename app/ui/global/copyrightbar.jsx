@@ -8,7 +8,9 @@ export default function CopyrightBar() {
       <div>
         <Image className="copy-right-logo" src={logo} alt="" />
       </div>
-      <div className="handcrafted">Handcrafted with ❤ by X-Verity</div>
+      <div className="handcrafted">
+        Handcrafted with ❤ by <a href="https://www.x-verity.com">X-Verity</a>
+      </div>
     </div>
   );
 }
