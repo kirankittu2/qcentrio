@@ -38,8 +38,10 @@ export default function Insignts({ title, subheading }) {
 
   return (
     <div className="insights-section section">
-      <h2 className="section-heading">{title}</h2>
-      <p className="section-content insights-sub-heading">{subheading}</p>
+      <div className="insights-heading-container">
+        <h2 className="section-heading">{title}</h2>
+        <p className="section-content insights-sub-heading">{subheading}</p>
+      </div>
       <div className="blogs-container">
         <div ref={wrapper} className="insights-wrapper">
           <div ref={card} className="card">
@@ -104,9 +106,9 @@ export default function Insignts({ title, subheading }) {
               </div>
               <div className="blog-card-content-container">
                 <p className="section-content">
-                  Find out how our business optimization and analytics help
-                  clients turn their data into useful information, insight, and
-                  knowledge to make better decisions.
+                  How our business optimization and analytics help clients turn
+                  their data into useful information, insight, and knowledge to
+                  make better decisions.
                 </p>
                 <div className="blogs-btn">
                   Learn More

@@ -19,8 +19,8 @@ export default function Carousel() {
   // const [allBoxes, setAllBoxes] = useState([]);
   // const [wid, setWidth] = useState(0);
   // const [hei, setHeight] = useState(0);
-  // const intervalRef = useRef(null);
-  // const [hovered, setHovered] = useState(false);
+  const intervalRef = useRef(null);
+  const [hovered, setHovered] = useState(false);
 
   useEffect(() => {
     const items = wrapper.current.querySelectorAll(".hero-slide");
@@ -50,15 +50,7 @@ export default function Carousel() {
     //     box.style.position = "absolute";
     //     box.style.width = width + "px";
     //     box.style.height = height + "px";
-    //     if (i == 0) {
-    //       box.style.top = height * i + 1 + "px";
-    //     } else if (i == 1) {
-    //       box.style.top = height * i + 1 + "px";
-    //     } else if (i == 3) {
-    //       box.style.top = height * i + 0.5 + "px";
-    //     } else {
-    //       box.style.top = height * i + "px";
-    //     }
+    //     box.style.top = height * i + "px";
     //     box.style.left = width * j + "px";
     //     row.push(box);
     //     layer.current.appendChild(box);
@@ -68,21 +60,21 @@ export default function Carousel() {
     // setAllBoxes(() => tempAllBoxes);
   }, []);
 
-  // useEffect(() => {
-  //   const changeIndex = () => {
-  //     if (index < wrapper.current.querySelectorAll(".hero-slide").length - 1) {
-  //       setIndex((num) => num + 1);
-  //     } else {
-  //       setIndex(0);
-  //     }
-  //   };
+  useEffect(() => {
+    const changeIndex = () => {
+      if (index < wrapper.current.querySelectorAll(".hero-slide").length - 1) {
+        setIndex((num) => num + 1);
+      } else {
+        setIndex(0);
+      }
+    };
 
-  //   if (hovered != true) {
-  //     intervalRef.current = setInterval(changeIndex, 5000);
-  //   }
+    if (hovered != true) {
+      intervalRef.current = setInterval(changeIndex, 5000);
+    }
 
-  //   return () => clearInterval(intervalRef.current);
-  // }, [index, hovered]);
+    return () => clearInterval(intervalRef.current);
+  }, [index, hovered]);
 
   useEffect(() => {
     // if (allBoxes.length != 0) {
@@ -185,9 +177,8 @@ export default function Carousel() {
         <div
           data-index="0"
           className="hero-slide-1 hero-slide active"
-          // onMouseOver={() => setHovered((hover) => (hover = true))}
-          // onMouseLeave={() => setHovered((hover) => (hover = false))}
-        >
+          onMouseOver={() => setHovered((hover) => (hover = true))}
+          onMouseLeave={() => setHovered((hover) => (hover = false))}>
           <div>
             <Img className="slide-image" src={herobanner1} alt="" />
             <div className="hero-content ">
@@ -209,9 +200,8 @@ export default function Carousel() {
         <div
           data-index="1"
           className="hero-slide-2 hero-slide"
-          // onMouseOver={() => setHovered((hover) => (hover = true))}
-          // onMouseLeave={() => setHovered((hover) => (hover = false))}
-        >
+          onMouseOver={() => setHovered((hover) => (hover = true))}
+          onMouseLeave={() => setHovered((hover) => (hover = false))}>
           <div>
             <Img className="slide-image" src={herobanner2} alt="" />
             <div className="hero-content">
@@ -233,9 +223,8 @@ export default function Carousel() {
         <div
           data-index="2"
           className="hero-slide-3 hero-slide"
-          // onMouseOver={() => setHovered((hover) => (hover = true))}
-          // onMouseLeave={() => setHovered((hover) => (hover = false))}
-        >
+          onMouseOver={() => setHovered((hover) => (hover = true))}
+          onMouseLeave={() => setHovered((hover) => (hover = false))}>
           <div>
             <Img className="slide-image" src={herobanner3} alt="" />
             <div className="hero-content">
