@@ -1,7 +1,6 @@
 import Image from "next/image";
-import Navbar from "../ui/global/nav-bar";
 import arrow from "@/public/blog-arrow.svg";
-import ServiceCard from "../ui/global/service-card";
+
 import service1 from "@/public/service-1.png";
 import service2 from "@/public/service-2.png";
 import service3 from "@/public/service-3.png";
@@ -9,10 +8,13 @@ import service4 from "@/public/service-4.png";
 import service5 from "@/public/service-5.png";
 import service6 from "@/public/service-6.png";
 import globe from "@/public/globe.svg";
-import Footer from "../ui/global/footer";
-import CopyrightBar from "../ui/global/copyrightbar";
-import Button from "../ui/global/button";
-import Path5 from "../ui/global/path-5";
+
+import Button from "@/app/ui/global/button";
+import Navbar from "@/app/ui/global/nav-bar";
+import ServiceCard from "@/app/ui/global/service-card";
+import Footer from "@/app/ui/global/footer";
+import CopyrightBar from "@/app/ui/global/copyrightbar";
+import Path5 from "@/app/ui/global/path-5";
 
 export default function ServicesListing() {
   return (

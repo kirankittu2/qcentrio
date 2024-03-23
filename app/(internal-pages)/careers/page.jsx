@@ -1,4 +1,4 @@
-import Navbar from "../ui/global/nav-bar";
+import Navbar from "../../ui/global/nav-bar";
 
 export default function Careers() {
   return (
