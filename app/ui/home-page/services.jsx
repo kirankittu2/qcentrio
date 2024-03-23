@@ -40,7 +40,7 @@ export default function Services() {
         <ServiceCard
           image={service5}
           title="Cloud Infrastructure & Security Services"
-          content="Empowering your digital shift with our cloud infrastructure and security services, resulting in tangible, measurable business impacts and ROI growth."
+          content="Empowering your digital transformation with our robust cloud infrastructure and comprehensive security services, resulting in tangible, measurable business impacts and significant ROI growth."
         />
         <ServiceCard
           image={service6}
