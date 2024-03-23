@@ -250,7 +250,7 @@ header {
   transform: translateY(-50%);
 }
 
-.nav-options{
+.nav-options {
   background-color: white;
   position: absolute;
   top: 104%;
@@ -272,28 +272,27 @@ header {
   color: white;
 }
 
-.nav-options.mega-menu{
+.nav-options.mega-menu {
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
   padding: 20px 0px;
 }
 
-.nav-options.mega-menu{
+.nav-options.mega-menu {
   display: flex;
- 
 }
 
-.mega-menu-column{
+.mega-menu-column {
   padding: 0px 20px;
   flex: 1;
 }
 
-.mega-menu-middle-column{
+.mega-menu-middle-column {
   flex: 2;
 }
 
-.mega-menu-main-nav-link{
+.mega-menu-main-nav-link {
   padding: 14px 20px;
   border-radius: 6px;
   cursor: pointer;
@@ -301,59 +300,58 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
-.mega-menu-main-nav-link img{
+.mega-menu-main-nav-link img {
   margin-left: auto;
   rotate: 152deg;
 }
 
-.mega-menu-main-nav-link:hover{
+.mega-menu-main-nav-link:hover {
   background-color: var(--primary-color);
   color: white;
 }
 
-.mega-menu-heading{
+.mega-menu-heading {
   font-size: 16px;
   font-family: "Quadran-Medium";
   color: var(--primary-color);
   margin-bottom: 20px;
 }
 
-.mega-menu-middle-columns-container{
+.mega-menu-middle-columns-container {
   display: flex;
   gap: 30px;
 }
 
-.mega-menu-middle-columns-container > div{
+.mega-menu-middle-columns-container > div {
   flex: 1;
 }
 
-.mega-menu-sub-nav-link{
+.mega-menu-sub-nav-link {
   color: #404040;
   font-family: "Quadran-Regular";
   font-size: 16px;
   padding: 14px 0px;
 }
 
-.what-new-col-container{
+.what-new-col-container {
   width: 100%;
   height: 88.6%;
-  border: 1px solid #7070702E;
+  border: 1px solid #7070702e;
   padding: 20px;
   display: flex;
   flex-direction: column;
   border-radius: 6px;
 }
 
-.what-new-title{
+.what-new-title {
   font-size: 16px;
   color: #404040;
   font-family: "Quadran-Regular";
 }
 
-.what-new-btn{
+.what-new-btn {
   color: var(--primary-color);
   margin-top: auto;
   font-family: "Quadran-Medium";
@@ -1122,6 +1120,10 @@ header {
   display: flex;
   border-radius: 12px;
   margin: 15px 0px;
+}
+
+.handcrafted a:hover {
+  text-decoration: none;
 }
 
 .subscribe-container:focus {
