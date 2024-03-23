@@ -177,7 +177,7 @@ export default function NavLinks() {
         }}
         className="main-nav-link">
         <Link data-option="link" className="link-with-down-arrow" href="">
-          Services
+          Offerings
           <span>
             <Image
               data-option="link"
@@ -351,7 +351,7 @@ export default function NavLinks() {
           </span>
         </Link>
         {resourcesHovered && (
-          <div className="nav-options">
+          <div className="nav-options p-[20px]">
             <Link href="/case-study">
               <div className="nav-option-link">Case Studies</div>
             </Link>

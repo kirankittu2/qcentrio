@@ -1,6 +1,7 @@
 import arrow from "@/public/discover-arrow.svg";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 
 export default function Discover() {
   return (
@@ -17,7 +18,15 @@ export default function Discover() {
             </p>
           </Link>
         </div>
-        <div className="discover-block"></div>
+        <div className="discover-block">
+          <Script src="https://cdn.lordicon.com/lordicon.js"></Script>
+          <lord-icon
+            src="https://cdn.lordicon.com/tmnemeuf.json"
+            trigger="loop"
+            delay="2000"
+            colors="primary:#089768,secondary:#089768"
+            style={{ width: "150px;", height: "150px" }}></lord-icon>
+        </div>
       </div>
       <div className="discover-card">
         <div className="discover-content">
@@ -29,7 +38,15 @@ export default function Discover() {
             </span>
           </p>
         </div>
-        <div className="discover-block"></div>
+        <div className="discover-block">
+          <Script src="https://cdn.lordicon.com/lordicon.js"></Script>
+          <lord-icon
+            src="https://cdn.lordicon.com/pjkwunvs.json"
+            trigger="loop"
+            delay="2000"
+            colors="primary:#089768,secondary:#089768"
+            style={{ width: "150px", height: "150px" }}></lord-icon>
+        </div>
       </div>
     </div>
   );

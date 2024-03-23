@@ -22,32 +22,32 @@ export default function Footer() {
         <div className="footer-column">
           <h2 className="footer-heading">Transformations</h2>
           <p className="footer-item">
-            <a href="/services/business-value-enhancement-services">
+            <a href="/offerings/business-value-enhancement-services">
               Business Value Enhancement
             </a>
           </p>
           <p className="footer-item">
-            <a href="/services/advisory-and-strategic-services">
+            <a href="/offerings/advisory-and-strategic-services">
               Advisory and Strategic Services
             </a>
           </p>
           <p className="footer-item">
-            <a href="/services/business-optimization-and-analytics-services">
+            <a href="/offerings/business-optimization-and-analytics-services">
               Business Optimization and Analytics
             </a>
           </p>
           <p className="footer-item">
-            <a href="/services/advanced-technology-solutions">
+            <a href="/offerings/advanced-technology-solutions">
               Advanced Technology Solutions
             </a>
           </p>
           <p className="footer-item">
-            <a href="/services/cloud-infra-and-security-services">
+            <a href="/offerings/cloud-infra-and-security-services">
               Cloud Infrastructure & Security
             </a>
           </p>
           <p className="footer-item">
-            <a href="/services/blockchain-advisory-and-offerings">
+            <a href="/offerings/blockchain-advisory-and-offerings">
               Blockchain Services & Solutions
             </a>
           </p>

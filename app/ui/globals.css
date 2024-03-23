@@ -992,6 +992,9 @@ header {
   top: 0;
   left: 30px;
   border-radius: 0px 0px 0px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .discover-heading {
