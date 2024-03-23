@@ -19,7 +19,7 @@ export default function AllBlogs() {
         <div className="topics-head-and-search mb-[30px]">
           <h2 className="section-heading">Most Viewed Topic</h2>
           <div className="search-container">
-            <input className="search" placeholder="Search Blog"></input>
+            <input className="search" placeholder="Search"></input>
             <Image className="input-icon" src={search} alt="" />
           </div>
         </div>

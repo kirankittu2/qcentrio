@@ -6,7 +6,7 @@
 
 .contact-us-main-section .hero-heading{
     color: black;
-    margin-top: auto;
+    margin-top: 50px;
     margin-bottom: 0px;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .contact-us-main-section-form textarea{
-    border: 0.5px solid #0A996A99;
+    border: 2px solid #0a996a2e;
     border-radius: 12px;
     width: 100%;
     margin-bottom: 10px;

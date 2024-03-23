@@ -67,19 +67,16 @@ export default function Footer() {
             facing global businesses.
           </p>
           <div className="flex items-center">
-            <input
-              type="checkbox"
-              id="privacyCheckbox"
-              className="footerCheckbox"
-            />
-            <label htmlFor="privacyCheckbox" className="customCheckbox"></label>{" "}
+            <input type="checkbox" className="w-[25px] h-[25px] mr-[10px]" />
             <span className="privacy-checkbox-text">
               *I have read the Privacy Policy and agree to its terms.
             </span>
           </div>
-          <div className="subscribe-container">
+          <div className="lets-talk-container">
             <input type="text" placeholder="Email Address" />
-            <Button name="Lets Talk" />
+            <div className="input-btn">
+              <Button name="Subscribe" />
+            </div>
           </div>
         </div>
       </div>

@@ -340,7 +340,7 @@ export default function NavLinks() {
         }}
         className="main-nav-link">
         <Link data-option="link" className="link-with-down-arrow" href="">
-          Resources
+          Insights
           <span>
             <Image
               data-option="link"
@@ -359,7 +359,7 @@ export default function NavLinks() {
             </Link>
             <div className="nav-option-link">Thought Leadership</div>
             <Link href="blogs">
-              <div className="nav-option-link">Insights</div>
+              <div className="nav-option-link">Perspectives</div>
             </Link>
           </div>
         )}
