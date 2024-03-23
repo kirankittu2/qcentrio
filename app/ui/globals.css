@@ -1198,6 +1198,7 @@ header {
   color: #c4c4c4;
   font-family: "Quadran-Light";
   letter-spacing: 1px;
+  text-align: end;
 }
 
 /* copyright section styles */
