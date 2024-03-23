@@ -575,6 +575,8 @@ header {
   cursor: pointer;
 }
 
+
+
 /* blogs styles */
 .topics-section {
   border-bottom: 1px solid #f3f1f1;
@@ -1230,7 +1232,11 @@ header {
   text-align: center;
 }
 
-.insights-section > .insights-sub-heading {
+.insights-heading-container{
+  margin-right: clamp(50px, 7.81vw, 140px);
+}
+
+.insights-section > .insights-heading-container .insights-sub-heading {
   text-align: center;
   margin-bottom: 50px;
 }

@@ -4,6 +4,7 @@ import idea from "@/public/idea.svg";
 import group from "@/public/group.svg";
 import check from "@/public/check-mark.svg";
 import Path1 from "../global/path-1";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -64,7 +65,9 @@ export default function About() {
             <p className="showcase-content">Founded in 2015</p>
           </div>
         </div>
-        <Button name="About Us" />
+        <Link href="/about-us">
+          <Button name="About Us" />
+        </Link>
       </div>
       <Path1 />
     </div>

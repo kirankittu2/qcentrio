@@ -86,7 +86,7 @@ export default function Journey() {
                       </div>
                     </div>
                   </div>
-                  <Link href="/case-study">
+                  <Link href="/case-study/sample-1">
                     <Button name="Read More" />
                   </Link>
                 </div>
