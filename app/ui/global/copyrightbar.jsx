@@ -4,9 +4,9 @@ import logo from "@/public/logo.svg";
 export default function CopyrightBar() {
   return (
     <div className="copyright-section">
-      <div>Terms & Conditions - Piracy Policy</div>
-      <Image src={logo} alt="" />
       <div>Copyrights © 2024 Qcentrio, All Rights Reserved.</div>
+      <Image src={logo} alt="" />
+      <div className="handcrafted">Handcrafted with ❤ by X-Verity</div>
     </div>
   );
 }

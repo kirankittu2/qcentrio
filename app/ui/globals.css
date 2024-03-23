@@ -1187,6 +1187,14 @@ header {
   font-family: "Quadran-Medium";
 }
 
+.handcrafted {
+  font-size: 9px;
+  text-transform: uppercase;
+  color: #c4c4c4;
+  font-family: "Quadran-Light";
+  letter-spacing: 1px;
+}
+
 /* copyright section styles */
 .copyright-section {
   padding-right: clamp(50px, 7.81vw, 140px);
