@@ -15,24 +15,25 @@ import Pagination from "./pagination";
 export default function AllBlogs() {
   return (
     <>
-      <div className="blog-section topics-section">
+      <div className="topics-section balance-section">
         <div className="topics-head-and-search mb-[30px]">
-          <h2 className="section-heading">Most Viewed Topic</h2>
           <div className="search-container">
-            <input className="search" placeholder="Search"></input>
+            <input className="search" placeholder="Search Keywords"></input>
             <Image className="input-icon" src={search} alt="" />
           </div>
+          <div className="most-search-column">
+            Most Searched Keywords :
+            <span className="keywords">Case Studies</span>
+            <span className="keywords">Thought Leadership Papers,</span>
+            <span className="keywords">Cloud Migration</span>
+          </div>
         </div>
+        <h2 className="filter-by-heading">Filter by</h2>
         <div className="topics">
-          <div className="topic">Cloud Migration</div>
-          <div className="topic">Data Migration</div>
-          <div className="topic">Cloud Security</div>
-          <div className="topic">Generative AI</div>
-          <div className="topic">Data Analytics</div>
-          <div className="topic">Business Intelligence</div>
-          <div className="topic">ERP Solutions</div>
-          <div className="topic">Salesforce</div>
-          <div className="topic">Risk Advisory</div>
+          <div className="topic">Perspectives</div>
+          <div className="topic">Case Studies</div>
+          <div className="topic">ThoughtLeadership</div>
+          <div className="topic">News / Press Release</div>
         </div>
       </div>
       <div className="blog-articles-section blog-section">

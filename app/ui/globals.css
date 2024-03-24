@@ -25,6 +25,14 @@
   --section-heading-lh: 40px;
 }
 
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: "Quadran-Light";
   src: url("../../public/quadran/Quadran-Light.woff");
@@ -126,6 +134,14 @@ textarea {
   padding-left: clamp(50px, 14.58vw, 280px);
   padding-right: clamp(50px, 14.58vw, 140px);
   padding-top: 50px;
+}
+
+.topics-head-and-search .search-container{
+  width: 100%;
+}
+
+.topics-head-and-search .search-container input{
+  width: 100%;
 }
 
 .section-heading {
@@ -702,13 +718,35 @@ header {
 /* blogs styles */
 .topics-section {
   border-bottom: 1px solid #f3f1f1;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
-.topics-head-and-search {
+/* .topics-head-and-search {
   display: flex;
   align-items: center;
   justify-content: space-between;
+} */
+
+.most-search-column{
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+   font-family: "Quadran-Regular";
+}
+
+.keywords{
+  font-size: 15px;
+  color: black;
+  font-family: "Quadran-Light";
+  color: #404040;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+
+.keywords:hover{
+   font-family: "Quadran-Bold";
+   color: var(--primary-color);
+   text-decoration: underline;
 }
 
 .topics-head-and-search .section-heading {
@@ -718,21 +756,27 @@ header {
 .topics {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .topic {
   font-family: "Quadran-Bold";
   font-size: var(--general-text);
-  border-radius: 18px;
-  padding: 5px 10px;
+  padding: 14px 50px;
   color: black;
   cursor: pointer;
+  background-color: #F9F9F9;
 }
 
 .topic:hover {
   background-color: var(--primary-color);
   color: white;
+}
+
+.filter-by-heading{
+  font-size: 20px;
+  font-family: "Quadran-Bold";
+  margin-bottom: 20px;
 }
 
 .blog-card-heading {
@@ -1122,8 +1166,6 @@ header {
   width: 100%;
 }
 
-
-
 .privacy-checkbox-text {
   font-family: "Quadran-Light";
 }
@@ -1176,6 +1218,60 @@ header {
   letter-spacing: 1px;
   text-align: end;
 }
+
+
+.footer-checkbox {
+  display: block;
+}
+
+.footer-checkbox input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.footer-checkbox label {
+  position: relative;
+  cursor: pointer;
+}
+
+.footer-checkbox label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #0a996a2e;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.footer-checkbox input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  
+  transform: rotate(45deg);
+}
+
+.footer-checkbox input:checked + label:before {
+  background-color: #089768;
+}
+
+
 
 /* copyright section styles */
 .copyright-section {
