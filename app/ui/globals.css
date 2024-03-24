@@ -1581,6 +1581,12 @@ header {
   cursor: pointer;
 }
 
+.pagination-btn.active{
+  background-color: white;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
 .pagination-btn:hover {
   background-color: white;
   border: 2px solid var(--primary-color);

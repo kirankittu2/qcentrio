@@ -6,7 +6,7 @@ import Pagination from "./pagination";
 import Link from "next/link";
 import SearchBar from "../global/search";
 
-export default function AllBlogs({ data, type, paginationNum }) {
+export default function AllBlogs({ data, type, page, paginationNum }) {
   return (
     <>
       <div id="articles" className="topics-section balance-section">
@@ -46,7 +46,10 @@ export default function AllBlogs({ data, type, paginationNum }) {
         </div>
       </div>
       <div className="blog-articles-section blog-section">
-        <h2 className="section-heading">Latest Blog Articles</h2>
+        <h2 className="section-heading">
+          Latest {type == "perspectives" ? "Perspectives" : ""}
+          {type == "case-study" ? "Case Studies" : ""}
+        </h2>
         <div className="blogs-container">
           {data == null || data == undefined || data.length == 0
             ? "No Data Found"
@@ -79,7 +82,7 @@ export default function AllBlogs({ data, type, paginationNum }) {
               })}
         </div>
       </div>
-      <Pagination paginationNum={paginationNum} />
+      <Pagination paginationNum={paginationNum} page={page} />
     </>
   );
 }

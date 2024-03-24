@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 
-export default function Pagination({ paginationNum }) {
+export default function Pagination({ paginationNum, page }) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
@@ -21,7 +21,7 @@ export default function Pagination({ paginationNum }) {
   for (let i = 1; i <= paginationNum; i++) {
     paginationButtons.push(
       <Link key={i} href={generateLink(i)}>
-        <div className="pagination-btn">{i}</div>
+        <div className={`pagination-btn ${page == i ? "active" : ""}`}>{i}</div>
       </Link>
     );
   }

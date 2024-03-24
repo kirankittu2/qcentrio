@@ -23,6 +23,7 @@ export default async function Blogs({ searchParams }) {
       <AllBlogs
         data={data}
         type={type}
+        page={page}
         paginationNum={
           data == null || data == undefined || data.length == 0
             ? 1
