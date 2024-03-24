@@ -358,7 +358,7 @@ export default function NavLinks() {
               <div className="nav-option-link">Case Studies</div>
             </Link>
             <div className="nav-option-link">Thought Leadership</div>
-            <Link href="/perspectives">
+            <Link href="/perspectives?type=perspectives">
               <div className="nav-option-link">Perspectives</div>
             </Link>
           </div>

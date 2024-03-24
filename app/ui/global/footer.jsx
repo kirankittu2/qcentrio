@@ -68,13 +68,13 @@ export default function Footer() {
             facing global businesses.
           </p>
           <div className="flex items-center">
-            <div class="footer-checkbox">
+            <div className="footer-checkbox">
               <input type="checkbox" id="privacy-policy" />
-              <label className="privacy-checkbox-text" for="privacy-policy">
+              <label className="privacy-checkbox-text" htmlFor="privacy-policy">
                 *I have read the{" "}
                 <Link className="mr-[5px] ml-[5px]" href="">
                   Privacy Policy
-                </Link>{" "}
+                </Link>
                 and agree to its terms.
               </label>
             </div>
