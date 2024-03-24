@@ -20,6 +20,7 @@ import settings from "@/public/settings.svg";
 import strategy from "@/public/strategy.svg";
 import support from "@/public/support.svg";
 import secure from "@/public/secure.svg";
+import InsigntsNoCaro from "@/app/ui/global/insights-no-caro";
 
 export const metadata = {
   title: "Cloud Infra and Security Services - Services",
@@ -218,8 +219,7 @@ export default function Services() {
         style={{
           backgroundImage: 'url("../../cloud-infra-and-security-services.png")',
         }}
-        className="services-hero digital-data-service-page-bg"
-      >
+        className="services-hero digital-data-service-page-bg">
         <Navbar />
         <div className="bg-decor"></div>
         <div className="services-hero-content">
@@ -237,7 +237,7 @@ export default function Services() {
       <ServicesContent data={servicesContent} />
       <StrategicPath data={strategicPathContent} />
       <SuccessPath data={successpathContent} />
-      <Insignts title="Explore Qcentrio’s latest thought leadership and research" />
+      <InsigntsNoCaro />
       <Contact />
       <Footer />
       <CopyrightBar />

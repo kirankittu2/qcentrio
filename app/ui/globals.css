@@ -693,6 +693,10 @@ header {
   /* min-height: 150px; */
 }
 
+.card:hover .blog-card-content-container{
+  background-color: #F7FFEC;
+}
+
 .card-heading {
   font-family: "Quadran-Bold";
   font-size: var(--heading-highlight);
@@ -795,6 +799,8 @@ header {
   display: flex;
   gap: 30px;
   align-items: center;
+  cursor: pointer;
+  width: fit-content;
 }
 
 .blogs-container .card img {
@@ -1487,10 +1493,12 @@ header {
 /* insights section styles */
 .insights-section {
   position: relative;
+  background-color: #F9F9F9;
 }
 
 .insights-section .section-heading {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .insights-heading-container {
