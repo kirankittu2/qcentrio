@@ -682,6 +682,7 @@ header {
   flex: 1;
   background-color: #ffffff;
   border-radius: 60px 0px 0px 0px;
+  height: fit-content;
 }
 
 .blog-card-content-container {
@@ -1518,7 +1519,6 @@ header {
 
 .insights-wrapper .card > div {
   width: 428px;
-  margin-bottom: 10px;
 }
 
 .blogs-container {
