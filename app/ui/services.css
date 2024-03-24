@@ -63,6 +63,9 @@
   font-size: 15px;
   font-family: "Quadran-Medium";
   color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .glimpse-column-2 .section-heading span {

@@ -315,12 +315,16 @@ export default function NavLinks() {
                 <div className="what-new-title">
                   Enhancing Patient Care with BI and SQL Analytics at Qcentrio
                 </div>
-                <div className="what-new-btn">
-                  Learn More
-                  <span>
-                    <Image src={arrow} alt="" />
-                  </span>
-                </div>
+                <Link
+                  className="w-fit mt-auto"
+                  href="/case-study/enhancing-patient-care-with-bi-and-sql-analytics">
+                  <div className="what-new-btn">
+                    Learn More
+                    <span>
+                      <Image src={arrow} alt="" />
+                    </span>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

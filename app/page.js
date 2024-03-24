@@ -12,6 +12,7 @@ import CopyrightBar from "./ui/global/copyrightbar";
 import Image from "next/image";
 import down from "@/public/hero-down.svg";
 import Insignts from "./ui/home-page/insights";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,9 +22,11 @@ export default function Home() {
         <div className="">
           <Carousel />
         </div>
-        <div className="hero-carousel-down">
-          <Image src={down} alt="" />
-        </div>
+        <Link href="#about">
+          <div className="hero-carousel-down">
+            <Image src={down} alt="" />
+          </div>
+        </Link>
       </div>
       <CompanyList />
       <About />

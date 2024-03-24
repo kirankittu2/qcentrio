@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div className="about-section section">
+    <div id="about" className="about-section section">
       <div>
         <h2 className="section-heading">
           Navigating Digital Excellence with AI, Cloud Solutions, and Strategic

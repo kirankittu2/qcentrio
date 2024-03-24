@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
+import blogArrow from "@/public/blog-arrow.svg";
 
 export default function Glimpse({ data }) {
   return (
@@ -11,9 +13,12 @@ export default function Glimpse({ data }) {
       <div className="glimpse-column-2">
         <h2 className="section-heading">{data.heading2}</h2>
         <p className="glimpse-sub-heading">{data.subheading}</p>
-        {/* <Link href={link}> */}
-        <p className="glimpse-btn">See How</p>
-        {/* </Link> */}
+        <p className="glimpse-btn">
+          See How
+          <span>
+            <Image style={{ width: "25px" }} src={blogArrow} alt="" />
+          </span>
+        </p>
       </div>
     </div>
   );
