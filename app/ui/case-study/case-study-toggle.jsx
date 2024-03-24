@@ -10,8 +10,8 @@ import { useState } from "react";
 
 export default function CaseStudyToggle({ data }) {
   const [context, togggleContext] = useState(true);
-  const [challenges, togggleChallenges] = useState(false);
-  const [solution, togggleSolution] = useState(false);
+  const [challenges, togggleChallenges] = useState(true);
+  const [solution, togggleSolution] = useState(true);
 
   return (
     <div className="case-study-showcase-container mb-[50px]">
