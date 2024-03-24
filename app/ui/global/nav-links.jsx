@@ -343,9 +343,12 @@ export default function NavLinks() {
           }
         }}
         className="main-nav-link">
-        <Link data-option="link" className="link-with-down-arrow" href="">
+        <Link
+          data-option="link"
+          className="link-with-down-arrow"
+          href="/perspectives">
           Insights
-          <span>
+          {/* <span>
             <Image
               data-option="link"
               className={`nav-arrow-img ${
@@ -354,9 +357,9 @@ export default function NavLinks() {
               src={tri}
               alt=""
             />
-          </span>
+          </span> */}
         </Link>
-        {resourcesHovered && (
+        {/* {resourcesHovered && (
           <div className="nav-options p-[20px]">
             <Link href="/case-study">
               <div className="nav-option-link">Case Studies</div>
@@ -366,7 +369,7 @@ export default function NavLinks() {
               <div className="nav-option-link">Perspectives</div>
             </Link>
           </div>
-        )}
+        )} */}
       </li>
       <li className="main-nav-link">
         <Link href="/about-us">About Us</Link>
