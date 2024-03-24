@@ -62,8 +62,6 @@ export async function sendMail(formData) {
     html: filledHtml,
   });
 
-  console.log(info);
-
   if (info.response.includes("OK")) {
     redirect("/thank-you", "push");
   }

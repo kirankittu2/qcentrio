@@ -159,7 +159,7 @@ export default function NavLinks() {
       ],
     },
   ];
-  console.log();
+
   return (
     <>
       <li>

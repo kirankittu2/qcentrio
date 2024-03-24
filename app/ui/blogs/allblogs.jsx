@@ -6,7 +6,7 @@ import Pagination from "./pagination";
 import Link from "next/link";
 import SearchBar from "../global/search";
 
-export default function AllBlogs({ data, type }) {
+export default function AllBlogs({ data, type, paginationNum }) {
   return (
     <>
       <div id="articles" className="topics-section balance-section">
@@ -50,7 +50,7 @@ export default function AllBlogs({ data, type }) {
         <div className="blogs-container">
           {data == null || data == undefined || data.length == 0
             ? "No Data Found"
-            : data.map((item, index) => {
+            : data.children.map((item, index) => {
                 return (
                   <div key={index} className="card">
                     <div>
@@ -79,7 +79,7 @@ export default function AllBlogs({ data, type }) {
               })}
         </div>
       </div>
-      <Pagination />
+      <Pagination paginationNum={paginationNum} />
     </>
   );
 }
