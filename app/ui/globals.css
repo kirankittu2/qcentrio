@@ -1236,6 +1236,7 @@ header {
 .footer-checkbox label {
   position: relative;
   cursor: pointer;
+  display: flex;
 }
 
 .footer-checkbox label:before {

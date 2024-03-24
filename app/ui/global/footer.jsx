@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Button from "./button";
 import SocialLinks from "./social-links";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -70,7 +71,11 @@ export default function Footer() {
             <div class="footer-checkbox">
               <input type="checkbox" id="privacy-policy" />
               <label className="privacy-checkbox-text" for="privacy-policy">
-                *I have read the Privacy Policy and agree to its terms.
+                *I have read the{" "}
+                <Link className="mr-[5px] ml-[5px]" href="">
+                  Privacy Policy
+                </Link>{" "}
+                and agree to its terms.
               </label>
             </div>
           </div>
