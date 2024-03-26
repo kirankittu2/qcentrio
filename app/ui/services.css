@@ -131,7 +131,8 @@
 }
 
 .strategic-path-content {
-  flex: 1;
+  flex: 0.75;
+  padding: 30px;
 }
 
 .accordation-container {

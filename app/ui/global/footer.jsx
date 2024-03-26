@@ -8,9 +8,9 @@ export default function Footer() {
     <footer className="footer-section">
       <div className="footer-column-container">
         <div className="footer-column">
-          <h2 className="footer-heading">Resources</h2>
+          <h2 className="footer-heading">Insights</h2>
+          <p className="footer-item">Prespectives</p>
           <p className="footer-item">Case Studies</p>
-          <p className="footer-item">Insights</p>
           <p className="footer-item">Thought Leadership</p>
           <p className="footer-item">News</p>
         </div>

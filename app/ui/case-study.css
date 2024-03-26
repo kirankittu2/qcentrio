@@ -1,11 +1,12 @@
-.case-study-hero{
+.case-study-hero {
   padding-left: clamp(50px, 7.81vw, 140px);
   padding-bottom: clamp(50px, 7.81vw, 140px);
-  background: transparent linear-gradient(114deg, #089768 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(114deg, #089768 0%, #000000 100%) 0%
+    0% no-repeat padding-box;
   position: relative;
 }
 
-.case-study-hero-content{
+.case-study-hero-content {
   position: absolute;
   left: clamp(50px, 14.58vw, 280px);
   top: 50%;
@@ -14,162 +15,163 @@
 }
 
 /* toggle section styles */
-.case-study-toogle-content-container{
-    padding-left: clamp(50px, 14.58vw, 280px);
-    padding-right: clamp(50px, 14.58vw, 280px);
-    display: flex;
-    gap: 30px;
+.case-study-toogle-content-container {
+  padding-left: clamp(50px, 14.58vw, 280px);
+  padding-right: clamp(50px, 14.58vw, 280px);
+  display: flex;
+  gap: 30px;
 }
 
-.case-study-toogle-button{
-    width: 460px;
-    padding: 50px 0px;
-    padding-left: 50px;
-    padding-right: clamp(50px, 7.81vw, 140px);
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.case-study-toogle-button {
+  width: 460px;
+  padding: 50px 0px;
+  padding-left: 50px;
+  padding-right: clamp(50px, 7.81vw, 140px);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.case-study-toogle-button .breadcrump{
-    margin-bottom: 0px;
-    color: unset;
+.case-study-toogle-button .breadcrump {
+  margin-bottom: 0px;
+  color: unset;
 }
 
-.case-study-toogle-button-container{
-    display: flex;
-    justify-content: end;
-    border-top: 1px solid #ECECEC;
+.case-study-toogle-button-container {
+  display: flex;
+  justify-content: end;
+  border-top: 1px solid #ececec;
 }
 
-.case-study-toogle-content{
-    padding: 30px;
+.case-study-toogle-content {
+  padding: 30px;
 }
 
-.case-study-toogle-content-image img{
-    min-width: 398px;
+.case-study-toogle-content-image img {
+  min-width: 398px;
 }
 
-.case-study-toogle-content-container .section-content{
-    color: black;
+.case-study-toogle-content-container .section-content {
+  color: black;
 }
 
-.case-study-toogle-content-highlight{
-    font-family: "Quadran-Bold";
-    font-size: var(--general-text);
-    padding: 14px 20px;
-    background-color: var(--primary-color);
-    width: fit-content;
-    margin-bottom: 20px;
-    color: white;
+.case-study-toogle-content-highlight {
+  font-family: "Quadran-Bold";
+  font-size: var(--general-text);
+  padding: 14px 20px;
+  background-color: var(--primary-color);
+  width: fit-content;
+  margin-bottom: 20px;
+  color: white;
 }
 
-
-.case-study-solution.case-study-toogle-content-container{
-    flex-direction: column;
+.case-study-solution.case-study-toogle-content-container {
+  flex-direction: column;
 }
 
-.case-study-solution-row-1{
-    display: flex;
+.case-study-solution-row-1 {
+  display: flex;
 }
 
-.case-study-solution-row-1-column-1{
-    flex: 2;
-    padding-right: clamp(50px, 7.81vw, 140px);
+.case-study-solution-row-1-column-1 {
+  flex: 2;
+  padding-right: clamp(50px, 7.81vw, 140px);
 }
 
-.case-study-solution-row-1-column-2{
-    flex: 1;
+.case-study-solution-row-1-column-2 {
+  flex: 1;
 }
 
-.case-study-solution-row-1-column-1 .tags-container{
-    margin-left: 0px;
-    flex-wrap: wrap;
-    gap: 10px;
+.case-study-solution-row-1-column-1 .tags-container {
+  margin-left: 0px;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: "Quadran-Light";
 }
 
 .case-study-solution-row-1-column-1 .tags-container .tag {
-    background-color: var(--primary-color);
-    color: white;
+  background-color: var(--primary-color);
+  color: white;
 }
 
-.case-study-solution-technology-block{
-    padding: 30px;
-    background-color: #F7FFEC;
-    width: fit-content;
-    border-top: 5px solid var(--primary-color);
+.case-study-solution-technology-block {
+  padding: 30px;
+  background-color: #f7ffec;
+  width: fit-content;
+  border-top: 5px solid var(--primary-color);
 }
 
-.case-study-solution-technology-block h2{
-    font-size: 14px;
-    font-family: "Quadran-Bold";
+.case-study-solution-technology-block h2 {
+  font-size: 14px;
+  font-family: "Quadran-Bold";
 }
 
-.case-study-solution-technology-block ul{
-    margin-left: 30px;
-    margin-top: 20px;
+.case-study-solution-technology-block ul {
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
-.case-study-image-showcase-holder{
-    padding: 30px;
-    background-color: #F3F3F3;
+.case-study-image-showcase-holder {
+  padding: 30px;
+  background-color: #f3f3f3;
 }
 
-.case-study-image-showcase{
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
+.case-study-image-showcase {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
-.case-study-solution-content-container ul{
-    margin-left: 30px;
+.case-study-solution-content-container ul {
+  margin-left: 30px;
+  font-family: "Quadran-Light";
 }
 
-.case-study-solution-content-container ul strong{
-    color: #02B18E;
+.case-study-solution-content-container ul strong {
+  color: var(--primary-color);
 }
 
 /* bottom line section styles */
-.bottom-line-section{
-    background-color: #F7FFEC;
+.bottom-line-section {
+  background-color: #f7ffec;
 }
 
-.bottom-line-section .section-heading{
-    text-align: center;
-    margin-bottom: 50px;
+.bottom-line-section .section-heading {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-.bottom-line-content{
-    padding: 50px;
-    padding-top: 70px;
-    text-align: center;
-    background-color: white;
-    width: 70%;
-    position: relative;
+.bottom-line-content {
+  padding: 50px;
+  padding-top: 70px;
+  text-align: center;
+  background-color: white;
+  width: 70%;
+  position: relative;
 }
 
-.bottom-line-content .section-content{
-    margin: 0;
-    color: black;
+.bottom-line-content .section-content {
+  margin: 0;
+  color: black;
 }
 
-.bottom-line-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.bottom-line-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.bottom-line-decor{
-    width: 73px;
-    height: 73px;
-    background-color: var(--primary-color);
-    border-radius: 50%;
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bottom-line-decor {
+  width: 73px;
+  height: 73px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
