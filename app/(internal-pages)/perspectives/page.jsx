@@ -5,6 +5,7 @@ import Contact from "@/app/ui/global/contact";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Footer from "@/app/ui/global/footer";
 import Navbar from "@/app/ui/global/nav-bar";
+import NavBarContainer from "@/app/ui/global/nav-bar-container";
 
 export default async function Blogs({ searchParams }) {
   const type = searchParams?.type || "perspectives";
@@ -15,7 +16,7 @@ export default async function Blogs({ searchParams }) {
   return (
     <>
       <div className="blog-hero">
-        <Navbar />
+        <NavBarContainer />
         <div className="h-[550px] relative">
           <BlogHero />
         </div>

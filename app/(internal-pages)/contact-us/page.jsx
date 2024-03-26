@@ -9,12 +9,13 @@ import Footer from "../../ui/global/footer";
 import ReachOut from "../../ui/contact-us/reach-out";
 import GlobalPresence from "../../ui/contact-us/global-presence";
 import Path4 from "../../ui/global/path-4";
+import NavBarContainer from "@/app/ui/global/nav-bar-container";
 
 export default function ContactUs() {
   return (
     <div className="contact">
       <div className="hero">
-        <Navbar />
+        <NavBarContainer />
       </div>
       <ContactMain />
       <ContactWhyQcentrio />

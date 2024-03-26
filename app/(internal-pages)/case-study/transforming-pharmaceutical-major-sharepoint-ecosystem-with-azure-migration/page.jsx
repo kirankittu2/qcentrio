@@ -11,6 +11,7 @@ import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import banner from "@/public/case-study-banner.png";
+import NavBarContainer from "@/app/ui/global/nav-bar-container";
 
 export default function CaseStudy() {
   const heroContent = {
@@ -105,7 +106,7 @@ export default function CaseStudy() {
   return (
     <>
       <div className="case-study-hero">
-        <Navbar />
+        <NavBarContainer />
         <div>
           <Image src={banner} alt="" />
         </div>

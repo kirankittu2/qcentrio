@@ -1,6 +1,7 @@
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Footer from "@/app/ui/global/footer";
 import Navbar from "@/app/ui/global/nav-bar";
+import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import OtherLinks from "@/app/ui/privacy-policy/other-links";
 import Link from "next/link";
 
@@ -8,7 +9,7 @@ export default function PrivacyPolicy() {
   return (
     <div className="privacy-policy">
       <div className="hero">
-        <Navbar />
+        <NavBarContainer />
       </div>
       <div className="section privacy-policy-heading-section">
         <h1>OUR PRIVACY POLICY</h1>

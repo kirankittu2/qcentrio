@@ -3,7 +3,7 @@
   padding-left: clamp(50px, 7.81vw, 140px);
   background-repeat: no-repeat;
   height: 628px;
-  position: relative;
+  /* position: relative; */
 }
 
 /* .digital-data-service-page-bg{

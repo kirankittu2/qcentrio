@@ -1,16 +1,16 @@
+import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import AboutUsHero from "../../ui/about-us/about-us-hero";
 import AboutUsServices from "../../ui/about-us/about-us-services";
 import AboutUSWhyQucentrio from "../../ui/about-us/about-us-why-qucentrio";
 import Button from "../../ui/global/button";
 import CopyrightBar from "../../ui/global/copyrightbar";
 import Footer from "../../ui/global/footer";
-import Navbar from "../../ui/global/nav-bar";
 
 export default function AboutUs() {
   return (
     <>
       <div className="about-us-blog-hero">
-        <Navbar />
+        <NavBarContainer />
         <div className="h-[550px] relative">
           <AboutUsHero />
         </div>

@@ -2,6 +2,7 @@ import BlogHero from "@/app/ui/blogs/blog-hero";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Footer from "@/app/ui/global/footer";
 import Navbar from "@/app/ui/global/nav-bar";
+import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import SocialLinks from "@/app/ui/global/social-links";
 
 export default function RootLayout({ children }) {
@@ -9,7 +10,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="blog">
         <div className="blog-page-hero">
-          <Navbar />
+          <NavBarContainer />
           <div className="relative blog-page-container">
             {children}
             <div className="blog-page-social-column">

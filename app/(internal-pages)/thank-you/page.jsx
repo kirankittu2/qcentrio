@@ -6,11 +6,12 @@ import tick from "@/public/tick.svg";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import NavBarContainer from "@/app/ui/global/nav-bar-container";
 
 export default function ThankYouPage() {
   return (
     <div className="hero thank-you-page">
-      <Navbar />
+      <NavBarContainer />
       <div className="thank-you-content-container">
         <ThankYouPageContent />
       </div>

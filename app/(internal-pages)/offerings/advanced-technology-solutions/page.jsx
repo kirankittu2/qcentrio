@@ -19,6 +19,7 @@ import support from "@/public/support.svg";
 import secure from "@/public/secure.svg";
 import banner from "@/public/advanced-technology-solutions.png";
 import InsigntsNoCaro from "@/app/ui/global/insights-no-caro";
+import NavBarContainer from "@/app/ui/global/nav-bar-container";
 
 export const metadata = {
   title: "Advanced Technology Solutions - Services",
@@ -198,7 +199,7 @@ export default function Services() {
           backgroundImage: 'url("../../advanced-technology-solutions.png")',
         }}
         className="services-hero digital-data-service-page-bg">
-        <Navbar />
+        <NavBarContainer />
         <div className="bg-decor"></div>
         <div className="services-hero-content">
           <div className="breadcrump">

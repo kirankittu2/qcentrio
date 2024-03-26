@@ -15,6 +15,7 @@ import ServiceCard from "@/app/ui/global/service-card";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Path5 from "@/app/ui/global/path-5";
+import NavBarContainer from "@/app/ui/global/nav-bar-container";
 
 export const metadata = {
   title: "Qcentriio Services",
@@ -25,7 +26,7 @@ export default function ServicesListing() {
   return (
     <div className="service-listing">
       <div className="hero">
-        <Navbar />
+        <NavBarContainer />
       </div>
       <ServiceListingHeadSection />
       <AllServices />

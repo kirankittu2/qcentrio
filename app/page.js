@@ -13,20 +13,21 @@ import Image from "next/image";
 import down from "@/public/hero-down.svg";
 import Insignts from "./ui/home-page/insights";
 import Link from "next/link";
+import NavBarContainer from "./ui/global/nav-bar-container";
 
 export default function Home() {
   return (
     <>
       <div className="hero">
-        <Navbar />
-        <div className="">
+        <NavBarContainer />
+        <div className="relative">
           <Carousel />
+          <Link href="#about">
+            <div className="hero-carousel-down">
+              <Image src={down} alt="" />
+            </div>
+          </Link>
         </div>
-        <Link href="#about">
-          <div className="hero-carousel-down">
-            <Image src={down} alt="" />
-          </div>
-        </Link>
       </div>
       <CompanyList />
       <About />

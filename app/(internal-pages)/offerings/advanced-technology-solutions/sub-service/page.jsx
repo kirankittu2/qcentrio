@@ -2,18 +2,18 @@ import Button from "@/app/ui/global/button";
 import Contact from "@/app/ui/global/contact";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Footer from "@/app/ui/global/footer";
-import Navbar from "@/app/ui/global/nav-bar";
 import SubServiceOfferings from "@/app/ui/offerings/sub-service/sub-offerings";
 import Image from "next/image";
 import whyChooseImg1 from "@/public/sub-service-why-choose-1.png";
 import whyChooseImg2 from "@/public/sub-service-why-choose-2.png";
 import whyChooseImg3 from "@/public/sub-service-why-choose-3.png";
+import NavBarContainer from "@/app/ui/global/nav-bar-container";
 
 export default function SubService() {
   return (
     <div className="sub-service">
       <div className="hero">
-        <Navbar />
+        <NavBarContainer />
         <div className="breadcrump">
           HOME <span></span> SERVICES
         </div>

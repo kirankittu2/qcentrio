@@ -67,10 +67,11 @@ html {
 body {
   max-width: 1920px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
+  position: relative;
 }
 
 a {
@@ -214,7 +215,7 @@ textarea {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  position: relative;
+  /* position: relative; */
 }
 
 .main-nav li:first-child {
@@ -230,6 +231,8 @@ header {
   padding-left: clamp(50px, 7.81vw, 140px);
   padding-right: clamp(50px, 7.81vw, 140px);
   background-color: white;
+  position: relative;
+  z-index: 1000;
 }
 
 .search {
@@ -260,7 +263,7 @@ header {
 
 .hero-carousel-down {
   position: absolute;
-  bottom: 100px;
+  top: 96%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -274,9 +277,8 @@ header {
 
 .nav-options {
   background-color: white;
-  position: absolute;
-  top: 104%;
-  z-index: 1000;
+  position: relative;
+  z-index: 999;
   width: fit-content;
   border-radius: 6px;
 }
@@ -357,6 +359,19 @@ header {
   padding: 14px 0px;
 }
 
+.menu-menu-container{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  padding-left: clamp(50px, 14.58vw, 280px);
+  padding-right: clamp(50px, 7.81vw, 140px);
+  padding-top: 106px;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
 .what-new-col-container {
   width: 100%;
   height: 88.6%;
@@ -389,7 +404,7 @@ header {
   padding-left: clamp(50px, 7.81vw, 140px);
   padding-bottom: clamp(50px, 7.81vw, 140px);
   background-color: var(--primary-color);
-  position: relative;
+  /* position: relative; */
   overflow-x: clip;
 }
 
@@ -397,7 +412,7 @@ header {
   padding-left: clamp(50px, 7.81vw, 140px);
   background: transparent linear-gradient(119deg, #089768 0%, #0a3815 100%) 0%
     0% no-repeat padding-box;
-  position: relative;
+  /* position: relative; */
 }
 
 .blog-page-hero {
@@ -1491,6 +1506,14 @@ header {
   position: absolute;
   left: -30px;
   top: 2px;
+}
+
+.table-of-contents ul ul{
+  margin-top: 0px;
+}
+
+.table-of-contents > ul li{
+  margin-bottom: 10px;
 }
 
 /* insights section styles */
