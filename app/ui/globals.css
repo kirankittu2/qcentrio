@@ -1013,7 +1013,6 @@ header {
 
 /* discover section styles */
 .discover-section {
-  padding-top: 0px;
   padding-bottom: 0px;
   display: flex;
   gap: 30px;
@@ -1662,3 +1661,72 @@ header {
   color: var(--primary-color);
 }
 
+/* privacy policy styles */
+.privacy-policy .hero{
+  padding-bottom: 80px;
+}
+
+.privacy-policy-heading-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ECECEC;
+}
+
+.privacy-policy-heading-section h1{
+  font-size: 64px;
+  font-family: "Quadran-Black";
+}
+
+.privacy-policy-heading-section p{
+  font-size: 18px;
+  font-family: "Quadran-Bold";
+}
+
+.privacy-policy-content-section{
+  display: flex;
+  gap: 50px;
+}
+
+.privacy-policy-content{
+  flex: 2;
+}
+
+.other-links-section{
+  flex: 1;
+}
+
+.privacy-policy-content h2{
+  font-size: 24px;
+  font-family: "Quadran-Bold";
+  margin-bottom: 10px;
+}
+
+.other-links{
+  padding: 30px;
+  background-color: #F9F9F9;
+  border-top: 5px solid var(--primary-color);
+}
+
+
+.other-links h2{
+  font-size: 14px;
+  font-family: "Quadran-Bold";
+  margin-bottom: 15px;
+}
+
+.other-links p{
+  font-size: 16px;
+  font-family: "Quadran-Regular";
+  margin-bottom: 15px;
+}
+
+.other-links a{
+  text-decoration: none;
+  color: black;
+}
+
+.other-links a.active{
+  font-family: "Quadran-Bold";
+  color: var(--primary-color) !important;
+}

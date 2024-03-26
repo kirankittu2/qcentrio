@@ -14,7 +14,8 @@ import banner from "@/public/case-study-banner.png";
 
 export default function CaseStudy() {
   const heroContent = {
-    heading: "TRANSFORMING PHARMACEUTICAL MAJOR’S SHAREPOINT ECOSYSTEM WITH AZURE MIGRATION",
+    heading:
+      "TRANSFORMING PHARMACEUTICAL MAJOR’S SHAREPOINT ECOSYSTEM WITH AZURE MIGRATION",
   };
 
   const caseToggleContent = {
@@ -23,6 +24,10 @@ export default function CaseStudy() {
         "A pharmaceutical giant faced issues with its SharePoint setup, including 9 TB of data and numerous sites and apps.",
       content:
         "Compliance demands prompted a shift from a complex system to a streamlined cloud solution, overcoming limitations like SharePoint Online throttling to enhance agility and scalability.",
+    },
+    challenge: {
+      heading: "",
+      content: "",
     },
     solution: {
       heading:

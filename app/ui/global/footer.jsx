@@ -23,40 +23,42 @@ export default function Footer() {
         <div className="footer-column">
           <h2 className="footer-heading">Transformations</h2>
           <p className="footer-item">
-            <a href="/offerings/business-value-enhancement-services">
+            <Link href="/offerings/business-value-enhancement-services">
               Business Value Enhancement
-            </a>
+            </Link>
           </p>
           <p className="footer-item">
-            <a href="/offerings/advisory-and-strategic-services">
+            <Link href="/offerings/advisory-and-strategic-services">
               Advisory and Strategic Services
-            </a>
+            </Link>
           </p>
           <p className="footer-item">
-            <a href="/offerings/business-optimization-and-analytics-services">
+            <Link href="/offerings/business-optimization-and-analytics-services">
               Business Optimization and Analytics
-            </a>
+            </Link>
           </p>
           <p className="footer-item">
-            <a href="/offerings/advanced-technology-solutions">
+            <Link href="/offerings/advanced-technology-solutions">
               Advanced Technology Solutions
-            </a>
+            </Link>
           </p>
           <p className="footer-item">
-            <a href="/offerings/cloud-infra-and-security-services">
+            <Link href="/offerings/cloud-infra-and-security-services">
               Cloud Infrastructure & Security
-            </a>
+            </Link>
           </p>
           <p className="footer-item">
-            <a href="/offerings/blockchain-advisory-and-offerings">
+            <Link href="/offerings/blockchain-advisory-and-offerings">
               Blockchain Services & Solutions
-            </a>
+            </Link>
           </p>
         </div>
         <div className="footer-column">
           <h2 className="footer-heading">Legal</h2>
           <p className="footer-item">Terms & Conditions</p>
-          <p className="footer-item">Privacy Policy</p>
+          <p className="footer-item">
+            <Link href="/privacy-policy">Privacy Policy</Link>
+          </p>
           <p className="footer-item">Cookie Policy</p>
         </div>
         <div className="footer-form-column">
@@ -71,7 +73,7 @@ export default function Footer() {
             <div className="footer-checkbox">
               <input type="checkbox" id="privacy-policy" />
               <label className="privacy-checkbox-text" htmlFor="privacy-policy">
-                *I have read the{" "}
+                *I have read the
                 <Link className="mr-[5px] ml-[5px]" href="">
                   Privacy Policy
                 </Link>
