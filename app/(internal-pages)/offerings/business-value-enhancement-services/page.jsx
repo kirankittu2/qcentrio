@@ -37,8 +37,7 @@ export default function Services() {
 
   const servicesContent = {
     heading: "DEFINE YOUR FUTURE TRAJECTORY",
-    subheading:
-      "With Advanced Business Value Enhancement Services Enhancement Services",
+    subheading: "With Advanced Business Value Enhancement Services",
     children: [
       {
         image: cloud,

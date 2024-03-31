@@ -60,21 +60,21 @@ export default function Carousel() {
     // setAllBoxes(() => tempAllBoxes);
   }, []);
 
-  useEffect(() => {
-    const changeIndex = () => {
-      if (index < wrapper.current.querySelectorAll(".hero-slide").length - 1) {
-        setIndex((num) => num + 1);
-      } else {
-        setIndex(0);
-      }
-    };
+  // useEffect(() => {
+  //   const changeIndex = () => {
+  //     if (index < wrapper.current.querySelectorAll(".hero-slide").length - 1) {
+  //       setIndex((num) => num + 1);
+  //     } else {
+  //       setIndex(0);
+  //     }
+  //   };
 
-    if (hovered != true) {
-      intervalRef.current = setInterval(changeIndex, 5000);
-    }
+  //   if (hovered != true) {
+  //     intervalRef.current = setInterval(changeIndex, 5000);
+  //   }
 
-    return () => clearInterval(intervalRef.current);
-  }, [index, hovered]);
+  //   return () => clearInterval(intervalRef.current);
+  // }, [index, hovered]);
 
   useEffect(() => {
     // if (allBoxes.length != 0) {
@@ -181,7 +181,7 @@ export default function Carousel() {
           onMouseLeave={() => setHovered((hover) => (hover = false))}>
           <div>
             <Img className="slide-image" src={herobanner1} alt="" />
-            <div className="hero-content ">
+            <div id="hero-carousel-content" className="hero-content ">
               <h1 className="hero-heading">
                 PIONEERING E2E BUSINESS TRANSFORMATION
               </h1>
@@ -204,7 +204,7 @@ export default function Carousel() {
           onMouseLeave={() => setHovered((hover) => (hover = false))}>
           <div>
             <Img className="slide-image" src={herobanner2} alt="" />
-            <div className="hero-content">
+            <div id="hero-carousel-content" className="hero-content">
               <h1 className="hero-heading">
                 EMPOWERING GLOBAL BRANDS TO WIN, GROW, AND LEAD
               </h1>
@@ -227,7 +227,7 @@ export default function Carousel() {
           onMouseLeave={() => setHovered((hover) => (hover = false))}>
           <div>
             <Img className="slide-image" src={herobanner3} alt="" />
-            <div className="hero-content">
+            <div id="hero-carousel-content" className="hero-content">
               <h1 className="hero-heading">
                 TAILORED STRATEGIES FOR MARKET AND BUSINESS RESILIENCE
               </h1>
@@ -244,10 +244,14 @@ export default function Carousel() {
       </div>
       <div className="hero-carousel-nav">
         <div className="hero-carousel-left" onClick={handleLeft}>
-          <Img src={heroleft} alt="" />
+          <div className="hero-carousel-nav-buttons-container">
+            <Img fill src={heroleft} alt="" />
+          </div>
         </div>
         <div className="hero-carousel-right" onClick={handleRight}>
-          <Img src={heroright} alt="" />
+          <div className="hero-carousel-nav-buttons-container">
+            <Img fill src={heroright} alt="" />
+          </div>
         </div>
       </div>
       <div className="hero-carousel-num-nav">

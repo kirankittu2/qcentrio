@@ -30,7 +30,7 @@ export default function Path5() {
       const topOfCurve =
         curve.getBoundingClientRect().top +
         curve.getBoundingClientRect().top -
-        138;
+        95;
       const documentHeight = document.documentElement.clientHeight;
       const percentage = (topOfCurve - documentHeight) / documentHeight;
 

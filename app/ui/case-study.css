@@ -3,7 +3,7 @@
   padding-bottom: clamp(50px, 7.81vw, 140px);
   background: transparent linear-gradient(114deg, #089768 0%, #000000 100%) 0%
     0% no-repeat padding-box;
-  /* position: relative; */
+  position: relative;
 }
 
 .case-study-hero-content {

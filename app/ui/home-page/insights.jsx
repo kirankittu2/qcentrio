@@ -194,13 +194,15 @@ export default function Insignts({ title, subheading }) {
           </div>
         </div>
       </div>
-      <div onClick={handleRight} className="insights-right-arrow">
-        <Image src={arrow} alt="" />
-      </div>
-      <div
-        onClick={handleLeft}
-        className={`insights-left-arrow ${index > 0 ? "block" : "hidden"}`}>
-        <Image src={arrow} alt="" />
+      <div className="insights-arrows-holder">
+        <div onClick={handleRight} className="insights-right-arrow">
+          <Image src={arrow} alt="" />
+        </div>
+        <div
+          onClick={handleLeft}
+          className={`insights-left-arrow ${index > 0 ? "block" : "hidden"}`}>
+          <Image src={arrow} alt="" />
+        </div>
       </div>
     </div>
   );

@@ -10,7 +10,9 @@ export default function WhyQcentrio() {
       <h2 className="section-heading">Why Choose Qcentrio?</h2>
       <div className="why-qcentrio-card-container">
         <div className="why-qcentrio-card">
-          <Image src={group} alt="" />
+          <div className="why-qcentrio-card-icon">
+            <Image src={group} alt="" />
+          </div>
           <h2 className="why-qcentrio-heading">People-First Approach</h2>
           <p className="section-content">
             We prioritize talent development and maintain high employee
@@ -18,7 +20,9 @@ export default function WhyQcentrio() {
           </p>
         </div>
         <div className="why-qcentrio-card">
-          <Image src={x} alt="" />
+          <div className="why-qcentrio-card-icon">
+            <Image fill src={x} alt="" />
+          </div>
           <h2 className="why-qcentrio-heading">Client-Centric Focus</h2>
           <p className="section-content">
             Our 100% referenceability rate reflects our commitment to quality
@@ -26,7 +30,9 @@ export default function WhyQcentrio() {
           </p>
         </div>
         <div className="why-qcentrio-card">
-          <Image src={cloud} alt="" />
+          <div className="why-qcentrio-card-icon">
+            <Image src={cloud} alt="" />
+          </div>
           <h2 className="why-qcentrio-heading">Strategic Innovation</h2>
           <p className="section-content">
             We lead enterprises through digital transformation with strategic
@@ -34,7 +40,9 @@ export default function WhyQcentrio() {
           </p>
         </div>
         <div className="why-qcentrio-card">
-          <Image src={settings} alt="" />
+          <div className="why-qcentrio-card-icon">
+            <Image src={settings} alt="" />
+          </div>
           <h2 className="why-qcentrio-heading">Diverse Expertise</h2>
           <p className="section-content">
             Our team excels in managing complex projects and delivering

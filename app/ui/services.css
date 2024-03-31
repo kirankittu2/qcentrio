@@ -3,7 +3,10 @@
   padding-left: clamp(50px, 7.81vw, 140px);
   background-repeat: no-repeat;
   height: 628px;
-  /* position: relative; */
+  position: relative;
+  /* background-size: 95%; */
+  background-size: cover;
+  background-position: right top;
 }
 
 /* .digital-data-service-page-bg{
@@ -21,6 +24,7 @@
   margin-bottom: 50px;
   line-height: 40px;
   letter-spacing: -1px;
+
 }
 
 .bg-decor {
@@ -83,6 +87,7 @@
 
 .services-section .section-heading {
   text-align: center;
+  font-family: "Quadran-Black";
 }
 
 .service-sub-heading {
@@ -141,6 +146,7 @@
 
 .accordation-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -208,6 +214,7 @@
 
 .success-path-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   margin-bottom: 80px;
 }
@@ -278,6 +285,7 @@
 
 .success-path-category-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -329,6 +337,7 @@
 .service-listing-heading-section .heading3 {
   font-family: "Quadran-Black";
   font-size: 56px;
+  line-height: 58px;
   color: var(--primary-color);
   margin-bottom: 20px;
 }
@@ -337,6 +346,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  position: relative;
 }
 
 .btn-container p {
@@ -385,6 +395,7 @@
   margin-bottom: 10px;
   font-family: "Quadran-Bold";
   text-align: center;
+  line-height: 58px;
 }
 
 .business-today-section > div {
@@ -418,7 +429,7 @@
 #path-5 {
   position: absolute;
   top: 65%;
-  right: 13%;
+  right: -4vw;
 }
 
 
@@ -715,4 +726,135 @@
 
 .sub-services-why-choose-cards-holder img{
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1339px) {
+  .all-service-list-container, .services-container{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .services-hero-content{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .strategic-path-section{
+    flex-direction: column;
+  }
+
+  .strategic-path-content{
+    padding: 0px;
+    padding-bottom: 30px;
+  }
+
+  .services-hero{
+    background-position: right 22% top;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .service-listing-heading-section .heading2{
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .service-listing-heading-section .heading3{
+    font-size: 34px;
+    line-height: 38px;
+  }
+
+  .business-today-section h2{
+    font-size: 34px;
+    line-height: 38px;
+  }
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .all-service-list-container, .services-container{
+    grid-template-columns: 1fr;
+  }
+
+  .service{
+    max-width: unset;
+  }
+
+  .business-today-section > div{
+    width: 100%;
+  }
+
+  .all-services-list-head-container > div:last-child{
+    display: none;
+  }
+
+  .business-today-section p{
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .service-sub-heading{
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .success-path-section .section-heading{
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .services-hero h1{
+    font-size: 30px;
+    line-height: 34px;
+  }
+  
+}
+
+@media screen and (max-width: 816px) {
+  .services-hero-content{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .service-listing-heading-section{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-listing-heading-section > div:first-child{
+    rotate: 90deg;
+    margin-top: -100px;
+    position: relative;
+    display: none;
+  }
+
+  .glimpse-section{
+    flex-direction: column;
+  }
+
+  .glimpse-column-1{
+    padding-right: 0px;
+  }
+
+  .accordation-container{
+    flex-direction: column;
+    gap: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .business-today-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .services-hero{
+    padding-left: 25px;
+  }
+
+  .services-hero-content{
+    left: 50px;
+  }
 }

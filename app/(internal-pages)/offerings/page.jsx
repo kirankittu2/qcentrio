@@ -10,7 +10,6 @@ import service6 from "@/public/service-6.png";
 import globe from "@/public/globe.svg";
 
 import Button from "@/app/ui/global/button";
-import Navbar from "@/app/ui/global/nav-bar";
 import ServiceCard from "@/app/ui/global/service-card";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
@@ -55,9 +54,9 @@ function ServiceListingHeadSection() {
           <span>
             <Image src={arrow} alt="" />
           </span>
+          <Path5 />
         </div>
       </div>
-      <Path5 />
     </div>
   );
 }

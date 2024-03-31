@@ -24,7 +24,7 @@ export default function Home() {
           <Carousel />
           <Link href="#about">
             <div className="hero-carousel-down">
-              <Image src={down} alt="" />
+              <Image fill src={down} alt="" />
             </div>
           </Link>
         </div>

@@ -17,7 +17,7 @@ export default async function Blogs({ searchParams }) {
     <>
       <div className="blog-hero">
         <NavBarContainer />
-        <div className="h-[550px] relative">
+        <div className="relative">
           <BlogHero />
         </div>
       </div>

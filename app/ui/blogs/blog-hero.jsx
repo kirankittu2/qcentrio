@@ -8,8 +8,8 @@ export default function BlogHero() {
       </div>
       <h1 className="blog-hero-heading">QCENTRIO PERSPECTIVES</h1>
       <p className="blog-hero-sub-heading">
-        Insights to help you bring your best ideas to <br /> life. Subscribe to
-        get the best tips, tricks, and <br /> success stories in your inbox.
+        Insights to help you bring your best ideas to life. Subscribe to get the
+        best tips, tricks, and success stories in your inbox.
       </p>
       <div className="lets-talk-container">
         <input type="text" placeholder="Email Address" />

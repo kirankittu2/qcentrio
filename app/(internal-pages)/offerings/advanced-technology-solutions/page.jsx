@@ -2,8 +2,6 @@ import Button from "@/app/ui/global/button";
 import Contact from "@/app/ui/global/contact";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Footer from "@/app/ui/global/footer";
-import Navbar from "@/app/ui/global/nav-bar";
-import Insignts from "@/app/ui/home-page/insights";
 import Glimpse from "@/app/ui/offerings/glimpse";
 import ServicesContent from "@/app/ui/offerings/services";
 import StrategicPath from "@/app/ui/offerings/strategic-path";
@@ -17,7 +15,6 @@ import settings from "@/public/settings.svg";
 import strategy from "@/public/strategy.svg";
 import support from "@/public/support.svg";
 import secure from "@/public/secure.svg";
-import banner from "@/public/advanced-technology-solutions.png";
 import InsigntsNoCaro from "@/app/ui/global/insights-no-caro";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 

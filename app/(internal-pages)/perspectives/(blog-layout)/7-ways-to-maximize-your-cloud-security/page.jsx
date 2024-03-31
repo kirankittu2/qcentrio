@@ -1,6 +1,7 @@
 import Image from "next/image";
 import blogMainImage from "@/public/blog-main-img.png";
 import linkedin from "@/public/linkedin.svg";
+import author from "@/public/blog-author.png";
 
 export default function SampleBlog() {
   return (
@@ -21,8 +22,15 @@ export default function SampleBlog() {
               <h2 className="blog-page-side-heading">AUTHOR THIS BLOG</h2>
               <Image className="author-linkedin-link" src={linkedin} alt="" />
             </div>
-            <h3 className="author-name">Michael Frank</h3>
-            <p className="author-role">Lead of Global Practice</p>
+            <div className="flex items-center gap-2.5">
+              <div>
+                <Image src={author} alt="" />
+              </div>
+              <div>
+                <h3 className="author-name">Michael Frank</h3>
+                <p className="author-role">Lead of Global Practice</p>
+              </div>
+            </div>
           </div>
           <div className="category-container">
             <h2 className="blog-page-side-heading">CATEGORIES</h2>

@@ -15,7 +15,9 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
     <>
       <li>
         <Link href="/">
-          <Image src={logo} alt="" />
+          <div className="main-logo-conatiner">
+            <Image fill src={logo} alt="" />
+          </div>
         </Link>
       </li>
       <li
@@ -30,8 +32,9 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
         className="main-nav-link">
         <Link data-option="link" className="link-with-down-arrow" href="">
           Offerings
-          <span>
+          <span className="w-[8px] h-[8px] relative">
             <Image
+              fill
               data-option="link"
               className={`nav-arrow-img ${
                 servicesHovered ? "rotate-[299deg]" : "rotate-0"
@@ -89,17 +92,18 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
       <li className="main-nav-link">
         <Link href="/careers">Careers</Link>
       </li>
-      <li className="mr-[20px]">
+      <li className="mr-[20px] ml-auto search-list-item">
         <div className="search-container">
           <input className="search" placeholder="Search"></input>
           <Image className="input-icon" src={search} alt="" />
         </div>
       </li>
-      <li>
+      <li className="nav-contact-btn">
         <Link href="/contact-us">
           <Button name="Contact Us" />
         </Link>
       </li>
+      <li className="ml-[20px] mobile-nav-button">M</li>
     </>
   );
 }

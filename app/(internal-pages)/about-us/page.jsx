@@ -11,7 +11,7 @@ export default function AboutUs() {
     <>
       <div className="about-us-blog-hero">
         <NavBarContainer />
-        <div className="h-[550px] relative">
+        <div className="">
           <AboutUsHero />
         </div>
       </div>
@@ -19,7 +19,7 @@ export default function AboutUs() {
       <AboutUSWhyQucentrio />
       <div className="balance-section join-us-buttons-container">
         <h2 className="section-heading">
-          JOIN OUR JOURNEY TO REDEFINE <br /> AND LEAD THE INDUSTRY STATUS QUO
+          JOIN OUR JOURNEY TO REDEFINE AND LEAD THE INDUSTRY STATUS QUO
         </h2>
         <div className="join-us-buttons">
           <Button name="Work with Us" />

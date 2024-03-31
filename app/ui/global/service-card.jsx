@@ -5,8 +5,8 @@ import Link from "next/link";
 export default function ServiceCard({ image, title, content, link }) {
   return (
     <div className="card">
-      <div>
-        <Image src={image} alt="" />
+      <div className="">
+        <Image style={{ width: "100%" }} src={image} alt="" />
       </div>
       <div className="blog-card-content-container">
         <h2 className="card-heading">{title}</h2>
