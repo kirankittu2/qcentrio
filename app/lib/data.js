@@ -3,7 +3,7 @@ const blogs = {
     {
       image: "http://localhost:3000/cloud-security.jpg",
       title:
-        "7 effective effective ways to maximize your cloud security for enhanced protection for enhanced protection",
+        "7 effective ways to maximize your cloud security for enhanced protection",
       content:
         "In the cloud revolution, securing data against breaches is crucial for the 94% of enterprises using cloud services, as this blog will explore.",
       link: "/perspectives/7-ways-to-maximize-your-cloud-security",
@@ -11,13 +11,15 @@ const blogs = {
     {
       image: "http://localhost:3000/blog-1.png",
       title: "Boost your enterprise innovation with robotic process automation",
-      content: "Content",
+      content:
+        "In today's digital environment, innovation and robotic process automation are essential for streamlining procedures and driving growth.",
       link: "/perspectives/boost-your-enterprise-innovation-with-robotic-process-automation",
     },
     {
       image: "http://localhost:3000/blog-1.png",
       title: "How blockchain redefines business and banking",
-      content: "Content",
+      content:
+        "Since Satoshi Nakamoto introduced Blockchain, the term emphasizes its unalterable nature, offering security to financial moguls.",
       link: "/perspectives/how-blockchain-redefines-business-and-banking",
     },
     {
