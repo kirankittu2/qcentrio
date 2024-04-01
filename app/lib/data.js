@@ -38,28 +38,32 @@ const caseStudies = {
     {
       image: "http://localhost:3000/blog-1.png",
       title: "Enhancing patient care with BI and SQL analytics at qcentrio",
-      content: "Content",
+      content:
+        "The client aimed to enhance their Java app for better population health analytics and healthcare insights.",
       link: "/case-study/enhancing-patient-care-with-bi-and-sql-analytics",
     },
     {
       image: "http://localhost:3000/blog-1.png",
       title:
         "Transforming pharmaceutical major’s sharepoint ecosystem with azure",
-      content: "Content",
+      content:
+        "A pharmaceutical giant streamlined its SharePoint setup to a cloud solution for compliance, agility, and scalability.",
       link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
     },
     {
       image: "http://localhost:3000/blog-1.png",
       title:
-        "Transforming Land Management in India Leading State with a Blockchain Platform",
-      content: "Content",
+        "Land Management in India Leading State with a Blockchain Platform",
+      content:
+        "Leading Indian state transforms land management with innovative Blockchain platform for streamlined processes and transparency.",
       link: "/case-study/transforming-land-management-in-india-leading-state-with-a-blockchain-platform",
     },
     {
       image: "http://localhost:3000/blog-1.png",
       title:
-        "Automating Vehicle Aerodynamics Simulations for a Major Automotive Design Company",
-      content: "Content",
+        "Automating Vehicle Aerodynamics Simulations for Automotive Company",
+      content:
+        "Automotive company automates vehicle aerodynamics simulations for enhanced efficiency and performance in product development.",
       link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
     },
   ],
