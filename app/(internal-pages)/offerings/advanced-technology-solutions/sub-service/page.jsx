@@ -6,6 +6,15 @@ import SubServiceOfferings from "@/app/ui/offerings/sub-service/sub-offerings";
 import Image from "next/image";
 import whyChooseImg1 from "@/public/sub-service-why-choose-1.png";
 import ball from "@/public/ball.png";
+import healthcare from "@/public/heart-beat.svg";
+import finace from "@/public/trend.svg";
+import manufacturing from "@/public/factory.svg";
+import engineering from "@/public/engineering.svg";
+import aerospace from "@/public/aerospace.svg";
+import travel from "@/public/suitcase.svg";
+import eCommerce from "@/public/web-trolley.svg";
+import realEstate from "@/public/building.svg";
+import softwareTechnology from "@/public/software-engineer.svg";
 import whyChooseImg2 from "@/public/sub-service-why-choose-2.png";
 import whyChooseImg3 from "@/public/sub-service-why-choose-3.png";
 import subServiceBanner from "@/public/sub-service-banner.png";
@@ -29,15 +38,14 @@ export default function SubService() {
           alt=""></Image>
         <SubServiceContentSection />
         <div className="sub-service-scroller">
-          <div>
-            <div>
-              {/* <Image
-                className=""
-                style={{ width: "39px", height: "39px" }}
-                src={ball}
-                alt=""
-              /> */}
-            </div>
+          <div className="relative w-full h-full flex justify-center">
+            <div className="sub-service-scroller-line"></div>
+            <Image
+              className=""
+              style={{ width: "39px", height: "39px" }}
+              src={ball}
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -150,6 +158,7 @@ function ServicesOfSubService() {
       </h2>
       <div className="services-of-sub-service-holder">
         <div className="sub-service-card">
+          <Image src={healthcare} alt=""></Image>
           <h2>HEALTHCARE</h2>
           <p>
             Our AI is revolutionizing healthcare with tools for drug discovery,
@@ -158,6 +167,7 @@ function ServicesOfSubService() {
           </p>
         </div>
         <div className="sub-service-card">
+          <Image src={finace} alt=""></Image>
           <h2>FINANCE</h2>
           <p>
             Integrate AI into manufacturing processes for predictive
@@ -166,6 +176,7 @@ function ServicesOfSubService() {
           </p>
         </div>
         <div className="sub-service-card">
+          <Image src={manufacturing} alt=""></Image>
           <h2>MANUFACTURING</h2>
           <p>
             Our AI is revolutionizing healthcare with tools for drug discovery,
@@ -174,6 +185,7 @@ function ServicesOfSubService() {
           </p>
         </div>
         <div className="sub-service-card">
+          <Image src={engineering} alt=""></Image>
           <h2>HEAVY ENGINEERING</h2>
           <p>
             Leverage AI technology for heavy engineering projects to improve
@@ -182,6 +194,7 @@ function ServicesOfSubService() {
           </p>
         </div>
         <div className="sub-service-card">
+          <Image src={aerospace} alt=""></Image>
           <h2>AEROSPACE</h2>
           <p>
             Advance aerospace design and testing with cutting-edge AI-powered
@@ -190,6 +203,7 @@ function ServicesOfSubService() {
           </p>
         </div>
         <div className="sub-service-card">
+          <Image src={travel} alt=""></Image>
           <h2>TRAVEL & TRANSPORTATION</h2>
           <p>
             Our GenAI solutions forecast the best travel options and manage
@@ -198,6 +212,7 @@ function ServicesOfSubService() {
           </p>
         </div>
         <div className="sub-service-card">
+          <Image src={eCommerce} alt=""></Image>
           <h2>E-COMMERCE</h2>
           <p>
             Amplify your e-commerce strategy with GenAI services to boost
@@ -206,6 +221,7 @@ function ServicesOfSubService() {
           </p>
         </div>
         <div className="sub-service-card">
+          <Image src={realEstate} alt=""></Image>
           <h2>REAL ESTATE</h2>
           <p>
             Enhance your real estate business with AI-powered design
@@ -214,6 +230,7 @@ function ServicesOfSubService() {
           </p>
         </div>
         <div className="sub-service-card">
+          <Image src={softwareTechnology} alt=""></Image>
           <h2>SOFTWARE TECHNOLOGY</h2>
           <p>
             We support software developers with AI tools for code automation,
