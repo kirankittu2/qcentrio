@@ -37,14 +37,14 @@ const caseStudies = {
   children: [
     {
       image: "http://localhost:3000/blog-1.png",
-      title: "Enhancing patient care with bi and sql analytics at qcentrio",
+      title: "Enhancing patient care with BI and SQL analytics at qcentrio",
       content: "Content",
       link: "/case-study/enhancing-patient-care-with-bi-and-sql-analytics",
     },
     {
       image: "http://localhost:3000/blog-1.png",
       title:
-        "Transforming pharmaceutical major’s sharepoint ecosystem with azure migration",
+        "Transforming pharmaceutical major’s sharepoint ecosystem with azure",
       content: "Content",
       link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
     },
