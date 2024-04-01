@@ -4,9 +4,9 @@ export default function BlogHero() {
   return (
     <div className="blogs-hero-content">
       <div className="breadcrump">
-        HOME <span></span> PERSPECTIVES
+        HOME <span></span> INSIGHTS
       </div>
-      <h1 className="blog-hero-heading">QCENTRIO PERSPECTIVES</h1>
+      <h1 className="blog-hero-heading">QCENTRIO INSIGHTS</h1>
       <p className="blog-hero-sub-heading">
         Insights to help you bring your best ideas to life. Subscribe to get the
         best tips, tricks, and success stories in your inbox.

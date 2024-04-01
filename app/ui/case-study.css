@@ -20,6 +20,7 @@
   padding-right: clamp(50px, 14.58vw, 280px);
   display: flex;
   gap: 30px;
+  margin-bottom: 50px;
 }
 
 .case-study-toogle-button {

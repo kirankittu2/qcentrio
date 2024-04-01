@@ -13,7 +13,7 @@ export default function AllBlogs({ data, type, page, paginationNum }) {
           <SearchBar />
           <div className="most-search-column">
             Most Searched Keywords :
-            <span className="keywords">Case Studies</span>
+            <span className="keywords">Case Studies,</span>
             <span className="keywords">Thought Leadership Papers,</span>
             <span className="keywords">Cloud Migration</span>
           </div>
