@@ -1,8 +1,10 @@
 const blogs = {
   children: [
     {
-      title: "7 ways to maximize your cloud security",
-      content: "Content",
+      title:
+        "7 effective ways to maximize your cloud security for enhanced protection",
+      content:
+        "In the cloud revolution, securing data against breaches is crucial for the 94% of enterprises using cloud services, as this blog will explore.",
       link: "/perspectives/7-ways-to-maximize-your-cloud-security",
     },
     {
@@ -42,6 +44,23 @@ const caseStudies = {
   pageNumber: 0,
 };
 
+const thoughtLeadership = {
+  children: [
+    {
+      title: "Enhancing patient care with bi and sql analytics at qcentrio",
+      content: "Content",
+      link: "/case-study/enhancing-patient-care-with-bi-and-sql-analytics",
+    },
+    {
+      title:
+        "Transforming pharmaceutical major’s sharepoint ecosystem with azure migration",
+      content: "Content",
+      link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
+    },
+  ],
+  pageNumber: 0,
+};
+
 export async function search(type, item, page) {
   if (type == "perspectives") {
     if (item != "") {
@@ -57,6 +76,14 @@ export async function search(type, item, page) {
       return data;
     } else {
       const data = prepareData(caseStudies, page);
+      return data;
+    }
+  } else if (type == "thought-leadership") {
+    if (item != "") {
+      const data = prepareDataWithItem(thoughtLeadership, item, page);
+      return data;
+    } else {
+      const data = prepareData(thoughtLeadership, page);
       return data;
     }
   }

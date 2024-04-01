@@ -205,7 +205,7 @@ textarea {
   gap: 10px;
 }
 
-.main-logo-conatiner{
+.main-logo-conatiner {
   position: relative;
   width: 135px;
   height: 36px;
@@ -328,6 +328,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Quadran-Medium";
 }
 
 .mega-menu-main-nav-link img {
@@ -363,7 +364,7 @@ header {
   padding: 14px 0px;
 }
 
-.menu-menu-container{
+.menu-menu-container {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -542,14 +543,14 @@ header {
   font-family: "Quadran-Black";
   font-size: clamp(35px, 3.38vw, 65px);
   color: white;
-  line-height:  clamp(20px, 3.312vw , 65px);
+  line-height: clamp(20px, 3.312vw, 65px);
   margin-bottom: 10px;
   letter-spacing: -1px;
 }
 
 .hero-sub-heading {
   font-family: "Quadran-Bold";
-  font-size: clamp(20px, 1.25vw, 24px ) ;
+  font-size: clamp(20px, 1.25vw, 24px);
   color: white;
   margin-bottom: 20px;
   line-height: 25px;
@@ -739,6 +740,7 @@ header {
   margin-bottom: 20px;
   letter-spacing: -1px;
   line-height: 28px;
+  text-transform: capitalize;
 }
 
 .triangle {
@@ -937,7 +939,7 @@ header {
 .jouney-carousel-nav .right {
   padding: 10px;
   cursor: pointer;
-   width: 60px;
+  width: 60px;
 }
 
 .journey-carousel-container {
@@ -1260,7 +1262,6 @@ header {
   white-space: nowrap;
 }
 
-
 .footer-item a:hover {
   color: #089768;
   text-decoration: none;
@@ -1422,7 +1423,6 @@ header {
 .author-name {
   font-size: 14px;
   font-family: "Quadran-Bold";
-  
 }
 
 .author-role {
@@ -1440,7 +1440,7 @@ header {
   font-size: 34px;
   font-family: "Quadran-Bold";
   margin-bottom: 10px;
-  /* letter-spacing: -1.5px; */
+  letter-spacing: -1px;
 }
 
 .blog-page-main-content h3 {
@@ -1515,6 +1515,7 @@ header {
 .reach-out p {
   font-family: "Quadran-Bold";
   font-size: 20px;
+  letter-spacing: -1px;
 }
 
 .tags-container {
@@ -1530,6 +1531,7 @@ header {
   border-radius: 30px;
   padding: 10px 20px;
   white-space: nowrap;
+  font-family: "Quadran-Regular";
 }
 
 .blog-page-main-content .table-of-contents > ul > li::marker,
@@ -1545,11 +1547,11 @@ header {
   top: 2px;
 }
 
-.table-of-contents ul ul{
+.table-of-contents ul ul {
   margin-top: 0px;
 }
 
-.table-of-contents > ul li{
+.table-of-contents > ul li {
   margin-bottom: 10px;
 }
 
@@ -1721,224 +1723,223 @@ header {
 }
 
 /* privacy policy styles */
-.privacy-policy .hero{
+.privacy-policy .hero {
   padding-bottom: 80px;
 }
 
-.privacy-policy-heading-section{
+.privacy-policy-heading-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
-.privacy-policy-heading-section h1{
+.privacy-policy-heading-section h1 {
   font-size: 64px;
   line-height: 68px;
   font-family: "Quadran-Black";
 }
 
-.privacy-policy-heading-section p{
+.privacy-policy-heading-section p {
   font-size: 18px;
   font-family: "Quadran-Bold";
 }
 
-.privacy-policy-content-section{
+.privacy-policy-content-section {
   display: flex;
   gap: 50px;
 }
 
-.privacy-policy-content{
+.privacy-policy-content {
   flex: 2;
 }
 
-.other-links-section{
+.other-links-section {
   flex: 1;
 }
 
-.privacy-policy-content h2{
+.privacy-policy-content h2 {
   font-size: 24px;
   font-family: "Quadran-Bold";
   margin-bottom: 10px;
 }
 
-.other-links{
+.other-links {
   padding: 30px;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   border-top: 5px solid var(--primary-color);
 }
 
-
-.other-links h2{
+.other-links h2 {
   font-size: 14px;
   font-family: "Quadran-Bold";
   margin-bottom: 15px;
 }
 
-.other-links p{
+.other-links p {
   font-size: 16px;
   font-family: "Quadran-Regular";
   margin-bottom: 15px;
 }
 
-.other-links a{
+.other-links a {
   text-decoration: none;
   color: black;
 }
 
-.other-links a.active{
+.other-links a.active {
   font-family: "Quadran-Bold";
   color: var(--primary-color) !important;
 }
 
-.footer-columns-holder{
+.footer-columns-holder {
   display: flex;
 }
 
-.footer-form-sub-heading{
+.footer-form-sub-heading {
   margin-bottom: 20px;
 }
 
-.privacy-policy-check-text{
+.privacy-policy-check-text {
   display: flex;
   align-items: center;
 }
 
-.discover-block-space{
+.discover-block-space {
   width: 191px;
 }
 
-.mobile-nav-button{
+.mobile-nav-button {
   display: none;
 }
 
-.hero-carousel-nav-buttons-container{
+.hero-carousel-nav-buttons-container {
   width: 3.38vw;
   height: 1.19vw;
   position: relative;
 }
 
-.why-qcentrio-card-icon{
+.why-qcentrio-card-icon {
   width: 56px;
   height: 56px;
   position: relative;
 }
 
-
-.blog-page-social-column .social-links{
+.blog-page-social-column .social-links {
   justify-content: left;
 }
 
-
 @media screen and (max-width: 1764px) {
-  #path-2, #path-1{
+  #path-2,
+  #path-1 {
     display: none;
   }
 }
 
 @media screen and (max-width: 1716px) {
-  #path-5{
+  #path-5 {
     display: none;
   }
 }
 
 @media screen and (max-width: 1620px) {
-  .journey-carousel-item > div{
+  .journey-carousel-item > div {
     width: 84.3vw;
-  } 
+  }
 }
 
 @media screen and (max-width: 1404px) {
-  .main-nav-link{
+  .main-nav-link {
     display: none;
   }
 
-  .mobile-nav-button{
+  .mobile-nav-button {
     display: block;
   }
 
-  .discover-heading{
+  .discover-heading {
     width: 100px;
   }
 
-  .blog-page-social-column{
+  .blog-page-social-column {
     display: none;
   }
 }
 
 @media screen and (max-width: 1339px) {
   /* footer styles */
-  .footer-column-container{
+  .footer-column-container {
     flex-direction: column;
   }
 
-  .footer-columns-holder{
+  .footer-columns-holder {
     justify-content: space-between;
     margin-bottom: 30px;
   }
 
-  .footer-form-heading{
+  .footer-form-heading {
     text-align: center;
     margin-bottom: 15px;
   }
 
-  .footer-form-sub-heading{
+  .footer-form-sub-heading {
     text-align: center;
     margin-bottom: 15px;
   }
 
-  .privacy-policy-check-text{
+  .privacy-policy-check-text {
     justify-content: center;
   }
 
-  .footer-form-column{
+  .footer-form-column {
     margin-bottom: 30px;
   }
 
-  .social-links{
+  .social-links {
     justify-content: center;
   }
 
   /* home page why choose qcentrio */
-  .home-services-container, .blogs-container, .all-service-list-container{
+  .home-services-container,
+  .blogs-container,
+  .all-service-list-container {
     grid-template-columns: 1fr 1fr;
   }
 
-  .discover-block{
+  .discover-block {
     width: 150px;
   }
 
-  .discover-block-space{
-     width: 150px;
+  .discover-block-space {
+    width: 150px;
   }
 }
 
-
 @media screen and (max-width: 1110px) {
-  .btn{
+  .btn {
     padding: 10px 25px;
     min-width: unset;
   }
 
-  .lets-talk-container input{
+  .lets-talk-container input {
     padding: 18px;
   }
 
-  input{
+  input {
     padding: 10px;
   }
 
-  .insights-arrows-holder{
+  .insights-arrows-holder {
     display: flex;
     justify-content: center;
   }
 
-  .insights-right-arrow{
+  .insights-right-arrow {
     position: unset;
     padding-bottom: 0px;
   }
 
-  .insights-left-arrow{
+  .insights-left-arrow {
     position: unset;
     order: -1;
     padding-top: 0px;
@@ -1946,97 +1947,99 @@ header {
 }
 
 @media screen and (max-width: 1000px) {
-  .discover-section{
+  .discover-section {
     flex-direction: column;
     gap: 75px;
     padding-top: 80px;
   }
 
-  .discover-heading{
+  .discover-heading {
     width: unset;
   }
 
-  .jouney-carousel-nav{
+  .jouney-carousel-nav {
     gap: 10px;
   }
 
-  .blog-page-main-content-container{
+  .blog-page-main-content-container {
     flex-direction: column;
   }
 
-  .blog-page-side-content-bar{
+  .blog-page-side-content-bar {
     max-width: unset;
   }
 
-  .category-container{
+  .category-container {
     margin-bottom: 0px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .btn{
+  .btn {
     padding: 10px 25px;
     min-width: unset;
   }
 
-  .lets-talk-container input{
+  .lets-talk-container input {
     padding: 18px;
   }
 
-  .search-list-item{
+  .search-list-item {
     display: none;
   }
 
-  .about-section{
+  .about-section {
     flex-direction: column;
   }
 
-  .about-section > div:first-child{
+  .about-section > div:first-child {
     padding-right: unset;
   }
 
-  .home-services-container, .blogs-container, .all-service-list-container{
-        grid-template-columns: 1fr;
+  .home-services-container,
+  .blogs-container,
+  .all-service-list-container {
+    grid-template-columns: 1fr;
   }
 
-  .journey-carousel-item > div{
+  .journey-carousel-item > div {
     flex-direction: column;
   }
 
-  .journey-carousel-image{
+  .journey-carousel-image {
     width: 100%;
   }
 
-  .footer-columns-holder{
+  .footer-columns-holder {
     flex-direction: column;
     margin-bottom: 10px;
   }
 
-  .contact-column{
+  .contact-column {
     flex-direction: column;
     gap: 10px;
     margin-bottom: 10px;
   }
 
-  .hero-heading{
+  .hero-heading {
     font-size: 30px;
     line-height: 35px;
   }
 
-  .hero-sub-heading{
+  .hero-sub-heading {
     font-size: 20px;
   }
 
-  .hero-carousel-nav{
+  .hero-carousel-nav {
     display: none;
   }
 
-  .hero-slide > div{
+  .hero-slide > div {
     display: flex;
     flex-direction: column;
   }
 
-  .hero-content{
+  .hero-content {
     position: unset;
     padding-left: clamp(5px, 7.81vw, 140px);
     padding-right: clamp(5px, 7.81vw, 140px);
@@ -2044,97 +2047,96 @@ header {
     width: unset;
   }
 
-  .hero-carousel-down{
+  .hero-carousel-down {
     display: none;
   }
 
-  #hero-carousel-content.slideUP{
+  #hero-carousel-content.slideUP {
     transform: none !important;
   }
 
-  .hero-carousel-num-nav{
+  .hero-carousel-num-nav {
     top: 20px;
-    left: clamp(5px, 7.81vw, 140px);;
+    left: clamp(5px, 7.81vw, 140px);
   }
 
-  .main-logo-conatiner{
+  .main-logo-conatiner {
     width: 95px;
     height: 26px;
   }
 
-  .nav-contact-btn{
+  .nav-contact-btn {
     display: none;
   }
 
-  .footer-column{
+  .footer-column {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  .footer-heading{
+  .footer-heading {
     text-align: center;
     margin-bottom: 10px;
   }
 
-  .footer-item{
+  .footer-item {
     text-align: center;
   }
 
-  .section-heading{
+  .section-heading {
     font-size: 24px;
     line-height: 30px;
   }
 
-  .sub-heading{
+  .sub-heading {
     font-size: 20px;
   }
 
-  .highlight-content{
+  .highlight-content {
     font-size: 18px;
   }
 
-  .journey-carousel-heading{
+  .journey-carousel-heading {
     font-size: 34px;
     line-height: 38px;
   }
 
-  .journey-carousel-title{
+  .journey-carousel-title {
     margin-bottom: 20px;
   }
 
-  .why-qcentrio-heading{
+  .why-qcentrio-heading {
     font-size: 20px;
     line-height: 24px;
   }
 
-  .contact-heading{
+  .contact-heading {
     font-size: 34px;
     line-height: 38px;
   }
 
-  .footer-form-heading{
+  .footer-form-heading {
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 10px;
   }
 
-  .discover-block-space{
+  .discover-block-space {
     margin-top: -46px;
   }
 
-  .privacy-policy-content-section{
+  .privacy-policy-content-section {
     flex-direction: column;
-
   }
 
-  .privacy-policy-heading-section{
+  .privacy-policy-heading-section {
     flex-direction: column;
     align-items: unset;
     padding-top: 30px;
     padding-bottom: 30px;
   }
 
-  .privacy-policy-heading-section h1{
+  .privacy-policy-heading-section h1 {
     font-size: 34px;
     line-height: 38px;
     margin-bottom: 10px;
@@ -2142,158 +2144,159 @@ header {
 }
 
 @media screen and (max-width: 624px) {
-  .insights-wrapper .card > div{
+  .insights-wrapper .card > div {
     width: 70vw;
   }
 
-  .discover-card{
+  .discover-card {
     flex-direction: column;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .hero{
+  .hero {
     padding-left: 25px;
   }
 
-  header{
+  header {
     padding-left: 25px;
     padding-right: 25px;
   }
 
-  .hero-carousel-num-nav{
+  .hero-carousel-num-nav {
     left: 25px;
   }
 
-  .hero-content{
+  .hero-content {
     padding-left: 25px;
     padding-right: 25px;
   }
 
-  .hero-slide > div{
+  .hero-slide > div {
     width: 94.8vw;
   }
 
-  .hero-carousel-container{
+  .hero-carousel-container {
     width: 94.8vw;
   }
 
-  .section{
+  .section {
     padding-left: 50px;
     padding-right: 50px;
   }
 
-  .journey-heading-section{
+  .journey-heading-section {
     padding-left: 50px;
     padding-right: 50px;
   }
 
-  .journey-carousel-container{
+  .journey-carousel-container {
     padding-left: 50px;
   }
 
-  .balance-section{
+  .balance-section {
     padding-left: 50px;
     padding-right: 50px;
   }
 
-  .insights-heading-container{
+  .insights-heading-container {
     margin-right: unset;
   }
 
-  .blogs-container{
+  .blogs-container {
     width: 74.5vw;
   }
 
-  .insights-wrapper .card > div{
+  .insights-wrapper .card > div {
     width: 74.5vw;
   }
 
-  .footer-section{
+  .footer-section {
     padding-left: 50px;
-    padding-right: 50px;    
+    padding-right: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
 
-  .copyright-section{
+  .copyright-section {
     padding-left: 50px;
-    padding-right: 50px;   
+    padding-right: 50px;
     flex-direction: column;
-    gap: 20px; 
+    gap: 20px;
   }
 
-  .journey-carousel-content-container{
+  .journey-carousel-content-container {
     padding: 30px;
   }
 
-  .contact-section form{
-     width: 100%;
+  .contact-section form {
+    width: 100%;
     margin-right: unset;
     margin-left: unset;
   }
 
-  .blog-hero-heading{
+  .blog-hero-heading {
     font-size: 30px;
     line-height: 34px;
     margin-bottom: 20px;
   }
 
-  .blog-hero-sub-heading{
+  .blog-hero-sub-heading {
     font-size: 18px;
     line-height: 22px;
   }
 
-  .blog-section{
+  .blog-section {
     padding-left: 50px;
     padding-right: 50px;
   }
 
-  .blog-hero{
+  .blog-hero {
     padding-left: 25px;
     padding-bottom: 50px;
   }
 
-  .blogs-hero-content{
+  .blogs-hero-content {
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 50px;
     width: 100%;
   }
 
-  .breadcrump{
+  .breadcrump {
     font-size: 14px;
     margin-bottom: 30px;
   }
 
-  .blog-page-hero{
+  .blog-page-hero {
     padding-left: 25px;
   }
 
-  .blog-page-container{
+  .blog-page-container {
     padding-left: 25px;
     padding-right: 25px;
   }
-  
-  .blog-page-main-content{
+
+  .blog-page-main-content {
     padding: 0px;
   }
 
-  .table-of-contents, .reach-out{
+  .table-of-contents,
+  .reach-out {
     margin-left: 0px;
     margin-right: 0px;
   }
 
-  .blog-page-title{
+  .blog-page-title {
     font-size: 30px;
     line-height: 34px;
   }
 
-  .blog-page-main-content h2{
+  .blog-page-main-content h2 {
     font-size: 20px;
   }
 
-  .copyright-section > div{
+  .copyright-section > div {
     text-align: center;
   }
 }

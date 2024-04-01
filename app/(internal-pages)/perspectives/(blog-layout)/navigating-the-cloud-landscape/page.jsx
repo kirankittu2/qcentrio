@@ -7,7 +7,7 @@ export default function SampleBlog() {
   return (
     <main className="blog-page-content">
       <div className="breadcrump">
-        BLOG <span></span> <span>CLOUD SECURITY</span>
+        PERPECTIVE <span></span> <span>CLOUD SECURITY</span>
       </div>
       <h1 className="blog-page-title">
         NAVIGATING THE CLOUD LANDSCAPE: 5 KEY STRATEGIES FOR EFFECTIVE CLOUD
@@ -20,7 +20,7 @@ export default function SampleBlog() {
         <div className="blog-page-side-content-bar">
           <div className="author-conatiner">
             <div className="blog-page-author-head-container">
-              <h2 className="blog-page-side-heading">AUTHOR THIS BLOG</h2>
+              <h2 className="blog-page-side-heading">AUTHOR OF THIS BLOG</h2>
               <Image className="author-linkedin-link" src={linkedin} alt="" />
             </div>
             <div className="flex items-center gap-2.5">

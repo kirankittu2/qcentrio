@@ -7,7 +7,7 @@ export default function SampleBlog() {
   return (
     <main className="blog-page-content">
       <div className="breadcrump">
-        BLOG <span></span> <span>CLOUD SECURITY</span>
+        PERPECTIVE <span></span> <span>CLOUD SECURITY</span>
       </div>
       <h1 className="blog-page-title">
         7 WAYS TO MAXIMIZE YOUR CLOUD SECURITY
@@ -19,7 +19,7 @@ export default function SampleBlog() {
         <div className="blog-page-side-content-bar">
           <div className="author-conatiner">
             <div className="blog-page-author-head-container">
-              <h2 className="blog-page-side-heading">AUTHOR THIS BLOG</h2>
+              <h2 className="blog-page-side-heading">AUTHOR OF THIS BLOG</h2>
               <Image className="author-linkedin-link" src={linkedin} alt="" />
             </div>
             <div className="flex items-center gap-2.5">
@@ -192,10 +192,13 @@ export default function SampleBlog() {
             </li>
           </ol>
           <h2>Seven Ways To Maximize Cloud Security</h2>
-          <p>Seven Ways To Maximize Cloud Security</p>
+          <p>
+            Since we now understand the importance of cloud security, let us
+            look at ways to maximize it.
+          </p>
           <ul>
             <li>
-              <h3>Seven Ways To Maximize Cloud Security</h3>
+              <h3>Embrace Robust Identity and Access Management (IAM)</h3>
               <p>
                 IAM functions as your digital gatekeeper, controlling who can
                 access your cloud resources and the extent of their permissions.
@@ -302,8 +305,8 @@ export default function SampleBlog() {
           </div>
           <div className="tags-container">
             <div className="tag">Cloud Migration</div>
-            <div className="tag">Cloud Migration</div>
-            <div className="tag">Cloud Migration</div>
+            <div className="tag">Cloud Security</div>
+            <div className="tag">Cloud Data</div>
           </div>
         </div>
       </div>

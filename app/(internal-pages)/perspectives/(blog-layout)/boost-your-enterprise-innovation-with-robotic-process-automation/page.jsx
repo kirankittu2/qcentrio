@@ -7,7 +7,7 @@ export default function SampleBlog() {
   return (
     <main className="blog-page-content">
       <div className="breadcrump">
-        BLOG <span></span> <span>ROBOTIC PROCESS AUTOMATION</span>
+        PERPECTIVE <span></span> <span>ROBOTIC PROCESS AUTOMATION</span>
       </div>
       <h1 className="blog-page-title">
         BOOST YOUR ENTERPRISE INNOVATION WITH ROBOTIC PROCESS AUTOMATION
@@ -19,7 +19,7 @@ export default function SampleBlog() {
         <div className="blog-page-side-content-bar">
           <div className="author-conatiner">
             <div className="blog-page-author-head-container">
-              <h2 className="blog-page-side-heading">AUTHOR THIS BLOG</h2>
+              <h2 className="blog-page-side-heading">AUTHOR OF THIS BLOG</h2>
               <Image className="author-linkedin-link" src={linkedin} alt="" />
             </div>
             <div className="flex items-center gap-2.5">
@@ -86,6 +86,7 @@ export default function SampleBlog() {
               </li>
             </ul>
           </div>
+          <h2>Understanding RPA</h2>
           <p>
             Understanding what RPA is begins with understanding what it isn't.
             At its core, RPA leverages software robots or 'bots' to replace
@@ -97,6 +98,7 @@ export default function SampleBlog() {
             thinking and problem-solving, thereby enhancing productivity and
             efficiency.
           </p>
+          <h2>Key Strengths of RPA</h2>
           <p>
             One of RPA's key strengths is its ability to maintain consistent
             operations. By automating tasks that would otherwise require
@@ -106,6 +108,7 @@ export default function SampleBlog() {
             needing breaks or downtime ensures business processes can continue
             uninterrupted, eliminating delays and improving business continuity.
           </p>
+          <h3>Benefits Beyond Time-Saving</h3>
           <p>
             Besides saving time, RPA brings forth many other benefits as well.
             This will eventually improve the efficiency of the administration
@@ -118,6 +121,7 @@ export default function SampleBlog() {
             decidedly beneficial in the so-called 'finance, health care, and
             manufacturing' industry, where precision and speed are the sunlight.
           </p>
+          <h3>Encouraging Innovation through RPA</h3>
           <p>
             On the other hand, RPA is an explicit mechanism that encourages
             innovation within any business. By automating the RPA of monotonous
@@ -129,6 +133,7 @@ export default function SampleBlog() {
             RPA, a breakdown of silos is done, which provides the opportunity
             for the teams to work together with common goals in mind.
           </p>
+          <h3>Scalability and Flexibility of RPA</h3>
           <p>
             Another remarkable feature of RPA that impressed me is the scale of
             its operations. In contrast to conventional automation systems that
@@ -140,6 +145,7 @@ export default function SampleBlog() {
             which many organizations' modern enterprises need to adjust promptly
             to the dynamic market.
           </p>
+          <h2>RPA in Compliance and Risk Management</h2>
           <p>
             However, not only does compliance and risk management RPA provide
             distinct advantages, but it also drives process efficiency and
@@ -154,6 +160,7 @@ export default function SampleBlog() {
             reputational harm to violating compliance policies, which could lead
             to high penalties for the organization.
           </p>
+          <h2>Strategic Implementation of RPA</h2>
           <p>
             On top of it, RPA can ensure that organizations can implement
             changes due to intriguing regulatory landscapes as it deals with
@@ -166,6 +173,7 @@ export default function SampleBlog() {
             time, assist in developing strategic tasks and valued work by using
             extra resources.
           </p>
+          <h3>Ensuring Success with RPA</h3>
           <p>
             On the other hand, among the aspects of RPA that cannot be
             overstated is that, despite the sea of benefits, guaranteed success
