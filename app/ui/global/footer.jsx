@@ -9,15 +9,27 @@ export default function Footer() {
       <div className="footer-column-container">
         <div className="footer-columns-holder">
           <div className="footer-column">
-            <h2 className="footer-heading">Insights</h2>
-            <p className="footer-item">Prespectives</p>
-            <p className="footer-item">Case Studies</p>
+            <h2 className="footer-heading">
+              <Link href="http://localhost:3000/perspectives">Insights</Link>
+            </h2>
+            <p className="footer-item">
+              <Link href="http://localhost:3000/perspectives">
+                Prespectives
+              </Link>
+            </p>
+            <p className="footer-item">
+              <Link href="http://localhost:3000/perspectives?type=case-study">
+                Case Studies
+              </Link>
+            </p>
             <p className="footer-item">Thought Leadership</p>
             <p className="footer-item">News</p>
           </div>
           <div className="footer-column">
             <h2 className="footer-heading">Company</h2>
-            <p className="footer-item">About Us</p>
+            <p className="footer-item">
+              <Link href="http://localhost:3000/about-us">About Us</Link>
+            </p>
             <p className="footer-item">Careers</p>
             <p className="footer-item">Partners</p>
           </div>

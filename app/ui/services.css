@@ -490,6 +490,7 @@
 
 .sub-service-heading-content-section {
   display: flex;
+  gap: 30px;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: clamp(50px, 21.8vw, 420px);
@@ -504,6 +505,12 @@
 
 .sub-service-heading-content-section h2 span {
   color: var(--primary-color);
+}
+
+.sub-service-heading-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .service-offerings-section {
@@ -734,6 +741,17 @@
 
 .sub-services-why-choose-cards-holder img {
   margin-bottom: 20px;
+}
+
+.sub-service-banner-image {
+  padding-left: clamp(50px, 14.58vw, 280px);
+  margin-bottom: 50px;
+}
+
+.sub-service-content-side-image {
+  width: 536px;
+  height: 406px;
+  position: relative;
 }
 
 @media screen and (max-width: 1339px) {

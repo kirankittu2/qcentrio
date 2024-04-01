@@ -5,6 +5,7 @@ import AboutUSWhyQucentrio from "../../ui/about-us/about-us-why-qucentrio";
 import Button from "../../ui/global/button";
 import CopyrightBar from "../../ui/global/copyrightbar";
 import Footer from "../../ui/global/footer";
+import Link from "next/link";
 
 export default function AboutUs() {
   return (
@@ -24,7 +25,9 @@ export default function AboutUs() {
         <div className="join-us-buttons">
           <Button name="Work with Us" />
           <div className="divider"></div>
-          <Button name="Talk to Us" />
+          <Link href="/contact-us">
+            <Button name="Talk to Us" />
+          </Link>
         </div>
       </div>
       <Footer />

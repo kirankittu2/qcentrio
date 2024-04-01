@@ -7,6 +7,8 @@ import Image from "next/image";
 import whyChooseImg1 from "@/public/sub-service-why-choose-1.png";
 import whyChooseImg2 from "@/public/sub-service-why-choose-2.png";
 import whyChooseImg3 from "@/public/sub-service-why-choose-3.png";
+import subServiceBanner from "@/public/sub-service-banner.png";
+import contentImage from "@/public/sub-service-content-side-image.png";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 
 export default function SubService() {
@@ -19,6 +21,10 @@ export default function SubService() {
         </div>
       </div>
       <SubServiceHeroSection />
+      <Image
+        className="sub-service-banner-image"
+        src={subServiceBanner}
+        alt=""></Image>
       <SubServiceContentSection />
       <SubServiceOfferings />
       <ServicesOfSubService />
@@ -89,9 +95,11 @@ function SubServiceContentSection() {
   return (
     <div className="sub-service-heading-content-section">
       <div>
-        <Image alt="" />
+        <div className="sub-service-content-side-image">
+          <Image fill src={contentImage} alt="" />
+        </div>
       </div>
-      <div>
+      <div className="sub-service-heading-content">
         <h2 className="section-heading">
           Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>
         </h2>
