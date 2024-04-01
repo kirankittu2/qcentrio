@@ -42,7 +42,7 @@ export default function SubService() {
             <div className="sub-service-scroller-line"></div>
             <Image
               className=""
-              style={{ width: "39px", height: "39px" }}
+              style={{ width: "50px", height: "50px" }}
               src={ball}
               alt=""
             />

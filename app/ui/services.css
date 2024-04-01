@@ -523,12 +523,14 @@
   background: transparent linear-gradient(180deg, #f7ffec 0%, #ffffff 100%) 0%
     0% no-repeat padding-box;
   border-top: 36px solid var(--primary-color);
+  position: relative;
 }
 
 .service-offerings-section-col-1 {
   flex: 1;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .service-offerings-section-col-2 {
@@ -556,6 +558,7 @@
   border-radius: 6px;
   margin-top: auto;
   width: 291px;
+  z-index: 1;
 }
 
 .need-something-card h2 {
@@ -779,11 +782,23 @@
 .sub-service-scroller img{
     position: sticky;
     top: 261px;
-    margin-left: 10px;
+    margin-left: 14.2px;
 }
 
 .sub-service-card img{
   margin-bottom: 30px;
+}
+
+#path-6{
+  position: absolute;
+  top: 30px;
+  left: -30px;
+}
+
+#path-7{
+  position: absolute;
+  top: 131px;
+  left: -100px;
 }
 
 @media screen and (max-width: 1339px) {

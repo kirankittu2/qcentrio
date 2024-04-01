@@ -2,11 +2,19 @@
 
 import arrow from "@/public/discover-arrow.svg";
 import service1 from "@/public/sub-offerings-1.png";
+import service2 from "@/public/sub-offerings-2.jpeg";
+import service3 from "@/public/sub-offerings-3.jpeg";
+import service4 from "@/public/sub-offerings-4.jpeg";
+import service5 from "@/public/sub-offerings-5.jpg";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
+import Path6 from "../../global/path-6";
+import Path7 from "../../global/path-7";
 
 export default function SubServiceOfferings() {
   const [index, setIndex] = useState(1);
+  const images = [service1, service2, service3, service4, service5];
   return (
     <div className="service-offerings-section">
       <div className="service-offerings-section-col-1">
@@ -17,16 +25,19 @@ export default function SubServiceOfferings() {
         <div className="need-something-card">
           <h2 className="sub-heading">Need Something Else?</h2>
           <p>Contact us and we can figure out how to adapt to your needs</p>
-          <div className="need-something-btn">
-            Contact Us
-            <span>
-              <Image src={arrow} alt="" />
-            </span>
-          </div>
+          <Link className="w-fit" href="/contact-us">
+            <div className="need-something-btn">
+              Contact Us
+              <span>
+                <Image src={arrow} alt="" />
+              </span>
+            </div>
+          </Link>
         </div>
+        {/* <Path7 /> */}
       </div>
       <div className="service-offerings-section-col-2">
-        <Image src={service1} alt="" />
+        <Image src={images[index - 1]} alt="" />
       </div>
       <div className="service-offerings-section-col-3">
         <div
@@ -120,6 +131,7 @@ export default function SubServiceOfferings() {
           </div>
         </div>
       </div>
+      <Path6 />
     </div>
   );
 }
