@@ -24,9 +24,9 @@ const blogs = {
     },
     {
       image: "http://localhost:3000/blog-1.png",
-      title:
-        "Navigating the cloud landscape: 5 key strategies for effective cloud assessment",
-      content: "Content",
+      title: "The cloud landscape: 5 strategies for effective cloud assessment",
+      content:
+        "In the cloud landscape, a thorough assessment is crucial for businesses to navigate their path, driving innovation and reducing costs.",
       link: "/perspectives/navigating-the-cloud-landscape",
     },
   ],
