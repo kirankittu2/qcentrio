@@ -1,21 +1,26 @@
 const blogs = {
   children: [
     {
-      title: "7 ways to maximize your cloud security",
+      image: "http://localhost:3000/cloud-security.jpg",
+      title:
+        "7 effective ways to maximize your cloud security for enhanced protection",
       content: "Content",
       link: "/perspectives/7-ways-to-maximize-your-cloud-security",
     },
     {
+      image: "http://localhost:3000/blog-1.png",
       title: "Boost your enterprise innovation with robotic process automation",
       content: "Content",
       link: "/perspectives/boost-your-enterprise-innovation-with-robotic-process-automation",
     },
     {
+      image: "http://localhost:3000/blog-1.png",
       title: "How blockchain redefines business and banking",
       content: "Content",
       link: "/perspectives/how-blockchain-redefines-business-and-banking",
     },
     {
+      image: "http://localhost:3000/blog-1.png",
       title:
         "Navigating the cloud landscape: 5 key strategies for effective cloud assessment",
       content: "Content",
@@ -28,11 +33,13 @@ const blogs = {
 const caseStudies = {
   children: [
     {
+      image: "http://localhost:3000/blog-1.png",
       title: "Enhancing patient care with bi and sql analytics at qcentrio",
       content: "Content",
       link: "/case-study/enhancing-patient-care-with-bi-and-sql-analytics",
     },
     {
+      image: "http://localhost:3000/blog-1.png",
       title:
         "Transforming pharmaceutical major’s sharepoint ecosystem with azure migration",
       content: "Content",

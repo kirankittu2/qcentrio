@@ -1,6 +1,5 @@
 import blog1 from "@/public/blog-1.png";
 import Image from "next/image";
-
 import blogArrow from "@/public/blog-arrow.svg";
 import Pagination from "./pagination";
 import Link from "next/link";
@@ -41,8 +40,22 @@ export default function AllBlogs({ data, type, page, paginationNum }) {
               Case Studies
             </div>
           </Link>
-          <div className="topic">ThoughtLeadership</div>
-          <div className="topic">News / Press Release</div>
+          <div
+            className={` topic ${
+              type == "thought-leadership"
+                ? "bg-[#089768] text-white"
+                : "bg-[#F9F9F9] text-black"
+            }`}>
+            ThoughtLeadership
+          </div>
+          <div
+            className={` topic ${
+              type == "news"
+                ? "bg-[#089768] text-white"
+                : "bg-[#F9F9F9] text-black"
+            }`}>
+            News / Press Release
+          </div>
         </div>
       </div>
       <div className="blog-articles-section blog-section">
@@ -56,8 +69,8 @@ export default function AllBlogs({ data, type, page, paginationNum }) {
             : data.children.map((item, index) => {
                 return (
                   <div key={index} className="card">
-                    <div>
-                      <Image src={blog1} alt="" />
+                    <div className="card-image">
+                      <Image fill src={item.image} alt="" />
                     </div>
                     <div className="blog-card-heading">
                       <h2 className="card-heading">{item.title}</h2>

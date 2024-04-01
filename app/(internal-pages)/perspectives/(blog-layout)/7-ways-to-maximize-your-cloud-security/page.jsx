@@ -1,5 +1,5 @@
 import Image from "next/image";
-import blogMainImage from "@/public/blog-main-img.png";
+import blogMainImage from "@/public/cloud-security.jpg";
 import linkedin from "@/public/linkedin.svg";
 import author from "@/public/blog-author.png";
 
@@ -10,7 +10,7 @@ export default function SampleBlog() {
         BLOG <span></span> <span>CLOUD SECURITY</span>
       </div>
       <h1 className="blog-page-title">
-        7 WAYS TO MAXIMIZE YOUR CLOUD SECURITY
+        7 effective ways to maximize your cloud security for enhanced protection
       </h1>
       <div className="blog-page-main-image">
         <Image src={blogMainImage} alt="" />
@@ -53,7 +53,7 @@ export default function SampleBlog() {
             and systems in the cloud isn&lsquo;t optional; it&lsquo;s essential.
           </p>
           <div id="table-of-contents" className="table-of-contents">
-            <h2 className="heading">TABLE OF CONTENTS</h2>
+            <h2 className=" blog-page-side-heading">TABLE OF CONTENTS</h2>
             <ul>
               <li>
                 What is Cloud Security and Why Does it Matter?
@@ -294,7 +294,7 @@ export default function SampleBlog() {
             </p>
           </div>
           <div className="reach-out">
-            <h2 className="heading">SOUNDS INTERESTING?</h2>
+            <h2 className="blog-page-side-heading">SOUNDS INTERESTING?</h2>
             <p>
               Reach out to <a>support@qcentrio.com</a> and discuss your
               situation with our experts.
