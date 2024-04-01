@@ -20,12 +20,17 @@ export default function SubService() {
           HOME <span></span> SERVICES
         </div>
       </div>
-      <SubServiceHeroSection />
-      <Image
-        className="sub-service-banner-image"
-        src={subServiceBanner}
-        alt=""></Image>
-      <SubServiceContentSection />
+      <div className="relative">
+        <SubServiceHeroSection />
+        <Image
+          className="sub-service-banner-image"
+          src={subServiceBanner}
+          alt=""></Image>
+        <SubServiceContentSection />
+        <div className="sub-service-scroller">
+          <Image alt="" />
+        </div>
+      </div>
       <SubServiceOfferings />
       <ServicesOfSubService />
       <SubServiceWhyChooseSection />

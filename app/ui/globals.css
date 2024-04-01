@@ -737,6 +737,11 @@ header {
   position: relative;
 }
 
+.card-image > img{
+  border-top-left-radius: 60px;
+  object-fit: cover;
+}
+
 .blog-card-content-container {
   padding: 30px;
   border: 1px solid #f3f1f1;
@@ -772,7 +777,7 @@ header {
 .main-nav-link {
   display: flex;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 /* blogs styles */
@@ -1192,7 +1197,7 @@ header {
 
 .footer-column-container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* gap: 30px; */
 }
 
@@ -1212,7 +1217,7 @@ header {
 
 .footer-column {
   width: fit-content;
-  padding-right: clamp(10px, 3.12vw, 60px);
+  padding-right: clamp(10px, 4.42vw, 85px);
 }
 
 .footer-form-heading {
@@ -1407,6 +1412,10 @@ header {
 
 .blog-page-main-image {
   margin-bottom: 30px;
+}
+
+.blog-page-main-image img{
+  border-bottom-left-radius: 100px;
 }
 
 .blog-page-main-content-container {

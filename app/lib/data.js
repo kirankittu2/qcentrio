@@ -9,14 +9,14 @@ const blogs = {
       link: "/perspectives/7-ways-to-maximize-your-cloud-security",
     },
     {
-      image: "http://localhost:3000/blog-1.png",
+      image: "http://localhost:3000/robotic-process.jpg",
       title: "Boost your enterprise innovation with robotic process automation",
       content:
         "In today's digital environment, innovation and robotic process automation are essential for streamlining procedures and driving growth.",
       link: "/perspectives/boost-your-enterprise-innovation-with-robotic-process-automation",
     },
     {
-      image: "http://localhost:3000/blog-1.png",
+      image: "http://localhost:3000/block-chain-banking.jpg",
       title: "How blockchain redefines business and banking",
       content:
         "Since Satoshi Nakamoto introduced Blockchain, the term emphasizes its unalterable nature, offering security to financial moguls.",

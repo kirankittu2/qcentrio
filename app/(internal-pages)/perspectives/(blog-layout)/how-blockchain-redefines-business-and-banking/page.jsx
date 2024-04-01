@@ -1,5 +1,5 @@
 import Image from "next/image";
-import blogMainImage from "@/public/blog-main-img.png";
+import blogMainImage from "@/public/block-chain-banking.jpg";
 import linkedin from "@/public/linkedin.svg";
 import author from "@/public/blog-author.png";
 
