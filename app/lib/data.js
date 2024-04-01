@@ -48,6 +48,20 @@ const caseStudies = {
       content: "Content",
       link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
     },
+    {
+      image: "http://localhost:3000/blog-1.png",
+      title:
+        "Transforming Land Management in India Leading State with a Blockchain Platform",
+      content: "Content",
+      link: "/case-study/transforming-land-management-in-india-leading-state-with-a-blockchain-platform",
+    },
+    {
+      image: "http://localhost:3000/blog-1.png",
+      title:
+        "Automating Vehicle Aerodynamics Simulations for a Major Automotive Design Company",
+      content: "Content",
+      link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
+    },
   ],
   pageNumber: 0,
 };
