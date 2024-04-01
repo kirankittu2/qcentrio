@@ -5,6 +5,7 @@ import Footer from "@/app/ui/global/footer";
 import SubServiceOfferings from "@/app/ui/offerings/sub-service/sub-offerings";
 import Image from "next/image";
 import whyChooseImg1 from "@/public/sub-service-why-choose-1.png";
+import ball from "@/public/ball.png";
 import whyChooseImg2 from "@/public/sub-service-why-choose-2.png";
 import whyChooseImg3 from "@/public/sub-service-why-choose-3.png";
 import subServiceBanner from "@/public/sub-service-banner.png";
@@ -28,7 +29,16 @@ export default function SubService() {
           alt=""></Image>
         <SubServiceContentSection />
         <div className="sub-service-scroller">
-          <Image alt="" />
+          <div>
+            <div>
+              {/* <Image
+                className=""
+                style={{ width: "39px", height: "39px" }}
+                src={ball}
+                alt=""
+              /> */}
+            </div>
+          </div>
         </div>
       </div>
       <SubServiceOfferings />

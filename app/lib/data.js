@@ -23,7 +23,7 @@ const blogs = {
       link: "/perspectives/how-blockchain-redefines-business-and-banking",
     },
     {
-      image: "http://localhost:3000/blog-1.png",
+      image: "http://localhost:3000/cloud-computing.jpg",
       title:
         "Navigating the cloud landscape: 5 key strategies for effective cloud assessment",
       content: "Content",
@@ -36,31 +36,32 @@ const blogs = {
 const caseStudies = {
   children: [
     {
-      image: "http://localhost:3000/blog-1.png",
+      image: "http://localhost:3000/enhancing-patient-care.jpg",
       title: "Enhancing patient care with BI and SQL analytics at qcentrio",
       content: "Content",
       link: "/case-study/enhancing-patient-care-with-bi-and-sql-analytics",
     },
+
     {
-      image: "http://localhost:3000/blog-1.png",
-      title:
-        "Transforming pharmaceutical major’s sharepoint ecosystem with azure",
-      content: "Content",
-      link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
-    },
-    {
-      image: "http://localhost:3000/blog-1.png",
+      image: "http://localhost:3000/land-management.jpg",
       title:
         "Transforming Land Management in India Leading State with a Blockchain Platform",
       content: "Content",
       link: "/case-study/transforming-land-management-in-india-leading-state-with-a-blockchain-platform",
     },
     {
-      image: "http://localhost:3000/blog-1.png",
+      image: "http://localhost:3000/automatic-vehicle.jpg",
       title:
         "Automating Vehicle Aerodynamics Simulations for a Major Automotive Design Company",
       content: "Content",
       link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
+    },
+    {
+      image: "http://localhost:3000/sharepoint-ecosystem.jpg",
+      title:
+        "Transforming pharmaceutical major’s sharepoint ecosystem with azure",
+      content: "Content",
+      link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
     },
   ],
   pageNumber: 0,
