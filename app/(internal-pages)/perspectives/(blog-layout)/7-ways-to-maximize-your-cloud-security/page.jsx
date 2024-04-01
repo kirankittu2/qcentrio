@@ -53,7 +53,7 @@ export default function SampleBlog() {
             and systems in the cloud isn&lsquo;t optional; it&lsquo;s essential.
           </p>
           <div id="table-of-contents" className="table-of-contents">
-            <h2 className=" blog-page-side-heading">TABLE OF CONTENTS</h2>
+            <h2 className="blog-page-side-heading">TABLE OF CONTENTS</h2>
             <ul>
               <li>
                 What is Cloud Security and Why Does it Matter?

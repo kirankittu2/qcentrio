@@ -110,6 +110,14 @@ input {
   letter-spacing: -0.4px;
 }
 
+ol{
+  list-style: auto;
+}
+
+ol li::marker{
+  font-family: "Quadran-Bold";
+}
+
 input:focus {
   border: 2px solid var(--primary-color) !important;
   outline: none;
@@ -408,10 +416,10 @@ header {
 .hero {
   padding-left: clamp(5px, 7.81vw, 140px);
   padding-bottom: clamp(5px, 7.81vw, 140px);
-  /* background-color: var(--primary-color); */
+  background-color: var(--primary-color);
   /* position: relative; */
-  background: transparent linear-gradient(113deg, #089768 0%, #000000 100%) 0%
-    0% no-repeat padding-box;
+  /* background: transparent linear-gradient(113deg, #089768 0%, #000000 100%) 0%
+    0% no-repeat padding-box; */
   overflow-x: clip;
 }
 
@@ -1184,6 +1192,7 @@ header {
 
 .footer-column-container {
   display: flex;
+  justify-content: space-between;
   /* gap: 30px; */
 }
 
@@ -1566,6 +1575,7 @@ h2.blog-page-side-heading {
   font-size: 14px;
   font-family: "Quadran-Bold";
   margin-bottom: 20px;
+  letter-spacing: 0px;
 }
 /* insights section styles */
 .insights-section {
