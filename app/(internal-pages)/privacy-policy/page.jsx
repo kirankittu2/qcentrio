@@ -86,7 +86,8 @@ export default function PrivacyPolicy() {
           <h2>How to get in touch</h2>
           <p>
             We strictly adhere to our privacy policies. If you have questions
-            about our privacy policy, please email us at info@qcentrio.com.
+            about our privacy policy, please email us at
+            <Link href=""> info@qcentrio.com.</Link>
           </p>
         </div>
         <OtherLinks />

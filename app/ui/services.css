@@ -96,6 +96,9 @@
   line-height: 32px;
   margin-bottom: 50px;
   letter-spacing: -1px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .services-container {
@@ -537,6 +540,16 @@
   flex: 1;
 }
 
+.service-offerings-section-middle-image{
+  width: 325px;
+  height: 100%;
+  position: relative;
+}
+
+.service-offerings-section-middle-image > img{
+  object-fit: cover;
+}
+
 .service-offerings-section-col-3 {
   flex: 2;
 }
@@ -717,6 +730,7 @@
 
 .sub-services-why-choose-cards-holder {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -800,10 +814,16 @@
   top: 131px;
   left: -100px;
 }
+@media screen and (max-width: 1600px) {
+  #path-6{
+    display: none;
+  }
+}
 
 @media screen and (max-width: 1339px) {
   .all-service-list-container,
-  .services-container {
+  .services-container,
+  .services-of-sub-service-holder {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -846,7 +866,7 @@
 
 @media screen and (max-width: 900px) {
   .all-service-list-container,
-  .services-container {
+  .services-container,.services-of-sub-service-holder {
     grid-template-columns: 1fr;
   }
 
@@ -868,6 +888,7 @@
   }
 
   .service-sub-heading {
+    width: 85%;
     font-size: 20px;
     line-height: 24px;
   }

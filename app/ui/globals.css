@@ -112,10 +112,28 @@ input {
 
 ol{
   list-style: auto;
+  margin-left: 30px;
+}
+
+ul{
+  list-style: disc;
+  margin-left: 30px;
 }
 
 ol li::marker{
   font-family: "Quadran-Bold";
+}
+
+ul li::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    -moz-text-align-last: start !important;
+    text-align-last: start !important;
+    color: var(--primary-color);
+    font-size: 20px;
 }
 
 input:focus {
@@ -219,9 +237,10 @@ textarea {
   height: 36px;
 }
 
-.section-heading span{
+.section-heading span, .hero-heading span, .highlight-content span, .service-sub-heading span{
   color: var(--primary-color);
 }
+
 
 /* .nav-arrow-img{
   rotate: 299deg;
@@ -234,6 +253,10 @@ textarea {
   padding-top: 20px;
   padding-bottom: 20px;
   /* position: relative; */
+}
+
+ul.main-nav{
+  list-style: none;
 }
 
 .main-nav li:first-child {
@@ -1143,7 +1166,7 @@ header {
   font-family: "Quadran-Bold";
   font-size: 55px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   letter-spacing: -1px;
   line-height: 55px;
   width: 80%;
@@ -1566,12 +1589,12 @@ header {
 }
 
 .blog-page-main-content .table-of-contents > ul > li::marker,
-.case-study-solution-content-container ul > li::marker {
+.case-study-solution-row-1-column-2 ul > li::marker {
   content: "";
 }
 
 .blog-page-main-content .table-of-contents > ul > li::before,
-.case-study-solution-content-container ul > li::before {
+.case-study-solution-row-1-column-2 ul > li::before {
   content: url("../../public/hexagon-check-blog.svg");
   position: absolute;
   left: -30px;
@@ -1801,6 +1824,12 @@ h2.blog-page-side-heading {
 
 .privacy-policy-content h2 {
   font-size: 24px;
+  font-family: "Quadran-Bold";
+  margin-bottom: 10px;
+}
+
+.privacy-policy-content h3 {
+  font-size: 20px;
   font-family: "Quadran-Bold";
   margin-bottom: 10px;
 }

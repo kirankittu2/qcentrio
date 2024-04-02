@@ -26,7 +26,7 @@ export const metadata = {
 export default function Services() {
   const glimpseContent = {
     heading1: "Transform Your Business and Operations with Qcentrio",
-    heading2: "Here's how we've helped our customers win",
+    heading2: "Here's how we've helped our <span>customers win</span>",
     content1:
       "Business operations that drive growth require a mix of tailored, innovative, advanced technology solutions that propel professionals who can steer it forward.",
     content2:
@@ -38,7 +38,7 @@ export default function Services() {
   const servicesContent = {
     heading: "NAVIGATE THE FUTURE CONFIDENTLY",
     subheading:
-      "With Bespoke Technology Solutions For Business Growth And Operational Excellence",
+      "With Bespoke Technology Solutions For <span>Business Growth</span> And <span>Operational Excellence</span>",
     children: [
       {
         image: cloud,

@@ -4,7 +4,7 @@ import analytics2 from "@/public/analytics-2.png";
 import analytics3 from "@/public/analytics-3.png";
 import analytics4 from "@/public/analytics-4.png";
 import CaseStudyHero from "@/app/ui/case-study/case-study-hero";
-import CaseStudyToggle from "@/app/ui/case-study/case-study-toggle";
+import CaseStudyToggle from "@/app/ui/case-study/streamline-case-study-toggle";
 import BottomLine from "@/app/ui/case-study/bottom-line";
 import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";

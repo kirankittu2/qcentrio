@@ -27,7 +27,7 @@ export const metadata = {
 export default function Services() {
   const glimpseContent = {
     heading1: "Embrace a Future of Security, Efficiency, and Innovation",
-    heading2: "Here's how we've helped our customers win",
+    heading2: "Here's how we've helped our <span>customers win</span>",
     content1:
       "Blockchain technology holds the key to transforming your enterprise operations. From enhancing supply chain transparency to streamlining financial transactions, blockchain's distributed database can revolutionize various business and public-sector applications.",
     content2:
@@ -38,7 +38,7 @@ export default function Services() {
 
   const servicesContent = {
     heading: "ESTABLISH DATA TRUST AND TRANSPARENCY",
-    subheading: "Empowering Numerous Impactful Applications",
+    subheading: "Empowering Numerous <span>Impactful Applications</span>",
     children: [
       {
         image: cloud,

@@ -30,7 +30,9 @@ export default function SubServiceOfferings({ data }) {
         {/* <Path7 /> */}
       </div>
       <div className="service-offerings-section-col-2">
-        <Image src={data.images[index]} alt="" />
+        <div className="service-offerings-section-middle-image">
+          <Image fill src={data.images[index]} alt="" />
+        </div>
       </div>
       <div className="service-offerings-section-col-3">
         {data.list.map((item, i) => {

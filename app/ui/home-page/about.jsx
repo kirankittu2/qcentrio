@@ -35,8 +35,11 @@ export default function About() {
         </p>
         <p className="highlight-content">
           In a changing world with the initiatives of digitization, Qcentrio is
-          your partner on the way to the digital zenith through AI, cloud
-          technologies, and inventive solutions strategically.
+          your partner on the way to the
+          <span>
+            &nbsp;digital zenith through AI, cloud technologies, and inventive
+            solutions strategically.
+          </span>
         </p>
       </div>
       <div>

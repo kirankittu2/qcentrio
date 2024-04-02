@@ -15,10 +15,10 @@ export default function Carousel() {
   const layer = useRef(null);
   const [index, setIndex] = useState(0);
   const [slideItem, setItem] = useState("");
-  // const [allImages, setAllImages] = useState([]);
-  // const [allBoxes, setAllBoxes] = useState([]);
-  // const [wid, setWidth] = useState(0);
-  // const [hei, setHeight] = useState(0);
+  const [allImages, setAllImages] = useState([]);
+  const [allBoxes, setAllBoxes] = useState([]);
+  const [wid, setWidth] = useState(0);
+  const [hei, setHeight] = useState(0);
   const intervalRef = useRef(null);
   const [hovered, setHovered] = useState(false);
 
@@ -26,38 +26,38 @@ export default function Carousel() {
     const items = wrapper.current.querySelectorAll(".hero-slide");
     setItem(items[0]);
 
-    // const images = document.querySelectorAll(".slide-image");
-    // const tempAllImages = [];
-    // images.forEach((image) => {
-    //   tempAllImages.push(image);
-    // });
-    // setAllImages(tempAllImages);
+    const images = document.querySelectorAll(".slide-image");
+    const tempAllImages = [];
+    images.forEach((image) => {
+      tempAllImages.push(image);
+    });
+    setAllImages(tempAllImages);
 
-    // const width = tempAllImages[0].width / 10;
-    // setWidth(width);
-    // const height = tempAllImages[0].height / 4;
-    // setHeight(height);
+    const width = tempAllImages[0].width / 10;
+    setWidth(width);
+    const height = tempAllImages[0].height / 4;
+    setHeight(height);
 
-    // layer.current.style.height = tempAllImages[0].height + "px";
-    // layer.current.style.width = tempAllImages[0].width + "px";
+    layer.current.style.height = tempAllImages[0].height + "px";
+    layer.current.style.width = tempAllImages[0].width + "px";
 
-    // const tempAllBoxes = [];
-    // for (let i = 0; i < 4; i++) {
-    //   let row = [];
-    //   for (let j = 0; j < 10; j++) {
-    //     const box = document.createElement("div");
-    //     box.classList.add("box");
-    //     box.style.position = "absolute";
-    //     box.style.width = width + "px";
-    //     box.style.height = height + "px";
-    //     box.style.top = height * i + "px";
-    //     box.style.left = width * j + "px";
-    //     row.push(box);
-    //     layer.current.appendChild(box);
-    //   }
-    //   tempAllBoxes.push(row);
-    // }
-    // setAllBoxes(() => tempAllBoxes);
+    const tempAllBoxes = [];
+    for (let i = 0; i < 4; i++) {
+      let row = [];
+      for (let j = 0; j < 10; j++) {
+        const box = document.createElement("div");
+        box.classList.add("box");
+        box.style.position = "absolute";
+        box.style.width = width + "px";
+        box.style.height = height + "px";
+        box.style.top = height * i + "px";
+        box.style.left = width * j + "px";
+        row.push(box);
+        layer.current.appendChild(box);
+      }
+      tempAllBoxes.push(row);
+    }
+    setAllBoxes(() => tempAllBoxes);
   }, []);
 
   // useEffect(() => {
@@ -77,56 +77,56 @@ export default function Carousel() {
   // }, [index, hovered]);
 
   useEffect(() => {
-    // if (allBoxes.length != 0) {
-    //   const rowCount = allBoxes.length;
-    //   const colCount = allBoxes[0].length;
-    //   let count = 0;
+    if (allBoxes.length != 0) {
+      const rowCount = allBoxes.length;
+      const colCount = allBoxes[0].length;
+      let count = 0;
 
-    //   layer.current.style.opacity = 1;
-    //   if (index < allImages.length - 1) {
-    //     const imgSrc = allImages[index].src;
-    //     const img = new Image();
-    //     img.src = imgSrc;
+      layer.current.style.opacity = 1;
+      if (index < allImages.length - 1) {
+        const imgSrc = allImages[index].src;
+        const img = new Image();
+        img.src = imgSrc;
 
-    //     const tempCanvas = document.createElement("canvas");
-    //     const tempCtx = tempCanvas.getContext("2d");
-    //     tempCanvas.width = wid;
-    //     tempCanvas.height = hei;
+        const tempCanvas = document.createElement("canvas");
+        const tempCtx = tempCanvas.getContext("2d");
+        tempCanvas.width = wid;
+        tempCanvas.height = hei;
 
-    //     for (let i = 0; i < 4; i++) {
-    //       for (let j = 0; j < 10; j++) {
-    //         tempCtx.drawImage(img, wid * j, hei * i, wid, hei, 0, 0, wid, hei);
-    //         const croppedImageUrl = tempCanvas.toDataURL();
-    //         const box = allBoxes[i][j];
-    //         box.style.backgroundImage = `url(${croppedImageUrl})`;
-    //       }
-    //     }
+        for (let i = 0; i < 4; i++) {
+          for (let j = 0; j < 10; j++) {
+            tempCtx.drawImage(img, wid * j, hei * i, wid, hei, 0, 0, wid, hei);
+            const croppedImageUrl = tempCanvas.toDataURL();
+            const box = allBoxes[i][j];
+            box.style.backgroundImage = `url(${croppedImageUrl})`;
+          }
+        }
 
-    //     for (let sum = rowCount + colCount - 2; sum >= 0; sum--) {
-    //       for (let i = rowCount - 1; i >= 0; i--) {
-    //         const j = sum - i;
-    //         if (j >= 0 && j < colCount) {
-    //           setTimeout(() => {
-    //             allBoxes[i][j].style.opacity = 1;
-    //             allBoxes[i][j].classList.add("animatebox");
-    //           }, 20 * count);
-    //           count++;
-    //         }
-    //       }
-    //     }
+        for (let sum = rowCount + colCount - 2; sum >= 0; sum--) {
+          for (let i = rowCount - 1; i >= 0; i--) {
+            const j = sum - i;
+            if (j >= 0 && j < colCount) {
+              setTimeout(() => {
+                allBoxes[i][j].style.opacity = 1;
+                allBoxes[i][j].classList.add("animatebox");
+              }, 20 * count);
+              count++;
+            }
+          }
+        }
 
-    //     setTimeout(() => {
-    //       count = 0;
-    //       layer.current.style.opacity = 0;
-    //       for (let i = 0; i < 4; i++) {
-    //         for (let j = 0; j < 10; j++) {
-    //           allBoxes[i][j].style.opacity = 0;
-    //           allBoxes[i][j].classList.remove("animatebox");
-    //         }
-    //       }
-    //     }, 2000);
-    //   }
-    // }
+        setTimeout(() => {
+          count = 0;
+          layer.current.style.opacity = 0;
+          for (let i = 0; i < 4; i++) {
+            for (let j = 0; j < 10; j++) {
+              allBoxes[i][j].style.opacity = 0;
+              allBoxes[i][j].classList.remove("animatebox");
+            }
+          }
+        }, 2000);
+      }
+    }
 
     const items = wrapper.current.querySelectorAll(".hero-slide");
     if (slideItem !== "") {

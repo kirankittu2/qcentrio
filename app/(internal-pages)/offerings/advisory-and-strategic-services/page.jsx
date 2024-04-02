@@ -28,7 +28,7 @@ export const metadata = {
 export default function Services() {
   const glimpseContent = {
     heading1: "Transform Your Digital Strategy into a Competitive Advantage",
-    heading2: "Here's how we've helped our customers win",
+    heading2: "Here's how we've helped our <span>customers win</span>",
     content1:
       "Enterprises constantly seek agility and strategic positioning to sustain and propel growth in the increasingly data-compliant market.",
     content2:
@@ -39,7 +39,7 @@ export default function Services() {
   const servicesContent = {
     heading: "NAVIGATE THE FUTURE CONFIDENTLY",
     subheading:
-      "With Bespoke Technology Solutions For Business Growth And Operational Excellence",
+      "With Bespoke Technology Solutions For <span>Business Growth</span> And <span>Operational Excellence</span>",
     children: [
       {
         image: cloud,

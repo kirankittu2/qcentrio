@@ -11,7 +11,9 @@ export default function Glimpse({ data }) {
         <p className="section-content">{data.content2}</p>
       </div>
       <div className="glimpse-column-2">
-        <h2 className="section-heading">{data.heading2}</h2>
+        <h2
+          className="section-heading"
+          dangerouslySetInnerHTML={{ __html: data.heading2 }}></h2>
         <p className="glimpse-sub-heading">{data.subheading}</p>
         <p className="glimpse-btn">
           See How

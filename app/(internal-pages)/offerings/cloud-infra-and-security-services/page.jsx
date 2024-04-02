@@ -31,7 +31,7 @@ export const metadata = {
 export default function Services() {
   const glimpseContent = {
     heading1: "Transform Into a Data Powerhouse with Qcentrio",
-    heading2: "Here's how we've helped our customers win",
+    heading2: "Here's how we've helped our <span>customers win</span>",
     content1:
       "Transforming into a data-driven powerhouse is the key to excel in today's competitive market. Unlocking real-time insights requires a modern, cloud-ready data estate that is scalable, agile, secure and built for the future.",
     content2:
@@ -43,7 +43,7 @@ export default function Services() {
   const servicesContent = {
     heading: "EMPOWER YOUR DIGITAL SHIFT",
     subheading:
-      "With Our Cloud Infrastructure And Security Services, Offering Tangible, Measurable Business Impacts",
+      "With Our <span>Cloud Infrastructure</span> And <span>Security Services</span>, Offering Tangible, Measurable Business Impacts",
     children: [
       {
         image: cloud,

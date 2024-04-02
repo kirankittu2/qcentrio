@@ -33,7 +33,7 @@ export default function SubService() {
   };
 
   const contentSection = {
-    image: "http://localhost:3000/sub-service-content-side-image.",
+    image: "http://localhost:3000/sub-service-content-side-image.png",
     heading: "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
     content1:
       "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",

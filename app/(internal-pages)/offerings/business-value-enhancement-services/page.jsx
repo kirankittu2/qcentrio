@@ -26,7 +26,7 @@ export const metadata = {
 export default function Services() {
   const glimpseContent = {
     heading1: "Operationalize Next Gen Tech-Stack to Drive Rapid Insights",
-    heading2: "Here's how we've helped our customers win",
+    heading2: "Here's how we've helped our <span>customers win</span>",
     content1:
       "Globally, enterprises are investing heavily in building GenAI, AI/ML, and automation capabilities, but practice and maturity remain stagnant. Even as businesses plunge into quick adoption, they lack the proper framework and know-how to take advantage of it fully.",
     content2:
@@ -37,7 +37,8 @@ export default function Services() {
 
   const servicesContent = {
     heading: "DEFINE YOUR FUTURE TRAJECTORY",
-    subheading: "With Advanced Business Value Enhancement Services",
+    subheading:
+      "With Advanced <span>Business Value Enhancement</span> Services",
     children: [
       {
         image: cloud,

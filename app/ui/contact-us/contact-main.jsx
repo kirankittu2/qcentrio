@@ -6,7 +6,8 @@ export default function ContactMain() {
       <div className="contact-us-main-section-content">
         <p className="contact-us-sub-heading">CONTACT US</p>
         <h1 className="hero-heading">
-          INDUSTRY EXPERTS IN MOTION. ENGINEERS IN ACTION.
+          INDUSTRY EXPERTS <span>IN MOTION</span>. ENGINEERS{" "}
+          <span>IN ACTION</span>.
         </h1>
       </div>
       <div className="contact-us-main-section-form">

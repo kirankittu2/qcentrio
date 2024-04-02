@@ -5,7 +5,9 @@ export default function ServicesContent({ data }) {
     <div className="services-section balance-section">
       <div className=" mr-auto ml-auto">
         <h2 className="section-heading">{data.heading}</h2>
-        <h3 className="service-sub-heading">{data.subheading}</h3>
+        <h3
+          className="service-sub-heading"
+          dangerouslySetInnerHTML={{ __html: data.subheading }}></h3>
       </div>
       <div className="services-container">
         {data.children.map((item, index) => {

@@ -3,6 +3,7 @@ import analytics1 from "@/public/analytics-1.png";
 import analytics2 from "@/public/analytics-2.png";
 import analytics3 from "@/public/analytics-3.png";
 import analytics4 from "@/public/analytics-4.png";
+import Navbar from "@/app/ui/global/nav-bar";
 import CaseStudyHero from "@/app/ui/case-study/case-study-hero";
 import CaseStudyToggle from "@/app/ui/case-study/streamline-case-study-toggle";
 import BottomLine from "@/app/ui/case-study/bottom-line";
@@ -14,21 +15,20 @@ import NavBarContainer from "@/app/ui/global/nav-bar-container";
 
 export default function CaseStudy() {
   const heroContent = {
-    heading: "ENHANCING PATIENT CARE WITH BI AND SQL ANALYTICS AT QCENTRIO",
+    heading:
+      "TRANSFORMING PHARMACEUTICAL SHAREPOINT ECOSYSTEM WITH AZURE MIGRATION",
   };
 
   const caseToggleContent = {
     context: {
       heading:
-        "The client, a US-based business, provides software solutions to over 200 healthcare centers and retirement homes.",
+        "A pharmaceutical giant faced issues with its SharePoint setup, including 9TB of data and numerous sites and apps.",
       content:
-        "Their software assists in processing data related to patients and medication and generates various types of reports. To enhance their services, the client partnered with Qcentrio, a company specializing in business intelligence (BI) and analytics.",
+        "Compliance demands prompted a shift from a complex system to a streamlined cloud solution, overcoming limitations like SharePoint Online throttling to enhance agility and scalability.",
     },
     challenge: {
-      heading:
-        "The client's Java data management and reporting application needed a revamp to improve population health analytics and enable prompt reporting",
-      content:
-        "The goal was to provide healthcare centers with faster and more accurate insights into patient care, medication management, and operational efficiency.",
+      heading: "",
+      content: "",
     },
     solution: {
       heading:

@@ -68,11 +68,15 @@ export default function Footer() {
           </div>
           <div className="footer-column">
             <h2 className="footer-heading">Legal</h2>
-            <p className="footer-item">Terms & Conditions</p>
+            <p className="footer-item">
+              <Link href="/terms-and-conditions">Terms & Conditions</Link>
+            </p>
             <p className="footer-item">
               <Link href="/privacy-policy">Privacy Policy</Link>
             </p>
-            <p className="footer-item">Cookie Policy</p>
+            <p className="footer-item">
+              <Link href="/cookie-policy">Cookie Policy</Link>{" "}
+            </p>
           </div>
         </div>
         <div>

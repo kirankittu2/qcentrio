@@ -27,7 +27,7 @@ export default function Services() {
   const glimpseContent = {
     heading1:
       "Unlock Top-Line and Bottom-Line Growth by Optimizing Your Business",
-    heading2: "Here's how we've helped our customers win",
+    heading2: "Here's how we've helped our <span>customers win</span>",
     content1:
       "Enterprises always seek new approaches and expertise to optimize their operations, productivity, and products to drive top-line and bottom-line growth.",
     content2:
@@ -38,7 +38,8 @@ export default function Services() {
 
   const servicesContent = {
     heading: "OPTIMIZE CORE BUSINESS PROCESSES",
-    subheading: "And Operations For Short-Term And Long-Term Tangible Benefits",
+    subheading:
+      "And operations for <span>short-Term</span> and <span>long-Term</span> tangible benefits",
     children: [
       {
         image: cloud,
