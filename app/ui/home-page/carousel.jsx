@@ -77,56 +77,56 @@ export default function Carousel() {
   // }, [index, hovered]);
 
   useEffect(() => {
-    if (allBoxes.length != 0) {
-      const rowCount = allBoxes.length;
-      const colCount = allBoxes[0].length;
-      let count = 0;
+    // if (allBoxes.length != 0) {
+    //   const rowCount = allBoxes.length;
+    //   const colCount = allBoxes[0].length;
+    //   let count = 0;
 
-      layer.current.style.opacity = 1;
-      if (index < allImages.length - 1) {
-        const imgSrc = allImages[index].src;
-        const img = new Image();
-        img.src = imgSrc;
+    //   layer.current.style.opacity = 1;
+    //   if (index < allImages.length - 1) {
+    //     const imgSrc = allImages[index].src;
+    //     const img = new Image();
+    //     img.src = imgSrc;
 
-        const tempCanvas = document.createElement("canvas");
-        const tempCtx = tempCanvas.getContext("2d");
-        tempCanvas.width = wid;
-        tempCanvas.height = hei;
+    //     const tempCanvas = document.createElement("canvas");
+    //     const tempCtx = tempCanvas.getContext("2d");
+    //     tempCanvas.width = wid;
+    //     tempCanvas.height = hei;
 
-        for (let i = 0; i < 4; i++) {
-          for (let j = 0; j < 10; j++) {
-            tempCtx.drawImage(img, wid * j, hei * i, wid, hei, 0, 0, wid, hei);
-            const croppedImageUrl = tempCanvas.toDataURL();
-            const box = allBoxes[i][j];
-            box.style.backgroundImage = `url(${croppedImageUrl})`;
-          }
-        }
+    //     for (let i = 0; i < 4; i++) {
+    //       for (let j = 0; j < 10; j++) {
+    //         tempCtx.drawImage(img, wid * j, hei * i, wid, hei, 0, 0, wid, hei);
+    //         const croppedImageUrl = tempCanvas.toDataURL();
+    //         const box = allBoxes[i][j];
+    //         box.style.backgroundImage = `url(${croppedImageUrl})`;
+    //       }
+    //     }
 
-        for (let sum = rowCount + colCount - 2; sum >= 0; sum--) {
-          for (let i = rowCount - 1; i >= 0; i--) {
-            const j = sum - i;
-            if (j >= 0 && j < colCount) {
-              setTimeout(() => {
-                allBoxes[i][j].style.opacity = 1;
-                allBoxes[i][j].classList.add("animatebox");
-              }, 20 * count);
-              count++;
-            }
-          }
-        }
+    //     for (let sum = rowCount + colCount - 2; sum >= 0; sum--) {
+    //       for (let i = rowCount - 1; i >= 0; i--) {
+    //         const j = sum - i;
+    //         if (j >= 0 && j < colCount) {
+    //           setTimeout(() => {
+    //             allBoxes[i][j].style.opacity = 1;
+    //             allBoxes[i][j].classList.add("animatebox");
+    //           }, 20 * count);
+    //           count++;
+    //         }
+    //       }
+    //     }
 
-        setTimeout(() => {
-          count = 0;
-          layer.current.style.opacity = 0;
-          for (let i = 0; i < 4; i++) {
-            for (let j = 0; j < 10; j++) {
-              allBoxes[i][j].style.opacity = 0;
-              allBoxes[i][j].classList.remove("animatebox");
-            }
-          }
-        }, 2000);
-      }
-    }
+    //     setTimeout(() => {
+    //       count = 0;
+    //       layer.current.style.opacity = 0;
+    //       for (let i = 0; i < 4; i++) {
+    //         for (let j = 0; j < 10; j++) {
+    //           allBoxes[i][j].style.opacity = 0;
+    //           allBoxes[i][j].classList.remove("animatebox");
+    //         }
+    //       }
+    //     }, 2000);
+    //   }
+    // }
 
     const items = wrapper.current.querySelectorAll(".hero-slide");
     if (slideItem !== "") {
