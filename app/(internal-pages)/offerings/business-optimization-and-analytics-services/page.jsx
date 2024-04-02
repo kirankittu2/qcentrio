@@ -202,7 +202,10 @@ export default function Services() {
       <StrategicPath data={strategicPathContent} />
       <SuccessPath data={successpathContent} />
       <InsigntsNoCaro />
-      <Contact />
+      <Contact
+        heading="Transform Your Data into Strategic Business Decisions"
+        subheading="Let us empower you to win, grow, and lead in the digital age with our leading-edge services, solutions, and strategic innovation."
+      />
       <Footer />
       <CopyrightBar />
     </>

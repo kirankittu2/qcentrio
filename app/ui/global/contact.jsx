@@ -1,14 +1,11 @@
 import { sendMail } from "@/app/lib/actions";
 import Button from "./button";
 
-export default function Contact() {
+export default function Contact({ heading, subheading }) {
   return (
     <div className="contact-section balance-section">
-      <h2 className="contact-heading">Experience the Qcentrio Difference</h2>
-      <p className="section-content contact-sub-heading">
-        Let us empower you to win, grow, and lead in the digital age with our
-        leading-edge <br /> services, solutions, and strategic innovation.
-      </p>
+      <h2 className="contact-heading">{heading}</h2>
+      <p className="section-content contact-sub-heading">{subheading}</p>
       <form action={sendMail}>
         <div className="contact-column">
           <input

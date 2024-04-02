@@ -219,6 +219,10 @@ textarea {
   height: 36px;
 }
 
+.section-heading span{
+  color: var(--primary-color);
+}
+
 /* .nav-arrow-img{
   rotate: 299deg;
 } */
@@ -1142,11 +1146,17 @@ header {
   margin-bottom: 20px;
   letter-spacing: -1px;
   line-height: 55px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-sub-heading {
   text-align: center;
   margin-bottom: 30px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-section form {
@@ -2144,6 +2154,7 @@ h2.blog-page-side-heading {
   .contact-heading {
     font-size: 34px;
     line-height: 38px;
+    width: 100%;
   }
 
   .footer-form-heading {
@@ -2172,6 +2183,10 @@ h2.blog-page-side-heading {
     line-height: 38px;
     margin-bottom: 10px;
   }
+
+ .contact-sub-heading {
+  width: 80%;
+ }
 }
 
 @media screen and (max-width: 624px) {

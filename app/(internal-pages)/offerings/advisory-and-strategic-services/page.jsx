@@ -209,7 +209,10 @@ export default function Services() {
       <StrategicPath data={strategicPathContent} />
       <SuccessPath data={successpathContent} />
       <InsigntsNoCaro />
-      <Contact />
+      <Contact
+        heading="Tap into our expertise in EHR integration, cybersecurity, and M&A strategy"
+        subheading="Let us empower you to win, grow, and lead in the digital age with our leading-edge services, solutions, and strategic innovation."
+      />
       <Footer />
       <CopyrightBar />
     </>

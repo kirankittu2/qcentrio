@@ -39,7 +39,10 @@ export default function Home() {
         subheading="Stay abreast with the pulse of progress—our latest thought leadership, strategic insights, and forward-thinking perspectives."
       />
       <Discover />
-      <Contact />
+      <Contact
+        heading="Experience the Qcentrio Difference"
+        subheading="Let us empower you to win, grow, and lead in the digital age with our leading-edge services, solutions, and strategic innovation."
+      />
       <Footer />
       <CopyrightBar />
     </>
