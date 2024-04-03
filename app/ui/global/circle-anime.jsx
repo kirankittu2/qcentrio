@@ -23,7 +23,10 @@ export default function CircleAnime() {
       const translateY = -50;
 
       el.classList.add("el");
-      el.style.backgroundColor = "#089768"; // Set background color to #089768
+
+      // Set dark green for initial color
+      el.style.backgroundColor = "hsl(120, 100%, 10%)";
+
       el.style.transform =
         "rotate(" + rotate + "deg) translateY(" + translateY + "%)";
 
@@ -31,7 +34,8 @@ export default function CircleAnime() {
         begin: function () {
           anime({
             targets: el,
-            backgroundColor: ["#089768", "black"], // Change colors to #089768 and black
+            // Change colors to dark green and black
+            backgroundColor: ["hsl(120, 100%, 10%)", "hsl(0, 0%, 0%)"],
             rotate: [rotate + "deg", rotate + 10 + "deg"],
             translateY: [translateY + "%", translateY + 10 + "%"],
             scale: [1, 1.25],

@@ -15,6 +15,6 @@ export function middleware(request) {
 
 export const config = {
   matcher: [
-    "/((?!coming-soon|coming-soon/admin-access|api|_next/static|_next/image|favicon.ico).*)",
+    "/((?!coming-soon|website-access|api|_next/static|_next/image|favicon.ico).*)",
   ],
 };
