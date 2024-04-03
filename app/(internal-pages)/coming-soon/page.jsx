@@ -2,6 +2,7 @@ import Image from "next/image";
 import logo from "@/public/logo.svg";
 import Button from "@/app/ui/global/button";
 import { singleMail } from "@/app/lib/actions";
+import CircleAnime from "@/app/ui/global/circle-anime";
 
 export default function ComingSoon() {
   return (
@@ -24,20 +25,21 @@ export default function ComingSoon() {
             exciting updates and be the first to experience.
           </p>
           <form action={singleMail}>
-            <div className="lets-talk-container">
+            <div className="contact-column">
+              <input name="name" type="text" placeholder="Name" required />
               <input
                 name="email"
                 type="text"
                 placeholder="Email Address"
                 required
               />
-              <div className="input-btn">
-                <Button name="Lets Talk" />
-              </div>
             </div>
+            <Button name="Stay Tuned" />
           </form>
         </div>
-        <div className="coming-soon-page-image"></div>
+        <div className="coming-soon-page-image">
+          <CircleAnime />
+        </div>
       </div>
       <div className="coming-soon-page-footer"></div>
     </div>

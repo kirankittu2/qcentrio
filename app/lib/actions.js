@@ -70,15 +70,18 @@ export async function sendMail(formData) {
 
 export async function singleMail(formData) {
   const email = formData.get("email");
+  const name = formData.get("name");
 
   const data = {
     email,
+    name,
   };
 
   let parsedData;
 
   const userSchema = zod.object({
     email: zod.string().email(),
+    name: zod.string(),
   });
 
   try {
@@ -92,11 +95,28 @@ export async function singleMail(formData) {
     "utf8"
   );
 
+  const emailData = {
+    name: parsedData.name,
+  };
+
+  const fillPlaceholders = (template, data) => {
+    let filledTemplate = template;
+    for (const key in data) {
+      if (data.hasOwnProperty(key)) {
+        const regex = new RegExp(`{{${key}}}`, "g");
+        filledTemplate = filledTemplate.replace(regex, data[key]);
+      }
+    }
+    return filledTemplate;
+  };
+
+  const filledHtml = fillPlaceholders(emailTemplate, emailData);
+
   await transporter.sendMail({
     from: "sai.harikiran@x-verity.com",
     to: parsedData.email,
     subject: "Qcentrio: We’re Upgrading!",
-    html: emailTemplate,
+    html: filledHtml,
   });
 
   await transporter.sendMail({
