@@ -389,6 +389,10 @@ header {
   gap: 30px;
 }
 
+.mega-menu-middle-columns-container a{
+  text-decoration: none;
+}
+
 .mega-menu-middle-columns-container > div {
   flex: 1;
 }
@@ -439,6 +443,25 @@ header {
   cursor: pointer;
   width: fit-content;
 }
+
+.cursor {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  left: 50%;
+  margin: -14px 0px 0px -14px;
+  border: 3px solid #089768;
+  border-radius: 100px;
+  backface-visibility: hidden;
+  transition: transform 0.3s ease-out;
+  background: #009d6a26;
+}
+
+.cursor.is-moving {
+  transform: scale(0.4);
+}
+
 
 /* Hero section styles */
 .hero {
@@ -1908,9 +1931,24 @@ h2.blog-page-side-heading {
   flex-direction: column;
 }
 
+.website-access-page-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .coming-soon-page-main{
   display: flex;
-  height: 98.3%;
+  /* height: 98.3%; */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.website-access-page-main{
+   display: flex;
+   justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .coming-soon-page-content{
@@ -1921,11 +1959,37 @@ h2.blog-page-side-heading {
   flex-direction: column;
 }
 
+.website-access-page-content{
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.coming-soon-page-header{
+   padding-left: clamp(5px, 7.81vw, 140px);
+}
+
+.website-access-page-header{
+  display: flex;
+  justify-content: center;
+}
+
 .coming-soon-page-logo{
   margin-bottom: auto;
 }
 
+.website-access-page-logo{
+  margin-bottom: auto;
+}
+
 .coming-soon-page-logo > div{
+  width: 135px;
+  height: 36px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.website-access-page-logo > div{
   width: 135px;
   height: 36px;
   position: relative;
@@ -1946,6 +2010,12 @@ h2.blog-page-side-heading {
   /* margin-top: 50px; */
 }
 
+.website-access-page-footer{
+  height: 16px;
+  width: 100%;
+  background: transparent linear-gradient(91deg, #089768 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
 .coming-soon-page-content h1{
   font-size: clamp(35px, 5.2vw, 100px);
   line-height: clamp(38px, 5.2vw, 104px);
@@ -1963,10 +2033,38 @@ h2.blog-page-side-heading {
   margin-bottom: 20px;
 }
 
+.website-access-page-content h2{
+  font-size: 23px;
+  line-height: 27px;
+  font-family: "Quadran-Bold";
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 .coming-soon-page-content p{
   font-size: 16px;
   font-family: "Quadran-Light";
   margin-bottom: 20px;
+}
+
+.website-access-page-content p{
+  font-size: 16px;
+  font-family: "Quadran-Light";
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.website-access-page-content button{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.website-access-page-content form{
+  display: flex;
+  flex-direction: column;
 }
 
 .coming-soon-page-content form{
@@ -1988,6 +2086,20 @@ h2.blog-page-side-heading {
   flex-wrap: wrap;
   width: 1px;
   /* height: 100vh; */
+}
+
+.otp-field {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.otp-field input{
+  width: 50px;
+  height: 50px;
+  background-color: #F9F9F9;
+  font-size: 23px;
+  padding-left: 15px;
 }
 
 .el {

@@ -3,7 +3,7 @@ import philadelphia from "@/public/children-hospital-philadelphia-logo.svg";
 import zf from "@/public/ZF-logo.svg";
 import hertz from "@/public/hertz-logo.svg";
 import bosch from "@/public/Bosch-logo.svg";
-import hp from "@/public/HP-logo.svg";
+import hp from "@/public/HP-Logo.svg";
 import praxair from "@/public/Praxair_logo.svg";
 import cvs from "@/public/cvs-logo.svg";
 

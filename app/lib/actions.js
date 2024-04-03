@@ -128,8 +128,14 @@ export async function singleMail(formData) {
 }
 
 export async function storeCookie(formData) {
-  const code = formData.get("code");
   const secret_code = 7462;
+  let code = "";
+
+  for (let i = 1; i <= 4; i++) {
+    code += formData.get("code" + i);
+  }
+
+  console.log(code);
 
   const data = {
     code,

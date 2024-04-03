@@ -15,140 +15,147 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
       column1: [
         {
           title: "Generative AI Solutions and Offerings",
+          link: "/offerings/business-value-enhancement-services/generative-ai-solutions-and-offerings",
         },
         {
           title: "Artificial Intelligence / Machine Learning Offerings",
+          link: "/offerings/business-value-enhancement-services/artificial-intelligence-machine-learning-offerings",
         },
         {
           title: "Robotic Process Automation Services",
-        },
-      ],
-      column2: [
-        {
-          title: "Generative AI Solutions and Offerings",
-        },
-        {
-          title: "Artificial Intelligence / Machine Learning Offerings",
-        },
-        {
-          title: "Robotic Process Automation Services",
+          link: "/offerings/business-value-enhancement-services/robotic-process-automation-services",
         },
       ],
     },
     {
       column1: [
         {
-          title: "Generative AI Solutions and Offerings",
+          title: "ERP Solutions Support",
+          link: "/offerings/advanced-technology-solutions/erp-solutions-support",
         },
         {
-          title: "Artificial Intelligence / Machine Learning Offerings",
+          title: "Comprehensive SAP Services",
+          link: "/offerings/advanced-technology-solutions/comprehensive-sap-services",
         },
         {
-          title: "Robotic Process Automation Services",
+          title: "Product Engineering Services",
+          link: "/offerings/advanced-technology-solutions/product-engineering-services",
         },
       ],
       column2: [
         {
-          title: "Generative AI Solutions and Offerings",
+          title: "Custom Software / Application Development",
+          link: "/offerings/advanced-technology-solutions/custom-software-application-development",
         },
         {
-          title: "Artificial Intelligence / Machine Learning Offerings",
+          title: "Internet of Things (IoT) Solutions",
+          link: "/offerings/advanced-technology-solutions/internet-of-things-solutions",
         },
         {
-          title: "Robotic Process Automation Services",
+          title: "Big Data Services and Solutions",
+          link: "/offerings/advanced-technology-solutions/big-data-services-and-solutions",
         },
       ],
     },
     {
       column1: [
         {
-          title: "Generative AI Solutions and Offerings",
+          title: "EPIC Advisory Services",
+          link: "/offerings/advisory-and-strategic-services/epic-advisory-services",
         },
         {
-          title: "Artificial Intelligence / Machine Learning Offerings",
+          title: "Oracle Cerner Advisory Services",
+          link: "/offerings/advisory-and-strategic-services/oracle-cerner-advisory-services",
         },
         {
-          title: "Robotic Process Automation Services",
+          title: "Audit and Assurance Services",
+          link: "/offerings/advisory-and-strategic-services/audit-and-assurance-services",
         },
       ],
       column2: [
         {
-          title: "Generative AI Solutions and Offerings",
+          title: "Risk Advisory Services",
+          link: "/offerings/advisory-and-strategic-services/risk-advisory-services",
         },
         {
-          title: "Artificial Intelligence / Machine Learning Offerings",
-        },
-        {
-          title: "Robotic Process Automation Services",
+          title: "Specialty Services",
+          link: "/offerings/advisory-and-strategic-services/specialty-services",
         },
       ],
     },
     {
       column1: [
         {
-          title: "Generative AI Solutions and Offerings",
+          title: "Data Analytics and Business Intelligence",
+          link: "/offerings/business-optimization-and-analytics-services/data-analytics-and-business-intelligence",
         },
         {
-          title: "Artificial Intelligence / Machine Learning Offerings",
+          title: "Collaboration and Productivity Solutions",
+          link: "/offerings/business-optimization-and-analytics-services/collaboration-and-productivity-solutions",
         },
         {
-          title: "Robotic Process Automation Services",
-        },
-      ],
-      column2: [
-        {
-          title: "Generative AI Solutions and Offerings",
-        },
-        {
-          title: "Artificial Intelligence / Machine Learning Offerings",
-        },
-        {
-          title: "Robotic Process Automation Services",
+          title: "CRM System Solutions",
+          link: "/offerings/business-optimization-and-analytics-services/crm-system-solutions",
         },
       ],
     },
     {
       column1: [
         {
-          title: "Generative AI Solutions and Offerings",
+          title: "Blockchain Strategy and Advisory",
+          link: "/offerings/blockchain-advisory-and-offerings/blockchain-strategy-and-advisory",
         },
         {
-          title: "Artificial Intelligence / Machine Learning Offerings",
+          title: "Blockchain Solution Development",
+          link: "/offerings/blockchain-advisory-and-offerings/blockchain-solution-development",
         },
         {
-          title: "Robotic Process Automation Services",
+          title: "Blockchain Integration and Deployment",
+          link: "/offerings/blockchain-advisory-and-offerings/blockchain-integration-and-deployment",
         },
       ],
       column2: [
         {
-          title: "Generative AI Solutions and Offerings",
-        },
-        {
-          title: "Artificial Intelligence / Machine Learning Offerings",
-        },
-        {
-          title: "Robotic Process Automation Services",
+          title: "Blockchain Security and Compliance",
+          link: "/offerings/blockchain-advisory-and-offerings/blockchain-security-and-compliance",
         },
       ],
     },
     {
       column1: [
         {
-          title: "Generative AI Solutions and Offerings",
+          title: "Cloud Infrastructure Services",
+          link: "/offerings/cloud-infra-and-security-services/cloud-infrastructure-services",
         },
         {
-          title: "Artificial Intelligence / Machine Learning Offerings",
+          title: "Salesforce Services",
+          link: "/offerings/cloud-infra-and-security-services/salesforce-services",
         },
         {
-          title: "Robotic Process Automation Services",
+          title: "Azure Services and Offerings",
+          link: "/offerings/cloud-infra-and-security-services/azure-services-and-offerings",
+        },
+        {
+          title: "AWS Services and Offerings",
+          link: "/offerings/cloud-infra-and-security-services/aws-services-and-offerings",
         },
       ],
       column2: [
         {
-          title: "Generative AI Solutions and Offerings",
+          title: "GCP Services and Offerings",
+          link: "/offerings/cloud-infra-and-security-services/gcp-services-and-offerings",
         },
         {
-          title: "Artificial Intelligence / Machine Learning Offerings",
+          title: "Cybersecurity Solutions",
+          link: "/offerings/cloud-infra-and-security-services/cybersecurity-solutions",
+        },
+        {
+          title: "Continuous IT Support and Managed Services",
+          link: "/offerings/cloud-infra-and-security-services/continuous-it-support-and-managed-services",
+        },
+        {
+          title: "Offshore Development Centre (ODC) Services",
+          link: "/offerings/cloud-infra-and-security-services/offshore-development-centre-services",
         },
       ],
     },
@@ -302,20 +309,23 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
             <div>
               {links[index].column1.map((link, i) => {
                 return (
-                  <div key={i} className="mega-menu-sub-nav-link">
-                    {link.title}
-                  </div>
+                  <Link key={i} href={link.link}>
+                    <div className="mega-menu-sub-nav-link">{link.title}</div>
+                  </Link>
                 );
               })}
             </div>
             <div>
-              {links[index].column2.map((link, i) => {
-                return (
-                  <div key={i} className="mega-menu-sub-nav-link">
-                    {link.title}
-                  </div>
-                );
-              })}
+              {links[index].column2 &&
+                links[index].column2.map((link, i) => {
+                  return (
+                    <Link key={i} href={link.link}>
+                      <div key={i} className="mega-menu-sub-nav-link">
+                        {link.title}
+                      </div>
+                    </Link>
+                  );
+                })}
             </div>
           </div>
         </div>

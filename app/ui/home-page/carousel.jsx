@@ -15,49 +15,49 @@ export default function Carousel() {
   const layer = useRef(null);
   const [index, setIndex] = useState(0);
   const [slideItem, setItem] = useState("");
-  const [allImages, setAllImages] = useState([]);
-  const [allBoxes, setAllBoxes] = useState([]);
-  const [wid, setWidth] = useState(0);
-  const [hei, setHeight] = useState(0);
-  const intervalRef = useRef(null);
+  // const [allImages, setAllImages] = useState([]);
+  // const [allBoxes, setAllBoxes] = useState([]);
+  // const [wid, setWidth] = useState(0);
+  // const [hei, setHeight] = useState(0);
+  // const intervalRef = useRef(null);
   const [hovered, setHovered] = useState(false);
 
   useEffect(() => {
     const items = wrapper.current.querySelectorAll(".hero-slide");
     setItem(items[0]);
 
-    const images = document.querySelectorAll(".slide-image");
-    const tempAllImages = [];
-    images.forEach((image) => {
-      tempAllImages.push(image);
-    });
-    setAllImages(tempAllImages);
+    // const images = document.querySelectorAll(".slide-image");
+    // const tempAllImages = [];
+    // images.forEach((image) => {
+    //   tempAllImages.push(image);
+    // });
+    // setAllImages(tempAllImages);
 
-    const width = tempAllImages[0].width / 10;
-    setWidth(width);
-    const height = tempAllImages[0].height / 4;
-    setHeight(height);
+    // const width = tempAllImages[0].width / 10;
+    // setWidth(width);
+    // const height = tempAllImages[0].height / 4;
+    // setHeight(height);
 
-    layer.current.style.height = tempAllImages[0].height + "px";
-    layer.current.style.width = tempAllImages[0].width + "px";
+    // layer.current.style.height = tempAllImages[0].height + "px";
+    // layer.current.style.width = tempAllImages[0].width + "px";
 
-    const tempAllBoxes = [];
-    for (let i = 0; i < 4; i++) {
-      let row = [];
-      for (let j = 0; j < 10; j++) {
-        const box = document.createElement("div");
-        box.classList.add("box");
-        box.style.position = "absolute";
-        box.style.width = width + "px";
-        box.style.height = height + "px";
-        box.style.top = height * i + "px";
-        box.style.left = width * j + "px";
-        row.push(box);
-        layer.current.appendChild(box);
-      }
-      tempAllBoxes.push(row);
-    }
-    setAllBoxes(() => tempAllBoxes);
+    // const tempAllBoxes = [];
+    // for (let i = 0; i < 4; i++) {
+    //   let row = [];
+    //   for (let j = 0; j < 10; j++) {
+    //     const box = document.createElement("div");
+    //     box.classList.add("box");
+    //     box.style.position = "absolute";
+    //     box.style.width = width + "px";
+    //     box.style.height = height + "px";
+    //     box.style.top = height * i + "px";
+    //     box.style.left = width * j + "px";
+    //     row.push(box);
+    //     layer.current.appendChild(box);
+    //   }
+    //   tempAllBoxes.push(row);
+    // }
+    // setAllBoxes(() => tempAllBoxes);
   }, []);
 
   // useEffect(() => {

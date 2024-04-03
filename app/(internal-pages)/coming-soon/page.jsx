@@ -7,13 +7,15 @@ import CircleAnime from "@/app/ui/global/circle-anime";
 export default function ComingSoon() {
   return (
     <div className="coming-soon-page-container">
+      <div className="coming-soon-page-header">
+        <div className="coming-soon-page-logo">
+          <div>
+            <Image fill src={logo} alt="" />
+          </div>
+        </div>
+      </div>
       <div className="coming-soon-page-main">
         <div className="coming-soon-page-content">
-          <div className="coming-soon-page-logo">
-            <div>
-              <Image fill src={logo} alt="" />
-            </div>
-          </div>
           <h1>WE'RE UPGRADING!</h1>
           <h2>
             A UNIVERSE OF INNOVATION AND CREATIVITY, DESIGNED TO SPARK YOUR
