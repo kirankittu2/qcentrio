@@ -108,6 +108,7 @@ input {
   border-radius: var(--b-radius);
   font-family: "Quadran-Medium";
   letter-spacing: -0.4px;
+  border: 2px solid #F9F9F9;
 }
 
 ol{
@@ -2374,4 +2375,80 @@ h2.blog-page-side-heading {
   .copyright-section > div {
     text-align: center;
   }
+}
+
+
+/* Coming soon Page */
+.coming-soon-page-container{
+  height: 100vh;
+}
+
+.coming-soon-page-main{
+  display: flex;
+  height: 98.3%;
+}
+
+.coming-soon-page-content{
+  width: 50%;
+  padding-left: clamp(5px, 7.81vw, 140px);
+  padding-right: clamp(5px, 7.81vw, 140px);
+  display: flex;
+  flex-direction: column;
+}
+
+.coming-soon-page-logo{
+  margin-bottom: auto;
+}
+
+.coming-soon-page-logo > div{
+  width: 135px;
+  height: 36px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.coming-soon-page-image{
+  width: 50%;
+  background-color: #F9F9F9;
+}
+
+.coming-soon-page-footer{
+  height: 16px;
+  width: 100%;
+  background: transparent linear-gradient(91deg, #089768 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.coming-soon-page-content h1{
+  font-size: 100px;
+  line-height: 104px;
+  color: var(--primary-color);
+  font-family: "Quadran-Black";
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+.coming-soon-page-content h2{
+  font-size: 23px;
+  line-height: 27px;
+  font-family: "Quadran-Bold";
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+.coming-soon-page-content p{
+  font-size: 16px;
+  font-family: "Quadran-Light";
+  margin-bottom: 20px;
+}
+
+.coming-soon-page-content form{
+  margin-bottom: auto;
+}
+
+.coming-soon-page-content .lets-talk-container{
+  width: 100%;
+}
+
+.coming-soon-page-content .lets-talk-container input{
+  background-color: #F9F9F9;
 }

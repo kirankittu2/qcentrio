@@ -4,6 +4,7 @@ import { redirect } from "next/navigation";
 import transporter from "../config/mail-config";
 import fs from "fs";
 import zod from "zod";
+import { cookies } from "next/headers";
 
 export async function sendMail(formData) {
   const email = formData.get("email");
@@ -64,5 +65,72 @@ export async function sendMail(formData) {
 
   if (info.response.includes("OK")) {
     redirect("/thank-you", "push");
+  }
+}
+
+export async function singleMail(formData) {
+  const email = formData.get("email");
+
+  const data = {
+    email,
+  };
+
+  let parsedData;
+
+  const userSchema = zod.object({
+    email: zod.string().email(),
+  });
+
+  try {
+    parsedData = userSchema.parse(data);
+  } catch (error) {
+    console.error("Validation failed:", error.errors);
+  }
+
+  const emailTemplate = fs.readFileSync(
+    "app/email/coming-soon-mail.html",
+    "utf8"
+  );
+
+  await transporter.sendMail({
+    from: "sai.harikiran@x-verity.com",
+    to: parsedData.email,
+    subject: "Qcentrio: We’re Upgrading!",
+    html: emailTemplate,
+  });
+
+  await transporter.sendMail({
+    from: "sai.harikiran@x-verity.com",
+    to: "sai.harikiran@x-verity.com",
+    subject: "Coming soon page",
+    html: parsedData.email,
+  });
+}
+
+export async function storeCookie(formData) {
+  const code = formData.get("code");
+  const secret_code = 7462;
+
+  const data = {
+    code,
+  };
+
+  let parsedData;
+
+  const userSchema = zod.object({
+    code: zod.string(),
+  });
+
+  try {
+    parsedData = userSchema.parse(data);
+  } catch (error) {
+    console.error("Validation failed:", error.errors);
+  }
+
+  if (parsedData.code == secret_code) {
+    cookies().set("qcentrio-access", "approved", { secure: true });
+    redirect("/", "push");
+  } else {
+    console.log("Not Same");
   }
 }
