@@ -21,17 +21,19 @@ export default function CircleAnime() {
       let el = document.createElement("div");
       const rotate = (360 / numberOfEls) * i;
       const translateY = -50;
-
+      const hue = Math.round((360 / numberOfEls) * i);
       el.classList.add("el");
-      el.style.backgroundColor = "#089768"; // Set background color to #089768
+      el.style.backgroundColor = "hsl(" + 161 + ", 90%, 38%)";
       el.style.transform =
         "rotate(" + rotate + "deg) translateY(" + translateY + "%)";
-
       tl.add({
         begin: function () {
           anime({
             targets: el,
-            backgroundColor: ["#089768", "black"], // Change colors to #089768 and black
+            backgroundColor: [
+              "hsl(" + 161 + ", 90%, 38%)",
+              "hsl(" + hue + ", 60%, 80%)",
+            ],
             rotate: [rotate + "deg", rotate + 10 + "deg"],
             translateY: [translateY + "%", translateY + 10 + "%"],
             scale: [1, 1.25],
@@ -41,7 +43,6 @@ export default function CircleAnime() {
           });
         },
       });
-
       wrapper.current.appendChild(el);
     }
 
