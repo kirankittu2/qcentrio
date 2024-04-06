@@ -22,7 +22,6 @@ export default function RootLayout({ children }) {
         {children}
         <Animate />
       </body>
-      {/* <Cursor /> */}
     </html>
   );
 }
