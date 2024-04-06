@@ -6,7 +6,7 @@ import Script from "next/script";
 export default function Discover() {
   return (
     <div className="discover-section balance-section">
-      <div className="discover-card">
+      <div data-option="up" className="discover-card animate-hidden animate">
         <div className="discover-block-space"></div>
         <div className="discover-content">
           <h2 className="discover-heading">Who we are</h2>
@@ -29,7 +29,7 @@ export default function Discover() {
             style={{ width: "110px", height: "150px" }}></lord-icon>
         </div>
       </div>
-      <div className="discover-card">
+      <div data-option="up" className="discover-card animate-hidden animate">
         <div className="discover-block-space"></div>
         <div className="discover-content">
           <h2 className="discover-heading">Life at Qcentrio</h2>

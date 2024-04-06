@@ -10,7 +10,7 @@ import ServiceCard from "../global/service-card";
 export default function Services() {
   return (
     <div className="section home-services-section">
-      <h2 className="section-heading">
+      <h2 className="section-heading animate-hidden animate" data-option="up">
         Leading-Edge Services for Future-Ready Enterprises
       </h2>
       <div className="home-services-container mb-[30px] mt-[40px]">

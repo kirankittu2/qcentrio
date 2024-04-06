@@ -36,10 +36,16 @@ export default function Insignts({ title, subheading }) {
   return (
     <div className="insights-section section">
       <div className="insights-heading-container">
-        <h2 className="section-heading">{title}</h2>
-        <p className="section-content insights-sub-heading">{subheading}</p>
+        <h2 data-option="up" className="section-heading animate-hidden animate">
+          {title}
+        </h2>
+        <p
+          data-option="up"
+          className="section-content insights-sub-heading animate-hidden animate">
+          {subheading}
+        </p>
       </div>
-      <div className="blogs-container">
+      <div data-option="right" className="blogs-container hidden-right animate">
         <div ref={wrapper} className="insights-wrapper">
           <div ref={card} className="card">
             <div>
@@ -195,7 +201,10 @@ export default function Insignts({ title, subheading }) {
         </div>
       </div>
       <div className="insights-arrows-holder">
-        <div onClick={handleRight} className="insights-right-arrow">
+        <div
+          data-option="right"
+          onClick={handleRight}
+          className="insights-right-arrow hidden-right animate">
           <Image src={arrow} alt="" />
         </div>
         <div

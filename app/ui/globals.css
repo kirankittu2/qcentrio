@@ -27,6 +27,7 @@
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 *,
@@ -72,6 +73,8 @@ body {
   margin-right: auto;
   padding: 0;
   position: relative;
+  transition: all 1s ease-in-out;
+  overflow-x: hidden;
 }
 
 a {
@@ -240,6 +243,26 @@ textarea {
 
 .section-heading span, .hero-heading span, .highlight-content span, .service-sub-heading span{
   color: var(--primary-color);
+}
+
+.global-opacity{
+  opacity: 1;
+}
+
+.animate-slide-up{
+  animation: slide-up 0.5s linear;
+}
+
+@keyframes slide-up{
+  0%{
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 
@@ -1372,7 +1395,7 @@ header {
 .footer-checkbox label {
   position: relative;
   cursor: pointer;
-  /* display: flex; */
+  display: block;
 }
 
 .footer-checkbox label:before {
@@ -2593,4 +2616,141 @@ h2.blog-page-side-heading {
   .copyright-section > div {
     text-align: center;
   }
+}
+
+/* Animation css */
+
+
+.animate-hidden{
+    opacity: 0;
+    transform: translateY(70px);
+    transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
+}
+
+.slideup{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.hidden-fadeIn{
+  opacity: 0;
+  transition: all 1.2s
+}
+
+.hidden-right{
+    opacity: 0;
+    transform: translateX(70px);
+    transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
+}
+
+.hidden-left{
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
+}
+
+.slideRight{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
+}
+
+.slideLeft{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
+}
+
+.fadeIn{
+  opacity: 1;
+}
+
+
+.about-showcase-container .showcase:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.about-showcase-container .showcase:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.why-qcentrio-card-container .why-qcentrio-card:nth-child(2){
+  transition-delay: 200ms;
+}
+
+.why-qcentrio-card-container .why-qcentrio-card:nth-child(3){
+  transition-delay: 400ms;
+}
+
+.why-qcentrio-card-container .why-qcentrio-card:nth-child(4){
+  transition-delay: 600ms;
+}
+
+.discover-section .discover-card:nth-child(2){
+   transition-delay: 200ms;
+}
+
+
+.footer-column .footer-item:nth-child(2){
+  transition-delay: 100ms;
+}
+
+.footer-column .footer-item:nth-child(3){
+  transition-delay: 200ms;
+}
+
+.footer-column .footer-item:nth-child(4){
+  transition-delay: 300ms;
+}
+
+.footer-column .footer-item:nth-child(5){
+  transition-delay: 400ms;
+}
+
+.footer-column .footer-item:nth-child(6){
+  transition-delay: 500ms;
+}
+
+.footer-column .footer-item:nth-child(7){
+  transition-delay: 600ms;
+}
+
+.social-links a:nth-child(2){
+  transition-delay: 200ms;
+}
+
+.social-links a:nth-child(3){
+  transition-delay: 400ms;
+}
+
+.success-path-container .success-path-column:nth-child(2){
+  transition-delay: 200ms;
+}
+
+.success-path-container .success-path-column:nth-child(3){
+  transition-delay: 400ms;
+}
+
+.success-path-category-container .success-path-category:nth-child(2){
+  transition-delay: 200ms;
+}
+
+.success-path-category-container .success-path-category:nth-child(3){
+  transition-delay: 400ms;
+}
+
+.success-path-category-container .success-path-category:nth-child(4){
+  transition-delay: 600ms;
+}
+
+.success-path-category-container .success-path-category:nth-child(5){
+  transition-delay: 800ms;
+}
+
+.blogs-container .card:nth-child(2){
+  transition-delay: 200ms;
+}
+
+.blogs-container .card:nth-child(3){
+  transition-delay: 400ms;
 }

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function ServiceCard({ image, title, content, link }) {
   return (
-    <div className="card">
+    <div data-option="up" className="card animate-hidden animate">
       <div className="">
         <Image style={{ width: "100%" }} src={image} alt="" />
       </div>

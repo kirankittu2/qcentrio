@@ -195,10 +195,12 @@
 
 .accordation-active {
   display: block;
+
 }
 
 .accordation-inactive {
   display: none;
+  
 }
 
 .strategic-path-sub-heading {

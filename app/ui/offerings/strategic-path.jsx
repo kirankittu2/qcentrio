@@ -16,7 +16,9 @@ export default function StrategicPath({ data }) {
     <div className="strategic-path-section balance-section">
       <div className="strategic-path-content">
         <h2 className="strategic-path-sub-heading">{data.upperheading}</h2>
-        <h2 className="section-heading">{data.heading}</h2>
+        <h2 data-option="up" className="section-heading animate-hidden animate">
+          {data.heading}
+        </h2>
       </div>
       <div className="accordation-container">
         <div className="accordation-column">
@@ -24,10 +26,13 @@ export default function StrategicPath({ data }) {
             return (
               <div
                 key={item.index}
-                className={`accordation ${
+                className={`accordation  ${
                   index == item.index ? "active" : ""
                 }`}>
-                <div data-index={item.index} onClick={handleToggle}>
+                <div
+                  className="accordation-title"
+                  data-index={item.index}
+                  onClick={handleToggle}>
                   <Image
                     data-index={item.index}
                     src={check}
@@ -61,7 +66,7 @@ export default function StrategicPath({ data }) {
             return (
               <div
                 key={item.index}
-                className={`accordation ${
+                className={`accordation  ${
                   index == item.index ? "active" : ""
                 }`}>
                 <div data-index={item.index} onClick={handleToggle}>

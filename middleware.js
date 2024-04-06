@@ -2,7 +2,6 @@ import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
 export function middleware(request) {
-  console.log("Hello");
   const cookieStore = cookies();
   const cookie = cookieStore.get("qcentrio-access");
   console.log(request.nextUrl.pathname);

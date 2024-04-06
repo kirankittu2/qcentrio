@@ -3,7 +3,10 @@ import "@/app/ui/services.css";
 import "@/app/ui/case-study.css";
 import "@/app/ui/contact-us.css";
 import "@/app/ui/about-us.css";
+import "animate.css";
 import dynamic from "next/dynamic";
+import Script from "next/script";
+import Animate from "./ui/global/animate";
 const Cursor = dynamic(() => import("./ui/global/cursor"), { ssr: false });
 
 export const metadata = {
@@ -14,8 +17,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
-      <Cursor />
+      <head></head>
+      <body>
+        {children}
+        <Animate />
+      </body>
+      {/* <Cursor /> */}
     </html>
   );
 }

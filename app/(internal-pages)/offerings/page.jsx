@@ -40,16 +40,25 @@ function ServiceListingHeadSection() {
   return (
     <div className="balance-section service-listing-heading-section">
       <div>
-        <Image className="globe-image" src={globe} alt="" />
+        <Image
+          data-option="left"
+          className="globe-image hidden-left animate"
+          src={globe}
+          alt=""
+        />
       </div>
       <div>
         <h1 className="heading1">OUR SERVICES</h1>
-        <h2 className="section-heading heading2">
+        <h2
+          data-option="up"
+          className="section-heading heading2 animate-hidden animate">
           RANGE OF INNOVATIVE SOLUTIONS DESIGNED TO HELP BUSINESSES ACHIEVE
           THEIR GOALS
         </h2>
-        <h3 className="heading3">INTO THE FUTURE</h3>
-        <div className="btn-container">
+        <h3 data-option="up" className="heading3 animate-hidden animate">
+          INTO THE FUTURE
+        </h3>
+        <div data-option="up" className="btn-container animate-hidden animate">
           <p>Get Started</p>
           <span>
             <Image src={arrow} alt="" />
@@ -67,7 +76,9 @@ function AllServices() {
       <div className="all-services-list-head-container">
         <div>
           <div className="upper-heading">SERVICES</div>
-          <h2 className="section-heading">
+          <h2
+            data-option="up"
+            className="section-heading animate-hidden animate">
             EXPLORE OUR SOLUTIONS BELOW TO FIND OUT HOW WE CAN HELP YOU ACHIEVE
             YOUR GOALS.
           </h2>
@@ -124,8 +135,10 @@ function BusinessTodaySection() {
   return (
     <div className="balance-section business-today-section">
       <div>
-        <h2>Empower Your Business Today</h2>
-        <p className="section-content">
+        <h2 data-option="up" className="animate-hidden animate">
+          Empower Your Business Today
+        </h2>
+        <p data-option="up" className="section-content animate-hidden animate">
           Ready to transform your business with our innovative solutions?
           Contact us now to get started and discover the power of
           Qcentrio&lsquo;s services.

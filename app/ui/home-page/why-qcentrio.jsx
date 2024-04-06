@@ -7,9 +7,13 @@ import Image from "next/image";
 export default function WhyQcentrio() {
   return (
     <div className="balance-section why-qcentrio-section">
-      <h2 className="section-heading">Why Choose Qcentrio?</h2>
+      <h2 data-option="up" className="section-heading animate-hidden animate">
+        Why Choose Qcentrio?
+      </h2>
       <div className="why-qcentrio-card-container">
-        <div className="why-qcentrio-card">
+        <div
+          data-option="up"
+          className="why-qcentrio-card animate-hidden animate">
           <div className="why-qcentrio-card-icon">
             <Image src={group} alt="" />
           </div>
@@ -19,7 +23,9 @@ export default function WhyQcentrio() {
             retention rates.
           </p>
         </div>
-        <div className="why-qcentrio-card">
+        <div
+          data-option="up"
+          className="why-qcentrio-card animate-hidden animate">
           <div className="why-qcentrio-card-icon">
             <Image fill src={x} alt="" />
           </div>
@@ -29,7 +35,9 @@ export default function WhyQcentrio() {
             and client trust.
           </p>
         </div>
-        <div className="why-qcentrio-card">
+        <div
+          data-option="up"
+          className="why-qcentrio-card animate-hidden animate">
           <div className="why-qcentrio-card-icon">
             <Image src={cloud} alt="" />
           </div>
@@ -39,7 +47,9 @@ export default function WhyQcentrio() {
             foresight and expertise.
           </p>
         </div>
-        <div className="why-qcentrio-card">
+        <div
+          data-option="up"
+          className="why-qcentrio-card animate-hidden animate">
           <div className="why-qcentrio-card-icon">
             <Image src={settings} alt="" />
           </div>

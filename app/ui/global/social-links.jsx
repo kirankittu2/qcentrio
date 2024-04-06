@@ -7,13 +7,22 @@ import Link from "next/link";
 export default function SocialLinks() {
   return (
     <div className="social-links">
-      <Link className="w-fit" href="https://www.facebook.com/Qcentrio/">
+      <Link
+        data-option="left"
+        className="w-fit hidden-left animate"
+        href="https://www.facebook.com/Qcentrio/">
         <Image src={facebook} alt="" />
       </Link>
-      <Link className="w-fit" href="https://twitter.com/Qcentrio/">
+      <Link
+        data-option="left"
+        className="w-fit hidden-left animate"
+        href="https://twitter.com/Qcentrio/">
         <Image src={twitter} alt="" />
       </Link>
-      <Link className="w-fit" href="https://www.linkedin.com/company/14437453">
+      <Link
+        data-option="left"
+        className="w-fit hidden-left animate"
+        href="https://www.linkedin.com/company/14437453">
         <Image src={linkedin} alt="" />
       </Link>
     </div>

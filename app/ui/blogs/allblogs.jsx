@@ -68,7 +68,10 @@ export default function AllBlogs({ data, type, page, paginationNum }) {
             ? "No Data Found"
             : data.children.map((item, index) => {
                 return (
-                  <div key={index} className="card">
+                  <div
+                    data-option="up"
+                    key={index}
+                    className="card animate-hidden animate">
                     <div className="card-image">
                       <Image fill src={item.image} alt="" />
                     </div>

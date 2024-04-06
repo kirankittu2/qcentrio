@@ -8,12 +8,12 @@ export default function InsigntsNoCaro() {
   return (
     <div className="insights-section section">
       <div className="insights-heading-container">
-        <h2 className="section-heading">
+        <h2 data-option="up" className="section-heading animate-hidden animate">
           Explore Qcentrio’s latest thought leadership and research
         </h2>
       </div>
       <div className="blogs-container">
-        <div className="card">
+        <div data-option="up" className="card animate-hidden animate">
           <div>
             <div>
               <Image src={blog1} alt="" />
@@ -37,7 +37,7 @@ export default function InsigntsNoCaro() {
             </div>
           </div>
         </div>
-        <div className="card">
+        <div data-option="up" className="card animate-hidden animate">
           <div>
             <div>
               <Image src={blog2} alt="" />
@@ -61,7 +61,7 @@ export default function InsigntsNoCaro() {
             </div>
           </div>
         </div>
-        <div className="card">
+        <div data-option="up" className="card animate-hidden animate">
           <div>
             <div>
               <Image src={blog3} alt="" />

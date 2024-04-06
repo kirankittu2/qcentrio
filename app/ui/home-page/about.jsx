@@ -8,13 +8,14 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div id="about" className="about-section section">
+    <div id="about" className="about-section section ">
       <div>
-        <h2 className="section-heading">
+        <h2 data-option="up" className="section-heading animate-hidden animate">
           Navigating Digital Excellence with AI, Cloud Solutions, and Strategic
           Innovation
         </h2>
-        <p className="section-content">
+
+        <p data-option="up" className="section-content animate-hidden animate">
           Qcentrio is one of the leaders in developing new technologies in the
           IT industry—artificial intelligence and machine learning, advanced
           cloud solutions, and strategic advisory services. Our collective
@@ -28,12 +29,14 @@ export default function About() {
           they have the ability to assess digital maturity critically or the
           ability to develop a strategic roadmap.
         </p>
-        <p className="section-content">
+        <p data-option="up" className="section-content animate-hidden animate">
           Thus, these roadmaps empower global brands to not only expand their
           horizons but also innovate and personalize the customer experience in
           a manner that complies with strict regulatory compliance standards.
         </p>
-        <p className="highlight-content">
+        <p
+          data-option="up"
+          className="highlight-content animate-hidden animate">
           In a changing world with the initiatives of digitization, Qcentrio is
           your partner on the way to the
           <span>
@@ -43,26 +46,26 @@ export default function About() {
         </p>
       </div>
       <div>
-        <h3 className="sub-heading">
+        <h3 data-option="up" className="sub-heading animate-hidden animate">
           Recognized as a leader in the global marketplace
         </h3>
-        <p className="section-content">
+        <p data-option="up" className="section-content animate-hidden animate">
           Qcentrio doesn&rsquo;t just respond to the digital era; we actively
           shape it, ensuring that <br /> our partners are not only market
           participants but leaders.
         </p>
         <div className="about-showcase-container">
-          <div className="showcase">
+          <div data-option="right" className="showcase hidden-right animate">
             <Image src={idea} alt="" />
             <h3 className="showcase-heading">~1000</h3>
             <p className="showcase-content">Skilled Professionals</p>
           </div>
-          <div className="showcase">
+          <div data-option="right" className="showcase hidden-right animate">
             <Image src={group} alt="" />
             <h3 className="showcase-heading">80%</h3>
             <p className="showcase-content">Employee Trust Index Score</p>
           </div>
-          <div className="showcase">
+          <div data-option="right" className="showcase hidden-right animate">
             <Image src={check} alt="" />
             <h3 className="showcase-heading">2015</h3>
             <p className="showcase-content">Founded in 2015</p>

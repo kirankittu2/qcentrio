@@ -34,7 +34,9 @@ export default function Journey() {
   return (
     <div className="journey-section">
       <div className="journey-heading-section">
-        <h2 className="section-heading">Real-life Journey of Success</h2>
+        <h2 data-option="up" className="section-heading animate-hidden animate">
+          Real-life Journey of Success
+        </h2>
         <div className="jouney-carousel-nav">
           <div className="left" onClick={handleLeft}>
             <Image src={journeyleft} alt="" />
@@ -45,8 +47,10 @@ export default function Journey() {
         </div>
       </div>
       <div className="journey-carousel-section">
-        <div className="journey-carousel-container">
-          <div ref={wrapper} className="journey-carousel-wrapper">
+        <div
+          data-option="right"
+          className="journey-carousel-container hidden-right animate">
+          <div ref={wrapper} className="journey-carousel-wrapper ">
             <div className="journey-carousel-item">
               <div ref={item}>
                 <div className="journey-carousel-image">
