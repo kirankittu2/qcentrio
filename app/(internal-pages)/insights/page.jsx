@@ -6,6 +6,13 @@ import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Footer from "@/app/ui/global/footer";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 
+export const metadata = {
+  title:
+    "Discover the World of Qcentrio Insights - Upgrading for Innovation and Creativity",
+  description:
+    "Gain valuable insights and stay ahead of the game with Qcentrio – the leading provider of AI, cloud solutions, and strategic advisory services. Explore Qcentrio Insights now!",
+};
+
 export default async function Blogs({ searchParams }) {
   const type = searchParams?.type || "perspectives";
   const item = searchParams?.item || "";

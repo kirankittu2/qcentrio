@@ -21,6 +21,13 @@ import service3 from "@/public/sub-offerings-3.jpeg";
 import service4 from "@/public/sub-offerings-4.jpeg";
 import service5 from "@/public/sub-offerings-5.jpg";
 
+export const metadata = {
+  title:
+    "Elevate Your Digital Excellence with AI and Cloud Solutions – Qcentrio",
+  description:
+    "With Qcentrio, unlock digital excellence through advanced AI, cloud solutions and strategic innovation. Stay ahead of the curve in the ever-evolving IT industry with our cutting-edge services. Explore now!",
+};
+
 export default function Home() {
   const services = {
     images: [service1, service2, service3, service4, service5, service3],

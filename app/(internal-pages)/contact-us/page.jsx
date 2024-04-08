@@ -11,6 +11,13 @@ import GlobalPresence from "../../ui/contact-us/global-presence";
 import Path4 from "../../ui/global/path-4";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 
+export const metadata = {
+  title:
+    "Contact Us at Qcentrio - Experience Our Universe of Innovation & Creativity",
+  description:
+    "Looking for industry experts to help bring your vision to life? Contact Qcentrio, where our engineers are always in action to make your projects a success.",
+};
+
 export default function ContactUs() {
   return (
     <div className="contact">

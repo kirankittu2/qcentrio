@@ -7,6 +7,13 @@ import CopyrightBar from "../../ui/global/copyrightbar";
 import Footer from "../../ui/global/footer";
 import Link from "next/link";
 
+export const metadata = {
+  title:
+    "About Qcentrio - A Universe of Innovation and Creativity for Your Imagination",
+  description:
+    "With Qcentrio, success is within reach. Our global IT expertise in AI and cloud solutions, paired with strategic insights and expert advisory, will guide you towards achieving your goals. Learn more about us and how we can help you succeed today!",
+};
+
 export default function AboutUs() {
   return (
     <>

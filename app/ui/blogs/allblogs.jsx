@@ -20,7 +20,7 @@ export default function AllBlogs({ data, type, page, paginationNum }) {
         </div>
         <h2 className="filter-by-heading">Filter by</h2>
         <div className="topics">
-          <Link href="/perspectives?type=perspectives#articles">
+          <Link href="/insights?type=perspectives#articles">
             <div
               className={` topic ${
                 type == "perspectives"
@@ -30,7 +30,7 @@ export default function AllBlogs({ data, type, page, paginationNum }) {
               Perspectives
             </div>
           </Link>
-          <Link href="/perspectives?type=case-study#articles">
+          <Link href="/insights?type=case-study#articles">
             <div
               className={` topic ${
                 type == "case-study"

@@ -17,8 +17,9 @@ import Path5 from "@/app/ui/global/path-5";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 
 export const metadata = {
-  title: "Qcentriio Services",
-  description: "Shapped in X-Verity",
+  title: "Delivering Innovative Solutions to Help Businesses Grow – Qcentrio",
+  description:
+    "Discover Qcentrio's innovative solutions that help businesses stay ahead of the competition. From AI and machine learning to advanced cloud solutions, we offer strategic advisory services to drive success for your company.",
 };
 
 export default function ServicesListing() {

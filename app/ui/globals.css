@@ -2164,6 +2164,16 @@ h2.blog-page-side-heading {
   align-items: center;
 }
 
+.about-section-heading-background{
+  background-color: rgba(8,151,104, 0.15);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.about-section-heading-background .sub-heading{
+  margin-bottom: 0px;
+}
+
 @media screen and (max-width: 1764px) {
   #path-2,
   #path-1 {

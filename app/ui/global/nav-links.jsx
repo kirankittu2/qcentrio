@@ -61,7 +61,7 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
         <Link
           data-option="link"
           className="link-with-down-arrow"
-          href="/perspectives">
+          href="/insights">
           Insights
           {/* <span>
             <Image

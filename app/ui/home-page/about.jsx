@@ -34,6 +34,8 @@ export default function About() {
           horizons but also innovate and personalize the customer experience in
           a manner that complies with strict regulatory compliance standards.
         </p>
+      </div>
+      <div>
         <p
           data-option="up"
           className="highlight-content animate-hidden animate">
@@ -44,17 +46,19 @@ export default function About() {
             solutions strategically.
           </span>
         </p>
-      </div>
-      <div>
-        <h3 data-option="up" className="sub-heading animate-hidden animate">
-          Recognized as a leader in the global marketplace
-        </h3>
+        <div
+          data-option="up"
+          className="about-section-heading-background animate-hidden animate">
+          <h3 className="sub-heading ">
+            Recognized as a leader in the global marketplace
+          </h3>
+        </div>
         <p data-option="up" className="section-content animate-hidden animate">
           Qcentrio doesn&rsquo;t just respond to the digital era; we actively
           shape it, ensuring that <br /> our partners are not only market
           participants but leaders.
         </p>
-        <div className="about-showcase-container">
+        {/* <div className="about-showcase-container">
           <div data-option="right" className="showcase hidden-right animate">
             <Image src={idea} alt="" />
             <h3 className="showcase-heading">~1000</h3>
@@ -70,12 +74,12 @@ export default function About() {
             <h3 className="showcase-heading">2015</h3>
             <p className="showcase-content">Founded in 2015</p>
           </div>
-        </div>
+        </div> */}
         <Link href="/about-us">
           <Button name="About Us" />
         </Link>
       </div>
-      <Path1 />
+      {/* <Path1 /> */}
     </div>
   );
 }

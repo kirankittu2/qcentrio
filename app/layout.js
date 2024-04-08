@@ -9,11 +9,6 @@ import Script from "next/script";
 import Animate from "./ui/global/animate";
 const Cursor = dynamic(() => import("./ui/global/cursor"), { ssr: false });
 
-export const metadata = {
-  title: "Qcentrio - Home",
-  description: "Shapped in X-Verity",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
