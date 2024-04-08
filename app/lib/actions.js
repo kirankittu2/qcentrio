@@ -128,14 +128,12 @@ export async function singleMail(formData) {
 }
 
 export async function storeCookie(formData) {
-  const secret_code = 7462;
+  const secret_code = 4298;
   let code = "";
 
   for (let i = 1; i <= 4; i++) {
     code += formData.get("code" + i);
   }
-
-  console.log(code);
 
   const data = {
     code,
@@ -157,9 +155,9 @@ export async function storeCookie(formData) {
 
   if (parsedData.code == secret_code) {
     cookies().set("qcentrio-access", "approved", {
-      secure: true,
+      // secure: true,
       expires: new Date(expireTime),
-      domain: "qcentrio.com",
+      // domain: "qcentrio.com",
     });
     redirect("/", "push");
   } else {

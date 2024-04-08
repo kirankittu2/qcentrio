@@ -2174,6 +2174,22 @@ h2.blog-page-side-heading {
   margin-bottom: 0px;
 }
 
+.service-offerings-image{
+  width: 236px;
+}
+
+.service-offerings-image > div{
+  position: relative;
+  width: 236px;
+  height: 236px;
+}
+
+.service-offerings-image img{
+  object-fit: cover;
+  rotate: -10deg;
+  border-radius: 6px;
+}
+
 @media screen and (max-width: 1764px) {
   #path-2,
   #path-1 {

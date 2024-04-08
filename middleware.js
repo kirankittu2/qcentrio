@@ -4,7 +4,6 @@ import { NextResponse } from "next/server";
 export function middleware(request) {
   const cookieStore = cookies();
   const cookie = cookieStore.get("qcentrio-access");
-  console.log(request.nextUrl.pathname);
   if (!request.nextUrl.pathname.startsWith("/coming-soon/admin-access")) {
     if (!cookie) {
       return NextResponse.redirect(new URL("/coming-soon", request.url));

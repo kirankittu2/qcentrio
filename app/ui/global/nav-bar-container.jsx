@@ -6,7 +6,6 @@ import { useState } from "react";
 
 export default function NavBarContainer() {
   const [servicesHovered, setServiceHovered] = useState(false);
-  //   console.log(servicesHovered);
 
   return (
     <>

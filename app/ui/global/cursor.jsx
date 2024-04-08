@@ -6,7 +6,6 @@ export default function Cursor() {
   var cursor = useRef(null);
 
   useEffect(() => {
-    console.log(cursor);
     function moveCursor(e) {
       cursor.current.classList.add("is-moving");
 

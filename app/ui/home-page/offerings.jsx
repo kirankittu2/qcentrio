@@ -32,11 +32,11 @@ export default function Offerings({ data }) {
         </div>
         {/* <Path7 /> */}
       </div>
-      <div className="service-offerings-section-col-2">
+      {/* <div className="service-offerings-section-col-2">
         <div className="service-offerings-section-middle-image">
-          <Image fill src={data.images[index]} alt="" />
+          
         </div>
-      </div>
+      </div> */}
       <div className="service-offerings-section-col-3">
         {data.list.map((item, i) => {
           return (
@@ -46,6 +46,13 @@ export default function Offerings({ data }) {
               className={`service-offerings-toggle-head ${
                 index == i ? "active" : ""
               }`}>
+              <div className="service-offerings-image">
+                {index == i && (
+                  <div>
+                    <Image fill src={data.images[index]} alt="" />
+                  </div>
+                )}
+              </div>
               <div className="service-offerings-toggle-num">
                 <p>{item.num}</p>
               </div>

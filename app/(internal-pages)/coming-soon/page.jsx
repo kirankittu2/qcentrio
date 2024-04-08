@@ -4,6 +4,10 @@ import Button from "@/app/ui/global/button";
 import { singleMail } from "@/app/lib/actions";
 import CircleAnime from "@/app/ui/global/circle-anime";
 
+export const metadata = {
+  title: "Qcentrio : We're Upgrading",
+};
+
 export default function ComingSoon() {
   return (
     <div className="coming-soon-page-container">
