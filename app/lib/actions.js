@@ -152,9 +152,15 @@ export async function storeCookie(formData) {
   } catch (error) {
     console.error("Validation failed:", error.errors);
   }
+  const now = new Date();
+  const expireTime = now.getTime() + 1000 * 60 * 60 * 24 * 7;
 
   if (parsedData.code == secret_code) {
-    cookies().set("qcentrio-access", "approved", { secure: true });
+    cookies().set("qcentrio-access", "approved", {
+      secure: true,
+      expires: new Date(expireTime),
+      domain: "qcentrio.com",
+    });
     redirect("/", "push");
   } else {
     console.log("Not Same");

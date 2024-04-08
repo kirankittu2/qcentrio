@@ -115,6 +115,10 @@
   flex: 1;
 }
 
+.service a{
+  text-decoration: none;
+}
+
 .service .section-content {
   color: black;
 }
@@ -128,6 +132,7 @@
   font-family: "Quadran-Bold";
   margin-bottom: 15px;
   letter-spacing: -1px;
+  text-decoration: none;
 }
 
 /* strategic path section styles */

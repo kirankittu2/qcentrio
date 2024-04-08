@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ServicesContent({ data }) {
   return (
@@ -20,7 +21,9 @@ export default function ServicesContent({ data }) {
               key={index}
               className="service animate-hidden animate">
               <Image src={item.image} alt="" />
-              <h2 className="service-heading-unq">{item.heading}</h2>
+              <Link href={item.link}>
+                <h2 className="service-heading-unq">{item.heading}</h2>
+              </Link>
               <p className="section-content">{item.content}</p>
             </div>
           );

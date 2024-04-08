@@ -10,6 +10,23 @@ import secure from "@/public/secure.svg";
 import aws from "@/public/aws.svg";
 import itsupport from "@/public/it-support.svg";
 import offshore from "@/public/offshore-dev.svg";
+import service1 from "@/public/sub-offerings-1.png";
+import service2 from "@/public/sub-offerings-2.jpeg";
+import service3 from "@/public/sub-offerings-3.jpeg";
+import service4 from "@/public/sub-offerings-4.jpeg";
+import service5 from "@/public/sub-offerings-5.jpg";
+import healthcare from "@/public/heart-beat.svg";
+import finace from "@/public/trend.svg";
+import manufacturing from "@/public/factory.svg";
+import engineering from "@/public/engineering.svg";
+import aerospace from "@/public/aerospace.svg";
+import travel from "@/public/suitcase.svg";
+import eCommerce from "@/public/web-trolley.svg";
+import realEstate from "@/public/building.svg";
+import softwareTechnology from "@/public/software-engineer.svg";
+import whyChooseImg1 from "@/public/sub-service-why-choose-1.png";
+import whyChooseImg2 from "@/public/sub-service-why-choose-2.png";
+import whyChooseImg3 from "@/public/sub-service-why-choose-3.png";
 
 const blogs = {
   children: [
@@ -655,18 +672,21 @@ const mainServicesContent = {
         {
           image: cloud,
           heading: "Data Analytics and Business Intelligence",
+          link: "/offerings/business-optimization-and-analytics-services/data-analytics-and-business-intelligence",
           content:
             "Leverage our extensive expertise in Microsoft Power BI, Google Analytics, and Tableau, and integrate your enterprise data with platforms like SQL Server and Hadoop to enhance your analytics capabilities.",
         },
         {
           image: salesforce,
           heading: "Collaboration and Productivity Solutions",
+          link: "/offerings/business-optimization-and-analytics-services/collaboration-and-productivity-solutions",
           content:
             "Integrate collaboration and productivity tools like Microsoft Teams, Asana, and Slack to enhance your digital workspace. Our services boost project management, output, and communication.",
         },
         {
           image: azure,
           heading: "CRM System Solutions",
+          link: "/offerings/business-optimization-and-analytics-services/crm-system-solutions",
           content:
             "Maximize CRM potential with Salesforce, MS Dynamics, and SAP for sales efficiency. Enhance customer experiences with tailored Salesforce, HubSpot, and Zoho implementations for campaigns.",
         },
@@ -1148,5 +1168,3986 @@ export function getServicePageData(title) {
     return mainServicesContent[4];
   } else if (title == "cloud-infra-and-security-services") {
     return mainServicesContent[5];
+  }
+}
+
+const subServicePagesContent = {
+  serviceOne: {
+    1: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    2: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    3: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    4: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    5: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    6: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+  },
+  serviceTwo: {
+    1: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    2: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    3: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    4: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    5: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+  },
+  serviceThree: {
+    1: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    2: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    3: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    4: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+  },
+  serviceFour: {
+    1: {
+      heroSectionData: {
+        heading:
+          "BREAK DOWN SILOS AND ENABLE SEAMLESS COMMUNICATION WITH COLLABORATION AND PRODUCTIVITY SOLUTIONS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Craft Your Path to Enhanced Collaboration and Productivity with Qcentrio",
+        content1:
+          "Today, staying ahead means keeping pace with technological advancements and leveraging them to redefine how we work. At the core of this transformation is the need for robust Collaboration and Productivity Solutions that enhance efficiency and foster a culture of innovation and teamwork.",
+        content2:
+          "At Qcentrio, we seamlessly integrate productivity tools such as Microsoft Teams, Asana, and Slack, ensuring a highly efficient digital workspace that enhances project management, productivity, and communication.",
+      },
+      offeringsSetion: {
+        mainHeading:
+          "OUR COLLABORATION AND PRODUCTIVITY SOLUTIONS OFFERINGS: TAKE YOUR BUSINESS TO THE NEXT LEVEL",
+        images: [
+          service1,
+          service2,
+          service3,
+          service4,
+          service5,
+          service3,
+          service4,
+        ],
+        list: [
+          {
+            num: "01",
+            heading: "Integrated Communication Platforms",
+            content:
+              "Streamline your internal and external communications with platforms that combine messaging, video conferencing, and project management capabilities.",
+          },
+          {
+            num: "02",
+            heading: "Collaborative Workspaces",
+            content:
+              "Foster a collaborative culture with digital workspaces that allow teams to share ideas, files, and feedback in real time.",
+          },
+          {
+            num: "03",
+            heading: "Productivity Tracking and Analytics",
+            content:
+              "Gain insights into team productivity and collaboration patterns with advanced analytics, enabling you to make data-driven decisions that boost efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Team Communication Tools",
+            content:
+              "Improve team communication with instant messaging, shared calendars, and real-time notifications to keep everyone on the same page.",
+          },
+          {
+            num: "05",
+            heading: "Project Management Solutions",
+            content:
+              "Enhance project management with our comprehensive project management solutions support. Assign tasks, track progress, manage resources, meet deadlines, and encourage collaboration for success.",
+          },
+          {
+            num: "06",
+            heading: "Integrated Workspaces",
+            content:
+              "Improve your team's collaboration, communication, and task management by integrating tools and applications of your choice into a unified platform.",
+          },
+          {
+            num: "07",
+            heading: "Dynamic Scheduling and Resource Allocation Tools",
+            content:
+              "Use dynamic scheduling and resource allocation tools to optimize team productivity by allocating tasks based on skills and workload, reducing burnout risk.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "TAILORED COLLABORATION AND PRODUCTIVITY SOLUTIONS SUPPORT ACROSS DIFFERENT INDUSTRIES",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Secure, efficient communication and resource management for improved patient care.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Precision and security in decision-making and compliance through streamlined operations.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Enhance production efficiency and supply chain logistics with integrated communication.",
+          },
+          {
+            icon: engineering,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "Accelerate innovation with tools that support agile development and team synchronization.",
+          },
+          {
+            icon: aerospace,
+            heading: "EDUCATION",
+            content:
+              "Enrich learning through collaborative platforms and administrative efficiency.",
+          },
+          {
+            icon: travel,
+            heading: "RETAIL",
+            content:
+              "Optimize operations and customer service with real-time analytics and communication.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Collaboration and Productivity Solutions Support?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Deep Industry Knowledge",
+            content:
+              "Our solutions support is built on a foundation of deep industry knowledge, ensuring they address the specific challenges and leverage the unique opportunities of each sector.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customizable and Scalable",
+            content:
+              "Tailored to meet your specific needs, we can customize and scale according to your requirements, thus matching the speed of your business.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Secure and Compliant",
+            content:
+              "We prioritize security and compliance, ensuring that the solutions meet the stringent standards required by industries like healthcare and finance.",
+          },
+        ],
+      },
+    },
+    2: {
+      heroSectionData: {
+        heading:
+          "OPTIMIZE YOUR DIGITAL TOUCHPOINTS FOR SEAMLESS CUSTOMER JOURNEY WITH ROBUST CRM SYSTEMS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Revolutionize Customer Management with Qcentrio’s CRM System Solutions",
+        content1:
+          "In a world where customer relationships dictate business success, Qcentrio reimagines CRM system solutions to empower companies to manage and nurture these connections effectively. By integrating industry-leading tools like Salesforce, Microsoft Dynamics, and SAP CRM, we elevate your customer interactions to new heights, ensuring that every touchpoint is an opportunity for growth and engagement.",
+        content2: "",
+      },
+      offeringsSetion: {
+        mainHeading:
+          "OUR CRM SYSTEM SOLUTIONS OFFERINGS: CREATE LASTING RELATIONSHIPS WITH YOUR CUSTOMERS",
+        images: [service1, service2, service3, service4, service5, service3],
+        list: [
+          {
+            num: "01",
+            heading: "Salesforce Implementation",
+            content:
+              "With our end-to-end implementation services, you can tap into Salesforce's full potential for comprehensive customer relationship management and marketing automation.",
+          },
+          {
+            num: "02",
+            heading: "Microsoft Dynamics CRM",
+            content:
+              "Experience versatility with Microsoft Dynamics CRM, tailored to enhance customer engagement and business processes through customization and seamless integration.",
+          },
+          {
+            num: "03",
+            heading: "SAP CRM Services",
+            content:
+              "Utilize the robust functionality of SAP CRM to gain deep customer insights and streamline operations, personalized to fit your business model.",
+          },
+          {
+            num: "04",
+            heading: "CRM Optimization and Analytics",
+            content:
+              "Maximize your CRM's performance with our optimization strategies and analytics insights, ensuring you capture and utilize every piece of customer data effectively.",
+          },
+          {
+            num: "05",
+            heading: "Custom CRM Development",
+            content:
+              "Get a CRM solution built from the ground up to address your specific business needs, with custom features that fit your company's workflow.",
+          },
+          {
+            num: "06",
+            heading: "CRM Migration Services",
+            content:
+              "Transition to a more efficient system with our seamless CRM migration services, ensuring no data is lost and every team member is up to speed with new tools.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading: "CUSTOM CRM SOLUTIONS CATERED TO INDUSTRY DEMANDS",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Manage patient relationships with secure and HIPAA-compliant CRM systems.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Secure CRM solutions for precision in client management and compliance.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Streamlined sales processes and customer service in manufacturing CRM.",
+          },
+          {
+            icon: engineering,
+            heading: "RETAIL",
+            content:
+              "Engage shoppers with CRM analytics that drive sales and loyalty.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading: "Why Partner with Qcentrio for Your CRM Solutions?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Extensive CRM Expertise",
+            content:
+              "Qcentrio brings a wealth of knowledge and experience with CRM systems like Salesforce, Dynamics 365, and SAP, allowing us to provide tailored support.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customization and Integration",
+            content:
+              "Your unique business demands are met with our custom CRM designs, ensuring seamless integration into your existing workflows.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Enduring Support and Advancement",
+            content:
+              "We enhance CRM system proficiency and user adoption by providing your team with the necessary skills. Our experts are available to ensure peak performance, even beyond launch.",
+          },
+        ],
+      },
+    },
+    3: {
+      heroSectionData: {
+        heading:
+          "MAXIMIZE YOUR DATA'S POTENTIAL AND DRIVE INFORMED BUSINESS DECISIONS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Harness the Power of Data Analytics and Business Intelligence with Qcentrio",
+        content1:
+          "Data is a pivotal asset for businesses seeking a competitive edge in the digital age. To make it happen, enterprises need comprehensive data analytics and business intelligence capabilities to translate vast amounts of data into actionable insights.",
+        content2:
+          "At Qcentrio, we stand at the forefront of this domain, offering unparalleled expertise in data analytics and business intelligence services. With our advanced skills in Microsoft Power BI, Google Analytics, Tableau, and integration with platforms like SQL Server and Hadoop, we empower businesses to make strategic decisions informed by data.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR DATA ANALYTICS AND BUSINESS INTELLIGENCE OFFERINGS",
+        images: [service1, service2, service3, service4, service5, service3],
+        list: [
+          {
+            num: "01",
+            heading: "Comprehensive Data Solutions",
+            content:
+              "Leverage our expertise in data warehousing with technologies like Amazon Redshift and Microsoft Azure SQL database, paired with in-depth analysis using Tableau and Power BI.",
+          },
+          {
+            num: "02",
+            heading: "Specialized Analytics Tools",
+            content:
+              "Utilize specialized tools, such as Tableau for interactive data visualizations, Microsoft Power BI for dynamic reports, and Google Analytics for web traffic insights.",
+          },
+          {
+            num: "03",
+            heading: "Customized BI Solutions",
+            content:
+              "At Qcentrio, we recognize that each business has unique needs. We deliver custom BI solutions molded to your requirements, integrating robust tools like Apache Spark for real-time data processing.",
+          },
+          {
+            num: "04",
+            heading: "Data Integration and Management",
+            content:
+              "Streamline the collection and integration of data from various sources, ensuring accuracy and accessibility for analysis. Implement management practices that maintain the integrity and security of your data across the board.",
+          },
+          {
+            num: "05",
+            heading: "Predictive Analytics and Machine Learning",
+            content:
+              "Employ advanced predictive models and machine learning algorithms to forecast trends, customer behavior, and business outcomes, turning data into a predictive tool for strategic planning.",
+          },
+          {
+            num: "06",
+            heading: "Real-Time Analytics and Reporting",
+            content:
+              "Access insights as they happen with real-time analytics. Create comprehensive, up-to-the-minute reports that allow for agile decision-making and immediate action in response to market changes..",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "DATA ANALYTICS AND BUSINESS INTELLIGENCE TAILORED TO YOUR INDUSTRY NEEDS",
+        list: [
+          {
+            icon: healthcare,
+            heading: "MANUFACTURING",
+            content:
+              "Leverage data to make informed decisions, improve patient outcomes, streamline operations, and support clinical decisions.",
+          },
+          {
+            icon: finace,
+            heading: "HEALTHCARE",
+            content:
+              "Leverage data to make informed decisions, improve patient outcomes, streamline operations, and support clinical decisions.",
+          },
+          {
+            icon: manufacturing,
+            heading: "FINANCE",
+            content:
+              "Gain insights into financial trends, customer behavior, and market movements to strategic investments and operational improvements.",
+          },
+          {
+            icon: engineering,
+            heading: "RETAIL",
+            content:
+              "Harness the power of data to personalize customer experiences, forecast market trends, and optimize inventory management for increased sales and customer loyalty.",
+          },
+          {
+            icon: aerospace,
+            heading: "ENERGY",
+            content:
+              "Deploy data analytics for efficient energy management, from demand forecasting to distribution optimization, reducing costs and conserving resources.",
+          },
+          {
+            icon: travel,
+            heading: "TRANSPORTATION AND LOGISTICS",
+            content:
+              "Enhance route optimization, freight management, and operational efficiency with data-driven insights. Predict and respond swiftly to logistical challenges.",
+          },
+          {
+            icon: eCommerce,
+            heading: "TELECOMMUNICATIONS",
+            content:
+              "Utilize data analytics to manage vast networks efficiently, predict maintenance needs, understand customer usage patterns, and develop competitive pricing strategies.",
+          },
+          {
+            icon: realEstate,
+            heading: "E-COMMERCE",
+            content:
+              "Boost your online retail strategy with analytics that fine-tune customer journeys, optimize inventory management, and personalized shopping experiences to drive sales and customer loyalty.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Data Analytics and Business Intelligence?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise Across Diverse Tools",
+            content:
+              "Our team is proficient in various data analytics and BI tools, ensuring you have the right technology to extract maximum value from your data.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions Tailored to Your Needs",
+            content:
+              "We go beyond off-the-shelf solutions, providing customized strategies that align with your business goals and industry-specific challenges.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Continuous Support for Sustained Success",
+            content:
+              "Our relationship with clients doesn't end with implementation. We offer continuous support and guidance to ensure your success in data-driven strategies.",
+          },
+        ],
+      },
+    },
+  },
+  serviceFive: {
+    1: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    2: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    3: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+  },
+  serviceSix: {
+    1: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    2: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    3: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    4: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    5: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    6: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    7: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+    8: {
+      heroSectionData: {
+        heading:
+          "<span>DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY</span> WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
+      contentSection: {
+        image: "http://localhost:3000/sub-service-content-side-image.png",
+        heading:
+          "Redefine Innovation with <span>Qcentrio’s GenAI Expertise</span>",
+        content1:
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+        content2:
+          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+      },
+      offeringsSetion: {
+        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        images: [service1, service2, service3, service4, service5],
+        list: [
+          {
+            num: "01",
+            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "02",
+            heading: "Advanced Analytics and AI for Insightful Decisions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "03",
+            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "04",
+            heading: "Boost Productivity with Automation Solutions",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+          {
+            num: "05",
+            heading: "End-to-End Generative AI Integration for Business Growth",
+            content:
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+          },
+        ],
+      },
+      servicesOfSubService: {
+        mainHeading:
+          "<span>INDUSTRY-SPECIFIC</span> GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        list: [
+          {
+            icon: healthcare,
+            heading: "HEALTHCARE",
+            content:
+              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+          },
+          {
+            icon: finace,
+            heading: "FINANCE",
+            content:
+              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+          },
+          {
+            icon: manufacturing,
+            heading: "MANUFACTURING",
+            content:
+              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+          },
+          {
+            icon: engineering,
+            heading: "HEAVY ENGINEERING",
+            content:
+              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+          },
+          {
+            icon: aerospace,
+            heading: "AEROSPACE",
+            content:
+              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+          },
+          {
+            icon: travel,
+            heading: "TRAVEL & TRANSPORTATION",
+            content:
+              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+          },
+          {
+            icon: eCommerce,
+            heading: "E-COMMERCE",
+            content:
+              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+          },
+          {
+            icon: realEstate,
+            heading: "REAL ESTATE",
+            content:
+              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "SOFTWARE TECHNOLOGY",
+            content:
+              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+          },
+        ],
+      },
+      whyChooseSection: {
+        mainHeading:
+          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        list: [
+          {
+            image: whyChooseImg1,
+            heading: "Expertise in Generative AI",
+            content:
+              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+          },
+          {
+            image: whyChooseImg2,
+            heading: "Customized Solutions",
+            content:
+              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+          },
+          {
+            image: whyChooseImg3,
+            heading: "Innovative Ecosystem",
+            content:
+              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+          },
+        ],
+      },
+    },
+  },
+};
+
+export function getSubServicePageContent(main, sub) {
+  if (main == "advanced-technology-solutions") {
+    if (sub == "erp-solutions-support") {
+      return subServicePagesContent.serviceOne[1];
+    } else if (sub == "big-data-services-and-solutions") {
+      return subServicePagesContent.serviceOne[2];
+    } else if (sub == "comprehensive-sap-services") {
+      return subServicePagesContent.serviceOne[3];
+    } else if (sub == "custom-software-application-development") {
+      return subServicePagesContent.serviceOne[4];
+    } else if (sub == "internet-of-things-solutions") {
+      return subServicePagesContent.serviceOne[5];
+    } else if (sub == "product-engineering-services") {
+      return subServicePagesContent.serviceOne[6];
+    }
+  } else if (main == "advisory-and-strategic-services") {
+    if (sub == "audit-and-assurance-services") {
+      return subServicePagesContent.serviceTwo[1];
+    } else if (sub == "epic-advisory-services") {
+      return subServicePagesContent.serviceTwo[2];
+    } else if (sub == "oracle-cerner-advisory-services") {
+      return subServicePagesContent.serviceTwo[3];
+    } else if (sub == "risk-advisory-services") {
+      return subServicePagesContent.serviceTwo[4];
+    } else if (sub == "specialty-services") {
+      return subServicePagesContent.serviceTwo[5];
+    }
+  } else if (main == "blockchain-advisory-and-offerings") {
+    if (sub == "blockchain-integration-and-deployment") {
+      return subServicePagesContent.serviceThree[1];
+    } else if (sub == "blockchain-security-and-compliance") {
+      return subServicePagesContent.serviceThree[2];
+    } else if (sub == "blockchain-solution-development") {
+      return subServicePagesContent.serviceThree[3];
+    } else if (sub == "blockchain-strategy-and-advisory") {
+      return subServicePagesContent.serviceThree[4];
+    }
+  } else if (main == "business-optimization-and-analytics-services") {
+    if (sub == "collaboration-and-productivity-solutions") {
+      return subServicePagesContent.serviceFour[1];
+    } else if (sub == "crm-system-solutions") {
+      return subServicePagesContent.serviceFour[2];
+    } else if (sub == "data-analytics-and-business-intelligence") {
+      return subServicePagesContent.serviceFour[3];
+    }
+  } else if (main == "business-value-enhancement-services") {
+    if (sub == "artificial-intelligence-machine-learning-offerings") {
+      return subServicePagesContent.serviceFive[1];
+    } else if (sub == "generative-ai-solutions-and-offerings") {
+      return subServicePagesContent.serviceFive[2];
+    } else if (sub == "robotic-process-automation-services") {
+      return subServicePagesContent.serviceFive[3];
+    }
+  } else if (main == "cloud-infra-and-security-services") {
+    if (sub == "aws-services-and-offerings") {
+      return subServicePagesContent.serviceSix[1];
+    } else if (sub == "azure-services-and-offerings") {
+      return subServicePagesContent.serviceSix[2];
+    } else if (sub == "cloud-infrastructure-services") {
+      return subServicePagesContent.serviceSix[3];
+    } else if (sub == "continuous-it-support-and-managed-services") {
+      return subServicePagesContent.serviceSix[4];
+    } else if (sub == "cybersecurity-solutions") {
+      return subServicePagesContent.serviceSix[5];
+    } else if (sub == "gcp-services-and-offerings") {
+      return subServicePagesContent.serviceSix[6];
+    } else if (sub == "offshore-development-centre-services") {
+      return subServicePagesContent.serviceSix[7];
+    } else if (sub == "salesforce-services") {
+      return subServicePagesContent.serviceSix[8];
+    }
   }
 }

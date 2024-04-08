@@ -9,108 +9,82 @@ export default function Footer() {
       <div className="footer-column-container">
         <div className="footer-columns-holder">
           <div className="footer-column">
-            <h2
-              data-option="up"
-              className="footer-heading animate-hidden animate">
+            <h2 className="footer-heading ">
               <Link href="http://localhost:3000/perspectives">Insights</Link>
             </h2>
-            <p data-option="up" className="footer-item animate-hidden animate">
+            <p className="footer-item ">
               <Link href="http://localhost:3000/perspectives">
                 Prespectives
               </Link>
             </p>
-            <p data-option="up" className="footer-item animate-hidden animate">
+            <p className="footer-item ">
               <Link href="http://localhost:3000/perspectives?type=case-study">
                 Case Studies
               </Link>
             </p>
-            <p data-option="up" className="footer-item animate-hidden animate">
-              Thought Leadership
-            </p>
-            <p data-option="up" className="footer-item animate-hidden animate">
-              News
-            </p>
+            <p className="footer-item ">Thought Leadership</p>
+            <p className="footer-item ">News</p>
           </div>
           <div className="footer-column">
-            <h2
-              data-option="up"
-              className="footer-heading animate-hidden animate">
-              Company
-            </h2>
-            <p data-option="up" className="footer-item animate-hidden animate">
+            <h2 className="footer-heading ">Company</h2>
+            <p className="footer-item ">
               <Link href="http://localhost:3000/about-us">About Us</Link>
             </p>
-            <p data-option="up" className="footer-item animate-hidden animate">
-              Careers
-            </p>
-            <p data-option="up" className="footer-item animate-hidden animate">
-              Partners
-            </p>
+            <p className="footer-item ">Careers</p>
+            <p className="footer-item ">Partners</p>
           </div>
           <div className="footer-column">
-            <h2
-              data-option="up"
-              className="footer-heading animate-hidden animate">
-              Transformations
-            </h2>
-            <p data-option="up" className="footer-item animate-hidden animate">
+            <h2 className="footer-heading ">Transformations</h2>
+            <p className="footer-item ">
               <Link href="/offerings/business-value-enhancement-services">
                 Business Value Enhancement
               </Link>
             </p>
-            <p data-option="up" className="footer-item animate-hidden animate">
+            <p className="footer-item ">
               <Link href="/offerings/advisory-and-strategic-services">
                 Advisory and Strategic Services
               </Link>
             </p>
-            <p data-option="up" className="footer-item animate-hidden animate">
+            <p className="footer-item ">
               <Link href="/offerings/business-optimization-and-analytics-services">
                 Business Optimization and Analytics
               </Link>
             </p>
-            <p data-option="up" className="footer-item animate-hidden animate">
+            <p className="footer-item ">
               <Link href="/offerings/advanced-technology-solutions">
                 Advanced Technology Solutions
               </Link>
             </p>
-            <p data-option="up" className="footer-item animate-hidden animate">
+            <p className="footer-item ">
               <Link href="/offerings/cloud-infra-and-security-services">
                 Cloud Infrastructure & Security
               </Link>
             </p>
-            <p data-option="up" className="footer-item animate-hidden animate">
+            <p className="footer-item ">
               <Link href="/offerings/blockchain-advisory-and-offerings">
                 Blockchain Services & Solutions
               </Link>
             </p>
           </div>
           <div className="footer-column">
-            <h2
-              data-option="up"
-              className="footer-heading animate-hidden animate">
-              Legal
-            </h2>
-            <p data-option="up" className="footer-item animate-hidden animate">
+            <h2 className="footer-heading ">Legal</h2>
+            <p className="footer-item ">
               <Link href="/terms-and-conditions">Terms & Conditions</Link>
             </p>
-            <p data-option="up" className="footer-item animate-hidden animate">
+            <p className="footer-item ">
               <Link href="/privacy-policy">Privacy Policy</Link>
             </p>
-            <p data-option="up" className="footer-item animate-hidden animate">
+            <p className="footer-item ">
               <Link href="/cookie-policy">Cookie Policy</Link>
             </p>
           </div>
         </div>
         <div>
           <div className="footer-form-column">
-            <h2
-              data-option="right"
-              className="footer-form-heading hidden-right animate">
+            <h2 className="footer-form-heading ">
               <span>Stay ahead </span>in a rapidly changing world.
             </h2>
-            <p
-              data-option="right"
-              className="footer-form-sub-heading hidden-right animate">
+            <p className="footer-form-sub-heading ">
               Subscribe to our Insights, our monthly look at the critical issues
               facing global businesses.
             </p>
@@ -118,8 +92,7 @@ export default function Footer() {
               <div className="footer-checkbox">
                 <input type="checkbox" id="privacy-policy" />
                 <label
-                  data-option="right"
-                  className="privacy-checkbox-text hidden-right animate"
+                  className="privacy-checkbox-text "
                   htmlFor="privacy-policy">
                   *I have read the&nbsp;
                   <span>
@@ -131,9 +104,7 @@ export default function Footer() {
                 </label>
               </div>
             </div>
-            <div
-              data-option="right"
-              className="lets-talk-container hidden-right animate">
+            <div className="lets-talk-container ">
               <input type="text" placeholder="Email Address" />
               <div className="input-btn">
                 <Button name="Subscribe" />

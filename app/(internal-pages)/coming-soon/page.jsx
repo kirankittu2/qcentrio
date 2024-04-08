@@ -27,7 +27,7 @@ export default function ComingSoon() {
             exciting updates and be the first to experience.
           </p>
           <form action={singleMail}>
-            <div className="contact-column">
+            <div className="coming-soon-contact-column">
               <input name="name" type="text" placeholder="Name" required />
               <input
                 name="email"
@@ -43,7 +43,9 @@ export default function ComingSoon() {
           <CircleAnime />
         </div>
       </div>
-      <div className="coming-soon-page-footer"></div>
+      <div className="coming-soon-page-footer">
+        <div></div>
+      </div>
     </div>
   );
 }

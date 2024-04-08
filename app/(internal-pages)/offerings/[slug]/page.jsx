@@ -181,7 +181,6 @@ export default function Services({ params }) {
   //   ],
   // };
   const data = getServicePageData(params.slug);
-  console.log(data);
 
   return (
     <>
