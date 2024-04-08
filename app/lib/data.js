@@ -31,7 +31,7 @@ import whyChooseImg3 from "@/public/sub-service-why-choose-3.png";
 const blogs = {
   children: [
     {
-      image: "http://localhost:3000/cloud-security.jpg",
+      image: "/cloud-security.jpg",
       title:
         "7 effective ways to maximize your cloud security for enhanced protection",
       content:
@@ -39,21 +39,21 @@ const blogs = {
       link: "/perspectives/7-ways-to-maximize-your-cloud-security",
     },
     {
-      image: "http://localhost:3000/robotic-process.jpg",
+      image: "/robotic-process.jpg",
       title: "Boost your enterprise innovation with robotic process automation",
       content:
         "In today's digital environment, innovation and robotic process automation are essential for streamlining procedures and driving growth.",
       link: "/perspectives/boost-your-enterprise-innovation-with-robotic-process-automation",
     },
     {
-      image: "http://localhost:3000/block-chain-banking.jpg",
+      image: "/block-chain-banking.jpg",
       title: "How blockchain redefines business and banking",
       content:
         "Since Satoshi Nakamoto introduced Blockchain, the term emphasizes its unalterable nature, offering security to financial moguls.",
       link: "/perspectives/how-blockchain-redefines-business-and-banking",
     },
     {
-      image: "http://localhost:3000/cloud-computing.jpg",
+      image: "/cloud-computing.jpg",
       title:
         "Navigating the cloud landscape: 5 key strategies for effective cloud assessment",
       content: "Content",
@@ -66,7 +66,7 @@ const blogs = {
 const caseStudies = {
   children: [
     {
-      image: "http://localhost:3000/enhancing-patient-care.jpg",
+      image: "/enhancing-patient-care.jpg",
       title: "Enhancing patient care with BI and SQL analytics at qcentrio",
       content:
         "The client aimed to enhance their Java app for better population health analytics and healthcare insights.",
@@ -74,7 +74,7 @@ const caseStudies = {
     },
 
     {
-      image: "http://localhost:3000/land-management.jpg",
+      image: "/land-management.jpg",
       title:
         "Land Management in India Leading State with a Blockchain Platform",
       content:
@@ -82,7 +82,7 @@ const caseStudies = {
       link: "/case-study/transforming-land-management-in-india-leading-state-with-a-blockchain-platform",
     },
     {
-      image: "http://localhost:3000/automatic-vehicle.jpg",
+      image: "/automatic-vehicle.jpg",
       title:
         "Automating Vehicle Aerodynamics Simulations for Automotive Company",
       content:
@@ -90,7 +90,7 @@ const caseStudies = {
       link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
     },
     {
-      image: "http://localhost:3000/sharepoint-ecosystem.jpg",
+      image: "/sharepoint-ecosystem.jpg",
       title:
         "Transforming pharmaceutical major’s sharepoint ecosystem with azure",
       content: "Content",
