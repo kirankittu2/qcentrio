@@ -15,131 +15,51 @@ export default function Carousel() {
   const layer = useRef(null);
   const [index, setIndex] = useState(0);
   const [slideItem, setItem] = useState("");
-  // const [allImages, setAllImages] = useState([]);
-  // const [allBoxes, setAllBoxes] = useState([]);
-  // const [wid, setWidth] = useState(0);
-  // const [hei, setHeight] = useState(0);
-  // const intervalRef = useRef(null);
+
   const [hovered, setHovered] = useState(false);
 
   useEffect(() => {
     const items = wrapper.current.querySelectorAll(".hero-slide");
     setItem(items[0]);
 
-    // const images = document.querySelectorAll(".slide-image");
-    // const tempAllImages = [];
-    // images.forEach((image) => {
-    //   tempAllImages.push(image);
-    // });
-    // setAllImages(tempAllImages);
+    const words = document.querySelectorAll(".letter-slide");
+    words.forEach((word) => {
+      const wordArray = word.textContent.split(" ");
+      word.textContent = "";
+      wordArray.forEach((seperateWord) => {
+        let outerLetterElement = document.createElement("span");
+        outerLetterElement.classList.add("letter-slide-main-outer-span");
+        let letterElement = document.createElement("span");
+        letterElement.classList.add("letter-slide-outer-span");
+        letterElement.innerHTML = seperateWord + "&nbsp;";
+        outerLetterElement.appendChild(letterElement);
+        word.appendChild(outerLetterElement);
+      });
+      words.forEach((word) => {
+        word.style.opacity = 1;
+      });
 
-    // const width = tempAllImages[0].width / 10;
-    // setWidth(width);
-    // const height = tempAllImages[0].height / 4;
-    // setHeight(height);
-
-    // layer.current.style.height = tempAllImages[0].height + "px";
-    // layer.current.style.width = tempAllImages[0].width + "px";
-
-    // const tempAllBoxes = [];
-    // for (let i = 0; i < 4; i++) {
-    //   let row = [];
-    //   for (let j = 0; j < 10; j++) {
-    //     const box = document.createElement("div");
-    //     box.classList.add("box");
-    //     box.style.position = "absolute";
-    //     box.style.width = width + "px";
-    //     box.style.height = height + "px";
-    //     box.style.top = height * i + "px";
-    //     box.style.left = width * j + "px";
-    //     row.push(box);
-    //     layer.current.appendChild(box);
-    //   }
-    //   tempAllBoxes.push(row);
-    // }
-    // setAllBoxes(() => tempAllBoxes);
+      const wordsOfAddedSpans = document.querySelectorAll(
+        ".letter-slide span > span"
+      );
+      wordsOfAddedSpans.forEach((span, index) => {
+        setTimeout(() => {
+          span.classList.add("letter-animate");
+          span.style.opacity = 1;
+        }, 100);
+      });
+    });
   }, []);
 
-  // useEffect(() => {
-  //   const changeIndex = () => {
-  //     if (index < wrapper.current.querySelectorAll(".hero-slide").length - 1) {
-  //       setIndex((num) => num + 1);
-  //     } else {
-  //       setIndex(0);
-  //     }
-  //   };
-
-  //   if (hovered != true) {
-  //     intervalRef.current = setInterval(changeIndex, 5000);
-  //   }
-
-  //   return () => clearInterval(intervalRef.current);
-  // }, [index, hovered]);
-
   useEffect(() => {
-    // if (allBoxes.length != 0) {
-    //   const rowCount = allBoxes.length;
-    //   const colCount = allBoxes[0].length;
-    //   let count = 0;
-
-    //   layer.current.style.opacity = 1;
-    //   if (index < allImages.length - 1) {
-    //     const imgSrc = allImages[index].src;
-    //     const img = new Image();
-    //     img.src = imgSrc;
-
-    //     const tempCanvas = document.createElement("canvas");
-    //     const tempCtx = tempCanvas.getContext("2d");
-    //     tempCanvas.width = wid;
-    //     tempCanvas.height = hei;
-
-    //     for (let i = 0; i < 4; i++) {
-    //       for (let j = 0; j < 10; j++) {
-    //         tempCtx.drawImage(img, wid * j, hei * i, wid, hei, 0, 0, wid, hei);
-    //         const croppedImageUrl = tempCanvas.toDataURL();
-    //         const box = allBoxes[i][j];
-    //         box.style.backgroundImage = `url(${croppedImageUrl})`;
-    //       }
-    //     }
-
-    //     for (let sum = rowCount + colCount - 2; sum >= 0; sum--) {
-    //       for (let i = rowCount - 1; i >= 0; i--) {
-    //         const j = sum - i;
-    //         if (j >= 0 && j < colCount) {
-    //           setTimeout(() => {
-    //             allBoxes[i][j].style.opacity = 1;
-    //             allBoxes[i][j].classList.add("animatebox");
-    //           }, 20 * count);
-    //           count++;
-    //         }
-    //       }
-    //     }
-
-    //     setTimeout(() => {
-    //       count = 0;
-    //       layer.current.style.opacity = 0;
-    //       for (let i = 0; i < 4; i++) {
-    //         for (let j = 0; j < 10; j++) {
-    //           allBoxes[i][j].style.opacity = 0;
-    //           allBoxes[i][j].classList.remove("animatebox");
-    //         }
-    //       }
-    //     }, 2000);
-    //   }
-    // }
-
     const items = wrapper.current.querySelectorAll(".hero-slide");
     if (slideItem !== "") {
       items.forEach((item) => {
         const slideIndex = item.getAttribute("data-index");
         if (slideIndex == index) {
           slideItem.classList.remove("active");
-          slideItem.querySelector(".hero-content").classList.remove("slideUP");
           item.classList.add("active");
           wrapper.current.prepend(item);
-          const timeInterval = setTimeout(() => {
-            item.querySelector(".hero-content").classList.add("slideUP");
-          }, 20);
           setItem(item);
           return () => clearTimeout(timeInterval);
         }
@@ -182,7 +102,7 @@ export default function Carousel() {
           <div>
             <Img className="slide-image" src={herobanner1} alt="" />
             <div id="hero-carousel-content" className="hero-content ">
-              <h1 className="hero-heading">
+              <h1 className="hero-heading letter-slide">
                 PIONEERING E2E BUSINESS TRANSFORMATION
               </h1>
               <p className="hero-sub-heading">

@@ -48,15 +48,6 @@ export default function Animate() {
 
     window.addEventListener("scroll", handleScroll, { passive: true });
 
-    // Adding animation classes
-    // const glimpseColumn1 = document.querySelector(".glimpse-column-1").children;
-
-    // for (let i = 0; i < glimpseColumn1.length; i++) {
-    //   const child = glimpseColumn1[i];
-    //   child.classList.add("animate-hidden", "animate");
-    //   child.setAttribute("data-option", "up");
-    // }
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
