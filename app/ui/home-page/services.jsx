@@ -17,7 +17,7 @@ export default function Services() {
         <ServiceCard
           image={service1}
           title="Business Value Enhancement"
-          content=" Specializing in GenAI, AI, ML, and RPA solutions, we automate
+          content="Specializing in GenAI, AI, ML, and RPA solutions, we automate
               processes, personalize experiences, and provide predictive
               insights, revolutionizing operations and driving future business
               growth."

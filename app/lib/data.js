@@ -198,36 +198,42 @@ const mainServicesContent = {
         {
           image: cloud,
           heading: "ERP Solutions Support",
+          link: "advanced-technology-solutions/erp-solutions-support",
           content:
             "Empower your modern-day enterprise with ERP solutions support for integrating and managing core business processes. Streamline your business operations, enhance efficiency, and gain critical insights with our ERP solutions support to ensure your organization stays competitive and agile.",
         },
         {
           image: salesforce,
           heading: "Comprehensive SAP Services",
+          link: "advanced-technology-solutions/comprehensive-sap-services",
           content:
             "Unlock the full potential of your business with our portfolio of SAP services, including implementation, migration, and support. Our focus on SAP S/4HANA, SAP CRM & Customer Experience, and SAP Analytics ensures you leverage the most advanced tools in the market.",
         },
         {
           image: azure,
           heading: "Product Engineering Services",
+          link: "advanced-technology-solutions/product-engineering-services",
           content:
             "Lift your software solutions with Qcentrio's product engineering services, which are born from our commitment to innovation and modern technology trends. We cater to the evolving needs of businesses and consumers by creating and enhancing software that stays ahead of the curve.",
         },
         {
           image: gcp,
           heading: "Custom Software / Application Development ",
+          link: "advanced-technology-solutions/custom-software-application-development",
           content:
             "Specializing in JAVA, MEAN Stack, and Full Stack development, we deliver bespoke software solutions to meet your unique business requirements. Enhance your operations with our tailored expertise in custom software development.",
         },
         {
           image: cybersecurity,
           heading: "Internet of Things (IoT) Solutions",
+          link: "advanced-technology-solutions/internet-of-things-solutions",
           content:
             "Lead the future with Qcentrio's advanced IoT solutions. Seamlessly integrate advanced IoT technology into your operations to enhance performance and operational efficiency. Stay ahead with us, your partner in driving innovation and success through IoT.",
         },
         {
           image: cybersecurity,
           heading: "Big Data Services and Solutions",
+          link: "advanced-technology-solutions/big-data-services-and-solutions",
           content:
             "Harness the power of your data with our big data services. Our expertise in handling large data sets allows you to extract meaningful insights and make informed decisions that drive growth and innovation. Transform complex data into actionable intelligence with our big data solutions.",
         },
@@ -364,30 +370,35 @@ const mainServicesContent = {
         {
           image: cloud,
           heading: "EPIC Advisory Services",
+          link: "advisory-and-strategic-services/epic-advisory-services",
           content:
             "Integrate and efficiently manage patient health data with expert EPIC advisory services. Our experts navigate the complexities of compliance, data standards, and programming languages to optimize your Epic solutions. ",
         },
         {
           image: salesforce,
           heading: "Oracle Cerner Advisory Services",
+          link: "advisory-and-strategic-services/oracle-cerner-advisory-services",
           content:
             "Seamlessly integrate Oracle Cerner's advanced EHR systems with your hospital's diverse information systems to overcome the challenges of data standard variability and programming language differences.",
         },
         {
           image: azure,
           heading: "Audit and Assurance Services",
+          link: "advisory-and-strategic-services/audit-and-assurance-services",
           content:
             "Ensure your digital systems' security, compliance, and reliability with our comprehensive audit and assurance services. Our team employs advanced tools, specialized skills, and robust software to safeguard your digital infrastructure, giving you peace of mind and fostering stakeholder trust.",
         },
         {
           image: gcp,
           heading: "Risk Advisory Services",
+          link: "advisory-and-strategic-services/risk-advisory-services",
           content:
             "Protect your organization from digital threats with our expert risk advisory services. Our team specializes in identifying, analyzing, and mitigating digital risks, utilizing advanced tools, skills, and software to provide strategic advice and solutions.",
         },
         {
           image: cybersecurity,
           heading: "Specialty Services",
+          link: "advisory-and-strategic-services/specialty-services",
           content:
             "Ensure your digital products meet the highest standards with our Quality Assurance (QA) services. Our team leverages advanced tools, specialized skills, and robust software to enhance the quality and performance of your digital offerings.",
         },
@@ -524,24 +535,28 @@ const mainServicesContent = {
         {
           image: cloud,
           heading: "Blockchain Strategy and Advisory",
+          link: "blockchain-advisory-and-offerings/blockchain-strategy-and-advisory",
           content:
             "Discover blockchain's potential for your business and develop a strategic implementation plan. Collaborate with our team to identify and validate impactful use cases for blockchain in your organization. Further, assess your blockchain project's technical and economic viability with our thorough feasibility studies.",
         },
         {
           image: salesforce,
           heading: "Blockchain Solution Development",
+          link: "blockchain-advisory-and-offerings/blockchain-solution-development",
           content:
             "Design and develop scalable, secure, and interoperable blockchain solutions, including decentralized applications (DApps) that offer enhanced transparency, security, and user experience.",
         },
         {
           image: azure,
           heading: "Blockchain Integration and Deployment",
+          link: "blockchain-advisory-and-offerings/blockchain-integration-and-deployment",
           content:
             "Seamlessly integrate blockchain technology into your existing systems and processes, ensuring smooth operation and minimal disruption. Our team deploys and rigorously tests your blockchain solution for optimal performance.",
         },
         {
           image: gcp,
           heading: "Blockchain Security and Compliance",
+          link: "blockchain-advisory-and-offerings/blockchain-security-and-compliance",
           content:
             "Ensure the integrity and safety of your blockchain solution by conducting audits to identify and address any potential vulnerabilities. We ensure your blockchain solution adheres to the latest regulations and industry standards, minimizing legal and operational risks.",
         },
@@ -672,21 +687,21 @@ const mainServicesContent = {
         {
           image: cloud,
           heading: "Data Analytics and Business Intelligence",
-          link: "/offerings/business-optimization-and-analytics-services/data-analytics-and-business-intelligence",
+          link: "/business-optimization-and-analytics-services/data-analytics-and-business-intelligence",
           content:
             "Leverage our extensive expertise in Microsoft Power BI, Google Analytics, and Tableau, and integrate your enterprise data with platforms like SQL Server and Hadoop to enhance your analytics capabilities.",
         },
         {
           image: salesforce,
           heading: "Collaboration and Productivity Solutions",
-          link: "/offerings/business-optimization-and-analytics-services/collaboration-and-productivity-solutions",
+          link: "/business-optimization-and-analytics-services/collaboration-and-productivity-solutions",
           content:
             "Integrate collaboration and productivity tools like Microsoft Teams, Asana, and Slack to enhance your digital workspace. Our services boost project management, output, and communication.",
         },
         {
           image: azure,
           heading: "CRM System Solutions",
-          link: "/offerings/business-optimization-and-analytics-services/crm-system-solutions",
+          link: "/business-optimization-and-analytics-services/crm-system-solutions",
           content:
             "Maximize CRM potential with Salesforce, MS Dynamics, and SAP for sales efficiency. Enhance customer experiences with tailored Salesforce, HubSpot, and Zoho implementations for campaigns.",
         },
@@ -829,18 +844,21 @@ const mainServicesContent = {
         {
           image: cloud,
           heading: "Generative AI Solutions and Offerings",
+          link: "business-value-enhancement-services/generative-ai-solutions-and-offerings",
           content:
             "Partner with Qcentrio to harness Generative AI's transformative power, overcome challenges, and unlock unprecedented productivity and innovation in your operations. Transform your business with our bespoke GenAI solutions.",
         },
         {
           image: salesforce,
           heading: "Artificial Intelligence/Machine Learning Offerings",
+          link: "business-value-enhancement-services/artificial-intelligence-machine-learning-offerings",
           content:
             "Experience excellence with our AI and ML solutions, specializing in process automation, personalized customer experiences, and predictive/prescriptive insights to drive your business forward.",
         },
         {
           image: azure,
           heading: "Robotic Process Automation Services",
+          link: "business-value-enhancement-services/robotic-process-automation-services",
           content:
             "Leverage our Robotic Process Automation (RPA) expertise to automate routine tasks and enhance process efficiency. With advanced tools and experienced professionals, we ensure smooth integration of RPA technology.",
         },
@@ -989,48 +1007,56 @@ const mainServicesContent = {
         {
           image: cloud,
           heading: "Cloud Infrastructure Services",
+          link: "cloud-infra-and-security-services/cloud-infrastructure-services",
           content:
             "Modernize your data estate to a cloud-ready, future-fit, scalable ecosystem. With specialization in full-scale migration to major cloud platforms, offering AWS, Azure, and GCP expertise.",
         },
         {
           image: salesforce,
           heading: "Salesforce Services",
+          link: "cloud-infra-and-security-services/salesforce-services",
           content:
             "Get custom Salesforce services/solutions that align perfectly with your business needs. Whether you’re in finance, healthcare, or retail, we ensure that Salesforce fits into your unique operational framework.",
         },
         {
           image: azure,
           heading: "Azure Services and Offerings",
+          link: "cloud-infra-and-security-services/azure-services-and-offerings",
           content:
             "Transform your data infrastructure into an agile, future-proof, scalable environment optimized for Microsoft Azure. We ensure that the transition to Azure is seamless, ensuring your business capitalizes on the robust capabilities of cloud computing.",
         },
         {
           image: aws,
           heading: "AWS Services and Offerings",
+          link: "cloud-infra-and-security-services/aws-services-and-offerings",
           content:
             "Transition your systems to a robust, future-ready, and scalable AWS infrastructure with our AWS migration and optimization expertise. Get seamless, scalable solutions tailored for future-readiness and power-packed performance on AWS.",
         },
         {
           image: gcp,
           heading: "GCP Services and Offerings",
+          link: "cloud-infra-and-security-services/gcp-services-and-offerings",
           content:
             "Lift your technological infrastructure with our specialized Google Cloud Platform (GCP) services. Our ability in GCP's diverse toolset and applications is designed to optimize your cloud presence, ensuring a scalable, secure, and high-performance ecosystem that propels your business forward.",
         },
         {
           image: cybersecurity,
           heading: "Cybersecurity Solutions",
+          link: "cloud-infra-and-security-services/cybersecurity-solutions",
           content:
             "Get complete cybersecurity solutions and support, from comprehensive assessments and custom solutions to continuous monitoring for enterprise safety. We also use tools and services from leading providers to protect your digital infrastructure. ",
         },
         {
           image: itsupport,
           heading: "Continuous IT Support and Managed Services",
+          link: "cloud-infra-and-security-services/continuous-it-support-and-managed-services",
           content:
             "Optimize your IT with our Managed Services—proactive support, system monitoring, timely updates, and expert troubleshooting for peak performance and uptime.",
         },
         {
           image: offshore,
           heading: "Offshore Development Centre (ODC) Services",
+          link: "cloud-infra-and-security-services/offshore-development-centre-services",
           content:
             "Set up ODCs and get custom teams, state-of-the-art infrastructure, and full-scale development, ensuring seamless integration with your business and continuous support for robust software solutions.",
         },

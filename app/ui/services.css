@@ -570,6 +570,8 @@
 
 .service-offerings-section-col-1 .section-heading {
   font-family: "Quadran-Black";
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .need-something-card {
@@ -620,6 +622,10 @@
   display: flex;
   gap: 30px;
   cursor: pointer;
+}
+
+.service-offerings-toggle-head a{
+  text-decoration: none;
 }
 
 .service-offerings-toggle-head.active h2 {

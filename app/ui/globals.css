@@ -2147,6 +2147,23 @@ h2.blog-page-side-heading {
   margin-bottom: 20px;
 }
 
+.service-sub-offerings{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-sub-offering{
+  background-color: rgba(8,151,104, 0.15);
+  border-radius: 18px;
+  width: fit-content;
+  padding: 7px 14px;
+  font-family: "Quadran-Light";
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
 @media screen and (max-width: 1764px) {
   #path-2,
   #path-1 {
