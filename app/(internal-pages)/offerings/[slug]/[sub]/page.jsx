@@ -109,7 +109,7 @@ function SubServiceContentSection({ data }) {
           className="section-heading"
           dangerouslySetInnerHTML={{ __html: data.heading }}></h2>
         <p>{data.content1}</p>
-        <p>{data.content1}</p>
+        <p>{data.content2}</p>
       </div>
     </div>
   );

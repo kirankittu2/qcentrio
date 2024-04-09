@@ -51,7 +51,6 @@ export default function Offerings({ data }) {
           return (
             <div
               key={i}
-              onMouseOver={() => setIndex(i)}
               className={`service-offerings-toggle-head ${
                 index == i ? "active" : ""
               }`}>
@@ -74,7 +73,7 @@ export default function Offerings({ data }) {
                 <p>{item.num}</p>
               </div>
               <div>
-                <Link href={item.link}>
+                <Link onMouseOver={() => setIndex(i)} href={item.link}>
                   <h2>{item.heading}</h2>
                 </Link>
                 <div className="service-offerings-toggle-content">

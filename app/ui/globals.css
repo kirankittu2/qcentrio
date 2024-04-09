@@ -415,6 +415,7 @@ header {
 
 .mega-menu-middle-columns-container a{
   text-decoration: none;
+  width: fit-content;
 }
 
 .mega-menu-middle-columns-container > div {

@@ -46,7 +46,7 @@ export default function Home() {
             link: "/offerings/business-value-enhancement-services/artificial-intelligence-machine-learning-offerings",
           },
           {
-            title: "Robotic Process Automation Services",
+            title: "Robotic Process Automation",
             link: "/offerings/business-value-enhancement-services/robotic-process-automation-services",
           },
         ],
@@ -199,7 +199,7 @@ export default function Home() {
             link: "offerings/blockchain-advisory-and-offerings/blockchain-integration-and-deployment",
           },
           {
-            title: "Blockchain Security and Compliance",
+            title: "Blockchain Security & Compliance",
             link: "offerings/blockchain-advisory-and-offerings/blockchain-security-and-compliance",
           },
         ],
