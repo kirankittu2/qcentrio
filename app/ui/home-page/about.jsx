@@ -17,7 +17,9 @@ export default function About() {
           Innovation
         </h2>
 
-        <p className="section-content">
+        <p
+          data-option="fade-in"
+          className="section-content animate hidden-fadeIn">
           Qcentrio is one of the leaders in developing new technologies in the
           IT industry—artificial intelligence and machine learning, advanced
           cloud solutions, and strategic advisory services. Our collective
@@ -31,14 +33,18 @@ export default function About() {
           they have the ability to assess digital maturity critically or the
           ability to develop a strategic roadmap.
         </p>
-        <p className="section-content ">
+        <p
+          data-option="fade-in"
+          className="section-content animate hidden-fadeIn">
           Thus, these roadmaps empower global brands to not only expand their
           horizons but also innovate and personalize the customer experience in
           a manner that complies with strict regulatory compliance standards.
         </p>
       </div>
       <div>
-        <p className="highlight-content ">
+        <p
+          data-option="fade-in"
+          className="highlight-content animate hidden-fadeIn">
           In a changing world with the initiatives of digitization, Qcentrio is
           your partner on the way to the
           <span>
@@ -46,12 +52,16 @@ export default function About() {
             solutions strategically.
           </span>
         </p>
-        <div className="about-section-heading-background ">
+        <div
+          data-option="fade-in"
+          className="about-section-heading-background animate hidden-fadeIn">
           <h3 className="sub-heading ">
             Recognized as a leader in the global marketplace
           </h3>
         </div>
-        <p className="section-content ">
+        <p
+          data-option="fade-in"
+          className="section-content animate hidden-fadeIn">
           Qcentrio doesn&rsquo;t just respond to the digital era; we actively
           shape it, ensuring that <br /> our partners are not only market
           participants but leaders.

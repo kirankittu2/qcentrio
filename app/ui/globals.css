@@ -2768,7 +2768,7 @@ h2.blog-page-side-heading {
 
 .hidden-fadeIn{
   opacity: 0;
-  transition: all 1.2s
+  transition: all 0.7s ease-in;
 }
 
 .hidden-right{
@@ -2928,7 +2928,7 @@ h2.blog-page-side-heading {
 
 .strip-slide-up span.row {
   overflow: hidden;
-  /* line-height: 0.9; */
+  line-height: 1.2;
   display: inline-block;
   transform: none;
 }

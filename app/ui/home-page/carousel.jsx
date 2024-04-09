@@ -119,7 +119,7 @@ export default function Carousel() {
               <h1 className="hero-heading strip">
                 PIONEERING E2E BUSINESS TRANSFORMATION
               </h1>
-              <p className="hero-sub-heading">
+              <p className="hero-sub-heading ">
                 Aligned with Your Business&rsquo;s Current and Future Needs
               </p>
               <div className="lets-talk-container">

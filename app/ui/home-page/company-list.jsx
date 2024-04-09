@@ -9,7 +9,9 @@ import cvs from "@/public/cvs-logo.svg";
 
 export default function CompanyList() {
   return (
-    <div className="company-list-section">
+    <div
+      data-option="fade-in"
+      className="company-list-section animate hidden-fadeIn">
       <div className="horizontal-scroll">
         <Image src={philadelphia} alt="" />
         <Image src={zf} alt="" />

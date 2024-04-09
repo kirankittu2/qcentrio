@@ -10,7 +10,9 @@ export default function Animate() {
       threshold: 0.3,
     };
     let element;
+    let isScrolled = false;
     function handleScroll() {
+      isScrolled = true;
       const hiddenElementsToAnimateX = document.querySelectorAll(".animate");
       const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
@@ -92,7 +94,11 @@ export default function Animate() {
       hiddenElementsToAnimateX.forEach((el) => observer.observe(el));
     }
 
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    if (isScrolled == false) {
+      handleScroll();
+    } else {
+      window.addEventListener("scroll", handleScroll, { passive: true });
+    }
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
