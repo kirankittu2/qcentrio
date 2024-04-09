@@ -60,7 +60,9 @@ export default function Journey() {
                 </div>
                 <div className="journey-carousel-content-container">
                   <h2 className="journey-carousel-title">SUCCESS STORY</h2>
-                  <h3 className="journey-carousel-heading">
+                  <h3
+                    data-option="strip-slide-up"
+                    className="journey-carousel-heading animate strip-slide-up strip-slide-green">
                     ENHANCING PATIENT CARE WITH BI AND SQL ANALYTICS
                   </h3>
                   <div className="journey-carousel-content">

@@ -92,11 +92,11 @@ export default function Home() {
         link: "offerings/business-optimization-and-analytics-services",
         sub: [
           {
-            title: "Data Analytics and Business Intelligence",
+            title: "Data Analytics & Business Intelligence",
             link: "offerings/business-optimization-and-analytics-services/data-analytics-and-business-intelligence",
           },
           {
-            title: "Collaboration and Productivity Solutions",
+            title: "Collaboration & Productivity Solutions",
             link: "offerings/business-optimization-and-analytics-services/collaboration-and-productivity-solutions",
           },
           {
@@ -133,7 +133,7 @@ export default function Home() {
             link: "offerings/advanced-technology-solutions/internet-of-things-solutions",
           },
           {
-            title: "Big Data Services and Solutions",
+            title: "Big Data Services & Solutions",
             link: "offerings/advanced-technology-solutions/big-data-services-and-solutions",
           },
         ],
@@ -154,15 +154,15 @@ export default function Home() {
             link: "offerings/cloud-infra-and-security-services/salesforce-services",
           },
           {
-            title: "Azure Services and Offerings",
+            title: "Azure Offerings",
             link: "offerings/cloud-infra-and-security-services/azure-services-and-offerings",
           },
           {
-            title: "AWS Services and Offerings",
+            title: "AWS Offerings",
             link: "offerings/cloud-infra-and-security-services/aws-services-and-offerings",
           },
           {
-            title: "GCP Services and Offerings",
+            title: "GCP Offerings",
             link: "offerings/cloud-infra-and-security-services/gcp-services-and-offerings",
           },
           {
@@ -187,7 +187,7 @@ export default function Home() {
         link: "offerings/blockchain-advisory-and-offerings",
         sub: [
           {
-            title: "Blockchain Strategy and Advisory",
+            title: "Strategy & Advisory",
             link: "offerings/blockchain-advisory-and-offerings/blockchain-strategy-and-advisory",
           },
           {
@@ -195,11 +195,11 @@ export default function Home() {
             link: "offerings/blockchain-advisory-and-offerings/blockchain-solution-development",
           },
           {
-            title: "Blockchain Integration and Deployment",
+            title: "Blockchain Integration & Deployment",
             link: "offerings/blockchain-advisory-and-offerings/blockchain-integration-and-deployment",
           },
           {
-            title: "Blockchain Security & Compliance",
+            title: "Security & Compliance",
             link: "offerings/blockchain-advisory-and-offerings/blockchain-security-and-compliance",
           },
         ],
