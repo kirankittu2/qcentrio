@@ -54,7 +54,7 @@ export default function Path3() {
         transform="translate(-12684.581 -1480.493) rotate(3)"
         fill="none"
         stroke="#089768"
-        stroke-width="4"
+        strokeWidth="4"
       />
     </svg>
   );

@@ -34,7 +34,9 @@ export default function Journey() {
   return (
     <div className="journey-section">
       <div className="journey-heading-section">
-        <h2 data-option="up" className="section-heading animate-hidden animate">
+        <h2
+          data-option="strip-slide-up"
+          className="section-heading animate strip-slide-up strip-slide-black">
           Real-life Journey of Success
         </h2>
         <div className="jouney-carousel-nav">

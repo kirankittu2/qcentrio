@@ -579,8 +579,10 @@
   background-color: var(--primary-color);
   border-radius: 6px;
   margin-top: auto;
+  margin-bottom: 50px;
   width: 291px;
   z-index: 1;
+  position: relative;
 }
 
 .need-something-card h2 {
@@ -610,6 +612,7 @@
   line-height: 35px;
   color: #404040;
   letter-spacing: -1px;
+  cursor: pointer;
 }
 
 .service-offerings-section-col-3 p {
@@ -621,11 +624,12 @@
   margin-bottom: 23px;
   display: flex;
   gap: 30px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .service-offerings-toggle-head a{
   text-decoration: none;
+  cursor: pointer;
 }
 
 .service-offerings-toggle-head.active h2 {
@@ -652,11 +656,13 @@
 }
 
 .service-offerings-toggle-content {
-  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
 }
 
 .service-offerings-toggle-head.active .service-offerings-toggle-content {
-  display: block;
+  max-height: 500px;
 }
 
 .service-offerings-toggle-head.active .service-offerings-toggle-num p {
@@ -824,7 +830,7 @@
 
 #path-7{
   position: absolute;
-  top: 131px;
+  top: -40%;
   left: -100px;
 }
 @media screen and (max-width: 1600px) {

@@ -7,7 +7,9 @@ import Image from "next/image";
 export default function WhyQcentrio() {
   return (
     <div className="balance-section why-qcentrio-section">
-      <h2 data-option="up" className="section-heading animate-hidden animate">
+      <h2
+        data-option="strip-slide-up"
+        className="section-heading animate strip-slide-up strip-slide-white">
         Why Choose Qcentrio?
       </h2>
       <div className="why-qcentrio-card-container">

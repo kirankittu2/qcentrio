@@ -10,12 +10,14 @@ export default function About() {
   return (
     <div id="about" className="about-section section ">
       <div>
-        <h2 data-option="up" className="section-heading animate-hidden animate">
+        <h2
+          data-option="strip-slide-up"
+          className="section-heading animate strip-slide-up strip-slide-black">
           Navigating Digital Excellence with AI, Cloud Solutions, and Strategic
           Innovation
         </h2>
 
-        <p data-option="up" className="section-content animate-hidden animate">
+        <p className="section-content">
           Qcentrio is one of the leaders in developing new technologies in the
           IT industry—artificial intelligence and machine learning, advanced
           cloud solutions, and strategic advisory services. Our collective
@@ -29,16 +31,14 @@ export default function About() {
           they have the ability to assess digital maturity critically or the
           ability to develop a strategic roadmap.
         </p>
-        <p data-option="up" className="section-content animate-hidden animate">
+        <p className="section-content ">
           Thus, these roadmaps empower global brands to not only expand their
           horizons but also innovate and personalize the customer experience in
           a manner that complies with strict regulatory compliance standards.
         </p>
       </div>
       <div>
-        <p
-          data-option="up"
-          className="highlight-content animate-hidden animate">
+        <p className="highlight-content ">
           In a changing world with the initiatives of digitization, Qcentrio is
           your partner on the way to the
           <span>
@@ -46,14 +46,12 @@ export default function About() {
             solutions strategically.
           </span>
         </p>
-        <div
-          data-option="up"
-          className="about-section-heading-background animate-hidden animate">
+        <div className="about-section-heading-background ">
           <h3 className="sub-heading ">
             Recognized as a leader in the global marketplace
           </h3>
         </div>
-        <p data-option="up" className="section-content animate-hidden animate">
+        <p className="section-content ">
           Qcentrio doesn&rsquo;t just respond to the digital era; we actively
           shape it, ensuring that <br /> our partners are not only market
           participants but leaders.

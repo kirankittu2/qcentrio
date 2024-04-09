@@ -22,31 +22,35 @@ export default function Carousel() {
     const items = wrapper.current.querySelectorAll(".hero-slide");
     setItem(items[0]);
 
-    const words = document.querySelectorAll(".letter-slide");
-    words.forEach((word) => {
-      const wordArray = word.textContent.split(" ");
-      word.textContent = "";
-      wordArray.forEach((seperateWord) => {
-        let outerLetterElement = document.createElement("span");
-        outerLetterElement.classList.add("letter-slide-main-outer-span");
-        let letterElement = document.createElement("span");
-        letterElement.classList.add("letter-slide-outer-span");
-        letterElement.innerHTML = seperateWord + "&nbsp;";
-        outerLetterElement.appendChild(letterElement);
-        word.appendChild(outerLetterElement);
-      });
-      words.forEach((word) => {
-        word.style.opacity = 1;
+    document.querySelectorAll(".strip").forEach((strip) => {
+      const rows = strip.innerHTML.split(" ");
+      strip.innerHTML = "";
+
+      rows.forEach((rowContent) => {
+        const rowElement = document.createElement("span");
+        rowElement.className = "row";
+        strip.appendChild(rowElement);
+
+        const letters = rowContent.trim().split("");
+        letters.forEach((letter, index) => {
+          letter = letter === " " ? "&nbsp;" : letter;
+          const letterElement = document.createElement("span");
+          if (index == letters.length - 1) {
+            letterElement.innerHTML = letter.trim() + "&nbsp;";
+          } else {
+            letterElement.innerHTML = letter.trim();
+          }
+          rowElement.appendChild(letterElement);
+        });
       });
 
-      const wordsOfAddedSpans = document.querySelectorAll(
-        ".letter-slide span > span"
-      );
-      wordsOfAddedSpans.forEach((span, index) => {
+      strip.style.opacity = 1;
+
+      const stripSpans = strip.querySelectorAll("span:not(.row)");
+      stripSpans.forEach((span, index) => {
         setTimeout(() => {
-          span.classList.add("letter-animate");
-          span.style.opacity = 1;
-        }, 100);
+          span.classList.add("letter-slide-animate");
+        }, (index + 1) * 25);
       });
     });
   }, []);
@@ -58,6 +62,16 @@ export default function Carousel() {
         const slideIndex = item.getAttribute("data-index");
         if (slideIndex == index) {
           slideItem.classList.remove("active");
+          const allspans = slideItem.querySelectorAll(".strip span:not(.row)");
+          allspans.forEach((span, index) => {
+            span.classList.remove("letter-slide-animate");
+          });
+
+          allspans.forEach((span, index) => {
+            setTimeout(() => {
+              span.classList.add("letter-slide-animate");
+            }, (index + 1) * 15);
+          });
           item.classList.add("active");
           wrapper.current.prepend(item);
           setItem(item);
@@ -102,7 +116,7 @@ export default function Carousel() {
           <div>
             <Img className="slide-image" src={herobanner1} alt="" />
             <div id="hero-carousel-content" className="hero-content ">
-              <h1 className="hero-heading letter-slide">
+              <h1 className="hero-heading strip">
                 PIONEERING E2E BUSINESS TRANSFORMATION
               </h1>
               <p className="hero-sub-heading">
@@ -125,7 +139,7 @@ export default function Carousel() {
           <div>
             <Img className="slide-image" src={herobanner2} alt="" />
             <div id="hero-carousel-content" className="hero-content">
-              <h1 className="hero-heading">
+              <h1 className="hero-heading strip">
                 EMPOWERING GLOBAL BRANDS TO WIN, GROW, AND LEAD
               </h1>
               <p className="hero-sub-heading">
@@ -148,7 +162,7 @@ export default function Carousel() {
           <div>
             <Img className="slide-image" src={herobanner3} alt="" />
             <div id="hero-carousel-content" className="hero-content">
-              <h1 className="hero-heading">
+              <h1 className="hero-heading strip">
                 TAILORED STRATEGIES FOR MARKET AND BUSINESS RESILIENCE
               </h1>
               <p className="hero-sub-heading">Commitment to Continuity</p>

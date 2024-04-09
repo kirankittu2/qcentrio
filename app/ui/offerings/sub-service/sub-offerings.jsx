@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import Path6 from "../../global/path-6";
+import Path7 from "../../global/path-7";
 
 export default function SubServiceOfferings({ data }) {
   const [index, setIndex] = useState(1);
@@ -26,8 +27,8 @@ export default function SubServiceOfferings({ data }) {
               </span>
             </div>
           </Link>
+          <Path7 />
         </div>
-        {/* <Path7 /> */}
       </div>
       <div className="service-offerings-section-col-2">
         <div className="service-offerings-section-middle-image">

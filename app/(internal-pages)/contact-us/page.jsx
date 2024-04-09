@@ -10,6 +10,7 @@ import ReachOut from "../../ui/contact-us/reach-out";
 import GlobalPresence from "../../ui/contact-us/global-presence";
 import Path4 from "../../ui/global/path-4";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
+import CopyrightBar from "@/app/ui/global/copyrightbar";
 
 export const metadata = {
   title:
@@ -56,6 +57,7 @@ export default function ContactUs() {
       <ReachOut />
       <GlobalPresence />
       <Footer />
+      <CopyrightBar />
     </div>
   );
 }

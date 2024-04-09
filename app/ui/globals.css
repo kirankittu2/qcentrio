@@ -237,8 +237,8 @@ textarea {
 
 .main-logo-conatiner {
   position: relative;
-  width: 135px;
-  height: 36px;
+  width: 153px;
+  height: 45px;
 }
 
 .section-heading span, .hero-heading span, .highlight-content span, .service-sub-heading span{
@@ -281,6 +281,7 @@ textarea {
 
 ul.main-nav{
   list-style: none;
+  margin-left: 0px;
 }
 
 .main-nav li:first-child {
@@ -1022,7 +1023,6 @@ header {
 .journey-section .section-heading {
   margin-bottom: 0;
   margin-right: auto;
-  margin-left: auto;
 }
 
 .jouney-carousel-nav .left {
@@ -2175,19 +2175,35 @@ h2.blog-page-side-heading {
 }
 
 .service-offerings-image{
+  rotate: -10deg;
+  opacity: 0;
   width: 236px;
+  transform: translate(100% , 29px);
+  transition: all 1s ease-in;
 }
 
 .service-offerings-image > div{
   position: relative;
   width: 236px;
-  height: 236px;
+  max-height: 236px;
+  height: 100%;
+  transform: scale(0, 0);
+  transition: all 0.8s ease-in;
+}
+
+.service-offerings-image.active > div{
+  transform: scale(1, 1);
 }
 
 .service-offerings-image img{
   object-fit: cover;
-  rotate: -10deg;
   border-radius: 6px;
+}
+
+.service-offerings-image.active{
+  rotate: -10deg;
+  opacity: 1;
+  transform: translate(0%, 29px);
 }
 
 @media screen and (max-width: 1764px) {
@@ -2848,24 +2864,98 @@ h2.blog-page-side-heading {
   transition-delay: 400ms;
 }
 
-.letter-slide{
+.strip{
   opacity: 0;
 }
 
-.letter-slide-main-outer-span{
+.strip-slide-up{
+  opacity: 0;
+}
+
+.strip span {
   display: inline-block;
+  transition: transform .6s cubic-bezier(.65,.02,.23,1);
+  transform: translate(20%, 100%);
+  position: relative;
+  z-index: 1;
+  letter-spacing: -0.03em;
+  /* text-shadow: 3px 4px 0 rgba(0, 0, 0, .1); */
+  color: white;
+}
+
+.strip-slide-up span {
+  display: inline-block;
+  transition: transform .6s cubic-bezier(.65,.02,.23,1);
+  transform: translate(20%, 100%);
+  position: relative;
+  z-index: 1;
+  letter-spacing: -0.03em;
+  /* text-shadow: 3px 4px 0 rgba(0, 0, 0, .1); */
+  /* color: var(--primary-color); */
+}
+
+.strip span:before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-40%);
+  transition: transform .6s cubic-bezier(.65,.02,.23,1);
+}
+
+.strip-slide-up span:before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-40%);
+  transition: transform .6s cubic-bezier(.65,.02,.23,1);
+}
+
+.strip span.row {
   overflow: hidden;
-}
-
-.letter-slide-outer-span {
+  line-height: 0.9;
   display: inline-block;
-  transform: translateY(100%);
-  color: white !important;
-  opacity: 0;
-  transition: all 1s;
+  transform: none;
 }
 
-.letter-animate{
-  transform: translateY(0%);
-  opacity: 1;
+.strip-slide-up span.row {
+  overflow: hidden;
+  /* line-height: 0.9; */
+  display: inline-block;
+  transform: none;
+}
+
+.strip span.row:before {
+  display: none;
+}
+
+.strip-slide-up span.row:before {
+  display: none;
+}
+
+.letter-slide-animate {
+  transform: translate(0, 0) !important;
+}
+
+.letter-slide-animate:before {
+  transform: translateY(100%);
+}
+
+.strip-slide-black span{
+  color: black;
+}
+
+.strip-slide-green span{
+  color: var(--primary-color);
+}
+
+.strip-slide-white span{
+  color: white;
 }

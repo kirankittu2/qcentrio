@@ -27,10 +27,9 @@ export default function Path7() {
     }, options);
 
     function handleSVGScroll() {
-      const topOfCurve = curve.getBoundingClientRect().top;
+      const topOfCurve = curve.getBoundingClientRect().top * 1.2;
       const documentHeight = document.documentElement.clientHeight;
-      const percentage =
-        ((topOfCurve - documentHeight) / documentHeight) * 1.01;
+      const percentage = (topOfCurve - documentHeight) / documentHeight;
 
       const draw = length * percentage;
       if (draw < length) {
@@ -54,7 +53,7 @@ export default function Path7() {
         transform="matrix(0.788, 0.616, -0.616, 0.788, 24135.234, 7605.726)"
         fill="none"
         stroke="#089768"
-        stroke-width="4"
+        strokeWidth="4"
       />
     </svg>
   );

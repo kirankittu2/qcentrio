@@ -9,8 +9,16 @@ import subServiceBanner from "@/public/sub-service-banner.png";
 import contentImage from "@/public/sub-service-content-side-image.png";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import Link from "next/link";
-
 import { getSubServicePageContent } from "@/app/lib/data";
+
+export async function generateMetadata({ params }) {
+  const data = getSubServicePageContent(params.slug, params.sub);
+
+  return {
+    title: data.metaData.title,
+    description: data.metaData.description,
+  };
+}
 
 export default function SubService({ params }) {
   const data = getSubServicePageContent(params.slug, params.sub);
@@ -44,7 +52,7 @@ export default function SubService({ params }) {
       <SubServiceOfferings data={data.offeringsSetion} />
       <ServicesOfSubService data={data.servicesOfSubService} />
       <SubServiceWhyChooseSection data={data.whyChooseSection} />
-      <Contact heading="Build confidence in your AI/ML models and revolutionize your operations" />
+      <Contact heading={data.contactHead} />
       <Footer />
       <CopyrightBar />
     </div>

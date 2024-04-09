@@ -4,18 +4,32 @@ import arrow from "@/public/discover-arrow.svg";
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Path6 from "../global/path-6";
 import SubOfferings from "./sub-offerings";
+import Path7 from "../global/path-7";
 
 export default function Offerings({ data }) {
   const [index, setIndex] = useState(0);
+  const [addClass, setAddClass] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setAddClass(false);
+    }, 10);
+
+    setTimeout(() => {
+      setAddClass(true);
+    }, 700);
+  }, [index]);
 
   return (
     <div className="service-offerings-section">
       <div className="service-offerings-section-col-1">
         <h2 className="section-small-heading">Our Offerings</h2>
-        <h3 className="section-heading">
+        <h3
+          data-option="strip-slide-up"
+          className="section-heading animate strip-slide-up strip-slide-black">
           Leading-Edge Services for Future-Ready Enterprises
         </h3>
         <div className="need-something-card">
@@ -29,14 +43,9 @@ export default function Offerings({ data }) {
               </span>
             </div>
           </Link>
+          <Path7 />
         </div>
-        {/* <Path7 /> */}
       </div>
-      {/* <div className="service-offerings-section-col-2">
-        <div className="service-offerings-section-middle-image">
-          
-        </div>
-      </div> */}
       <div className="service-offerings-section-col-3">
         {data.list.map((item, i) => {
           return (
@@ -46,12 +55,20 @@ export default function Offerings({ data }) {
               className={`service-offerings-toggle-head ${
                 index == i ? "active" : ""
               }`}>
-              <div className="service-offerings-image">
-                {index == i && (
-                  <div>
-                    <Image fill src={data.images[index]} alt="" />
-                  </div>
-                )}
+              <div
+                className={`service-offerings-image ${
+                  index == i ? "active" : ""
+                }`}>
+                <div
+                // className={`${addClass && (index == i ? "h-[236px]" : "")}`}
+                >
+                  <Image
+                    className={`service-offerings-image-ani`}
+                    fill
+                    src={data.images[i]}
+                    alt=""
+                  />
+                </div>
               </div>
               <div className="service-offerings-toggle-num">
                 <p>{item.num}</p>

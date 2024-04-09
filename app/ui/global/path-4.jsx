@@ -53,7 +53,7 @@ export default function Path4() {
         transform="translate(-11333.623 -1859.42)"
         fill="none"
         stroke="#089768"
-        stroke-width="4"
+        strokeWidth="4"
       />
     </svg>
   );

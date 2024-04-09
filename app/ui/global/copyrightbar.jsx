@@ -5,7 +5,7 @@ export default function CopyrightBar() {
   return (
     <div className="copyright-section">
       <div>Copyrights © 2024 Qcentrio, All Rights Reserved.</div>
-      <div className="flex justify-center ">
+      <div className="flex justify-center main-logo-conatiner">
         <Image className="copy-right-logo" src={logo} alt="" />
       </div>
       <div className="handcrafted">

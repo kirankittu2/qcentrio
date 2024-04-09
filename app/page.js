@@ -78,6 +78,10 @@ export default function Home() {
             title: "Specialty Services",
             link: "offerings/advisory-and-strategic-services/specialty-services",
           },
+          {
+            title: "Mergers & Acquisitions Advisory Services",
+            link: "offerings/advisory-and-strategic-services/mergers-and-acquisitions-advisory-services",
+          },
         ],
         content:
           "Leading in SAP services (S/4HANA, CRM, Analytics), custom software development (JAVA, MEAN, Full Stack), IoT solutions, and innovative product engineering for global business transformation.",
