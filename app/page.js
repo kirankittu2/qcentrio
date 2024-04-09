@@ -38,11 +38,11 @@ export default function Home() {
         link: "offerings/business-value-enhancement-services",
         sub: [
           {
-            title: "Generative AI Solutions and Offerings",
+            title: "Generative AI",
             link: "/offerings/business-value-enhancement-services/generative-ai-solutions-and-offerings",
           },
           {
-            title: "Artificial Intelligence/Machine Learning Offerings",
+            title: "AI/ML Offerings",
             link: "/offerings/business-value-enhancement-services/artificial-intelligence-machine-learning-offerings",
           },
           {
@@ -59,19 +59,19 @@ export default function Home() {
         link: "offerings/advisory-and-strategic-services",
         sub: [
           {
-            title: "EPIC Advisory Services",
+            title: "EPIC Advisory ",
             link: "offerings/advisory-and-strategic-services/epic-advisory-services",
           },
           {
-            title: "Oracle Cerner Advisory Services",
+            title: "Oracle Cerner Advisory ",
             link: "offerings/advisory-and-strategic-services/oracle-cerner-advisory-services",
           },
           {
-            title: "Audit and Assurance Services",
+            title: "Audit and Assurance ",
             link: "offerings/advisory-and-strategic-services/audit-and-assurance-services",
           },
           {
-            title: "Risk Advisory Services",
+            title: "Risk Advisory ",
             link: "offerings/advisory-and-strategic-services/risk-advisory-services",
           },
           {
@@ -79,7 +79,7 @@ export default function Home() {
             link: "offerings/advisory-and-strategic-services/specialty-services",
           },
           {
-            title: "Mergers & Acquisitions Advisory Services",
+            title: "Mergers & Acquisitions Advisory ",
             link: "offerings/advisory-and-strategic-services/mergers-and-acquisitions-advisory-services",
           },
         ],
