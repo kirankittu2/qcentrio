@@ -670,7 +670,7 @@
 
 .service-offerings-toggle-head.active .service-offerings-toggle-content {
   max-height: 500px;
-  transition-delay: 500ms;
+  /* transition-delay: 500ms; */
 }
 
 .service-offerings-toggle-head.active .service-offerings-toggle-num p {

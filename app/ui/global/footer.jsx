@@ -10,7 +10,12 @@ export default function Footer() {
         <div className="footer-columns-holder">
           <div className="footer-column">
             <h2 className="footer-heading ">
-              <Link href="http://localhost:3000/perspectives">Insights</Link>
+              <Link
+                data-option="strip-slide-up"
+                className="animate strip-slide-up strip-slide-green"
+                href="http://localhost:3000/perspectives">
+                Insights
+              </Link>
             </h2>
             <p className="footer-item ">
               <Link href="http://localhost:3000/perspectives">
@@ -26,7 +31,11 @@ export default function Footer() {
             <p className="footer-item ">News</p>
           </div>
           <div className="footer-column">
-            <h2 className="footer-heading ">Company</h2>
+            <h2
+              data-option="strip-slide-up"
+              className="footer-heading animate strip-slide-up strip-slide-green">
+              Company
+            </h2>
             <p className="footer-item ">
               <Link href="http://localhost:3000/about-us">About Us</Link>
             </p>
@@ -34,7 +43,11 @@ export default function Footer() {
             <p className="footer-item ">Partners</p>
           </div>
           <div className="footer-column">
-            <h2 className="footer-heading ">Transformations</h2>
+            <h2
+              data-option="strip-slide-up"
+              className="footer-heading animate strip-slide-up strip-slide-green">
+              Transformations
+            </h2>
             <p className="footer-item ">
               <Link href="/offerings/business-value-enhancement-services">
                 Business Value Enhancement
@@ -67,7 +80,11 @@ export default function Footer() {
             </p>
           </div>
           <div className="footer-column">
-            <h2 className="footer-heading ">Legal</h2>
+            <h2
+              data-option="strip-slide-up"
+              className="footer-heading animate strip-slide-up strip-slide-green">
+              Legal
+            </h2>
             <p className="footer-item ">
               <Link href="/terms-and-conditions">Terms & Conditions</Link>
             </p>
@@ -81,14 +98,20 @@ export default function Footer() {
         </div>
         <div>
           <div className="footer-form-column">
-            <h2 className="footer-form-heading ">
-              <span>Stay ahead </span>in a rapidly changing world.
+            <h2
+              data-option="strip-slide-up"
+              className="footer-form-heading animate strip-slide-up strip-slide-black">
+              Stay ahead in a rapidly changing world.
             </h2>
-            <p className="footer-form-sub-heading ">
+            <p
+              data-option="up"
+              className="footer-form-sub-heading animate animate-hidden">
               Subscribe to our Insights, our monthly look at the critical issues
               facing global businesses.
             </p>
-            <div className="privacy-policy-check-text">
+            <div
+              data-option="up"
+              className="privacy-policy-check-text animate animate-hidden">
               <div className="footer-checkbox">
                 <input type="checkbox" id="privacy-policy" />
                 <label
@@ -104,7 +127,9 @@ export default function Footer() {
                 </label>
               </div>
             </div>
-            <div className="lets-talk-container ">
+            <div
+              data-option="up"
+              className="lets-talk-container animate animate-hidden">
               <input type="text" placeholder="Email Address" />
               <div className="input-btn">
                 <Button name="Subscribe" />

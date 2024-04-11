@@ -58,7 +58,7 @@ export default function Offerings({ data }) {
               </span>
             </div>
           </Link>
-          <Path7 />
+          {/* <Path7 /> */}
         </div>
       </div>
       <div className="service-offerings-section-col-3">
@@ -89,11 +89,11 @@ export default function Offerings({ data }) {
                 <p>{item.num}</p>
               </div>
               <div>
-                <Link onMouseOver={() => setIndex(i)} href={item.link}>
-                  <h2>{item.heading}</h2>
-                </Link>
+                <h2 onClick={() => setIndex(i)}>{item.heading}</h2>
                 <div className="service-offerings-toggle-content">
-                  <p>{item.content}</p>
+                  <p>
+                    {item.content} <Link href={item.link}>Learn more</Link>
+                  </p>
                   <SubOfferings data={item} />
                 </div>
               </div>

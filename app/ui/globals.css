@@ -1298,6 +1298,11 @@ header {
   border-top: 1px solid rgba(112, 112, 112, 0.18);
 }
 
+.footer-columns-holder .strip-slide-up span.row{
+  width: 102%;
+  line-height: 1.11;
+}
+
 .footer-column-container {
   display: flex;
   justify-content: space-between;
@@ -1316,6 +1321,9 @@ header {
   font-size: 16px;
   margin-bottom: 5px;
   letter-spacing: -0.4px;
+  opacity: 0;
+  transform: translateY(70px);
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
 }
 
 .footer-column {
@@ -2299,7 +2307,7 @@ h2.blog-page-side-heading {
   opacity: 0;
   transform: translateX(200%) rotate(720deg) scale(0, 0);
   transition: transform 1s ease-out, height 1s ease-out, opacity 1s ease-out;
-  transition-delay: 500ms;
+  /* transition-delay: 500ms; */
 }
 
 

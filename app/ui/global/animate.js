@@ -62,7 +62,7 @@ export default function Animate() {
               const rows = strip.innerHTML.split(" ");
               strip.innerHTML = "";
 
-              rows.forEach((rowContent) => {
+              rows.forEach((rowContent, upperIndex) => {
                 const rowElement = document.createElement("span");
                 rowElement.className = "row";
                 strip.appendChild(rowElement);
@@ -132,6 +132,7 @@ export default function Animate() {
       observeElements(".impact h2", "slideup");
       observeElements(".impact > ul > li", "slideup");
       observeElements(".impact > p", "slideup");
+      observeElements(".footer-item", "slideup");
     }
 
     if (isScrolled == false) {
