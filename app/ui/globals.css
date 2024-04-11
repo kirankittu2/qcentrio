@@ -632,7 +632,7 @@ header {
 .hero-content .lets-talk-container{
   opacity: 0;
   transform: translateY(70px);
-  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
+  transition: all 0.7s cubic-bezier(0, 0.81, 1, 1.01);
 }
 
 .hero-heading {
@@ -2893,7 +2893,7 @@ h2.blog-page-side-heading {
 .slideup{
   opacity: 1 !important;
   transform: translateY(0px) !important;
-  transition : all 0.3s cubic-bezier(0, 0.81, 1, 1.01);
+  transition : all 0.7s cubic-bezier(0, 0.81, 1, 1.01);
 }
 
 .fadeIn{
