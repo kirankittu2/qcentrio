@@ -46,6 +46,13 @@ export default function Carousel() {
 
       strip.style.opacity = 1;
 
+      setTimeout(() => {
+        items.forEach((item) => {
+          item.querySelector(".hero-sub-heading").classList.add("slideup");
+          item.querySelector(".lets-talk-container").classList.add("slideup");
+        });
+      }, 200);
+
       const stripSpans = strip.querySelectorAll("span:not(.row)");
       stripSpans.forEach((span, index) => {
         setTimeout(() => {
@@ -57,6 +64,19 @@ export default function Carousel() {
 
   useEffect(() => {
     const items = wrapper.current.querySelectorAll(".hero-slide");
+
+    items.forEach((item) => {
+      item.querySelector(".hero-sub-heading").classList.remove("slideup");
+      item.querySelector(".lets-talk-container").classList.remove("slideup");
+    });
+
+    setTimeout(() => {
+      items.forEach((item) => {
+        item.querySelector(".hero-sub-heading").classList.add("slideup");
+        item.querySelector(".lets-talk-container").classList.add("slideup");
+      });
+    }, 200);
+
     if (slideItem !== "") {
       items.forEach((item) => {
         const slideIndex = item.getAttribute("data-index");
@@ -119,7 +139,7 @@ export default function Carousel() {
               <h1 className="hero-heading strip">
                 PIONEERING E2E BUSINESS TRANSFORMATION
               </h1>
-              <p className="hero-sub-heading ">
+              <p className="hero-sub-heading">
                 Aligned with Your Business&rsquo;s Current and Future Needs
               </p>
               <div className="lets-talk-container">

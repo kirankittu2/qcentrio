@@ -6,7 +6,9 @@ export default function Glimpse({ data }) {
   return (
     <div className="section glimpse-section">
       <div className="glimpse-column-1">
-        <h2 data-option="up" className="section-heading animate-hidden animate">
+        <h2
+          data-option="strip-slide-up"
+          className="section-heading animate strip-slide-up strip-slide-black">
           {data.heading1}
         </h2>
         <p data-option="up" className="section-content animate-hidden animate">
@@ -16,9 +18,7 @@ export default function Glimpse({ data }) {
           {data.content2}
         </p>
       </div>
-      <div
-        data-option="right"
-        className="glimpse-column-2 hidden-right animate">
+      <div data-option="up" className="glimpse-column-2 animate-hidden animate">
         <h2
           className="section-heading"
           dangerouslySetInnerHTML={{ __html: data.heading2 }}></h2>

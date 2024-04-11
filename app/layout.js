@@ -5,7 +5,6 @@ import "@/app/ui/contact-us.css";
 import "@/app/ui/about-us.css";
 import "animate.css";
 import dynamic from "next/dynamic";
-import Script from "next/script";
 import Animate from "./ui/global/animate";
 const Cursor = dynamic(() => import("./ui/global/cursor"), { ssr: false });
 
@@ -16,6 +15,7 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         <Animate />
+        <Cursor />
       </body>
     </html>
   );

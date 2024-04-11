@@ -8,7 +8,7 @@ export default function OtherLinks() {
 
   return (
     <div className="other-links-section">
-      <div className="other-links">
+      <div data-option="up" className="other-links animate animate-hidden">
         <h2>LEGAL LINKS</h2>
         <p>
           <Link

@@ -8,8 +8,14 @@ import country5 from "@/public/country-5.svg";
 export default function GlobalPresence() {
   return (
     <div className="global-presence-section">
-      <h2 className="section-heading">Global Presence, Local Expertise</h2>
-      <p className="global-presence-sub-heading">
+      <h2
+        data-option="strip-slide-up"
+        className="section-heading animate strip-slide-up strip-slide-black">
+        Global Presence, Local Expertise
+      </h2>
+      <p
+        data-option="up"
+        className="global-presence-sub-heading animate animate-hidden">
         From our delivery centers worldwide, we offer you the domain <br />{" "}
         expertise you need, whenever and wherever you need it.
       </p>

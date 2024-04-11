@@ -8,8 +8,14 @@ import image5 from "@/public/employee-man-alt.svg";
 export default function AboutUSWhyQucentrio() {
   return (
     <div className="balance-section about-us-why-qcentrio-section">
-      <h2 className="section-heading head">WHY CHOOSE QCENTRIO</h2>
-      <h2 className="sub-heading subhead">
+      <h2
+        data-option="strip-slide-up"
+        className="section-heading head animate strip-slide-up strip-slide-green">
+        WHY CHOOSE QCENTRIO
+      </h2>
+      <h2
+        data-option="up"
+        className="sub-heading subhead animate animate-hidden">
         Dedicated To Delivering Quality, Earning Trust With Every Success
       </h2>
       <div className="success-path-category-container">

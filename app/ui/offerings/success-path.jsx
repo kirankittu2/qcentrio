@@ -3,7 +3,9 @@ import Card from "../global/card";
 export default function SuccessPath({ data }) {
   return (
     <div className="balance-section success-path-section">
-      <h2 data-option="up" className="section-heading animate-hidden animate">
+      <h2
+        data-option="strip-slide-up"
+        className="section-heading animate strip-slide-up strip-slide-black">
         {data.heading1}
       </h2>
       <div className="success-path-container">
@@ -27,8 +29,8 @@ export default function SuccessPath({ data }) {
         })}
       </div>
       <h2
-        data-option="up"
-        className="success-path-category-main-heading sub-heading animate-hidden animate">
+        data-option="strip-slide-up"
+        className="success-path-category-main-heading sub-heading animate strip-slide-up strip-slide-black">
         {data.heading2}
       </h2>
       <div className="success-path-category-container">

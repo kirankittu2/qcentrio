@@ -3,7 +3,7 @@
 import Image from "next/image";
 import down from "@/public/down-tri.svg";
 import check from "@/public/hexagon-check.svg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function StrategicPath({ data }) {
   const [index, setIndex] = useState(1);
@@ -12,11 +12,35 @@ export default function StrategicPath({ data }) {
     setIndex(event.target.getAttribute("data-index"));
   }
 
+  useEffect(() => {
+    let options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.3,
+    };
+
+    const observeElements = (selector, className) => {
+      const elements = document.querySelectorAll(selector);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(className);
+          }
+        });
+      }, options);
+      elements.forEach((el) => observer.observe(el));
+    };
+
+    observeElements(".accordation", "slideup");
+  }, [index]);
+
   return (
     <div className="strategic-path-section balance-section">
       <div className="strategic-path-content">
         <h2 className="strategic-path-sub-heading">{data.upperheading}</h2>
-        <h2 data-option="up" className="section-heading animate-hidden animate">
+        <h2
+          data-option="strip-slide-up"
+          className="section-heading animate strip-slide-up strip-slide-white">
           {data.heading}
         </h2>
       </div>
@@ -25,8 +49,9 @@ export default function StrategicPath({ data }) {
           {data.accordation1.map((item) => {
             return (
               <div
+                data-option="up"
                 key={item.index}
-                className={`accordation  ${
+                className={`accordation animate animate-hidden   ${
                   index == item.index ? "active" : ""
                 }`}>
                 <div
@@ -55,7 +80,7 @@ export default function StrategicPath({ data }) {
                       ? "accordation-active"
                       : "accordation-inactive"
                   }`}>
-                  {item.content}
+                  <div>{item.content}</div>
                 </div>
               </div>
             );
@@ -65,8 +90,9 @@ export default function StrategicPath({ data }) {
           {data.accordation2.map((item) => {
             return (
               <div
+                data-option="up"
                 key={item.index}
-                className={`accordation  ${
+                className={`accordation animate animate-hidden  ${
                   index == item.index ? "active" : ""
                 }`}>
                 <div data-index={item.index} onClick={handleToggle}>
@@ -92,7 +118,7 @@ export default function StrategicPath({ data }) {
                       ? "accordation-active"
                       : "accordation-inactive"
                   }`}>
-                  {item.content}
+                  <div>{item.content}</div>
                 </div>
               </div>
             );

@@ -6,26 +6,26 @@ export default function Cursor() {
   var cursor = useRef(null);
 
   useEffect(() => {
+    let timer;
+
     function moveCursor(e) {
-      cursor.current.classList.add("is-moving");
-
-      var timer;
-
       clearTimeout(timer);
 
-      timer = setTimeout(function () {
-        cursor.current.classList.remove("is-moving");
-      }, 300);
+      function setTransform() {
+        cursor.current.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0) scale(1)`;
+      }
 
-      var posX = e.pageX + "px";
-      var posY = e.pageY + "px";
+      timer = setTimeout(setTransform, 100);
 
-      cursor.current.style.left = posX;
-      cursor.current.style.top = posY;
+      cursor.current.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0) scale(0.4)`;
     }
 
     window.addEventListener("mousemove", moveCursor);
+
+    return () => {
+      window.removeEventListener("mousemove", moveCursor);
+    };
   }, []);
 
-  return <div ref={cursor} class="cursor"></div>;
+  return <div ref={cursor} className="cursor"></div>;
 }

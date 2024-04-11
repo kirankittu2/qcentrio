@@ -51,8 +51,8 @@ function ServiceListingHeadSection() {
       <div>
         <h1 className="heading1">OUR SERVICES</h1>
         <h2
-          data-option="up"
-          className="section-heading heading2 animate-hidden animate">
+          data-option="strip-slide-up"
+          className="section-heading heading2 animate strip-slide-up strip-slide-green">
           RANGE OF INNOVATIVE SOLUTIONS DESIGNED TO HELP BUSINESSES ACHIEVE
           THEIR GOALS
         </h2>
@@ -78,8 +78,8 @@ function AllServices() {
         <div>
           <div className="upper-heading">SERVICES</div>
           <h2
-            data-option="up"
-            className="section-heading animate-hidden animate">
+            data-option="strip-slide-up"
+            className="section-heading animate strip-slide-up strip-slide-black">
             EXPLORE OUR SOLUTIONS BELOW TO FIND OUT HOW WE CAN HELP YOU ACHIEVE
             YOUR GOALS.
           </h2>
@@ -136,7 +136,9 @@ function BusinessTodaySection() {
   return (
     <div className="balance-section business-today-section">
       <div>
-        <h2 data-option="up" className="animate-hidden animate">
+        <h2
+          data-option="strip-slide-up"
+          className="animate strip-slide-up strip-slide-white">
           Empower Your Business Today
         </h2>
         <p data-option="up" className="section-content animate-hidden animate">

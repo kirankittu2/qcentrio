@@ -9,7 +9,9 @@ export default function SampleBlog() {
       <div className="breadcrump">
         PERPECTIVE <span></span> <span>CLOUD SECURITY</span>
       </div>
-      <h1 className="blog-page-title">
+      <h1
+        data-option="strip-slide-up"
+        className="blog-page-title animate strip-slide-up strip-slide-black">
         7 effective ways to maximize your cloud security for enhanced protection
       </h1>
       <div className="blog-page-main-image">
@@ -286,8 +288,10 @@ export default function SampleBlog() {
             </li>
           </ul>
           <div className="conclusion">
-            <h2>Conclusion</h2>
-            <p>
+            <h2 data-option="up" className="animate animate-hidden">
+              Conclusion
+            </h2>
+            <p data-option="up" className="animate animate-hidden">
               Cloud security shouldn&lsquo;t be an afterthought. Employing these
               strategies will significantly boost your protection. Remember,
               it&lsquo;s not a set-it-and-forget-it endeavor. Stay informed
@@ -296,7 +300,7 @@ export default function SampleBlog() {
               security practices. Where can you improve?
             </p>
           </div>
-          <div className="reach-out">
+          <div data-option="up" className="reach-out animate animate-hidden">
             <h2 className="blog-page-side-heading">SOUNDS INTERESTING?</h2>
             <p>
               Reach out to <a>support@qcentrio.com</a> and discuss your

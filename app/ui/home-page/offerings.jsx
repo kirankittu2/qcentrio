@@ -11,7 +11,6 @@ import Path7 from "../global/path-7";
 
 export default function Offerings({ data }) {
   const [index, setIndex] = useState(0);
-  const [addClass, setAddClass] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
@@ -21,6 +20,26 @@ export default function Offerings({ data }) {
     setTimeout(() => {
       setAddClass(true);
     }, 700);
+
+    let options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.3,
+    };
+
+    const observeElements = (selector, className) => {
+      const elements = document.querySelectorAll(selector);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(className);
+          }
+        });
+      }, options);
+      elements.forEach((el) => observer.observe(el));
+    };
+
+    observeElements(".service-offerings-toggle-head", "slideup");
   }, [index]);
 
   return (
@@ -32,7 +51,9 @@ export default function Offerings({ data }) {
           className="section-heading animate strip-slide-up strip-slide-black">
           Leading-Edge Services for Future-Ready Enterprises
         </h3>
-        <div className="need-something-card">
+        <div
+          data-option="up"
+          className="need-something-card animate-hidden animate">
           <h2 className="sub-heading">Need Something Else?</h2>
           <p>Contact us and we can figure out how to adapt to your needs</p>
           <Link className="w-fit" href="/contact-us">
@@ -50,17 +71,16 @@ export default function Offerings({ data }) {
         {data.list.map((item, i) => {
           return (
             <div
+              data-option="up"
               key={i}
-              className={`service-offerings-toggle-head ${
+              className={`service-offerings-toggle-head animate-hidden ${
                 index == i ? "active" : ""
               }`}>
               <div
                 className={`service-offerings-image ${
                   index == i ? "active" : ""
                 }`}>
-                <div
-                // className={`${addClass && (index == i ? "h-[236px]" : "")}`}
-                >
+                <div>
                   <Image
                     className={`service-offerings-image-ani`}
                     fill

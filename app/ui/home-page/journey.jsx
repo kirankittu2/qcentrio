@@ -50,8 +50,8 @@ export default function Journey() {
       </div>
       <div className="journey-carousel-section">
         <div
-          data-option="right"
-          className="journey-carousel-container hidden-right animate">
+          data-option="up"
+          className="journey-carousel-container animate-hidden animate">
           <div ref={wrapper} className="journey-carousel-wrapper ">
             <div className="journey-carousel-item">
               <div ref={item}>
@@ -60,9 +60,7 @@ export default function Journey() {
                 </div>
                 <div className="journey-carousel-content-container">
                   <h2 className="journey-carousel-title">SUCCESS STORY</h2>
-                  <h3
-                    data-option="strip-slide-up"
-                    className="journey-carousel-heading animate strip-slide-up strip-slide-green">
+                  <h3 className="journey-carousel-heading">
                     ENHANCING PATIENT CARE WITH BI AND SQL ANALYTICS
                   </h3>
                   <div className="journey-carousel-content">

@@ -8,7 +8,9 @@ export default function InsigntsNoCaro() {
   return (
     <div className="insights-section section">
       <div className="insights-heading-container">
-        <h2 data-option="up" className="section-heading animate-hidden animate">
+        <h2
+          data-option="strip-slide-up"
+          className="section-heading animate strip-slide-up strip-slide-black">
           Explore Qcentrio’s latest thought leadership and research
         </h2>
       </div>

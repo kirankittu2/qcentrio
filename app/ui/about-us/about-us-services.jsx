@@ -10,9 +10,15 @@ export default function AboutUsServices() {
   return (
     <div className="section about-us-services">
       <div className="about-us-services-head-container">
-        <h2 className="section-heading">OUR SERVICES</h2>
-        <span></span>
-        <h2 className="sub-heading">
+        <h2
+          data-option="strip-slide-up"
+          className="section-heading animate strip-slide-up strip-slide-green">
+          OUR SERVICES
+        </h2>
+        <span className="divider"></span>
+        <h2
+          data-option="strip-slide-up"
+          className="sub-heading animate strip-slide-up strip-slide-black">
           GUIDING SUCCESS WITH STRATEGIC INSIGHTS AND EXPERT ADVISORY
         </h2>
       </div>

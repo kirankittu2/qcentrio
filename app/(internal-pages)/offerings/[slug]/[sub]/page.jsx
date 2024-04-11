@@ -33,7 +33,8 @@ export default function SubService({ params }) {
       <div className="relative">
         <SubServiceHeroSection data={data.heroSectionData} />
         <Image
-          className="sub-service-banner-image"
+          data-option="up"
+          className="sub-service-banner-image animate animate-hidden"
           src={subServiceBanner}
           alt=""></Image>
         <SubServiceContentSection data={data.contentSection} />
@@ -62,12 +63,19 @@ export default function SubService({ params }) {
 function SubServiceWhyChooseSection({ data }) {
   return (
     <div className="balance-section sub-services-why-choose-section">
-      <h2 className="section-heading">{data.mainHeading}</h2>
+      <h2
+        data-option="strip-slide-up"
+        className="section-heading animate strip-slide-up strip-slide-black">
+        {data.mainHeading}
+      </h2>
 
       <div className="sub-services-why-choose-cards-holder">
         {data.list.map((item, index) => {
           return (
-            <div key={index}>
+            <div
+              data-option="up"
+              className="animate animate-hidden"
+              key={index}>
               <Image src={item.image} alt="" />
               <h2>{item.heading}</h2>
               <p>{item.content}</p>
@@ -86,7 +94,8 @@ function SubServiceHeroSection({ data }) {
         <div className="sub-service-heading-section">
           <div className="sub-service-heading-row">
             <h1
-              className="section-heading"
+              data-option="strip-slide-up"
+              className="section-heading animate strip-slide-up strip-slide-black"
               dangerouslySetInnerHTML={{ __html: data.heading }}></h1>
           </div>
           <Button name="Get Started" />
@@ -101,15 +110,27 @@ function SubServiceContentSection({ data }) {
     <div className="sub-service-heading-content-section">
       <div>
         <div className="sub-service-content-side-image">
-          <Image fill src={contentImage} alt="" />
+          <Image
+            data-option="up"
+            fill
+            src={contentImage}
+            alt=""
+            className="animate animate-hidden"
+          />
         </div>
       </div>
       <div className="sub-service-heading-content">
         <h2
-          className="section-heading"
-          dangerouslySetInnerHTML={{ __html: data.heading }}></h2>
-        <p>{data.content1}</p>
-        <p>{data.content2}</p>
+          data-option="strip-slide-up"
+          className="section-heading animate strip-slide-up strip-slide-black">
+          {data.heading}
+        </h2>
+        <p data-option="up" className="animate animate-hidden">
+          {data.content1}
+        </p>
+        <p data-option="up" className="animate animate-hidden">
+          {data.content2}
+        </p>
       </div>
     </div>
   );
@@ -119,12 +140,17 @@ function ServicesOfSubService({ data }) {
   return (
     <div className="services-of-sub-service">
       <h2
-        className="section-heading"
-        dangerouslySetInnerHTML={{ __html: data.mainHeading }}></h2>
+        data-option="strip-slide-up"
+        className="section-heading animate strip-slide-up strip-slide-black">
+        {data.mainHeading}
+      </h2>
       <div className="services-of-sub-service-holder">
         {data.list.map((item, index) => {
           return (
-            <div key={index} className="sub-service-card">
+            <div
+              data-option="up"
+              key={index}
+              className="sub-service-card animate animate-hidden">
               <Image src={item.icon} alt=""></Image>
               <h2>{item.heading}</h2>
               <p>{item.content}</p>

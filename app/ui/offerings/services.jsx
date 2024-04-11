@@ -5,7 +5,9 @@ export default function ServicesContent({ data }) {
   return (
     <div className="services-section balance-section">
       <div className=" mr-auto ml-auto">
-        <h2 data-option="up" className="section-heading animate-hidden animate">
+        <h2
+          data-option="strip-slide-up"
+          className="section-heading animate strip-slide-up strip-slide-black">
           {data.heading}
         </h2>
         <h3

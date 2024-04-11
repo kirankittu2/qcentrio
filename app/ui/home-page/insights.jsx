@@ -41,11 +41,18 @@ export default function Insignts({ title, subheading }) {
           className="section-heading animate strip-slide-up strip-slide-black">
           {title}
         </h2>
-        <p className="section-content insights-sub-heading ">{subheading}</p>
+        <p
+          data-option="up"
+          className="section-content insights-sub-heading animate-hidden animate">
+          {subheading}
+        </p>
       </div>
-      <div data-option="right" className="blogs-container hidden-right animate">
+      <div className="blogs-container">
         <div ref={wrapper} className="insights-wrapper">
-          <div ref={card} className="card">
+          <div
+            data-option="up"
+            ref={card}
+            className="card animate animate-hidden">
             <div>
               <div>
                 <Image src={blog1} alt="" />
@@ -69,7 +76,7 @@ export default function Insignts({ title, subheading }) {
               </div>
             </div>
           </div>
-          <div className="card">
+          <div data-option="up" className="card animate animate-hidden">
             <div>
               <div>
                 <Image src={blog2} alt="" />
@@ -95,7 +102,7 @@ export default function Insignts({ title, subheading }) {
               </div>
             </div>
           </div>
-          <div className="card">
+          <div data-option="up" className="card animate animate-hidden">
             <div>
               <div>
                 <Image src={blog3} alt="" />
@@ -120,7 +127,10 @@ export default function Insignts({ title, subheading }) {
               </div>
             </div>
           </div>
-          <div ref={card} className="card">
+          <div
+            data-option="up"
+            ref={card}
+            className="card animate animate-hidden">
             <div>
               <div>
                 <Image src={blog4} alt="" />
@@ -145,7 +155,7 @@ export default function Insignts({ title, subheading }) {
               </div>
             </div>
           </div>
-          <div className="card">
+          <div data-option="up" className="card animate animate-hidden">
             <div>
               <div>
                 <Image src={blog5} alt="" />
@@ -170,7 +180,7 @@ export default function Insignts({ title, subheading }) {
               </div>
             </div>
           </div>
-          <div className="card">
+          <div data-option="up" className="card animate animate-hidden">
             <div>
               <div>
                 <Image src={blog6} alt="" />

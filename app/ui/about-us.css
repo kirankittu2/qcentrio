@@ -24,7 +24,7 @@
     gap: 30px;
 }
 
-.about-us-services-head-container span{
+.about-us-services-head-container .divider{
     height: 5px;
     width: 100px;
     background-color: var(--primary-color);

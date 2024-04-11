@@ -1,9 +1,12 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
 export default function Animate() {
+  const pathname = usePathname();
   useEffect(() => {
+    console.log(pathname);
     let options = {
       root: null,
       rootMargin: "0px",
@@ -13,6 +16,7 @@ export default function Animate() {
     let isScrolled = false;
     function handleScroll() {
       isScrolled = true;
+
       const hiddenElementsToAnimateX = document.querySelectorAll(".animate");
       const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
@@ -53,7 +57,6 @@ export default function Animate() {
             const singleSpan = strip.querySelector(
               ".row span.letter-slide-animate"
             );
-            console.log(singleSpan);
             if (element !== strip && singleSpan == null) {
               element = strip;
               const rows = strip.innerHTML.split(" ");
@@ -92,6 +95,33 @@ export default function Animate() {
       }, options);
 
       hiddenElementsToAnimateX.forEach((el) => observer.observe(el));
+
+      const observeElements = (selector, className) => {
+        const elements = document.querySelectorAll(selector);
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add(className);
+            }
+          });
+        }, options);
+        elements.forEach((el) => observer.observe(el));
+      };
+
+      observeElements(".blog-page-main-content > p", "slideup");
+      observeElements(".blog-page-main-content > h2", "slideup");
+      observeElements(".blog-page-main-content > h3", "slideup");
+      observeElements(".blog-page-main-content > ul > li", "slideup");
+      observeElements(".blog-page-main-content > ol > li", "slideup");
+      observeElements(".table-of-contents > ul > li", "slideup");
+      observeElements(".author-conatiner > div", "slideup");
+      observeElements(".category-container > p", "slideup");
+      observeElements(".category-container > h2", "slideup");
+      observeElements(".tags-container .tag", "slideup");
+      observeElements(".privacy-policy-content > p", "slideup");
+      observeElements(".privacy-policy-content > h2", "slideup");
+      observeElements(".privacy-policy-content > h3", "slideup");
+      observeElements(".privacy-policy-content > ul > li", "slideup");
     }
 
     if (isScrolled == false) {
@@ -103,6 +133,6 @@ export default function Animate() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [pathname]);
   return;
 }

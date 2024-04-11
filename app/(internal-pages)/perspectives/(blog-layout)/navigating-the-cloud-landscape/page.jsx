@@ -9,7 +9,9 @@ export default function SampleBlog() {
       <div className="breadcrump">
         PERPECTIVE <span></span> <span>CLOUD SECURITY</span>
       </div>
-      <h1 className="blog-page-title">
+      <h1
+        data-option="strip-slide-up"
+        className="blog-page-title animate strip-slide-up strip-slide-black">
         NAVIGATING THE CLOUD LANDSCAPE: 5 KEY STRATEGIES FOR EFFECTIVE CLOUD
         ASSESSMENT
       </h1>
@@ -240,8 +242,10 @@ export default function SampleBlog() {
             </li>
           </ul>
           <div className="conclusion">
-            <h2>Conclusion</h2>
-            <p>
+            <h2 data-option="up" className="animate animate-hidden">
+              Conclusion
+            </h2>
+            <p data-option="up" className="animate animate-hidden">
               Overall, it can be said that organizations hoping to take
               advantage of cloud computing while reducing risks and guaranteeing
               alignment with corporate objectives must conduct an efficient
@@ -256,7 +260,7 @@ export default function SampleBlog() {
               cloud landscape necessitates a strategic and systematic approach.
             </p>
           </div>
-          <div className="reach-out">
+          <div data-option="up" className="reach-out animate animate-hidden">
             <h2 className="heading">SOUNDS INTERESTING?</h2>
             <p>
               Reach out to <a>support@qcentrio.com</a> and discuss your

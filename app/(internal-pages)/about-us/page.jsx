@@ -26,7 +26,9 @@ export default function AboutUs() {
       <AboutUsServices />
       <AboutUSWhyQucentrio />
       <div className="balance-section join-us-buttons-container">
-        <h2 className="section-heading">
+        <h2
+          data-option="strip-slide-up"
+          className="section-heading animate strip-slide-up strip-slide-black">
           JOIN OUR JOURNEY TO REDEFINE AND LEAD THE INDUSTRY STATUS QUO
         </h2>
         <div className="join-us-buttons">

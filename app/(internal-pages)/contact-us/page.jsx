@@ -28,10 +28,17 @@ export default function ContactUs() {
       <ContactMain />
       <ContactWhyQcentrio />
       <div className="balance-section contact-us-banner-section">
-        <Image src={banner} alt="" />
+        <Image
+          data-option="up"
+          className="animate animate-hidden"
+          src={banner}
+          alt=""
+        />
       </div>
       <div className="balance-section contact-us-infra-section">
-        <h2 className="section-heading">
+        <h2
+          data-option="strip-slide-up"
+          className="section-heading animate strip-slide-up strip-slide-black">
           Category-Leading Cloud Infra and Security Practice
         </h2>
         <div className="success-path-category-container">

@@ -9,7 +9,9 @@ export default function SampleBlog() {
       <div className="breadcrump">
         PERPECTIVE <span></span> <span>ROBOTIC PROCESS AUTOMATION</span>
       </div>
-      <h1 className="blog-page-title">
+      <h1
+        data-option="strip-slide-up"
+        className="blog-page-title animate strip-slide-up strip-slide-black">
         BOOST YOUR ENTERPRISE INNOVATION WITH ROBOTIC PROCESS AUTOMATION
       </h1>
       <div className="blog-page-main-image">
@@ -188,8 +190,10 @@ export default function SampleBlog() {
             programmatic innovation to the forefront.
           </p>
           <div className="conclusion">
-            <h2>Conclusion</h2>
-            <p>
+            <h2 data-option="up" className="animate animate-hidden">
+              Conclusion
+            </h2>
+            <p data-option="up" className="animate animate-hidden">
               Finally, Robotic Process Automation serves as a breakthrough for
               corporations that strive to move toward innovation, enhancement,
               and sustainability. Through automation, promoting data accuracy,
@@ -202,7 +206,7 @@ export default function SampleBlog() {
               entire Universe, for your business.
             </p>
           </div>
-          <div className="reach-out">
+          <div data-option="up" className="reach-out animate animate-hidden">
             <h2 className="heading">SOUNDS INTERESTING?</h2>
             <p>
               Reach out to <a>support@qcentrio.com</a> and discuss your

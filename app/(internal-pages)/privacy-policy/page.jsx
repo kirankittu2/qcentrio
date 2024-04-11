@@ -11,8 +11,12 @@ export default function PrivacyPolicy() {
       <div className="hero">
         <NavBarContainer />
       </div>
-      <div className="section privacy-policy-heading-section">
-        <h1>OUR PRIVACY POLICY</h1>
+      <div className="section privacy-policy-heading-section  ">
+        <h1
+          data-option="strip-slide-up"
+          className="animate strip-slide-up strip-slide-black">
+          OUR PRIVACY POLICY
+        </h1>
         <p>EFFECTIVE DATE: 24/03/2024</p>
       </div>
       <div className="section privacy-policy-content-section">
