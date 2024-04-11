@@ -7,6 +7,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import Path6 from "../../global/path-6";
 import Path7 from "../../global/path-7";
+import float from "@/public/float.svg";
 
 export default function SubServiceOfferings({ data }) {
   const [index, setIndex] = useState(0);
@@ -45,6 +46,7 @@ export default function SubServiceOfferings({ data }) {
         <div
           data-option="up"
           className="need-something-card animate-hidden animate">
+          <Image className="mb-[20px]" alt="" src={float} />
           <h2 className="sub-heading">Need Something Else?</h2>
           <p>Contact us and we can figure out how to adapt to your needs</p>
           <Link className="w-fit" href="/contact-us">

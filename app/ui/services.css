@@ -586,7 +586,7 @@
   background-color: var(--primary-color);
   border-radius: 6px;
   margin-top: auto;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   width: 291px;
   z-index: 1;
   position: relative;
@@ -670,6 +670,7 @@
 
 .service-offerings-toggle-head.active .service-offerings-toggle-content {
   max-height: 500px;
+  transition-delay: 500ms;
 }
 
 .service-offerings-toggle-head.active .service-offerings-toggle-num p {
@@ -837,8 +838,9 @@
 
 #path-7{
   position: absolute;
-  top: -40%;
+  top: -25%;
   left: -100px;
+  z-index: -1;
 }
 @media screen and (max-width: 1600px) {
   #path-6{

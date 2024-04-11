@@ -29,7 +29,8 @@ export default function Path7() {
     function handleSVGScroll() {
       const topOfCurve = curve.getBoundingClientRect().top * 1.2;
       const documentHeight = document.documentElement.clientHeight;
-      const percentage = (topOfCurve - documentHeight) / documentHeight;
+      const percentage =
+        ((topOfCurve - documentHeight * 1.09999) / documentHeight) * 1.09999;
 
       const draw = length * percentage;
       if (draw < length) {

@@ -2276,7 +2276,7 @@ h2.blog-page-side-heading {
 }
 
 .service-offerings-image{
-  rotate: 360deg;
+  rotate: 720deg;
   opacity: 0;
   width: 236px;
   transform: translate(100% , 29px);
@@ -2893,7 +2893,7 @@ h2.blog-page-side-heading {
 .slideup{
   opacity: 1 !important;
   transform: translateY(0px) !important;
-  transition : all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
+  transition : all 0.3s cubic-bezier(0, 0.81, 1, 1.01);
 }
 
 .fadeIn{
@@ -3189,7 +3189,7 @@ h2.blog-page-side-heading {
 }
 
 .strip-slide-black span{
-  color: black;
+  color: black !important;
 }
 
 .strip-slide-green span{
