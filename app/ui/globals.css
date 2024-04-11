@@ -2296,8 +2296,10 @@ h2.blog-page-side-heading {
 .service-offerings-image > div > div{
   width: 0px;
   height: 0px;
+  opacity: 0;
   transform: translateX(200%) rotate(720deg) scale(0, 0);
-  transition: transform 1s ease-out, height 1s ease-out;
+  transition: transform 1s ease-out, height 1s ease-out, opacity 1s ease-out;
+  transition-delay: 500ms;
 }
 
 
@@ -2305,6 +2307,7 @@ h2.blog-page-side-heading {
 .service-offerings-image.active > div > div{
   width: 239px;
   height: 239px;
+  opacity: 1;
   transform: translateX(0%) rotate(0deg) scale(1, 1);
   /* animation: image-slide 1s ease-out; */
   position: relative;
