@@ -6,8 +6,14 @@ export default function CaseStudyHero({ data }) {
       <div className="breadcrump">
         RESOURCES <span></span> CASE STUDY
       </div>
-      <h1 className="hero-heading">{data.heading}</h1>
-      <div className="lets-talk-container">
+      <h1
+        data-option="strip-slide-up"
+        className="hero-heading animate strip-slide-up strip-slide-white">
+        {data.heading}
+      </h1>
+      <div
+        data-option="up"
+        className="lets-talk-container animate animate-hidden">
         <input type="text" placeholder="Email Address" />
         <div className="input-btn">
           <Button name="Lets Talk" />

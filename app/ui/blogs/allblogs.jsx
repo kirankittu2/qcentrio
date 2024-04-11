@@ -4,6 +4,7 @@ import blogArrow from "@/public/blog-arrow.svg";
 import Pagination from "./pagination";
 import Link from "next/link";
 import SearchBar from "../global/search";
+import BlogsConatiner from "./blogs-container";
 
 export default function AllBlogs({ data, type, page, paginationNum }) {
   return (
@@ -63,37 +64,7 @@ export default function AllBlogs({ data, type, page, paginationNum }) {
           Latest {type == "perspectives" ? "Perspectives" : ""}
           {type == "case-study" ? "Case Studies" : ""}
         </h2>
-        <div className="blogs-container">
-          {data == null || data == undefined || data.length == 0
-            ? "No Data Found"
-            : data.children.map((item, index) => {
-                return (
-                  <div key={index} className="card">
-                    <div className="card-image">
-                      <Image fill src={item.image} alt="" />
-                    </div>
-                    <div className="blog-card-heading">
-                      <h2 className="card-heading">{item.title}</h2>
-                    </div>
-                    <div className="blog-card-content-container">
-                      <p className="section-content">{item.content}</p>
-                      <Link href={item.link}>
-                        <div className="blogs-btn">
-                          Learn More
-                          <span>
-                            <Image
-                              style={{ width: "25px" }}
-                              src={blogArrow}
-                              alt=""
-                            />
-                          </span>
-                        </div>
-                      </Link>
-                    </div>
-                  </div>
-                );
-              })}
-        </div>
+        <BlogsConatiner data={data} />
       </div>
       <Pagination paginationNum={paginationNum} page={page} />
     </>

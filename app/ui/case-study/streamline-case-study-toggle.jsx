@@ -217,7 +217,9 @@ function SolutionContent() {
           </div> */}
         </div>
         <div className="case-study-solution-row-1-column-2">
-          <div className="case-study-solution-technology-block">
+          <div
+            data-option="up"
+            className="case-study-solution-technology-block animate animate-hidden">
             <h2>Technologies USED</h2>
             <ul>
               <li>ANSYS Fluent</li>
@@ -227,7 +229,7 @@ function SolutionContent() {
           </div>
         </div>
       </div>
-      <div className="mb-[30px]">
+      <div className="mb-[30px] impact">
         <h2 className="general-text-bold">BUSINESS IMPACT</h2>
         <p>
           The implementation of automated vehicle aerodynamics simulations had a

@@ -210,9 +210,9 @@ export default function Insignts({ title, subheading }) {
       </div>
       <div className="insights-arrows-holder">
         <div
-          data-option="right"
+          data-option="up"
           onClick={handleRight}
-          className="insights-right-arrow hidden-right animate">
+          className="insights-right-arrow animate-hidden animate">
           <Image src={arrow} alt="" />
         </div>
         <div

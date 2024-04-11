@@ -81,6 +81,10 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
           title: "Specialty Services",
           link: "/offerings/advisory-and-strategic-services/specialty-services",
         },
+        {
+          title: "Mergers & Acquisitions Advisory",
+          link: "/offerings/advisory-and-strategic-services/mergers-and-acquisitions-advisory-services",
+        },
       ],
     },
     {

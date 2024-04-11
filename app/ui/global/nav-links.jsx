@@ -36,8 +36,10 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
             <Image
               fill
               data-option="link"
-              className={`nav-arrow-img ${
-                servicesHovered ? "rotate-[299deg]" : "rotate-0"
+              className={`nav-arrow-img transition-all mt-[-2px] ${
+                servicesHovered
+                  ? "rotate-[299deg] mt-[1px]"
+                  : "rotate-[240deg] "
               }`}
               src={tri}
               alt=""

@@ -101,6 +101,21 @@ export default function Carousel() {
     }
   }, [index, slideItem]);
 
+  useEffect(() => {
+    if (hovered == false) {
+      const items = wrapper.current.querySelectorAll(".hero-slide");
+      const intervalId = setInterval(() => {
+        setIndex((prevIndex) =>
+          prevIndex === items.length - 1 ? 0 : prevIndex + 1
+        );
+      }, 3000);
+
+      return () => {
+        clearInterval(intervalId);
+      };
+    }
+  }, [hovered]);
+
   function handleRight() {
     if (index < wrapper.current.querySelectorAll(".hero-slide").length - 1) {
       setIndex((index) => index + 1);
