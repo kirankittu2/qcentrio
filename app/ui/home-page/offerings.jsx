@@ -13,14 +13,6 @@ export default function Offerings({ data }) {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    setTimeout(() => {
-      setAddClass(false);
-    }, 10);
-
-    setTimeout(() => {
-      setAddClass(true);
-    }, 700);
-
     let options = {
       root: null,
       rootMargin: "0px",
