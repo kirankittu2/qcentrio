@@ -6,6 +6,7 @@ import fs from "fs";
 import zod from "zod";
 import { cookies } from "next/headers";
 
+// Contact page email
 export async function sendMail(formData) {
   const email = formData.get("email");
   const firstname = formData.get("first-name");
@@ -37,7 +38,10 @@ export async function sendMail(formData) {
     console.error("Validation failed:", error.errors);
   }
 
-  const emailTemplate = fs.readFileSync("app/email/mail.html", "utf8");
+  const emailTemplate = fs.readFileSync(
+    "app/email/contact-us-mail.html",
+    "utf8"
+  );
   const emailData = {
     firstname: parsedData.firstname,
     lastname: parsedData.lastname,
@@ -68,6 +72,7 @@ export async function sendMail(formData) {
   }
 }
 
+// Coming soon page email
 export async function singleMail(formData) {
   const email = formData.get("email");
   const name = formData.get("name");
