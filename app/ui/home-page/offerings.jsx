@@ -75,12 +75,14 @@ export default function Offerings({ data }) {
                   index == i ? "active" : ""
                 }`}>
                 <div>
-                  <Image
-                    className={`service-offerings-image-ani`}
-                    fill
-                    src={data.images[i]}
-                    alt=""
-                  />
+                  <div className="test">
+                    <Image
+                      className={`service-offerings-image-ani`}
+                      fill
+                      src={data.images[i]}
+                      alt=""
+                    />
+                  </div>
                 </div>
               </div>
               <div className="service-offerings-toggle-num">
