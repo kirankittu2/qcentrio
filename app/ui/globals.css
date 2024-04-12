@@ -2428,6 +2428,308 @@ h2.blog-page-side-heading {
   /* transform: translate(0%, 29px); */
 }
 
+/* Careers page styles */
+.careers .hero{
+  background: transparent linear-gradient(113deg, #089768 0%, #000000 100%) 0%
+    0% no-repeat padding-box;
+    padding-bottom: clamp(50px, 7.81vw, 80px);
+}
+
+.careers-hero-section .hero-heading{
+  color: black;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.careers-hero-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: clamp(50px, 7.81vw, 140px);
+  padding-right: clamp(50px, 7.81vw, 140px);
+}
+
+.careers-hero-subheading{
+  font-size: 32px;
+  font-family: "Quadran-Regular";
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.careers-why-qcentrio{
+  /* padding-top: 50px; */
+  padding-bottom: 50px;
+  padding-left: clamp(50px, 7.81vw, 140px);
+  padding-right: clamp(50px, 7.81vw, 140px);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.careers-why-qcentrio p{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.careers-why-qcentrio p:last-child{
+  margin-bottom: 0px;
+}
+
+.careers-community{
+  padding-bottom: 50px;
+  padding-top: 0px;
+  /* padding-left: clamp(50px, 7.81vw, 140px);
+  padding-right: clamp(50px, 7.81vw, 140px); */
+}
+
+.careers-community .section-heading{
+  text-align: center;
+  color: var(--primary-color);
+  font-family: "Quadran-Bold";
+}
+
+.careers-community-subheading{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.jobs-section {
+  margin-bottom: 50px;
+  border-top: 1px solid #ECECEC;
+  padding-left: clamp(50px, 7.81vw, 140px);
+  margin-left: clamp(50px, 7.81vw, 140px);
+  margin-right: clamp(50px, 7.81vw, 140px);
+}
+
+.jobs-section .pagination-container{
+  justify-content: end;
+}
+
+.jobs-section > div:first-child{
+  display: flex;
+}
+
+.jobs-content{
+  flex: 1;
+  padding: 50px 30px;
+  padding-left: 0px;
+}
+
+.jobs-main{
+  border-left: 1px solid #ECECEC;
+  border-right: 1px solid #ECECEC;
+  flex: 2;
+}
+
+.careers-why-heading{
+  font-size: 55px;
+  font-family: "Quadran-Bold";
+  text-align: center;
+  line-height: 58px;
+  margin-bottom: 30px;
+}
+
+.jobs-content-heading{
+  font-size: 55px;
+  font-family: "Quadran-Bold";
+  line-height: 58px;
+  margin-bottom: 30px;
+}
+
+.jobs-content-heading.strip-slide-up span.row{
+    margin-top: -10px;
+    line-height: 1.23;
+}
+
+.hr-mail{
+  font-size: 32px;
+  color: var(--primary-color);
+  font-family: "Quadran-Bold";
+}
+
+.job{
+  padding: 30px;
+  border-bottom: 1px solid #ECECEC;
+}
+
+.job-location{
+  font-size: 18px;
+  font-family: "Quadran-Light";
+  margin-bottom: 30px;
+}
+
+.job-experience{
+  padding: 7px 30px;
+  background-color: rgba(8,151,104, 0.15);
+  width: fit-content;
+  border-radius: 18px;
+  margin-bottom: 10px;
+}
+
+.job-title{
+  font-size: 32px;
+  font-family: "Quadran-Bold";
+  color: var(--primary-color);
+}
+
+.careers-benefits{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: clamp(50px, 7.81vw, 140px);
+  padding-right: clamp(50px, 7.81vw, 140px);
+  background-color: var(--primary-color);
+  margin-bottom: 50px;
+}
+
+.careers-benefits .section-heading{
+  text-align: center;
+  color: white;
+}
+
+.careers-benefits-subheading{
+  text-align: center;
+  color: white;
+}
+
+.carrer-benefit{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.career-benefit-list{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.carrer-benefit-icon{
+  width: 96px;
+  height: 96px;
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.carrer-benefit h2{
+  font-size: 22px;
+  font-family: "Quadran-Bold";
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.carrer-benefit p{
+  text-align: center;
+  font-size: 18px;
+  font-family: "Quadran-Light";
+  color: white;
+}
+
+.career-showcase-section{
+  padding-top: 0px;
+}
+
+.career-showcase-section > p{
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showcase-list{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.career-showcase-card{
+  max-width: 405px;
+}
+
+.career-showcase-card h2{
+  font-size: 22px;
+  font-family: "Quadran-Bold";
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.career-showcase-card p{
+  font-size: 18px;
+  color: #404040;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.careers-contact-section{
+  margin-left: clamp(50px, 7.81vw, 140px);
+  margin-right: clamp(50px, 7.81vw, 140px);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #F7FFEC;
+  margin-bottom: 50px;
+}
+
+.careers-contact-section h2{
+  text-align: center;
+  font-size: 55px;
+  line-height: 58px;
+  font-family: "Quadran-Bold";
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.careers-contact-section h2.strip-slide-up span.row{
+  line-height: 1.13;
+  margin-top: -10px;
+}
+
+.careers-contact-section h3{
+  font-size: 24px;
+  font-family: "Quadran-Light";
+  text-align: center;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+   margin-bottom: 20px;
+}
+
+.careers-contact-section p{
+  font-size: 34px;
+  font-family: "Quadran-Bold";
+  text-align: center;
+}
+
+.careers-buttons{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.careers-buttons .divider{
+  width: 40px;
+  height: 4px;
+  background-color: #F9F9F9;
+}
+
+.careers-buttons button:last-child{
+  background-color: black;
+  color: white;
+}
+
 @media screen and (max-width: 1764px) {
   #path-2,
   #path-1 {
@@ -3228,6 +3530,33 @@ h2.blog-page-side-heading {
 .sub-services-why-choose-cards-holder > div:nth-child(3){
   transition-delay: 400ms;
 }
+
+/*  */
+.career-benefit-list .carrer-benefit:nth-child(2){
+  transition-delay: 200ms;
+} 
+
+.career-benefit-list .carrer-benefit:nth-child(3){
+  transition-delay: 300ms;
+} 
+
+.career-benefit-list .carrer-benefit:nth-child(4){
+  transition-delay: 400ms;
+} 
+
+.career-benefit-list .carrer-benefit:nth-child(5){
+  transition-delay: 500ms;
+} 
+
+/*  */
+.showcase-list .career-showcase-card:nth-child(2){
+  transition-delay: 200ms;
+}
+
+.showcase-list .career-showcase-card:nth-child(3){
+  transition-delay: 400ms;
+}
+
 
 .strip{
   opacity: 0;
