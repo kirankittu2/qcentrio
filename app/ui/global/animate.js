@@ -78,7 +78,9 @@ export default function Animate() {
             );
             if (element !== strip && singleSpan == null) {
               element = strip;
-              const rows = strip.innerHTML.split(" ");
+              console.log(strip);
+              const rows = strip.textContent.split(" ");
+
               strip.innerHTML = "";
 
               rows.forEach((rowContent, upperIndex) => {

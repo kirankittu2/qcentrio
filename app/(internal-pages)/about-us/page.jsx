@@ -6,6 +6,11 @@ import Button from "../../ui/global/button";
 import CopyrightBar from "../../ui/global/copyrightbar";
 import Footer from "../../ui/global/footer";
 import Link from "next/link";
+import GlobalPresence from "@/app/ui/contact-us/global-presence";
+import Image from "next/image";
+import map from "@/public/map.svg";
+import people from "@/public/people.svg";
+import idea from "@/public/skilled.svg";
 
 export const metadata = {
   title:
@@ -23,6 +28,7 @@ export default function AboutUs() {
           <AboutUsHero />
         </div>
       </div>
+      <MapSection />
       <AboutUsServices />
       <AboutUSWhyQucentrio />
       <div className="balance-section join-us-buttons-container">
@@ -42,5 +48,63 @@ export default function AboutUs() {
       <Footer />
       <CopyrightBar />
     </>
+  );
+}
+
+function MapSection() {
+  return (
+    <div className="about-us-map-section">
+      <div className="about-us-map-content">
+        <div>
+          <Image
+            data-option="up"
+            src={map}
+            alt=""
+            className="animate animate-hidden"
+          />
+        </div>
+        <div>
+          <h2
+            data-option="up"
+            className="section-heading animate animate-hidden">
+            Qcentrio has established itself as a leading force in the IT
+            industry, specializing in AI/ML integration, development, cloud
+            solutions, and strategic advisory services.
+          </h2>
+          <p data-option="up" className="animate animate-hidden">
+            With a global presence spanning North America, Mexico, India, the
+            UK, Singapore, and Australia, our team of over 1,000 skilled
+            professionals is dedicated to driving innovation and delivering
+            client-centric solutions.
+          </p>
+          <div className="about-us-map-num">
+            <div data-option="up" className="animate animate-hidden">
+              <div className="about-us-map-num-img">
+                <div>
+                  <Image src={idea} alt="" />
+                </div>
+              </div>
+              <div className="about-us-map-num-content">
+                <h3>~1000</h3>
+                <p>Skilled Professionals</p>
+              </div>
+            </div>
+            <div data-option="up" className="animate animate-hidden">
+              <div className="about-us-map-num-img">
+                <div>
+                  <Image src={people} alt="" />
+                </div>
+              </div>
+              <div className="about-us-map-num-content">
+                <h3>80%</h3>
+                <p>Employee Trust Index Score</p>
+              </div>
+            </div>
+          </div>
+          <Button name="Contact Us" />
+        </div>
+      </div>
+      <GlobalPresence />
+    </div>
   );
 }
