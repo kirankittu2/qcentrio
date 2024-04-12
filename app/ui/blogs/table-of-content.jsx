@@ -14,9 +14,9 @@ export default function TableOfContent() {
     let hierarchicalHeadings = [];
 
     headings.forEach((heading) => {
-      const content = heading.textContent.trim(); // Get the content and trim any extra whitespace
-      const id = content.replace(/\s+/g, "-").toLowerCase(); // Convert content to a valid id
-      heading.setAttribute("id", id); // Set the id attribute with the modified content
+      const content = heading.textContent.trim();
+      const id = content.replace(/\s+/g, "-").toLowerCase();
+      heading.setAttribute("id", id);
 
       if (heading.tagName.toLowerCase() === "h2") {
         hierarchicalHeadings.push({ id, title: content, children: [] });

@@ -169,10 +169,10 @@ function prepareDataWithItem(type, item, page) {
 }
 
 function prepareData(type, page) {
-  const startIndex = (page - 1) * 3;
+  const startIndex = (page - 1) * 6;
 
-  const pageNumber = Math.ceil(type.children.length / 3);
-  const sortedData = type.children.slice(startIndex, startIndex + 3);
+  const pageNumber = Math.ceil(type.children.length / 6);
+  const sortedData = type.children.slice(startIndex, startIndex + 6);
   const newData = {
     children: [...sortedData],
     pageNumber: pageNumber,
@@ -437,7 +437,7 @@ const mainServicesContent = {
         {
           image: cybersecurity,
           heading: "Mergers & Acquisitions Advisory Services",
-          link: "mergers-and-acquisitions-advisory-services",
+          link: "advisory-and-strategic-services/mergers-and-acquisitions-advisory-services",
           content:
             "Ensure your digital products meet the highest standards with our Quality Assurance (QA) services. Our team leverages advanced tools, specialized skills, and robust software to enhance the quality and performance of your digital offerings.",
         },
@@ -3878,138 +3878,158 @@ const subServicePagesContent = {
     1: {
       heroSectionData: {
         heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH BESPOKE AI/ML CAPABILITIES",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Artificial Intelligence/Machine Learning Offerings | Qcentrio",
+        description:
+          "Boost your enterprise's capabilities with Qcentrio's AI/ML offerings. Harness AI and ML-driven insights and automation expertise for strategic growth and operational excellence.",
       },
-      contactHead: "",
+      contactHead:
+        "Transform business decisions with AI/ML-led actionable insights",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading:
+          "Unlock the Full Potential of AI and ML for E2E Business Transformation with Qcentrio",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "Artificial Intelligence (AI) and Machine Learning (ML) are indispensable for businesses across various industries. They drive innovation, increase efficiency, and boost productivity for a competitive edge. Although companies invest in building AI and ML capabilities, they lack the necessary governance structures and innovative systems to fully leverage their potential.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "At Qcentrio, we use our AI/ML expertise to optimize business operations, streamline workflows, and improve bottom lines. Our offerings are tailored to meet specific needs and give a strategic advantage. As an advanced analytics service and solution provider, we unlock AI/ML's potential for long-term business transformation and short-term wins.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading:
+          "OUR AI/ML OFFERINGS: EMPOWER YOUR ENTERPRISE TO UNLOCK FULL POTENTIAL",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "Advanced Analytics and Forecasting",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Dive into the future of your business with Qcentrio's cutting-edge analytics. We employ sophisticated AI/ML models beyond traditional data analysis, offering deep insights and accurate forecasting that drive strategic decision-making.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "AI-Driven Process Optimization",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Transform your operational processes with our AI-powered optimization. Qcentrio streamlines workflows, enhancing efficiency and output while minimizing waste and reducing costs.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Machine Learning Operationalization",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Qcentrio is not just about creating models; it’s about bringing them to life within your operational ecosystem. Our ML operationalization ensures your AI investments are fully realized, embedding intelligence into every layer of your business operations.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Predictive Analytics",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Employ our advanced AI/ML algorithms to analyze data and forecast future trends, providing actionable insights for informed decision-making and strategic planning.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "Personalized Customer Interactions",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Embrace AI-driven personalization with Qcentrio. We deliver tailored experiences that engage and delight your end users, providing recommendations and services that hit the mark every time.",
+          },
+          {
+            num: "06",
+            heading: "Bespoke AI/ML Solutions",
+            content:
+              "Our commitment is to your success. We develop AI and ML solutions that align with your business goals and industry requirements, ensuring seamless integration and impactful outcomes.",
+          },
+          {
+            num: "07",
+            heading: "Process/Platform Automation",
+            content:
+              "Leverage AI and ML to automate processes for increased efficiency. Qcentrio's solutions enable you to automate routine tasks, reduce errors, and shift your team's focus to strategic activities that propel business growth. ",
+          },
+          {
+            num: "08",
+            heading: "Real-Time Data Processing and Analysis",
+            content:
+              "Harness the speed and accuracy of real-time data processing with Qcentrio’s advanced AI/ML systems. Make faster, more informed decisions as our technology sifts through vast information streams to deliver the insights that matter most, right when you need them.",
+          },
+          {
+            num: "09",
+            heading: "AI-Enhanced Customer Service",
+            content:
+              "Transform your customer support with AI-enhanced capabilities. Our solutions understand and respond to customer queries with human-like accuracy, ensuring higher satisfaction rates and freeing your customer service team to handle more complex issues.",
+          },
+          {
+            num: "10",
+            heading: "Robotic Process Automation (RPA)",
+            content:
+              "Amplify your efficiency with Qcentrio's RPA solutions. By automating repetitive tasks, our AI-driven robots save time and reduce human error, allowing your workforce to concentrate on creative and strategic tasks that add real value to your business.",
+          },
+          {
+            num: "11",
+            heading: "Delivering Business Insights",
+            content:
+              "Establish a robust framework for Machine Learning models with Qcentrio. We onboard our top talent to tailor these models to each unique case, scaling your business intelligence in real-time.",
           },
         ],
       },
       servicesOfSubService: {
-        mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        mainHeading: "TAILORED AI/ML OFFERINGS ACROSS DIFFERENT INDUSTRIES",
         list: [
           {
             icon: healthcare,
             heading: "HEALTHCARE",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "AI-powered diagnostics, personalized treatments, and optimized clinical operations are the future of patient care. Transform your practice with the latest advancements in AI technology.",
           },
           {
             icon: finace,
             heading: "FINANCE",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              "Transform financial services with AI-driven insights for risk management, fraud detection, and personalized investment strategies, ensuring accuracy and agility in decision-making.",
           },
           {
             icon: manufacturing,
             heading: "MANUFACTURING",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              "ML-driven predictive maintenance, optimized supply chains, and intelligent quality control boost productivity while reducing downtime and operational costs.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "RETAIL",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Enhance customer experiences with personalized recommendations, inventory optimization, and market trend analysis to increase sales and customer loyalty.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "ENERGY",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              "Deploy smart grid analytics for efficient energy distribution, demand forecasting, and sustainable operations, contributing to energy conservation and cost savings.",
           },
           {
             icon: travel,
-            heading: "TRAVEL & TRANSPORTATION",
+            heading: "TRANSPORTATION",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
-          },
-          {
-            icon: eCommerce,
-            heading: "E-COMMERCE",
-            content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
-          },
-          {
-            icon: realEstate,
-            heading: "REAL ESTATE",
-            content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
-          },
-          {
-            icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
-            content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Utilize AI for dynamic routing, predictive maintenance, and logistics optimization to improve service reliability and manage operational complexities.",
           },
         ],
       },
       whyChooseSection: {
-        mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        mainHeading: "Why Choose Qcentrio for AI/ML Solutions?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Expertise in AI/ML Technologies",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              "Our solutions range from advisory to model development and ongoing managed services, ensuring you have the expertise you need at every step.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Customized Solutions for Your Industry",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "Our AI/ML models are not one-size-fits-all; they are trained on specialized data and tailored to meet your business's unique challenges and opportunities.",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "Innovative Ecosystem at Your Disposal",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "Gain access to a full stack ecosystem of data, AI, and ML independent software vendors (ISVs) for accelerated value creation and sustained innovation.",
           },
         ],
       },
@@ -4020,10 +4040,12 @@ const subServicePagesContent = {
           "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Generative AI Solutions and Offerings | Qcentrio ",
+        description:
+          "Discover how Qcentrio's Generative AI Solutions and Offerings can transform your business operations, drive innovation, and enhance productivity.",
       },
-      contactHead: "",
+      contactHead:
+        "Build confidence in your AI/ML models and revolutionize your operations",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
         heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
@@ -4156,138 +4178,157 @@ const subServicePagesContent = {
     3: {
       heroSectionData: {
         heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+          "BOOST OPERATIONAL EFFICIENCY, GAIN E2E VISIBILITY, AND OPTIMIZE IT RESOURCE UTILIZATION",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Robotic Process Automation Offerings | Qcentrio",
+        description:
+          "Elevate operational efficiency with Qcentrio's bespoke Robotic Process Automation (RPA) Offerings. Drive growth and streamline your processes with next-gen automation solutions.",
       },
-      contactHead: "",
+      contactHead:
+        "Experience Next-Level Efficiency with Qcentrio’s RPA Offerings",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading: "Transform Workflow with Next-Gen Automation at Qcentrio",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "Today, efficiency and speed in business are indispensable. Robotic Process Automation (RPA) is a pillar for innovations that can automate routine tasks and enhance process workflows, thus giving a business the necessary momentum to stay relevant and win.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "At Qcentrio, we understand CXOs' challenges and specialize in providing RPA solutions that seamlessly integrate with existing systems. Our RPA offerings are designed to help businesses optimize their operations, reduce costs, and improve customer experiences, allowing your team to focus on strategic initiatives.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading: "OUR ROBOTIC PROCESS AUTOMATION OFFERINGS",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "Process and Platform Assessments",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "We comprehensively assess your company's processes and platforms to provide you with a tailored and effective RPA solution. By aligning our strategy with your business objectives, we ensure a fit-for-purpose solution that meets your unique needs and requirements.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "Business Case Preparation and Process Triage",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "If you're considering implementing RPA in your business, we can assist you in developing a solid business case and determining which areas should take priority. Our expertise can help you successfully implement and maximize your return on investment.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "SoP Creation and Automation Requirements Capture",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Our team specializes in developing standard operating procedures and detailed automation requirements to ensure efficient and effective robotic process automation (RPA) implementation in businesses, resulting in increased productivity and streamlined processes.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Proof of Concept and Pilot Programs",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "To ensure the successful deployment of RPA, we first conduct pilot programs and proofs of concept. This helps us demonstrate the potential impact of RPA on your operations and make informed decisions for a smoother implementation.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "RPA Roadmap Creation and CoE Setup",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "We help you plan your journey with Robotic Process Automation (RPA) and create a Center of Excellence (CoE) to promote innovation and best practices in your organization. Our goal is to optimize your business processes and increase efficiency.",
+          },
+          {
+            num: "06",
+            heading: "RPA Strategy and Implementation",
+            content:
+              "Our approach to RPA begins with a comprehensive analysis of your business processes to pinpoint automation opportunities. We then craft a tailored strategy to transform your operations using leading tools like UiPath, Blue Prism, and Automation Anywhere.",
+          },
+          {
+            num: "07",
+            heading: "Custom RPA Solutions",
+            content:
+              "Our custom RPA solutions are designed to help your business automate complex tasks like data entry, invoice processing, and customer inquiries. By doing so, we boost efficiency and promote innovation while tailoring our offerings to meet your specific needs.",
+          },
+          {
+            num: "08",
+            heading: "System Integration and Optimization",
+            content:
+              "When implementing RPA solutions, ensuring smooth integration with existing systems is essential to avoid disrupting business operations. Our solutions are designed to seamlessly incorporate your workflows, optimizing efficiency without causing any disruptions.",
+          },
+          {
+            num: "09",
+            heading: "Continuous Monitoring and Support",
+            content:
+              "Efficient operational workflows are crucial to business success. Our RPA solutions enable smooth integration with existing systems, streamlining workflows without disrupting business rhythm. This helps businesses optimize efficiency and achieve operational excellence.",
+          },
+          {
+            num: "10",
+            heading: "Training and Skill Development",
+            content:
+              "Our company doesn't just deploy RPA solutions and leave you alone. Our commitment to your success includes ongoing monitoring and support to ensure optimal performance and quick resolution of any issues that may arise.",
+          },
+          {
+            num: "11",
+            heading: "Bot Support and Maintenance",
+            content:
+              "Our comprehensive bot support services cover everything from routine maintenance and monitoring to health checks and release management. This ensures your RPA operations run smoothly and sustainably, with minimal downtime and maximum efficiency.",
+          },
+          {
+            num: "12",
+            heading: "Custom Reporting and Analytics",
+            content:
+              "Our team analyzes your tech environment to determine the best way to incorporate RPA with your current systems, ensuring that the automation process is as smooth as possible and that there are no disruptions to your business operations.",
           },
         ],
       },
       servicesOfSubService: {
-        mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        mainHeading: "TRANSFORM YOUR INDUSTRY WITH QCENTRIO'S RPA SOLUTIONS",
         list: [
           {
             icon: healthcare,
             heading: "HEALTHCARE",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Facilitate better patient care with automated record management and scheduling, ensuring critical resources are focused on patient outcomes.",
           },
           {
             icon: finace,
             heading: "FINANCE",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              "Transform financial operations by automating compliance checks, report generation, and transaction processing for enhanced accuracy and efficiency.",
           },
           {
             icon: manufacturing,
             heading: "MANUFACTURING",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              "Embrace RPA in manufacturing for real-time inventory management, quality control, and supply chain optimization, which will reduce costs and improve productivity.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "REAL ESTATE",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Streamline property management in real estate, from tenant screening to financial reconciliations, ensuring smooth operations.",
           },
-          {
-            icon: aerospace,
-            heading: "AEROSPACE",
-            content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
-          },
+
           {
             icon: travel,
             heading: "TRAVEL & TRANSPORTATION",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
-          },
-          {
-            icon: eCommerce,
-            heading: "E-COMMERCE",
-            content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
-          },
-          {
-            icon: realEstate,
-            heading: "REAL ESTATE",
-            content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
-          },
-          {
-            icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
-            content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Automate booking systems and operational scheduling in your travel and transportation sector to improve customer service and operational efficiency.",
           },
         ],
       },
       whyChooseSection: {
-        mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        mainHeading: "Why Choose Qcentrio for RPA Offerings?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Domain Expertise in RPA",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              "Our RPA offerings redefine process management by combining intelligent automation, deep domain knowledge, and thousands of hours of learning and testing in complex environments.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Platform & Technology-Agnostic Approach",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "We prioritize metric improvement, cost savings, and ROI. Supported by over 1,00 RPA experts, we offer a comprehensive suite of offerings, from advisory to bot support, ensuring process perfection.",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "People–Process–Technology Framework",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "To scale RPA successfully, Qcentrio combines expertise across people, processes, and technology. Our team harmonizes KPIs for effective resource allocation and change management.",
           },
         ],
       },

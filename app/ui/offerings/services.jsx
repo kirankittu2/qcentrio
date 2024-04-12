@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ServiceCardClient from "./serice-card-client";
 
 export default function ServicesContent({ data }) {
   return (
@@ -18,16 +19,11 @@ export default function ServicesContent({ data }) {
       <div className="services-container">
         {data.children.map((item, index) => {
           return (
-            <div
-              data-option="up"
-              key={index}
-              className="service animate-hidden animate">
+            <ServiceCardClient key={index} link={item.link}>
               <Image src={item.image} alt="" />
-              <Link href={item.link}>
-                <h2 className="service-heading-unq">{item.heading}</h2>
-              </Link>
+              <h2 className="service-heading-unq">{item.heading}</h2>
               <p className="section-content">{item.content}</p>
-            </div>
+            </ServiceCardClient>
           );
         })}
       </div>

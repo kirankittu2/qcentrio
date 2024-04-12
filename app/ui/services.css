@@ -108,12 +108,18 @@
   gap: 30px;
 }
 
+.services-container a{
+  text-decoration: none;
+}
+
 .service {
   padding: 30px;
   border: 2px solid #f8f8f8;
   max-width: 443px;
   flex: 1;
 }
+
+.service:hover 
 
 .service a{
   text-decoration: none;

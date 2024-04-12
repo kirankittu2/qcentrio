@@ -93,6 +93,85 @@
     background-color: black;
 }
 
+.about-us-map-section{
+    padding-left: clamp(50px, 7.81vw, 140px);
+    padding-right: clamp(50px, 7.81vw, 140px);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.about-us-map-section .global-presence-section .section-heading,.about-us-map-section .global-presence-section .global-presence-sub-heading{
+    display: none;
+}
+
+.about-us-map-section .global-presence-section{
+    padding: 0;
+}
+
+.about-us-map-content{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.about-us-map-content .section-heading{
+    margin-bottom: 30px;
+}
+
+.about-us-map-content p{
+     margin-bottom: 30px;
+}
+
+.about-us-map-content > div:first-child{
+    flex: 2;
+}
+
+.about-us-map-content > div:last-child{
+    flex: 1;
+    margin-top: 30px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: cen; */
+}
+
+.about-us-map-num{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-map-num > div{
+    display: flex;
+    gap: 10px;
+}
+
+.about-us-map-num-img{
+    width: 70px;
+    height: 70px 
+}
+
+
+.about-us-map-num-img > div{
+    border: 3px solid #DEDEDE;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-map-num-content h3{
+   font-family: "Quadran-Black";
+   color: var(--primary-color);
+   font-size: 30px;
+}
+
+.about-us-map-num-content p{
+    font-family: "Quadran-Black";
+   font-size: 18px; 
+}
+
 @media screen and (max-width: 900px) {
     .join-us-buttons-container .section-heading{
         width: 90%;

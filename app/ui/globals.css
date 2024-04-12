@@ -493,9 +493,37 @@ header {
   pointer-events: none;
 }
 
-.cursor.is-moving {
-  transform: scale(0.4);
+.cursor.hovered {
+  position: fixed;
+  width: 81px;
+  height: 81px;
+  left: 0;
+  top: 0;
+  border: none;
+  backface-visibility: hidden;
+  transition: all 0.2s ease-out;
+  background: #EDFFD5;
+  z-index: 100000;
+  pointer-events: none;
 }
+
+.cursor-arrow {
+  position: fixed;
+  width: 24px;
+  height: 24px;
+  left: 0;
+  top: 0;
+  backface-visibility: hidden;
+  z-index: 100000;
+  pointer-events: none;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .cursor.is-moving {
+  transform: scale(0.4);
+} */
 
 /* Hero section styles */
 .hero {
@@ -709,6 +737,17 @@ header {
 @keyframes scroll {
   to {
     transform: translateX(calc(-33.33333% - 33px));
+  }
+}
+
+.horizontal-scroll-2 {
+  width: max-content;
+  animation: scroll2 20s linear infinite;
+}
+
+@keyframes scroll2 {
+  to {
+    transform: translateX(calc(-33.33333% - 8px));
   }
 }
 
