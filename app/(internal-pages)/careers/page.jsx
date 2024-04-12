@@ -10,6 +10,7 @@ import Card from "@/app/ui/global/card";
 import Pagination from "@/app/ui/blogs/pagination";
 import Link from "next/link";
 import Button from "@/app/ui/global/button";
+import Path8 from "@/app/ui/global/path-8";
 
 export const metadata = {
   title:
@@ -84,6 +85,7 @@ function CareersWhyQcentrio() {
         technology, working on projects that redefine industries and enhance
         customer experiences.
       </p>
+      <Path8 />
     </div>
   );
 }

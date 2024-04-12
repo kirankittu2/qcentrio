@@ -15,7 +15,10 @@ export default function TableOfContent() {
 
     headings.forEach((heading) => {
       const content = heading.textContent.trim();
-      const id = content.replace(/\s+/g, "-").toLowerCase();
+      const id = content
+        .replace(/\s+/g, "-")
+        .replace(/[^a-zA-Z0-9-]/g, " ")
+        .toLowerCase();
       heading.setAttribute("id", id);
 
       if (heading.tagName.toLowerCase() === "h2") {
@@ -30,7 +33,7 @@ export default function TableOfContent() {
         });
       }
     });
-
+    console.log(hierarchicalHeadings);
     setTableContent(hierarchicalHeadings);
   }, []);
 
@@ -52,7 +55,7 @@ export default function TableOfContent() {
                 <ul>
                   {item.children.map((child, childIndex) => {
                     return (
-                      <Link href={`#${child.id} `} key={childIndex}>
+                      <Link href={`#${child.id}`} key={childIndex}>
                         <li>{child.title}</li>
                       </Link>
                     );

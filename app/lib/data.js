@@ -1273,138 +1273,134 @@ const subServicePagesContent = {
     1: {
       heroSectionData: {
         heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+          "TRANSFORM YOUR ORGANIZATIONAL CAPABILITIES AND SUSTAIN YOUR COMPETITIVE ADVANTAGE ",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Comprehensive ERP Solutions Support | Qcentrio",
+        description:
+          "Qcentrio's ERP Solutions Support enhances your operational agility and efficiency. Experience our tailored ERP advisory and round-the-clock service.",
       },
-      contactHead: "",
+      contactHead:
+        "Transform your core business processes and operations with expert ERP Solutions Support",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading:
+          "Enhance Business Agility with Qcentrio’s ERP Solutions Support",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "Enterprise Resource Planning (ERP) systems are pivotal as the operational backbone of modern enterprises, streamlining various business functions to enhance efficiency and provide deep insights into core operations. Today, agility and the capacity for informed decision-making are indispensable and can distinguish industry leaders from their competitors.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "At Qcentrio, we stand at the forefront of ERP solutions, offering unmatched support that propels businesses forward by at least 50% faster. Our ERP services ensure your enterprise remains a step ahead by expertly integrating, managing, and optimizing your critical business processes through state-of-the-art ERP systems.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading: "QCENTRIO’S TAILORED ERP SOLUTIONS SUPPORT SERVICES",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "QAD Advisory & Support Services",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Specializing in QAD ERP solutions, we deliver end-to-end support, including application management, system enhancements, and strategic upgrade paths for global operations.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "Epicor Advisory & Support Services",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              ": Enhance operational efficiency across manufacturing, distribution, and retail with our deep tech and business expertise in Epicor ERP solutions, optimizing your enterprise's processes.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Infor Advisory & Support Services",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Utilize Infor's flexible cloud-based ERP software and its flexible, scalable cloud-based platform with customized support services designed to adapt to your unique business demands.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "NetSuite Advisory & Support Services",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              ": Leverage NetSuite's comprehensive capabilities for ERP, CRM, and e-commerce with our strategic advisory, servicing a wide range of business scales and needs.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "Custom ERP Developmen",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Build bespoke ERP solutions from the ground up, tailored to fit your enterprise’s unique processes, operations, and needs, ensuring a perfect fit for your operational model.",
+          },
+          {
+            num: "06",
+            heading: "ERP Training and User Adoption",
+            content:
+              "Equip your team with the knowledge, know-how, and skills to completely leverage your ERP system through comprehensive training programs and change management strategies.",
+          },
+          {
+            num: "07",
+            heading: "Legacy System Migration",
+            content:
+              "Safely transition from outdated and conventional systems to modern ERP platforms with minimal downtown and disruption while preserving data integrity and business continuity.",
           },
         ],
       },
       servicesOfSubService: {
         mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+          "EMPOWERING VARIOUS INDUSTRIES WITH SPECIALIZED ERP SUPPORT",
         list: [
           {
             icon: healthcare,
             heading: "HEALTHCARE",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Coordinate patient care, manage resources efficiently, and maintain compliance with healthcare-specific ERP systems.",
           },
           {
             icon: finace,
-            heading: "FINANCE",
+            heading: "FINANCIAL SERVICES",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              "Implement ERP systems to manage complex financial operations, ensuring real-time reporting, compliance, and effective risk management.",
           },
           {
             icon: manufacturing,
             heading: "MANUFACTURING",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              "Streamline production workflows, supply chain management, and inventory control with integrated ERP solutions.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "RETAIL",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Synchronize point of sale, e-commerce, and inventory management to provide seamless customer experiences.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "SUPPLY CHAIN AND LOGISTICS",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              "Optimize supply chain visibility and logistics management, reducing costs and improving delivery timelines with an integrated ERP suite.",
           },
           {
             icon: travel,
-            heading: "TRAVEL & TRANSPORTATION",
+            heading: "HOSPITALITY",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
-          },
-          {
-            icon: eCommerce,
-            heading: "E-COMMERCE",
-            content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
-          },
-          {
-            icon: realEstate,
-            heading: "REAL ESTATE",
-            content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
-          },
-          {
-            icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
-            content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Manage property operations, customer relations, and back-office activities seamlessly, delivering exceptional guest experiences and operational excellence.",
           },
         ],
       },
       whyChooseSection: {
-        mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        mainHeading: "Why Partner with Qcentrio for ERP Solutions Support?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Customized ERP Strategies",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              "Receive personalized ERP assessments and demonstrations created to align with your business objectives.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Certified Professionals",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "Our team of accredited tech and business professionals is committed to providing you with expertise and insights that drive success.",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "24/7 Support",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "We offer scalable solutions with round-the-clock support, ensuring your ERP systems operate flawlessly and continuously evolve with your business.",
           },
         ],
       },
@@ -1551,138 +1547,145 @@ const subServicePagesContent = {
     3: {
       heroSectionData: {
         heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+          "MAXIMIZE ENTERPRISE AGILITY AND INNOVATION WITH ADVANCED SAP SERVICES SUPPORT",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Expert SAP Services and Support | Qcentrio",
+        description:
+          ": Lift your business with Qcentrio's SAP services. Our SAP S/4HANA, CRM, and Analytics solutions ensure your operations are streamlined and future-proof.",
       },
-      contactHead: "",
+      contactHead:
+        "Redefine your operational capabilities with specialized SAP Services",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading:
+          "Transform Your Business Operations with Qcentrio's Tailored SAP Services",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "SAP systems characterize a critical infrastructure today for enterprises aiming to consolidate and enhance their operational processes. As businesses face the twofold challenges of adapting quickly to market changes and making decisions based on real-time data, the need for robust technological support is a constraint that they need. ",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "At Qcentrio, we offer specialized SAP services that cater to this demand, including SAP S/4HANA for next-generation business suite capabilities, SAP CRM & Customer Experience to advance client interactions, SAP Analytics for deeper insights, and more. Our offerings are designed to empower your enterprise with the agility to respond promptly, the intelligence to make informed decisions, and the innovation to drive growth and efficiency. With Qcentrio’s SAP expertise, your business is not just equipped to operate efficiently—it’s set to lead and transform in its sector.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading: "DISCOVER QCENTRIO’S COMPREHENSIVE SAP SERVICES",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "SAP Implementation and Migration",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Execute a seamless transition to advanced SAP platforms, with a focus on minimizing disruption and maximizing business value.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "SAP S/4HANA Solutions",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Leverage the next generation of SAP business suite for faster, simpler, and more efficient business processes that propel decision-making.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "SAP CRM & Customer Experience",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Transform customer interactions and bolster sales growth by harnessing SAP CRM to deepen customer relationships and engagement..",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "SAP Analytics Solutions",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Turn data into a strategic advantage with SAP Analytics, obtaining critical insights that drive better business outcomes.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "Continuous SAP Support",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Benefit from uninterrupted SAP service excellence, ensuring your systems stay current, secure, and highly functional.",
+          },
+          {
+            num: "06",
+            heading: "SAP Cloud Platform Services",
+            content:
+              "Harness the full power of cloud computing with SAP's cloud platform, ensuring flexible scalability and innovation in a secure cloud environment.",
+          },
+          {
+            num: "07",
+            heading: "SAP Custom Development",
+            content:
+              "Tailor your SAP environment with custom-developed applications that meet your unique business processes and workflows for a competitive edge.",
+          },
+          {
+            num: "08",
+            heading: "SAP Training and Enablement",
+            content:
+              "Equip your workforce with the necessary skills to maximize the use of SAP solutions through comprehensive training modules and user enablement programs.",
           },
         ],
       },
       servicesOfSubService: {
-        mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        mainHeading: "CUSTOMIZE YOUR SAP EXPERIENCE ACROSS VARIOUS INDUSTRIES",
         list: [
           {
             icon: healthcare,
             heading: "HEALTHCARE",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Manage patient care, services, and operations with SAP's healthcare solutions, maintaining compliance and operational excellence.",
           },
           {
             icon: finace,
             heading: "FINANCE",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              "Optimize financial operations and risk management while ensuring regulatory compliance with SAP's financial management solutions.",
           },
           {
             icon: manufacturing,
             heading: "MANUFACTURING",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              ": Integrate and automate core production and supply chain processes with SAP’s robust suite of manufacturing solutions.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "RETAIL",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Leverage SAP to unify commerce processes, from inventory management to omnichannel sales, providing exceptional customer experiences.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "AUTOMOTIVE",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              "Utilize SAP to streamline supply chain management, production planning, and customer experiences in the automotive industry for greater efficiency and innovation.",
           },
           {
             icon: travel,
-            heading: "TRAVEL & TRANSPORTATION",
+            heading: "PUBLIC SECTOR",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+              "Deploy SAP solutions to enhance public services delivery, improve stakeholder engagement, and drive digital transformation in government operations.",
           },
           {
             icon: eCommerce,
-            heading: "E-COMMERCE",
+            heading: "UTILITIES",
             content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
-          },
-          {
-            icon: realEstate,
-            heading: "REAL ESTATE",
-            content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
-          },
-          {
-            icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
-            content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Leverage SAP for utilities to manage asset lifecycles, customer service, and regulatory compliance more effectively, optimizing resource distribution and consumption.",
           },
         ],
       },
       whyChooseSection: {
-        mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        mainHeading: "Why Choose Qcentrio for Your SAP Service Needs?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Deep SAP Expertise",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              "Our team brings extensive knowledge and experience across the full range of SAP services.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Deep SAP Expertise",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "We deliver personalized SAP strategies tailored to meet your specific business requirements.",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "Efficient Migration and Support",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "Our approach ensures a smooth transition to SAP systems, continuous improvement, and dedicated support.",
           },
         ],
       },
