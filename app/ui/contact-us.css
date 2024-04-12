@@ -7,7 +7,7 @@
 
 .contact-us-main-section .hero-heading {
   color: black;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-bottom: 0px;
 }
 
@@ -31,7 +31,7 @@
   font-size: var(--general-text);
   font-family: "Quadran-Bold";
   color: var(--primary-color);
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .contact-us-main-section-form textarea {
@@ -127,6 +127,7 @@
   font-size: var(--heading-highlight);
   font-family: "Quadran-Bold";
   text-align: center;
+  letter-spacing: -1px;
 }
 
 .reach-out-holder-column {

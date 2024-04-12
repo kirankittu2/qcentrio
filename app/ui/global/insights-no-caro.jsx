@@ -1,10 +1,11 @@
 import Image from "next/image";
-import blog1 from "@/public/blog-1.png";
-import blog2 from "@/public/blog-2.png";
-import blog3 from "@/public/blog-3.png";
 import blogArrow from "@/public/blog-arrow.svg";
+import { getAllBlogs } from "@/app/lib/data";
+import Link from "next/link";
 
 export default function InsigntsNoCaro() {
+  const blogs = getAllBlogs();
+
   return (
     <div className="insights-section section">
       <div className="insights-heading-container">
@@ -18,73 +19,63 @@ export default function InsigntsNoCaro() {
         <div data-option="up" className="card animate-hidden animate">
           <div>
             <div>
-              <Image src={blog1} alt="" />
+              <Image width={1226} height={360} src={blogs[0].image} alt="" />
             </div>
             <div className="blog-card-heading">
-              <h2 className="card-heading">
-                Maximizing Business Value to Your Approach to Enhancement
-              </h2>
+              <h2 className="card-heading">{blogs[0].title}</h2>
             </div>
             <div className="blog-card-content-container">
-              <p className="section-content">
-                Dive into our strategies for amplifying your business value,
-                ensuring sustainable growth and competitive advantage.
-              </p>
-              <div className="blogs-btn">
-                Learn More
-                <span>
-                  <Image style={{ width: "25px" }} src={blogArrow} alt="" />
-                </span>
-              </div>
+              <p className="section-content">{blogs[0].content1}</p>
+              <Link href={blogs[0].link}>
+                <div className="blogs-btn">
+                  Learn More
+                  <span>
+                    <Image style={{ width: "25px" }} src={blogArrow} alt="" />
+                  </span>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
         <div data-option="up" className="card animate-hidden animate">
           <div>
             <div>
-              <Image src={blog2} alt="" />
+              <Image width={1226} height={360} src={blogs[1].image} alt="" />
             </div>
             <div className="blog-card-heading">
-              <h2 className="card-heading">
-                Navigating Success: The Power of Advisory and Strategic Services
-              </h2>
+              <h2 className="card-heading">{blogs[1].title}</h2>
             </div>
             <div className="blog-card-content-container">
-              <p className="section-content">
-                To examine the impact of professional advice and strategy
-                services for guiding businesses to achieve long-term objectives.
-              </p>
-              <div className="blogs-btn">
-                Learn More
-                <span>
-                  <Image style={{ width: "25px" }} src={blogArrow} alt="" />
-                </span>
-              </div>
+              <p className="section-content">{blogs[1].content1}</p>
+              <Link href={blogs[1].link}>
+                <div className="blogs-btn">
+                  Learn More
+                  <span>
+                    <Image style={{ width: "25px" }} src={blogArrow} alt="" />
+                  </span>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
         <div data-option="up" className="card animate-hidden animate">
           <div>
             <div>
-              <Image src={blog3} alt="" />
+              <Image width={1226} height={360} src={blogs[2].image} alt="" />
             </div>
             <div className="blog-card-heading">
-              <h2 className="card-heading">
-                Driving Efficiency to Business Optimization & Analytics Role
-              </h2>
+              <h2 className="card-heading">{blogs[2].title}</h2>
             </div>
             <div className="blog-card-content-container">
-              <p className="section-content">
-                How our business optimization and analytics help clients turn
-                their data into useful information, insight, and knowledge to
-                make better decisions.
-              </p>
-              <div className="blogs-btn">
-                Learn More
-                <span>
-                  <Image style={{ width: "25px" }} src={blogArrow} alt="" />
-                </span>
-              </div>
+              <p className="section-content">{blogs[2].content1}</p>
+              <Link href={blogs[2].link}>
+                <div className="blogs-btn">
+                  Learn More
+                  <span>
+                    <Image style={{ width: "25px" }} src={blogArrow} alt="" />
+                  </span>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

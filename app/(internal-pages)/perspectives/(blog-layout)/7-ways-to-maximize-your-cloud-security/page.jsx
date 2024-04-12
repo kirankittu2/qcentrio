@@ -1,7 +1,8 @@
 import Image from "next/image";
 import blogMainImage from "@/public/cloud-security.jpg";
-import linkedin from "@/public/linkedin.svg";
-import author from "@/public/blog-author.png";
+import AuthorBlock from "@/app/ui/blogs/author-block";
+import TableOfContent from "@/app/ui/blogs/table-of-content";
+import Category from "@/app/ui/blogs/categories";
 
 export default function SampleBlog() {
   return (
@@ -19,30 +20,8 @@ export default function SampleBlog() {
       </div>
       <div className="blog-page-main-content-container">
         <div className="blog-page-side-content-bar">
-          <div className="author-conatiner">
-            <div className="blog-page-author-head-container">
-              <h2 className="blog-page-side-heading">AUTHOR OF THIS BLOG</h2>
-              <Image className="author-linkedin-link" src={linkedin} alt="" />
-            </div>
-            <div className="flex items-center gap-2.5">
-              <div>
-                <Image src={author} alt="" />
-              </div>
-              <div>
-                <h3 className="author-name">Michael Frank</h3>
-                <p className="author-role">Lead of Global Practice</p>
-              </div>
-            </div>
-          </div>
-          <div className="category-container">
-            <h2 className="blog-page-side-heading">CATEGORIES</h2>
-            <p className="blog-page-side-item">Data Migration</p>
-            <p className="blog-page-side-item">Cloud Security</p>
-            <p className="blog-page-side-item">Generative AI</p>
-            <p className="blog-page-side-item">Business Intelligence</p>
-            <p className="blog-page-side-item">ERP Solutions</p>
-            <p className="blog-page-side-item">Salesforce</p>
-          </div>
+          <AuthorBlock />
+          <Category />
         </div>
         <div className="blog-page-main-content">
           <h2>Summary</h2>
@@ -54,36 +33,7 @@ export default function SampleBlog() {
             creates unique security challenges. Protecting your invaluable data
             and systems in the cloud isn&lsquo;t optional; it&lsquo;s essential.
           </p>
-          <div id="table-of-contents" className="table-of-contents">
-            <h2 className="blog-page-side-heading">TABLE OF CONTENTS</h2>
-            <ul>
-              <li>
-                What is Cloud Security and Why Does it Matter?
-                <ul>
-                  <li>The Expanding Attack Surface</li>
-                  <li>BYOD and Risk</li>
-                  <li>Real-World Threats</li>
-                  <li>The Human Factor</li>
-                </ul>
-              </li>
-              <li>Is Cloud Computing Secure?</li>
-              <li>Why is Cloud Security Crucial?</li>
-              <li>
-                Seven Ways To Maximize Cloud Security
-                <ul>
-                  <li>Embrace Robust Identity and Access Management (IAM)</li>
-                  <li>Emphasize Data Encryption</li>
-                  <li>Choose Your Cloud Provider Wisely</li>
-                  <li>
-                    Implement a Comprehensive Backup and Disaster Recovery Plan
-                  </li>
-                  <li>Utilize Security Monitoring and Logging</li>
-                  <li>Patching and Vulnerability Management</li>
-                  <li>Foster a Culture of Security Awareness</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+          <TableOfContent />
           <p>
             Understanding vulnerabilities like data breaches, malware, and
             unauthorized access is the first step toward defense. Proactively

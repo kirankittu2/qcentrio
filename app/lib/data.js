@@ -34,21 +34,21 @@ const blogs = {
       image: "/cloud-security.jpg",
       title:
         "7 effective ways to maximize your cloud security for enhanced protection",
-      content:
+      content1:
         "In the cloud revolution, securing data against breaches is crucial for the 94% of enterprises using cloud services, as this blog will explore.",
       link: "/perspectives/7-ways-to-maximize-your-cloud-security",
     },
     {
       image: "/robotic-process.jpg",
       title: "Boost your enterprise innovation with robotic process automation",
-      content:
+      content1:
         "In today's digital environment, innovation and robotic process automation are essential for streamlining procedures and driving growth.",
       link: "/perspectives/boost-your-enterprise-innovation-with-robotic-process-automation",
     },
     {
       image: "/block-chain-banking.jpg",
       title: "How blockchain redefines business and banking",
-      content:
+      content1:
         "Since Satoshi Nakamoto introduced Blockchain, the term emphasizes its unalterable nature, offering security to financial moguls.",
       link: "/perspectives/how-blockchain-redefines-business-and-banking",
     },
@@ -56,7 +56,7 @@ const blogs = {
       image: "/cloud-computing.jpg",
       title:
         "Navigating the cloud landscape: 5 key strategies for effective cloud assessment",
-      content: "Content",
+      content1: "Content",
       link: "/perspectives/navigating-the-cloud-landscape",
     },
   ],
@@ -68,8 +68,10 @@ const caseStudies = {
     {
       image: "/enhancing-patient-care.jpg",
       title: "Enhancing patient care with BI and SQL analytics at qcentrio",
-      content:
+      content1:
         "The client aimed to enhance their Java app for better population health analytics and healthcare insights.",
+      content2:
+        "With the streamlined company data processing and improved accuracy of reporting that Qcentrio provided, actionable insights were offered in patient care and operational efficiency across the health network improvement.",
       link: "/case-study/enhancing-patient-care-with-bi-and-sql-analytics",
     },
 
@@ -77,23 +79,29 @@ const caseStudies = {
       image: "/land-management.jpg",
       title:
         "Land Management in India Leading State with a Blockchain Platform",
-      content:
+      content1:
         "Leading Indian state transforms land management with innovative Blockchain platform for streamlined processes and transparency.",
+      content2:
+        "With the streamlined company data processing and improved accuracy of reporting that Qcentrio provided, actionable insights were offered in patient care and operational efficiency across the health network improvement.",
       link: "/case-study/transforming-land-management-in-india-leading-state-with-a-blockchain-platform",
     },
     {
       image: "/automatic-vehicle.jpg",
       title:
         "Automating Vehicle Aerodynamics Simulations for Automotive Company",
-      content:
+      content1:
         "Automotive company automates vehicle aerodynamics simulations for enhanced efficiency and performance in product development.",
+      content2:
+        "With the streamlined company data processing and improved accuracy of reporting that Qcentrio provided, actionable insights were offered in patient care and operational efficiency across the health network improvement.",
       link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
     },
     {
       image: "/sharepoint-ecosystem.jpg",
       title:
         "Transforming pharmaceutical major’s sharepoint ecosystem with azure",
-      content: "Content",
+      content1: "Content",
+      content2:
+        "With the streamlined company data processing and improved accuracy of reporting that Qcentrio provided, actionable insights were offered in patient care and operational efficiency across the health network improvement.",
       link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
     },
   ],
@@ -173,6 +181,14 @@ function prepareData(type, page) {
   return newData;
 }
 
+export function getAllBlogs() {
+  return blogs.children;
+}
+
+export function getAllCaseStudies() {
+  return caseStudies.children;
+}
+
 //Main Service Pages data
 const mainServicesContent = {
   0: {
@@ -189,6 +205,7 @@ const mainServicesContent = {
         "At Qcentrio, we cater to various industries, including Consumer Electronics, Automotive, Aerospace, Medical Devices, Telecom, Servers/storage, and Semiconductors. Our bespoke technology solutions are created to address your unique business challenges, enabling improved decision-making and heightened operational efficiency. Designed for agility and scalability, our solutions evolve with your business needs. And with round-the-clock support from certified professionals, you can rest assured of smooth operation and maintenance of your systems.",
       subheading:
         "Automating Vehicle Aerodynamics Simulations for a Major Automotive Design Company",
+      link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
     },
     servicesContent: {
       heading: "NAVIGATE THE FUTURE CONFIDENTLY",
@@ -241,46 +258,55 @@ const mainServicesContent = {
     },
     strategicPathContent: {
       upperheading: "QCENTRIO’S",
-      heading:
-        "Strategic Digital Roadmap to Providing Advisory and Strategic Services",
+      heading: "Strategic Path to Robust Cloud Infrastructure and Security",
       accordation1: [
         {
           index: 1,
-          title: "Transformation Strategies",
-          content:
-            "Creating bespoke transformation strategies aligning with your core business goals.",
+          title: "Assessment",
+          content: "Evaluate existing IT infrastructure and security posture.",
         },
         {
           index: 2,
-          title: "Domain Leadership",
+          title: "Design",
           content:
             "Customizing digital services and solutions, enabling you to lead in your domain.",
         },
         {
           index: 3,
-          title: "Success Stories",
+          title: "Implementation",
+          content:
+            "Highlighting success stories where our digital strategies have significantly improved business operations.",
+        },
+        {
+          index: 4,
+          title: "Migration",
           content:
             "Highlighting success stories where our digital strategies have significantly improved business operations.",
         },
       ],
       accordation2: [
         {
-          index: 4,
-          title: "Streamlined Operations",
+          index: 5,
+          title: "Optimization",
           content:
             "Implementing custom solutions to streamline your business processes and operations.",
         },
         {
-          index: 5,
-          title: "Risk Mitigation",
+          index: 6,
+          title: "Security Enhancement",
           content:
             "Introducing strategic measures to minimize digital adoption risks, ensuring a smooth transition.",
         },
         {
-          index: 6,
-          title: "Strategic Timelines",
+          index: 7,
+          title: "Monitoring & Management",
           content:
             "Setting strategic timelines for agile, phased rollouts, prioritizing quick wins and scalable, long-term growth.",
+        },
+        {
+          index: 8,
+          title: "Monitoring & Management",
+          content: "Evolution",
         },
       ],
     },
@@ -292,7 +318,7 @@ const mainServicesContent = {
           number: 1,
           heading: "People-First Approach",
           content:
-            "200+ technology experts from tier 1 tech and business institutes with advanced degrees, such as Ph.D. and Master's. ",
+            "We are experts in modernizing your data estate to a cloud-ready, future-fit, scalable ecosystem. With specialization in full-scale migration to major offering AWS, Azure, and GCP expertise.",
           percentage: "85%",
           highlight: "Employee Trust Index Score",
         },
@@ -300,52 +326,57 @@ const mainServicesContent = {
           number: 2,
           heading: "Customer Centricity",
           content:
-            "Streamlined processes enable 50% faster time to insights, allowing clients to respond rapidly to market demands.",
-          percentage: "90%",
-          highlight: "NPS Across Engagements",
+            "That's what we deliver: solutions adapted to your business requirements and, at the same time, adhering to your goal of making quick decisions and adding value.",
+          percentage: "50%",
+          highlight: "Faster Time to Insights",
         },
         {
           number: 3,
           heading: "Sustainable Growth",
           content:
-            "Our growth strategy is about shaping futures. With category-outpacing growth, we’re setting industry benchmarks.",
-          percentage: "50%",
-          highlight: "YoY Growth",
+            "Our commitment to sustainable development involves leveraging technologies and insights to foster adaptable business models, ensuring long-term success in a dynamic market.",
+          percentage: "30%",
+          highlight: "Increase in Operational Efficiency",
         },
       ],
-      heading2: "Category-Leading Advanced Technology Solutions Expertise",
+      heading2: "Boost Your Business with Advanced Technology Solutions",
       cards2: [
         {
           image: settings,
-          title: "Flexible and Agile Team",
+          title: "Comprehensive Technology Audit",
           content:
-            "A flexible and agile team spread across the globe that can ramp up and down as and when needed.",
+            "Conduct a thorough audit of your infrastructure to identify enhancement opportunities.",
         },
         {
           image: strategy,
-          title: "End-to-End Execution",
+          title: "Innovative Technology Integration",
           content:
-            "Seamless coordination across IT, infrastructure, data engineering, and analytics ensures E2E support.",
+            "Integrate cutting-edge technologies to drive efficiency and fuel growth.",
         },
         {
           image: support,
-          title: "Round the Clock Support",
+          title: "Scalable Technology Solutions",
           content:
-            "Continuous support from certified professionals for smooth operation and maintenance of your systems.",
+            "Implement solutions that adapt to your evolving needs and support growth.",
         },
         {
           image: cloud,
-          title: "Data-Driven Decision Making",
+          title: "Enhanced Data Security",
           content:
-            "Leverage the power of blockchain advisory and offerings to improve decision-making and operational efficiency.",
+            "Implement robust measures to protect data and ensure compliance.",
         },
         {
           image: secure,
           title: "Continuous Advancements",
           content:
-            "Expert team to design and future-proof strategies and solutions, giving you access to the latest innovation.",
+            "Stay ahead with ongoing technology advancements for efficiency and growth.",
         },
       ],
+    },
+    contact: {
+      heading: "Transform your business and operations with Qcentrio",
+      subheading:
+        "Let us empower you to win, grow, and lead in the digital age with our leading-edge services, solutions, and strategic innovation.",
     },
   },
   1: {
@@ -361,6 +392,7 @@ const mainServicesContent = {
       content2:
         "Qcentrio, a significant provider of advisory and strategic services, offers expert guidance to navigate these critical transformations. We specialize in EHR integration, like EPIC and Oracle Cerner, which ensures seamless digital alignment with your health IT systems. Our Audit and Assurance experts uphold your digital integrity while our risk advisory navigates cybersecurity and compliance challenges. For M&As, we offer strategic guidance for digital due diligence and integration, maximizing value and efficiency.",
       subheading: "Enhancing Patient Care with BI and SQL Analytics",
+      link: "/case-study/enhancing-patient-care-with-bi-and-sql-analytics",
     },
     servicesContent: {
       heading: "NAVIGATE THE FUTURE CONFIDENTLY",
@@ -464,7 +496,7 @@ const mainServicesContent = {
           number: 1,
           heading: "People-First Approach",
           content:
-            "200+ technology experts from tier 1 tech and business institutes with advanced degrees, such as Ph.D. and Master's. ",
+            "We are experts in modernizing your data estate to a cloud-ready, future-fit, scalable ecosystem. With specialization in full-scale migration to major offering AWS, Azure, and GCP expertise.",
           percentage: "85%",
           highlight: "Employee Trust Index Score",
         },
@@ -472,52 +504,59 @@ const mainServicesContent = {
           number: 2,
           heading: "Customer Centricity",
           content:
-            "Streamlined processes enable 50% faster time to insights, allowing clients to respond rapidly to market demands.",
-          percentage: "90%",
-          highlight: "NPS Across Engagements",
+            "That's what we deliver: solutions adapted to your business requirements and, at the same time, adhering to your goal of making quick decisions and adding value.",
+          percentage: "50%",
+          highlight: "Faster Time to Insights",
         },
         {
           number: 3,
           heading: "Sustainable Growth",
           content:
-            "Our growth strategy is about shaping futures. With category-outpacing growth, we’re setting industry benchmarks.",
-          percentage: "50%",
-          highlight: "YoY Growth",
+            "Our commitment to sustainable development involves leveraging technologies and insights to foster adaptable business models, ensuring long-term success in a dynamic market.",
+          percentage: "30%",
+          highlight: "Increase in Operational Efficiency",
         },
       ],
-      heading2: "Category-Leading Advanced Technology Solutions Expertise",
+      heading2:
+        "Transform Your Business with Leading Advisory and Strategic Services",
       cards2: [
         {
           image: settings,
-          title: "Flexible and Agile Team",
+          title: "Visionary Leadership Consultation",
           content:
-            "A flexible and agile team spread across the globe that can ramp up and down as and when needed.",
+            "Collaborate with seasoned experts to craft visionary leadership strategies that drive transformation.",
         },
         {
           image: strategy,
-          title: "End-to-End Execution",
+          title: "Innovative Strategy Formulation",
           content:
-            "Seamless coordination across IT, infrastructure, data engineering, and analytics ensures E2E support.",
+            "Design groundbreaking strategies that align with core objectives and market dynamics.",
         },
         {
           image: support,
-          title: "Round the Clock Support",
+          title: "Tailored Advisory Services",
           content:
-            "Continuous support from certified professionals for smooth operation and maintenance of your systems.",
+            "Receive customized advice to navigate complex landscapes and steer your business towards success.",
         },
         {
           image: cloud,
-          title: "Data-Driven Decision Making",
+          title: "Strategic Business Roadmaps",
           content:
-            "Leverage the power of blockchain advisory and offerings to improve decision-making and operational efficiency.",
+            "Develop comprehensive plans that outline step-by-step pathways to achieve your goals.",
         },
         {
           image: secure,
-          title: "Continuous Advancements",
+          title: "Continuous Strategy Evolution",
           content:
-            "Expert team to design and future-proof strategies and solutions, giving you access to the latest innovation.",
+            "Stay ahead with adaptive strategies that evolve with advancements and market trends.",
         },
       ],
+    },
+    contact: {
+      heading:
+        "Tap into our expertise in EHR integration,cybersecurity, and M&A strategy",
+      subheading:
+        "Let us empower you to win, grow, and lead in the digital age with our leading-edge services, solutions, and strategic innovation.",
     },
   },
   2: {
@@ -534,6 +573,7 @@ const mainServicesContent = {
         "At Qcentrio, we specialize in accelerating enterprise blockchain adoption. We guide you toward a future where your operations are more secure, efficient, and limitless. Our blockchain advisory and solutions empower businesses to harness the full potential of blockchain technology, transforming their operations and setting new benchmarks in their respective industries.",
       subheading:
         "Transforming Land Management in India’s Leading State with a Blockchain Platform",
+      link: "/case-study/transforming-land-management-in-india-leading-state-with-a-blockchain-platform",
     },
     servicesContent: {
       heading: "ESTABLISH DATA TRUST AND TRANSPARENCY",
@@ -669,6 +709,11 @@ const mainServicesContent = {
         },
       ],
     },
+    contact: {
+      heading: "Unlocking the Potential of Blockchain for Your Business",
+      subheading:
+        "Let us empower you to win, grow, and lead in the digital age with our leading-edge services, solutions, and strategic innovation.",
+    },
   },
   3: {
     banner: "../../business-optimization-and-analytics-services.png",
@@ -685,6 +730,7 @@ const mainServicesContent = {
         "At Qcentrio, our business optimization and analytics services enhance your operations by reviewing and improving processes, instilling best practices, and providing a clear roadmap for optimized processes. We support change management for a smooth transition and identify inefficiencies to save time and effort. Our comprehensive data solutions, custom CRM implementations, and integrated workspace approach streamline team coordination. Partner with us to unlock your business's full potential.",
       subheading:
         "Automating Vehicle Aerodynamics Simulations for a Major Automotive Design Company",
+      link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
     },
     servicesContent: {
       heading: "OPTIMIZE CORE BUSINESS PROCESSES",
@@ -772,7 +818,7 @@ const mainServicesContent = {
           number: 1,
           heading: "People-First Approach",
           content:
-            "200+ technology experts from tier 1 tech and business institutes with advanced degrees, such as Ph.D. and Master's. ",
+            "We are experts in modernizing your data estate to a cloud-ready, future-fit, scalable ecosystem. With specialization in full-scale migration to major offering AWS, Azure, and GCP expertise.",
           percentage: "85%",
           highlight: "Employee Trust Index Score",
         },
@@ -780,52 +826,57 @@ const mainServicesContent = {
           number: 2,
           heading: "Customer Centricity",
           content:
-            "Streamlined processes enable 50% faster time to insights, allowing clients to respond rapidly to market demands.",
-          percentage: "90%",
-          highlight: "NPS Across Engagements",
+            "That's what we deliver: solutions adapted to your business requirements and, at the same time, adhering to your goal of making quick decisions and adding value.",
+          percentage: "50%",
+          highlight: "Faster Time to Insights",
         },
         {
           number: 3,
           heading: "Sustainable Growth",
           content:
-            "Our growth strategy is about shaping futures. With category-outpacing growth, we’re setting industry benchmarks.",
-          percentage: "50%",
-          highlight: "YoY Growth",
+            "Our commitment to sustainable development involves leveraging technologies and insights to foster adaptable business models, ensuring long-term success in a dynamic market.",
+          percentage: "30%",
+          highlight: "Increase in Operational Efficiency",
         },
       ],
-      heading2: "Category-Leading Business Optimization and Analytics Services",
+      heading2: "Innovative Business Optimization and Analytics",
       cards2: [
         {
           image: settings,
-          title: "Flexible and Agile Team",
+          title: "Strategic Insights",
           content:
-            "A flexible and agile team spread across the globe that can ramp up and down as and when needed.",
+            "Derive actionable intelligence from data to drive decision-making and competitive edge.",
         },
         {
           image: strategy,
-          title: "End-to-End Execution",
+          title: "Process Innovation",
           content:
-            "Seamless coordination across IT, infrastructure, data engineering, and analytics ensures E2E support.",
+            "Streamline workflows to enhance efficiency and accelerate performance.",
         },
         {
           image: support,
-          title: "Round the Clock Support",
+          title: "Performance Metrics",
           content:
-            "Continuous support from certified professionals for smooth operation and maintenance of your systems.",
+            "Track key indicators to measure progress and improve continuously.",
         },
         {
           image: cloud,
-          title: "Data-Driven Decision Making",
+          title: "Business Modeling",
           content:
-            "Leverage the power of blockchain advisory and offerings to improve decision-making and operational efficiency.",
+            "Use analytics for forecasting and seizing growth opportunities.",
         },
         {
           image: secure,
-          title: "Continuous Advancements",
+          title: "Tech Productivity",
           content:
-            "Expert team to design and future-proof strategies and solutions, giving you access to the latest innovation.",
+            "Employ automation to improve accuracy and optimize resources.",
         },
       ],
+    },
+    contact: {
+      heading: "Transform Your Data into Strategic Business Decisions",
+      subheading:
+        "Let us empower you to win, grow, and lead in the digital age with our leading-edge services, solutions, and strategic innovation.",
     },
   },
   4: {
@@ -842,6 +893,7 @@ const mainServicesContent = {
         "As a leading provider of business value enhancement services, Qcentrio leverages its extensive domain experience to help you unlock the full potential of GenAI, AI/ML, and RPA. Our strategic approach ensures long-term business transformation while delivering immediate wins, enabling you to stay ahead in the digital age.",
       subheading:
         "Automating Vehicle Aerodynamics Simulations for a Major Automotive Design Company",
+      link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
     },
     servicesContent: {
       heading: "DEFINE YOUR FUTURE TRAJECTORY",
@@ -935,7 +987,7 @@ const mainServicesContent = {
           number: 1,
           heading: "People-First Approach",
           content:
-            "200+ technology experts from tier 1 tech and business institutes with advanced degrees, such as Ph.D. and Master's. ",
+            "We are experts in modernizing your data estate to a cloud-ready, future-fit, scalable ecosystem. With specialization in full-scale migration to major offering AWS, Azure, and GCP expertise.",
           percentage: "85%",
           highlight: "Employee Trust Index Score",
         },
@@ -943,52 +995,58 @@ const mainServicesContent = {
           number: 2,
           heading: "Customer Centricity",
           content:
-            "Streamlined processes enable 50% faster time to insights, allowing clients to respond rapidly to market demands.",
-          percentage: "90%",
-          highlight: "NPS Across Engagements",
+            "That's what we deliver: solutions adapted to your business requirements and, at the same time, adhering to your goal of making quick decisions and adding value.",
+          percentage: "50%",
+          highlight: "Faster Time to Insights",
         },
         {
           number: 3,
           heading: "Sustainable Growth",
           content:
-            "Our growth strategy is about shaping futures. With category-outpacing growth, we’re setting industry benchmarks.",
-          percentage: "50%",
-          highlight: "YoY Growth",
+            "Our commitment to sustainable development involves leveraging technologies and insights to foster adaptable business models, ensuring long-term success in a dynamic market.",
+          percentage: "30%",
+          highlight: "Increase in Operational Efficiency",
         },
       ],
-      heading2: "Category-Leading Business Value Enhancement Services",
+      heading2:
+        "Drive Growth and Accelerate Insights with Business Value Enhancement Services",
       cards2: [
         {
           image: settings,
-          title: "Flexible and Agile Team",
+          title: "Holistic Business Assessment",
           content:
-            "A flexible and agile team spread across the globe that can ramp up and down as and when needed.",
+            "A flexible and agile cloud team that can ramp up and down as needed to adapt to project demands.",
         },
         {
           image: strategy,
-          title: "End-to-End Execution",
+          title: "Data-Driven Business Insights",
           content:
             "Seamless coordination across IT, infrastructure, data engineering, and analytics ensures E2E support.",
         },
         {
           image: support,
-          title: "Round the Clock Support",
+          title: "Optimized Operational Efficiency",
           content:
-            "Continuous support from certified professionals for smooth operation and maintenance of your systems.",
+            "24/7 support from certified professionals to ensure smooth system operation and maintenance.",
         },
         {
           image: cloud,
-          title: "Data-Driven Decision Making",
+          title: "Strategic Technology Integration",
           content:
-            "Leverage the power of blockchain advisory and offerings to improve decision-making and operational efficiency.",
+            "Leverage optimization and analytics to drive decision-making and enhance operational efficiency.",
         },
         {
           image: secure,
-          title: "Continuous Advancements",
+          title: "Culture Continuous Improvement",
           content:
-            "Expert team to design and future-proof strategies and solutions, giving you access to the latest innovation.",
+            "Advanced security protocols safeguard infrastructure and data, ensuring compliance and trust.",
         },
       ],
+    },
+    contact: {
+      heading: "Transform your business decisions with next-gen capabilities",
+      subheading:
+        "Let us empower you to win, grow, and lead in the digital age with our leading-edge services, solutions, and strategic innovation.",
     },
   },
   5: {
@@ -1005,6 +1063,7 @@ const mainServicesContent = {
         "Qcentrio leverages its cloud infrastructure and security expertise to provide services and solutions with native cloud components. We fast-track data modernization for clients, seamlessly integrating them with the latest cloud platforms. Our services maximize data value with automation tools and platform operations, boosting ROI and value realization, all while cutting costs.",
       subheading:
         "Transforming Pharmaceutical Major’s Sharepoint Ecosystem with Azure Migration",
+      link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
     },
     servicesContent: {
       heading: "EMPOWER YOUR DIGITAL SHIFT",
@@ -1130,7 +1189,7 @@ const mainServicesContent = {
           number: 1,
           heading: "People-First Approach",
           content:
-            "200+ technology experts from tier 1 tech and business institutes with advanced degrees, such as Ph.D. and Master's. ",
+            "We are experts in modernizing your data estate to a cloud-ready, future-fit, scalable ecosystem. With specialization in full-scale migration to major offering AWS, Azure, and GCP expertise.",
           percentage: "85%",
           highlight: "Employee Trust Index Score",
         },
@@ -1138,24 +1197,24 @@ const mainServicesContent = {
           number: 2,
           heading: "Customer Centricity",
           content:
-            "Streamlined processes enable 50% faster time to insights, allowing clients to respond rapidly to market demands.",
-          percentage: "90%",
-          highlight: "NPS Across Engagements",
+            "That's what we deliver: solutions adapted to your business requirements and, at the same time, adhering to your goal of making quick decisions and adding value.",
+          percentage: "50%",
+          highlight: "Faster Time to Insights",
         },
         {
           number: 3,
           heading: "Sustainable Growth",
           content:
-            "Our growth strategy is about shaping futures. With category-outpacing growth, we’re setting industry benchmarks.",
-          percentage: "50%",
-          highlight: "YoY Growth",
+            "Our commitment to sustainable development involves leveraging technologies and insights to foster adaptable business models, ensuring long-term success in a dynamic market.",
+          percentage: "30%",
+          highlight: "Increase in Operational Efficiency",
         },
       ],
       heading2: "Category-Leading Cloud Infra and Security Practice ",
       cards2: [
         {
           image: settings,
-          title: "Flexible and Agile Team",
+          title: "Flexible Team",
           content:
             "A flexible and agile team spread across the globe that can ramp up and down as and when needed.",
         },
@@ -1179,11 +1238,16 @@ const mainServicesContent = {
         },
         {
           image: secure,
-          title: "Continuous Advancements",
+          title: "Robust Security",
           content:
-            "Expert team to design and future-proof strategies and solutions, giving you access to the latest innovation.",
+            "Advanced security protocols safeguard infrastructure and data, ensuring compliance and trust.",
         },
       ],
+    },
+    contact: {
+      heading: "Transform your business decisions with next-gen capabilities",
+      subheading:
+        "Let us empower you to win, grow, and lead in the digital age with our leading-edge services, solutions, and strategic innovation.",
     },
   },
 };

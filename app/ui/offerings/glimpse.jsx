@@ -23,12 +23,14 @@ export default function Glimpse({ data }) {
           className="section-heading"
           dangerouslySetInnerHTML={{ __html: data.heading2 }}></h2>
         <p className="glimpse-sub-heading">{data.subheading}</p>
-        <p className="glimpse-btn">
-          See How
-          <span>
-            <Image style={{ width: "25px" }} src={blogArrow} alt="" />
-          </span>
-        </p>
+        <Link href={data.link}>
+          <p className="glimpse-btn">
+            See How
+            <span>
+              <Image style={{ width: "25px" }} src={blogArrow} alt="" />
+            </span>
+          </p>
+        </Link>
       </div>
     </div>
   );

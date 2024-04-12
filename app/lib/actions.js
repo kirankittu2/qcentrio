@@ -61,7 +61,7 @@ export async function sendMail(formData) {
   const filledHtml = fillPlaceholders(emailTemplate, emailData);
 
   const info = await transporter.sendMail({
-    from: "sai.harikiran@x-verity.com",
+    from: "info@qcentrio.com",
     to: parsedData.email,
     subject: "Qcentrio",
     html: filledHtml,

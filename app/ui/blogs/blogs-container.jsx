@@ -11,7 +11,6 @@ export default function BlogsConatiner(data) {
   const [firstPath, setFirstPath] = useState(false);
 
   useEffect(() => {
-    console.log("hello");
     let timeoutIds = [];
 
     if (firstPath == true) {
@@ -75,7 +74,7 @@ export default function BlogsConatiner(data) {
                   <h2 className="card-heading">{item.title}</h2>
                 </div>
                 <div className="blog-card-content-container">
-                  <p className="section-content">{item.content}</p>
+                  <p className="section-content">{item.content1}</p>
                   <Link href={item.link}>
                     <div className="blogs-btn">
                       Learn More

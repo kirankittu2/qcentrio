@@ -45,8 +45,8 @@ export default function Services({ params }) {
       <SuccessPath data={data.successpathContent} />
       <InsigntsNoCaro />
       <Contact
-        heading="Transform your business and operations with Qcentrio"
-        subheading="Let us empower you to win, grow, and lead in the digital age with our leading-edge services, solutions, and strategic innovation."
+        heading={data.contact.heading}
+        subheading={data.contact.subheading}
       />
       <Footer />
       <CopyrightBar />

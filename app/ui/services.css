@@ -312,6 +312,10 @@
   left: clamp(50px, 14.58vw, 280px);
 }
 
+.services-hero-content .strip-slide-up span.row{
+  line-height: 0.9;
+}
+
 /* main services page */
 .service-listing .hero {
   background: transparent linear-gradient(96deg, #089768 0%, #000000 100%) 0% 0%
@@ -601,7 +605,8 @@
 .need-something-card p {
   color: white;
   font-family: "Quadran-Regular";
-  margin-bottom: 50px;
+  letter-spacing: -0.5px;
+  margin-bottom: 25px;
 }
 
 .need-something-btn {
@@ -704,17 +709,7 @@
   padding-left: clamp(50px, 7.81vw, 140px);
   position: relative;
   overflow: hidden;
-  clip-path: polygon(
-    0 5%,
-    5% 0,
-    95% 0,
-    100% 5%,
-    100% 95%,
-    95% 100%,
-    5% 100%,
-    0% 95%,
-    0% 5%
-  );
+  clip-path: polygon(8% 0, 91% 0, 100% 8%, 100% 92%, 91% 100%, 8% 100%, 0 92%, 0 8%);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 100px;

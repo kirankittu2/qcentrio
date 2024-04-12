@@ -6,7 +6,6 @@ import { useEffect } from "react";
 export default function Animate() {
   const pathname = usePathname();
   useEffect(() => {
-    console.log(pathname);
     let options = {
       root: null,
       rootMargin: "0px",
@@ -14,6 +13,7 @@ export default function Animate() {
     };
     let element;
     let isScrolled = false;
+    let num = 0;
     function handleScroll() {
       isScrolled = true;
 
@@ -50,10 +50,29 @@ export default function Animate() {
 
           if (
             entry.isIntersecting &&
+            entry.target.getAttribute("data-option") == "num-up"
+          ) {
+            num = num + 1;
+            const percentage = entry.target.textContent;
+            const maxNum = parseFloat(percentage);
+            let count = 0;
+            if (num <= 3) {
+              const interval = setInterval(() => {
+                if (count < maxNum) {
+                  count = count + 1;
+                  entry.target.textContent = count + "%";
+                } else {
+                  clearInterval(interval);
+                }
+              }, 50);
+            }
+          }
+
+          if (
+            entry.isIntersecting &&
             entry.target.getAttribute("data-option") == "strip-slide-up"
           ) {
             const strip = entry.target;
-            // console.log(strip);
             const singleSpan = strip.querySelector(
               ".row span.letter-slide-animate"
             );
@@ -67,7 +86,6 @@ export default function Animate() {
                 rowElement.className = "row";
                 strip.appendChild(rowElement);
 
-                // console.log(rowContent);
                 const letters = rowContent.trim().split("");
                 letters.forEach((letter, index) => {
                   letter = letter === " " ? "&nbsp;" : letter;
@@ -114,7 +132,7 @@ export default function Animate() {
       observeElements(".blog-page-main-content > ul > li", "slideup");
       observeElements(".blog-page-main-content > ol > li", "slideup");
       observeElements(".table-of-contents > ul > li", "slideup");
-      observeElements(".author-conatiner > div", "slideup");
+      // observeElements(".author-conatiner > div", "slideup");
       observeElements(".category-container > p", "slideup");
       observeElements(".category-container > h2", "slideup");
       observeElements(".tags-container .tag", "slideup");
@@ -133,6 +151,7 @@ export default function Animate() {
       observeElements(".impact > ul > li", "slideup");
       observeElements(".impact > p", "slideup");
       observeElements(".footer-item", "slideup");
+      // observeElements(".succes-path-num", "numUP");
     }
 
     if (isScrolled == false) {

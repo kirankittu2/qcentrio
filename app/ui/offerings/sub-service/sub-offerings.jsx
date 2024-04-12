@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import Path6 from "../../global/path-6";
 import Path7 from "../../global/path-7";
 import float from "@/public/float.svg";
+import Script from "next/script";
 
 export default function SubServiceOfferings({ data }) {
   const [index, setIndex] = useState(0);
@@ -46,7 +47,14 @@ export default function SubServiceOfferings({ data }) {
         <div
           data-option="up"
           className="need-something-card animate-hidden animate">
-          <Image className="mb-[20px]" alt="" src={float} />
+          <Script src="https://cdn.lordicon.com/lordicon.js"></Script>
+          <lord-icon
+            src="https://cdn.lordicon.com/jxyemgzp.json"
+            trigger="loop"
+            delay="1500"
+            stroke="bold"
+            colors="primary:#ffffff,secondary:#ffffff"
+            style={{ width: "64px", height: "64px" }}></lord-icon>
           <h2 className="sub-heading">Need Something Else?</h2>
           <p>Contact us and we can figure out how to adapt to your needs</p>
           <Link className="w-fit" href="/contact-us">
@@ -57,7 +65,7 @@ export default function SubServiceOfferings({ data }) {
               </span>
             </div>
           </Link>
-          <Path7 />
+          {/* <Path7 /> */}
         </div>
       </div>
       <div className="service-offerings-section-col-2">
