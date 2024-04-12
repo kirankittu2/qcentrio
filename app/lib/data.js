@@ -59,6 +59,13 @@ const blogs = {
       content1: "Content",
       link: "/perspectives/navigating-the-cloud-landscape",
     },
+    {
+      image: "/communication-unified-system.jpg",
+      title:
+        "Chaos to Clarity: How Unified Platforms Transform Communication Strategy",
+      content1: "Content",
+      link: "/perspectives/chaos-to-clarity-how-unified-platforms-transform-communication-strategy",
+    },
   ],
   pageNumber: 0,
 };
