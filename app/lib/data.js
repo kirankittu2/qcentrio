@@ -84,6 +84,7 @@ const caseStudies = {
   children: [
     {
       image: "/enhancing-patient-care.jpg",
+      homeImage: "/enhancing-patient-care.jpg",
       title: "Enhancing patient care with BI and SQL analytics at qcentrio",
       content1:
         "The client aimed to enhance their Java app for better population health analytics and healthcare insights.",
@@ -94,6 +95,7 @@ const caseStudies = {
 
     {
       image: "/land-management.jpg",
+      homeImage: "/land-management.jpg",
       title:
         "Land Management in India Leading State with a Blockchain Platform",
       content1:
@@ -104,6 +106,7 @@ const caseStudies = {
     },
     {
       image: "/automatic-vehicle.jpg",
+      homeImage: "/automatic-vehicle.jpg",
       title:
         "Automating Vehicle Aerodynamics Simulations for Automotive Company",
       content1:
@@ -114,6 +117,7 @@ const caseStudies = {
     },
     {
       image: "/sharepoint-ecosystem.jpg",
+      homeImage: "/sharepoint-ecosystem.jpg",
       title:
         "Transforming pharmaceutical major’s sharepoint ecosystem with azure",
       content1: "Content",
