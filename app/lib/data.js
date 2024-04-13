@@ -113,8 +113,7 @@ const caseStudies = {
     },
     {
       image: "/sharepoint-ecosystem.jpg",
-      title:
-        "Transforming pharmaceutical major’s sharepoint ecosystem with azure",
+      title: "Transforming pharmaceutical major’s sharepoint ecosystem",
       content1: "Content",
       content2:
         "With the streamlined company data processing and improved accuracy of reporting that Qcentrio provided, actionable insights were offered in patient care and operational efficiency across the health network improvement.",
