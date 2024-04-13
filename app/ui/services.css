@@ -474,6 +474,7 @@
   align-items: center;
   margin-top: 35px;
   margin-left: clamp(50px, 7.81vw, 140px);
+  text-transform: uppercase;
 }
 
 .sub-service-heading-section {
@@ -713,6 +714,7 @@
   margin-bottom: 30px;
   font-family: "Quadran-Black";
   letter-spacing: -2px;
+  text-transform: uppercase;
 }
 
 .services-of-sub-service-holder {
@@ -744,6 +746,7 @@
   font-family: "Quadran-Bold";
   color: var(--primary-color);
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .sub-service-card p {

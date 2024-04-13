@@ -176,6 +176,8 @@
   align-items: center;
   flex: 1;
   max-width: 400px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .country-num{

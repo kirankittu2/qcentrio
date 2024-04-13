@@ -1303,8 +1303,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "ADVANCED TECHNOLOGY SOLUTIONS",
         link: "/offerings/advanced-technology-solutions",
-        current:
-          "TRANSFORM YOUR ORGANIZATIONAL CAPABILITIES AND SUSTAIN YOUR COMPETITIVE ADVANTAGE",
+        current: "ERP Solutions Support",
       },
       contactHead:
         "Transform your core business processes and operations with expert ERP Solutions Support",
@@ -2160,75 +2159,68 @@ const subServicePagesContent = {
         list: [
           {
             icon: healthcare,
-            heading: "HEALTHCARE",
+            heading: "Consumer Electronics",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Design intuitive software that powers the latest consumer technology devices, enhancing user experience and enabling seamless connectivity. ",
           },
           {
             icon: finace,
-            heading: "FINANCE",
+            heading: "Automotive",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              "Develop advanced automotive software solutions for connected cars and automation, improving safety, efficiency, and user convenience. ",
           },
           {
             icon: manufacturing,
-            heading: "MANUFACTURING",
+            heading: "Aerospace",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              "Engineer complex software systems that meet the rigorous demands of the aerospace industry, ensuring high reliability, safety, and performance.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "Medical Devices",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Create compliant and reliable software that enhances functionality while maintaining data privacy and security.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "Telecom",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              "Innovate telecommunications software for better connectivity and user experiences, catering to the ever-evolving user needs and industry trends.",
           },
           {
             icon: travel,
-            heading: "TRAVEL & TRANSPORTATION",
+            heading: "Servers/Storage",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+              "Build robust software for server and storage solutions that manage vast amounts of data, ensuring scalability, flexibility, and faster time to market.",
           },
           {
             icon: eCommerce,
-            heading: "E-COMMERCE",
+            heading: "Semiconductors",
             content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+              "Craft precise software to control and monitor semiconductor manufacturing processes, increasing efficiency, accuracy, and quality.",
           },
           {
             icon: realEstate,
-            heading: "REAL ESTATE",
+            heading: "Independent Software Vendors (ISVs)",
             content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
-          },
-          {
-            icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
-            content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Support ISVs with comprehensive product engineering to bring new software solutions to market, helping them stay ahead in the competitive market.",
           },
         ],
       },
       whyChooseSection: {
-        mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        mainHeading: "Why Choose Qcentrio for Product Engineering Services?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Customized Engineering Excellence",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              "Our services are personalized to your project's needs, aligning with your strategic vision and market demands.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Comprehensive Support",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "From design to post-launch, Qcentrio offers a full spectrum of product engineering services to ensure your product's success.",
           },
           {
             image: whyChooseImg3,
