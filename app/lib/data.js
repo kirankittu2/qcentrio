@@ -93,23 +93,22 @@ const caseStudies = {
     },
 
     {
-      image: "/land-management.jpg",
+      image: "/land-management-cs.jpg",
       title:
         "Land Management in India Leading State with a Blockchain Platform",
       content1:
-        "Leading Indian state transforms land management with innovative Blockchain platform for streamlined processes and transparency.",
+        "Leading Indian state transforms land management with innovative Blockchain platform to streamline.",
       content2:
         "With the streamlined company data processing and improved accuracy of reporting that Qcentrio provided, actionable insights were offered in patient care and operational efficiency across the health network improvement.",
       link: "/case-study/transforming-land-management-in-india-leading-state-with-a-blockchain-platform",
     },
     {
       image: "/automatic-vehicle.jpg",
-      title:
-        "Automating Vehicle Aerodynamics Simulations for Automotive Company",
+      title: "Vehicle Aerodynamics Simulations for Automotive Company",
       content1:
-        "Automotive company automates vehicle aerodynamics simulations for enhanced efficiency and performance in product development.",
+        "Vehicle aerodynamics simulations for enhanced efficiency and performance in product development.",
       content2:
-        "With the streamlined company data processing and improved accuracy of reporting that Qcentrio provided, actionable insights were offered in patient care and operational efficiency across the health network improvement.",
+        "By using advanced computational fluid dynamics (CFD) tools, automotive companies can simulate real-world conditions, assess performance impacts, and make informed decisions about design modifications before any physical prototype is built.",
       link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
     },
     {
