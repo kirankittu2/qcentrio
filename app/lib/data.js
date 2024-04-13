@@ -84,7 +84,7 @@ const caseStudies = {
   children: [
     {
       image: "/enhancing-patient-care.jpg",
-      homeImage: "/enhancing-patient-care.jpg",
+      homeImage: "/patient-care-with-bi.jpg",
       title: "Enhancing patient care with BI and SQL analytics at qcentrio",
       content1:
         "The client aimed to enhance their Java app for better population health analytics and healthcare insights.",
@@ -94,11 +94,9 @@ const caseStudies = {
     },
 
     {
-      image: "/land-management.jpg",
       homeImage: "/land-management.jpg",
       image: "/land-management-cs.jpg",
-      title:
-        "Land Management in India Leading State with a Blockchain Platform",
+      title: "Land Management in India Leading with a Blockchain Platform",
       content1:
         "Leading Indian state transforms land management with innovative Blockchain platform to streamline.",
       content2:
@@ -107,9 +105,8 @@ const caseStudies = {
     },
     {
       image: "/automatic-vehicle.jpg",
-      homeImage: "/automatic-vehicle.jpg",
-      title:
-        "Automating Vehicle Aerodynamics Simulations for Automotive Company",
+      homeImage: "/vehicle-aerodynamics.jpg",
+      title: "Vehicle Aerodynamics Simulations for Automotive Company",
       content1:
         "Vehicle aerodynamics simulations for enhanced efficiency and performance in product development.",
       content2:
@@ -118,10 +115,10 @@ const caseStudies = {
     },
     {
       image: "/sharepoint-ecosystem.jpg",
-      homeImage: "/sharepoint-ecosystem.jpg",
-      title:
-        "Transforming pharmaceutical major’s sharepoint ecosystem with azure",
-      content1: "Content",
+      homeImage: "/pharma-tech.jpg",
+      title: "Transforming a pharmaceutical major’s sharepoint ecosystem",
+      content1:
+        "A Leading pharmaceutical company embarked on a journey to overhaul its SharePoint ecosystem.",
       content2:
         "By integrating Azure's robust cloud capabilities with their existing SharePoint infrastructure, the company not only streamlined workflows but also set a new standard for innovation in pharmaceutical information management.",
       link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
