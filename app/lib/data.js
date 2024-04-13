@@ -1740,7 +1740,7 @@ const subServicePagesContent = {
         link: "/offerings/advanced-technology-solutions",
         current: "CONVERT YOUR IDEAS INTO LEADING SOFTWARE PRODUCTS",
       },
-      contactHead: "",
+      contactHead: "Transform your software ideas with Qcentrio",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
         heading:
@@ -1757,117 +1757,152 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "JAVA",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Using the latest Java technologies and frameworks, develop scalable, secure, high-performance applications tailored to various business needs, from web applications to complex enterprise solutions.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "MEAN Stack",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Leverage the entire stack of MEAN technologies to create efficient and modern web applications, providing dynamic and responsive user experiences with Node.js, Angular, MongoDB, and Express.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Full Stack",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Experience comprehensive development covering front-end and back-end needs, ensuring seamless integration across all application layers using modern web development tools and techniques.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Custom Application Development",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Build applications that precisely fit your business specifications and enhance your operations with a user-centric approach, agile methodologies, and cutting-edge technologies.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "Mobile Development",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Create intuitive and engaging mobile applications optimized for performance across all devices using native or cross-platform development frameworks.",
+          },
+          {
+            num: "06",
+            heading: "API Development and Integration",
+            content:
+              "Design and implement APIs with RESTful, SOAP, or GraphQL protocols for robust integration and seamless operation between different software systems.",
+          },
+          {
+            num: "07",
+            heading: "Cloud Application Development",
+            content:
+              "Utilize cloud platforms for developing scalable, flexible, and secure cloud-native applications using AWS, Azure, or Google Cloud.",
+          },
+          {
+            num: "08",
+            heading: "Legacy System Modernization",
+            content:
+              "Upgrade legacy systems to current technologies, improving efficiency and reducing maintenance overhead with minimal business disruption.",
+          },
+          {
+            num: "09",
+            heading: "User Experience (UX) Design",
+            content:
+              "Develop a user-focused design strategy that enhances interaction and user satisfaction with your custom software application, leveraging the latest UX design principles and tools.",
+          },
+          {
+            num: "10",
+            heading: "eCommerce Development",
+            content:
+              "Tailor-made eCommerce solutions that drive sales, enhance customer engagement, and integrate seamlessly with your business operations, powered by popular eCommerce platforms such as Magento, Shopify, or WooCommerce.",
+          },
+          {
+            num: "11",
+            heading: "Enterprise Resource Planning (ERP) Solutions",
+            content:
+              "Custom ERP software that streamlines your business processes, enhances productivity and integrates various organizational functions using open-source or commercial ERP systems.",
+          },
+          {
+            num: "11",
+            heading: "Software as a Service (SaaS) Development",
+            content:
+              "Build cloud-based SaaS platforms that are scalable, accessible, and designed to meet the needs of your customers and business model using modern SaaS development frameworks and tools.",
           },
         ],
       },
       servicesOfSubService: {
-        mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        mainHeading: "INDUSTRIES WE SPECIALIZE IN",
         list: [
           {
             icon: healthcare,
             heading: "HEALTHCARE",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Develop compliant and patient-centric applications to streamline healthcare operations.",
           },
           {
             icon: finace,
-            heading: "FINANCE",
+            heading: "FINTECH",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              "Craft secure and innovative fintech solutions that revolutionize financial transactions and services.",
           },
           {
             icon: manufacturing,
-            heading: "MANUFACTURING",
+            heading: "EDUCATION",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              "Enhance the learning experience with custom educational software, from e-learning platforms to management systems.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "RETAIL",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Deliver a personalized shopping experience with custom retail software, from point-of-sale systems to inventory management.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "LOGISTICS",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              "Optimize supply chain and logistics operations with custom software solutions for real-time tracking and efficiency.",
           },
           {
             icon: travel,
-            heading: "TRAVEL & TRANSPORTATION",
+            heading: "HOSPITALITY",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+              "Create software that elevates the guest experience, from reservation systems to customer relationship management.",
           },
           {
             icon: eCommerce,
-            heading: "E-COMMERCE",
+            heading: "REAL ESTATE",
             content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+              "Build comprehensive platforms for property listings, client interactions, and operations management.",
           },
           {
             icon: realEstate,
-            heading: "REAL ESTATE",
+            heading: "MANUFACTURING",
             content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
-          },
-          {
-            icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
-            content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Implement tailored software solutions to streamline manufacturing processes and increase productivity.",
           },
         ],
       },
       whyChooseSection: {
         mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+          "Why Choose Qcentrio for Custom Software / Application Development?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Tailored Solutions",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              "Our bespoke software is crafted to align perfectly with your business needs and industry nuances.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Advanced Technology Expertise",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "We use cutting-edge technologies to build your ideal solution from JAVA to MEAN and Full Stack.",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "Quality and Reliability",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "We prioritize high software quality and reliability standards to ensure your applications stand the test of time.",
           },
         ],
       },
@@ -2019,67 +2054,107 @@ const subServicePagesContent = {
     },
     6: {
       heroSectionData: {
-        heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        heading: "BRING YOUR SOFTWARE VISION TO LIFE",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Innovative Product Engineering Services | Qcentrio",
+        description:
+          "Transform your ideas into market-leading software with Qcentrio's product engineering services. We provide end-to-end development, QA, and optimization for your digital products.",
       },
       breadCrump: {
         main: "ADVANCED TECHNOLOGY SOLUTIONS",
         link: "/offerings/advanced-technology-solutions",
-        current:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        current: "BRING YOUR SOFTWARE VISION TO LIFE",
       },
-      contactHead: "",
+      contactHead: "Partner with Qcentrio for Exceptional Product Engineering",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading: "Embrace Advanced Software Engineering with Qcentrio",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "Navigating the journey from an initial concept to a fully operational software product demands a nuanced approach that keeps pace with evolving technology trends. It requires accelerating the software development process and enhancing product performance.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "At Qcentrio, we specialize in comprehensive product engineering services that do more than develop software; we ensure continual refinement and advancement of your solutions. Our strategic focus on innovation allows us to align your software offerings precisely with business objectives and consumer expectations. By integrating new-age technology and forward-thinking design, we help ensure that your products meet the current market demands and set new benchmarks in your industry.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading: "QCENTRIO'S PRODUCT ENGINEERING SERVICES OFFER",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "Software Development and Design",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Create software solutions with a strong foundation in robust architecture, user-centric design, and seamless functionality, utilizing languages like Java, Python, C#, and PHP. Further, we develop customized software solutions that cater to your business needs with our support.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "Agile and DevOps Integration",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Integrate agile methodologies and DevOps practices for efficient and rapid development cycles with tools like Jenkins, Docker, and Kubernetes, ensuring continuous integration and delivery to improve software quality and reduce time to market.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Quality Assurance and Testing",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Ensure your products meet high-quality standards with comprehensive QA and testing processes. Automated and manual testing is conducted to detect and resolve issues early in development.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Product Lifecycle Management",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "We oversee the entire product journey, from ideation through launch and updates, adapting to changes and opportunities. Furthermore, get end-to-end product management services support to ensure the successful delivery of your product.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "Product Modernization and Optimization",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Update and refine your software to stay ahead of the latest technology trends and performance standards. Implement modernization strategies to improve software performance, scalability, and user experience.",
+          },
+          {
+            num: "06",
+            heading: "UI/UX Design Services",
+            content:
+              "We deliver intuitive and engaging user experiences that drive customer satisfaction and engagement. We conduct user research and usability testing to design user-friendly interfaces that enhance the user experience.",
+          },
+          {
+            num: "07",
+            heading: "Cloud Engineering",
+            content:
+              "Leverage the power of cloud technologies to build scalable and resilient software architectures, get active cloud migration services support, and design cloud-native applications that are secure, scalable, and cost-effective.",
+          },
+          {
+            num: "08",
+            heading: "Data Engineering and Analytics",
+            content:
+              "Transform data into actionable insights to inform strategic decisions throughout product engineering. Build data pipelines, design data warehouses, and get data analysis services to help your businesses make informed decisions.",
+          },
+          {
+            num: "09",
+            heading: "Embedded Systems Development",
+            content:
+              "We specialize in developing and integrating embedded software for hardware devices and IoT applications, ensuring high performance and reliability. Our E2E services, including prototyping, hardware design, firmware development, and testing, take your business up a notch.",
+          },
+          {
+            num: "10",
+            heading: "Blockchain Solutions",
+            content:
+              "Implement blockchain technology to enhance security, transparency, and efficiency across various applications, including smart contracts and decentralized systems. Design and implement blockchain-based solutions that are secure, transparent, and tamper-proof.",
+          },
+          {
+            num: "11",
+            heading: "Artificial Intelligence Integration",
+            content:
+              "Integrate AI algorithms and machine learning models to add intelligence to your products, improving user experience and operational efficiency. With our AI consulting and development services, you can unlock the power of AI for best-in-class insights.",
+          },
+          {
+            num: "12",
+            heading: "Cybersecurity Implementation",
+            content:
+              "Incorporate advanced cybersecurity features into your software to protect user data and comply with the latest security standards. Conduct security assessments, implement security controls, and provide ongoing security monitoring to ensure the security of your software.",
           },
         ],
       },
       servicesOfSubService: {
-        mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        mainHeading: "INDUSTRIES QCENTRIO SERVES IN PRODUCT ENGINEERING",
         list: [
           {
             icon: healthcare,
