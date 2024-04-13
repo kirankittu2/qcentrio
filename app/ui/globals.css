@@ -250,7 +250,7 @@ textarea {
   height: 45px;
 }
 
-.main-logo-conatiner img{
+.main-logo-conatiner img {
   width: unset !important;
 }
 
@@ -1038,7 +1038,7 @@ header {
   gap: 10px;
 }
 
-.breadcrump a{
+.breadcrump a {
   color: white;
   text-decoration: none;
 }
@@ -1932,7 +1932,7 @@ h2.blog-page-side-heading {
   margin-top: 30px;
 }
 
-.pagination-container a{
+.pagination-container a {
   text-decoration: none;
 }
 
@@ -2577,7 +2577,7 @@ h2.blog-page-side-heading {
   display: flex;
 }
 
-.job-link-column{
+.job-link-column {
   margin-left: auto;
   display: flex;
   align-items: center;
@@ -2651,19 +2651,22 @@ h2.blog-page-side-heading {
 }
 
 .carrer-benefit h2 {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 26px;
   font-family: "Quadran-Bold";
   color: white;
   text-align: center;
   margin-bottom: 5px;
+  margin-top: 15px;
 }
 
 .carrer-benefit p {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Quadran-Light";
   color: white;
+  margin-top: 10px;
+  padding: 0px 30px;
 }
 
 .career-showcase-section {
@@ -2770,30 +2773,31 @@ h2.blog-page-side-heading {
 }
 
 /* Industries Page */
-.industries .hero{
-  background-color: #F5F5F5;
+.industries .hero {
+  background-color: #f5f5f5;
   height: 808px;
   position: relative;
 }
 
-.industries-banner{
+.industries-banner {
   margin-left: clamp(50px, 7.81vw, 140px);
 }
 
-.industries-banner-decor{
+.industries-banner-decor {
   height: 166px;
-  background: transparent linear-gradient(96deg, #089768 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(96deg, #089768 0%, #000000 100%) 0% 0%
+    no-repeat padding-box;
 }
 
-.industries-hero-content{
+.industries-hero-content {
   width: 28%;
   position: absolute;
   left: clamp(50px, 14.58vw, 280px);
   top: 35%;
 }
 
-.industries-hero-content .section-heading{
-  font-family: "Quadran-Black";;
+.industries-hero-content .section-heading {
+  font-family: "Quadran-Black";
 }
 
 .industry-specific-section {
@@ -2806,7 +2810,7 @@ h2.blog-page-side-heading {
   margin-right: auto;
 }
 
-.industry-specific-section .hero-heading{
+.industry-specific-section .hero-heading {
   color: black;
   text-align: center;
   font-size: 55px;
@@ -2814,151 +2818,152 @@ h2.blog-page-side-heading {
   margin-bottom: 30px;
 }
 
-.industry-specific-section p{
+.industry-specific-section p {
   text-align: center;
 }
 
-.transfroming-section{
+.transfroming-section {
   padding-left: clamp(50px, 7.81vw, 140px);
   padding-right: clamp(50px, 7.81vw, 140px);
   /* padding-top: 50px; */
   padding-bottom: 50px;
 }
 
-.transfroming-section .section-heading{
+.transfroming-section .section-heading {
   text-align: center;
   color: var(--primary-color);
   margin-bottom: 30px;
 }
 
-.transfromings-scroll-list{
+.transfromings-scroll-list {
   height: 800px;
   overflow: hidden;
 }
 
-.transfromings-scroll-list{
+.transfromings-scroll-list {
   position: relative;
   display: flex;
   /* gap: 10px; */
 }
 
-.custom-scrollbar{
+.custom-scrollbar {
   width: 20px;
   height: 100%;
 }
 
-.custom-scrollbar > div{
+.custom-scrollbar > div {
   width: 20px;
   height: 100%;
   background-color: #f9f9f9;
   overflow-y: scroll;
 }
 
-.transfromings-scroll-list-content{
+.transfromings-scroll-list-content {
   overflow-y: scroll;
   width: 50%;
   padding: 30px;
 }
 
-.transfromings-scroll-list .transfromings-scroll-list-content::-webkit-scrollbar{
+.transfromings-scroll-list
+  .transfromings-scroll-list-content::-webkit-scrollbar {
   width: 10px;
 }
 
-.transfromings-scroll-list .transfromings-scroll-list-content::-webkit-scrollbar-track{
-  background-color: #ECECEC;
+.transfromings-scroll-list
+  .transfromings-scroll-list-content::-webkit-scrollbar-track {
+  background-color: #ececec;
 }
 
-.transfromings-scroll-list .transfromings-scroll-list-content::-webkit-scrollbar-thumb{
+.transfromings-scroll-list
+  .transfromings-scroll-list-content::-webkit-scrollbar-thumb {
   background-color: #089768;
   width: 20px;
   border-radius: 10px;
 }
 
-.transfromings-scroll-list .transfromings-scroll-list-content:nth-child(2){
+.transfromings-scroll-list .transfromings-scroll-list-content:nth-child(2) {
   scrollbar-width: none;
 }
 
-.transfromings-scroll-list .transfromings-scroll-list-content:nth-child(1){
+.transfromings-scroll-list .transfromings-scroll-list-content:nth-child(1) {
   scrollbar-gutter: stable;
 }
 
-
 @-moz-document url-prefix() {
-  .transfromings-scroll-list .transfromings-scroll-list-content:nth-child(1){
+  .transfromings-scroll-list .transfromings-scroll-list-content:nth-child(1) {
     padding-right: 38px;
-    
   }
 }
 
-
-.transfromings-scroll-list .transfromings-scroll-list-content:nth-child(2)::-webkit-scrollbar{
+.transfromings-scroll-list
+  .transfromings-scroll-list-content:nth-child(2)::-webkit-scrollbar {
   display: none;
 }
 
-.transfromings-item{
+.transfromings-item {
   display: flex;
   gap: 20px;
   margin-bottom: 10px;
 }
 
-.transfromings-item h2{
+.transfromings-item h2 {
   font-size: 22px;
   font-family: "Quadran-Bold";
   margin-bottom: 10px;
 }
 
-.transfromings-item p span{
+.transfromings-item p span {
   color: var(--primary-color);
   font-family: "Quadran-Bold";
 }
 
-.transfromings-item-image-container{
+.transfromings-item-image-container {
   width: 265px;
   height: 277px;
 }
 
-.transfromings-item-image-container > div{
+.transfromings-item-image-container > div {
   width: 265px;
   height: 277px;
 }
 
-.partner-section{
+.partner-section {
   background-color: var(--primary-color);
   /* margin-bottom: 50px; */
 }
 
-.partner-section .section-heading{
+.partner-section .section-heading {
   color: white;
   text-align: center;
   margin-bottom: 50px;
 }
 
-.partner-cards-container{
+.partner-cards-container {
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
 
-.partner-card{
-  background-color: #F7FFEC;
+.partner-card {
+  background-color: #f7ffec;
   max-width: 444px;
 }
 
-.partner-card-content{
+.partner-card-content {
   padding: 30px;
 }
 
-.partner-card-content h2{
+.partner-card-content h2 {
   font-size: 22px;
   font-family: "Quadran-Bold";
   margin-bottom: 10px;
 }
 
-.partner-card-content h2 span{
+.partner-card-content h2 span {
   color: var(--primary-color);
 }
 
-.job-link{
+.job-link {
   width: 78px;
   height: 78px;
   background-color: var(--primary-color);
@@ -2967,7 +2972,6 @@ h2.blog-page-side-heading {
   justify-content: center;
   align-items: center;
 }
-
 
 @media screen and (max-width: 1764px) {
   #path-2,
@@ -3794,11 +3798,11 @@ h2.blog-page-side-heading {
 }
 
 /*  */
-.partner-cards-container .partner-card:nth-child(2){
+.partner-cards-container .partner-card:nth-child(2) {
   transition-delay: 200ms;
 }
 
-.partner-cards-container .partner-card:nth-child(3){
+.partner-cards-container .partner-card:nth-child(3) {
   transition-delay: 400ms;
 }
 
