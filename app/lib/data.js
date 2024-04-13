@@ -55,9 +55,26 @@ const blogs = {
     {
       image: "/cloud-computing.jpg",
       title:
-        "Navigating the cloud landscape: 5 key strategies for effective cloud assessment",
-      content1: "Content",
+        "The cloud landscape: 5 key strategies for effective cloud assessment",
+      content1:
+        "Cloud assessments guide businesses in selecting optimal solutions to enhance innovation, agility, and efficiency.",
       link: "/perspectives/navigating-the-cloud-landscape",
+    },
+    {
+      image: "/communication-unified-system.jpg",
+      title:
+        "Chaos to Clarity: How Unified Platforms Transform Communication Strategy",
+      content1:
+        "Discover how unified communication platforms can streamline your team's workflow, enhance collaboration, and increase productivity.",
+      link: "/perspectives/chaos-to-clarity-how-unified-platforms-transform-communication-strategy",
+    },
+    {
+      image: "/big-data-services.jpg",
+      title:
+        "Data Management - Success Key in Epic and Oracle Cerner EHR Integration",
+      content1:
+        "Explore data management's role in seamless Epic and Oracle Cerner EHR integration, enhancing healthcare efficiency.",
+      link: "/perspectives/data-management-success-key-in-epic-and-oracle-cerner-ehr-integration",
     },
   ],
   pageNumber: 0,
@@ -3747,7 +3764,7 @@ const subServicePagesContent = {
       contactHead:
         "Unlock the full potential of your business with data-driven decision-making",
       contentSection: {
-        image: "http://localhost:3000/sub-service-content-side-image.png",
+        image: "/sub-service-content-side-image.png",
         heading:
           "Harness the Power of Data Analytics and Business Intelligence with Qcentrio",
         content1:
