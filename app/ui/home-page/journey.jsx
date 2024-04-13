@@ -61,7 +61,12 @@ export default function Journey() {
                 <div key={index} className="journey-carousel-item">
                   <div ref={item}>
                     <div className="journey-carousel-image">
-                      <Image src={journey2} alt="" />
+                      <Image
+                        width={536}
+                        height={591}
+                        src={study.image}
+                        alt=""
+                      />
                     </div>
                     <div className="journey-carousel-content-container">
                       <h2 className="journey-carousel-title">SUCCESS STORY</h2>
