@@ -2645,10 +2645,14 @@ h2.blog-page-side-heading {
   background-color: white;
   border-radius: 50%;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carrer-benefit h2 {
   font-size: 22px;
+  line-height: 26px;
   font-family: "Quadran-Bold";
   color: white;
   text-align: center;

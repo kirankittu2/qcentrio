@@ -474,6 +474,7 @@
   align-items: center;
   margin-top: 35px;
   margin-left: clamp(50px, 7.81vw, 140px);
+  text-transform: uppercase;
 }
 
 .sub-service-heading-section {

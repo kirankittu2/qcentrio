@@ -16,6 +16,7 @@ import strategy from "@/public/strategy.svg";
 import support from "@/public/support.svg";
 import cloud from "@/public/cloud.svg";
 import arrow from "@/public/white-redirect-arrow.svg";
+import Script from "next/script";
 
 export const metadata = {
   title:
@@ -226,28 +227,76 @@ function Benefits() {
       </p>
       <div className="career-benefit-list">
         <div data-option="up" className="carrer-benefit animate animate-hidden">
-          <div className="carrer-benefit-icon"></div>
-          <h2>Competitive Salaries</h2>
+          <div className="carrer-benefit-icon">
+            <Script src="https://cdn.lordicon.com/lordicon.js"></Script>
+            <lord-icon
+              src="https://cdn.lordicon.com/abvvebgo.json"
+              trigger="loop"
+              delay="1500"
+              colors="primary:#079766"
+              style={{ width: "64px", height: "64px" }}></lord-icon>
+          </div>
+          <h2>
+            Competitive <br /> Salaries
+          </h2>
           <p>Rewarding your hard work and contributions.</p>
         </div>
         <div data-option="up" className="carrer-benefit animate animate-hidden">
-          <div className="carrer-benefit-icon"></div>
+          <div className="carrer-benefit-icon">
+            <Script src="https://cdn.lordicon.com/lordicon.js"></Script>
+            <lord-icon
+              src="https://cdn.lordicon.com/spukaklw.json"
+              trigger="loop"
+              delay="1500"
+              colors="primary:#079766"
+              style={{ width: "64px", height: "64px" }}></lord-icon>
+          </div>
           <h2>Health and Wellness Programs</h2>
           <p>Ensuring your physical and mental well-being.</p>
         </div>
         <div data-option="up" className="carrer-benefit animate animate-hidden">
-          <div className="carrer-benefit-icon"></div>
-          <h2>Professional Development</h2>
+          <div className="carrer-benefit-icon">
+            <Script src="https://cdn.lordicon.com/lordicon.js"></Script>
+            <lord-icon
+              src="https://cdn.lordicon.com/ivugxnop.json"
+              trigger="loop"
+              delay="1500"
+              colors="primary:#079766"
+              style={{ width: "64px", height: "64px" }}></lord-icon>
+          </div>
+          <h2>
+            Professional <br /> Development
+          </h2>
           <p>Opportunities for continuous learning and advancement.</p>
         </div>
         <div data-option="up" className="carrer-benefit animate animate-hidden">
-          <div className="carrer-benefit-icon"></div>
-          <h2>Work-Life Balance</h2>
+          <div className="carrer-benefit-icon">
+            <Script src="https://cdn.lordicon.com/lordicon.js"></Script>
+            <lord-icon
+              src="https://cdn.lordicon.com/ppyvfomi.json"
+              trigger="loop"
+              delay="1500"
+              colors="primary:#079766"
+              style={{ width: "64px", height: "64px" }}></lord-icon>
+          </div>
+          <h2>
+            Work-Life <br /> Balance
+          </h2>
           <p>Flexible work arrangements to suit your lifestyle.</p>
         </div>
         <div data-option="up" className="carrer-benefit animate animate-hidden">
-          <div className="carrer-benefit-icon"></div>
-          <h2>Continuous Learning</h2>
+          <div className="carrer-benefit-icon">
+            <Script src="https://cdn.lordicon.com/lordicon.js"></Script>
+            <lord-icon
+              src="https://cdn.lordicon.com/zyzoecaw.json"
+              trigger="loop"
+              delay="1500"
+              colors="primary:#079766"
+              style={{ width: "64px", height: "64px" }}></lord-icon>
+          </div>
+          <h2>
+            Continuous <br /> Learning
+          </h2>
           <p>Sharpen Your Skills with Qcentrio Academy</p>
         </div>
       </div>

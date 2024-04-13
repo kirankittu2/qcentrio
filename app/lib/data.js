@@ -1303,8 +1303,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "ADVANCED TECHNOLOGY SOLUTIONS",
         link: "/offerings/advanced-technology-solutions",
-        current:
-          "TRANSFORM YOUR ORGANIZATIONAL CAPABILITIES AND SUSTAIN YOUR COMPETITIVE ADVANTAGE",
+        current: "ERP Solutions Support",
       },
       contactHead:
         "Transform your core business processes and operations with expert ERP Solutions Support",
