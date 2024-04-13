@@ -86,7 +86,8 @@ export default function Offerings({ data }) {
                   <div className="test">
                     <Image
                       className={`service-offerings-image-ani`}
-                      fill
+                      width={239}
+                      height={239}
                       src={data.images[i]}
                       alt=""
                     />

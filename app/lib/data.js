@@ -1,4 +1,4 @@
-import cloud from "@/public/cloud-service.svg";
+import cloud from "@/public/cloud.svg";
 import salesforce from "@/public/salesforce.svg";
 import azure from "@/public/azure.svg";
 import gcp from "@/public/gcp.svg";
@@ -1728,27 +1728,27 @@ const subServicePagesContent = {
     },
     4: {
       heroSectionData: {
-        heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        heading: "CONVERT YOUR IDEAS INTO LEADING SOFTWARE PRODUCTS",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Tailored Software and Application Development | Qcentrio",
+        description:
+          "With Qcentrio’s custom application development services, bring your software vision to life. Our agile and dedicated team ensures your product meets the highest standards.",
       },
       breadCrump: {
         main: "ADVANCED TECHNOLOGY SOLUTIONS",
         link: "/offerings/advanced-technology-solutions",
-        current:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        current: "CONVERT YOUR IDEAS INTO LEADING SOFTWARE PRODUCTS",
       },
       contactHead: "",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading:
+          "Turn Your Vision into Reality with Qcentrio’s Custom Software Development",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "Custom software applications, platforms, or solutions are the cornerstone of innovation for any enterprise, propelling its businesses toward future success. It helps companies to meet and exceed the dynamic demands of modern markets, ensuring they stay ahead of the curve.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "Qcentrio is one of the leading providers of custom software and application development services, offering a comprehensive range of services from JAVA to MEAN and full-stack development. Our methodology is deeply rooted in understanding your business needs, ensuring we deliver functional and practical software solutions that embody your vision.",
       },
       offeringsSetion: {
         mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",

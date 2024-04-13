@@ -15,11 +15,12 @@ import Insignts from "./ui/home-page/insights";
 import Link from "next/link";
 import NavBarContainer from "./ui/global/nav-bar-container";
 import Offerings from "./ui/home-page/offerings";
-import service1 from "@/public/sub-offerings-1.png";
-import service2 from "@/public/sub-offerings-2.jpeg";
-import service3 from "@/public/sub-offerings-3.jpeg";
-import service4 from "@/public/sub-offerings-4.jpeg";
+import service1 from "@/public/sub-offerings-1.jpg";
+import service2 from "@/public/sub-offerings-2.jpg";
+import service3 from "@/public/sub-offerings-3.jpg";
+import service4 from "@/public/sub-offerings-4.jpg";
 import service5 from "@/public/sub-offerings-5.jpg";
+import service6 from "@/public/sub-offerings-6.jpg";
 
 export const metadata = {
   title:
@@ -30,7 +31,7 @@ export const metadata = {
 
 export default function Home() {
   const services = {
-    images: [service1, service2, service3, service4, service5, service3],
+    images: [service1, service2, service3, service4, service5, service6],
     list: [
       {
         num: "01",
