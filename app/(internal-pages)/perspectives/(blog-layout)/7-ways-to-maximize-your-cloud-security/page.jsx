@@ -4,6 +4,12 @@ import AuthorBlock from "@/app/ui/blogs/author-block";
 import TableOfContent from "@/app/ui/blogs/table-of-content";
 import Category from "@/app/ui/blogs/categories";
 
+export const metadata = {
+  title:
+    "7 effective ways to maximize your cloud security for enhanced protection",
+  description: "...",
+};
+
 export default function SampleBlog() {
   return (
     <main className="blog-page-content">

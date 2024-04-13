@@ -4,7 +4,7 @@ export default function CaseStudyHero({ data }) {
   return (
     <div className="case-study-hero-content">
       <div className="breadcrump">
-        RESOURCES <span></span> CASE STUDY
+        INSIGHTS <span></span> CASE STUDY
       </div>
       <h1
         data-option="strip-slide-up"

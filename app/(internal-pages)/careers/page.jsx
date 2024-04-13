@@ -15,6 +15,7 @@ import settings from "@/public/settings.svg";
 import strategy from "@/public/strategy.svg";
 import support from "@/public/support.svg";
 import cloud from "@/public/cloud.svg";
+import arrow from "@/public/white-redirect-arrow.svg";
 
 export const metadata = {
   title:
@@ -58,9 +59,13 @@ function CareersHero() {
       <div className="relative">
         <Image src={banner} alt="" />
         <div className="careers-buttons">
-          <Button name="Start Your Journey" />
+          <Link href="#start-your-journey">
+            <Button name="Start Your Journey" />
+          </Link>
           <div className="divider"></div>
-          <Button name="Check Out Jobs" />
+          <Link href="#jobs">
+            <Button name="Check Out Jobs" />
+          </Link>
         </div>
       </div>
     </div>
@@ -111,23 +116,23 @@ function CareersCommunity() {
       <div className="success-path-category-container">
         <Card
           image={settings}
-          title="Flexible Team"
-          content="An adaptable and agile cloud team, fully equipped to efficiently and effectively scale up and down in response to fluctuating project requirements."
+          title="Empowerment"
+          content="Take ownership of your work and drive innovation."
         />
         <Card
           image={strategy}
-          title="End-to-End Execution"
-          content="Effortless, integrated coordination across IT, infrastructure, data engineering, and analytics provides comprehensive, robust support to the last mile."
+          title="Progress"
+          content="Engage in projects that deliver meaningful change."
         />
         <Card
           image={support}
-          title="Repeatable"
-          content="Experience swift value realization with our user-friendly Playbooks and Code Plugins tailored for common scenarios, further enhanced with bespoke solutions."
+          title="Growth"
+          content="Expand your horizons and reach new heights in your career."
         />
         <Card
           image={cloud}
-          title="Innovation"
-          content="Dive into the future with our expert team, designing experiments for next-generation initiatives and bringing the latest innovations to your fingertips."
+          title="Equality"
+          content="Work in a diverse environment with equal opportunities."
         />
       </div>
     </div>
@@ -136,7 +141,7 @@ function CareersCommunity() {
 
 function Jobs() {
   return (
-    <div className="jobs-section">
+    <div id="jobs" className="jobs-section">
       <div>
         <div className="jobs-content">
           <h2
@@ -156,25 +161,47 @@ function Jobs() {
         </div>
         <div className="jobs-main">
           <div data-option="up" className="job animate animate-hidden">
-            <p className="job-location">
-              Location : Bangalore ( Remote / On-site )
-            </p>
-            <div className="job-experience">3+ Years Experience</div>
-            <div className="job-title"> Data Scientist</div>
+            <div>
+              <p className="job-location">
+                Location : Bangalore ( Remote / On-site )
+              </p>
+              <div className="job-experience">3+ Years Experience</div>
+              <div className="job-title"> Data Scientist</div>
+            </div>
+            <div className="job-link-column">
+              <div className="job-link">
+                <Image src={arrow} alt="" />
+              </div>
+            </div>
           </div>
           <div data-option="up" className="job animate animate-hidden">
-            <p className="job-location">
-              Location : Bangalore ( Remote / On-site )
-            </p>
-            <div className="job-experience">3+ Years Experience</div>
-            <div className="job-title"> Data Scientist</div>
+            <div>
+              <p className="job-location">
+                Location : Bangalore ( Remote / On-site )
+              </p>
+              <div className="job-experience">3+ Years Experience</div>
+              <div className="job-title"> Data Scientist</div>
+            </div>
+            <div className="job-link-column">
+              <div className="job-link">
+                <Image src={arrow} alt="" />
+              </div>
+            </div>
           </div>
+
           <div data-option="up" className="job animate animate-hidden">
-            <p className="job-location">
-              Location : Bangalore ( Remote / On-site )
-            </p>
-            <div className="job-experience">3+ Years Experience</div>
-            <div className="job-title"> Data Scientist</div>
+            <div>
+              <p className="job-location">
+                Location : Bangalore ( Remote / On-site )
+              </p>
+              <div className="job-experience">3+ Years Experience</div>
+              <div className="job-title"> Data Scientist</div>
+            </div>
+            <div className="job-link-column">
+              <div className="job-link">
+                <Image src={arrow} alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -247,15 +274,15 @@ function CareerShowcase() {
           data-option="up"
           className="career-showcase-card animate animate-hidden">
           <Image src={showcase2} alt="" />
-          <h2>Customized Upskilling</h2>
-          <p>Tailored to your career goals and the latest market trends.</p>
+          <h2>Hands-on Training</h2>
+          <p>Practical experience in cutting-edge technologies.</p>
         </div>
         <div
           data-option="up"
           className="career-showcase-card animate animate-hidden">
           <Image src={showcase3} alt="" />
-          <h2>Customized Upskilling</h2>
-          <p>Tailored to your career goals and the latest market trends.</p>
+          <h2>Leadership Development</h2>
+          <p>Courses designed to nurture the next generation of leaders.</p>
         </div>
       </div>
     </div>
@@ -264,7 +291,7 @@ function CareerShowcase() {
 
 function CareerContact() {
   return (
-    <div className="careers-contact-section">
+    <div id="start-your-journey" className="careers-contact-section">
       <h2
         data-option="strip-slide-up"
         className="animate strip-slide-up strip-slide-black">

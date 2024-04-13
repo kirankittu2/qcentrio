@@ -40,7 +40,6 @@ export default function Footer() {
               <Link href="http://localhost:3000/about-us">About Us</Link>
             </p>
             <p className="footer-item ">Careers</p>
-            <p className="footer-item ">Partners</p>
           </div>
           <div className="footer-column">
             <h2
@@ -119,7 +118,7 @@ export default function Footer() {
                   htmlFor="privacy-policy">
                   *I have read the&nbsp;
                   <span>
-                    <Link className="" href="">
+                    <Link className="" href="/privacy-policy">
                       Privacy Policy
                     </Link>
                   </span>

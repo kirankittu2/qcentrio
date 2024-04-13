@@ -79,7 +79,7 @@ export default function SubServiceOfferings({ data }) {
             <div
               data-option="up"
               key={i}
-              onMouseOver={() => setIndex(i)}
+              onClick={() => setIndex(i)}
               className={`service-offerings-toggle-head animate-hidden ${
                 index == i ? "active" : ""
               }`}>

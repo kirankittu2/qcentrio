@@ -4,6 +4,12 @@ import AuthorBlock from "@/app/ui/blogs/author-block";
 import TableOfContent from "@/app/ui/blogs/table-of-content";
 import Category from "@/app/ui/blogs/categories";
 
+export const metadata = {
+  title:
+    "Chaos to Clarity: How Unified Platforms Transform Communication Strategy",
+  description: "...",
+};
+
 export default function SampleBlog() {
   return (
     <main className="blog-page-content">
@@ -12,8 +18,7 @@ export default function SampleBlog() {
       </div>
       <h1
         data-option="strip-slide-up"
-        className="blog-page-title animate strip-slide-up strip-slide-black"
-      >
+        className="blog-page-title animate strip-slide-up strip-slide-black">
         Chaos to Clarity: How Unified Platforms Transform Communication Strategy
       </h1>
       <div className="blog-page-main-image">

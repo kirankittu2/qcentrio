@@ -6,6 +6,11 @@ import AuthorBlock from "@/app/ui/blogs/author-block";
 import TableOfContent from "@/app/ui/blogs/table-of-content";
 import Category from "@/app/ui/blogs/categories";
 
+export const metadata = {
+  title: "How blockchain redefines business and banking",
+  description: "...",
+};
+
 export default function SampleBlog() {
   return (
     <main className="blog-page-content">
@@ -15,7 +20,7 @@ export default function SampleBlog() {
       <h1
         data-option="strip-slide-up"
         className="blog-page-title animate strip-slide-up strip-slide-black">
-        HOW BLOCKCHAIN REDEFINES BUSINESS AND BANKING
+        How blockchain redefines business and banking
       </h1>
       <div className="blog-page-main-image">
         <Image src={blogMainImage} alt="" />

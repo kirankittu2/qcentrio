@@ -23,7 +23,9 @@ export default function Industries() {
         <NavBarContainer />
         <Image className="industries-banner" src={banner} alt="" />
         <div className="industries-hero-content">
-          <h1 className="section-heading">
+          <h1
+            data-option="strip-slide-up"
+            className="section-heading animate strip-slide-up strip-slide-black">
             INNOVATE AND LEAD IN YOUR INDUSTRY WITH TAILORED DIGITAL SERVICES
           </h1>
           <Button name="Embrace the Future" />
@@ -46,16 +48,18 @@ export default function Industries() {
 function IndustrySpecific() {
   return (
     <div className="industry-specific-section">
-      <h2 className="hero-heading">
+      <h2
+        data-option="strip-slide-up"
+        className="hero-heading animate strip-slide-up strip-slide-black">
         Unlock Industry-Specific Digital Opportunities with Qcentrio
       </h2>
-      <p>
+      <p data-option="up" className="animate animate-hidden">
         The economy is changing, and its drivers must relentlessly evolve. They
         need to scale to new markets, harness new-age capabilities, and
         personalize their products and solutions, all while staying true to
         global and local compliance standards.
       </p>
-      <p>
+      <p data-option="up" className="animate animate-hidden">
         At Qcentrio, we provide a bridge to the future with bespoke digital
         transformation strategies and service support. From aerospace to travel,
         we empower organizations to navigate technological advancements and
@@ -70,11 +74,13 @@ function IndustrySpecific() {
 function PartnerSection() {
   return (
     <div className="partner-section balance-section">
-      <h2 className="section-heading">
+      <h2
+        data-option="strip-slide-up"
+        className="section-heading animate strip-slide-up strip-slide-white">
         Partner with Qcentrio for Industry-Dedicated Digital Excellence
       </h2>
       <div className="partner-cards-container">
-        <div className="partner-card">
+        <div data-option="up" className="partner-card animate animate-hidden">
           <Image src={domain} alt="" />
           <div className="partner-card-content">
             <h2>
@@ -88,7 +94,7 @@ function PartnerSection() {
             </p>
           </div>
         </div>
-        <div className="partner-card">
+        <div data-option="up" className="partner-card animate animate-hidden">
           <Image src={category} alt="" />
           <div className="partner-card-content">
             <h2>
@@ -102,7 +108,7 @@ function PartnerSection() {
             </p>
           </div>
         </div>
-        <div className="partner-card">
+        <div data-option="up" className="partner-card animate animate-hidden">
           <Image src={client} alt="" />
           <div className="partner-card-content">
             <h2>

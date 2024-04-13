@@ -4,6 +4,12 @@ import AuthorBlock from "@/app/ui/blogs/author-block";
 import TableOfContent from "@/app/ui/blogs/table-of-content";
 import Category from "@/app/ui/blogs/categories";
 
+export const metadata = {
+  title:
+    "Data Management - Success Key in Epic and Oracle Cerner EHR Integration",
+  description: "...",
+};
+
 export default function SampleBlog() {
   return (
     <main className="blog-page-content">
@@ -12,8 +18,7 @@ export default function SampleBlog() {
       </div>
       <h1
         data-option="strip-slide-up"
-        className="blog-page-title animate strip-slide-up strip-slide-black"
-      >
+        className="blog-page-title animate strip-slide-up strip-slide-black">
         Data Management - Success Key in Epic and Oracle Cerner EHR Integration
       </h1>
       <div className="blog-page-main-image">

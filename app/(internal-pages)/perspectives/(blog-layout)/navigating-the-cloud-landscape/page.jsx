@@ -6,6 +6,11 @@ import AuthorBlock from "@/app/ui/blogs/author-block";
 import TableOfContent from "@/app/ui/blogs/table-of-content";
 import Category from "@/app/ui/blogs/categories";
 
+export const metadata = {
+  title: "The cloud landscape: 5 key strategies for effective cloud assessment",
+  description: "...",
+};
+
 export default function SampleBlog() {
   return (
     <main className="blog-page-content">
@@ -14,8 +19,7 @@ export default function SampleBlog() {
       </div>
       <h1
         data-option="strip-slide-up"
-        className="blog-page-title animate strip-slide-up strip-slide-black"
-      >
+        className="blog-page-title animate strip-slide-up strip-slide-black">
         THE CLOUD LANDSCAPE: 5 KEY STRATEGIES FOR EFFECTIVE CLOUD ASSESSMENT
       </h1>
       <div className="blog-page-main-image">

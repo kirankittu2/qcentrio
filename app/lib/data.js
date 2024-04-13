@@ -1294,8 +1294,15 @@ const subServicePagesContent = {
       },
       metaData: {
         title: "Comprehensive ERP Solutions Support | Qcentrio",
+
         description:
           "Qcentrio's ERP Solutions Support enhances your operational agility and efficiency. Experience our tailored ERP advisory and round-the-clock service.",
+      },
+      breadCrump: {
+        main: "ADVANCED TECHNOLOGY SOLUTIONS",
+        link: "/offerings/advanced-technology-solutions",
+        current:
+          "TRANSFORM YOUR ORGANIZATIONAL CAPABILITIES AND SUSTAIN YOUR COMPETITIVE ADVANTAGE",
       },
       contactHead:
         "Transform your core business processes and operations with expert ERP Solutions Support",
@@ -1430,6 +1437,12 @@ const subServicePagesContent = {
       metaData: {
         title: "",
         description: "",
+      },
+      breadCrump: {
+        main: "ADVANCED TECHNOLOGY SOLUTIONS",
+        link: "/offerings/advanced-technology-solutions",
+        current:
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
       },
       contactHead: "",
       contentSection: {
@@ -1570,6 +1583,12 @@ const subServicePagesContent = {
         title: "Expert SAP Services and Support | Qcentrio",
         description:
           ": Lift your business with Qcentrio's SAP services. Our SAP S/4HANA, CRM, and Analytics solutions ensure your operations are streamlined and future-proof.",
+      },
+      breadCrump: {
+        main: "ADVANCED TECHNOLOGY SOLUTIONS",
+        link: "/offerings/advanced-technology-solutions",
+        current:
+          "MAXIMIZE ENTERPRISE AGILITY AND INNOVATION WITH ADVANCED SAP SERVICES SUPPORT",
       },
       contactHead:
         "Redefine your operational capabilities with specialized SAP Services",
@@ -1716,6 +1735,12 @@ const subServicePagesContent = {
         title: "",
         description: "",
       },
+      breadCrump: {
+        main: "ADVANCED TECHNOLOGY SOLUTIONS",
+        link: "/offerings/advanced-technology-solutions",
+        current:
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
       contactHead: "",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
@@ -1854,6 +1879,12 @@ const subServicePagesContent = {
       metaData: {
         title: "",
         description: "",
+      },
+      breadCrump: {
+        main: "ADVANCED TECHNOLOGY SOLUTIONS",
+        link: "/offerings/advanced-technology-solutions",
+        current:
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
       },
       contactHead: "",
       contentSection: {
@@ -1994,6 +2025,12 @@ const subServicePagesContent = {
         title: "",
         description: "",
       },
+      breadCrump: {
+        main: "ADVANCED TECHNOLOGY SOLUTIONS",
+        link: "/offerings/advanced-technology-solutions",
+        current:
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
       contactHead: "",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
@@ -2131,6 +2168,11 @@ const subServicePagesContent = {
         title: "Comprehensive Audit and Assurance Services | Qcentrio",
         description:
           "Ensure the integrity of your digital systems with Qcentrio's Audit and Assurance Services. Our expert audits provide security, compliance, and peace of mind.",
+      },
+      breadCrump: {
+        main: "ADVISORY AND STRATEGIC SERVICES",
+        link: "/offerings/advisory-and-strategic-services",
+        current: "SECURE YOUR DIGITAL FOOTPRINT, FOCUS ON GROWTH",
       },
       contactHead:
         "Strengthen the integrity of your digital systems with custom audits ",
@@ -2274,6 +2316,11 @@ const subServicePagesContent = {
         description:
           "Enhance your healthcare operations with Qcentrio's EPIC Advisory Services, offering EHR integration, data migration, and comprehensive support.",
       },
+      breadCrump: {
+        main: "ADVISORY AND STRATEGIC SERVICES",
+        link: "/offerings/advisory-and-strategic-services",
+        current: "TRANSFORMING HEALTHCARE WITH EXPERT EPIC INTEGRATION",
+      },
       contactHead:
         "Enhance your healthcare services with E2E EPIC Advisory services",
       contentSection: {
@@ -2397,6 +2444,12 @@ const subServicePagesContent = {
         title: "Expert Oracle Cerner Advisory Services | Qcentrio",
         description:
           "Tap into Qcentrio's Oracle Cerner Advisory Services for comprehensive EHR implementation, ensuring streamlined healthcare operations and compliance.",
+      },
+      breadCrump: {
+        main: "ADVISORY AND STRATEGIC SERVICES",
+        link: "/offerings/advisory-and-strategic-services",
+        current:
+          "SEAMLESS INTEGRATION WITH EHR SYSTEM FOR ENHANCED CLINICAL, OPERATIONAL, AND FINANCIAL EFFICIENCIES",
       },
       contactHead:
         "Tap into Qcentrio's Oracle Cerner Advisory Services to transform your healthcare operations",
@@ -2532,6 +2585,11 @@ const subServicePagesContent = {
           "Navigate Digital Risks with Expert Risk Advisory Services | Qcentrio",
         description:
           "Qcentrio's Risk Advisory Services empower your business to mitigate digital threats with strategic cybersecurity and compliance expertise.",
+      },
+      breadCrump: {
+        main: "ADVISORY AND STRATEGIC SERVICES",
+        link: "/offerings/advisory-and-strategic-services",
+        current: "NAVIGATE AND MITIGATE DIGITAL RISKS WITH CONFIDENCE",
       },
       contactHead: "Strengthen Your Business Against Digital Threats",
       contentSection: {
@@ -2679,6 +2737,12 @@ const subServicePagesContent = {
         description:
           "Enhance your software's quality and performance with Qcentrio's specialized QA services. Our expertise ensures excellence in every aspect of your digital solutions.",
       },
+      breadCrump: {
+        main: "ADVISORY AND STRATEGIC SERVICES",
+        link: "/offerings/advisory-and-strategic-services",
+        current:
+          "ENSURE SUPERIOR QUALITY AND PERFORMANCE IN YOUR DIGITAL SOLUTIONS",
+      },
       contactHead:
         "Enhance the value of your digital products and stay ahead of the competition",
       contentSection: {
@@ -2806,6 +2870,12 @@ const subServicePagesContent = {
         title: "Expert Mergers & Acquisitions Advisory Services | Qcentrio",
         description:
           "Streamline your M&A journey with Qcentrio's expert advisory services. Ensure smooth digital transitions and capitalize on transformative business events for growth.",
+      },
+      breadCrump: {
+        main: "ADVISORY AND STRATEGIC SERVICES",
+        link: "/offerings/advisory-and-strategic-services",
+        current:
+          "NAVIGATE COMPLEX MERGERS & ACQUISITIONS WITH STRATEGIC DIGITAL INSIGHT",
       },
       contactHead: "Transform your business with a well-executed M&A",
       contentSection: {
@@ -2948,6 +3018,12 @@ const subServicePagesContent = {
         title: "",
         description: "",
       },
+      breadCrump: {
+        main: "BLOCKCHAIN ADVISORY AND OFFERINGS",
+        link: "/offerings/blockchain-advisory-and-offerings",
+        current:
+          "SEAMLESS INTEGRATION WITH EHR SYSTEM FOR ENHANCED CLINICAL, OPERATIONAL, AND FINANCIAL EFFICIENCIES",
+      },
       contactHead: "",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
@@ -3080,6 +3156,12 @@ const subServicePagesContent = {
       metaData: {
         title: "",
         description: "",
+      },
+      breadCrump: {
+        main: "BLOCKCHAIN ADVISORY AND OFFERINGS",
+        link: "/offerings/blockchain-advisory-and-offerings",
+        current:
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
       },
       contactHead: "",
       contentSection: {
@@ -3220,6 +3302,12 @@ const subServicePagesContent = {
         title: "",
         description: "",
       },
+      breadCrump: {
+        main: "BLOCKCHAIN ADVISORY AND OFFERINGS",
+        link: "/offerings/blockchain-advisory-and-offerings",
+        current:
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
       contactHead: "",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
@@ -3358,6 +3446,12 @@ const subServicePagesContent = {
       metaData: {
         title: "",
         description: "",
+      },
+      breadCrump: {
+        main: "BLOCKCHAIN ADVISORY AND OFFERINGS",
+        link: "/offerings/blockchain-advisory-and-offerings",
+        current:
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
       },
       contactHead: "",
       contentSection: {
@@ -3500,6 +3594,12 @@ const subServicePagesContent = {
         title: "Collaboration and Productivity Solutions Support | Qcentrio",
         description:
           "Discover how Qcentrio's Collaboration and Productivity Solutions support can transform your workspace for better communication, efficiency, and innovation. ",
+      },
+      breadCrump: {
+        main: "BUSINESS OPTIMIZATION AND ANALYTICS SERVICES",
+        link: "/offerings/business-optimization-and-analytics-services",
+        current:
+          "BREAK DOWN SILOS AND ENABLE SEAMLESS COMMUNICATION WITH COLLABORATION AND PRODUCTIVITY SOLUTIONS",
       },
       contactHead:
         "Harness the true potential of collaboration and productivity solutions",
@@ -3646,6 +3746,12 @@ const subServicePagesContent = {
         description:
           "Explore how Qcentrio's CRM System Solutions support enhances customer relations and streamlines sales and marketing processes for measurable growth and efficiency.",
       },
+      breadCrump: {
+        main: "BUSINESS OPTIMIZATION AND ANALYTICS SERVICES",
+        link: "/offerings/business-optimization-and-analytics-services",
+        current:
+          "OPTIMIZE YOUR DIGITAL TOUCHPOINTS FOR SEAMLESS CUSTOMER JOURNEY WITH ROBUST CRM SYSTEMS",
+      },
       contactHead: "Transform your customer relationships today",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
@@ -3760,6 +3866,12 @@ const subServicePagesContent = {
         title: "Data Analytics and Business Intelligence Services | Qcentrio",
         description:
           "Leverage Qcentrio's Data Analytics and Business Intelligence expertise to transform your data into strategic business insights for informed decision-making.",
+      },
+      breadCrump: {
+        main: "BUSINESS OPTIMIZATION AND ANALYTICS SERVICES",
+        link: "/offerings/business-optimization-and-analytics-services",
+        current:
+          "MAXIMIZE YOUR DATA'S POTENTIAL AND DRIVE INFORMED BUSINESS DECISIONS",
       },
       contactHead:
         "Unlock the full potential of your business with data-driven decision-making",
@@ -3904,6 +4016,12 @@ const subServicePagesContent = {
         title: "Artificial Intelligence/Machine Learning Offerings | Qcentrio",
         description:
           "Boost your enterprise's capabilities with Qcentrio's AI/ML offerings. Harness AI and ML-driven insights and automation expertise for strategic growth and operational excellence.",
+      },
+      breadCrump: {
+        main: "BUSINESS VALUE ENHANCEMENT SERVICES",
+        link: "/offerings/business-value-enhancement-services",
+        current:
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH BESPOKE AI/ML CAPABILITIES",
       },
       contactHead:
         "Transform business decisions with AI/ML-led actionable insights",
@@ -4064,6 +4182,12 @@ const subServicePagesContent = {
         description:
           "Discover how Qcentrio's Generative AI Solutions and Offerings can transform your business operations, drive innovation, and enhance productivity.",
       },
+      breadCrump: {
+        main: "BUSINESS VALUE ENHANCEMENT SERVICES",
+        link: "/offerings/business-value-enhancement-services",
+        current:
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH BESPOKE AI/ML CAPABILITIES",
+      },
       contactHead:
         "Build confidence in your AI/ML models and revolutionize your operations",
       contentSection: {
@@ -4204,6 +4328,12 @@ const subServicePagesContent = {
         title: "Robotic Process Automation Offerings | Qcentrio",
         description:
           "Elevate operational efficiency with Qcentrio's bespoke Robotic Process Automation (RPA) Offerings. Drive growth and streamline your processes with next-gen automation solutions.",
+      },
+      breadCrump: {
+        main: "BUSINESS VALUE ENHANCEMENT SERVICES",
+        link: "/offerings/business-value-enhancement-services",
+        current:
+          "BOOST OPERATIONAL EFFICIENCY, GAIN E2E VISIBILITY, AND OPTIMIZE IT RESOURCE UTILIZATION",
       },
       contactHead:
         "Experience Next-Level Efficiency with Qcentrio’s RPA Offerings",
@@ -4364,6 +4494,12 @@ const subServicePagesContent = {
         title: "",
         description: "",
       },
+      breadCrump: {
+        main: "CLOUD INFRA AND SECURITY SERVICES",
+        link: "/offerings/cloud-infra-and-security-services",
+        current:
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
       contactHead: "",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
@@ -4503,6 +4639,12 @@ const subServicePagesContent = {
         title: "Azure Cloud Services | Seamless Integration and Optimization",
         description:
           "Leverage Qcentrio's expertise for Azure cloud services and offerings that promise scalability, agility, and innovation. Transform your cloud strategy today.",
+      },
+      breadCrump: {
+        main: "CLOUD INFRA AND SECURITY SERVICES",
+        link: "/offerings/cloud-infra-and-security-services",
+        current:
+          "LIFT YOUR BUSINESS INTO AZURE FOR UNMATCHED PERFORMANCE AND SCALABILITY",
       },
       contactHead:
         "Begin your journey towards a scalable, innovative infrastructure today",
@@ -4667,6 +4809,12 @@ const subServicePagesContent = {
         description:
           "Move your business to the cloud confidently with Qcentrio's expert Cloud Infrastructure Services. Achieve digital transformation with agility, efficiency, and scalability.",
       },
+      breadCrump: {
+        main: "CLOUD INFRA AND SECURITY SERVICES",
+        link: "/offerings/cloud-infra-and-security-services",
+        current:
+          "TRANSFORM YOUR CONVENTIONAL IT BY TRANSITIONING TO CLOUD WITH CONFIDENCE",
+      },
       contactHead:
         "Unlock the potential of the cloud and revolutionize your IT infrastructure",
       contentSection: {
@@ -4830,6 +4978,12 @@ const subServicePagesContent = {
         title: "",
         description: "",
       },
+      breadCrump: {
+        main: "CLOUD INFRA AND SECURITY SERVICES",
+        link: "/offerings/cloud-infra-and-security-services",
+        current:
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
       contactHead: "",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
@@ -4968,6 +5122,12 @@ const subServicePagesContent = {
       metaData: {
         title: "",
         description: "",
+      },
+      breadCrump: {
+        main: "CLOUD INFRA AND SECURITY SERVICES",
+        link: "/offerings/cloud-infra-and-security-services",
+        current:
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
       },
       contactHead: "",
       contentSection: {
@@ -5108,6 +5268,12 @@ const subServicePagesContent = {
         title: "",
         description: "",
       },
+      breadCrump: {
+        main: "CLOUD INFRA AND SECURITY SERVICES",
+        link: "/offerings/cloud-infra-and-security-services",
+        current:
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
       contactHead: "",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
@@ -5247,6 +5413,12 @@ const subServicePagesContent = {
         title: "",
         description: "",
       },
+      breadCrump: {
+        main: "CLOUD INFRA AND SECURITY SERVICES",
+        link: "/offerings/cloud-infra-and-security-services",
+        current:
+          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+      },
       contactHead: "",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
@@ -5383,8 +5555,14 @@ const subServicePagesContent = {
       },
       metaData: {
         title: "Expert Salesforce Integration and Optimization | Qcentrio",
+        link: "/offerings/cloud-infra-and-security-services",
         description:
           ": Enhance your customer relations with Qcentrio's Salesforce capabilities. Our expertise in CRM solutions drives growth and enriches customer interactions.",
+      },
+      breadCrump: {
+        main: "CLOUD INFRA AND SECURITY SERVICES",
+        link: "/offerings/cloud-infra-and-security-services",
+        current: "MAKE THE MOST OF EVERY CUSTOMER INTERACTION WITH SALESFORCE",
       },
       contactHead:
         "Start optimizing customer relations with robust Salesforce capabilities",
