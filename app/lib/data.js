@@ -103,7 +103,7 @@ const caseStudies = {
       link: "/case-study/transforming-land-management-in-india-leading-state-with-a-blockchain-platform",
     },
     {
-      image: "/automatic-vehicle.jpg",
+      image: "/vehicle-aerodynamics.jpg",
       title: "Vehicle Aerodynamics Simulations for Automotive Company",
       content1:
         "Vehicle aerodynamics simulations for enhanced efficiency and performance in product development.",
