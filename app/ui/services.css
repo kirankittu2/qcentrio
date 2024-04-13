@@ -713,6 +713,7 @@
   margin-bottom: 30px;
   font-family: "Quadran-Black";
   letter-spacing: -2px;
+  text-transform: uppercase;
 }
 
 .services-of-sub-service-holder {
@@ -744,6 +745,7 @@
   font-family: "Quadran-Bold";
   color: var(--primary-color);
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .sub-service-card p {
