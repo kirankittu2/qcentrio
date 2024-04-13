@@ -250,10 +250,6 @@
   letter-spacing: -1px;
 }
 
-.success-path-content-column {
-    
-}
-
 .success-path-content-column::before {
     content: "";
     display: block;
