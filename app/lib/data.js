@@ -87,7 +87,7 @@ const caseStudies = {
       homeImage: "/patient-care-with-bi.jpg",
       title: "Enhancing patient care with BI and SQL analytics at qcentrio",
       content1:
-        "The client aimed to enhance their Java app for better population health analytics and healthcare insights.",
+        "The client sought to refine their Java application to deliver superior population health analytics and more insightful healthcare data.",
       content2:
         "With the streamlined company data processing and improved accuracy of reporting that Qcentrio provided, actionable insights were offered in patient care and operational efficiency across the health network improvement.",
       link: "/case-study/enhancing-patient-care-with-bi-and-sql-analytics",
@@ -98,7 +98,7 @@ const caseStudies = {
       image: "/land-management-cs.jpg",
       title: "Land Management in India Leading with a Blockchain Platform",
       content1:
-        "Leading Indian state transforms land management with innovative Blockchain platform to streamline.",
+        "Pioneering Indian state is revolutionizing land management by implementing an blockchain platform to enhancing security.",
       content2:
         "With the streamlined company data processing and improved accuracy of reporting that Qcentrio provided, actionable insights were offered in patient care and operational efficiency across the health network improvement.",
       link: "/case-study/transforming-land-management-in-india-leading-state-with-a-blockchain-platform",
@@ -108,7 +108,7 @@ const caseStudies = {
       homeImage: "/vehicle-aerodynamics.jpg",
       title: "Vehicle Aerodynamics Simulations for Automotive Company",
       content1:
-        "Vehicle aerodynamics simulations for enhanced efficiency and performance in product development.",
+        "Vehicle aerodynamics simulations enhance efficiency in automotive product development improve road handling and fuel economy.",
       content2:
         "By using advanced computational fluid dynamics (CFD) tools, automotive companies can simulate real-world conditions, assess performance impacts, and make informed decisions about design modifications before any physical prototype is built.",
       link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
@@ -118,7 +118,7 @@ const caseStudies = {
       homeImage: "/pharma-tech.jpg",
       title: "Transforming a pharmaceutical major’s sharepoint ecosystem",
       content1:
-        "A Leading pharmaceutical company embarked on a journey to overhaul its SharePoint ecosystem.",
+        "A Leading pharmaceutical company embarked on a strategic journey to comprehensively overhaul its SharePoint ecosystem for enhanced collaboration.",
       content2:
         "By integrating Azure's robust cloud capabilities with their existing SharePoint infrastructure, the company not only streamlined workflows but also set a new standard for innovation in pharmaceutical information management.",
       link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
