@@ -66,12 +66,12 @@ export default function TransformingSection() {
             <div>
               <h2>Banking</h2>
               <p>
-                Transform your banking establishment with support from
+                Transform your banking establishment with support from{" "}
                 <span>category-leading financial technology services.</span>
               </p>
               <p>
                 We blend deep industry expertise with digital know-how to create
-                seamless banking experiences, enhance security, and introduce
+                seamless banking experiences, enhance security, and introduce{" "}
                 <span>agile methodologies</span> that transform traditional
                 banking into digital-first enterprises.
               </p>
@@ -92,7 +92,7 @@ export default function TransformingSection() {
             <div>
               <h2>Consumer Goods & Services</h2>
               <p>
-                Create dynamic experiences for your consumers through
+                Create dynamic experiences for your consumers through{" "}
                 <span>purpose-driven analytics</span> and{" "}
                 <span>responsive supply chain management.</span>
               </p>
@@ -119,14 +119,14 @@ export default function TransformingSection() {
             <div>
               <h2>Healthcare</h2>
               <p>
-                Enhance patient care with
+                Enhance patient care with{" "}
                 <span>digital healthcare strategies</span> that optimize
                 clinical pathways, streamline operations, and ensure compliance
                 with healthcare standards, all while prioritizing patient
                 outcomes and care quality.
               </p>
               <p>
-                Reinvent your healthcare ecosystem with
+                Reinvent your healthcare ecosystem with{" "}
                 <span>future-fit digital strategies</span> to create easy access
                 and engaging experiences for your patients, employees, and
                 partners.
@@ -154,10 +154,10 @@ export default function TransformingSection() {
               </p>
               <p>
                 Build new business practices by streamlining your existing
-                approach and leverage
+                approach and leverage{" "}
                 <span>
                   automation, digital twins, and predictive maintenance
-                </span>
+                </span>{" "}
                 as critical drivers to enhance your operational productivity and
                 resilience.
               </p>
@@ -178,13 +178,13 @@ export default function TransformingSection() {
             <div>
               <h2>Public Service</h2>
               <p>
-                Embrace the continuous change to drive
+                Embrace the continuous change to drive{" "}
                 <span>measurable impact</span> for individuals and the community
                 by deploying digital solutions to modernize public services,
                 enhancing community engagement and operational transparency.
               </p>
               <p>
-                Improve <span>resource management</span> and
+                Improve <span>resource management</span> and{" "}
                 <span>citizen services</span> with technology that advances
                 public trust and civic engagement.
               </p>
@@ -205,14 +205,15 @@ export default function TransformingSection() {
             <div>
               <h2>Software and Applications</h2>
               <p>
-                Develop innovative software and platforms with agile, responsive
-                digital solutions. Get tailored services to meet the demands of
-                the constantly changing and evolving digital sector, driving
-                profitable growth and advancing adaptability.
+                Develop innovative software and platforms with{" "}
+                <span>agile, responsive digital solutions</span>. Get tailored
+                services to meet the demands of the constantly changing and
+                evolving digital sector, driving profitable growth and advancing
+                adaptability.
               </p>
               <p>
-                Realize this 2X faster with the category-best development,
-                deployment, and scaling approach.
+                Realize this <span>2X faster</span> with the category-best
+                development, deployment, and scaling approach.
               </p>
             </div>
             <div className="transfromings-item-image-container">
@@ -254,7 +255,7 @@ export default function TransformingSection() {
               </p>
               <p>
                 We help automotive leaders redefine the customer journey and
-                streamline production with
+                streamline production with{" "}
                 <span>intelligent, data-driven solutions.</span>
               </p>
             </div>
@@ -277,12 +278,13 @@ export default function TransformingSection() {
                 Engage audiences with compelling digital media experiences,
                 utilizing <span>data analytics for strategic engagement</span>{" "}
                 and monetization across various platforms and channels, ensuring
-                every message resonates in the
+                every message resonates in the{" "}
                 <span>dynamic media sector.</span>
               </p>
               <p>
-                Further, we accelerate adoption and time-to-market and build
-                innovative business structures with our service support.
+                Further, we accelerate <span>adoption</span> and{" "}
+                <span>time-to-market</span> and build innovative business
+                structures with our service support.
               </p>
             </div>
           </div>
@@ -302,7 +304,7 @@ export default function TransformingSection() {
               <h2>Energy & Utilities</h2>
               <p>
                 Embrace digital solutions for sustainable resource management
-                and <span>implement renewable technologies</span> and
+                and <span>implement renewable technologies</span> and{" "}
                 <span>smart grid systems</span> to power operations with
                 efficiency and forward-thinking sustainability practices.
               </p>
@@ -329,14 +331,14 @@ export default function TransformingSection() {
               <h2>Technology</h2>
               <p>
                 Build innovative products and services for your end customers
-                with our plethora of digital services support. Maintain a
+                with our plethora of digital services support. Maintain a{" "}
                 <span>cutting-edge position</span> in the high-tech landscape
                 with next-gen capabilities that nurture rapid development and
                 deployment.
               </p>
               <p>
-                Embrace
-                <span>cloud, IoT, AI, GenAI, and Blockchain technologies</span>
+                Embrace{" "}
+                <span>cloud, IoT, AI, GenAI, and Blockchain technologies</span>{" "}
                 to stay relevant and win in the long run.
               </p>
             </div>
@@ -356,7 +358,7 @@ export default function TransformingSection() {
             <div>
               <h2>Insurance</h2>
               <p>
-                As an insurance organization, you must
+                As an insurance organization, you must{" "}
                 <span>digitize, engage, and personalize</span> your
                 communication and reach to meet customers' ever-changing and
                 complex needs.
@@ -364,8 +366,8 @@ export default function TransformingSection() {
               <p>
                 With active service support, we transform the portfolio of risk
                 management and customer interactions and automate claims
-                processing and insurance products, improving
-                <span>efficiency</span> and
+                processing and insurance products, improving{" "}
+                <span>efficiency</span> and{" "}
                 <span>policyholder satisfaction</span>.
               </p>
             </div>
@@ -386,15 +388,14 @@ export default function TransformingSection() {
               <h2>Retail</h2>
               <p>
                 Modernize your retail ecosystem with future-ready digital
-                strategies that can redefine <span>e-commerce</span> and
-                <span>in-store experiences</span>
-                for your customers.
+                strategies that can redefine <span>e-commerce</span> and{" "}
+                <span>in-store experiences</span> for your customers.
               </p>
               <p>
                 Leverage cutting-edge technology with our various services
-                support to create
-                <span>seamless, personalized shopping experiences</span>
-                that build loyalty and drive short- and long-term sales.
+                support to create{" "}
+                <span>seamless, personalized shopping experiences</span> that
+                build loyalty and drive short- and long-term sales.
               </p>
             </div>
           </div>
@@ -415,16 +416,16 @@ export default function TransformingSection() {
               <p>
                 Redefine the travel experience for your end customers to
                 simplify <span>booking, travel, and accommodation</span>
-                processes with
+                processes with{" "}
                 <span>
                   efficient, secure, and personalized digital services.
                 </span>
               </p>
               <p>
-                Outsmart unforeseen circumstances and disruptions by building
+                Outsmart unforeseen circumstances and disruptions by building{" "}
                 <span>
                   predictive, prescriptive, and descriptive capabilities
-                </span>
+                </span>{" "}
                 with our <span>analytics, AI, and cloud services support.</span>
               </p>
             </div>

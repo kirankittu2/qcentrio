@@ -2874,10 +2874,15 @@ h2.blog-page-side-heading {
   scrollbar-width: none;
 }
 
+.transfromings-scroll-list .transfromings-scroll-list-content:nth-child(1){
+  scrollbar-gutter: stable;
+}
+
 
 @-moz-document url-prefix() {
   .transfromings-scroll-list .transfromings-scroll-list-content:nth-child(1){
     padding-right: 38px;
+    
   }
 }
 

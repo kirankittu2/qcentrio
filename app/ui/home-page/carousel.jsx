@@ -1,8 +1,8 @@
 "use client";
 
-import herobanner1 from "@/public/hero-banner-1.webp";
+import herobanner1 from "@/public/hero-banner-1.jpg";
 import herobanner2 from "@/public/hero-banner-2.webp";
-import herobanner3 from "@/public/hero-banner-3.webp";
+import herobanner3 from "@/public/hero-banner-3.jpg";
 import heroright from "@/public/hero-right.svg";
 import heroleft from "@/public/hero-left.svg";
 import Img from "next/image";
