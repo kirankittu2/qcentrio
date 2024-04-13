@@ -17,6 +17,7 @@ import support from "@/public/support.svg";
 import cloud from "@/public/cloud.svg";
 import arrow from "@/public/white-redirect-arrow.svg";
 import Script from "next/script";
+import { Suspense } from "react";
 
 export const metadata = {
   title:
@@ -49,14 +50,12 @@ function CareersHero() {
     <div className="careers-hero-section">
       <h1
         data-option="strip-slide-up"
-        className="hero-heading animate strip-slide-up strip-slide-black"
-      >
+        className="hero-heading animate strip-slide-up strip-slide-black">
         EMBRACE YOUR FUTURE WITH QCENTRIO
       </h1>
       <h2
         data-option="up"
-        className="careers-hero-subheading animate animate-hidden"
-      >
+        className="careers-hero-subheading animate animate-hidden">
         Where Innovation Meets Opportunity
       </h2>
       <div className="relative">
@@ -80,8 +79,7 @@ function CareersWhyQcentrio() {
     <div className="careers-why-qcentrio">
       <h2
         data-option="strip-slide-up"
-        className="careers-why-heading animate strip-slide-up strip-slide-black"
-      >
+        className="careers-why-heading animate strip-slide-up strip-slide-black">
         Why Qcentrio
       </h2>
       <p data-option="up" className="animate animate-hidden">
@@ -108,14 +106,12 @@ function CareersCommunity() {
     <div className="careers-community balance-section">
       <h2
         data-option="strip-slide-up"
-        className="section-heading animate strip-slide-up strip-slide-green"
-      >
+        className="section-heading animate strip-slide-up strip-slide-green">
         OUR CULTURE: A COMMUNITY OF INNOVATORS
       </h2>
       <p
         data-option="up"
-        className="careers-community-subheading animate animate-hidden"
-      >
+        className="careers-community-subheading animate animate-hidden">
         We believe in the power of diversity and collaboration. Our culture is
         built on the principles of:
       </p>
@@ -152,8 +148,7 @@ function Jobs() {
         <div className="jobs-content">
           <h2
             data-option="strip-slide-up"
-            className="jobs-content-heading animate strip-slide-up strip-slide-black"
-          >
+            className="jobs-content-heading animate strip-slide-up strip-slide-black">
             Join Us: Be Part of Something Bigger
           </h2>
           <p data-option="up" className="animate animate-hidden">
@@ -212,7 +207,9 @@ function Jobs() {
           </div>
         </div>
       </div>
-      <Pagination paginationNum="4" page="0" />
+      <Suspense>
+        <Pagination paginationNum="4" page="0" />
+      </Suspense>
     </div>
   );
 }
@@ -222,14 +219,12 @@ function Benefits() {
     <div className="careers-benefits">
       <h2
         data-option="strip-slide-up"
-        className="section-heading animate strip-slide-up strip-slide-white"
-      >
+        className="section-heading animate strip-slide-up strip-slide-white">
         Benefits: Your Well-being is Our Priority
       </h2>
       <p
         data-option="up"
-        className="careers-benefits-subheading animate animate-hidden"
-      >
+        className="careers-benefits-subheading animate animate-hidden">
         We prioritize the well-being and satisfaction of our employees with a
         comprehensive benefits package that includes:
       </p>
@@ -322,24 +317,21 @@ function CareerShowcase() {
       <div className="showcase-list">
         <div
           data-option="up"
-          className="career-showcase-card animate animate-hidden"
-        >
+          className="career-showcase-card animate animate-hidden">
           <Image src={showcase1} alt="" />
           <h2>Customized Upskilling</h2>
           <p>Tailored to your career goals and the latest market trends.</p>
         </div>
         <div
           data-option="up"
-          className="career-showcase-card animate animate-hidden"
-        >
+          className="career-showcase-card animate animate-hidden">
           <Image src={showcase2} alt="" />
           <h2>Hands-on Training</h2>
           <p>Practical experience in cutting-edge technologies.</p>
         </div>
         <div
           data-option="up"
-          className="career-showcase-card animate animate-hidden"
-        >
+          className="career-showcase-card animate animate-hidden">
           <Image src={showcase3} alt="" />
           <h2>Leadership Development</h2>
           <p>Courses designed to nurture the next generation of leaders.</p>
@@ -354,8 +346,7 @@ function CareerContact() {
     <div id="start-your-journey" className="careers-contact-section">
       <h2
         data-option="strip-slide-up"
-        className="animate strip-slide-up strip-slide-black"
-      >
+        className="animate strip-slide-up strip-slide-black">
         Ready to take the next step in your career?
       </h2>
       <h3 data-option="up" className="animate animate-hidden">
