@@ -123,7 +123,7 @@ const caseStudies = {
         "Transforming pharmaceutical major’s sharepoint ecosystem with azure",
       content1: "Content",
       content2:
-        "With the streamlined company data processing and improved accuracy of reporting that Qcentrio provided, actionable insights were offered in patient care and operational efficiency across the health network improvement.",
+        "By integrating Azure's robust cloud capabilities with their existing SharePoint infrastructure, the company not only streamlined workflows but also set a new standard for innovation in pharmaceutical information management.",
       link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
     },
   ],
