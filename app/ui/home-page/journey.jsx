@@ -64,7 +64,7 @@ export default function Journey() {
                       <Image
                         width={536}
                         height={591}
-                        src={study.image}
+                        src={study.homeImage}
                         alt=""
                       />
                     </div>

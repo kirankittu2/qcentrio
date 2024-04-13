@@ -84,6 +84,7 @@ const caseStudies = {
   children: [
     {
       image: "/enhancing-patient-care.jpg",
+      homeImage: "/enhancing-patient-care.jpg",
       title: "Enhancing patient care with BI and SQL analytics at qcentrio",
       content1:
         "The client aimed to enhance their Java app for better population health analytics and healthcare insights.",
@@ -93,6 +94,7 @@ const caseStudies = {
     },
 
     {
+      homeImage: "/land-management.jpg",
       image: "/land-management-cs.jpg",
       title:
         "Land Management in India Leading State with a Blockchain Platform",
@@ -104,7 +106,9 @@ const caseStudies = {
     },
     {
       image: "/vehicle-aerodynamics.jpg",
-      title: "Vehicle Aerodynamics Simulations for Automotive Company",
+      homeImage: "/automatic-vehicle.jpg",
+      title:
+        "Automating Vehicle Aerodynamics Simulations for Automotive Company",
       content1:
         "Vehicle aerodynamics simulations for enhanced efficiency and performance in product development.",
       content2:
@@ -113,9 +117,10 @@ const caseStudies = {
     },
     {
       image: "/sharepoint-ecosystem.jpg",
-      title: "Transforming pharmaceutical major’s sharepoint ecosystem",
-      content1:
-        "This strategic shift aimed to enhance collaboration, improve data accessibility, and bolster security across the organization.",
+      homeImage: "/sharepoint-ecosystem.jpg",
+      title:
+        "Transforming pharmaceutical major’s sharepoint ecosystem with azure",
+      content1: "Content",
       content2:
         "By integrating Azure's robust cloud capabilities with their existing SharePoint infrastructure, the company not only streamlined workflows but also set a new standard for innovation in pharmaceutical information management.",
       link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
