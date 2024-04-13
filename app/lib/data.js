@@ -1751,7 +1751,8 @@ const subServicePagesContent = {
           "Qcentrio is one of the leading providers of custom software and application development services, offering a comprehensive range of services from JAVA to MEAN and full-stack development. Our methodology is deeply rooted in understanding your business needs, ensuring we deliver functional and practical software solutions that embody your vision.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading:
+          "QCENTRIO’S EXPERTISE IN CUSTOM SOFTWARE/APPLICATION DEVELOPMENT",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
