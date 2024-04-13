@@ -27,7 +27,7 @@ export default function SubService({ params }) {
       <div className="hero">
         <NavBarContainer />
         <div className="breadcrump">
-          HOME <span></span> SERVICES
+          OFFERINGS <span></span> SERVICES
         </div>
       </div>
       <div className="relative">
@@ -36,7 +36,8 @@ export default function SubService({ params }) {
           data-option="up"
           className="sub-service-banner-image animate animate-hidden"
           src={subServiceBanner}
-          alt=""></Image>
+          alt=""
+        ></Image>
         <SubServiceContentSection data={data.contentSection} />
         <div className="sub-service-scroller">
           <div className="relative w-full h-full flex justify-center">
@@ -65,7 +66,8 @@ function SubServiceWhyChooseSection({ data }) {
     <div className="balance-section sub-services-why-choose-section">
       <h2
         data-option="strip-slide-up"
-        className="section-heading animate strip-slide-up strip-slide-black">
+        className="section-heading animate strip-slide-up strip-slide-black"
+      >
         {data.mainHeading}
       </h2>
 
@@ -75,7 +77,8 @@ function SubServiceWhyChooseSection({ data }) {
             <div
               data-option="up"
               className="animate animate-hidden"
-              key={index}>
+              key={index}
+            >
               <Image src={item.image} alt="" />
               <h2>{item.heading}</h2>
               <p>{item.content}</p>
@@ -96,7 +99,8 @@ function SubServiceHeroSection({ data }) {
             <h1
               data-option="strip-slide-up"
               className="section-heading animate strip-slide-up strip-slide-black"
-              dangerouslySetInnerHTML={{ __html: data.heading }}></h1>
+              dangerouslySetInnerHTML={{ __html: data.heading }}
+            ></h1>
           </div>
           <Button name="Get Started" />
         </div>
@@ -122,7 +126,8 @@ function SubServiceContentSection({ data }) {
       <div className="sub-service-heading-content">
         <h2
           data-option="strip-slide-up"
-          className="section-heading animate strip-slide-up strip-slide-black">
+          className="section-heading animate strip-slide-up strip-slide-black"
+        >
           {data.heading}
         </h2>
         <p data-option="up" className="animate animate-hidden">
@@ -141,7 +146,8 @@ function ServicesOfSubService({ data }) {
     <div className="services-of-sub-service">
       <h2
         data-option="strip-slide-up"
-        className="section-heading animate strip-slide-up strip-slide-black">
+        className="section-heading animate strip-slide-up strip-slide-black"
+      >
         {data.mainHeading}
       </h2>
       <div className="services-of-sub-service-holder">
@@ -150,7 +156,8 @@ function ServicesOfSubService({ data }) {
             <div
               data-option="up"
               key={index}
-              className="sub-service-card animate animate-hidden">
+              className="sub-service-card animate animate-hidden"
+            >
               <Image src={item.icon} alt=""></Image>
               <h2>{item.heading}</h2>
               <p>{item.content}</p>

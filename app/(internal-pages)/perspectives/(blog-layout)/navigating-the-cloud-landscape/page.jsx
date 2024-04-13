@@ -1,5 +1,5 @@
 import Image from "next/image";
-import blogMainImage from "@/public/blog-main-img.png";
+import blogMainImage from "@/public/cloud-computing.jpg";
 import linkedin from "@/public/linkedin.svg";
 import author from "@/public/blog-author.png";
 import AuthorBlock from "@/app/ui/blogs/author-block";
@@ -14,9 +14,9 @@ export default function SampleBlog() {
       </div>
       <h1
         data-option="strip-slide-up"
-        className="blog-page-title animate strip-slide-up strip-slide-black">
-        NAVIGATING THE CLOUD LANDSCAPE: 5 KEY STRATEGIES FOR EFFECTIVE CLOUD
-        ASSESSMENT
+        className="blog-page-title animate strip-slide-up strip-slide-black"
+      >
+        THE CLOUD LANDSCAPE: 5 KEY STRATEGIES FOR EFFECTIVE CLOUD ASSESSMENT
       </h1>
       <div className="blog-page-main-image">
         <Image src={blogMainImage} alt="" />
