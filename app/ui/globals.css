@@ -11,7 +11,7 @@
 
   /* text styles */
   /* --general-text: 16px; */
-  --general-text: 0.933vw;
+  --general-text: 0.8333333333333333vw;
   --general-text-no-frequent: 18px;
   --main-heading: 3.38vw;
   --main-heading-no-frequent: 55px;
@@ -102,7 +102,7 @@ p {
 
 .btn {
   font-family: "Quadran-Regular";
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
   color: white;
   padding: 17px 30px;
   background-color: var(--primary-color);
@@ -212,7 +212,7 @@ textarea {
 .section-content {
   font-family: "Quadran-Light";
   /* font-size: var(--general-text); */
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
   color: var(--content-green);
   margin-bottom: 20px;
   letter-spacing: -0.4px;
@@ -727,7 +727,7 @@ header {
 .lets-talk-container input {
   flex: 1;
   padding: 25px;
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
   padding-right: 190px;
   width: 100%;
 }
@@ -753,6 +753,10 @@ header {
   gap: 100px;
   /* transform: translateX( calc(-33.33333% - 33px)  ); */
   animation: scroll 30s linear infinite;
+}
+
+.horizontal-scroll  img{
+  height: 2.7vw;
 }
 
 @keyframes scroll {
@@ -1022,7 +1026,7 @@ header {
 .blogs-btn {
   font-family: "Quadran-Medium";
   /* font-size: 15px; */
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
   color: var(--primary-color);
   letter-spacing: -0.4px;
   display: flex;
@@ -1366,7 +1370,7 @@ header {
 
 .contact-column input {
   flex: 1;
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
   border: 2px solid #0a996a2e;
   border-radius: 12px;
 }
@@ -1379,7 +1383,7 @@ header {
   outline: none;
   padding: 20px;
   font-family: "Quadran-Medium";
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
 }
 
 .contact-btn-container {
@@ -1421,7 +1425,7 @@ header {
 
 .footer-item {
   /* font-size: 16px; */
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
   margin-bottom: 5px;
   letter-spacing: -0.4px;
   opacity: 0;
@@ -1431,7 +1435,7 @@ header {
 
 .footer-column {
   width: 100%;
-  padding-right: clamp(10px, 4.42vw, 85px);
+  padding-right: 3.59vw;
 }
 
 .footer-form-heading {
@@ -1453,7 +1457,7 @@ header {
 
 .footer-form-column input {
   border: 2px solid #0a996a2e;
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
 }
 
 .footer-form-column .lets-talk-container {
@@ -1531,7 +1535,7 @@ header {
   position: relative;
   /* cursor: pointer; */
   display: block;
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
 }
 
 .footer-checkbox label:before {
@@ -2156,7 +2160,7 @@ h2.blog-page-side-heading {
 
 .footer-form-sub-heading {
   margin-bottom: 20px;
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
 }
 
 .privacy-policy-check-text {
@@ -2401,7 +2405,7 @@ h2.blog-page-side-heading {
   border-radius: 18px;
   width: fit-content;
   padding: 7px 14px;
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
   font-family: "Quadran-Light";
   display: flex;
   gap: 20px;

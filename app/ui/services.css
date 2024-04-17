@@ -594,7 +594,7 @@
 
 .section-small-heading {
   /* font-size: 16px; */
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
   color: var(--primary-color);
   font-family: "Quadran-Medium";
   margin-bottom: 30px;
@@ -627,7 +627,7 @@
 
 .need-something-card p {
   color: white;
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
   font-family: "Quadran-Regular";
   letter-spacing: -0.5px;
   margin-bottom: 25px;
@@ -635,7 +635,7 @@
 
 .need-something-btn {
   /* font-size: 15px; */
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
   color: white;
   font-family: "Quadran-Medium";
   display: flex;
@@ -655,7 +655,7 @@
 
 .service-offerings-section-col-3 p {
   /* font-size: 15px; */
-  font-size: 0.933vw;
+  font-size: 0.8333333333333333vw;
   font-family: "Quadran-Light";
 }
 
