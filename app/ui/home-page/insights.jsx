@@ -14,8 +14,8 @@ export default function Insignts({ title, subheading }) {
   const [index, setIndex] = useState(0);
   const [scrollIndex, setScrollIndex] = useState(3);
   const [windowSize, setWindowSize] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
+    width: 0,
+    height: 0,
   });
 
   useEffect(() => {
