@@ -1,7 +1,8 @@
 import { sendMail } from "@/app/lib/actions";
 import Button from "./button";
+import CustomUploadInput from "./custom-upload-input";
 
-export default function Contact({ heading, subheading }) {
+export default function Contact({ heading, subheading, upload }) {
   return (
     <div className="contact-section balance-section">
       <h2
@@ -42,13 +43,18 @@ export default function Contact({ heading, subheading }) {
             placeholder="Email Address"
             required
           />
-          <input
-            data-option="up"
-            name="contact"
-            type="text"
-            className="animate-hidden animate"
-            placeholder="Contact Number"
-          />
+
+          {upload ? (
+            <CustomUploadInput />
+          ) : (
+            <input
+              data-option="up"
+              name="contact"
+              type="text"
+              className="animate-hidden animate"
+              placeholder="Contact Number"
+            />
+          )}
         </div>
         <textarea
           data-option="up"

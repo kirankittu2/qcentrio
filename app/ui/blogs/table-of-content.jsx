@@ -17,7 +17,7 @@ export default function TableOfContent() {
       const content = heading.textContent.trim();
       const id = content
         .replace(/\s+/g, "-")
-        .replace(/[^a-zA-Z0-9-]/g, " ")
+        .replace(/[^a-zA-Z0-9-]/g, "")
         .toLowerCase();
       heading.setAttribute("id", id);
 
@@ -33,7 +33,6 @@ export default function TableOfContent() {
         });
       }
     });
-    console.log(hierarchicalHeadings);
     setTableContent(hierarchicalHeadings);
   }, []);
 
@@ -51,7 +50,7 @@ export default function TableOfContent() {
             index > 1 &&
             index < tableContent.length - 2 && (
               <li key={index}>
-                <Link href={`#${item.id} `}>{item.title}</Link>
+                <Link href={`#${item.id}`}>{item.title}</Link>
                 <ul>
                   {item.children.map((child, childIndex) => {
                     return (

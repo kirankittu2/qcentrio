@@ -185,9 +185,11 @@ function Jobs() {
               <div className="job-title"> Hyperion Developer</div>
             </div>
             <div className="job-link-column">
-              <div className="job-link">
-                <Image src={arrow} alt="" />
-              </div>
+              <Link href="/careers/hyperion-developer">
+                <div className="job-link">
+                  <Image src={arrow} alt="" />
+                </div>
+              </Link>
             </div>
           </div>
 

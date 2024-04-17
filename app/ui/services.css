@@ -480,12 +480,13 @@
 .sub-service-heading-section {
   display: flex;
   flex-direction: column;
-  padding-right: clamp(50px, 21.8vw, 420px);
+  /* padding-right: clamp(50px, 21.8vw, 420px); */
 }
 
 .sub-service-heading-section .section-heading {
   text-align: center;
   font-family: "Quadran-Black";
+  text-transform: uppercase;
 }
 
 .sub-service-heading-section .section-heading span {
@@ -508,10 +509,16 @@
 
 .sub-service-hero-section {
   padding-left: clamp(50px, 21.8vw, 420px);
+  padding-right: clamp(50px, 21.8vw, 420px);
   padding-top: 50px;
   padding-bottom: 50px;
-  display: flex;
-  gap: 50px;
+  /* display: flex;
+  gap: 50px; */
+}
+
+.sub-service-hero-section > div{
+    display: flex;
+    justify-content: center;
 }
 
 .sub-service-slider {
@@ -586,7 +593,8 @@
 }
 
 .section-small-heading {
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 0.933vw;
   color: var(--primary-color);
   font-family: "Quadran-Medium";
   margin-bottom: 30px;
@@ -595,6 +603,7 @@
 .service-offerings-section-col-1 .section-heading {
   font-family: "Quadran-Black";
   font-size: 24px;
+  font-size: 1.25vw;
   line-height: 28px;
   text-transform: uppercase;
 }
@@ -618,13 +627,15 @@
 
 .need-something-card p {
   color: white;
+  font-size: 0.933vw;
   font-family: "Quadran-Regular";
   letter-spacing: -0.5px;
   margin-bottom: 25px;
 }
 
 .need-something-btn {
-  font-size: 15px;
+  /* font-size: 15px; */
+  font-size: 0.933vw;
   color: white;
   font-family: "Quadran-Medium";
   display: flex;
@@ -633,7 +644,8 @@
 }
 
 .service-offerings-section-col-3 h2 {
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 1.56vw;
   font-family: "Quadran-Bold";
   line-height: 35px;
   color: #404040;
@@ -642,7 +654,8 @@
 }
 
 .service-offerings-section-col-3 p {
-  font-size: 15px;
+  /* font-size: 15px; */
+  font-size: 0.933vw;
   font-family: "Quadran-Light";
 }
 

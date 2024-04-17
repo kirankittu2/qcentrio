@@ -17,6 +17,7 @@ export default function Carousel() {
   const [slideItem, setItem] = useState("");
 
   const [hovered, setHovered] = useState(false);
+  const [inputHovered, setInputHovered] = useState(false);
 
   useEffect(() => {
     const items = wrapper.current.querySelectorAll(".hero-slide");
@@ -60,6 +61,15 @@ export default function Carousel() {
         }, (index + 1) * 25);
       });
     });
+
+    // const allInputs = document.querySelectorAll(".home-carousel-input");
+    // allInputs.forEach((input) => {
+    //   if (input === document.activeElement) {
+    //     setHovered((hover) => hover == true);
+    //   } else {
+    //     setHovered((hover) => hover == false);
+    //   }
+    // });
   }, []);
 
   useEffect(() => {
@@ -140,14 +150,22 @@ export default function Carousel() {
     setIndex(2);
   }
 
+  function isActive(flag) {
+    if (flag == true || inputHovered == true) {
+      setHovered(true);
+    } else {
+      setHovered(false);
+    }
+  }
+
   return (
     <div ref={conatiner} className="hero-carousel-container">
       <div ref={wrapper} className="hero-carousel-wrapper">
         <div
           data-index="0"
           className="hero-slide-1 hero-slide active"
-          onMouseOver={() => setHovered((hover) => (hover = true))}
-          onMouseLeave={() => setHovered((hover) => (hover = false))}>
+          onMouseOver={() => isActive(true)}
+          onMouseLeave={() => isActive(false)}>
           <div>
             <Img className="slide-image" src={herobanner1} alt="" />
             <div id="hero-carousel-content" className="hero-content ">
@@ -158,7 +176,13 @@ export default function Carousel() {
                 Aligned with Your Business&rsquo;s Current and Future Needs
               </p>
               <div className="lets-talk-container">
-                <input type="text" placeholder="Email Address" />
+                <input
+                  type="text"
+                  placeholder="Email Address"
+                  className="home-carousel-input"
+                  onFocus={() => setInputHovered((hover) => (hover = true))}
+                  onBlur={() => setInputHovered((hover) => (hover = false))}
+                />
                 <div className="input-btn">
                   <Button name="Lets Talk" />
                 </div>
@@ -169,8 +193,8 @@ export default function Carousel() {
         <div
           data-index="1"
           className="hero-slide-2 hero-slide"
-          onMouseOver={() => setHovered((hover) => (hover = true))}
-          onMouseLeave={() => setHovered((hover) => (hover = false))}>
+          onMouseOver={() => isActive(true)}
+          onMouseLeave={() => isActive(false)}>
           <div>
             <Img className="slide-image" src={herobanner2} alt="" />
             <div id="hero-carousel-content" className="hero-content">
@@ -181,7 +205,13 @@ export default function Carousel() {
                 With E2E Digital Transformation Services and Solutions
               </p>
               <div className="lets-talk-container">
-                <input type="text" placeholder="Email Address" />
+                <input
+                  type="text"
+                  placeholder="Email Address"
+                  className="home-carousel-input"
+                  onFocus={() => setInputHovered((hover) => (hover = true))}
+                  onBlur={() => setInputHovered((hover) => (hover = false))}
+                />
                 <div className="input-btn">
                   <Button name="Lets Talk" />
                 </div>
@@ -192,8 +222,8 @@ export default function Carousel() {
         <div
           data-index="2"
           className="hero-slide-3 hero-slide"
-          onMouseOver={() => setHovered((hover) => (hover = true))}
-          onMouseLeave={() => setHovered((hover) => (hover = false))}>
+          onMouseOver={() => isActive(true)}
+          onMouseLeave={() => isActive(false)}>
           <div>
             <Img className="slide-image" src={herobanner3} alt="" />
             <div id="hero-carousel-content" className="hero-content">
@@ -202,7 +232,13 @@ export default function Carousel() {
               </h1>
               <p className="hero-sub-heading">Commitment to Continuity</p>
               <div className="lets-talk-container">
-                <input type="text" placeholder="Email Address" />
+                <input
+                  type="text"
+                  placeholder="Email Address"
+                  className="home-carousel-input"
+                  onFocus={() => setInputHovered((hover) => (hover = true))}
+                  onBlur={() => setInputHovered((hover) => (hover = false))}
+                />
                 <div className="input-btn">
                   <Button name="Lets Talk" />
                 </div>
@@ -212,12 +248,20 @@ export default function Carousel() {
         </div>
       </div>
       <div className="hero-carousel-nav">
-        <div className="hero-carousel-left" onClick={handleLeft}>
+        <div
+          onMouseOver={() => setHovered((hover) => (hover = true))}
+          onMouseLeave={() => setHovered((hover) => (hover = false))}
+          className="hero-carousel-left"
+          onClick={handleLeft}>
           <div className="hero-carousel-nav-buttons-container">
             <Img fill src={heroleft} alt="" />
           </div>
         </div>
-        <div className="hero-carousel-right" onClick={handleRight}>
+        <div
+          onMouseOver={() => isActive(true)}
+          onMouseLeave={() => isActive(false)}
+          className="hero-carousel-right"
+          onClick={handleRight}>
           <div className="hero-carousel-nav-buttons-container">
             <Img fill src={heroright} alt="" />
           </div>

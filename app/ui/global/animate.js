@@ -78,7 +78,6 @@ export default function Animate() {
             );
             if (element !== strip && singleSpan == null) {
               element = strip;
-              console.log(strip);
               const rows = strip.textContent.split(" ");
 
               strip.innerHTML = "";
@@ -153,6 +152,8 @@ export default function Animate() {
       observeElements(".impact > ul > li", "slideup");
       observeElements(".impact > p", "slideup");
       observeElements(".footer-item", "slideup");
+      observeElements(".job-description-section-content li", "slideup");
+      // observeElements(".blogs-container > .card", "slideup");
       // observeElements(".succes-path-num", "numUP");
     }
 

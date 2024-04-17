@@ -1432,145 +1432,192 @@ const subServicePagesContent = {
     },
     2: {
       heroSectionData: {
-        heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        heading: "Harness the Power of Big Data for Informed Decision-Making",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Expert Big Data Analytics Services and Solutions | Qcentrio",
+        description:
+          "Unlock actionable insights and enhance operational efficiency with Qcentrio's big data services, featuring custom solutions and predictive analytics.",
       },
       breadCrump: {
         main: "ADVANCED TECHNOLOGY SOLUTIONS",
         link: "/offerings/advanced-technology-solutions",
-        current:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        current: "Big Data Services and Solutions",
       },
-      contactHead: "",
+      contactHead:
+        "Transform your business with data-driven insights and advanced analytics",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading:
+          "Transform Your Data into Strategic Assets with Qcentrio’s Big Data Services",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "Harnessing vast datasets effectively is a critical differentiator for businesses poised to lead and innovate. Enterprises looking for long-term success need to navigate the data-led transformation confidently and maintain a competitive edge in their industry.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "Qcentrio, as your premier partner in big data services, can enable your organization to unlock significant value through actionable insights and data-driven decisions. Our approach assesses and enhances your analytics maturity to exceed industry standards, integrating advanced data monetization and value-creation strategies. With a focus on decision science, design thinking, and data storytelling, we ensure analytics are deeply embedded in your processes, optimizing every business outcome.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading: "Qcentrio’s Big Data Services and Solutions Include",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "Data Analytics and Interpretation",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Develop a robust infrastructure to harness and decipher vast data sets using advanced tools like Apache Hadoop and NoSQL databases, enabling deep insights into your business dynamics.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "Custom Big Data Solutions",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Develop bespoke solutions for comprehensive data management, collecting, processing, analyzing, and visualizing data with state-of-the-art technologies such as Apache Spark, Python, and R. These solutions empower you with actionable insights for informed decision-making.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Data Management and Integration",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Ensure the integrity, security, and seamless integration of your data with existing systems, facilitating streamlined operations and enhanced business process efficiency.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Predictive Analytics and Modeling",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Employ predictive analytics to anticipate market trends, decode customer behaviors, and strategize proactively, giving you a competitive edge in your industry.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "Real-Time Data Processing",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Adopt systems that support instantaneous data analysis and decision-making. This will enable you to respond adeptly to market dynamics and capitalize on emerging opportunities swiftly.",
+          },
+          {
+            num: "06",
+            heading: "Data Visualization and Reporting",
+            content:
+              "Transform complex datasets into intuitive visual representations, simplifying the interpretation of insights for stakeholders and enhancing decision-making processes across your organization.",
+          },
+          {
+            num: "07",
+            heading: "Big Data Consulting",
+            content:
+              "Tap into our expertise to craft a tailored big data strategy, architecture, and deployment plan that aligns with your operational goals and maximizes efficiency.",
+          },
+          {
+            num: "08",
+            heading: "Machine Learning and AI Integration",
+            content:
+              "Enhance your significant data initiatives with AI and machine learning, discovering patterns and predictive insights beyond human analytical capabilities to secure a strategic advantage.",
+          },
+          {
+            num: "09",
+            heading: "Cloud Data Solutions",
+            content:
+              "Optimize your data storage and processing in the cloud, leveraging cutting-edge cloud analytics tools for scalable, cost-effective data management solutions that enhance operational efficiency and reduce overhead.",
+          },
+          {
+            num: "10",
+            heading: "Cloud Data Solutions",
+            content:
+              "Optimize your data storage and processing in the cloud, leveraging cutting-edge cloud analytics tools for scalable, cost-effective data management solutions that enhance operational efficiency and reduce overhead.",
+          },
+          {
+            num: "11",
+            heading: "Internet of Things (IoT) Data Integration",
+            content:
+              "Integrate IoT data to gain real-time insights into user interactions and machine performance, enriching your analytics landscape and providing a deeper understanding of customer needs and product performance.",
+          },
+          {
+            num: "12",
+            heading: "Data Governance and Compliance",
+            content:
+              "Establish robust frameworks to uphold standards, manage policies, and ensure compliance with international regulations, safeguarding your data assets and reinforcing business integrity.",
+          },
+          {
+            num: "13",
+            heading: "Sentiment Analysis and Social Media Analytics",
+            content:
+              "Utilize big data tools to analyze customer sentiment across social platforms, refining your marketing strategies and product developments to boost customer satisfaction and loyalty.",
           },
         ],
       },
       servicesOfSubService: {
-        mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        mainHeading: "Industries Benefiting from Qcentrio’s Big Data Solutions",
         list: [
           {
             icon: healthcare,
-            heading: "HEALTHCARE",
+            heading: "Healthcare",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Manage patient data, improve treatments, and enhance healthcare operations with data-driven insights.",
           },
           {
             icon: finace,
-            heading: "FINANCE",
+            heading: "Retail",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              "Personalize shopping experiences and optimize supply chains with actionable data.",
           },
           {
             icon: manufacturing,
-            heading: "MANUFACTURING",
+            heading: "Financial Services",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              "Detect fraud, manage risks, and personalize financial products based on big data analytics.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "Telecommunications",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Optimize network performance and customer experience using insights from big data.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "Manufacturing",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              "Streamline manufacturing processes and predictive maintenance using real-time data analytics.",
           },
           {
             icon: travel,
-            heading: "TRAVEL & TRANSPORTATION",
+            heading: "Transportation",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+              "Enhance route optimization and logistics planning through big data solutions.",
           },
           {
             icon: eCommerce,
-            heading: "E-COMMERCE",
+            heading: "Energy",
             content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+              ": Make informed decisions on energy production, distribution, and consumption with data analytics.",
           },
           {
             icon: realEstate,
-            heading: "REAL ESTATE",
+            heading: "Media and Entertainment",
             content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+              "Analyze viewer preferences and media consumption patterns to create targeted content and advertising strategies.",
           },
           {
             icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
+            heading: "Supply Chain Management",
             content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Integrate big data analytics to enhance supply chain visibility, demand forecasting, and inventory optimization.",
           },
         ],
       },
       whyChooseSection: {
-        mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        mainHeading: "Why Qcentrio is Your Choice for Big Data Services",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Expert Data Team",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              "We harness the collective intelligence of our skilled data scientists and analysts to ensure that your big data challenges are met and transcended.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Customization",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "Our big data solutions are not off-the-shelf; they align perfectly with your business's objectives, making your big data initiatives as singular as your brand.",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "Compliance",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "We are committed to ensuring that all big data services meet and exceed industry standards, providing you with peace of mind and safeguarding your reputation.",
           },
         ],
       },
@@ -1583,13 +1630,12 @@ const subServicePagesContent = {
       metaData: {
         title: "Expert SAP Services and Support | Qcentrio",
         description:
-          ": Lift your business with Qcentrio's SAP services. Our SAP S/4HANA, CRM, and Analytics solutions ensure your operations are streamlined and future-proof.",
+          "Lift your business with Qcentrio's SAP services. Our SAP S/4HANA, CRM, and Analytics solutions ensure your operations are streamlined and future-proof.",
       },
       breadCrump: {
         main: "ADVANCED TECHNOLOGY SOLUTIONS",
         link: "/offerings/advanced-technology-solutions",
-        current:
-          "MAXIMIZE ENTERPRISE AGILITY AND INNOVATION WITH ADVANCED SAP SERVICES SUPPORT",
+        current: "Comprehensive SAP Services",
       },
       contactHead:
         "Redefine your operational capabilities with specialized SAP Services",
@@ -1675,7 +1721,7 @@ const subServicePagesContent = {
             icon: manufacturing,
             heading: "MANUFACTURING",
             content:
-              ": Integrate and automate core production and supply chain processes with SAP’s robust suite of manufacturing solutions.",
+              "Integrate and automate core production and supply chain processes with SAP’s robust suite of manufacturing solutions.",
           },
           {
             icon: engineering,
@@ -1739,7 +1785,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "ADVANCED TECHNOLOGY SOLUTIONS",
         link: "/offerings/advanced-technology-solutions",
-        current: "CONVERT YOUR IDEAS INTO LEADING SOFTWARE PRODUCTS",
+        current: "Custom Software Application Development",
       },
       contactHead: "Transform your software ideas with Qcentrio",
       contentSection: {
@@ -1910,97 +1956,139 @@ const subServicePagesContent = {
     },
     5: {
       heroSectionData: {
-        heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        heading: "Navigate the Future with Smart IoT Integration",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Advanced IoT Solutions for Smart Business | Qcentrio",
+        description:
+          "Qcentrio's IoT solutions enhance business operations with smart device connectivity, custom integration, and insightful data analytics for operational excellence.",
       },
       breadCrump: {
         main: "ADVANCED TECHNOLOGY SOLUTIONS",
         link: "/offerings/advanced-technology-solutions",
-        current:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        current: "Internet of Things Solutions",
       },
-      contactHead: "",
+      contactHead: "Propel your business forward with new-age IoT capabilities",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading:
+          "Transform Your Business Operations with Qcentrio's IoT Solutions",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "As enterprises struggle with the complexities of digital transformation, the need for cohesive integration across digital technologies becomes crucial. The Internet of Things (IoT) is a pivotal technology, transforming industries by linking interconnected processes and systems. However, challenges like piecemeal automation and siloed operations often hinder full potential realization, leading to unintegrated data and diminished system-wide visibility and control. ",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "At Qcentrio, we address these critical issues by providing advanced IoT solutions and services support that seamlessly integrate into your business operations, enhancing performance and operational efficiency. We help unify and leverage cyber-physical systems across your value chain, empowering your enterprise to fully realize the value of supply chain transformation investments and lead impactful Industry X.0 initiatives.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading:
+          "Qcentrio's IoT Services Enable Smart, Efficient Operations",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "Custom IoT Integration",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Tailor IoT solutions to your unique business needs across industries like manufacturing, retail, and healthcare, enhancing process efficiency and operational fluidity.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "Smart Device Connectivity",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Facilitate seamless real-time data exchange and control with interconnected devices, empowering you to make informed decisions swiftly.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Data Analytics and Insights",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Harness the power of IoT-generated data for detailed analytics and insights, driving strategic decisions that keep you competitive and proactive in spotting new opportunities.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Predictive Maintenance and Monitoring",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Leverage IoT for continuous equipment monitoring to minimize downtime and maintenance costs, thereby extending asset longevity and optimizing resource utilization.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "IoT Security Solutions",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Secure your IoT ecosystem with advanced protocols to shield against cyber threats and ensure data integrity, maintaining uninterrupted operations.",
+          },
+          {
+            num: "06",
+            heading: "User Interface for IoT Devices",
+            content:
+              "Design intuitive user interfaces for your IoT solutions to boost usability and accessibility, increasing productivity and enhancing user engagement.",
+          },
+          {
+            num: "07",
+            heading: "IoT for Supply Chain Management",
+            content:
+              "Revolutionize your supply chain with IoT-enabled real-time tracking, inventory management, and logistics optimization, reducing costs and elevating customer satisfaction.",
+          },
+          {
+            num: "08",
+            heading: "Energy Management with IoT",
+            content:
+              "Implement smart IoT solutions for energy monitoring and management to cut costs and reduce your carbon footprint, supporting your sustainability goals.",
+          },
+          {
+            num: "09",
+            heading: "IoT Asset Tracking Solutions",
+            content:
+              "Deploy sophisticated tracking systems to monitor assets in real-time, minimizing loss risks and enhancing asset utilization, thereby cutting unnecessary expenditures.",
+          },
+          {
+            num: "10",
+            heading: "IoT-Enabled Wearable Devices",
+            content:
+              "Create custom wearable devices focused on health, fitness, and personal security. These devices provide vital connectivity and insights on the move, thus improving employee wellness and safety.",
+          },
+          {
+            num: "11",
+            heading: "Industrial IoT (IIoT) Solutions",
+            content:
+              "Utilize IoT in industrial settings to boost machine-to-machine communication, enhance operational efficiency, and facilitate predictive maintenance, streamlining your industrial operations.",
+          },
+          {
+            num: "12",
+            heading: "IoT for Smart Cities",
+            content:
+              "Develop innovative IoT solutions for urban management, enhancing public services, resource management, and overall urban quality of life, paving the way for sustainable and thriving smart cities.",
           },
         ],
       },
       servicesOfSubService: {
-        mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        mainHeading: "Industries Transforming with Qcentrio’s IoT Solutions",
         list: [
           {
             icon: healthcare,
-            heading: "HEALTHCARE",
+            heading: "Automotive",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Advance vehicle telematics and smart manufacturing processes with integrated IoT solutions.",
           },
           {
             icon: finace,
-            heading: "FINANCE",
+            heading: "Smart Home & Building",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              "IoT can enhance home and building automation for improved security, energy management, and convenience.",
           },
           {
             icon: manufacturing,
-            heading: "MANUFACTURING",
+            heading: "Agriculture",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              ": Deploy IoT for precision farming, enabling smarter resource management and crop monitoring.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "Retail",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Revolutionize the retail experience with IoT for inventory management, customer engagement, and personalized shopping experiences.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "Healthcare",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              ": Improve patient care and healthcare operations with IoT devices that monitor health data and manage hospital resources.",
           },
           {
             icon: travel,
@@ -2010,45 +2098,44 @@ const subServicePagesContent = {
           },
           {
             icon: eCommerce,
-            heading: "E-COMMERCE",
+            heading: "Logistics",
             content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+              "Transform logistics with IoT for enhanced tracking, efficient routing, and fleet management.",
           },
           {
             icon: realEstate,
-            heading: "REAL ESTATE",
+            heading: "Utilities",
             content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+              "Utilize IoT for smart grid management and real-time utility service monitoring.",
           },
           {
             icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
+            heading: "Manufacturing",
             content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Increase production efficiency and safety with IoT-powered industrial automation and real-time analytics.",
           },
         ],
       },
       whyChooseSection: {
-        mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        mainHeading: "Why Leverage Qcentrio for Your IoT Solutions?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Customization and Expertise",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              ": Get custom-developed IoT solutions to fit your industry's needs, crafted by experts with deep technological proficiency.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Scalable and Seamless Integration",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "Our IoT solutions promise seamless integration into your current systems, providing scalability to grow with your business.",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "Continuous Support",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "Benefit from Qcentrio's round-the-clock support, ensuring your IoT solutions perform optimally at all times.",
           },
         ],
       },
@@ -2065,7 +2152,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "ADVANCED TECHNOLOGY SOLUTIONS",
         link: "/offerings/advanced-technology-solutions",
-        current: "BRING YOUR SOFTWARE VISION TO LIFE",
+        current: "Product Engineering Services",
       },
       contactHead: "Partner with Qcentrio for Exceptional Product Engineering",
       contentSection: {
@@ -2242,7 +2329,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "ADVISORY AND STRATEGIC SERVICES",
         link: "/offerings/advisory-and-strategic-services",
-        current: "SECURE YOUR DIGITAL FOOTPRINT, FOCUS ON GROWTH",
+        current: "Audit and Assurance Services",
       },
       contactHead:
         "Strengthen the integrity of your digital systems with custom audits ",
@@ -2389,7 +2476,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "ADVISORY AND STRATEGIC SERVICES",
         link: "/offerings/advisory-and-strategic-services",
-        current: "TRANSFORMING HEALTHCARE WITH EXPERT EPIC INTEGRATION",
+        current: "EPIC Advisory Services",
       },
       contactHead:
         "Enhance your healthcare services with E2E EPIC Advisory services",
@@ -2518,8 +2605,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "ADVISORY AND STRATEGIC SERVICES",
         link: "/offerings/advisory-and-strategic-services",
-        current:
-          "SEAMLESS INTEGRATION WITH EHR SYSTEM FOR ENHANCED CLINICAL, OPERATIONAL, AND FINANCIAL EFFICIENCIES",
+        current: "Oracle Cerner Advisory Services",
       },
       contactHead:
         "Tap into Qcentrio's Oracle Cerner Advisory Services to transform your healthcare operations",
@@ -2659,7 +2745,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "ADVISORY AND STRATEGIC SERVICES",
         link: "/offerings/advisory-and-strategic-services",
-        current: "NAVIGATE AND MITIGATE DIGITAL RISKS WITH CONFIDENCE",
+        current: "Risk Advisory Services",
       },
       contactHead: "Strengthen Your Business Against Digital Threats",
       contentSection: {
@@ -2810,8 +2896,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "ADVISORY AND STRATEGIC SERVICES",
         link: "/offerings/advisory-and-strategic-services",
-        current:
-          "ENSURE SUPERIOR QUALITY AND PERFORMANCE IN YOUR DIGITAL SOLUTIONS",
+        current: "Specialty Services",
       },
       contactHead:
         "Enhance the value of your digital products and stay ahead of the competition",
@@ -2944,8 +3029,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "ADVISORY AND STRATEGIC SERVICES",
         link: "/offerings/advisory-and-strategic-services",
-        current:
-          "NAVIGATE COMPLEX MERGERS & ACQUISITIONS WITH STRATEGIC DIGITAL INSIGHT",
+        current: "Mergers & Acquisitions Advisory Services",
       },
       contactHead: "Transform your business with a well-executed M&A",
       contentSection: {
@@ -3082,138 +3166,159 @@ const subServicePagesContent = {
     1: {
       heroSectionData: {
         heading:
-          "SEAMLESS INTEGRATION WITH EHR SYSTEM FOR ENHANCED CLINICAL, OPERATIONAL, AND FINANCIAL EFFICIENCIES",
+          "Experience Seamless Blockchain Integration for Business Excellence",
       },
       metaData: {
-        title: "",
-        description: "",
+        title:
+          "Expert Blockchain Integration and Deployment Services | Qcentrio",
+        description:
+          "Enhance your business infrastructure with Qcentrio’s blockchain integration and deployment services, ensuring high security, transparency, and efficiency.",
       },
       breadCrump: {
         main: "BLOCKCHAIN ADVISORY AND OFFERINGS",
         link: "/offerings/blockchain-advisory-and-offerings",
-        current:
-          "SEAMLESS INTEGRATION WITH EHR SYSTEM FOR ENHANCED CLINICAL, OPERATIONAL, AND FINANCIAL EFFICIENCIES",
+        current: "Blockchain Integration and Deployment Services",
       },
-      contactHead: "",
+      contactHead:
+        "Experience next-gen blockchain solutions for secured and seamless operation",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
         heading:
-          "Lift Healthcare Efficiency with Qcentrio's Oracle Cerner Advisory Services",
+          "Discover Qcentrio’s Blockchain Integration and Deployment Services for Transformational Impact",
         content1:
-          "Healthcare institutions face the challenge of integrating next-gen EHR systems into their complex operational framework.",
+          "Integrating and deploying blockchain technology presents significant challenges due to its complexity and the need for deep technical expertise. Organizations often struggle to realize their full potential, which can hinder the timely adoption and scalability of blockchain solutions within business operations. ",
         content2:
-          "As a leading name in medical software, Oracle Cerner presents an opportunity for transformative efficiency. Qcentrio is at the forefront of this integration, simplifying the web of EHR system incorporation with expert-led Oracle Cerner Advisory Services, ensuring healthcare providers can achieve the peak of operational excellence and patient care.",
+          "Qcentrio addresses these challenges by providing tailored blockchain integration and deployment services that align with your specific business requirements. Our team of experts ensures that blockchain technology enhances operational efficiency and security without disrupting existing workflows. By partnering with Qcentrio, your organization gains access to comprehensive blockchain solutions, from strategic planning through seamless implementation, enabling you to secure a competitive edge in your industry and stay ahead of the curve.",
       },
       offeringsSetion: {
-        mainHeading: "QCENTRIO'S ORACLE CERNER ADVISORY SERVICES",
+        mainHeading:
+          "Transform Your Operations with Qcentrio’s Blockchain Services  ",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Oracle Cerner Implementation",
+            heading: "Blockchain Strategy and Consultation",
             content:
-              "Implement Oracle Cerner's suite of solutions, tailoring the EHR system to streamline processes for increased efficiency.",
+              "Forge a distinct and impactful blockchain strategy specifically crafted to align with your business goals, positioning you to outpace competitors in the evolving digital landscape.",
           },
           {
             num: "02",
-            heading: "Customized Cerner Solutions",
+            heading: "Custom Blockchain Integration",
             content:
-              "Create bespoke Cerner solutions specifically designed to meet the multifaceted needs of your healthcare environment.",
+              "Seamlessly integrate blockchain technology into your existing systems, enhancing security and operational efficiency and streamlining business processes for improved agility without disrupting your operations.",
           },
           {
             num: "03",
-            heading: "Operational Excellence & Compliance",
+            heading: "Blockchain Deployment",
             content:
-              "Streamline patient data workflows, ensure security and privacy, and navigate regulatory compliance complexities.",
+              "Execute and deploy tailored blockchain solutions that are meticulously optimized for your specific business environment to meet your unique operational demands.",
           },
           {
             num: "04",
-            heading: "Continuous Improvement & Support",
+            heading: "Post-Deployment Support and Maintenance",
             content:
-              "Receive ongoing optimization and support to constantly elevate your Cerner EHR system performance.",
+              "Get continuous support and maintenance for your blockchain solutions, ensuring they operate at peak performance, any issues are promptly resolved, and business continuity is assured.",
           },
           {
             num: "05",
-            heading: "Healthcare Data Analytics",
+            heading: "Blockchain Scalability Solutions",
             content:
-              "Unlock your enterprise data's full potential to leverage actionable insights, improving clinical outcomes and operational efficiency.",
+              "Design your blockchain architecture to scale effortlessly with your business growth, managing increased transactions and data volumes without compromising performance.",
           },
           {
             num: "06",
-            heading: "System Customization and Integration",
+            heading: "Smart Contract Auditing",
             content:
-              "Extend the functionality of your Oracle Cerner platform with custom integrations that cater to your unique organizational needs.",
+              "Conduct comprehensive audits of smart contracts to verify their security and functionality before deployment, minimizing potential risks and ensuring reliability.",
           },
           {
             num: "07",
-            heading: "Training and User Adoption",
+            heading: "Decentralized Identity Solutions",
             content:
-              "Get comprehensive training services to ensure high user adoption rates, maximizing the value of your EHR investment.",
+              "Implement advanced blockchain-based identity verification systems to bolster security and protect user privacy, ensuring the confidentiality of sensitive customer information.",
           },
           {
             num: "08",
-            heading: "Migration & Data Conversion",
+            heading: "Cross-Chain Integration Services",
             content:
-              "Transition from legacy systems to the Oracle Cerner platform, ensuring no data loss and continuity in patient care.",
-          },
-          {
-            num: "09",
-            heading: "Interoperability Solutions",
-            content:
-              "Enhance patient care with custom interoperability solutions that enable Oracle Cerner to communicate effectively with other healthcare systems.",
-          },
-          {
-            num: "10",
-            heading: "Performance Optimization",
-            content:
-              "Maximize the efficiency and reliability of your Oracle Cerner EHR with our performance optimization services, ensuring your system operates at peak performance.",
+              "These services facilitate interoperability across different blockchain platforms, enhancing functionality and broadening the scope of potential applications while ensuring seamless data flow between systems.",
           },
         ],
       },
       servicesOfSubService: {
-        mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        mainHeading: "Leverage Blockchain Across Various Industries",
         list: [
           {
             icon: healthcare,
-            heading: "HOSPITALS",
+            heading: "Finance",
             content:
-              "Implement a fully integrated EHR system to coordinate patient care and optimize hospital workflows.",
+              "Secure financial transactions and automate record-keeping, reducing fraud and enhancing compliance.",
           },
           {
             icon: finace,
-            heading: "CLINICS",
+            heading: "Healthcare",
             content:
-              "Deploy Cerner's ambulatory solutions to enhance patient engagement and streamline clinic operations.",
+              "Improve the security of patient records and enhance data sharing across providers with blockchain solutions.",
           },
           {
             icon: manufacturing,
-            heading: "SPECIALTY CARE",
+            heading: "Supply Chain",
             content:
-              "Tailor Cerner's specialized functionalities to the unique requirements of various medical specialties.",
+              "Increase transparency and traceability in supply chains, reducing delays and potential fraud.",
+          },
+          {
+            icon: manufacturing,
+            heading: "Government",
+            content:
+              "Enhance public sector transparency and trust by securely storing and managing sensitive data.",
+          },
+          {
+            icon: manufacturing,
+            heading: "Retail",
+            content:
+              "Streamline inventory management and enhance consumer trust through transparent supply chain verification.",
+          },
+          {
+            icon: manufacturing,
+            heading: "Manufacturing",
+            content:
+              "Ensure product authenticity and streamline operations with blockchain-based tracking systems.",
+          },
+          {
+            icon: manufacturing,
+            heading: "Insurance",
+            content:
+              "Reduce fraud and automate claims processing with immutable and transparent record-keeping.",
+          },
+          {
+            icon: manufacturing,
+            heading: "Telecommunications",
+            content:
+              "Enhance security and efficiency in billing systems and secure sensitive customer data.",
           },
         ],
       },
       whyChooseSection: {
-        mainHeading: "Why Partner with Qcentrio for Oracle Cerner Advisory?",
+        mainHeading:
+          "Why Choose Qcentrio for Blockchain Integration and Deployment?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Unequalled Expertise",
+            heading: "Expertise in Blockchain Technology",
             content:
-              "Our team's deep expertise in Oracle Cerner ensures a superior advisory experience from start to finish.",
+              "Rely on our deep expertise to deliver blockchain solutions that drive real business results.",
           },
           {
             image: whyChooseImg2,
-            heading: "Comprehensive Support",
+            heading: "Enhanced Security and Efficiency",
             content:
-              "From the initial implementation to continuous system improvements, our full spectrum services are designed for your success.",
+              "With blockchain, experience enhanced security and operational efficiency, safeguarding your transactions and data.",
           },
           {
             image: whyChooseImg3,
-            heading: "Commitment to Excellence",
+            heading: "Comprehensive Support",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "From strategy to post-deployment, our team is with you every step, ensuring your blockchain solutions are always at peak performance.",
           },
         ],
       },
@@ -3221,144 +3326,170 @@ const subServicePagesContent = {
     2: {
       heroSectionData: {
         heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+          "Confidently Deploy and Maintain Trustworthy Blockchain Systems",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Blockchain Security & Compliance Solutions Support | Qcentrio",
+        description:
+          "Qcentrio's blockchain services ensure blockchain technology's secure and compliant adoption, protecting your assets with cutting-edge security practices.",
       },
       breadCrump: {
         main: "BLOCKCHAIN ADVISORY AND OFFERINGS",
         link: "/offerings/blockchain-advisory-and-offerings",
-        current:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        current: "Blockchain Security & Compliance Solutions",
       },
-      contactHead: "",
+      contactHead: "Launch your blockchain strategy with confidence",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading:
+          "Secure Your Blockchain Infrastructure with Qcentrio's Blockchain Security & Compliance Solutions Support",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "Securing digital assets and maintaining compliance in the quickly evolving blockchain landscape are critical challenges. These challenges can impact the integrity and trust of your business operations. However, with Qcentrio's expert solutions, you can overcome these challenges. Our services are designed to simplify the complexity of regulatory requirements, which can vary significantly across different jurisdictions, and ensure the security and compliance of your blockchain infrastructure.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "Qcentrio's Blockchain Security and Compliance services address these challenges head-on. We provide a fortified ecosystem for your blockchain applications, mitigating risks and ensuring adherence to the latest regulatory frameworks. Our unique approach safeguards your digital transactions and aligns seamlessly with global compliance standards, ensuring your blockchain initiatives are secure and compliant. Partner with us to empower your organization with robust security and compliance solutions that support sustainable business growth and innovation.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading:
+          "Discover Qcentrio’s Blockchain Security & Compliance Support Services",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "Smart Contract Auditing",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Conduct rigorous testing and security verification of smart contracts to identify vulnerabilities, ensure contractual integrity, safeguard against unauthorized modifications, and ensure the contract performs as intended.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "Compliance Strategy",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Develop and implement robust compliance frameworks tailored to meet KYC, AML, and other regulatory requirements within blockchain solutions, ensuring lawful operations and preventing misuse of illegal activities.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Blockchain Data Security",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Employ advanced cryptographic techniques to protect the integrity and confidentiality of blockchain data across transactions, essential for maintaining trust and reliability in the data's security.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Risk Management for Blockchain",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Craft and manage detailed risk profiles specific to blockchain assets and operations, incorporating threat modeling and mitigation strategies to secure blockchain operations against potential risks.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "Decentralized Application (DApp) Security",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Perform comprehensive security assessments for DApps to ensure secure user interactions and robust transaction processing and protect against vulnerabilities exploitable by malicious actors.",
+          },
+          {
+            num: "06",
+            heading: "Regulatory Compliance Audits",
+            content:
+              "Execute thorough audits to ensure that all facets of blockchain operations comply with current regulations and legal standards, maintaining operations within legal boundaries and safeguarding against illegal use.",
+          },
+          {
+            num: "07",
+            heading: "Blockchain Infrastructure Security",
+            content:
+              "Establish a secure blockchain network architecture to prevent unauthorized access and resist network attacks, crucial for maintaining the security and integrity of the blockchain network.",
+          },
+          {
+            num: "08",
+            heading: "Privacy Solutions for Blockchain",
+            content:
+              "Address data privacy concerns within blockchain systems by integrating personal data protection and privacy-by-design principles, ensuring operations comply with privacy laws and regulations.",
+          },
+          {
+            num: "09",
+            heading: "Incident Response Planning",
+            content:
+              "Develop proactive, blockchain-specific incident response plans for immediate action in the event of security breaches, crucial for minimizing impact and enabling swift recovery from disruptions.",
+          },
+          {
+            num: "10",
+            heading: "Blockchain Identity and Access Management",
+            content:
+              "Implement secure identity verification systems and robust access controls to prevent unauthorized operations and ensure user authenticity, critical for maintaining authorized access and operational security within blockchain ecosystems.",
           },
         ],
       },
       servicesOfSubService: {
         mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+          "Tailored Blockchain Security & Compliance Solutions Support for Diverse Markets",
         list: [
           {
             icon: healthcare,
-            heading: "HEALTHCARE",
+            heading: "Fintech and Banking",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Secure transactions and safeguard sensitive financial data using blockchain to enhance customer trust and streamline compliance.",
           },
           {
             icon: finace,
-            heading: "FINANCE",
+            heading: "Healthcare",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              "Integrate blockchain for secure, decentralized records management to protect patient data and ensure regulatory compliance.",
           },
           {
             icon: manufacturing,
-            heading: "MANUFACTURING",
+            heading: "Supply Chain",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              "Track products from origin to consumer with immutable records to reduce fraud and improve efficiency.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "Retail",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Verify product authenticity and origin and safeguard consumer data and transaction security.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "Real Estate",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              "Get a transparent and immutable record of property transactions, enhancing trust among parties.",
           },
           {
             icon: travel,
-            heading: "TRAVEL & TRANSPORTATION",
+            heading: "Government",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+              "Enable transparent governance and foster trust by making governmental processes more accountable.",
           },
           {
             icon: eCommerce,
-            heading: "E-COMMERCE",
+            heading: "Education",
             content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+              "Protect academic credentials and ensure verifiable data on the blockchain to prevent tampering and fraud.",
           },
           {
             icon: realEstate,
-            heading: "REAL ESTATE",
+            heading: "Legal",
             content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
-          },
-          {
-            icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
-            content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Automate and secure legal transactions to minimize disputes and ensure enforceability across parties involved.",
           },
         ],
       },
       whyChooseSection: {
         mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+          "Empower Your Blockchain Initiatives with Robust Security and Compliance",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Bespoke Blockchain Frameworks",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              "Create distinctive strategies that align with your visionary business goals and harness the full potential of blockchain technology.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Strategic Expertise and Agile Execution",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "From conceptualization to execution, our team delivers end-to-end support, ensuring your blockchain journey is seamless, robust, and effective.",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "Rigorous Security and Regulatory Adherence",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "We commit to safeguarding your blockchain ventures and encompass rigorous adherence to evolving regulations.",
           },
         ],
       },
@@ -3366,144 +3497,168 @@ const subServicePagesContent = {
     3: {
       heroSectionData: {
         heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+          "Unlock Business Innovation with Blockchain-Driven Security and Transparency",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Comprehensive Blockchain Solution Development | Qcentrio",
+        description:
+          "Leverage Qcentrio's expertise in blockchain technology for secure, scalable, and customized blockchain solutions that propel your business into the future.",
       },
       breadCrump: {
         main: "BLOCKCHAIN ADVISORY AND OFFERINGS",
         link: "/offerings/blockchain-advisory-and-offerings",
-        current:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        current: "Blockchain Solution Development",
       },
-      contactHead: "",
+      contactHead:
+        "Integrate blockchain into your business to unlock innovation and drive business success",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading:
+          "Secure Digital Transactions with Qcentrio's Blockchain Expertise",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "As enterprises gradually function in a digital-first environment, securing transactions and maintaining transparency becomes critical. They need to address this challenge head-on by leveraging a transformative solution like blockchain technology to enhance security, clarity, and transparency across all operations.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "At Qcentrio, we recognize the strategic importance of blockchain in strengthening business innovation and security. Our comprehensive suite of blockchain services and our blockchain experts can help with your enterprise's unique challenges. Partnering with us ensures your organization fully capitalizes on blockchain's capabilities, enhancing operational efficiency and trust in every transaction.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading: "Explore Our Blockchain Solutions Development Services",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "Blockchain Consultancy",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Navigate the complexities of blockchain technology with expert consultation that tailors strategic blockchain solutions to enhance business efficiency and security, aligning perfectly with specific enterprise needs.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "Smart Contract Development",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Automate and secure business agreements using advanced smart contracts on platforms like Ethereum and Hyperledger. These contracts are designed to be immutable, transparent, and self-executing, thus reducing fraud and errors and streamlining operations.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Custom Blockchain Solutions",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Receive personalized blockchain services closely aligned with individual business goals through a collaborative approach that ensures each solution is precisely tailored to meet unique requirements.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Ongoing Blockchain Support",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Benefit from continuous expert support and maintenance, ensuring blockchain systems are consistently updated, secure, and performing optimally.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "Blockchain Architecture Design",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Develop a robust and scalable blockchain infrastructure to meet unique business requirements, ensuring high performance and enhanced security through meticulously planned architecture.",
+          },
+          {
+            num: "06",
+            heading: "Blockchain Network Management",
+            content:
+              "Efficiently manage and deploy various types of blockchain networks—public, private, or consortium—to fit organizational needs, with comprehensive support ensuring smooth and efficient network operation.",
+          },
+          {
+            num: "07",
+            heading: "Decentralized Applications (DApps) Development",
+            content:
+              "Create custom decentralized applications built on blockchain technology to enhance security, user experience, and functionality, making each application decentralized, secure, and scalable.",
+          },
+          {
+            num: "08",
+            heading: "Blockchain Integration",
+            content:
+              "Enhance existing systems by seamlessly integrating blockchain technology to improve transparency, security, and operational efficiency with custom solutions that integrate smoothly without disrupting existing workflows.",
+          },
+          {
+            num: "09",
+            heading: "Tokenization Services",
+            content:
+              "Unlock new possibilities in asset management and value exchange with comprehensive tokenization strategies, offering secure, scalable, and compliant solutions that revolutionize asset utilization and accessibility.",
+          },
+          {
+            num: "10",
+            heading: "Blockchain Network Design",
+            content:
+              "Custom-design blockchain infrastructure that supports business goals with robust, scalable, and secure networks, tailored to include all aspects of network architecture, consensus mechanisms, and governance models.",
+          },
+          {
+            num: "11",
+            heading: "Blockchain for Supply Chain Management",
+            content:
+              "Transform supply chain operations with blockchain technology, enhancing traceability, reducing fraud, and improving efficiency through customized solutions tailored to specific supply chain challenges.",
+          },
+          {
+            num: "12",
+            heading: "Blockchain Security Solutions",
+            content:
+              "Protect blockchain infrastructures with advanced security protocols that ensure the integrity and trustworthiness of digital transactions. These protocols cover all security aspects, from crucial management to smart contract security.",
           },
         ],
       },
       servicesOfSubService: {
-        mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        mainHeading: "Blockchain Solutions Tailored for Every Industry",
         list: [
           {
             icon: healthcare,
-            heading: "HEALTHCARE",
+            heading: "Financial Services",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Secure transactions and automate compliance processes with blockchain to revolutionize financial operations.",
           },
           {
             icon: finace,
-            heading: "FINANCE",
+            heading: "Healthcare",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              ": Ensure patient data integrity and security while enabling transparent access with blockchain solutions.",
           },
           {
             icon: manufacturing,
-            heading: "MANUFACTURING",
+            heading: "Supply Chain Management",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              "Enhance transparency and traceability in supply chains through decentralized blockchain networks.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "Energy",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Optimize energy distribution and trading systems with blockchain for increased transparency and efficiency.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "Media and Entertainment",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              "Protect intellectual property rights and streamline royalty payments through blockchain technology.",
           },
           {
             icon: travel,
-            heading: "TRAVEL & TRANSPORTATION",
+            heading: "Government",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
-          },
-          {
-            icon: eCommerce,
-            heading: "E-COMMERCE",
-            content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
-          },
-          {
-            icon: realEstate,
-            heading: "REAL ESTATE",
-            content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
-          },
-          {
-            icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
-            content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Increase governmental transparency and reduce fraud with secure blockchain applications.",
           },
         ],
       },
       whyChooseSection: {
-        mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        mainHeading: "Why Choose Qcentrio for Blockchain Development?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Customized Solutions",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              "Our blockchain services are tailored to meet your business's unique challenges and demands.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Expertise and Experience",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "Rely on our extensive expertise in blockchain technology to deliver innovative and effective solutions.",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "Enhanced Security",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "With blockchain, experience unprecedented security levels that protect your transactions and data integrity.",
           },
         ],
       },
@@ -3511,72 +3666,141 @@ const subServicePagesContent = {
     4: {
       heroSectionData: {
         heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+          "Capitalize on Blockchain for Enhanced Security, Transparency, and Efficiency",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Blockchain Strategy and Advisory | Innovate with Qcentrio",
+        description:
+          "Maximize your blockchain potential with Qcentrio's strategic advisory services, offering cutting-edge solutions for security, efficiency, and innovation.",
       },
       breadCrump: {
         main: "BLOCKCHAIN ADVISORY AND OFFERINGS",
         link: "/offerings/blockchain-advisory-and-offerings",
-        current:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        current: "Blockchain Strategy and Advisory",
       },
-      contactHead: "",
+      contactHead:
+        "Begin your Blockchain transformation today with expert advisory",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading:
+          "Command the Future of Tech with Qcentrio’s Blockchain Strategy and Advisory",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "Blockchain technology fundamentally transforms industries by enhancing security, transparency, and efficiency. To stay competitive, businesses must capitalize on blockchain's benefits, driving more incredible innovation while maintaining the integrity and efficiency of their operations.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "At Qcentrio, we offer specialized blockchain strategy and advisory services to empower your business to leverage this transformative technology. Our experts provide comprehensive guidance through the complexities of blockchain integration, ensuring your initiatives are strategic, practically implementable, and highly innovative. Embrace our expertise to lead your industry in the blockchain revolution.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading:
+          "Empower Your Technological Transformation with Qcentrio's Blockchain Strategy and Advisory Services",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "Blockchain Advisory",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Navigate your blockchain journey with seasoned consultants providing strategic insights and development roadmaps tailored to align blockchain initiatives with your corporate objectives.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "DLT Solutions",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Deploy Distributed Ledger Technology (DLT) to enhance process efficiency and secure data integrity. These custom services offer a tamper-proof platform essential for transparent and reliable transactions.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Innovative Contracts Development",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Revolutionize your operations with smart contracts that automate and secure transactions. These self-executing contracts minimize the need for intermediaries, enhancing operational efficiency and reducing overhead.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Blockchain Security Services",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Fortify your cybersecurity with robust blockchain-based solutions that safeguard digital assets and operational continuity against emerging cyber threats.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "Tokenization Strategies",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Unlock innovative asset monetization and security avenues through tokenization. This strategy increases asset liquidity and market accessibility while ensuring transaction security.",
+          },
+          {
+            num: "06",
+            heading: "Private Blockchain Networks",
+            content:
+              "Construct bespoke, permissioned blockchain environments tailored for enhanced data privacy and control, enabling streamlined data and operations management.",
+          },
+          {
+            num: "07",
+            heading: "Decentralized Application (dApp) Development",
+            content:
+              "Dive into the decentralized economy with scalable, user-friendly dApps that are congruent with your business model, offering adaptability to market changes.",
+          },
+          {
+            num: "08",
+            heading: "Blockchain Integration Services",
+            content:
+              "Seamlessly integrate blockchain technology with existing infrastructures, leveraging its inherent benefits to enhance current systems without disruption.",
+          },
+          {
+            num: "09",
+            heading: "Blockchain for Internet of Things (IoT)",
+            content:
+              "Enhance the integrity and reliability of IoT device networks through blockchain technology, ensuring secure data exchanges and improved system management.",
+          },
+          {
+            num: "10",
+            heading: "Cross-Chain Integration Services",
+            content:
+              "Expert cross-chain integration facilitates interoperability across diverse blockchain platforms, enabling seamless communication and functionality between blockchain ecosystems.",
+          },
+          {
+            num: "11",
+            heading: "Blockchain Governance Framework",
+            content:
+              "Develop comprehensive governance models for your blockchain networks to ensure clarity in operations and compliance with regulatory standards.",
+          },
+          {
+            num: "12",
+            heading: "Blockchain Training and Workshops",
+            content:
+              "Equip your team with cutting-edge knowledge on blockchain technology through targeted training and workshops, ensuring they remain ahead in a rapidly evolving digital landscape.",
+          },
+          {
+            num: "13",
+            heading: "Digital Identity Solutions",
+            content:
+              "Implement blockchain technology to create immutable digital identities, enhancing user authentication processes and privacy across digital interactions.",
+          },
+          {
+            num: "14",
+            heading: "Blockchain Analytics",
+            content:
+              "Extract valuable insights from blockchain transaction data with sophisticated analytics tools, driving strategic decision-making and enhancing operational efficiencies.",
+          },
+          {
+            num: "15",
+            heading: "Cryptocurrency Exchange Solutions",
+            content:
+              "Establish secure and efficient cryptocurrency exchange platforms with advanced development services, facilitating reliable and user-friendly trading experiences.",
+          },
+          {
+            num: "16",
+            heading: "Enterprise Blockchain Transformation",
+            content:
+              "Integrate blockchain technology across enterprise-level systems for a holistic digital transformation, boosting security and streamlining operations, unlocking the full potential of blockchain capabilities.",
           },
         ],
       },
       servicesOfSubService: {
         mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+          "Unlock the Power of Blockchain Across Various Sectors with Qcentrio",
         list: [
           {
             icon: healthcare,
-            heading: "HEALTHCARE",
+            heading: "Finance",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Transform financial operations by embedding blockchain to ensure secure and transparent transactions, speed up settlements, and strengthen trust.",
           },
           {
             icon: finace,
@@ -3586,69 +3810,74 @@ const subServicePagesContent = {
           },
           {
             icon: manufacturing,
-            heading: "MANUFACTURING",
+            heading: "Healthcare",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              "Transform patient care by deploying blockchain to bolster data integrity and traceability and ensure unparalleled security for medical records.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "Supply Chain Management",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Enhance supply chain transparency and control by utilizing decentralized ledger technology for real-time tracking and authentication of goods.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "Government and Public Sector",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              "Implement blockchain to modernize public services and record-keeping, thereby increasing transparency and security in government operations.",
           },
           {
             icon: travel,
-            heading: "TRAVEL & TRANSPORTATION",
+            heading: "Retail and Consumer Goods",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+              "Build consumer confidence by adopting blockchain to confirm product authenticity and streamline supply chain processes.",
           },
           {
             icon: eCommerce,
-            heading: "E-COMMERCE",
+            heading: "Energy",
             content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+              "Innovate in renewable energy trading and grid management by integrating blockchain for more efficient, transparent transactions.",
           },
           {
             icon: realEstate,
-            heading: "REAL ESTATE",
+            heading: "Telecommunications",
             content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
+              "Advance communication systems and billing transparency by applying blockchain, setting the stage for future innovations.",
           },
           {
             icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
+            heading: "Media and Entertainment",
             content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Protect intellectual property and manage royalties more effectively by harnessing blockchain for greater transparency.",
+          },
+          {
+            icon: softwareTechnology,
+            heading: "Automotive",
+            content:
+              "Improve the traceability and security of automotive supply chains and features by leveraging blockchain, enhancing operational efficiency and safety.",
           },
         ],
       },
       whyChooseSection: {
-        mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        mainHeading: "Why Qcentrio Stands Out in Blockchain Advisory?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Tailored Blockchain Strategies",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              "Design unique solutions that align with your business vision and blockchain’s capabilities.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Expertise and Execution",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "A team of experts who provide comprehensive support from strategy development to solution deployment.",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "Security and Compliance",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "High standards of security and adherence to regulations to protect your blockchain investments.",
           },
         ],
       },
@@ -3668,8 +3897,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "BUSINESS OPTIMIZATION AND ANALYTICS SERVICES",
         link: "/offerings/business-optimization-and-analytics-services",
-        current:
-          "BREAK DOWN SILOS AND ENABLE SEAMLESS COMMUNICATION WITH COLLABORATION AND PRODUCTIVITY SOLUTIONS",
+        current: "Collaboration and Productivity Solutions",
       },
       contactHead:
         "Harness the true potential of collaboration and productivity solutions",
@@ -3819,8 +4047,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "BUSINESS OPTIMIZATION AND ANALYTICS SERVICES",
         link: "/offerings/business-optimization-and-analytics-services",
-        current:
-          "OPTIMIZE YOUR DIGITAL TOUCHPOINTS FOR SEAMLESS CUSTOMER JOURNEY WITH ROBUST CRM SYSTEMS",
+        current: "CRM System Solutions",
       },
       contactHead: "Transform your customer relationships today",
       contentSection: {
@@ -3940,8 +4167,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "BUSINESS OPTIMIZATION AND ANALYTICS SERVICES",
         link: "/offerings/business-optimization-and-analytics-services",
-        current:
-          "MAXIMIZE YOUR DATA'S POTENTIAL AND DRIVE INFORMED BUSINESS DECISIONS",
+        current: "Data Analytics and Business Intelligence",
       },
       contactHead:
         "Unlock the full potential of your business with data-driven decision-making",
@@ -4090,8 +4316,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "BUSINESS VALUE ENHANCEMENT SERVICES",
         link: "/offerings/business-value-enhancement-services",
-        current:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH BESPOKE AI/ML CAPABILITIES",
+        current: "Artificial Intelligence/Machine Learning Offerings",
       },
       contactHead:
         "Transform business decisions with AI/ML-led actionable insights",
@@ -4248,7 +4473,7 @@ const subServicePagesContent = {
           "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
       },
       metaData: {
-        title: "Generative AI Solutions and Offerings | Qcentrio ",
+        title: "Generative AI Solutions and Offerings | Qcentrio",
         description:
           "Discover how Qcentrio's Generative AI Solutions and Offerings can transform your business operations, drive innovation, and enhance productivity.",
       },
@@ -4402,8 +4627,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "BUSINESS VALUE ENHANCEMENT SERVICES",
         link: "/offerings/business-value-enhancement-services",
-        current:
-          "BOOST OPERATIONAL EFFICIENCY, GAIN E2E VISIBILITY, AND OPTIMIZE IT RESOURCE UTILIZATION",
+        current: "Robotic Process Automation Services",
       },
       contactHead:
         "Experience Next-Level Efficiency with Qcentrio’s RPA Offerings",
@@ -4558,144 +4782,156 @@ const subServicePagesContent = {
     1: {
       heroSectionData: {
         heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+          "Harness the Power of Cloud Computing with Full Stack AWS Capabilities",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Advanced AWS Services and Support | Qcentrio",
+        description:
+          "Qcentrio's AWS services enhance cloud capabilities, offering end-to-end integration, security assurance, and scalable solutions to power your business.",
       },
       breadCrump: {
         main: "CLOUD INFRA AND SECURITY SERVICES",
         link: "/offerings/cloud-infra-and-security-services",
-        current:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        current: "AWS Services and Offerings",
       },
-      contactHead: "",
+      contactHead:
+        "Get ready to transform your business with AWS's scalability and innovation",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading: "Future-Proof Your Business with Qcentrio's AWS Expertise",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "Today, enterprises constantly turn to cloud technology to transform their businesses and make them scalable and agile. Amazon Web Services (AWS) offers a premier infrastructure that provides many cloud-based solutions to help companies achieve their goals.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "At Qcentrio, we understand the importance of AWS implementation for businesses of all sizes and industries. Our team of seasoned professionals can help you leverage the power of AWS to the fullest extent, providing tailored services that align with your unique business requirements. Whether you need assistance with migration, integration, or ongoing support, we can customize our services to meet your needs.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading:
+          "Maximize Your Cloud Potential with Qcentrio's AWS Services",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "E2E AWS Integration",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "We offer comprehensive AWS integration services for your business, enabling you to streamline your operations and drive innovation. Benefit from seamless transitions and strategic implementations as we help you harness the full potential of cloud technologies to transform your organization.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "Scalable Cloud Infrastructure",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Build a secure and scalable cloud infrastructure on AWS that aligns with your business goals. Our services support promotes agility, reliability, and cost-effectiveness, enabling you to innovate faster. And with us as your, you can future-proof your cloud environment and achieve sustainable growth.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Computing and Storage Solutions",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "AWS's EC2 and S3 services offer a reliable and flexible solution for your computing needs. With secure and scalable storage options, you can easily store and access your data on the cloud. Whether a small business or a large enterprise, we help you leverage AWS's compute and storage solutions. ",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Security and Compliance Assurance",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "We understand how critical it is to keep your cloud environment secure. With our advanced AWS security support, you can adhere to the best compliance practices. With such a secure environment, you can have peace of mind knowing that your data and applications are safe from cyber threats and other security vulnerabilities.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "Continuous AWS Support",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Streamline your software development process and accelerate your time-to-market by leveraging AWS DevOps tools to automate your CI/CD pipeline. With these tools, and us as your partner, you can improve your software delivery process, increase deployment frequency, and enhance the overall quality of your software.",
+          },
+          {
+            num: "06",
+            heading: "AWS Managed Services",
+            content:
+              "With Qcentrio as your AWS partner, you can manage your AWS infrastructure seamlessly and optimize its performance and cost. Our team of experts can help you offload the day-to-day management of your cloud environment, leaving you with more time to focus on your business goals.",
+          },
+          {
+            num: "07",
+            heading: "AWS Data Analytics",
+            content:
+              "Gain valuable insights from your business data with AWS’s powerful data processing and analytics capabilities. AWS makes it easy to uncover meaningful patterns and trends in your data. You can make data-driven decisions to help your business thrive by leveraging these insights. So why wait? Start tapping into the power of AWS today with Qcentrio.",
+          },
+          {
+            num: "08",
+            heading: "AWS DevOps Automation",
+            content:
+              "Innovate and bring new products to market quickly by leveraging AWS DevOps tools and automating your software delivery pipeline, making it more efficient, reliable, and scalable. With DevOps, you can reduce your time to market and increase deployment frequency, allowing you to stay ahead of the competition.",
+          },
+          {
+            num: "09",
+            heading: "AWS Machine Learning and AI Services",
+            content:
+              "Build intelligent solutions that can perceive, hear, speak, comprehend, and engage with your data and users like never before. By leveraging these technologies, you can transform your data into actionable insights, optimize your business processes, and enhance the customer experience.",
           },
         ],
       },
       servicesOfSubService: {
-        mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        mainHeading: "Qcentrio's AWS Services Adapted for Your Industry",
         list: [
           {
             icon: healthcare,
             heading: "HEALTHCARE",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Maintain compliance and manage patient data securely with AWS services tailored to healthcare requirements.",
           },
           {
             icon: finace,
             heading: "FINANCE",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              "Leverage AWS for secure financial transactions, data analytics, and meeting stringent industry regulations.",
           },
           {
             icon: manufacturing,
-            heading: "MANUFACTURING",
+            heading: "E-commerce",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              "Scale your e-commerce platforms with AWS's flexible computing resources and robust security measures.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "Education",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Enhance educational offerings with AWS's cloud solutions for remote learning and educational resource management.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "Real Estate",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              "Utilize AWS services to securely manage property listings, client interactions, and back-end operations in the cloud.",
           },
           {
             icon: travel,
-            heading: "TRAVEL & TRANSPORTATION",
+            heading: "Government",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+              "Implement AWS cloud solutions to streamline public sector processes, enhance civic engagement, and improve governmental service delivery.",
           },
           {
             icon: eCommerce,
-            heading: "E-COMMERCE",
+            heading: "Telecommunications",
             content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
-          },
-          {
-            icon: realEstate,
-            heading: "REAL ESTATE",
-            content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
-          },
-          {
-            icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
-            content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Deploy AWS to support vast telecom networks, improve data analytics and customer experience, and innovate with new services at scale.",
           },
         ],
       },
       whyChooseSection: {
-        mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        mainHeading: "Why Opt for Qcentrio for AWS Services?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Bespoke AWS Services Support",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              "Our services are personalized to meet your business's unique needs, delivering agile and cost-effective cloud infrastructure solutions.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "AWS Accreditation",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "Experience peace of mind with our team of certified AWS professionals who deeply understand AWS services. ",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "Streamlined Processes",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "Experience efficient cloud migration and management with our systematic approach to AWS integration.",
           },
         ],
       },
@@ -4713,8 +4949,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "CLOUD INFRA AND SECURITY SERVICES",
         link: "/offerings/cloud-infra-and-security-services",
-        current:
-          "LIFT YOUR BUSINESS INTO AZURE FOR UNMATCHED PERFORMANCE AND SCALABILITY",
+        current: "Azure Services and Offerings",
       },
       contactHead:
         "Begin your journey towards a scalable, innovative infrastructure today",
@@ -4882,8 +5117,7 @@ const subServicePagesContent = {
       breadCrump: {
         main: "CLOUD INFRA AND SECURITY SERVICES",
         link: "/offerings/cloud-infra-and-security-services",
-        current:
-          "TRANSFORM YOUR CONVENTIONAL IT BY TRANSITIONING TO CLOUD WITH CONFIDENCE",
+        current: "Cloud Infrastructure Services",
       },
       contactHead:
         "Unlock the potential of the cloud and revolutionize your IT infrastructure",
@@ -5041,290 +5275,309 @@ const subServicePagesContent = {
     },
     4: {
       heroSectionData: {
-        heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        heading: "Make Your IT Infrastructure Best-In-Class",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Continuous IT Support & Managed Services | Qcentrio",
+        description:
+          "Ensure your IT infrastructure is always at its peak with Qcentrio's continuous IT support and managed services: experience top-tier maintenance, upgrades, and monitoring.",
       },
       breadCrump: {
         main: "CLOUD INFRA AND SECURITY SERVICES",
         link: "/offerings/cloud-infra-and-security-services",
-        current:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        current: "Continuous IT Support & Managed Services",
       },
-      contactHead: "",
+      contactHead:
+        "Ensure your infrastructure is perpetually at its best with continuous IT excellence",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading: "Elevate Your IT Operations with Qcentrio's Managed Services",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "The stability and efficiency of IT infrastructure are foundational to business success. It helps maintain the integrity and efficiency of your IT systems, allowing you to focus on strategic growth and operational excellence.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "Qcentrio's Continuous IT Support and Managed Services are designed to ensure your operations remain seamless, with minimal downtime and peak performance. Our service offerings include proactive maintenance, thorough system monitoring, and expert troubleshooting, all customized to meet your business's unique needs.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading:
+          "Qcentrio’s Managed IT Services Ensure Your Operations are Seamless and Secure",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "Proactive Maintenance and Monitoring",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Stay ahead of issues with 24/7 monitoring and maintenance, preventing potential downtime. Our team of experts will continuously monitor your systems, allowing for quick identification and resolution of problems.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "Timely Updates/Upgrades",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Keep your systems up-to-date with the latest features and functionalities to ensure continuous operational excellence. Our seamless integration of updates ensures that your systems are always at the cutting edge.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Expert Troubleshooting",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Our team offers prompt and responsive support to keep your operations running smoothly. We understand the importance of minimizing disruption and maintaining productivity, so we provide efficient troubleshooting to resolve any issues that may arise promptly.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Customized IT Strategies",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Align your IT operations with your business goals by creating tailored IT strategies and customized solutions to meet your business's unique needs. We can work closely with you to develop the right approach that helps you achieve your objectives most efficiently and effectively..",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "Infrastructure Optimization",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "We optimize your IT infrastructure to ensure it functions at its best, providing you with the resources needed to grow your business. Our expertise lies in enhancing the functionality of your IT infrastructure to maximize efficiency and fuel your business's growth.",
+          },
+          {
+            num: "06",
+            heading: "Disaster Recovery Planning",
+            content:
+              "Implement robust disaster recovery strategies to protect data and maintain continuity. We help you develop and implement disaster recovery strategies to ensure that your data is protected and your operations continue to run smoothly in the event of a disaster.",
+          },
+          {
+            num: "07",
+            heading: "Cloud Transition and Management",
+            content:
+              "Our expert guidance can help you make a smooth transition to the cloud while providing flexibility and scalability benefits. We can be your strategic partner if you are new to the cloud or looking to improve your existing cloud infrastructure.",
+          },
+          {
+            num: "08",
+            heading: "Network Management Services",
+            content:
+              ": Optimize and manage your entire network infrastructure, ensuring high-speed connectivity, reliability, and security across your organization. Our support services ensure your network operates at peak performance, enabling your team to work efficiently and seamlessly. ",
+          },
+          {
+            num: "09",
+            heading: "End-User Support Services",
+            content:
+              "Our services are designed to provide your staff with the technical support they need to be productive. Our dedicated helpdesk services ensure that all of your employees' technical queries and challenges are resolved promptly, allowing them to focus on their work without interruptions.",
+          },
+          {
+            num: "10",
+            heading: "IT Compliance Services",
+            content:
+              "Navigate the complex world of IT compliance easily by ensuring that your systems always comply with all regulatory requirements and industry standards. You can rely on our expertise to keep your systems up-to-date with compliance regulations and standards.",
           },
         ],
       },
       servicesOfSubService: {
-        mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        mainHeading: "Specialized IT Support for Diverse Industries",
         list: [
           {
             icon: healthcare,
-            heading: "HEALTHCARE",
+            heading: "Healthcare",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Ensure patient data integrity and continuous care with reliable IT systems.",
           },
           {
             icon: finace,
             heading: "FINANCE",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              "Safeguard secure transactions and compliance with robust IT infrastructures.",
           },
           {
             icon: manufacturing,
-            heading: "MANUFACTURING",
+            heading: "Education",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              "Support academic excellence with uninterrupted access to educational technology.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "Logistics and Supply Chain",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Strengthen the backbone of your logistics network with robust IT support that ensures seamless operations and real-time tracking.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "Legal Services",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              "Protect sensitive client information and support case management systems with secure and reliable IT infrastructure.",
           },
           {
             icon: travel,
-            heading: "TRAVEL & TRANSPORTATION",
+            heading: "Hospitality and Travel",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+              "Deliver exceptional customer service with uninterrupted IT systems that support booking engines, customer management, and operational tools.",
           },
           {
             icon: eCommerce,
-            heading: "E-COMMERCE",
+            heading: "Energy and Utilities",
             content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
-          },
-          {
-            icon: realEstate,
-            heading: "REAL ESTATE",
-            content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
-          },
-          {
-            icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
-            content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Ensure the integrity and reliability of critical energy infrastructure with comprehensive IT management that supports innovative grid technologies and data analytics.",
           },
         ],
       },
       whyChooseSection: {
         mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+          "Why Choose Qcentrio for Continuous IT Support and Managed Services?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Uninterrupted Business Operations",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              "Our managed services are designed to keep your business running smoothly, day or night.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Custom-fit Solutions",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "We don’t just support your IT needs; we anticipate them, ensuring your services scale with your business.",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "Certified Expertise",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "Our team comprises industry-certified experts dedicated to maintaining and elevating your IT operations.",
           },
         ],
       },
     },
     5: {
       heroSectionData: {
-        heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        heading: "Navigate the Digital Space with Confidence",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Robustrsecurity Solutions and Services Support | Qcentrio",
+        description:
+          "Protect and Cybe future-proof your digital infrastructure with Qcentrio's advanced cybersecurity solutions. Experience comprehensive protection with our expert services.",
       },
       breadCrump: {
         main: "CLOUD INFRA AND SECURITY SERVICES",
         link: "/offerings/cloud-infra-and-security-services",
-        current:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        current: "Cybersecurity Solutions and Services Support",
       },
-      contactHead: "",
+      contactHead:
+        "Protect your sensitive data and online assets today with expert cybersecurity measures",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading:
+          "Secure Your Enterprise Future with Qcentrio's Cybersecurity Expertise",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "Cyber threats have increased significantly recently and become more sophisticated, posing a direct threat to the integrity of your enterprise data. As senior executives, your strategic oversight is pivotal in promoting a secure digital framework.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "At Qcentrio, we offer a robust suite of Cybersecurity Solutions, starting with a detailed assessment of your current security posture and concluding with implementing customized measures tailored to your business needs. Trust in Qcentrio to strengthen your defenses, ensuring your business's resilience and continuity in the face of digital threats.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading:
+          "Discover our Cybersecurity Solutions and Services Support",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "Comprehensive Security Assessment",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "We begin by evaluating your digital ecosystem, identifying vulnerabilities, and enhancing your security posture.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "Customized Security Solutions",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "We implement robust cybersecurity measures post-assessment, utilizing top-tier tools and services from leading industry providers.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Data Protection and Compliance",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "We provide comprehensive data protection and compliance services to ensure that your cybersecurity strategies meet all relevant regulations.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Continuous Monitoring and Support",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Take advantage of ongoing vigilance with our monitoring services that safeguard your systems against the latest threats.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "Intrusion Detection and Response",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "With our advanced monitoring systems, we help you detect intrusions in real time and respond swiftly to mitigate risks and prevent potential breaches.",
+          },
+          {
+            num: "06",
+            heading: "Cloud Security Services",
+            content:
+              "Get specialized security protocols embedded in your systems to protect your cloud deployments on platforms like AWS, Azure, and GCP.",
+          },
+          {
+            num: "07",
+            heading: "Phishing Prevention and Email Security",
+            content:
+              "Implement robust email filtering and phishing prevention strategies to safeguard against sophisticated email-borne threats.",
+          },
+          {
+            num: "08",
+            heading: "Cybersecurity Training and Awareness Programs",
+            content:
+              "Equip your staff with the knowledge to recognize and respond to cybersecurity threats with comprehensive training programs.",
           },
         ],
       },
       servicesOfSubService: {
         mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+          "Industries Benefitting from Qcentrio’s Cybersecurity Solutions and Services Support",
         list: [
           {
             icon: healthcare,
             heading: "HEALTHCARE",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Protect sensitive patient information and healthcare systems with compliance-focused cybersecurity measures.",
           },
           {
             icon: finace,
-            heading: "FINANCE",
+            heading: "Financial Services",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              "Secure financial data and transactions with stringent security protocols and regular compliance checks.",
           },
           {
             icon: manufacturing,
-            heading: "MANUFACTURING",
+            heading: "Retail",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              "Safeguard online retail platforms against cyber threats, ensuring customer data protection and trust.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "Transportation",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Secure sensitive operational data in the transportation sector, from logistic operations to customer data, with robust cybersecurity frameworks.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "Hospitality",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              "Implement security solutions to protect guests' personal information and transaction data in the hospitality industry.",
           },
           {
             icon: travel,
-            heading: "TRAVEL & TRANSPORTATION",
+            heading: "Education",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
-          },
-          {
-            icon: eCommerce,
-            heading: "E-COMMERCE",
-            content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
-          },
-          {
-            icon: realEstate,
-            heading: "REAL ESTATE",
-            content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
-          },
-          {
-            icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
-            content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Protect student data and academic research with tailored cybersecurity measures designed for educational institutions.",
           },
         ],
       },
       whyChooseSection: {
-        mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        mainHeading: "Why Partner with Qcentrio for Cybersecurity?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Expert Team",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              ": Our certified professionals provide comprehensive security solutions, ensuring a seamless defense system with minimal operational interruption.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Custom-Fit Security",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "We offer tailored security strategies that are cost-effective and perfectly aligned with your specific business needs.",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "Ongoing Support",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "With Qcentrio, you get more than just the initial setup; you receive continual support and updates to your cybersecurity measures.",
           },
         ],
       },
@@ -5332,144 +5585,144 @@ const subServicePagesContent = {
     6: {
       heroSectionData: {
         heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+          "Navigate the Future with Google Cloud’s Advanced Capabilities",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Comprehensive GCP Services and Support | Qcentrio",
+        description:
+          "Elevawte your business ith Qcentrio's Google Cloud Platform services. Our bespoke GCP services support offer seamless integration, scalability, and performance.",
       },
       breadCrump: {
         main: "CLOUD INFRA AND SECURITY SERVICES",
         link: "/offerings/cloud-infra-and-security-services",
-        current:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        current: "GCP Services and Support",
       },
-      contactHead: "",
+      contactHead:
+        "Propel your business forward by leveraging Google Cloud’s capabilities",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading:
+          "Embrace the Full Potential of Google Cloud with Qcentrio’s GCP Expertise",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "For businesses aiming to capitalize on cloud technology, Google Cloud Platform (GCP) offers agility and innovation second to none. It gives enterprises the strategic advantage they need with a gamut of services.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "At Qcentrio, we double down on our GCP expertise to help your organization equip with the essential tools to enhance and streamline your cloud infrastructure. By partnering with us, you ensure a seamless, secure, and efficient transition to the cloud, leveraging Google’s next-gen technologies. Our dedicated team of GCP experts is committed to customizing solutions that optimize performance, scalability, and security, ensuring your business fully harnesses the potential of the cloud to drive growth and innovation.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading: "Qcentrio’s Spectrum of GCP Services ",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "GCP Tools Integration",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Tailored GCP integration services to consolidate your infrastructure and leverage the full range of Google Cloud’s computing and hosting solutions for robust, future-ready business operations.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "Seamless Application Deployment",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Expert deployment and management, utilizing GCP’s Kubernetes Engine for container orchestration and Cloud Functions for responsive, event-driven applications.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Data Analytics & Machine Learning",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Transformational insights with GCP’s BigQuery and AI Platform, providing powerful analytics and machine learning capabilities for data-driven decision-making.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Enhanced Security and Compliance",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Comprehensive security and compliance solutions ensure your data is managed with the utmost integrity and meets regulatory requirements with GCP’s cutting-edge security tools.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "Custom GCP Architectures",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Develop custom cloud architectures on GCP that are meticulously designed to meet the specific requirements of your applications and workloads for enhanced performance and scalability.",
+          },
+          {
+            num: "06",
+            heading: "GCP Migration Services",
+            content:
+              "Migrate your existing workloads and applications to GCP with minimal disruption, leveraging our expertise in GCP migration for a smooth transition and quick adoption.",
+          },
+          {
+            num: "07",
+            heading: "GCP Cost Optimization",
+            content:
+              "Utilize our cost management services to maximize your investment in GCP, ensuring you only pay for the resources you need while maintaining optimal performance.",
+          },
+          {
+            num: "07",
+            heading: "GCP Managed Services",
+            content:
+              "Allow our team to manage your GCP environment, handling all operational tasks, from routine maintenance to proactive monitoring and optimization, enabling you to focus on your core business functions.",
           },
         ],
       },
       servicesOfSubService: {
-        mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        mainHeading: "Optimized GCP Services Support for Various Industries",
         list: [
           {
             icon: healthcare,
             heading: "HEALTHCARE",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Leverage GCP to maintain patient data confidentiality, streamline operations, and support telemedicine.",
           },
           {
             icon: finace,
-            heading: "FINANCE",
+            heading: "Retail",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              "Utilize GCP to manage e-commerce platforms, analyze consumer behavior, and personalize customer experiences.",
           },
           {
             icon: manufacturing,
-            heading: "MANUFACTURING",
+            heading: "Finance",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              "Implement GCP’s secure and compliant cloud solutions for financial operations, risk management, and real-time analytics.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "Manufacturing",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Integrate GCP to optimize production processes, supply chain management, and predictive maintenance.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "Automotive",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              "Leverage GCP’s advanced analytics and machine learning capabilities to accelerate innovation in autonomous driving technologies and customer experience.",
           },
           {
             icon: travel,
-            heading: "TRAVEL & TRANSPORTATION",
+            heading: "Media & Entertainment",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
-          },
-          {
-            icon: eCommerce,
-            heading: "E-COMMERCE",
-            content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
-          },
-          {
-            icon: realEstate,
-            heading: "REAL ESTATE",
-            content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
-          },
-          {
-            icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
-            content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Employ GCP to manage large datasets, streamline content delivery networks, and personalize viewer experiences across digital platforms.",
           },
         ],
       },
       whyChooseSection: {
-        mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+        mainHeading: "Why Choose Qcentrio for GCP Services?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Customized GCP Strategies",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              "Advanced GCP services support tailored to your business, ensuring a scalable, secure, and efficient cloud environment.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Expert GCP Integration",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "A dedicated team of GCP experts offers end-to-end support from initial integration to continuous enhancement.",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "Scalability and Innovation",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "Leverage GCP’s diverse offerings to foster growth and adaptability, keeping you ahead in a rapidly evolving digital landscape.",
           },
         ],
       },
@@ -5477,144 +5730,181 @@ const subServicePagesContent = {
     7: {
       heroSectionData: {
         heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+          "Unlock Global Potential by Next-Gen Offshore Development Centre",
       },
       metaData: {
-        title: "",
-        description: "",
+        title: "Specialized Offshore Development Centre Services | Qcentrio",
+        description:
+          "Leverage Qcentrio's offshore development centers for enhanced productivity and innovation. Benefit from our customized teams and best-in-class infrastructure.",
       },
       breadCrump: {
         main: "CLOUD INFRA AND SECURITY SERVICES",
         link: "/offerings/cloud-infra-and-security-services",
-        current:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        current: "Offshore Development Centre Services",
       },
-      contactHead: "",
+      contactHead:
+        "Scale your business operations with a dedicated Offshore Development Centre",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
-        heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
+        heading:
+          "Extend Your Global Reach with Qcentrio’s Offshore Development Centre Services",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "As markets globalize, the strategic expansion of your enterprise through an Offshore Development Centre (ODC) becomes essential. Without it, you cannot empower your global operations and enhance your capacity for innovation and competitive advantage in the international marketplace.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "At Qcentrio, we specialize in establishing ODCs that function as a seamless extension of your business, delivering a comprehensive range of IT services beyond mere software development. We excel in navigating the complexities of managing remote teams, providing robust infrastructure, and ensuring round-the-clock support. This enables your offshored operations to perform with the same efficacy and integration as your onshore activities.",
       },
       offeringsSetion: {
-        mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        mainHeading: "Discover Qcentrio’s Offshore Development Centre Services",
         images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "Customized Team",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Build your offshore team with professionals meticulously selected to meet your project requirements and embody your company's culture and values. We ensure your team is customized to suit your project-specific needs, ensuring they fit the job perfectly.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "Best-in-Class Infrastructure and Facilities",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Our ODCs boast the latest modern technology suites, ensuring your offshore team operates in an environment conducive to high productivity and security. We provide state-of-the-art infrastructure and facilities that enable your team to work efficiently and effectively.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Full-Spectrum Development and Testing",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "We cover every aspect of software development and testing, ensuring your products meet the highest standards and market demands. We provide end-to-end development and testing services so that you can focus on your core business while we take care of the rest.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Ongoing Support and Maintenance",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Benefit from continuous maintenance and IT support to ensure your software remains current and performs flawlessly. We offer continuing support and maintenance services to ensure your software is always up-to-date and running smoothly.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "Strategic Project Management",
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Implement efficient project management strategies to ensure timely delivery and alignment with business objectives. We provide strategic project management services to ensure your project is timely, within budget and aligned with your business objectives.",
+          },
+          {
+            num: "06",
+            heading: "IP Protection and Data Security",
+            content:
+              "Safeguard the integrity of your intellectual property and data with our robust security protocols and stringent compliance measures. We prioritize security and ensure that your intellectual property and data are always protected using the latest security protocols and compliance measures.",
+          },
+          {
+            num: "07",
+            heading: "Cultural and Operational Integration",
+            content:
+              "Create a seamless operational link between your onshore and offshore teams, preserving cohesion and unified business practices. We help you foster a seamless link between your onshore and offshore teams by ensuring they are culturally and operationally integrated.",
+          },
+          {
+            num: "08",
+            heading: "Flexible Resource Allocation",
+            content:
+              ": Rapidly adapt your team size and skill set to match project demands, ensuring agility and optimal resource utilization. Our flexible resource allocation services empower you to respond quickly to your project's demands, ensuring you always have the right resources at the right time.",
+          },
+          {
+            num: "09",
+            heading: "Dedicated Research and Development",
+            content:
+              "Our Offshore Development Centers (ODCs) have specialized R&D teams that focus on innovation and explore new technologies to keep you ahead of the curve. We can help you stay updated with the latest industry trends and advancements.",
+          },
+          {
+            num: "10",
+            heading: "Quality Assurance and Risk Management",
+            content:
+              "We have rigorous QA protocols and risk management strategies to ensure the highest quality output and mitigate potential offshore development risks. Rest assured that your project is in good hands and will be delivered on time and budget.",
+          },
+          {
+            num: "11",
+            heading: "Language and Communication Training",
+            content:
+              "We provide dedicated language and communication training for offshore teams to overcome language barriers and ensure clear and effective cross-cultural collaboration. This will help you communicate more efficiently with your offshore team and achieve better results.",
+          },
+          {
+            num: "12",
+            heading: "Advanced Analytics and Reporting",
+            content:
+              "You can utilize our advanced analytics to gain insights into your offshore operations, with regular reporting to track progress and inform decision-making. This will help you make data-driven decisions and optimize your offshore development processes.",
           },
         ],
       },
       servicesOfSubService: {
-        mainHeading:
-          "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
+        mainHeading: "ODC Services Tailored for Various Industries",
         list: [
           {
             icon: healthcare,
-            heading: "HEALTHCARE",
+            heading: "Software and Technology",
             content:
-              "Our AI is revolutionizing healthcare with tools for drug discovery, disease diagnosis, medical imaging, and personalized care, enhancing patient outcomes and clinical efficiency.",
+              "Support your tech-driven initiatives with a dedicated team of developers and IT specialists.",
           },
           {
             icon: finace,
-            heading: "FINANCE",
+            heading: "Healthcare",
             content:
-              "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
+              "Manage healthcare application development with teams understanding regulatory compliance and patient privacy concerns.",
           },
           {
             icon: manufacturing,
-            heading: "MANUFACTURING",
+            heading: "Financial Services",
             content:
-              "Integrate AI into manufacturing processes for predictive maintenance, optimized production planning, and quality control, ensuring operational excellence and cost reduction.",
+              "Ensure secure and efficient development of financial software solutions, including fintech innovations and banking systems.",
           },
           {
             icon: engineering,
-            heading: "HEAVY ENGINEERING",
+            heading: "Telecommunications",
             content:
-              "Leverage AI technology for heavy engineering projects to improve design efficiency, optimize resource allocation, and enhance project execution through sophisticated data analysis.",
+              "Stay ahead in the fast-paced telecom sector with teams that can rapidly develop and test new applications and services.",
           },
           {
             icon: aerospace,
-            heading: "AEROSPACE",
+            heading: "E-Commerce",
             content:
-              "Advance aerospace design and testing with cutting-edge AI-powered simulations and analytics, significantly enhancing safety and driving innovation in aviation technology.",
+              "Develop robust e-commerce platforms with a team experienced in the latest online retail technologies and customer experience trends.",
           },
           {
             icon: travel,
-            heading: "TRAVEL & TRANSPORTATION",
+            heading: "Automotive",
             content:
-              "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
+              "Support automotive software development, including IoT, telematics, and automation, with an offshore team well-versed in automotive industry standards.",
           },
           {
             icon: eCommerce,
-            heading: "E-COMMERCE",
+            heading: "Energy",
             content:
-              "Amplify your e-commerce strategy with GenAI services to boost personalization, inventory management, and customer service, ensuring enhanced satisfaction and operational efficiency.",
+              ": Harness specialized knowledge in energy sector software, from oil and gas exploration data management to renewable energy grid integration.",
           },
           {
             icon: realEstate,
-            heading: "REAL ESTATE",
+            heading: "Entertainment & Media",
             content:
-              "Enhance your real estate business with AI-powered design optimization, site planning, and project timeline predictions through the analysis of historical data.",
-          },
-          {
-            icon: softwareTechnology,
-            heading: "SOFTWARE TECHNOLOGY",
-            content:
-              "We support software developers with AI tools for code automation, helping them navigate and complete tasks efficiently in any coding environment.",
+              "Create robust solutions for media management, streaming services, and content distribution with a tech team attuned to the entertainment industry's pulse.",
           },
         ],
       },
       whyChooseSection: {
         mainHeading:
-          "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
+          "Why Partner with Qcentrio for Offshore Development Centre Services?",
         list: [
           {
             image: whyChooseImg1,
-            heading: "Expertise in Generative AI",
+            heading: "Customized Solutions",
             content:
-              "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
+              "Each ODC is tailored to fit your unique project requirements and perfectly aligns with your operational goals.",
           },
           {
             image: whyChooseImg2,
-            heading: "Customized Solutions",
+            heading: "Scalability and Flexibility",
             content:
-              "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
+              "Our ODC services allow you to quickly adapt team sizes and skills to your changing needs.",
           },
           {
             image: whyChooseImg3,
-            heading: "Innovative Ecosystem",
+            heading: "Cost-Effective Expertise",
             content:
-              "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
+              "Gain access to a global talent pool and reduce operational costs while maintaining high-quality development standards.",
           },
         ],
       },
@@ -5627,12 +5917,12 @@ const subServicePagesContent = {
         title: "Expert Salesforce Integration and Optimization | Qcentrio",
         link: "/offerings/cloud-infra-and-security-services",
         description:
-          ": Enhance your customer relations with Qcentrio's Salesforce capabilities. Our expertise in CRM solutions drives growth and enriches customer interactions.",
+          "Enhance your customer relations with Qcentrio's Salesforce capabilities. Our expertise in CRM solutions drives growth and enriches customer interactions.",
       },
       breadCrump: {
         main: "CLOUD INFRA AND SECURITY SERVICES",
         link: "/offerings/cloud-infra-and-security-services",
-        current: "MAKE THE MOST OF EVERY CUSTOMER INTERACTION WITH SALESFORCE",
+        current: "Salesforce Services",
       },
       contactHead:
         "Start optimizing customer relations with robust Salesforce capabilities",
