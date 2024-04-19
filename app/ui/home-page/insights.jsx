@@ -12,14 +12,44 @@ export default function Insignts({ title, subheading }) {
   const wrapper = useRef(null);
   const card = useRef(null);
   const [index, setIndex] = useState(0);
+  const [scrollIndex, setScrollIndex] = useState(3);
+  const [windowSize, setWindowSize] = useState({
+    width: 0,
+    height: 0,
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     let translateValue = -index * (card.current.offsetWidth + 30) + "px";
     wrapper.current.style.transform = `translateX(${translateValue})`;
   }, [index]);
 
+  useEffect(() => {
+    if (windowSize.width < 1920) {
+      setScrollIndex(2);
+    }
+
+    if (windowSize.width < 1269) {
+      setScrollIndex(1);
+    }
+  }, [windowSize]);
+
   function handleRight() {
-    if (index < wrapper.current.children.length - 3) {
+    if (index < wrapper.current.children.length - scrollIndex) {
       setIndex(index + 1);
     }
   }
@@ -29,8 +59,9 @@ export default function Insignts({ title, subheading }) {
       setIndex(index - 1);
     }
   }
-
   const blogs = getAllBlogs();
+  console.log(windowSize);
+  console.log(scrollIndex);
 
   return (
     <div className="insights-section section">

@@ -10,6 +10,7 @@ import cvs from "@/public/cvs-logo.svg";
 export default function CompanyList() {
   return (
     <div
+      id="about"
       data-option="up"
       className="company-list-section animate animate-hidden">
       <div className="horizontal-scroll">

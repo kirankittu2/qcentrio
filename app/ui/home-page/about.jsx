@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div id="about" className="about-section section ">
+    <div className="about-section section ">
       <div>
         <h2
           data-option="strip-slide-up"
