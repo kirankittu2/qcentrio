@@ -34,7 +34,8 @@ export default function AboutUs() {
       <div className="balance-section join-us-buttons-container">
         <h2
           data-option="strip-slide-up"
-          className="section-heading animate strip-slide-up strip-slide-black">
+          className="section-heading animate strip-slide-up strip-slide-black"
+        >
           JOIN OUR JOURNEY TO REDEFINE AND LEAD THE INDUSTRY STATUS QUO
         </h2>
         <div className="join-us-buttons">
@@ -66,7 +67,8 @@ function MapSection() {
         <div>
           <h2
             data-option="up"
-            className="section-heading animate animate-hidden">
+            className="section-heading animate animate-hidden"
+          >
             Qcentrio has established itself as a leading force in the IT
             industry, specializing in AI/ML integration, development, cloud
             solutions, and strategic advisory services.
@@ -96,7 +98,7 @@ function MapSection() {
                 </div>
               </div>
               <div className="about-us-map-num-content">
-                <h3>80%</h3>
+                <h3>85%</h3>
                 <p>Employee Trust Index Score</p>
               </div>
             </div>
