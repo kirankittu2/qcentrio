@@ -60,8 +60,6 @@ export default function Insignts({ title, subheading }) {
     }
   }
   const blogs = getAllBlogs();
-  console.log(windowSize);
-  console.log(scrollIndex);
 
   return (
     <div className="insights-section section">

@@ -61,15 +61,6 @@ export default function Carousel() {
         }, (index + 1) * 25);
       });
     });
-
-    // const allInputs = document.querySelectorAll(".home-carousel-input");
-    // allInputs.forEach((input) => {
-    //   if (input === document.activeElement) {
-    //     setHovered((hover) => hover == true);
-    //   } else {
-    //     setHovered((hover) => hover == false);
-    //   }
-    // });
   }, []);
 
   useEffect(() => {
@@ -111,20 +102,20 @@ export default function Carousel() {
     }
   }, [index, slideItem]);
 
-  useEffect(() => {
-    if (hovered == false) {
-      const items = wrapper.current.querySelectorAll(".hero-slide");
-      const intervalId = setInterval(() => {
-        setIndex((prevIndex) =>
-          prevIndex === items.length - 1 ? 0 : prevIndex + 1
-        );
-      }, 5000);
+  // useEffect(() => {
+  //   if (hovered == false) {
+  //     const items = wrapper.current.querySelectorAll(".hero-slide");
+  //     const intervalId = setInterval(() => {
+  //       setIndex((prevIndex) =>
+  //         prevIndex === items.length - 1 ? 0 : prevIndex + 1
+  //       );
+  //     }, 5000);
 
-      return () => {
-        clearInterval(intervalId);
-      };
-    }
-  }, [hovered]);
+  //     return () => {
+  //       clearInterval(intervalId);
+  //     };
+  //   }
+  // }, [hovered]);
 
   function handleRight() {
     if (index < wrapper.current.querySelectorAll(".hero-slide").length - 1) {
@@ -167,7 +158,10 @@ export default function Carousel() {
           onMouseOver={() => isActive(true)}
           onMouseLeave={() => isActive(false)}>
           <div>
-            <Img className="slide-image" src={herobanner1} alt="" />
+            {/* <Img className="slide-image" src={herobanner1} alt="" /> */}
+            <video src="/Main_BG_01.mp4" autoPlay loop>
+              Your browser does not support the video tag.
+            </video>
             <div id="hero-carousel-content" className="hero-content ">
               <h1 className="hero-heading strip">
                 PIONEERING E2E BUSINESS TRANSFORMATION
@@ -196,7 +190,8 @@ export default function Carousel() {
           onMouseOver={() => isActive(true)}
           onMouseLeave={() => isActive(false)}>
           <div>
-            <Img className="slide-image" src={herobanner2} alt="" />
+            <video src="/Main_BG_02.mp4" autoPlay loop></video>
+            {/* <Img className="slide-image" src={herobanner2} alt="" /> */}
             <div id="hero-carousel-content" className="hero-content">
               <h1 className="hero-heading strip">
                 EMPOWERING GLOBAL BRANDS TO WIN, GROW, AND LEAD
@@ -225,7 +220,8 @@ export default function Carousel() {
           onMouseOver={() => isActive(true)}
           onMouseLeave={() => isActive(false)}>
           <div>
-            <Img className="slide-image" src={herobanner3} alt="" />
+            {/* <Img className="slide-image" src={herobanner3} alt="" /> */}
+            <video src="/Main_BG_03.mp4" autoPlay loop></video>
             <div id="hero-carousel-content" className="hero-content">
               <h1 className="hero-heading strip">
                 TAILORED STRATEGIES FOR MARKET AND BUSINESS RESILIENCE

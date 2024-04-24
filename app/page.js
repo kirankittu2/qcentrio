@@ -21,6 +21,13 @@ import service3 from "@/public/sub-offerings-3.jpg";
 import service4 from "@/public/sub-offerings-4.jpg";
 import service5 from "@/public/sub-offerings-5.jpg";
 import service6 from "@/public/sub-offerings-6.jpg";
+import AccordianOfferings from "./ui/global/accordian-offerings";
+import currency from "@/public/currency.svg";
+import idea from "@/public/idea-white.svg";
+import strategy from "@/public/strategy-white.svg";
+import growth from "@/public/growth.svg";
+import block from "@/public/block.svg";
+import cloud from "@/public/cloud-white.svg";
 
 export const metadata = {
   title:
@@ -37,6 +44,8 @@ export default function Home() {
         num: "01",
         heading: "Business Value Enhancement",
         link: "offerings/business-value-enhancement-services",
+        image: "/business-value-enhancement-services.png",
+        icon: currency,
         sub: [
           {
             title: "Generative AI",
@@ -58,6 +67,8 @@ export default function Home() {
         num: "02",
         heading: "Advisory and Strategic",
         link: "offerings/advisory-and-strategic-services",
+        image: "/advisory-and-strategic-services.png",
+        icon: idea,
         sub: [
           {
             title: "EPIC Advisory ",
@@ -91,6 +102,8 @@ export default function Home() {
         num: "03",
         heading: "Business Optimization & Analytics",
         link: "offerings/business-optimization-and-analytics-services",
+        image: "/business-optimization-and-analytics-services.png",
+        icon: strategy,
         sub: [
           {
             title: "Data Analytics & Business Intelligence",
@@ -112,6 +125,8 @@ export default function Home() {
         num: "04",
         heading: "Advanced Technology",
         link: "offerings/advanced-technology-solutions",
+        image: "/advanced-technology-solutions.png",
+        icon: growth,
         sub: [
           {
             title: "ERP Solutions Support",
@@ -145,6 +160,8 @@ export default function Home() {
         num: "05",
         heading: "Cloud Infrastructure & Security",
         link: "offerings/cloud-infra-and-security-services",
+        image: "/cloud-infra-and-security-services.png",
+        icon: block,
         sub: [
           {
             title: "Cloud Infrastructure Services",
@@ -186,6 +203,8 @@ export default function Home() {
         num: "06",
         heading: "Blockchain",
         link: "offerings/blockchain-advisory-and-offerings",
+        image: "/blockchain-advisory-and-offerings.png",
+        icon: cloud,
         sub: [
           {
             title: "Strategy & Advisory",
@@ -225,8 +244,9 @@ export default function Home() {
       </div>
       <CompanyList />
       <About />
-      {/* <Services /> */}
-      <Offerings data={services} />
+      {/* <Services  /> */}
+      {/* <Offerings data={services} /> */}
+      <AccordianOfferings data={services} />
       <Journey />
       <WhyQcentrio />
       <Insignts

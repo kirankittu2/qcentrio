@@ -7,9 +7,11 @@ import logo from "@/public/logo.svg";
 import search from "@/public/search.svg";
 import tri from "@/public/up-tri.svg";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function NavLinks({ setServiceHovered, servicesHovered }) {
   const [resourcesHovered, setResHovered] = useState(false);
+  const pathname = usePathname();
 
   return (
     <>
@@ -29,7 +31,9 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
             setResHovered(!resourcesHovered);
           }
         }}
-        className="main-nav-link">
+        className={`main-nav-link ${
+          pathname.includes("/offerings") ? "active" : ""
+        }`}>
         <Link data-option="link" className="link-with-down-arrow" href="">
           Offerings
           <span className="w-[8px] h-[8px] relative">
@@ -47,7 +51,10 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
           </span>
         </Link>
       </li>
-      <li className="main-nav-link">
+      <li
+        className={`main-nav-link ${
+          pathname == "/industries" ? "active" : ""
+        }`}>
         <Link href="/industries">Industries</Link>
       </li>
       <li
@@ -59,10 +66,12 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
             setServiceHovered(!servicesHovered);
           }
         }}
-        className="main-nav-link">
+        className={`main-nav-link ${
+          pathname.includes("/insights") ? "active" : ""
+        }`}>
         <Link
           data-option="link"
-          className="link-with-down-arrow"
+          className={`link-with-down-arrow `}
           href="/insights">
           Insights
           {/* <span>
@@ -88,10 +97,11 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
           </div>
         )} */}
       </li>
-      <li className="main-nav-link">
+      <li
+        className={`main-nav-link ${pathname == "/about-us" ? "active" : ""}`}>
         <Link href="/about-us">About Us</Link>
       </li>
-      <li className="main-nav-link">
+      <li className={`main-nav-link ${pathname == "/careers" ? "active" : ""}`}>
         <Link href="/careers">Careers</Link>
       </li>
       <li className="mr-[20px] ml-auto search-list-item">

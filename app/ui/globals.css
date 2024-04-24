@@ -303,8 +303,8 @@ textarea {
 .main-nav {
   display: flex;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
   /* position: relative; */
 }
 
@@ -393,7 +393,8 @@ header {
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  padding: 20px 0px;
+  padding: 20px 20px;
+  background-color: #F9F9F9;
 }
 
 .nav-options.mega-menu {
@@ -401,45 +402,66 @@ header {
 }
 
 .mega-menu-column {
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
+  /* background-color: white; */
   flex: 1;
 }
 
-.mega-menu-middle-column {
+.mega-menu-column-1 {
+  background-color: white;
+}
+
+
+.mega-menu-column-2 {
   flex: 2;
+  background-color: white;
 }
 
 .mega-menu-main-nav-link {
   padding: 14px 20px;
-  border-radius: 6px;
+  /* border-radius: 6px; */
   /* cursor: pointer; */
-  margin-bottom: 5px;
+  font-family: "Quadran-Regular";
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #404040;
+  /* background-color: white; */
+}
+
+.mega-menu-main-nav-link:hover {
+  background-color: #E5F4EF;
+}
+
+.mega-menu-main-nav-link.active {
+  background-color: var(--primary-color);
+  color: white;
   font-family: "Quadran-Medium";
 }
+
 
 .mega-menu-main-nav-link img {
   margin-left: auto;
   rotate: 152deg;
 }
 
-.mega-menu-main-nav-link:hover {
-  background-color: var(--primary-color);
-  color: white;
-}
-
 .mega-menu-heading {
   font-size: 16px;
   font-family: "Quadran-Medium";
   color: var(--primary-color);
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  background-color: #F9F9F9;
+  padding-left: 20px;
+}
+
+.mega-menu-column-3 .mega-menu-heading{
+  padding-left: 0px;
 }
 
 .mega-menu-middle-columns-container {
   display: flex;
-  gap: 30px;
+  height: 75%;
+  /* gap: 30px; */
 }
 
 .mega-menu-middle-columns-container a {
@@ -451,12 +473,18 @@ header {
   flex: 1;
 }
 
+
 .mega-menu-sub-nav-link {
   color: #404040;
   font-family: "Quadran-Regular";
   font-size: 16px;
-  padding: 14px 0px;
+  padding: 10px 20px;
 }
+
+.mega-menu-sub-nav-link:hover {
+  background-color: #E5F4EF;
+}
+
 
 .menu-menu-container {
   width: 100%;
@@ -478,7 +506,8 @@ header {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  border-radius: 6px;
+  border-radius: 24px;
+  background-color: white;
 }
 
 .what-new-title {
@@ -496,6 +525,34 @@ header {
   gap: 20px;
   /* cursor: pointer; */
   width: fit-content;
+}
+
+.mega-menu-content{
+  padding: 20px;
+  display: flex;
+  border-bottom: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
+  /* border-right: 1px solid #f2f2f2;  */
+  gap: 30px;
+  font-family: "Quadran-Regular";
+  color: #404040;
+}
+
+.mega-menu-content-link  div{
+  background-color: rgba(8,151,104, 0.1);
+  white-space: nowrap;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-family: "Quadran-Medium";
+  color: var(--primary-color);
+}
+
+.mega-menu-content-link a{
+  text-decoration: none;
 }
 
 .cursor {
@@ -549,10 +606,10 @@ header {
 .hero {
   padding-left: clamp(5px, 7.81vw, 140px);
   padding-bottom: clamp(5px, 7.81vw, 140px);
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
   /* position: relative; */
-  /* background: transparent linear-gradient(113deg, #089768 0%, #000000 100%) 0%
-    0% no-repeat padding-box; */
+  background: transparent linear-gradient(113deg, #089768 0%, #000000 100%) 0%
+    0% no-repeat padding-box;
   overflow-x: clip;
 }
 
@@ -615,7 +672,7 @@ header {
 
 .hero-carousel-nav {
   position: absolute;
-  bottom: 1px;
+  bottom: 0px;
   right: 16.6vw;
   z-index: 10;
 }
@@ -654,8 +711,8 @@ header {
   align-items: center;
   gap: 5px;
   position: absolute;
-  bottom: 7.81vw;
-  right: 7.55vw;
+  bottom: 98px;
+  left: 7vw;
   font-size: var(--general-text-no-frequent);
   color: rgba(255, 255, 255, 0.4);
   height: fit-content;
@@ -675,7 +732,7 @@ header {
 .hero-content {
   position: absolute;
   left: clamp(50px, 7.81vw, 140px);
-  top: 50%;
+  top: 40%;
   width: 50%;
   /* opacity: 0; */
   transform: translateY(-40%);
@@ -814,6 +871,7 @@ header {
   gap: 10px;
   position: relative;
   overflow-x: clip;
+  padding-bottom: 30px;
 }
 
 #path-1 {
@@ -946,7 +1004,13 @@ header {
 .main-nav-link {
   display: flex;
   align-items: center;
-  margin-left: 60px;
+  height: 100px;
+  padding: 0px 30px;
+}
+
+.main-nav-link.active{
+  background-color: #F9F9F9;
+  border-bottom: 7px solid #089768;
 }
 
 /* blogs styles */
@@ -2397,11 +2461,11 @@ h2.blog-page-side-heading {
 .service-sub-offerings {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 10px;
 }
 
 .service-sub-offering {
-  background-color: rgba(8, 151, 104, 0.15);
+  background-color: var(--primary-color);
   border-radius: 18px;
   width: fit-content;
   padding: 7px 14px;
@@ -2410,6 +2474,7 @@ h2.blog-page-side-heading {
   display: flex;
   gap: 20px;
   align-items: center;
+  color: white;
 }
 
 .about-section-heading-background {
@@ -3135,6 +3200,203 @@ th, td {
 #fileInput{
   cursor: none;
 }
+
+/* Accordian offerings styles */
+.accordian-offerings-container{
+   display: flex; 
+   gap: 20px;
+  /* align-items: center;  */
+  height: 565px; 
+}
+
+.accordian-offerings-section{
+  /* padding-top: 0px; */
+  position: relative;
+  background: transparent linear-gradient(180deg, #F7FFEC 0%, #FFFFFF 100%)
+}
+
+.accordian-offering-divider{
+  height: 2px;
+  background-color: #FFFFFF;
+  opacity: 0.14;
+  margin-top: auto;
+  margin-bottom: 30px;
+}
+
+.accordian-offering{
+  background:  linear-gradient(180deg, #000000 0%, #004E1F 100%);
+  border-radius: 10px 30px 10px 10px;
+  padding: 20px;
+  width: 121px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  position: relative;
+  /* rotate: -90deg; */
+  /* max-height: fit-content; */
+  transition: width 0.8s linear;
+  overflow: hidden;
+  background-size: cover;
+  background-position: left -400px top 0px;
+  background-blend-mode: multiply;
+}
+
+.need-something-block{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: var(--primary-color);
+  height: 50%;
+  width: 80px;
+  border-radius: 0px 5px 40px 0px
+}
+
+.need-something-block > div{
+  position: relative;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: end;
+}
+
+.need-something-block-title-wrapper{
+  position: absolute;
+    rotate: -90deg;
+    top: 45%;
+    width: 100px;
+    height: 100px;
+    padding-top: -1px;
+}
+
+.accordian-offering-number{
+  color: white;
+  font-size: 22px;
+  font-family: "Quadran-Bold";
+  /* text-align: center; */
+  /* margin-left: 30px; */
+  /* rotate: 90deg; */
+}
+
+.accordian-offering-title{
+  color: white;
+  font-size: 22px;
+  font-family: "Quadran-Regular";
+  /* margin-left: 30px; */
+  rotate: -90deg;
+  position: absolute;
+  top: 50px;
+  /* left: 0; */
+  height: 400px;
+  width: 400px;
+  white-space: nowrap;
+  padding-top: 6px;
+}
+
+.accordian-offering-active{
+  width: 100%;
+}
+
+.accordian-offering.accordian-offering-active{
+  justify-content: unset;
+  padding: 50px;
+}
+
+.service-sub-offerings{
+  display: none;
+}
+
+.accordian-offering >  div:first-child{
+  width: 845px;
+}
+
+
+.accordian-offering-title-hidden{
+  font-family: "Quadran-Bold";
+  color: white;
+  font-size: 34px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+.accordian-offering-content-hidden{
+  display: none;
+  color: white;
+  font-size: 16px;
+  font-family: "Quadran-Light";
+}
+
+.accordian-offering-icon{
+  background-color: var(--primary-color);
+  width: 102px;
+  height: 102px;
+  border-radius: 50px;
+  display: none;
+}
+
+.accordian-offering-icon > div{
+  width: 40px;
+  height: 46px;
+  margin: auto auto;
+  position: relative;
+}
+
+.accordian-offering-head{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left: 7px;
+}
+
+.accordian-offering-open-icon > div{
+  width: 35px;
+  height: 35px;
+  margin: auto auto;
+  position: relative;
+}
+
+.need-something-block-title{
+  font-size: 22px;
+  font-family: "Quadran-Medium";
+  color: white;
+  white-space: nowrap;
+  display: flex;
+}
+
+.accordian-offering.accordian-offering-active .accordian-offering-icon{
+  display: flex;
+}
+
+.accordian-offering.accordian-offering-active .accordian-offering-number{
+  text-align: right;
+}
+
+.accordian-offering.accordian-offering-active .accordian-offering-divider{
+  display: none;
+}
+
+.accordian-offering.accordian-offering-active .accordian-offering-title{
+  display: none;
+}
+
+.accordian-offering.accordian-offering-active .service-sub-offerings{
+  display: flex;
+}
+
+ .accordian-offering.accordian-offering-active .accordian-offering-title-hidden{
+  display: block;
+}
+
+.accordian-offering.accordian-offering-active .accordian-offering-content-hidden{
+  display: block;
+}
+
+.accordian-offering.accordian-offering-active .accordian-offering-open-icon{
+  display: none;
+}
+
+
 
 @media screen and (max-width: 1764px) {
   #path-2,

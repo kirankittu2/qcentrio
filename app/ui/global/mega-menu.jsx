@@ -4,11 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import arrow from "@/public/blog-arrow.svg";
 import triWhite from "@/public/up-tri-white.svg";
+import greenArrow from "@/public/discover-green-arrow.svg";
 import whatNew from "@/public/bi-andsql-analytics.png";
 import { useEffect, useRef, useState } from "react";
 
 export function MegaMenu({ setServiceHovered, servicesHovered }) {
   const [index, setIndex] = useState(0);
+  const [service, setService] = useState("Business Value Enhancement");
   const container = useRef(null);
   const links = [
     {
@@ -21,6 +23,8 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
           title: "Artificial Intelligence / Machine Learning Offerings",
           link: "/offerings/business-value-enhancement-services/artificial-intelligence-machine-learning-offerings",
         },
+      ],
+      column2: [
         {
           title: "Robotic Process Automation Services",
           link: "/offerings/business-value-enhancement-services/robotic-process-automation-services",
@@ -97,6 +101,8 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
           title: "Collaboration and Productivity Solutions",
           link: "/offerings/business-optimization-and-analytics-services/collaboration-and-productivity-solutions",
         },
+      ],
+      column2: [
         {
           title: "CRM System Solutions",
           link: "/offerings/business-optimization-and-analytics-services/crm-system-solutions",
@@ -113,12 +119,12 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
           title: "Blockchain Solution Development",
           link: "/offerings/blockchain-advisory-and-offerings/blockchain-solution-development",
         },
+      ],
+      column2: [
         {
           title: "Blockchain Integration and Deployment",
           link: "/offerings/blockchain-advisory-and-offerings/blockchain-integration-and-deployment",
         },
-      ],
-      column2: [
         {
           title: "Blockchain Security and Compliance",
           link: "/offerings/blockchain-advisory-and-offerings/blockchain-security-and-compliance",
@@ -203,6 +209,48 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
     },
   ];
 
+  const mainServices = [
+    "Business Value Enhancement",
+    "Advanced Technology Solutions",
+    "Advisory and Strategic Services",
+    "Business Optimization and Analytics",
+    "Blockchain Services & Solutions",
+    "Cloud Infrastructure & Security Services",
+  ];
+
+  const mainTitles = [
+    {
+      content:
+        "Specializing in AI solutions to revolutionize and drive business growth.",
+      link: "/offerings/business-value-enhancement-services",
+    },
+    {
+      content:
+        "Specializing in AI solutions to revolutionize and drive business growth.",
+      link: "/offerings/advanced-technology-solutions",
+    },
+    {
+      content:
+        "Specializing in AI solutions to revolutionize and drive business growth.",
+      link: "/offerings/advisory-and-strategic-services",
+    },
+    {
+      content:
+        "Specializing in AI solutions to revolutionize and drive business growth.",
+      link: "/offerings/business-optimization-and-analytics-services",
+    },
+    {
+      content:
+        "Specializing in AI solutions to revolutionize and drive business growth.",
+      link: "/offerings/blockchain-advisory-and-offerings",
+    },
+    {
+      content:
+        "Specializing in AI solutions to revolutionize and drive business growth.",
+      link: "/offerings/cloud-infra-and-security-services",
+    },
+  ];
+
   useEffect(() => {
     const handleScroll = () => {
       setServiceHovered((prevState) => prevState == false);
@@ -226,114 +274,134 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
       ref={container}
       className="menu-menu-container">
       <div className="nav-options mega-menu">
-        <div className="mega-menu-column border-r border-[#707070]/20">
+        <div className="mega-menu-column mega-menu-column-1">
           <h2 className="mega-menu-heading">Our Offerings</h2>
-          <div
-            data-index="0"
-            className={`mega-menu-main-nav-link ${
-              index == 0 ? "bg-[#089768] text-white" : "bg-white text-[#404040]"
-            }`}
-            onClick={() => setIndex(0)}>
-            Business Value Enhancement
-            {index == 0 && (
-              <span>
-                <Image alt="" src={triWhite} />
-              </span>
-            )}
-          </div>
-          <div
-            data-index="1"
-            className={`mega-menu-main-nav-link ${
-              index == 1 ? "bg-[#089768] text-white" : "bg-white text-[#404040]"
-            }`}
-            onClick={() => setIndex(1)}>
-            Advanced Technology Solutions
-            {index == 1 && (
-              <span>
-                <Image alt="" src={triWhite} />
-              </span>
-            )}
-          </div>
-          <div
-            data-index="2"
-            className={`mega-menu-main-nav-link ${
-              index == 2 ? "bg-[#089768] text-white" : "bg-white text-[#404040]"
-            }`}
-            onClick={() => setIndex(2)}>
-            Advisory and Strategic Services
-            {index == 2 && (
-              <span>
-                <Image alt="" src={triWhite} />
-              </span>
-            )}
-          </div>
-          <div
-            data-index="3"
-            className={`mega-menu-main-nav-link ${
-              index == 3 ? "bg-[#089768] text-white" : "bg-white text-[#404040]"
-            }`}
-            onClick={() => setIndex(3)}>
-            Business Optimization and Analytics
-            {index == 3 && (
-              <span>
-                <Image alt="" src={triWhite} />
-              </span>
-            )}
-          </div>
-          <div
-            data-index="4"
-            className={`mega-menu-main-nav-link ${
-              index == 4 ? "bg-[#089768] text-white" : "bg-white text-[#404040]"
-            }`}
-            onClick={() => setIndex(4)}>
-            Blockchain Services & Solutions
-            {index == 4 && (
-              <span>
-                <Image alt="" src={triWhite} />
-              </span>
-            )}
-          </div>
-          <div
-            data-index="5"
-            className={`mega-menu-main-nav-link ${
-              index == 5 ? "bg-[#089768] text-white" : "bg-white text-[#404040]"
-            }`}
-            onClick={() => setIndex(5)}>
-            Cloud Infrastructure & Security Services
-            {index == 5 && (
-              <span>
-                <Image alt="" src={triWhite} />
-              </span>
-            )}
+          <div className="border border-[#F2F2F2]">
+            <div
+              data-index="0"
+              className={`mega-menu-main-nav-link ${
+                index == 0 ? "active" : ""
+              }`}
+              onClick={() => setIndex(0)}>
+              Business Value Enhancement
+              {index == 0 && (
+                <span>
+                  <Image alt="" src={triWhite} />
+                </span>
+              )}
+            </div>
+            <div
+              data-index="1"
+              className={`mega-menu-main-nav-link ${
+                index == 1 ? "active" : ""
+              }`}
+              onClick={() => setIndex(1)}>
+              Advanced Technology Solutions
+              {index == 1 && (
+                <span>
+                  <Image alt="" src={triWhite} />
+                </span>
+              )}
+            </div>
+            <div
+              data-index="2"
+              className={`mega-menu-main-nav-link ${
+                index == 2 ? "active" : ""
+              }`}
+              onClick={() => setIndex(2)}>
+              Advisory and Strategic Services
+              {index == 2 && (
+                <span>
+                  <Image alt="" src={triWhite} />
+                </span>
+              )}
+            </div>
+            <div
+              data-index="3"
+              className={`mega-menu-main-nav-link ${
+                index == 3 ? "active" : ""
+              }`}
+              onClick={() => setIndex(3)}>
+              Business Optimization and Analytics
+              {index == 3 && (
+                <span>
+                  <Image alt="" src={triWhite} />
+                </span>
+              )}
+            </div>
+            <div
+              data-index="4"
+              className={`mega-menu-main-nav-link ${
+                index == 4 ? "active" : ""
+              }`}
+              onClick={() => setIndex(4)}>
+              Blockchain Services & Solutions
+              {index == 4 && (
+                <span>
+                  <Image alt="" src={triWhite} />
+                </span>
+              )}
+            </div>
+            <div
+              data-index="5"
+              className={`mega-menu-main-nav-link ${
+                index == 5 ? "active" : ""
+              }`}
+              onClick={() => setIndex(5)}>
+              Cloud Infrastructure & Security Services
+              {index == 5 && (
+                <span>
+                  <Image alt="" src={triWhite} />
+                </span>
+              )}
+            </div>
           </div>
         </div>
-        <div className="mega-menu-column mega-menu-middle-column border-r border-[#707070]/20">
-          <h2 className="mega-menu-heading ">Sub Services</h2>
-          <div className="mega-menu-middle-columns-container">
-            <div>
-              {links[index].column1.map((link, i) => {
-                return (
-                  <Link key={i} href={link.link}>
-                    <div className="mega-menu-sub-nav-link">{link.title}</div>
-                  </Link>
-                );
-              })}
+        <div className="mega-menu-column mega-menu-column-2 ">
+          <h2 className="mega-menu-heading">{mainServices[index]}</h2>
+          <div className="border-r border-b border-[#F2F2F2] h-[89.2%]">
+            <div className="mega-menu-content">
+              <div>{mainTitles[index].content}</div>
+              <div className="mega-menu-content-link">
+                <Link href={mainTitles[index].link}>
+                  <div>
+                    Read More
+                    <span className="w-[24px] ml-[10px]">
+                      <Image src={greenArrow} alt="" />
+                    </span>
+                  </div>
+                </Link>
+              </div>
             </div>
-            <div>
-              {links[index].column2 &&
-                links[index].column2.map((link, i) => {
+            <div className="mega-menu-middle-columns-container">
+              <div className="border-r border-[#F2F2F2]">
+                {links[index].column1.map((link, i) => {
                   return (
                     <Link key={i} href={link.link}>
-                      <div key={i} className="mega-menu-sub-nav-link">
-                        {link.title}
-                      </div>
+                      <div className="mega-menu-sub-nav-link">{link.title}</div>
                     </Link>
                   );
                 })}
+              </div>
+              <div>
+                {links[index].column2 &&
+                  links[index].column2.map((link, i) => {
+                    return (
+                      <Link key={i} href={link.link}>
+                        <div key={i} className="mega-menu-sub-nav-link">
+                          {link.title}
+                        </div>
+                      </Link>
+                    );
+                  })}
+              </div>
             </div>
           </div>
         </div>
         <div className="mega-menu-column">
+          <h2 className="mega-menu-heading">Industries</h2>
+        </div>
+        <div className="mega-menu-column mega-menu-column-3">
           <h2 className="mega-menu-heading ">What's New?</h2>
           <div className="what-new-col-container">
             <Image className="mb-[10px]" src={whatNew} alt="" />
