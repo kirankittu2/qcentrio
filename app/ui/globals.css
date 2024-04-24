@@ -43,6 +43,10 @@ html {
   padding: 0;
 }
 
+video{
+  opacity: 0.7;
+}
+
 .blog-page-hero{
   scroll-margin-top: 70px;
 }
@@ -473,6 +477,13 @@ header {
   flex: 1;
 }
 
+.industry-nav-item{
+  padding: 10px 20px;
+  /* text-transform: lowercase; */
+  font-family: "Quadran-Regular";
+  color: #404040;
+}
+
 
 .mega-menu-sub-nav-link {
   color: #404040;
@@ -654,6 +665,7 @@ header {
   max-width: 1790px;
   height: 100%;
   position: relative;
+  background-color: black;
 }
 
 .slideUP {
@@ -3264,9 +3276,9 @@ th, td {
 .need-something-block-title-wrapper{
   position: absolute;
     rotate: -90deg;
-    top: 45%;
-    width: 100px;
-    height: 100px;
+    top: -38px;
+    width: 300px;
+    height: 300px;
     padding-top: -1px;
 }
 

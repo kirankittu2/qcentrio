@@ -4,7 +4,9 @@ import Image from "next/image";
 
 export default function SubOfferings(data) {
   return (
-    <div className="service-sub-offerings">
+    <div
+      data-option="up"
+      className="service-sub-offerings animate animate-hidden">
       {data.data.sub.map((service, index) => {
         return (
           <Link key={index} href={service.link}>

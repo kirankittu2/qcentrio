@@ -10,6 +10,7 @@ import { useEffect, useRef, useState } from "react";
 
 export function MegaMenu({ setServiceHovered, servicesHovered }) {
   const [index, setIndex] = useState(0);
+  const [subindex, setSubIndex] = useState(0);
   const [service, setService] = useState("Business Value Enhancement");
   const container = useRef(null);
   const links = [
@@ -251,6 +252,232 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
     },
   ];
 
+  const industryLinks = [
+    [
+      [
+        "Healthcare",
+        "Finance",
+        "Manufacturing",
+        "Heavy Engineering",
+        "Aerospace",
+        "Travel & Transportation",
+      ],
+      [
+        "Healthcare",
+        "Finance",
+        "Manufacturing",
+        "Retail",
+        "Energy",
+        "Travel & Transportation",
+      ],
+      [
+        "Healthcare",
+        "Finance",
+        "Manufacturing",
+        "Real Estate",
+        "Travel & Transportation",
+      ],
+    ],
+    [
+      [
+        "Healthcare",
+        "Financial Services",
+        "Manufacturing",
+        "Retail",
+        "Supply Chain and Logistics",
+        "Hospitality",
+      ],
+      [
+        "Healthcare",
+        "Finance",
+        "Manufacturing",
+        "Retail",
+        "Automotive",
+        "Public Sector",
+      ],
+      [
+        "Consumer Electronics",
+        "Automotive",
+        "Aerospace",
+        "Medical Devices",
+        "Telecom",
+        "Servers/Storage",
+      ],
+      [
+        "Healthcare",
+        "Fintech",
+        "Education",
+        "Retail",
+        "Logistics",
+        "Hospitality",
+      ],
+      [
+        "Automotive",
+        "Smart Home & Building",
+        "Agriculture",
+        "Retail",
+        "Healthcare",
+        "Travel & Transportation",
+      ],
+      [
+        "Healthcare",
+        "Financial Services",
+        "Manufacturing",
+        "Retail",
+        "Transportation",
+        "Media and Entertainment",
+      ],
+    ],
+    [
+      ["Hospitals and Clinics", "Telemedicine", "Pharmacy Management"],
+      ["Hospitals", "Clinics", "Specialty Care"],
+      ["Healthcare", "Finance", "Manufacturing", "Retail", "Tech and IT"],
+      [
+        "Healthcare",
+        "Finance and Banking",
+        "E-Commerce",
+        "Telecommunications",
+        "Energy and Utilities",
+        "Government and Public Services",
+      ],
+      [
+        "Technology and Software",
+        "E-Commerce",
+        "Healthcare",
+        "Finance and Banking",
+        "Education Technology",
+        "Automotive",
+      ],
+      [
+        "Healthcare",
+        "Finance",
+        "Manufacturing",
+        "Retail and Consumer Goods",
+        "Media and Entertainment",
+        "Energy and Resources",
+      ],
+    ],
+    [
+      [
+        "Healthcare",
+        "Finance",
+        "Manufacturing",
+        "Retail",
+        "Energy",
+        "Telecommunications",
+      ],
+      [
+        "Healthcare",
+        "Finance",
+        "Manufacturing",
+        "Retail",
+        "Software Technology",
+        "Education",
+      ],
+      ["Healthcare", "Finance", "Manufacturing", "Retail"],
+    ],
+    [
+      [
+        "Finance",
+        "Supply Chain Management",
+        "Retail and Consumer Goods",
+        "Automotive",
+        "Media and Entertainment",
+        "Telecommunications",
+      ],
+      [
+        "Financial Services",
+        "Healthcare",
+        "Supply Chain Management",
+        "Energy",
+        "Media and Entertainment",
+        "Government",
+      ],
+      [
+        "Finance",
+        "Healthcare",
+        "Supply Chain",
+        "Government",
+        "Retail",
+        "Manufacturing",
+      ],
+      [
+        "Fintech and Banking",
+        "Healthcare",
+        "Supply Chain",
+        "Retail",
+        "Real Estate",
+        "Legal",
+      ],
+    ],
+    [
+      [
+        "Healthcare",
+        "Finance",
+        "Manufacturing",
+        "Retail",
+        "Education",
+        "Government",
+      ],
+      [
+        "Financial Services",
+        "Healthcare",
+        "Retail",
+        "Government",
+        "Automotive",
+        "Telecommunications",
+      ],
+      [
+        "Healthcare",
+        "Finance",
+        "Manufacturing",
+        "Retail",
+        "Education",
+        "Automotive",
+      ],
+      [
+        "Healthcare",
+        "Finance",
+        "E-Commerce",
+        "Real Estate",
+        "Education",
+        "Government",
+      ],
+      [
+        "Healthcare",
+        "Finance",
+        "Manufacturing",
+        "Retail",
+        "Media & Entertainment",
+        "Automotive",
+      ],
+      [
+        "Healthcare",
+        "Finance",
+        "Transportation",
+        "Retail",
+        "Hospitality",
+        "Education",
+      ],
+      [
+        "Healthcare",
+        "Finance",
+        "Logistics and Supply Chain",
+        "Hospitality and Travel",
+        "Legal Services",
+        "Education",
+      ],
+      [
+        "Software and Technology",
+        "Healthcare",
+        "Financial Services",
+        "Telecommunications",
+        "E-Commerce",
+        "Entertainment & Media",
+      ],
+    ],
+  ];
+
   useEffect(() => {
     const handleScroll = () => {
       setServiceHovered((prevState) => prevState == false);
@@ -263,6 +490,7 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
     };
   }, [setServiceHovered]);
 
+  console.log(subindex);
   return (
     <div
       data-option="mega-menu-container"
@@ -377,7 +605,10 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
               <div className="border-r border-[#F2F2F2]">
                 {links[index].column1.map((link, i) => {
                   return (
-                    <Link key={i} href={link.link}>
+                    <Link
+                      onMouseOver={() => setSubIndex(i)}
+                      key={i}
+                      href={link.link}>
                       <div className="mega-menu-sub-nav-link">{link.title}</div>
                     </Link>
                   );
@@ -387,7 +618,12 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
                 {links[index].column2 &&
                   links[index].column2.map((link, i) => {
                     return (
-                      <Link key={i} href={link.link}>
+                      <Link
+                        onMouseOver={() =>
+                          setSubIndex(i + links[index].column1.length)
+                        }
+                        key={i}
+                        href={link.link}>
                         <div key={i} className="mega-menu-sub-nav-link">
                           {link.title}
                         </div>
@@ -400,6 +636,11 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
         </div>
         <div className="mega-menu-column">
           <h2 className="mega-menu-heading">Industries</h2>
+          {industryLinks[index][subindex].map((item, i) => (
+            <div className="industry-nav-item" key={i}>
+              {item}
+            </div>
+          ))}
         </div>
         <div className="mega-menu-column mega-menu-column-3">
           <h2 className="mega-menu-heading ">What's New?</h2>

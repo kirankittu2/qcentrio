@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import SubOfferings from "../home-page/sub-offerings";
 import Image from "next/image";
 import float from "@/public/float.svg";
@@ -32,6 +32,31 @@ export default function AccordianOfferings({ data }) {
     }
   }
 
+  useEffect(() => {
+    const content = document.querySelectorAll(
+      ".accordian-offering-content-hidden"
+    );
+    content.forEach((item) => {
+      if (item.classList.contains("slideup")) {
+        item.classList.remove("slideup");
+      }
+    });
+
+    const subOfferings = document.querySelectorAll(".service-sub-offerings");
+    subOfferings.forEach((item) => {
+      if (item.classList.contains("slideup")) {
+        item.classList.remove("slideup");
+      }
+    });
+
+    const headings = document.querySelectorAll(
+      ".accordian-offering-title-hidden"
+    );
+    headings.forEach((item) => {
+      item.classList.add("animate", "strip-slide-up", "strip-slide-white");
+    });
+  }, [index]);
+
   return (
     <div className="accordian-offerings-section section">
       <div className="accordian-offerings-container">
@@ -43,7 +68,11 @@ export default function AccordianOfferings({ data }) {
                 index == i ? "accordian-offering-active" : ""
               } `}
               style={{
-                backgroundImage: `${index == i ? `url(${item.image})` : ""}`,
+                backgroundImage: `${
+                  index === i
+                    ? `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(${item.image})`
+                    : ""
+                }`,
               }}
               onMouseOver={(event) => handleHover(i, event)}
               onMouseEnter={changeCursor}
@@ -61,10 +90,14 @@ export default function AccordianOfferings({ data }) {
                 </div>
                 <h2 className="accordian-offering-title">{item.heading}</h2>
                 <div>
-                  <h2 className="accordian-offering-title-hidden">
+                  <h2
+                    data-option="strip-slide-up"
+                    className="accordian-offering-title-hidden">
                     {item.heading}
                   </h2>
-                  <p className="accordian-offering-content-hidden">
+                  <p
+                    data-option="up"
+                    className="accordian-offering-content-hidden animate animate-hidden">
                     {item.content}
                   </p>
                   <SubOfferings data={item} />
@@ -85,16 +118,16 @@ export default function AccordianOfferings({ data }) {
           <div className="need-something-block-title-wrapper">
             <h2 className="need-something-block-title">
               Need Something
-              <span>
-                <Image
-                  style={{
-                    display: "inline-block",
-                    width: "12px",
-                    height: "23px",
-                  }}
-                  src={arrow}
-                  alt=""
-                />
+              <span
+                style={{
+                  display: "block",
+                  width: "30px",
+                  height: "30px",
+                  position: "relative",
+                  marginLeft: "18px",
+                  marginTop: "3px",
+                }}>
+                <Image fill src={arrow} alt="" />
               </span>
             </h2>
           </div>

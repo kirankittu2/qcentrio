@@ -82,8 +82,7 @@ export default function Contact({ heading, subheading, upload }) {
           placeholder="Your Message"
           rows="10"></textarea>
         <div className="contact-btn-container">
-          {/* <Button name="Contact Us" /> */}
-          <button>Submit</button>
+          <Button name="Contact Us" />
         </div>
       </form>
     </div>
