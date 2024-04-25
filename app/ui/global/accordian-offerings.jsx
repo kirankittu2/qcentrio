@@ -5,11 +5,13 @@ import SubOfferings from "../home-page/sub-offerings";
 import Image from "next/image";
 import float from "@/public/float.svg";
 import arrow from "@/public/discover-arrow.svg";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function AccordianOfferings({ data }) {
   const [index, setIndex] = useState(0);
   const [previousIndex, setPreviousIndex] = useState(0);
-
+  const router = useRouter();
   function changeCursor() {
     document.querySelector(".cursor").classList.add("hovered");
   }
@@ -29,6 +31,17 @@ export default function AccordianOfferings({ data }) {
       setPreviousIndex(index);
       setIndex(i);
       hovered = true;
+    }
+  }
+
+  function handleURLRedirect(e) {
+    console.log(e.target);
+    if (
+      !e.target.classList.contains("service-sub-offering") &&
+      !e.target.classList.contains("service-sub-offering-span")
+    ) {
+      const parentLink = e.currentTarget.getAttribute("data-link");
+      router.push(parentLink);
     }
   }
 
@@ -64,6 +77,7 @@ export default function AccordianOfferings({ data }) {
           return (
             <div
               key={i}
+              data-link={item.link}
               className={`accordian-offering  ${
                 index == i ? "accordian-offering-active" : ""
               } `}
@@ -74,6 +88,7 @@ export default function AccordianOfferings({ data }) {
                     : ""
                 }`,
               }}
+              onClick={handleURLRedirect}
               onMouseOver={(event) => handleHover(i, event)}
               onMouseEnter={changeCursor}
               onMouseLeave={defaultCursor}>

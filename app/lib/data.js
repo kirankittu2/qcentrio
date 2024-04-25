@@ -453,13 +453,13 @@ const mainServicesContent = {
           content:
             "Ensure your digital products meet the highest standards with our Quality Assurance (QA) services. Our team leverages advanced tools, specialized skills, and robust software to enhance the quality and performance of your digital offerings.",
         },
-        {
-          image: cybersecurity,
-          heading: "Mergers & Acquisitions Advisory Services",
-          link: "advisory-and-strategic-services/mergers-and-acquisitions-advisory-services",
-          content:
-            "Ensure your digital products meet the highest standards with our Quality Assurance (QA) services. Our team leverages advanced tools, specialized skills, and robust software to enhance the quality and performance of your digital offerings.",
-        },
+        // {
+        //   image: cybersecurity,
+        //   heading: "Mergers & Acquisitions Advisory Services",
+        //   link: "advisory-and-strategic-services/mergers-and-acquisitions-advisory-services",
+        //   content:
+        //     "Ensure your digital products meet the highest standards with our Quality Assurance (QA) services. Our team leverages advanced tools, specialized skills, and robust software to enhance the quality and performance of your digital offerings.",
+        // },
       ],
     },
     strategicPathContent: {

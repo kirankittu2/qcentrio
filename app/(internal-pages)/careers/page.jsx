@@ -167,13 +167,15 @@ function Jobs() {
               <p className="job-location">
                 Location : Bangalore ( Remote / On-site )
               </p>
-              <div className="job-experience">3+ Years Experience</div>
-              <div className="job-title"> Data Scientist</div>
+              <div className="job-experience">3 - 5 years Experience</div>
+              <div className="job-title">PHP Developer - Symfony/MySQL</div>
             </div>
             <div className="job-link-column">
-              <div className="job-link">
-                <Image src={arrow} alt="" />
-              </div>
+              <Link href="/careers/php-developer">
+                <div className="job-link">
+                  <Image src={arrow} alt="" />
+                </div>
+              </Link>
             </div>
           </div>
           <div data-option="up" className="job animate animate-hidden">
@@ -181,7 +183,7 @@ function Jobs() {
               <p className="job-location">
                 Location : Bangalore ( Remote / On-site )
               </p>
-              <div className="job-experience">3+ Years Experience</div>
+              <div className="job-experience">7 - 11 years Experience</div>
               <div className="job-title"> Hyperion Developer</div>
             </div>
             <div className="job-link-column">
@@ -198,13 +200,15 @@ function Jobs() {
               <p className="job-location">
                 Location : Bangalore ( Remote / On-site )
               </p>
-              <div className="job-experience">3+ Years Experience</div>
+              <div className="job-experience">5 - 10 years Experience</div>
               <div className="job-title"> SAP CPI Consultant</div>
             </div>
             <div className="job-link-column">
-              <div className="job-link">
-                <Image src={arrow} alt="" />
-              </div>
+              <Link href="/careers/sap-cpi-consultant">
+                <div className="job-link">
+                  <Image src={arrow} alt="" />
+                </div>
+              </Link>
             </div>
           </div>
         </div>

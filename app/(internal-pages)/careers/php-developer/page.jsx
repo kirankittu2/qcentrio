@@ -31,7 +31,7 @@ function JobHead() {
       <h1
         data-option="strip-slide-up"
         className="animate strip-slide-up strip-slide-black">
-        HYPERION DEVELOPER
+        PHP DEVELOPER - SYMFONY/MYSQL
       </h1>
       <Button name="Apply Now" />
     </div>
@@ -50,70 +50,67 @@ function JobDescription() {
         <tbody>
           <tr>
             <th>Role:</th>
-            <td>IT Infrastructure Services - Other</td>
+            <td>Full Stack Developer</td>
           </tr>
           <tr>
             <th>Experience:</th>
-            <td>7 - 11 years</td>
+            <td>3 - 5 years</td>
           </tr>
           <tr>
             <th>Base Location:</th>
-            <td>Remote</td>
+            <td>Hyderabad</td>
           </tr>
           <tr>
             <th>Education:</th>
-            <td>UG: B.Tech/B.E. in Any Specialization</td>
+            <td>
+              UG: BCA in Any Specialization, B.Sc in Any Specialization,
+              B.Tech/B.E. in Any Specialization
+            </td>
           </tr>
           <tr>
             <th>Mandatory Skill:</th>
             <td>
-              Groovy Scripting, Business Rules, Python Scripting, Hyperion
-              developer, SQL Scripting, Smartview, Hyperion Essbase, Coding
-              Expect, Hyperion Planning, Hyperion Reporting
+              PHP, CSS, REST, Symfony, Cloud Services, Design Patterns, MySQL ,
+              Node.js, HTML, HTTP, React.js, AWS
             </td>
           </tr>
         </tbody>
       </table>
       <ul className="job-description-section-content">
         <li>
-          Proven experience with Hyperion Planning version 11.X version or EPM
-          Cloud
+          Candidate is responsible for Developing, maintaining, and improving
+          the systems, as well as for operating and monitoring, to meet high
+          availability and scalability requirements.
         </li>
         <li>
-          Extensive experience in developing and maintaining Hyperion Planning
-          and Essbase applications
-        </li>
-        <li>Strong understanding of ASO and BSO cube development</li>
-        <li>Independently handle metadata build and security</li>
-        <li>Expert level knowledge in writing business rules</li>
-        <li>Knowledge of writing basic SQLs</li>
-        <li>
-          Experience with SmartView, web forms, financial reports, MDX queries
-          and MXL scripting
+          Will work with PHP 7 or 8.x, Symfony 4, MySQL, ReactJS, and NodeJS as
+          well as Amazon Web Services (AWS)
         </li>
         <li>
-          Experience with SmartView, web forms, financial reports, MDX queries
-          and MXL scripting
+          Should have at least 3 years of professional experience in developing
+          web applications and services.
         </li>
         <li>
-          Deep functional and technical knowledge of financial systems and
-          business processes, especially around planning, budgeting, forecasting
+          Should have knowledge of PHP 7 or 8.x or above, JavaScript, and MySQL
+          (experience with NoSQL databases, frontend frameworks, and Unix shell
+          scripting would be of benefit).
+        </li>
+        <li>Exposure to ReactJS, NodeJS, and Symfony is a plus.</li>
+        <li>
+          Should be proficient in object-oriented programming and open to
+          additional programming paradigms.
         </li>
         <li>
-          Apply structure knowledge to solve problems, break down issues and
-          identify solutions.
+          Should have a firm knowledge of web technologies and standards (e.g.
+          HTML, CSS, HTTP, REST) and experience with design and architecture
+          patterns.
         </li>
+        <li>Should be familiar with concepts of clean code and refactoring.</li>
         <li>
-          Strong oral and written communication skills are essential for this
-          role
+          Responsible for software quality and familiar with DDD, TDD, pair
+          programming, and code reviews.
         </li>
-        <li>The ability to work independently and be proactive</li>
-        <li>Knowledge of integration between external systems</li>
-        <li>Analytical and assessment skills essential</li>
-        <li>
-          Proven experience in providing system support and direct contact with
-          users to solve issues with business applications
-        </li>
+        <li>Should be a team player and like to think outside the box.</li>
       </ul>
       <table data-option="up" className="animate animate-hidden">
         <tbody>
@@ -123,7 +120,7 @@ function JobDescription() {
           </tr>
           <tr>
             <th>Department:</th>
-            <td>IT & Information Security</td>
+            <td>Engineering - Software & QA</td>
           </tr>
           <tr>
             <th>Employment Type:</th>
@@ -131,7 +128,7 @@ function JobDescription() {
           </tr>
           <tr>
             <th>Role Category:</th>
-            <td>IT Infrastructure Services</td>
+            <td>Software Development</td>
           </tr>
         </tbody>
       </table>

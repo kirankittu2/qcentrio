@@ -25,7 +25,7 @@ export default function Industries() {
         <div className="industries-hero-content">
           <h1
             data-option="strip-slide-up"
-            className="section-heading animate strip-slide-up strip-slide-black">
+            className="section-heading animate strip-slide-up strip-slide-white">
             INNOVATE AND LEAD IN YOUR INDUSTRY WITH TAILORED DIGITAL SERVICES
           </h1>
           <Button name="Embrace the Future" />

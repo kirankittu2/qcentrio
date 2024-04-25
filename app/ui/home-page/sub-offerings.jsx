@@ -12,8 +12,11 @@ export default function SubOfferings(data) {
           <Link key={index} href={service.link}>
             <div className="service-sub-offering">
               {service.title}
-              <span>
-                <Image src={arrow} alt=""></Image>
+              <span className="service-sub-offering-span">
+                <Image
+                  className="service-sub-offering-span"
+                  src={arrow}
+                  alt=""></Image>
               </span>
             </div>
           </Link>

@@ -31,7 +31,7 @@ function JobHead() {
       <h1
         data-option="strip-slide-up"
         className="animate strip-slide-up strip-slide-black">
-        HYPERION DEVELOPER
+        SAP CPI CONSULTANT
       </h1>
       <Button name="Apply Now" />
     </div>
@@ -50,11 +50,11 @@ function JobDescription() {
         <tbody>
           <tr>
             <th>Role:</th>
-            <td>IT Infrastructure Services - Other</td>
+            <td>SAP CPI Consultant</td>
           </tr>
           <tr>
             <th>Experience:</th>
-            <td>7 - 11 years</td>
+            <td>5 - 10 years</td>
           </tr>
           <tr>
             <th>Base Location:</th>
@@ -67,52 +67,65 @@ function JobDescription() {
           <tr>
             <th>Mandatory Skill:</th>
             <td>
-              Groovy Scripting, Business Rules, Python Scripting, Hyperion
-              developer, SQL Scripting, Smartview, Hyperion Essbase, Coding
-              Expect, Hyperion Planning, Hyperion Reporting
+              S/4 Hana, Successfactors, Employee Central, Sap Cpi, Cloud
+              Platform Integration, Sap Cloud Platform
             </td>
           </tr>
         </tbody>
       </table>
       <ul className="job-description-section-content">
         <li>
-          Proven experience with Hyperion Planning version 11.X version or EPM
-          Cloud
+          Experience in working on pre-package content for SAP C4C, Commerce
+          Cloud, CPQ, S4 HANA/ECC etc.
         </li>
         <li>
-          Extensive experience in developing and maintaining Hyperion Planning
-          and Essbase applications
-        </li>
-        <li>Strong understanding of ASO and BSO cube development</li>
-        <li>Independently handle metadata build and security</li>
-        <li>Expert level knowledge in writing business rules</li>
-        <li>Knowledge of writing basic SQLs</li>
-        <li>
-          Experience with SmartView, web forms, financial reports, MDX queries
-          and MXL scripting
+          Experience in working on SAP and Non-SAP Interfaces, 3rd party
+          Integrations.
         </li>
         <li>
-          Experience with SmartView, web forms, financial reports, MDX queries
-          and MXL scripting
+          Should have good exposure to handling non-standard requirements,
+          custom requirements, all features of CPI.
         </li>
         <li>
-          Deep functional and technical knowledge of financial systems and
-          business processes, especially around planning, budgeting, forecasting
+          Experience in building integration strategy for customers having on
+          premise and cloud application systems (ECC, S/4 HANA, Hybris, C4C,
+          CPQ, FSM etc.)
+        </li>
+        <li>Strong debugging and problem-solving skills in SAP CPI</li>
+        <li>
+          {" "}
+          Hands-on experience in developing complex mapping (XML, XSLT etc.)
         </li>
         <li>
-          Apply structure knowledge to solve problems, break down issues and
-          identify solutions.
+          Working knowledge with most standard adapters (ODATA, SOAP, REST,
+          SFTP, IDOC etc.)
+        </li>
+        <li>Hands on experience writing groovy scripts or java scripts.</li>
+        <li>
+          Excellent understanding of business flow & expertise in requirement
+          gathering from functional/business department
         </li>
         <li>
-          Strong oral and written communication skills are essential for this
-          role
+          Ability to translate business requirements to proposed SAP CPI
+          solutions.
         </li>
-        <li>The ability to work independently and be proactive</li>
-        <li>Knowledge of integration between external systems</li>
-        <li>Analytical and assessment skills essential</li>
         <li>
-          Proven experience in providing system support and direct contact with
-          users to solve issues with business applications
+          Knowledgeable on testing tools soap UI, Postman, OData Modeler etc.
+        </li>
+        <li>Knowledge of cloud connector and SAP Cloud platform</li>
+        <li>
+          Hands-on experience working on SAP CPI Neo and Cloud foundry tenants.
+        </li>
+        <li>Hands-on experience on transport mechanisms in CPI</li>
+        <li>Knowledge experience in CPI API Management, EventMesh.</li>
+        <li>
+          Good trouble shooting skills between various Integrations and very
+          sound knowledge on Cloud Integration between EC and ECP-Payroll
+          systems.
+        </li>
+        <li>
+          Good understanding of Payroll systems SAP HCM Payroll, EC, ECP and
+          Integrations between SAP HR, EC and ECP
         </li>
       </ul>
       <table data-option="up" className="animate animate-hidden">

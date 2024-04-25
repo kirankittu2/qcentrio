@@ -494,6 +494,7 @@ header {
 
 .mega-menu-sub-nav-link:hover {
   background-color: #E5F4EF;
+  color: var(--primary-color);
 }
 
 
@@ -3163,6 +3164,15 @@ th, td {
   opacity: 0;
   transform: translateY(70px);
   transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
+  font-family: "Quadran-Light";
+}
+
+.job-page td{
+  font-family: "Quadran-Light";
+}
+
+.job-page th{
+  font-family: "Quadran-Medium";
 }
 
 
