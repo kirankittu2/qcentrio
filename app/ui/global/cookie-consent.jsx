@@ -6,6 +6,8 @@ import Link from "next/link";
 import { cookieConsent } from "@/app/lib/actions";
 import { getCookie } from "cookies-next";
 import { useFormState } from "react-dom";
+import Image from "next/image";
+import close from "@/public/close.svg";
 
 export default function CookieConsent() {
   const [banner, setBanner] = useState(false);
@@ -76,7 +78,9 @@ export default function CookieConsent() {
               <Button name="Accept" />
             </form>
             <div onClick={() => setBanner(false)} className="consent-close">
-              X
+              <div>
+                <Image fill src={close} alt="" />
+              </div>
             </div>
           </div>
         </div>

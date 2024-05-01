@@ -3784,14 +3784,25 @@ th, td {
 
 .need-something-modal-inner > div{
   flex: 1;
+  position: relative;
 }
 
 .need-something-modal-image{
-  background-color: var(--primary-color);
+  border-right: 10px solid var(--primary-color);
+}
+
+.need-something-modal-image img{
+  object-fit: cover;
 }
 
 .need-something-modal-inner .contact-section{
  padding: 50px;
+}
+
+.need-something-modal-close{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
 }
 
 .need-something-modal-inner .contact-heading{
@@ -3876,7 +3887,7 @@ th, td {
   width: 80%;
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 10px 20px;
   border-radius: 4px;
   font-family: "Quadran-Light";
 }
@@ -3885,8 +3896,16 @@ th, td {
   font-family: "Quadran-Bold";
 }
 
-.consent-close{
-  padding: 0px 20px;
+.consent-message p{
+  margin-bottom: 0px;
+  margin-right: 50px;
+}
+
+.consent-close > div{
+  width: 14px;
+  height: 14px;
+  position: relative;
+  margin: 0px 20px;
 }
 
 .cookie-preferences{
@@ -3898,6 +3917,9 @@ th, td {
   position: fixed;
   bottom: 24px;
   left: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1764px) {

@@ -1,6 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import Button from "./button";
+import needSomethingBanner from "@/public/need-something-banner.png";
+import close from "@/public/close.svg";
 
 export default function NeedSomethingModal({
   setNeedSomething,
@@ -36,8 +39,18 @@ export default function NeedSomethingModal({
       data-name="modal"
       style={{ top: scrollPosition + "px" }}>
       <div className="need-something-modal-inner">
-        <div className="need-something-modal-image"></div>
+        <div className="need-something-modal-image">
+          <Image fill src={needSomethingBanner} alt="" />
+        </div>
         <div className="p-[50px]">
+          <div className="need-something-modal-close">
+            <Image
+              data-name="modal"
+              onClick={handleModalClose}
+              src={close}
+              alt=""
+            />
+          </div>
           <h2 className="contact-heading">Need Something Else?</h2>
           <p className="section-content contact-sub-heading">
             Contact us and we can figure out how to adapt to your needs

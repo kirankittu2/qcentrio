@@ -10,6 +10,8 @@ import Script from "next/script";
 import CookieConsent from "./ui/global/cookie-consent";
 import { getCookie } from "cookies-next";
 import { cookies } from "next/headers";
+import Image from "next/image";
+import cookieImage from "@/public/cookie.svg";
 const Cursor = dynamic(() => import("./ui/global/cursor"), { ssr: false });
 
 export default function RootLayout({ children }) {
@@ -20,7 +22,11 @@ export default function RootLayout({ children }) {
       <head></head>
       <body>
         {children}
-        {consent && <div className="cookie-preferences"></div>}
+        {consent && (
+          <div className="cookie-preferences">
+            <Image src={cookieImage} alt="" />
+          </div>
+        )}
         <Animate />
         <CookieConsent />
         <Cursor />
