@@ -490,7 +490,6 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
     };
   }, [setServiceHovered]);
 
-  console.log(subindex);
   return (
     <div
       data-option="mega-menu-container"
@@ -510,92 +509,104 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
               className={`mega-menu-main-nav-link ${
                 index == 0 ? "active" : ""
               }`}
-              onClick={() => setIndex(0)}>
+              onClick={() => {
+                setIndex(0);
+                setSubIndex(0);
+              }}>
               Business Value Enhancement
-              {index == 0 && (
-                <span>
-                  <Image alt="" src={triWhite} />
-                </span>
-              )}
+              <span
+                className={`chevron right ${
+                  index == 0 ? "" : "active"
+                }`}></span>
             </div>
             <div
               data-index="1"
               className={`mega-menu-main-nav-link ${
                 index == 1 ? "active" : ""
               }`}
-              onClick={() => setIndex(1)}>
+              onClick={() => {
+                setIndex(1);
+                setSubIndex(0);
+              }}>
               Advanced Technology Solutions
-              {index == 1 && (
-                <span>
-                  <Image alt="" src={triWhite} />
-                </span>
-              )}
+              <span
+                className={`chevron right ${
+                  index == 1 ? "" : "active"
+                }`}></span>
             </div>
             <div
               data-index="2"
               className={`mega-menu-main-nav-link ${
                 index == 2 ? "active" : ""
               }`}
-              onClick={() => setIndex(2)}>
+              onClick={() => {
+                setIndex(2);
+                setSubIndex(0);
+              }}>
               Advisory and Strategic Services
-              {index == 2 && (
-                <span>
-                  <Image alt="" src={triWhite} />
-                </span>
-              )}
+              <span
+                className={`chevron right ${
+                  index == 2 ? "" : "active"
+                }`}></span>
             </div>
             <div
               data-index="3"
               className={`mega-menu-main-nav-link ${
                 index == 3 ? "active" : ""
               }`}
-              onClick={() => setIndex(3)}>
+              onClick={() => {
+                setIndex(3);
+                setSubIndex(0);
+              }}>
               Business Optimization and Analytics
-              {index == 3 && (
-                <span>
-                  <Image alt="" src={triWhite} />
-                </span>
-              )}
+              <span
+                className={`chevron right ${
+                  index == 3 ? "" : "active"
+                }`}></span>
             </div>
             <div
               data-index="4"
               className={`mega-menu-main-nav-link ${
                 index == 4 ? "active" : ""
               }`}
-              onClick={() => setIndex(4)}>
+              onClick={() => {
+                setIndex(4);
+                setSubIndex(0);
+              }}>
               Blockchain Services & Solutions
-              {index == 4 && (
-                <span>
-                  <Image alt="" src={triWhite} />
-                </span>
-              )}
+              <span
+                className={`chevron right ${
+                  index == 4 ? "" : "active"
+                }`}></span>
             </div>
             <div
               data-index="5"
               className={`mega-menu-main-nav-link ${
                 index == 5 ? "active" : ""
               }`}
-              onClick={() => setIndex(5)}>
+              onClick={() => {
+                setIndex(5);
+                setSubIndex(0);
+              }}>
               Cloud Infrastructure & Security Services
-              {index == 5 && (
-                <span>
-                  <Image alt="" src={triWhite} />
-                </span>
-              )}
+              <span
+                className={`chevron right ${
+                  index == 5 ? "" : "active"
+                }`}></span>
             </div>
           </div>
         </div>
         <div className="mega-menu-column mega-menu-column-2 ">
           <h2 className="mega-menu-heading">{mainServices[index]}</h2>
-          <div className="border-r border-b border-[#F2F2F2] h-[89.2%]">
+          <div className="border-r border-b border-[#F2F2F2] h-full flex flex-col">
             <div className="mega-menu-content">
               <div>{mainTitles[index].content}</div>
               <div className="mega-menu-content-link">
                 <Link href={mainTitles[index].link}>
                   <div>
                     Read More
-                    <span className="w-[24px] ml-[10px]">
-                      <Image src={greenArrow} alt="" />
+                    <span className="mega-menu-arrow">
+                      <Image fill src={greenArrow} alt="" />
                     </span>
                   </div>
                 </Link>
@@ -652,8 +663,8 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
               href="/case-study/enhancing-patient-care-with-bi-and-sql-analytics">
               <div className="what-new-btn">
                 Learn More
-                <span>
-                  <Image src={arrow} alt="" />
+                <span className="mega-menu-arrow">
+                  <Image fill src={arrow} alt="" />
                 </span>
               </div>
             </Link>

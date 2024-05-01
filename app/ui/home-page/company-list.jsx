@@ -23,7 +23,7 @@ export default function CompanyList() {
         <Image src={cvs} alt="" />
 
         <Image src={philadelphia} alt="" />
-        <Image src={zf} alt="" />
+        <Image height={0} width={0} src={zf} alt="" />
         <Image src={hertz} alt="" />
         <Image src={bosch} alt="" />
         <Image src={hp} alt="" />
@@ -31,7 +31,7 @@ export default function CompanyList() {
         <Image src={cvs} alt="" />
 
         <Image src={philadelphia} alt="" />
-        <Image src={zf} alt="" />
+        <Image height={0} width={0} src={zf} alt="" />
         <Image src={hertz} alt="" />
         <Image src={bosch} alt="" />
         <Image src={hp} alt="" />

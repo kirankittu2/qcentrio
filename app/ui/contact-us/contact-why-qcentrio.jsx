@@ -10,8 +10,7 @@ export default function ContactWhyQcentrio() {
       <div className="contact-us-column-1">
         <h2
           data-option="strip-slide-up"
-          className="section-heading animate strip-slide-up strip-slide-black"
-        >
+          className="section-heading animate strip-slide-up strip-slide-black">
           Why Qcentrio
         </h2>
         <p data-option="up" className="section-content animate animate-hidden">
@@ -36,18 +35,17 @@ export default function ContactWhyQcentrio() {
         <div className="about-showcase-container">
           <div data-option="up" className="showcase animate animate-hidden">
             <Image src={idea} alt="" />
-            <h3 className="showcase-heading">~1000</h3>
-            <p className="showcase-content">Skilled Professionals</p>
+            <div>
+              <h3 className="showcase-heading">~1000</h3>
+              <p className="showcase-content">Skilled Professionals</p>
+            </div>
           </div>
           <div data-option="up" className="showcase animate animate-hidden">
             <Image src={group} alt="" />
-            <h3 className="showcase-heading">85%</h3>
-            <p className="showcase-content">Employee Trust Index Score</p>
-          </div>
-          <div data-option="up" className="showcase animate animate-hidden">
-            <Image src={check} alt="" />
-            <h3 className="showcase-heading">100%</h3>
-            <p className="showcase-content">Referenceability & Commitment</p>
+            <div>
+              <h3 className="showcase-heading">85%</h3>
+              <p className="showcase-content">Employee Trust Index Score</p>
+            </div>
           </div>
         </div>
       </div>

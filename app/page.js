@@ -1,8 +1,6 @@
-import Navbar from "@/app/ui/global/nav-bar";
 import Carousel from "./ui/home-page/carousel";
 import CompanyList from "./ui/home-page/company-list";
 import About from "./ui/home-page/about";
-import Services from "./ui/home-page/services";
 import Journey from "./ui/home-page/journey";
 import WhyQcentrio from "./ui/home-page/why-qcentrio";
 import Discover from "./ui/home-page/discover";
@@ -14,7 +12,6 @@ import down from "@/public/hero-down.svg";
 import Insignts from "./ui/home-page/insights";
 import Link from "next/link";
 import NavBarContainer from "./ui/global/nav-bar-container";
-import Offerings from "./ui/home-page/offerings";
 import service1 from "@/public/sub-offerings-1.jpg";
 import service2 from "@/public/sub-offerings-2.jpg";
 import service3 from "@/public/sub-offerings-3.jpg";
@@ -246,7 +243,7 @@ export default function Home() {
       <About />
       {/* <Services  /> */}
       {/* <Offerings data={services} /> */}
-      <AccordianOfferings data={services} />
+      {/* <AccordianOfferings data={services} /> */}
       <Journey />
       <WhyQcentrio />
       <Insignts

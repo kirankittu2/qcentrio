@@ -5,7 +5,7 @@ import search from "@/public/search.svg";
 import { useDebouncedCallback } from "use-debounce";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
-export default function SearchBar() {
+export default function InsightsSearchBar() {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { replace } = useRouter();

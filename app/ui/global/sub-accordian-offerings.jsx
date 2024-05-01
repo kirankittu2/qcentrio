@@ -9,11 +9,11 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import NeedSomethingModal from "./need-something-modal";
 
-export default function AccordianOfferings({ data }) {
+export default function SubAccordianOfferings({ data }) {
   const [index, setIndex] = useState(0);
-  const [previousIndex, setPreviousIndex] = useState(0);
   const [needSomething, setNeedSomething] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
+  const [previousIndex, setPreviousIndex] = useState(0);
   const router = useRouter();
   function changeCursor() {
     document.querySelector(".cursor").classList.add("hovered");
@@ -36,16 +36,6 @@ export default function AccordianOfferings({ data }) {
     }
   }
 
-  function handleURLRedirect(e) {
-    if (
-      !e.target.classList.contains("service-sub-offering") &&
-      !e.target.classList.contains("service-sub-offering-span")
-    ) {
-      const parentLink = e.currentTarget.getAttribute("data-link");
-      router.push(parentLink);
-    }
-  }
-
   useEffect(() => {
     const handleScroll = () => {
       setScrollPosition(window.scrollY);
@@ -57,21 +47,6 @@ export default function AccordianOfferings({ data }) {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  useEffect(() => {
-    if (needSomething) {
-      document.body.style.overflow = "hidden";
-      document.body.style.width = "100%";
-    } else {
-      document.body.style.overflow = "auto";
-      document.body.style.width = "";
-    }
-
-    return () => {
-      document.body.style.overflow = "auto";
-      document.body.style.width = "";
-    };
-  }, [needSomething]);
 
   useEffect(() => {
     const content = document.querySelectorAll(
@@ -98,18 +73,32 @@ export default function AccordianOfferings({ data }) {
     });
   }, [index]);
 
+  useEffect(() => {
+    if (needSomething) {
+      document.body.style.overflow = "hidden";
+      document.body.style.width = "100%";
+    } else {
+      document.body.style.overflow = "auto";
+      document.body.style.width = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+      document.body.style.width = "";
+    };
+  }, [needSomething]);
+
   return (
-    <div className="accordian-offerings-section">
+    <div className="accordian-offerings-section ">
       {needSomething && (
         <NeedSomethingModal
-          needSomething={setNeedSomething}
           setNeedSomething={setNeedSomething}
           scrollPosition={scrollPosition}
         />
       )}
       <div className="section">
         <div className="accordian-offerings-container">
-          {data.list.map((item, i) => {
+          {data.list.slice(0, 7).map((item, i) => {
             return (
               <div
                 key={i}
@@ -124,10 +113,10 @@ export default function AccordianOfferings({ data }) {
                       : ""
                   }`,
                 }}
-                onClick={handleURLRedirect}
                 onMouseOver={(event) => handleHover(i, event)}
-                onMouseEnter={changeCursor}
-                onMouseLeave={defaultCursor}>
+                //   onMouseEnter={changeCursor}
+                //   onMouseLeave={defaultCursor}
+              >
                 <div>
                   <div className="accordian-offering-head">
                     <div className="accordian-offering-icon">
@@ -151,7 +140,6 @@ export default function AccordianOfferings({ data }) {
                       className="accordian-offering-content-hidden animate animate-hidden">
                       {item.content}
                     </p>
-                    <SubOfferings data={item} />
                   </div>
                 </div>
                 <div className="accordian-offering-divider"></div>

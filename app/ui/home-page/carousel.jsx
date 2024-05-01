@@ -102,20 +102,20 @@ export default function Carousel() {
     }
   }, [index, slideItem]);
 
-  // useEffect(() => {
-  //   if (hovered == false) {
-  //     const items = wrapper.current.querySelectorAll(".hero-slide");
-  //     const intervalId = setInterval(() => {
-  //       setIndex((prevIndex) =>
-  //         prevIndex === items.length - 1 ? 0 : prevIndex + 1
-  //       );
-  //     }, 5000);
+  useEffect(() => {
+    if (hovered == false) {
+      const items = wrapper.current.querySelectorAll(".hero-slide");
+      const intervalId = setInterval(() => {
+        setIndex((prevIndex) =>
+          prevIndex === items.length - 1 ? 0 : prevIndex + 1
+        );
+      }, 3000);
 
-  //     return () => {
-  //       clearInterval(intervalId);
-  //     };
-  //   }
-  // }, [hovered]);
+      return () => {
+        clearInterval(intervalId);
+      };
+    }
+  }, [hovered]);
 
   function handleRight() {
     if (index < wrapper.current.querySelectorAll(".hero-slide").length - 1) {
@@ -159,7 +159,14 @@ export default function Carousel() {
           onMouseLeave={() => isActive(false)}>
           <div>
             {/* <Img className="slide-image" src={herobanner1} alt="" /> */}
-            <video src="/Main_BG_01.mp4" autoPlay loop>
+            <video
+              width="1780"
+              height="630"
+              src="/Main_BG_01.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline>
               Your browser does not support the video tag.
             </video>
             <div id="hero-carousel-content" className="hero-content ">
@@ -190,7 +197,12 @@ export default function Carousel() {
           onMouseOver={() => isActive(true)}
           onMouseLeave={() => isActive(false)}>
           <div>
-            <video src="/Main_BG_02.mp4" autoPlay loop></video>
+            <video
+              src="/Main_BG_02.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline></video>
             {/* <Img className="slide-image" src={herobanner2} alt="" /> */}
             <div id="hero-carousel-content" className="hero-content">
               <h1 className="hero-heading strip">
@@ -221,7 +233,12 @@ export default function Carousel() {
           onMouseLeave={() => isActive(false)}>
           <div>
             {/* <Img className="slide-image" src={herobanner3} alt="" /> */}
-            <video src="/Main_BG_03.mp4" autoPlay loop></video>
+            <video
+              src="/Main_BG_03.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline></video>
             <div id="hero-carousel-content" className="hero-content">
               <h1 className="hero-heading strip">
                 TAILORED STRATEGIES FOR MARKET AND BUSINESS RESILIENCE

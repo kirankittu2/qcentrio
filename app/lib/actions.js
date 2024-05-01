@@ -173,3 +173,15 @@ export async function storeCookie(formData) {
     console.log("Not Same");
   }
 }
+
+export async function cookieConsent() {
+  try {
+    cookies().set("qcentrio-cookie-consent", "approved", {});
+    return { success: true, message: "Cookie consent has been set." };
+  } catch (error) {
+    return {
+      success: false,
+      message: "Error occurred while setting cookie consent.",
+    };
+  }
+}

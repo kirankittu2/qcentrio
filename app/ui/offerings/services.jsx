@@ -21,8 +21,8 @@ export default function ServicesContent({ data }) {
           return (
             <ServiceCardClient key={index} link={item.link}>
               <Image src={item.image} alt="" />
-              <h2 className="service-heading-unq">{item.heading}</h2>
-              <p className="section-content">{item.content}</p>
+              <h2 className="service-heading-unq">{item.title}</h2>
+              <p className="section-content">{item.content1}</p>
             </ServiceCardClient>
           );
         })}

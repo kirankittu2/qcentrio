@@ -18,7 +18,7 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
       <li>
         <Link href="/">
           <div className="main-logo-conatiner">
-            <Image fill src={logo} alt="" />
+            <Image fill src={logo} alt="" priority={true} />
           </div>
         </Link>
       </li>
@@ -36,7 +36,7 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
         }`}>
         <Link data-option="link" className="link-with-down-arrow" href="">
           Offerings
-          <span className="w-[8px] h-[8px] relative">
+          {/* <span className="w-[8px] h-[8px] relative">
             <Image
               fill
               data-option="link"
@@ -48,7 +48,8 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
               src={tri}
               alt=""
             />
-          </span>
+          </span> */}
+          <span data-option="link" className="chevron bottom active"></span>
         </Link>
       </li>
       <li
@@ -109,17 +110,20 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
         <Link href="/careers">Careers</Link>
       </li>
       <li className="mr-[20px] ml-auto search-list-item">
-        <div className="search-container">
-          <input className="search" placeholder="Search"></input>
-          <Image className="input-icon" src={search} alt="" />
-        </div>
-      </li>
-      <li className="nav-contact-btn">
         <Link href="/contact-us">
           <Button name="Contact Us" />
         </Link>
       </li>
-      <li className="ml-[20px] mobile-nav-button">M</li>
+      <li className="nav-contact-btn">
+        <Link href="/search">
+          <div className="search-icon-container">
+            <div className="search-icon-inner-container">
+              <Image fill className="search-input-icon" src={search} alt="" />
+            </div>
+          </div>
+        </Link>
+      </li>
+      <li className="mobile-nav-button">M</li>
     </>
   );
 }

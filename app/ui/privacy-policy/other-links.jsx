@@ -7,8 +7,8 @@ export default function OtherLinks() {
   const pathname = usePathname();
 
   return (
-    <div className="other-links-section">
-      <div data-option="up" className="other-links animate animate-hidden">
+    <div className="easy-nav-section">
+      <div data-option="up" className="easy-nav-links animate animate-hidden">
         <h2>LEGAL LINKS</h2>
         <p>
           <Link

@@ -57,8 +57,8 @@ export default function About() {
         </div>
         <p data-option="up" className="section-content animate animate-hidden">
           Qcentrio doesn&rsquo;t just respond to the digital era; we actively
-          shape it, ensuring that <br /> our partners are not only market
-          participants but leaders.
+          shape it, ensuring that our partners are not only market participants
+          but leaders.
         </p>
         {/* <div className="about-showcase-container">
           <div data-option="right" className="showcase hidden-right animate">

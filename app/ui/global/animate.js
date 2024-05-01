@@ -1,10 +1,11 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function Animate() {
   const pathname = usePathname();
+
   useEffect(() => {
     let options = {
       root: null,
@@ -167,5 +168,6 @@ export default function Animate() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [pathname]);
+
   return;
 }

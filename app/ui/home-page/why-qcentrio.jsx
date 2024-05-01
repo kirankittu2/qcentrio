@@ -17,7 +17,7 @@ export default function WhyQcentrio() {
           data-option="up"
           className="why-qcentrio-card animate-hidden animate">
           <div className="why-qcentrio-card-icon">
-            <Image src={group} alt="" />
+            <Image fill src={group} alt="" />
           </div>
           <h2 className="why-qcentrio-heading">People-First Approach</h2>
           <p className="section-content">
@@ -41,7 +41,7 @@ export default function WhyQcentrio() {
           data-option="up"
           className="why-qcentrio-card animate-hidden animate">
           <div className="why-qcentrio-card-icon">
-            <Image src={cloud} alt="" />
+            <Image fill src={cloud} alt="" />
           </div>
           <h2 className="why-qcentrio-heading">Strategic Innovation</h2>
           <p className="section-content">
@@ -53,7 +53,7 @@ export default function WhyQcentrio() {
           data-option="up"
           className="why-qcentrio-card animate-hidden animate">
           <div className="why-qcentrio-card-icon">
-            <Image src={settings} alt="" />
+            <Image fill src={settings} alt="" />
           </div>
           <h2 className="why-qcentrio-heading">Diverse Expertise</h2>
           <p className="section-content">

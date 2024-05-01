@@ -1,17 +1,14 @@
-import blog1 from "@/public/blog-1.png";
-import Image from "next/image";
-import blogArrow from "@/public/blog-arrow.svg";
 import Pagination from "./pagination";
 import Link from "next/link";
-import SearchBar from "../global/search";
 import BlogsConatiner from "./blogs-container";
+import InsightsSearchBar from "../global/insights-search";
 
 export default function AllBlogs({ data, type, page, paginationNum }) {
   return (
     <>
       <div id="articles" className="topics-section balance-section">
         <div className="topics-head-and-search mb-[30px]">
-          <SearchBar />
+          <InsightsSearchBar />
           <div className="most-search-column">
             Most Searched Keywords :
             <span className="keywords">Case Studies,</span>

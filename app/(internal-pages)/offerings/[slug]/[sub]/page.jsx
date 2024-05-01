@@ -1,24 +1,13 @@
+import { getSubServicePageContent } from "@/app/lib/data";
 import Button from "@/app/ui/global/button";
-import Contact from "@/app/ui/global/contact";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Footer from "@/app/ui/global/footer";
-import SubServiceOfferings from "@/app/ui/offerings/sub-service/sub-offerings";
-import Image from "next/image";
-import ball from "@/public/ball.png";
-import subServiceBanner from "@/public/sub-service-banner.png";
-import contentImage from "@/public/sub-service-content-side-image.png";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
+import SubAccordianOfferings from "@/app/ui/global/sub-accordian-offerings";
+import SubServiceContact from "@/app/ui/global/sub-service-contact";
+import Image from "next/image";
+import image from "@/public/sample.png";
 import Link from "next/link";
-import { getSubServicePageContent } from "@/app/lib/data";
-
-export async function generateMetadata({ params }) {
-  const data = getSubServicePageContent(params.slug, params.sub);
-
-  return {
-    title: data.metaData.title,
-    description: data.metaData.description,
-  };
-}
 
 export default function SubService({ params }) {
   const data = getSubServicePageContent(params.slug, params.sub);
@@ -31,32 +20,70 @@ export default function SubService({ params }) {
           <span></span> {data.breadCrump.current}
         </div>
       </div>
-      <div className="relative">
-        <SubServiceHeroSection data={data.heroSectionData} />
-        <Image
-          data-option="up"
-          className="sub-service-banner-image animate animate-hidden"
-          src={subServiceBanner}
-          alt=""></Image>
-        <SubServiceContentSection data={data.contentSection} />
-        <div className="sub-service-scroller">
-          <div className="relative w-full h-full flex justify-center">
-            <div className="sub-service-scroller-line"></div>
-            <Image
-              className=""
-              style={{ width: "80px", height: "80px" }}
-              src={ball}
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-      <SubServiceOfferings data={data.offeringsSetion} />
+      <SubServiceHeading />
+      <SubServiceContent />
+      <SubAccordianOfferings data={data.offeringsSetion} />
       <ServicesOfSubService data={data.servicesOfSubService} />
       <SubServiceWhyChooseSection data={data.whyChooseSection} />
-      <Contact heading={data.contactHead} />
+      <SubServiceContact heading={data.contactHead} />
       <Footer />
       <CopyrightBar />
+    </div>
+  );
+}
+
+function SubServiceHeading() {
+  return (
+    <div className="sub-service-hero-section">
+      <div className="">
+        <h1 className="sub-service-hero-heading">
+          DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY
+        </h1>
+        <h2 className="sub-service-hero-sub-heading">
+          WITH GENERATIVE AI SOLUTIONS AND OFFERINGS
+        </h2>
+        <p className="sub-service-hero-content">
+          At Qcentrio, our business optimization and analytics services enhance
+          your operations by reviewing and improving processes, instilling best
+          practices, and providing a clear roadmap for optimized processes.
+        </p>
+        <Button name="Get Started" />
+      </div>
+      <div>
+        <Image src={image} alt="" />
+      </div>
+    </div>
+  );
+}
+
+function SubServiceContent() {
+  return (
+    <div className="sub-service-content-section">
+      <div className="sub-service-content-section-column-1">
+        <h2>REDEFINE INNOVATION WITH QCENTRIO’S GENAI EXPERTISE</h2>
+        <p>
+          The transformative power of Generative AI cannot be overstated. With
+          its ability to enhance productivity and accelerate innovation, this
+          technology is revolutionizing industries worldwide.
+        </p>
+        <p>
+          It has the potential to unlock $2.6 to $4.4 trillion in value annually
+          across different use cases and can automate 60-70% of staff workloads,
+          freeing up valuable time and resources for strategic initiatives.
+        </p>
+      </div>
+      <div className="sub-service-content-section-column-2">
+        <p>
+          Businesses are turning to generative AI for various applications, such
+          as virtual assistants that improve customer service, personalized
+          content customization, and predictive maintenance to prevent equipment
+          failures.
+        </p>
+        <p className="highlight">
+          These technologies allow companies to increase operational efficiency,
+          reduce costs, and drive revenue growth.
+        </p>
+      </div>
     </div>
   );
 }
@@ -66,7 +93,7 @@ function SubServiceWhyChooseSection({ data }) {
     <div className="balance-section sub-services-why-choose-section">
       <h2
         data-option="strip-slide-up"
-        className="section-heading animate strip-slide-up strip-slide-black">
+        className="section-heading animate strip-slide-up strip-slide-white">
         {data.mainHeading}
       </h2>
 
@@ -88,55 +115,6 @@ function SubServiceWhyChooseSection({ data }) {
   );
 }
 
-function SubServiceHeroSection({ data }) {
-  return (
-    <div className="sub-service-hero-section">
-      <div>
-        <div className="sub-service-heading-section">
-          <div className="sub-service-heading-row">
-            <h1
-              data-option="strip-slide-up"
-              className="section-heading animate strip-slide-up strip-slide-black"
-              dangerouslySetInnerHTML={{ __html: data.heading }}></h1>
-          </div>
-          <Button name="Get Started" />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function SubServiceContentSection({ data }) {
-  return (
-    <div className="sub-service-heading-content-section">
-      <div>
-        <div className="sub-service-content-side-image">
-          <Image
-            data-option="up"
-            fill
-            src={contentImage}
-            alt=""
-            className="animate animate-hidden"
-          />
-        </div>
-      </div>
-      <div className="sub-service-heading-content">
-        <h2
-          data-option="strip-slide-up"
-          className="section-heading animate strip-slide-up strip-slide-black">
-          {data.heading}
-        </h2>
-        <p data-option="up" className="animate animate-hidden">
-          {data.content1}
-        </p>
-        <p data-option="up" className="animate animate-hidden">
-          {data.content2}
-        </p>
-      </div>
-    </div>
-  );
-}
-
 function ServicesOfSubService({ data }) {
   return (
     <div className="services-of-sub-service">
@@ -146,6 +124,7 @@ function ServicesOfSubService({ data }) {
         {data.mainHeading}
       </h2>
       <div className="services-of-sub-service-holder">
+        <div></div>
         {data.list.map((item, index) => {
           return (
             <div

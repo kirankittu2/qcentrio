@@ -44,10 +44,10 @@ export default function Journey() {
         </h2>
         <div className="jouney-carousel-nav">
           <div className="left" onClick={handleLeft}>
-            <Image src={journeyleft} alt="" />
+            <Image fill src={journeyleft} alt="" />
           </div>
           <div className="right" onClick={handleRight}>
-            <Image src={journeyright} alt="" />
+            <Image fill src={journeyright} alt="" />
           </div>
         </div>
       </div>
