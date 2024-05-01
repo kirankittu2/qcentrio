@@ -98,7 +98,7 @@ export default function SubAccordianOfferings({ data }) {
       )}
       <div className="section">
         <div className="accordian-offerings-container">
-          {data.list.slice(0, 7).map((item, i) => {
+          {data.list.slice(0, 8).map((item, i) => {
             return (
               <div
                 key={i}

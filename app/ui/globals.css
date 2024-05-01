@@ -3372,13 +3372,13 @@ th, td {
   background-color: #FFFFFF;
   opacity: 0.14;
   margin-top: auto;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .accordian-offering{
   background:  linear-gradient(180deg, #000000 0%, #004E1F 100%);
   border-radius: 10px 30px 10px 10px;
-  padding: 20px;
+  padding: 40px 20px;
   width: 121px;
   height: 100%;
   display: flex;
@@ -3395,7 +3395,7 @@ th, td {
 }
 
 .sub-service .accordian-offering{
-  width: 140px;
+  width: 225px;
 }
 
 .need-something-block{
@@ -3431,7 +3431,7 @@ th, td {
   font-size: 22px;
   font-family: "Quadran-Bold";
   /* text-align: center; */
-  /* margin-left: 30px; */
+  margin-left: 8px;
   /* rotate: 90deg; */
 }
 
@@ -3442,10 +3442,10 @@ th, td {
   /* margin-left: 30px; */
   rotate: -90deg;
   position: absolute;
-  top: 82px;
+  top: 100px;
   /* left: 0; */
-  height: 370px;
-  width: 370px;
+  height: 350px;
+  width: 350px;
   white-space: nowrap;
   padding-top: 6px;
 }
@@ -3461,7 +3461,9 @@ th, td {
 
 .accordian-offering.accordian-offering-active{
   justify-content: unset;
-  padding: 50px;
+  padding: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .service-sub-offerings{
@@ -3469,7 +3471,10 @@ th, td {
 }
 
 .accordian-offering >  div:first-child{
-  width: 845px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 
@@ -3477,6 +3482,7 @@ th, td {
   font-family: "Quadran-Bold";
   color: white;
   font-size: 34px;
+  line-height: 38px;
   display: none;
   margin-bottom: 10px;
 }
@@ -3506,7 +3512,7 @@ th, td {
 .accordian-offering-head{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: auto;
   margin-left: 7px;
 }
 

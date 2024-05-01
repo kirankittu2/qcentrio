@@ -516,14 +516,24 @@
   display: flex;
   /* display: flex;
   gap: 50px; */
+  position: relative;
 }
 
 .sub-service-hero-section > div{
   width: 50%;
 }
 
+.sub-service-hero-section > div:last-child{
+  position: absolute;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  /* top: -96px; */
+}
+
 .sub-service-hero-section > div:first-child{
   padding: 50px 0px;
+  padding-right: 50px;
 }
 
 .sub-service-hero-section > div:last-child img{
@@ -806,7 +816,7 @@
   gap: 50px;
 }
 
-.services-of-sub-service-holder :first-child{
+.services-of-sub-service-holder > div:first-child{
   grid-column: span 2; 
   grid-row: span 2;
   background-color: #F6F6F6;
@@ -820,6 +830,13 @@
       transparent 20%
     )
     100% 1;
+}
+
+.sub-service-card-icon-container{
+  width: 42px;
+  height: 42px;
+  position: relative;
+  margin-bottom: 20px;
 }
 
 .sub-service-card h2 {

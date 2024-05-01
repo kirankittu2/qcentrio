@@ -16,17 +16,24 @@ import service3 from "@/public/sub-offerings-3.jpeg";
 import service4 from "@/public/sub-offerings-4.jpeg";
 import service5 from "@/public/sub-offerings-5.jpg";
 import healthcare from "@/public/heart-beat.svg";
-import finace from "@/public/trend.svg";
+import finace from "@/public/erp-solutions-support//financial-services.svg";
 import manufacturing from "@/public/factory.svg";
 import engineering from "@/public/engineering.svg";
 import aerospace from "@/public/aerospace.svg";
 import travel from "@/public/suitcase.svg";
+import retail from "@/public/erp-solutions-support/retail.svg";
+import supplyChain from "@/public/erp-solutions-support/supply-chain.svg";
+import hospitality from "@/public/erp-solutions-support/hospitality.svg";
 import eCommerce from "@/public/web-trolley.svg";
 import realEstate from "@/public/building.svg";
 import softwareTechnology from "@/public/software-engineer.svg";
 import whyChooseImg1 from "@/public/sub-service-why-choose-1.png";
 import whyChooseImg2 from "@/public/sub-service-why-choose-2.png";
 import whyChooseImg3 from "@/public/sub-service-why-choose-3.png";
+import erp1 from "@/public/erp-solutions-support/erp-strategies.png";
+import erp2 from "@/public/erp-solutions-support/certified-professionals.png";
+import erp3 from "@/public/erp-solutions-support/support.png";
+
 import currency from "@/public/currency.svg";
 
 const blogs = {
@@ -1378,8 +1385,8 @@ const subServicePagesContent = {
   serviceOne: {
     1: {
       heroSectionData: {
-        heading:
-          "TRANSFORM YOUR ORGANIZATIONAL CAPABILITIES AND SUSTAIN YOUR COMPETITIVE ADVANTAGE ",
+        heading1: "TRANSFORM YOUR ORGANIZATIONAL CAPABILITIES",
+        heading2: "AND SUSTAIN YOUR COMPETITIVE ADVANTAGE",
       },
       metaData: {
         title: "Comprehensive ERP Solutions Support | Qcentrio",
@@ -1399,29 +1406,21 @@ const subServicePagesContent = {
         heading:
           "Enhance Business Agility with Qcentrio’s ERP Solutions Support",
         content1:
-          "Enterprise Resource Planning (ERP) systems are pivotal as the operational backbone of modern enterprises, streamlining various business functions to enhance efficiency and provide deep insights into core operations. Today, agility and the capacity for informed decision-making are indispensable and can distinguish industry leaders from their competitors.",
+          "Enterprise Resource Planning (ERP) systems are pivotal as the operational backbone of modern enterprises, streamlining various business functions to enhance efficiency and provide deep insights into core operations.",
         content2:
-          "At Qcentrio, we stand at the forefront of ERP solutions, offering unmatched support that propels businesses forward by at least 50% faster. Our ERP services ensure your enterprise remains a step ahead by expertly integrating, managing, and optimizing your critical business processes through state-of-the-art ERP systems.",
+          "Today, agility and the capacity for informed decision-making are indispensable and can distinguish industry leaders from their competitors.",
+        content3:
+          "At Qcentrio, we stand at the forefront of ERP solutions, offering unmatched support that propels businesses forward by at least 50% faster.",
+        content4:
+          "Our ERP services ensure your enterprise remains a step ahead by expertly integrating, managing, and optimizing your critical business processes through state-of-the-art ERP systems.",
       },
       offeringsSetion: {
         mainHeading: "QCENTRIO’S TAILORED ERP SOLUTIONS SUPPORT SERVICES",
-        images: [
-          service1,
-          service2,
-          service3,
-          service4,
-          service5,
-          service1,
-          service2,
-          service3,
-          service4,
-          service5,
-        ],
         list: [
           {
             num: "01",
             heading: "QAD Advisory & Support Services",
-            image: "/business-value-enhancement-services.png",
+            image: "/erp-solutions-support/01.png",
             icon: currency,
             content:
               "Specializing in QAD ERP solutions, we deliver end-to-end support, including application management, system enhancements, and strategic upgrade paths for global operations.",
@@ -1429,7 +1428,7 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "Epicor Advisory & Support Services",
-            image: "/business-value-enhancement-services.png",
+            image: "/erp-solutions-support/02.png",
             icon: currency,
             content:
               ": Enhance operational efficiency across manufacturing, distribution, and retail with our deep tech and business expertise in Epicor ERP solutions, optimizing your enterprise's processes.",
@@ -1437,7 +1436,7 @@ const subServicePagesContent = {
           {
             num: "03",
             heading: "Infor Advisory & Support Services",
-            image: "/business-value-enhancement-services.png",
+            image: "/erp-solutions-support/03.png",
             icon: currency,
             content:
               "Utilize Infor's flexible cloud-based ERP software and its flexible, scalable cloud-based platform with customized support services designed to adapt to your unique business demands.",
@@ -1445,7 +1444,7 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "NetSuite Advisory & Support Services",
-            image: "/business-value-enhancement-services.png",
+            image: "/erp-solutions-support/04.png",
             icon: currency,
             content:
               ": Leverage NetSuite's comprehensive capabilities for ERP, CRM, and e-commerce with our strategic advisory, servicing a wide range of business scales and needs.",
@@ -1453,7 +1452,7 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "Custom ERP Developmen",
-            image: "/business-value-enhancement-services.png",
+            image: "/erp-solutions-support/05.png",
             icon: currency,
             content:
               "Build bespoke ERP solutions from the ground up, tailored to fit your enterprise’s unique processes, operations, and needs, ensuring a perfect fit for your operational model.",
@@ -1461,7 +1460,7 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "ERP Training and User Adoption",
-            image: "/business-value-enhancement-services.png",
+            image: "/erp-solutions-support/06.png",
             icon: currency,
             content:
               "Equip your team with the knowledge, know-how, and skills to completely leverage your ERP system through comprehensive training programs and change management strategies.",
@@ -1469,7 +1468,7 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "Legacy System Migration",
-            image: "/business-value-enhancement-services.png",
+            image: "/erp-solutions-support/07.png",
             icon: currency,
             content:
               "Safely transition from outdated and conventional systems to modern ERP platforms with minimal downtown and disruption while preserving data integrity and business continuity.",
@@ -1499,19 +1498,19 @@ const subServicePagesContent = {
               "Streamline production workflows, supply chain management, and inventory control with integrated ERP solutions.",
           },
           {
-            icon: engineering,
+            icon: retail,
             heading: "RETAIL",
             content:
               "Synchronize point of sale, e-commerce, and inventory management to provide seamless customer experiences.",
           },
           {
-            icon: aerospace,
+            icon: supplyChain,
             heading: "SUPPLY CHAIN AND LOGISTICS",
             content:
               "Optimize supply chain visibility and logistics management, reducing costs and improving delivery timelines with an integrated ERP suite.",
           },
           {
-            icon: travel,
+            icon: hospitality,
             heading: "HOSPITALITY",
             content:
               "Manage property operations, customer relations, and back-office activities seamlessly, delivering exceptional guest experiences and operational excellence.",
@@ -1522,19 +1521,19 @@ const subServicePagesContent = {
         mainHeading: "Why Partner with Qcentrio for ERP Solutions Support?",
         list: [
           {
-            image: whyChooseImg1,
+            image: erp1,
             heading: "Customized ERP Strategies",
             content:
               "Receive personalized ERP assessments and demonstrations created to align with your business objectives.",
           },
           {
-            image: whyChooseImg2,
+            image: erp2,
             heading: "Certified Professionals",
             content:
               "Our team of accredited tech and business professionals is committed to providing you with expertise and insights that drive success.",
           },
           {
-            image: whyChooseImg3,
+            image: erp3,
             heading: "24/7 Support",
             content:
               "We offer scalable solutions with round-the-clock support, ensuring your ERP systems operate flawlessly and continuously evolve with your business.",
@@ -1544,7 +1543,8 @@ const subServicePagesContent = {
     },
     2: {
       heroSectionData: {
-        heading: "Harness the Power of Big Data for Informed Decision-Making",
+        heading1: "Harness the Power of Big Data",
+        heading2: "for Informed Decision-Making",
       },
       metaData: {
         title: "Expert Big Data Analytics Services and Solutions | Qcentrio",
@@ -1563,9 +1563,13 @@ const subServicePagesContent = {
         heading:
           "Transform Your Data into Strategic Assets with Qcentrio’s Big Data Services",
         content1:
-          "Harnessing vast datasets effectively is a critical differentiator for businesses poised to lead and innovate. Enterprises looking for long-term success need to navigate the data-led transformation confidently and maintain a competitive edge in their industry.",
+          "Harnessing vast datasets effectively is a critical differentiator for businesses poised to lead and innovate.",
         content2:
-          "Qcentrio, as your premier partner in big data services, can enable your organization to unlock significant value through actionable insights and data-driven decisions. Our approach assesses and enhances your analytics maturity to exceed industry standards, integrating advanced data monetization and value-creation strategies. With a focus on decision science, design thinking, and data storytelling, we ensure analytics are deeply embedded in your processes, optimizing every business outcome.",
+          "Enterprises looking for long-term success need to navigate the data-led transformation confidently and maintain a competitive edge in their industry.",
+        content3:
+          "Qcentrio, as your premier partner in big data services, can enable your organization to unlock significant value through actionable insights and data-driven decisions. Our approach assesses and enhances your analytics maturity to exceed industry standards, integrating advanced data monetization and value-creation strategies. ",
+        content4:
+          "With a focus on decision science, design thinking, and data storytelling, we ensure analytics are deeply embedded in your processes, optimizing every business outcome.",
       },
       offeringsSetion: {
         mainHeading: "Qcentrio’s Big Data Services and Solutions Include",
@@ -1762,8 +1766,8 @@ const subServicePagesContent = {
     },
     3: {
       heroSectionData: {
-        heading:
-          "MAXIMIZE ENTERPRISE AGILITY AND INNOVATION WITH ADVANCED SAP SERVICES SUPPORT",
+        heading1: "MAXIMIZE ENTERPRISE AGILITY AND INNOVATION",
+        heading2: "WITH ADVANCED SAP SERVICES SUPPORT",
       },
       metaData: {
         title: "Expert SAP Services and Support | Qcentrio",
@@ -1782,9 +1786,13 @@ const subServicePagesContent = {
         heading:
           "Transform Your Business Operations with Qcentrio's Tailored SAP Services",
         content1:
-          "SAP systems characterize a critical infrastructure today for enterprises aiming to consolidate and enhance their operational processes. As businesses face the twofold challenges of adapting quickly to market changes and making decisions based on real-time data, the need for robust technological support is a constraint that they need. ",
+          "SAP systems characterize a critical infrastructure today for enterprises aiming to consolidate and enhance their operational processes.",
         content2:
-          "At Qcentrio, we offer specialized SAP services that cater to this demand, including SAP S/4HANA for next-generation business suite capabilities, SAP CRM & Customer Experience to advance client interactions, SAP Analytics for deeper insights, and more. Our offerings are designed to empower your enterprise with the agility to respond promptly, the intelligence to make informed decisions, and the innovation to drive growth and efficiency. With Qcentrio’s SAP expertise, your business is not just equipped to operate efficiently—it’s set to lead and transform in its sector.",
+          "As businesses face the twofold challenges of adapting quickly to market changes and making decisions based on real-time data, the need for robust technological support is a constraint that they need. ",
+        content3:
+          "At Qcentrio, we offer specialized SAP services that cater to this demand, including SAP S/4HANA for next-generation business suite capabilities, SAP CRM & Customer Experience to advance client interactions, SAP Analytics for deeper insights, and more. Our offerings are designed to empower your enterprise with the agility to respond promptly, the intelligence to make informed decisions, and the innovation to drive growth and efficiency.",
+        content4:
+          "With Qcentrio’s SAP expertise, your business is not just equipped to operate efficiently—it’s set to lead and transform in its sector.",
       },
       offeringsSetion: {
         mainHeading: "DISCOVER QCENTRIO’S COMPREHENSIVE SAP SERVICES",
@@ -1929,7 +1937,8 @@ const subServicePagesContent = {
     },
     4: {
       heroSectionData: {
-        heading: "CONVERT YOUR IDEAS INTO LEADING SOFTWARE PRODUCTS",
+        heading1: "CONVERT YOUR IDEAS INTO",
+        heading2: "LEADING SOFTWARE PRODUCTS",
       },
       metaData: {
         title: "Tailored Software and Application Development | Qcentrio",
@@ -1947,9 +1956,13 @@ const subServicePagesContent = {
         heading:
           "Turn Your Vision into Reality with Qcentrio’s Custom Software Development",
         content1:
-          "Custom software applications, platforms, or solutions are the cornerstone of innovation for any enterprise, propelling its businesses toward future success. It helps companies to meet and exceed the dynamic demands of modern markets, ensuring they stay ahead of the curve.",
+          "Custom software applications, platforms, or solutions are the cornerstone of innovation for any enterprise, propelling its businesses toward future success.",
         content2:
-          "Qcentrio is one of the leading providers of custom software and application development services, offering a comprehensive range of services from JAVA to MEAN and full-stack development. Our methodology is deeply rooted in understanding your business needs, ensuring we deliver functional and practical software solutions that embody your vision.",
+          "It helps companies to meet and exceed the dynamic demands of modern markets, ensuring they stay ahead of the curve.",
+        content3:
+          "Qcentrio is one of the leading providers of custom software and application development services, offering a comprehensive range of services from JAVA to MEAN and full-stack development.",
+        content4:
+          "Our methodology is deeply rooted in understanding your business needs, ensuring we deliver functional and practical software solutions that embody your vision.",
       },
       offeringsSetion: {
         mainHeading:
@@ -2134,7 +2147,8 @@ const subServicePagesContent = {
     },
     5: {
       heroSectionData: {
-        heading: "Navigate the Future with Smart IoT Integration",
+        heading1: "Navigate the Future",
+        heading2: "with Smart IoT Integration",
       },
       metaData: {
         title: "Advanced IoT Solutions for Smart Business | Qcentrio",
@@ -2152,9 +2166,13 @@ const subServicePagesContent = {
         heading:
           "Transform Your Business Operations with Qcentrio's IoT Solutions",
         content1:
-          "As enterprises struggle with the complexities of digital transformation, the need for cohesive integration across digital technologies becomes crucial. The Internet of Things (IoT) is a pivotal technology, transforming industries by linking interconnected processes and systems. However, challenges like piecemeal automation and siloed operations often hinder full potential realization, leading to unintegrated data and diminished system-wide visibility and control. ",
+          "As enterprises struggle with the complexities of digital transformation, the need for cohesive integration across digital technologies becomes crucial.",
         content2:
-          "At Qcentrio, we address these critical issues by providing advanced IoT solutions and services support that seamlessly integrate into your business operations, enhancing performance and operational efficiency. We help unify and leverage cyber-physical systems across your value chain, empowering your enterprise to fully realize the value of supply chain transformation investments and lead impactful Industry X.0 initiatives.",
+          "The Internet of Things (IoT) is a pivotal technology, transforming industries by linking interconnected processes and systems. However, challenges like piecemeal automation and siloed operations often hinder full potential realization, leading to unintegrated data and diminished system-wide visibility and control. ",
+        content3:
+          "At Qcentrio, we address these critical issues by providing advanced IoT solutions and services support that seamlessly integrate into your business operations, enhancing performance and operational efficiency.",
+        content4:
+          "We help unify and leverage cyber-physical systems across your value chain, empowering your enterprise to fully realize the value of supply chain transformation investments and lead impactful Industry X.0 initiatives.",
       },
       offeringsSetion: {
         mainHeading:
@@ -2344,7 +2362,8 @@ const subServicePagesContent = {
     },
     6: {
       heroSectionData: {
-        heading: "BRING YOUR SOFTWARE VISION TO LIFE",
+        heading1: "BRING YOUR SOFTWARE",
+        heading2: "VISION TO LIFE",
       },
       metaData: {
         title: "Innovative Product Engineering Services | Qcentrio",
@@ -2361,9 +2380,13 @@ const subServicePagesContent = {
         image: "http://localhost:3000/sub-service-content-side-image.png",
         heading: "Embrace Advanced Software Engineering with Qcentrio",
         content1:
-          "Navigating the journey from an initial concept to a fully operational software product demands a nuanced approach that keeps pace with evolving technology trends. It requires accelerating the software development process and enhancing product performance.",
+          "Navigating the journey from an initial concept to a fully operational software product demands a nuanced approach that keeps pace with evolving technology trends.",
         content2:
-          "At Qcentrio, we specialize in comprehensive product engineering services that do more than develop software; we ensure continual refinement and advancement of your solutions. Our strategic focus on innovation allows us to align your software offerings precisely with business objectives and consumer expectations. By integrating new-age technology and forward-thinking design, we help ensure that your products meet the current market demands and set new benchmarks in your industry.",
+          "It requires accelerating the software development process and enhancing product performance.",
+        content3:
+          "At Qcentrio, we specialize in comprehensive product engineering services that do more than develop software; we ensure continual refinement and advancement of your solutions. Our strategic focus on innovation allows us to align your software offerings precisely with business objectives and consumer expectations.",
+        content4:
+          "By integrating new-age technology and forward-thinking design, we help ensure that your products meet the current market demands and set new benchmarks in your industry.",
       },
       offeringsSetion: {
         mainHeading: "QCENTRIO'S PRODUCT ENGINEERING SERVICES OFFER",
@@ -2560,7 +2583,8 @@ const subServicePagesContent = {
       contactHead:
         "Strengthen the integrity of your digital systems with custom audits ",
       heroSectionData: {
-        heading: "SECURE YOUR DIGITAL FOOTPRINT, FOCUS ON GROWTH",
+        heading1: "SECURE YOUR DIGITAL FOOTPRINT",
+        heading2: "FOCUS ON GROWTH",
       },
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
@@ -2568,8 +2592,12 @@ const subServicePagesContent = {
           "Maximize Security and Compliance with Qcentrio's Audit and Assurance Services",
         content1:
           "With the increasing reliance on digital systems for every aspect of operations, it is more important than ever to ensure that these systems are secure, compliant, and functioning correctly.",
+        content1:
+          "At Qcentrio, our Audit and Assurance Services protect your digital infrastructure from potential threats and vulnerabilities.",
         content2:
-          "At Qcentrio, our Audit and Assurance Services protect your digital infrastructure from potential threats and vulnerabilities. With our team of experts conducting thorough audits of your systems, you can identify weaknesses and areas of improvement. Our services cover internal controls, risk management, cybersecurity, and compliance. We use the latest tools and continuously monitor your systems for suspicious activity.",
+          "With our team of experts conducting thorough audits of your systems, you can identify weaknesses and areas of improvement.",
+        content2:
+          "Our services cover internal controls, risk management, cybersecurity, and compliance. We use the latest tools and continuously monitor your systems for suspicious activity.",
       },
       offeringsSetion: {
         mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
@@ -4761,8 +4789,8 @@ const subServicePagesContent = {
   serviceFive: {
     1: {
       heroSectionData: {
-        heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH BESPOKE AI/ML CAPABILITIES",
+        heading1: "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY",
+        heading2: "WITH BESPOKE AI/ML CAPABILITIES",
       },
       metaData: {
         title: "Artificial Intelligence/Machine Learning Offerings | Qcentrio",
@@ -4781,9 +4809,14 @@ const subServicePagesContent = {
         heading:
           "Unlock the Full Potential of AI and ML for E2E Business Transformation with Qcentrio",
         content1:
-          "Artificial Intelligence (AI) and Machine Learning (ML) are indispensable for businesses across various industries. They drive innovation, increase efficiency, and boost productivity for a competitive edge. Although companies invest in building AI and ML capabilities, they lack the necessary governance structures and innovative systems to fully leverage their potential.",
+          "Artificial Intelligence (AI) and Machine Learning (ML) are indispensable for businesses across various industries.",
         content2:
-          "At Qcentrio, we use our AI/ML expertise to optimize business operations, streamline workflows, and improve bottom lines. Our offerings are tailored to meet specific needs and give a strategic advantage. As an advanced analytics service and solution provider, we unlock AI/ML's potential for long-term business transformation and short-term wins.",
+          "They drive innovation, increase efficiency, and boost productivity for a competitive edge. Although companies invest in building AI and ML capabilities, they lack the necessary governance structures and innovative systems to fully leverage their potential.",
+
+        content3:
+          "At Qcentrio, we use our AI/ML expertise to optimize business operations, streamline workflows, and improve bottom lines. Our offerings are tailored to meet specific needs and give a strategic advantage.",
+        content4:
+          "As an advanced analytics service and solution provider, we unlock AI/ML's potential for long-term business transformation and short-term wins.",
       },
       offeringsSetion: {
         mainHeading:
@@ -4947,8 +4980,8 @@ const subServicePagesContent = {
     },
     2: {
       heroSectionData: {
-        heading:
-          "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        heading1: "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY ",
+        heading2: "WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
       },
       metaData: {
         title: "Generative AI Solutions and Offerings | Qcentrio",
@@ -4966,9 +4999,14 @@ const subServicePagesContent = {
         image: "http://localhost:3000/sub-service-content-side-image.png",
         heading: "Redefine Innovation with Qcentrio’s GenAI Expertise",
         content1:
-          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide. It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+          "The transformative power of Generative AI cannot be overstated. With its ability to enhance productivity and accelerate innovation, this technology is revolutionizing industries worldwide.",
         content2:
-          " Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth. Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
+          "It has the potential to unlock $2.6 to $4.4 trillion in value annually across different use cases and can automate 60-70% of staff workloads, freeing up valuable time and resources for strategic initiatives.",
+
+        content3:
+          "Businesses are turning to generative AI for various applications, such as virtual assistants that improve customer service, personalized content customization, and predictive maintenance to prevent equipment failures. These technologies allow companies to increase operational efficiency, reduce costs, and drive revenue growth.",
+        content4:
+          "Qcentrio specializes in GenAI, enabling businesses to fully leverage this transformative technology and stay ahead in a rapidly changing digital landscape.",
       },
       offeringsSetion: {
         mainHeading: "OUR GENERATIVE AI SOLUTIONS AND OFFERINGS",
@@ -5103,8 +5141,8 @@ const subServicePagesContent = {
     },
     3: {
       heroSectionData: {
-        heading:
-          "BOOST OPERATIONAL EFFICIENCY, GAIN E2E VISIBILITY, AND OPTIMIZE IT RESOURCE UTILIZATION",
+        heading1: "BOOST OPERATIONAL EFFICIENCY, GAIN E2E VISIBILITY",
+        heading2: "AND OPTIMIZE IT RESOURCE UTILIZATION",
       },
       metaData: {
         title: "Robotic Process Automation Offerings | Qcentrio",
@@ -5121,10 +5159,13 @@ const subServicePagesContent = {
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
         heading: "Transform Workflow with Next-Gen Automation at Qcentrio",
-        content1:
-          "Today, efficiency and speed in business are indispensable. Robotic Process Automation (RPA) is a pillar for innovations that can automate routine tasks and enhance process workflows, thus giving a business the necessary momentum to stay relevant and win.",
+        content1: "Today, efficiency and speed in business are indispensable.",
         content2:
-          "At Qcentrio, we understand CXOs' challenges and specialize in providing RPA solutions that seamlessly integrate with existing systems. Our RPA offerings are designed to help businesses optimize their operations, reduce costs, and improve customer experiences, allowing your team to focus on strategic initiatives.",
+          "Robotic Process Automation (RPA) is a pillar for innovations that can automate routine tasks and enhance process workflows, thus giving a business the necessary momentum to stay relevant and win.",
+        content3:
+          "At Qcentrio, we understand CXOs' challenges and specialize in providing RPA solutions that seamlessly integrate with existing systems.",
+        content4:
+          "Our RPA offerings are designed to help businesses optimize their operations, reduce costs, and improve customer experiences, allowing your team to focus on strategic initiatives.",
       },
       offeringsSetion: {
         mainHeading: "OUR ROBOTIC PROCESS AUTOMATION OFFERINGS",
