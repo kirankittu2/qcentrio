@@ -24,7 +24,15 @@ import travel from "@/public/suitcase.svg";
 import retail from "@/public/erp-solutions-support/retail.svg";
 import supplyChain from "@/public/erp-solutions-support/supply-chain.svg";
 import hospitality from "@/public/erp-solutions-support/hospitality.svg";
+import automotive from "@/public/internet-of-things-solutions/automotive.svg";
+import smart from "@/public/internet-of-things-solutions/smart-home.svg";
+import agriculture from "@/public/internet-of-things-solutions/agriculture.svg";
+import logistics from "@/public/internet-of-things-solutions/logistics.svg";
+import utilities from "@/public/internet-of-things-solutions/utilities.svg";
 import eCommerce from "@/public/web-trolley.svg";
+import telecommunication from "@/public/big-data-services-and-solutions/tele-communication.svg";
+import energy from "@/public/big-data-services-and-solutions/energy.svg";
+import media from "@/public/big-data-services-and-solutions/media-and-entertainment.svg";
 import realEstate from "@/public/building.svg";
 import softwareTechnology from "@/public/software-engineer.svg";
 import whyChooseImg1 from "@/public/sub-service-why-choose-1.png";
@@ -33,7 +41,39 @@ import whyChooseImg3 from "@/public/sub-service-why-choose-3.png";
 import erp1 from "@/public/erp-solutions-support/erp-strategies.png";
 import erp2 from "@/public/erp-solutions-support/certified-professionals.png";
 import erp3 from "@/public/erp-solutions-support/support.png";
-
+import erpBanner from "@/public/erp-solutions-support/main-bg.png";
+import iotBanner from "@/public/internet-of-things-solutions/main-bg.png";
+import bigDataBanner from "@/public/big-data-services-and-solutions/main-bg.png";
+import erpIcon1 from "@/public/erp-solutions-support/01_02.svg";
+import erpIcon2 from "@/public/erp-solutions-support/02_02.svg";
+import erpIcon3 from "@/public/erp-solutions-support/03_02.svg";
+import erpIcon4 from "@/public/erp-solutions-support/04_02.svg";
+import erpIcon5 from "@/public/erp-solutions-support/05_02.svg";
+import erpIcon6 from "@/public/erp-solutions-support/06_02.svg";
+import erpIcon7 from "@/public/erp-solutions-support/07_02.svg";
+import erpIcon8 from "@/public/erp-solutions-support/08_02.svg";
+import iotIcon1 from "@/public/internet-of-things-solutions/01_02.svg";
+import iotIcon2 from "@/public/internet-of-things-solutions/02_02.svg";
+import iotIcon3 from "@/public/internet-of-things-solutions/03_02.svg";
+import iotIcon4 from "@/public/internet-of-things-solutions/04_02.svg";
+import iotIcon5 from "@/public/internet-of-things-solutions/05_02.svg";
+import iotIcon6 from "@/public/internet-of-things-solutions/06_02.svg";
+import iotIcon7 from "@/public/internet-of-things-solutions/07_02.svg";
+import iotIcon8 from "@/public/internet-of-things-solutions/08_02.svg";
+import iot1 from "@/public/internet-of-things-solutions/customization-and-expertise.png";
+import iot2 from "@/public/internet-of-things-solutions/scalable-and-seamless.png";
+import iot3 from "@/public/internet-of-things-solutions/continuous-support.png";
+import bigDataIcon1 from "@/public/big-data-services-and-solutions/01_02.svg";
+import bigDataIcon2 from "@/public/big-data-services-and-solutions/02_02.svg";
+import bigDataIcon3 from "@/public/big-data-services-and-solutions/03_02.svg";
+import bigDataIcon4 from "@/public/big-data-services-and-solutions/04_02.svg";
+import bigDataIcon5 from "@/public/big-data-services-and-solutions/05_02.svg";
+import bigDataIcon6 from "@/public/big-data-services-and-solutions/06_02.svg";
+import bigDataIcon7 from "@/public/big-data-services-and-solutions/07_02.svg";
+import bigDataIcon8 from "@/public/big-data-services-and-solutions/08_02.svg";
+import bigData1 from "@/public/big-data-services-and-solutions/expert-data-team.png";
+import bigData2 from "@/public/big-data-services-and-solutions/customization.png";
+import bigData3 from "@/public/big-data-services-and-solutions/compliance.png";
 import currency from "@/public/currency.svg";
 
 const blogs = {
@@ -1388,9 +1428,9 @@ const subServicePagesContent = {
         heading1: "TRANSFORM YOUR ORGANIZATIONAL CAPABILITIES",
         heading2: "AND SUSTAIN YOUR COMPETITIVE ADVANTAGE",
       },
+      bannerImage: erpBanner,
       metaData: {
         title: "Comprehensive ERP Solutions Support | Qcentrio",
-
         description:
           "Qcentrio's ERP Solutions Support enhances your operational agility and efficiency. Experience our tailored ERP advisory and round-the-clock service.",
       },
@@ -1421,7 +1461,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "QAD Advisory & Support Services",
             image: "/erp-solutions-support/01.png",
-            icon: currency,
+            icon: erpIcon1,
             content:
               "Specializing in QAD ERP solutions, we deliver end-to-end support, including application management, system enhancements, and strategic upgrade paths for global operations.",
           },
@@ -1429,7 +1469,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Epicor Advisory & Support Services",
             image: "/erp-solutions-support/02.png",
-            icon: currency,
+            icon: erpIcon2,
             content:
               ": Enhance operational efficiency across manufacturing, distribution, and retail with our deep tech and business expertise in Epicor ERP solutions, optimizing your enterprise's processes.",
           },
@@ -1437,7 +1477,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "Infor Advisory & Support Services",
             image: "/erp-solutions-support/03.png",
-            icon: currency,
+            icon: erpIcon3,
             content:
               "Utilize Infor's flexible cloud-based ERP software and its flexible, scalable cloud-based platform with customized support services designed to adapt to your unique business demands.",
           },
@@ -1445,7 +1485,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "NetSuite Advisory & Support Services",
             image: "/erp-solutions-support/04.png",
-            icon: currency,
+            icon: erpIcon4,
             content:
               ": Leverage NetSuite's comprehensive capabilities for ERP, CRM, and e-commerce with our strategic advisory, servicing a wide range of business scales and needs.",
           },
@@ -1453,7 +1493,7 @@ const subServicePagesContent = {
             num: "05",
             heading: "Custom ERP Developmen",
             image: "/erp-solutions-support/05.png",
-            icon: currency,
+            icon: erpIcon5,
             content:
               "Build bespoke ERP solutions from the ground up, tailored to fit your enterprise’s unique processes, operations, and needs, ensuring a perfect fit for your operational model.",
           },
@@ -1461,7 +1501,7 @@ const subServicePagesContent = {
             num: "06",
             heading: "ERP Training and User Adoption",
             image: "/erp-solutions-support/06.png",
-            icon: currency,
+            icon: erpIcon6,
             content:
               "Equip your team with the knowledge, know-how, and skills to completely leverage your ERP system through comprehensive training programs and change management strategies.",
           },
@@ -1469,9 +1509,17 @@ const subServicePagesContent = {
             num: "07",
             heading: "Legacy System Migration",
             image: "/erp-solutions-support/07.png",
-            icon: currency,
+            icon: erpIcon7,
             content:
               "Safely transition from outdated and conventional systems to modern ERP platforms with minimal downtown and disruption while preserving data integrity and business continuity.",
+          },
+          {
+            num: "08",
+            heading: "ERP Performance Optimization",
+            image: "/erp-solutions-support/08.png",
+            icon: erpIcon8,
+            content:
+              "Continuously improve the performance of your ERP system with ongoing assessments, tuning, and enhancements to ensure it meets evolving business requirements and technological advancements.",
           },
         ],
       },
@@ -1546,6 +1594,7 @@ const subServicePagesContent = {
         heading1: "Harness the Power of Big Data",
         heading2: "for Informed Decision-Making",
       },
+      bannerImage: bigDataBanner,
       metaData: {
         title: "Expert Big Data Analytics Services and Solutions | Qcentrio",
         description:
@@ -1577,107 +1626,67 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Data Analytics and Interpretation",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "Data Analytics and Custom Solutions",
+            image: "/big-data-services-and-solutions/01.png",
+            icon: bigDataIcon1,
             content:
-              "Develop a robust infrastructure to harness and decipher vast data sets using advanced tools like Apache Hadoop and NoSQL databases, enabling deep insights into your business dynamics.",
+              "Develop bespoke solutions and robust infrastructures using tools like Apache Hadoop, Spark, Python, and R for comprehensive data management. This includes collecting, processing, analyzing, and visualizing data to provide actionable insights for informed decision-making.",
           },
           {
             num: "02",
-            heading: "Custom Big Data Solutions",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "Data Management, Integration, and Governance",
+            image: "/big-data-services-and-solutions/02.png",
+            icon: bigDataIcon2,
             content:
-              "Develop bespoke solutions for comprehensive data management, collecting, processing, analyzing, and visualizing data with state-of-the-art technologies such as Apache Spark, Python, and R. These solutions empower you with actionable insights for informed decision-making.",
+              "Ensure the integrity, security, and seamless integration of your data with existing systems, facilitating streamlined operations and compliance with international regulations. This service enhances business process efficiency and safeguards your data assets.",
           },
           {
             num: "03",
-            heading: "Data Management and Integration",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "Predictive Analytics and Real-Time Data Processing",
+            image: "/big-data-services-and-solutions/03.png",
+            icon: bigDataIcon3,
             content:
-              "Ensure the integrity, security, and seamless integration of your data with existing systems, facilitating streamlined operations and enhanced business process efficiency.",
+              "Employ predictive analytics to anticipate market trends and deploy systems that support instantaneous data analysis. This capability enables proactive strategizing and swift response to market dynamics, providing a competitive edge.",
           },
           {
             num: "04",
-            heading: "Predictive Analytics and Modeling",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "Data Visualization and Reporting",
+            image: "/big-data-services-and-solutions/04.png",
+            icon: bigDataIcon4,
             content:
-              "Employ predictive analytics to anticipate market trends, decode customer behaviors, and strategize proactively, giving you a competitive edge in your industry.",
+              "Transform complex datasets into intuitive visual representations, enhancing the decision-making process across your organization by simplifying the interpretation of insights for stakeholders.",
           },
           {
             num: "05",
-            heading: "Real-Time Data Processing",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "Big Data Consulting and Machine Learning Integration",
+            image: "/big-data-services-and-solutions/05.png",
+            icon: bigDataIcon5,
             content:
-              "Adopt systems that support instantaneous data analysis and decision-making. This will enable you to respond adeptly to market dynamics and capitalize on emerging opportunities swiftly.",
+              "Tap into expert advice for crafting tailored big data strategies, architectures, and deployment plans, enhanced with AI and machine learning capabilities. Discover patterns and predictive insights to secure a strategic advantage.",
           },
           {
             num: "06",
-            heading: "Data Visualization and Reporting",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "Cloud Data Solutions and IoT Integration",
+            image: "/big-data-services-and-solutions/06.png",
+            icon: bigDataIcon6,
             content:
-              "Transform complex datasets into intuitive visual representations, simplifying the interpretation of insights for stakeholders and enhancing decision-making processes across your organization.",
+              "Optimize data storage and processing in the cloud with cutting-edge analytics tools and integrate IoT data for real-time insights into user interactions and machine performance. This service enriches your analytics landscape and enhances operational efficiency.",
           },
           {
             num: "07",
-            heading: "Big Data Consulting",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "Sentiment Analysis and Social Media Analytics",
+            image: "/big-data-services-and-solutions/07.png",
+            icon: bigDataIcon7,
             content:
-              "Tap into our expertise to craft a tailored big data strategy, architecture, and deployment plan that aligns with your operational goals and maximizes efficiency.",
+              "Utilize big data tools to analyze customer sentiment across social platforms. This service refines marketing strategies and product development, boosting customer satisfaction and loyalty.",
           },
           {
             num: "08",
-            heading: "Machine Learning and AI Integration",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "Security and Compliance",
+            image: "/big-data-services-and-solutions/08.png",
+            icon: bigDataIcon8,
             content:
-              "Enhance your significant data initiatives with AI and machine learning, discovering patterns and predictive insights beyond human analytical capabilities to secure a strategic advantage.",
-          },
-          {
-            num: "09",
-            heading: "Cloud Data Solutions",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Optimize your data storage and processing in the cloud, leveraging cutting-edge cloud analytics tools for scalable, cost-effective data management solutions that enhance operational efficiency and reduce overhead.",
-          },
-          {
-            num: "10",
-            heading: "Cloud Data Solutions",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Optimize your data storage and processing in the cloud, leveraging cutting-edge cloud analytics tools for scalable, cost-effective data management solutions that enhance operational efficiency and reduce overhead.",
-          },
-          {
-            num: "11",
-            heading: "Internet of Things (IoT) Data Integration",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Integrate IoT data to gain real-time insights into user interactions and machine performance, enriching your analytics landscape and providing a deeper understanding of customer needs and product performance.",
-          },
-          {
-            num: "12",
-            heading: "Data Governance and Compliance",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Establish robust frameworks to uphold standards, manage policies, and ensure compliance with international regulations, safeguarding your data assets and reinforcing business integrity.",
-          },
-          {
-            num: "13",
-            heading: "Sentiment Analysis and Social Media Analytics",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Utilize big data tools to analyze customer sentiment across social platforms, refining your marketing strategies and product developments to boost customer satisfaction and loyalty.",
+              "Establish robust frameworks to manage policies, uphold standards, and ensure compliance with international regulations, reinforcing business integrity and safeguarding your data assets.",
           },
         ],
       },
@@ -1691,25 +1700,25 @@ const subServicePagesContent = {
               "Manage patient data, improve treatments, and enhance healthcare operations with data-driven insights.",
           },
           {
-            icon: finace,
+            icon: retail,
             heading: "Retail",
             content:
               "Personalize shopping experiences and optimize supply chains with actionable data.",
           },
           {
-            icon: manufacturing,
+            icon: finace,
             heading: "Financial Services",
             content:
               "Detect fraud, manage risks, and personalize financial products based on big data analytics.",
           },
           {
-            icon: engineering,
+            icon: telecommunication,
             heading: "Telecommunications",
             content:
               "Optimize network performance and customer experience using insights from big data.",
           },
           {
-            icon: aerospace,
+            icon: manufacturing,
             heading: "Manufacturing",
             content:
               "Streamline manufacturing processes and predictive maintenance using real-time data analytics.",
@@ -1721,19 +1730,19 @@ const subServicePagesContent = {
               "Enhance route optimization and logistics planning through big data solutions.",
           },
           {
-            icon: eCommerce,
+            icon: energy,
             heading: "Energy",
             content:
               ": Make informed decisions on energy production, distribution, and consumption with data analytics.",
           },
           {
-            icon: realEstate,
+            icon: media,
             heading: "Media and Entertainment",
             content:
               "Analyze viewer preferences and media consumption patterns to create targeted content and advertising strategies.",
           },
           {
-            icon: softwareTechnology,
+            icon: supplyChain,
             heading: "Supply Chain Management",
             content:
               "Integrate big data analytics to enhance supply chain visibility, demand forecasting, and inventory optimization.",
@@ -1744,19 +1753,19 @@ const subServicePagesContent = {
         mainHeading: "Why Qcentrio is Your Choice for Big Data Services",
         list: [
           {
-            image: whyChooseImg1,
+            image: bigData1,
             heading: "Expert Data Team",
             content:
               "We harness the collective intelligence of our skilled data scientists and analysts to ensure that your big data challenges are met and transcended.",
           },
           {
-            image: whyChooseImg2,
+            image: bigData2,
             heading: "Customization",
             content:
               "Our big data solutions are not off-the-shelf; they align perfectly with your business's objectives, making your big data initiatives as singular as your brand.",
           },
           {
-            image: whyChooseImg3,
+            image: bigData3,
             heading: "Compliance",
             content:
               "We are committed to ensuring that all big data services meet and exceed industry standards, providing you with peace of mind and safeguarding your reputation.",
@@ -2150,6 +2159,7 @@ const subServicePagesContent = {
         heading1: "Navigate the Future",
         heading2: "with Smart IoT Integration",
       },
+      bannerImage: iotBanner,
       metaData: {
         title: "Advanced IoT Solutions for Smart Business | Qcentrio",
         description:
@@ -2177,103 +2187,70 @@ const subServicePagesContent = {
       offeringsSetion: {
         mainHeading:
           "Qcentrio's IoT Services Enable Smart, Efficient Operations",
-        images: [service1, service2, service3, service4, service5],
         list: [
           {
             num: "01",
-            heading: "Custom IoT Integration",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "Custom IoT Integration and Smart Device Connectivity",
+            image: "/internet-of-things-solutions/01.png",
+            icon: iotIcon1,
             content:
-              "Tailor IoT solutions to your unique business needs across industries like manufacturing, retail, and healthcare, enhancing process efficiency and operational fluidity.",
+              "Tailor IoT solutions to enhance operational efficiency across industries such as manufacturing, retail, and healthcare. This includes seamless real-time data exchange and control with interconnected devices, empowering swift, informed decision-making.",
           },
           {
             num: "02",
-            heading: "Smart Device Connectivity",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "Data Analytics, Predictive Maintenance, and Monitoring",
+            image: "/internet-of-things-solutions/02.png",
+            icon: iotIcon2,
             content:
-              "Facilitate seamless real-time data exchange and control with interconnected devices, empowering you to make informed decisions swiftly.",
+              "Harness IoT-generated data for detailed analytics and insights and leverage continuous equipment monitoring to minimize downtime, optimize resource utilization, and extend asset longevity.",
           },
           {
             num: "03",
-            heading: "Data Analytics and Insights",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "IoT Security and User Interface Design",
+            image: "/internet-of-things-solutions/03.png",
+            icon: iotIcon3,
             content:
-              "Harness the power of IoT-generated data for detailed analytics and insights, driving strategic decisions that keep you competitive and proactive in spotting new opportunities.",
+              "Secure your IoT ecosystem with advanced protocols and design intuitive user interfaces for your IoT solutions to boost usability, ensuring data integrity and enhancing user engagement.",
           },
           {
             num: "04",
-            heading: "Predictive Maintenance and Monitoring",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "IoT for Supply Chain and Asset Tracking",
+            image: "/internet-of-things-solutions/04.png",
+            icon: iotIcon4,
             content:
-              "Leverage IoT for continuous equipment monitoring to minimize downtime and maintenance costs, thereby extending asset longevity and optimizing resource utilization.",
+              "Revolutionize your supply chain with real-time tracking, inventory management, and logistics optimization using IoT, coupled with sophisticated asset tracking systems to minimize loss risks and enhance asset utilization.",
           },
           {
             num: "05",
-            heading: "IoT Security Solutions",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "Energy Management and IoT Solutions",
+            image: "/internet-of-things-solutions/05.png",
+            icon: iotIcon5,
             content:
-              "Secure your IoT ecosystem with advanced protocols to shield against cyber threats and ensure data integrity, maintaining uninterrupted operations.",
+              "Implement IoT solutions for energy monitoring and management to support sustainability goals and utilize IoT in industrial settings to enhance machine-to-machine communication and facilitate predictive maintenance.",
           },
           {
             num: "06",
-            heading: "User Interface for IoT Devices",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "IoT-Enabled Wearable and Healthcare Devices",
+            image: "/internet-of-things-solutions/06.png",
+            icon: iotIcon6,
             content:
-              "Design intuitive user interfaces for your IoT solutions to boost usability and accessibility, increasing productivity and enhancing user engagement.",
+              "Develop custom wearable devices focused on health, fitness, and personal security, providing vital connectivity and insights to improve wellness and safety, particularly in healthcare settings.",
           },
           {
             num: "07",
-            heading: "IoT for Supply Chain Management",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "IoT Solutions for Smart Cities",
+            image: "/internet-of-things-solutions/07.png",
+            icon: iotIcon7,
             content:
-              "Revolutionize your supply chain with IoT-enabled real-time tracking, inventory management, and logistics optimization, reducing costs and elevating customer satisfaction.",
+              "Create innovative IoT solutions for urban management, enhancing public services, resource management, and the overall quality of urban life, supporting the development of sustainable and thriving smart cities.",
           },
           {
             num: "08",
-            heading: "Energy Management with IoT",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
+            heading: "Comprehensive IoT Consulting and Strategy Development",
+            image: "/internet-of-things-solutions/08.png",
+            icon: iotIcon8,
             content:
-              "Implement smart IoT solutions for energy monitoring and management to cut costs and reduce your carbon footprint, supporting your sustainability goals.",
-          },
-          {
-            num: "09",
-            heading: "IoT Asset Tracking Solutions",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Deploy sophisticated tracking systems to monitor assets in real-time, minimizing loss risks and enhancing asset utilization, thereby cutting unnecessary expenditures.",
-          },
-          {
-            num: "10",
-            heading: "IoT-Enabled Wearable Devices",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Create custom wearable devices focused on health, fitness, and personal security. These devices provide vital connectivity and insights on the move, thus improving employee wellness and safety.",
-          },
-          {
-            num: "11",
-            heading: "Industrial IoT (IIoT) Solutions",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Utilize IoT in industrial settings to boost machine-to-machine communication, enhance operational efficiency, and facilitate predictive maintenance, streamlining your industrial operations.",
-          },
-          {
-            num: "12",
-            heading: "IoT for Smart Cities",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Develop innovative IoT solutions for urban management, enhancing public services, resource management, and overall urban quality of life, paving the way for sustainable and thriving smart cities.",
+              "Offer expert consulting services to develop and implement comprehensive IoT strategies that align with business goals and leverage the latest technological advancements.",
           },
         ],
       },
@@ -2281,31 +2258,31 @@ const subServicePagesContent = {
         mainHeading: "Industries Transforming with Qcentrio’s IoT Solutions",
         list: [
           {
-            icon: healthcare,
+            icon: automotive,
             heading: "Automotive",
             content:
               "Advance vehicle telematics and smart manufacturing processes with integrated IoT solutions.",
           },
           {
-            icon: finace,
+            icon: smart,
             heading: "Smart Home & Building",
             content:
               "IoT can enhance home and building automation for improved security, energy management, and convenience.",
           },
           {
-            icon: manufacturing,
+            icon: agriculture,
             heading: "Agriculture",
             content:
               ": Deploy IoT for precision farming, enabling smarter resource management and crop monitoring.",
           },
           {
-            icon: engineering,
+            icon: retail,
             heading: "Retail",
             content:
               "Revolutionize the retail experience with IoT for inventory management, customer engagement, and personalized shopping experiences.",
           },
           {
-            icon: aerospace,
+            icon: healthcare,
             heading: "Healthcare",
             content:
               ": Improve patient care and healthcare operations with IoT devices that monitor health data and manage hospital resources.",
@@ -2317,19 +2294,19 @@ const subServicePagesContent = {
               "Our GenAI solutions forecast the best travel options and manage logistics, analyzing vast amounts of data to predict trends and improve customer experiences.",
           },
           {
-            icon: eCommerce,
+            icon: logistics,
             heading: "Logistics",
             content:
               "Transform logistics with IoT for enhanced tracking, efficient routing, and fleet management.",
           },
           {
-            icon: realEstate,
+            icon: utilities,
             heading: "Utilities",
             content:
               "Utilize IoT for smart grid management and real-time utility service monitoring.",
           },
           {
-            icon: softwareTechnology,
+            icon: manufacturing,
             heading: "Manufacturing",
             content:
               "Increase production efficiency and safety with IoT-powered industrial automation and real-time analytics.",
@@ -2340,19 +2317,19 @@ const subServicePagesContent = {
         mainHeading: "Why Leverage Qcentrio for Your IoT Solutions?",
         list: [
           {
-            image: whyChooseImg1,
+            image: iot1,
             heading: "Customization and Expertise",
             content:
               ": Get custom-developed IoT solutions to fit your industry's needs, crafted by experts with deep technological proficiency.",
           },
           {
-            image: whyChooseImg2,
+            image: iot2,
             heading: "Scalable and Seamless Integration",
             content:
               "Our IoT solutions promise seamless integration into your current systems, providing scalability to grow with your business.",
           },
           {
-            image: whyChooseImg3,
+            image: iot3,
             heading: "Continuous Support",
             content:
               "Benefit from Qcentrio's round-the-clock support, ensuring your IoT solutions perform optimally at all times.",

@@ -9,6 +9,15 @@ import { SubServiceHeading } from "@/app/ui/offerings/sub-service/sub-service-he
 import Image from "next/image";
 import Link from "next/link";
 
+export async function generateMetadata({ params }) {
+  const data = getSubServicePageContent(params.slug, params.sub);
+
+  return {
+    title: data.metaData.title,
+    description: data.metaData.description,
+  };
+}
+
 export default function SubService({ params }) {
   const data = getSubServicePageContent(params.slug, params.sub);
   return (
@@ -20,7 +29,10 @@ export default function SubService({ params }) {
           <span></span> {data.breadCrump.current}
         </div>
       </div>
-      <SubServiceHeading data={data.heroSectionData} />
+      <SubServiceHeading
+        data={data.heroSectionData}
+        bannerImage={data.bannerImage}
+      />
       <SubServiceContent data={data.contentSection} />
       <SubAccordianOfferings data={data.offeringsSetion} />
       <ServicesOfSubService data={data.servicesOfSubService} />

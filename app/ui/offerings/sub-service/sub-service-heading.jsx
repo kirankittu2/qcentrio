@@ -5,7 +5,7 @@ import Button from "../../global/button";
 import image from "@/public/sample.png";
 import Image from "next/image";
 
-export function SubServiceHeading({ data }) {
+export function SubServiceHeading({ data, bannerImage }) {
   const banner = useRef(null);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ export function SubServiceHeading({ data }) {
         <Button name="Get Started" />
       </div>
       <div ref={banner}>
-        <Image src={image} alt="" />
+        <Image src={bannerImage ? bannerImage : ""} alt="" />
       </div>
     </div>
   );
