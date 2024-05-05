@@ -27,7 +27,7 @@ export default function Glimpse({ data }) {
           <p className="glimpse-btn">
             See How
             <span>
-              <Image style={{ width: "25px" }} src={blogArrow} alt="" />
+              <Image fill src={blogArrow} alt="" />
             </span>
           </p>
         </Link>

@@ -5,7 +5,9 @@ export default function Card({ image, title, content }) {
     <div
       data-option="up"
       className="success-path-category animate-hidden animate">
-      <Image src={image} alt="" />
+      <div className="service-icon-container">
+        <Image fill src={image} alt="" />
+      </div>
       <h2 className="sub-heading">{title}</h2>
       <p className="section-content">{content}</p>
     </div>

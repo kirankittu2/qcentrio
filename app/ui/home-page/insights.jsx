@@ -14,7 +14,52 @@ export default function Insignts({ title, subheading }) {
   const [index, setIndex] = useState(1);
   const blogs = getAllBlogs();
 
-  useEffect(() => {}, [index, blogs]);
+  useEffect(() => {
+    wrapper.current
+      .querySelectorAll('.card[data-option="card-up"]')
+      .forEach((element, index) => {
+        if (index >= 3) {
+          element.classList.add("slideup");
+        }
+      });
+
+    let options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.3,
+    };
+    let isScrolled = false;
+
+    function handleScroll() {
+      console.log("Hello");
+      isScrolled = true;
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (
+            entry.isIntersecting &&
+            entry.target.getAttribute("data-option") == "card-up"
+          ) {
+            entry.target.classList.add("slideup");
+          }
+        });
+      }, options);
+      wrapper.current
+        .querySelectorAll('.card[data-option="card-up"]:nth-child(-n+3)')
+        .forEach((element) => {
+          observer.observe(element);
+        });
+    }
+
+    if (isScrolled == false) {
+      handleScroll();
+    } else {
+      window.addEventListener("scroll", handleScroll, { passive: true });
+    }
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   function handleRight() {
     if (index < wrapper.current.children.length - 2) {
@@ -67,11 +112,15 @@ export default function Insignts({ title, subheading }) {
           {subheading}
         </p>
       </div>
-      <div data-option="up" className="blogs-container animate animate-hidden">
+      <div className="blogs-container">
         <div ref={wrapper} className="insights-wrapper ">
           {blogs.slice(-1).map((blog, index) => {
             return (
-              <div key={index} ref={card} className="card">
+              <div
+                data-option="card-up"
+                key={index}
+                ref={card}
+                className="card card-animate animate-hidden">
                 <div>
                   <div>
                     <Image
@@ -106,7 +155,10 @@ export default function Insignts({ title, subheading }) {
           })}
           {blogs.map((blog, index) => {
             return (
-              <div key={index} ref={card} className="card">
+              <div
+                key={index}
+                data-option="card-up"
+                className="card card-animate animate-hidden">
                 <div>
                   <div>
                     <Image
@@ -141,7 +193,7 @@ export default function Insignts({ title, subheading }) {
           })}
           {blogs.slice(0, 2).map((blog, index) => {
             return (
-              <div key={index} ref={card} className="card">
+              <div key={index} className="card">
                 <div>
                   <div>
                     <Image

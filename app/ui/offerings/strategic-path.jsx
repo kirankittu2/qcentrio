@@ -58,21 +58,23 @@ export default function StrategicPath({ data }) {
                   className="accordation-title"
                   data-index={item.index}
                   onClick={handleToggle}>
-                  <Image
-                    data-index={item.index}
-                    src={check}
-                    alt=""
-                    style={{ width: "23px" }}
-                  />
+                  <div className="accordian-icon-container">
+                    <div>
+                      <Image fill data-index={item.index} src={check} alt="" />
+                    </div>
+                  </div>
                   <div data-index={item.index} className="accordation-heading">
                     {item.title}
                   </div>
-                  <Image
-                    data-index={item.index}
-                    className="accordation-arrow"
-                    src={down}
-                    alt=""
-                  />
+                  <div className="accordation-arrow-container">
+                    <Image
+                      data-index={item.index}
+                      className="accordation-arrow"
+                      fill
+                      src={down}
+                      alt=""
+                    />
+                  </div>
                 </div>
                 <div
                   className={`section-content accordation-content ${
@@ -96,21 +98,23 @@ export default function StrategicPath({ data }) {
                   index == item.index ? "active" : ""
                 }`}>
                 <div data-index={item.index} onClick={handleToggle}>
-                  <Image
-                    data-index={item.index}
-                    src={check}
-                    alt=""
-                    style={{ width: "23px" }}
-                  />
+                  <div className="accordian-icon-container">
+                    <div>
+                      <Image fill data-index={item.index} src={check} alt="" />
+                    </div>
+                  </div>
                   <div data-index={item.index} className="accordation-heading">
                     {item.title}
                   </div>
-                  <Image
-                    data-index={item.index}
-                    className="accordation-arrow"
-                    src={down}
-                    alt=""
-                  />
+                  <div className="accordation-arrow-container">
+                    <Image
+                      data-index={item.index}
+                      className="accordation-arrow"
+                      fill
+                      src={down}
+                      alt=""
+                    />
+                  </div>
                 </div>
                 <div
                   className={`section-content accordation-content ${

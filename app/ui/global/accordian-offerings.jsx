@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import SubOfferings from "../home-page/sub-offerings";
 import Image from "next/image";
 import float from "@/public/float.svg";
@@ -14,6 +14,7 @@ export default function AccordianOfferings({ data }) {
   const [previousIndex, setPreviousIndex] = useState(0);
   const [needSomething, setNeedSomething] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
+  const refsArray = useRef([]);
   const router = useRouter();
   function changeCursor() {
     document.querySelector(".cursor").classList.add("hovered");
@@ -90,12 +91,18 @@ export default function AccordianOfferings({ data }) {
       }
     });
 
-    const headings = document.querySelectorAll(
-      ".accordian-offering-title-hidden"
-    );
-    headings.forEach((item) => {
-      item.classList.add("animate", "strip-slide-up", "strip-slide-white");
-    });
+    // refsArray.current.forEach((item) => {
+    //   const heading = item.querySelector(".accordian-offering-title-hidden");
+    //   if (heading.classList.contains("animate")) {
+    //     heading.classList.remove("animate");
+    //   }
+    // });
+
+    // const currentOpeningCard = refsArray.current[index];
+    // const activeCardHeading = currentOpeningCard.querySelector(
+    //   ".accordian-offering-title-hidden"
+    // );
+    // activeCardHeading.classList.add("animate");
   }, [index]);
 
   return (
@@ -108,13 +115,16 @@ export default function AccordianOfferings({ data }) {
         />
       )}
       <div className="section">
-        <div className="accordian-offerings-container">
+        <div
+          data-option="up"
+          className="accordian-offerings-container animate animate-hidden">
           {data.list.map((item, i) => {
             return (
               <div
                 key={i}
                 data-link={item.link}
-                className={`accordian-offering  ${
+                ref={(el) => (refsArray.current[i] = el)}
+                className={`accordian-offering ${
                   index == i ? "accordian-offering-active" : ""
                 } `}
                 style={{

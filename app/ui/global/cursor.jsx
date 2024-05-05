@@ -26,20 +26,22 @@ export default function Cursor() {
         if (cursor.current.classList.contains("hovered")) {
           cursor.current.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0) `;
           cursorArrow.current.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0) `;
-        } else {
-          cursor.current.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0) scale(1)`;
-          cursorArrow.current.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0) scale(1)`;
         }
+        // else {
+        //   cursor.current.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0) scale(1)`;
+        //   cursorArrow.current.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0) scale(1)`;
+        // }
       }
 
       timer = setTimeout(setTransform, 100);
       if (cursor.current.classList.contains("hovered")) {
         cursor.current.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
         cursorArrow.current.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
-      } else {
-        cursor.current.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0) scale(0.4)`;
-        cursorArrow.current.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0) scale(0.4)`;
       }
+      // else {
+      //   cursor.current.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0) scale(0.4)`;
+      //   cursorArrow.current.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0) scale(0.4)`;
+      // }
     }
 
     window.addEventListener("mousemove", moveCursor);

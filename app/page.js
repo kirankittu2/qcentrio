@@ -243,7 +243,7 @@ export default function Home() {
       <About />
       {/* <Services  /> */}
       {/* <Offerings data={services} /> */}
-      <AccordianOfferings data={services} />
+      {/* <AccordianOfferings data={services} /> */}
       <Journey />
       <WhyQcentrio />
       <Insignts

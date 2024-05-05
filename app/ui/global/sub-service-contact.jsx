@@ -24,8 +24,6 @@ export default function SubServiceContact({ heading, subheading, upload }) {
     });
   }
 
-  function handleMouseMove() {}
-
   useEffect(() => {
     const modernizeTextElements = document.querySelectorAll(".modernize-text");
 

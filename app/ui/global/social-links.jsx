@@ -38,9 +38,15 @@ export default function SocialLinks() {
 
   return (
     <div data-option="up" className="social-links animate animate-hidden">
-      <Image src={facebook} onClick={shareFacebook} alt="" />
-      <Image src={twitter} onClick={shareTwitter} alt="" />
-      <Image src={linkedin} onClick={shareLinkedIn} alt="" />
+      <div>
+        <Image fill src={facebook} onClick={shareFacebook} alt="" />
+      </div>
+      <div>
+        <Image fill src={twitter} onClick={shareTwitter} alt="" />
+      </div>
+      <div>
+        <Image fill src={linkedin} onClick={shareLinkedIn} alt="" />
+      </div>
     </div>
   );
 }

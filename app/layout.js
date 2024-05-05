@@ -1,5 +1,4 @@
 import "@/app/ui/globals.css";
-import "@/app/ui/services.css";
 import "@/app/ui/case-study.css";
 import "@/app/ui/contact-us.css";
 import "@/app/ui/about-us.css";

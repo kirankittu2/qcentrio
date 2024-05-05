@@ -20,7 +20,9 @@ export default function ServicesContent({ data }) {
         {data.children.map((item, index) => {
           return (
             <ServiceCardClient key={index} link={item.link}>
-              <Image src={item.image} alt="" />
+              <div className="service-icon-container">
+                <Image fill src={item.image} alt="" />
+              </div>
               <h2 className="service-heading-unq">{item.title}</h2>
               <p className="section-content">{item.content1}</p>
             </ServiceCardClient>

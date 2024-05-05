@@ -17,6 +17,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-waypoint": "^10.3.0",
+    "three": "^0.164.1",
+    "three-orbitcontrols": "^2.110.3",
     "use-debounce": "^10.0.0",
     "zod": "^3.22.4"
   },

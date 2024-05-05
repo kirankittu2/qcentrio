@@ -65,12 +65,12 @@ export default function SubAccordianOfferings({ data }) {
       }
     });
 
-    const headings = document.querySelectorAll(
-      ".accordian-offering-title-hidden"
-    );
-    headings.forEach((item) => {
-      item.classList.add("animate", "strip-slide-up", "strip-slide-white");
-    });
+    // const headings = document.querySelectorAll(
+    //   ".accordian-offering-title-hidden"
+    // );
+    // headings.forEach((item) => {
+    //   item.classList.add("animate", "strip-slide-up", "strip-slide-white");
+    // });
   }, [index]);
 
   useEffect(() => {
@@ -97,8 +97,10 @@ export default function SubAccordianOfferings({ data }) {
         />
       )}
       <div className="section">
-        <div className="accordian-offerings-container">
-          {data.list.slice(0, 8).map((item, i) => {
+        <div
+          data-option="up"
+          className="accordian-offerings-container animate animate-hidden">
+          {data.list.map((item, i) => {
             return (
               <div
                 key={i}
@@ -131,7 +133,7 @@ export default function SubAccordianOfferings({ data }) {
                   <h2 className="accordian-offering-title">{item.heading}</h2>
                   <div>
                     <h2
-                      data-option="strip-slide-up"
+                      // data-option="strip-slide-up"
                       className="accordian-offering-title-hidden">
                       {item.heading}
                     </h2>

@@ -30,7 +30,7 @@ export default function EasyNav() {
 
   return (
     <div className="easy-nav-section">
-      <div data-option="up" className="easy-nav-links animate animate-hidden">
+      <div className="easy-nav-links ">
         <h2>TOP SEARCH</h2>
         {links.map((link, index) => {
           const linkLowerCase = link.toLowerCase();

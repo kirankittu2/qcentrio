@@ -44,6 +44,16 @@ import erp3 from "@/public/erp-solutions-support/support.png";
 import erpBanner from "@/public/erp-solutions-support/main-bg.png";
 import iotBanner from "@/public/internet-of-things-solutions/main-bg.png";
 import bigDataBanner from "@/public/big-data-services-and-solutions/main-bg.png";
+import sapBanner from "@/public/sap-services-and-support/main-bg.png";
+import softwareBanner from "@/public/software-and-application-development/main-bg.png";
+import productBanner from "@/public/product-engineering-services/main-bg.png";
+import auditBanner from "@/public/audit-and-assurance-services/main-bg.png";
+import epicBanner from "@/public/epic-advisory-services/main-bg.png";
+import specialtyBanner from "@/public/specialty-services/main-bg.png";
+import oracleBanner from "@/public/oracle-cerner-advisory-services/main-bg.png";
+import riskBanner from "@/public/risk-advisory-services/main-bg.png";
+import blockchainStrategyBanner from "@/public/blockchain-strategy-and-advisory/main-bg.png";
+import blckchainSecurityBanner from "@/public/blockchain-security-and--compliance-solutions/main-bg.png";
 import erpIcon1 from "@/public/erp-solutions-support/01_02.svg";
 import erpIcon2 from "@/public/erp-solutions-support/02_02.svg";
 import erpIcon3 from "@/public/erp-solutions-support/03_02.svg";
@@ -74,6 +84,36 @@ import bigDataIcon8 from "@/public/big-data-services-and-solutions/08_02.svg";
 import bigData1 from "@/public/big-data-services-and-solutions/expert-data-team.png";
 import bigData2 from "@/public/big-data-services-and-solutions/customization.png";
 import bigData3 from "@/public/big-data-services-and-solutions/compliance.png";
+import sap1 from "@/public/sap-services-and-support/third-image-1.png";
+import sap2 from "@/public/sap-services-and-support/third-image-2.png";
+import sap3 from "@/public/sap-services-and-support/third-image-3.png";
+import software1 from "@/public/software-and-application-development/third-image-1.png";
+import software2 from "@/public/software-and-application-development/third-image-2.png";
+import software3 from "@/public/software-and-application-development/third-image-3.png";
+import product1 from "@/public/product-engineering-services/third-image-1.png";
+import product2 from "@/public/product-engineering-services/third-image-2.png";
+import audit1 from "@/public/audit-and-assurance-services/third-image-1.png";
+import audit2 from "@/public/audit-and-assurance-services/third-image-2.png";
+import audit3 from "@/public/audit-and-assurance-services/third-image-3.png";
+import epic1 from "@/public/epic-advisory-services/third-image-1.png";
+import epic2 from "@/public/epic-advisory-services/third-image-2.png";
+import epic3 from "@/public/epic-advisory-services/third-image-3.png";
+import specialty1 from "@/public/specialty-services/third-image-1.png";
+import specialty2 from "@/public/specialty-services/third-image-2.png";
+import specialty3 from "@/public/specialty-services/third-image-3.png";
+import oracle1 from "@/public/oracle-cerner-advisory-services/third-image-1.png";
+import oracle2 from "@/public/oracle-cerner-advisory-services/third-image-2.png";
+import oracle3 from "@/public/oracle-cerner-advisory-services/third-image-3.png";
+import risk1 from "@/public/risk-advisory-services/third-image-1.png";
+import risk2 from "@/public/risk-advisory-services/third-image-2.png";
+import risk3 from "@/public/risk-advisory-services/third-image-3.png";
+import blockchainStrategy1 from "@/public/blockchain-strategy-and-advisory/third-image-1.png";
+import blockchainStrategy2 from "@/public/blockchain-strategy-and-advisory/third-image-2.png";
+import blockchainStrategy3 from "@/public/blockchain-strategy-and-advisory/third-image-3.png";
+import blckchainSecurity1 from "@/public/blockchain-security-and--compliance-solutions/third-image-1.png";
+import blckchainSecurity2 from "@/public/blockchain-security-and--compliance-solutions/third-image-2.png";
+import blckchainSecurity3 from "@/public/blockchain-security-and--compliance-solutions/third-image-3.png";
+// import product3 from "@/public/product-engineering-services/third-image-3.png";
 import currency from "@/public/currency.svg";
 
 const blogs = {
@@ -1788,6 +1828,7 @@ const subServicePagesContent = {
         link: "/offerings/advanced-technology-solutions",
         current: "Comprehensive SAP Services",
       },
+      bannerImage: sapBanner,
       contactHead:
         "Redefine your operational capabilities with specialized SAP Services",
       contentSection: {
@@ -1810,66 +1851,66 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "SAP Implementation and Migration",
-            image: "/business-value-enhancement-services.png",
+            image: "/sap-services-and-support/secondary-image-1.png",
             icon: currency,
             content:
-              "Execute a seamless transition to advanced SAP platforms, with a focus on minimizing disruption and maximizing business value.",
+              "Execute a seamless transition to advanced SAP platforms, with a focus on minimizing disruption and maximizing business value. We offer strategic planning and risk management to ensure a smooth migration.",
           },
           {
             num: "02",
             heading: "SAP S/4HANA Solutions",
-            image: "/business-value-enhancement-services.png",
+            image: "/sap-services-and-support/secondary-image-2.png",
             icon: currency,
             content:
-              "Leverage the next generation of SAP business suite for faster, simpler, and more efficient business processes that propel decision-making.",
+              "Leverage the next generation of the SAP business suite for faster, simpler, and more efficient business processes that propel decision-making. Our approach utilizes best practices to enhance system performance and user adoption.",
           },
           {
             num: "03",
             heading: "SAP CRM & Customer Experience",
-            image: "/business-value-enhancement-services.png",
+            image: "/sap-services-and-support/secondary-image-3.png",
             icon: currency,
             content:
-              "Transform customer interactions and bolster sales growth by harnessing SAP CRM to deepen customer relationships and engagement..",
+              "Harness SAP CRM to deepen customer relationships and engagement, transform customer interactions, and boost sales growth. We provide tools for analytics-driven sales strategies and improved customer service capabilities.",
           },
           {
             num: "04",
             heading: "SAP Analytics Solutions",
-            image: "/business-value-enhancement-services.png",
+            image: "/sap-services-and-support/secondary-image-4.png",
             icon: currency,
             content:
-              "Turn data into a strategic advantage with SAP Analytics, obtaining critical insights that drive better business outcomes.",
+              "Turn data into a strategic advantage with SAP Analytics, obtaining critical insights that drive better business outcomes. Our services include building bespoke dashboards and reports aligning with your business objectives.",
           },
           {
             num: "05",
             heading: "Continuous SAP Support",
-            image: "/business-value-enhancement-services.png",
+            image: "/sap-services-and-support/secondary-image-5.png",
             icon: currency,
             content:
-              "Benefit from uninterrupted SAP service excellence, ensuring your systems stay current, secure, and highly functional.",
+              " Benefit from uninterrupted SAP service excellence, ensuring your systems stay current, secure, and highly functional. We offer 24/7 support and proactive maintenance to help you avoid system downtimes and performance issues.",
           },
           {
             num: "06",
             heading: "SAP Cloud Platform Services",
-            image: "/business-value-enhancement-services.png",
+            image: "/sap-services-and-support/secondary-image-6.png",
             icon: currency,
             content:
-              "Harness the full power of cloud computing with SAP's cloud platform, ensuring flexible scalability and innovation in a secure cloud environment.",
+              "Harness the full power of cloud computing with SAP's cloud platform, ensuring flexible scalability and innovation in a secure cloud environment. We specialize in integrating existing systems with the cloud for a unified operation.",
           },
           {
             num: "07",
             heading: "SAP Custom Development",
-            image: "/business-value-enhancement-services.png",
+            image: "/sap-services-and-support/secondary-image-7.png",
             icon: currency,
             content:
-              "Tailor your SAP environment with custom-developed applications that meet your unique business processes and workflows for a competitive edge.",
+              "Tailor your SAP environment with custom-developed applications that meet your unique business processes and workflows for a competitive edge. Our development includes using advanced technologies like AI and machine learning for smarter, more efficient applications.",
           },
           {
             num: "08",
             heading: "SAP Training and Enablement",
-            image: "/business-value-enhancement-services.png",
+            image: "/sap-services-and-support/secondary-image-8.png",
             icon: currency,
             content:
-              "Equip your workforce with the necessary skills to maximize the use of SAP solutions through comprehensive training modules and user enablement programs.",
+              "Equip your workforce with the necessary skills to maximize the use of SAP solutions through comprehensive training modules and user enablement programs. We focus on interactive and practical learning experiences to ensure high engagement and retention of material.",
           },
         ],
       },
@@ -1895,13 +1936,13 @@ const subServicePagesContent = {
               "Integrate and automate core production and supply chain processes with SAP’s robust suite of manufacturing solutions.",
           },
           {
-            icon: engineering,
+            icon: retail,
             heading: "RETAIL",
             content:
               "Leverage SAP to unify commerce processes, from inventory management to omnichannel sales, providing exceptional customer experiences.",
           },
           {
-            icon: aerospace,
+            icon: automotive,
             heading: "AUTOMOTIVE",
             content:
               "Utilize SAP to streamline supply chain management, production planning, and customer experiences in the automotive industry for greater efficiency and innovation.",
@@ -1913,7 +1954,7 @@ const subServicePagesContent = {
               "Deploy SAP solutions to enhance public services delivery, improve stakeholder engagement, and drive digital transformation in government operations.",
           },
           {
-            icon: eCommerce,
+            icon: utilities,
             heading: "UTILITIES",
             content:
               "Leverage SAP for utilities to manage asset lifecycles, customer service, and regulatory compliance more effectively, optimizing resource distribution and consumption.",
@@ -1924,19 +1965,19 @@ const subServicePagesContent = {
         mainHeading: "Why Choose Qcentrio for Your SAP Service Needs?",
         list: [
           {
-            image: whyChooseImg1,
+            image: sap1,
             heading: "Deep SAP Expertise",
             content:
               "Our team brings extensive knowledge and experience across the full range of SAP services.",
           },
           {
-            image: whyChooseImg2,
+            image: sap2,
             heading: "Deep SAP Expertise",
             content:
               "We deliver personalized SAP strategies tailored to meet your specific business requirements.",
           },
           {
-            image: whyChooseImg3,
+            image: sap3,
             heading: "Efficient Migration and Support",
             content:
               "Our approach ensures a smooth transition to SAP systems, continuous improvement, and dedicated support.",
@@ -1954,6 +1995,7 @@ const subServicePagesContent = {
         description:
           "With Qcentrio’s custom application development services, bring your software vision to life. Our agile and dedicated team ensures your product meets the highest standards.",
       },
+      bannerImage: softwareBanner,
       breadCrump: {
         main: "ADVANCED TECHNOLOGY SOLUTIONS",
         link: "/offerings/advanced-technology-solutions",
@@ -1980,99 +2022,75 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "JAVA",
-            image: "/business-value-enhancement-services.png",
+            heading: "Java and Full Stack Development",
+            image:
+              "/software-and-application-development/secondary-image-1.png",
             icon: currency,
             content:
-              "Using the latest Java technologies and frameworks, develop scalable, secure, high-performance applications tailored to various business needs, from web applications to complex enterprise solutions.",
+              " Develop scalable, secure applications using the latest Java technologies. Cover all application layers from front-end to back-end with modern web development tools and techniques, ensuring robust enterprise solutions and seamless user experiences.",
           },
           {
             num: "02",
-            heading: "MEAN Stack",
-            image: "/business-value-enhancement-services.png",
+            heading: "MEAN Stack and Custom Application Development",
+            image:
+              "/software-and-application-development/secondary-image-2.png",
             icon: currency,
             content:
-              "Leverage the entire stack of MEAN technologies to create efficient and modern web applications, providing dynamic and responsive user experiences with Node.js, Angular, MongoDB, and Express.",
+              "Utilize the entire MEAN stack (MongoDB, Express, Angular, Node.js) for modern, efficient web applications combined with tailored solutions that meet specific business requirements, employing user-centric designs and agile methodologies.",
           },
           {
             num: "03",
-            heading: "Full Stack",
-            image: "/business-value-enhancement-services.png",
+            heading: "Mobile and Cloud Application Development",
+            image:
+              "/software-and-application-development/secondary-image-3.png",
             icon: currency,
             content:
-              "Experience comprehensive development covering front-end and back-end needs, ensuring seamless integration across all application layers using modern web development tools and techniques.",
+              "Create intuitive mobile applications for all devices using both native and cross-platform frameworks and develop scalable, flexible cloud-native applications across platforms like AWS, Azure, or Google Cloud.",
           },
           {
             num: "04",
-            heading: "Custom Application Development",
-            image: "/business-value-enhancement-services.png",
+            heading: "API and Integration Services",
+            image:
+              "/software-and-application-development/secondary-image-4.png",
             icon: currency,
             content:
-              "Build applications that precisely fit your business specifications and enhance your operations with a user-centric approach, agile methodologies, and cutting-edge technologies.",
+              "Design and implement robust APIs using RESTful, SOAP, or GraphQL protocols to facilitate seamless integration and interoperability between various software systems, enhancing overall system efficiency.",
           },
           {
             num: "05",
-            heading: "Mobile Development",
-            image: "/business-value-enhancement-services.png",
+            heading: "Legacy System Modernization and User Experience Design",
+            image:
+              "/software-and-application-development/secondary-image-5.png",
             icon: currency,
             content:
-              "Create intuitive and engaging mobile applications optimized for performance across all devices using native or cross-platform development frameworks.",
+              " Upgrade legacy systems with modern technologies to improve efficiency and UX design, focusing on user interaction and satisfaction with cutting-edge UX principles.",
           },
           {
             num: "06",
-            heading: "API Development and Integration",
-            image: "/business-value-enhancement-services.png",
+            heading: "eCommerce and SaaS Development",
+            image:
+              "/software-and-application-development/secondary-image-6.png",
             icon: currency,
             content:
-              "Design and implement APIs with RESTful, SOAP, or GraphQL protocols for robust integration and seamless operation between different software systems.",
+              "Develop custom eCommerce solutions using platforms like Magento, Shopify, or WooCommerce that drive sales and customer engagement, and build scalable SaaS platforms tailored to meet specific customer and business model needs.",
           },
           {
             num: "07",
-            heading: "Cloud Application Development",
-            image: "/business-value-enhancement-services.png",
+            heading: "Enterprise Resource Planning (ERP) Solutions",
+            image:
+              "/software-and-application-development/secondary-image-7.png",
             icon: currency,
             content:
-              "Utilize cloud platforms for developing scalable, flexible, and secure cloud-native applications using AWS, Azure, or Google Cloud.",
+              "Streamline business processes and enhance productivity with custom ERP software, seamlessly integrating various organizational functions using open-source and commercial systems.",
           },
           {
             num: "08",
-            heading: "Legacy System Modernization",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Upgrade legacy systems to current technologies, improving efficiency and reducing maintenance overhead with minimal business disruption.",
-          },
-          {
-            num: "09",
-            heading: "User Experience (UX) Design",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Develop a user-focused design strategy that enhances interaction and user satisfaction with your custom software application, leveraging the latest UX design principles and tools.",
-          },
-          {
-            num: "10",
-            heading: "eCommerce Development",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Tailor-made eCommerce solutions that drive sales, enhance customer engagement, and integrate seamlessly with your business operations, powered by popular eCommerce platforms such as Magento, Shopify, or WooCommerce.",
-          },
-          {
-            num: "11",
-            heading: "Enterprise Resource Planning (ERP) Solutions",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Custom ERP software that streamlines your business processes, enhances productivity and integrates various organizational functions using open-source or commercial ERP systems.",
-          },
-          {
-            num: "11",
             heading: "Software as a Service (SaaS) Development",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/software-and-application-development/secondary-image-8.png",
             icon: currency,
             content:
-              "Build cloud-based SaaS platforms that are scalable, accessible, and designed to meet the needs of your customers and business model using modern SaaS development frameworks and tools.",
+              " Focus on creating cloud-based SaaS platforms that are scalable, accessible, and designed to serve diverse customer needs, employing modern development frameworks and tools.",
           },
         ],
       },
@@ -2098,31 +2116,31 @@ const subServicePagesContent = {
               "Enhance the learning experience with custom educational software, from e-learning platforms to management systems.",
           },
           {
-            icon: engineering,
+            icon: retail,
             heading: "RETAIL",
             content:
               "Deliver a personalized shopping experience with custom retail software, from point-of-sale systems to inventory management.",
           },
           {
-            icon: aerospace,
+            icon: logistics,
             heading: "LOGISTICS",
             content:
               "Optimize supply chain and logistics operations with custom software solutions for real-time tracking and efficiency.",
           },
           {
-            icon: travel,
+            icon: hospitality,
             heading: "HOSPITALITY",
             content:
               "Create software that elevates the guest experience, from reservation systems to customer relationship management.",
           },
           {
-            icon: eCommerce,
+            icon: realEstate,
             heading: "REAL ESTATE",
             content:
               "Build comprehensive platforms for property listings, client interactions, and operations management.",
           },
           {
-            icon: realEstate,
+            icon: manufacturing,
             heading: "MANUFACTURING",
             content:
               "Implement tailored software solutions to streamline manufacturing processes and increase productivity.",
@@ -2134,19 +2152,19 @@ const subServicePagesContent = {
           "Why Choose Qcentrio for Custom Software / Application Development?",
         list: [
           {
-            image: whyChooseImg1,
+            image: software1,
             heading: "Tailored Solutions",
             content:
               "Our bespoke software is crafted to align perfectly with your business needs and industry nuances.",
           },
           {
-            image: whyChooseImg2,
+            image: software2,
             heading: "Advanced Technology Expertise",
             content:
               "We use cutting-edge technologies to build your ideal solution from JAVA to MEAN and Full Stack.",
           },
           {
-            image: whyChooseImg3,
+            image: software3,
             heading: "Quality and Reliability",
             content:
               "We prioritize high software quality and reliability standards to ensure your applications stand the test of time.",
@@ -2352,6 +2370,7 @@ const subServicePagesContent = {
         link: "/offerings/advanced-technology-solutions",
         current: "Product Engineering Services",
       },
+      bannerImage: productBanner,
       contactHead: "Partner with Qcentrio for Exceptional Product Engineering",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
@@ -2372,98 +2391,66 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "Software Development and Design",
-            image: "/business-value-enhancement-services.png",
+            image: "/product-engineering-services/secondary-image-1.png",
             icon: currency,
             content:
-              "Create software solutions with a strong foundation in robust architecture, user-centric design, and seamless functionality, utilizing languages like Java, Python, C#, and PHP. Further, we develop customized software solutions that cater to your business needs with our support.",
+              "Create robust software solutions with user-centric design and seamless functionality, utilizing languages like Java, Python, C#, and PHP. This includes customized software solutions tailored to your business needs.",
           },
           {
             num: "02",
-            heading: "Agile and DevOps Integration",
-            image: "/business-value-enhancement-services.png",
+            heading: "Agile and DevOps Integration with Quality Assurance",
+            image: "/product-engineering-services/secondary-image-2.png",
             icon: currency,
             content:
-              "Integrate agile methodologies and DevOps practices for efficient and rapid development cycles with tools like Jenkins, Docker, and Kubernetes, ensuring continuous integration and delivery to improve software quality and reduce time to market.",
+              " Integrate agile methodologies and DevOps practices for efficient and rapid development cycles, along with comprehensive QA and testing processes to ensure high-quality standards and continuous delivery.",
           },
           {
             num: "03",
-            heading: "Quality Assurance and Testing",
-            image: "/business-value-enhancement-services.png",
+            heading: "Product Lifecycle Management and Modernization",
+            image: "/product-engineering-services/secondary-image-3.png",
             icon: currency,
             content:
-              "Ensure your products meet high-quality standards with comprehensive QA and testing processes. Automated and manual testing is conducted to detect and resolve issues early in development.",
+              "Manage the entire product journey from ideation through updates, adapting to changes and opportunities while implementing modernization strategies to stay ahead of technology trends and enhance performance.",
           },
           {
             num: "04",
-            heading: "Product Lifecycle Management",
-            image: "/business-value-enhancement-services.png",
+            heading: "UI/UX Design and User Research",
+            image: "/product-engineering-services/secondary-image-4.png",
             icon: currency,
             content:
-              "We oversee the entire product journey, from ideation through launch and updates, adapting to changes and opportunities. Furthermore, get end-to-end product management services support to ensure the successful delivery of your product.",
+              " Deliver intuitive and engaging user experiences, conducting user research and usability testing to design interfaces that enhance customer satisfaction and engagement.",
           },
           {
             num: "05",
-            heading: "Product Modernization and Optimization",
-            image: "/business-value-enhancement-services.png",
+            heading: "Cloud and Data Engineering",
+            image: "/product-engineering-services/secondary-image-5.png",
             icon: currency,
             content:
-              "Update and refine your software to stay ahead of the latest technology trends and performance standards. Implement modernization strategies to improve software performance, scalability, and user experience.",
+              "Utilize cloud technologies to build scalable software architectures and transform data into actionable insights. This includes cloud migration, data pipeline construction, and data analysis to inform strategic decisions.",
           },
           {
             num: "06",
-            heading: "UI/UX Design Services",
-            image: "/business-value-enhancement-services.png",
+            heading: "Embedded Systems and IoT Development",
+            image: "/product-engineering-services/secondary-image-6.png",
             icon: currency,
             content:
-              "We deliver intuitive and engaging user experiences that drive customer satisfaction and engagement. We conduct user research and usability testing to design user-friendly interfaces that enhance the user experience.",
+              "Specialize in developing integrated embedded software for hardware devices and IoT applications, providing end-to-end services such as prototyping, firmware development, and hardware design.",
           },
           {
             num: "07",
-            heading: "Cloud Engineering",
-            image: "/business-value-enhancement-services.png",
+            heading: "Blockchain and Artificial Intelligence Integration",
+            image: "/product-engineering-services/secondary-image-7.png",
             icon: currency,
             content:
-              "Leverage the power of cloud technologies to build scalable and resilient software architectures, get active cloud migration services support, and design cloud-native applications that are secure, scalable, and cost-effective.",
+              "Implement blockchain technology for enhanced security and efficiency and integrate AI algorithms to add intelligence to your products, improving both user experience and operational efficiency.",
           },
           {
             num: "08",
-            heading: "Data Engineering and Analytics",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Transform data into actionable insights to inform strategic decisions throughout product engineering. Build data pipelines, design data warehouses, and get data analysis services to help your businesses make informed decisions.",
-          },
-          {
-            num: "09",
-            heading: "Embedded Systems Development",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "We specialize in developing and integrating embedded software for hardware devices and IoT applications, ensuring high performance and reliability. Our E2E services, including prototyping, hardware design, firmware development, and testing, take your business up a notch.",
-          },
-          {
-            num: "10",
-            heading: "Blockchain Solutions",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Implement blockchain technology to enhance security, transparency, and efficiency across various applications, including smart contracts and decentralized systems. Design and implement blockchain-based solutions that are secure, transparent, and tamper-proof.",
-          },
-          {
-            num: "11",
-            heading: "Artificial Intelligence Integration",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Integrate AI algorithms and machine learning models to add intelligence to your products, improving user experience and operational efficiency. With our AI consulting and development services, you can unlock the power of AI for best-in-class insights.",
-          },
-          {
-            num: "12",
             heading: "Cybersecurity Implementation",
-            image: "/business-value-enhancement-services.png",
+            image: "/product-engineering-services/secondary-image-8.png",
             icon: currency,
             content:
-              "Incorporate advanced cybersecurity features into your software to protect user data and comply with the latest security standards. Conduct security assessments, implement security controls, and provide ongoing security monitoring to ensure the security of your software.",
+              " Incorporate advanced cybersecurity features, conduct security assessments, implement security controls, and provide ongoing monitoring to protect user data and comply with the latest security standards.",
           },
         ],
       },
@@ -2477,13 +2464,13 @@ const subServicePagesContent = {
               "Design intuitive software that powers the latest consumer technology devices, enhancing user experience and enabling seamless connectivity. ",
           },
           {
-            icon: finace,
+            icon: automotive,
             heading: "Automotive",
             content:
               "Develop advanced automotive software solutions for connected cars and automation, improving safety, efficiency, and user convenience. ",
           },
           {
-            icon: manufacturing,
+            icon: aerospace,
             heading: "Aerospace",
             content:
               "Engineer complex software systems that meet the rigorous demands of the aerospace industry, ensuring high reliability, safety, and performance.",
@@ -2524,19 +2511,19 @@ const subServicePagesContent = {
         mainHeading: "Why Choose Qcentrio for Product Engineering Services?",
         list: [
           {
-            image: whyChooseImg1,
+            image: product1,
             heading: "Customized Engineering Excellence",
             content:
               "Our services are personalized to your project's needs, aligning with your strategic vision and market demands.",
           },
           {
-            image: whyChooseImg2,
+            image: product2,
             heading: "Comprehensive Support",
             content:
               "From design to post-launch, Qcentrio offers a full spectrum of product engineering services to ensure your product's success.",
           },
           {
-            image: whyChooseImg3,
+            image: sap3,
             heading: "Innovative Ecosystem",
             content:
               "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
@@ -2557,6 +2544,7 @@ const subServicePagesContent = {
         link: "/offerings/advisory-and-strategic-services",
         current: "Audit and Assurance Services",
       },
+      bannerImage: auditBanner,
       contactHead:
         "Strengthen the integrity of your digital systems with custom audits ",
       heroSectionData: {
@@ -2569,11 +2557,11 @@ const subServicePagesContent = {
           "Maximize Security and Compliance with Qcentrio's Audit and Assurance Services",
         content1:
           "With the increasing reliance on digital systems for every aspect of operations, it is more important than ever to ensure that these systems are secure, compliant, and functioning correctly.",
-        content1:
+        content2:
           "At Qcentrio, our Audit and Assurance Services protect your digital infrastructure from potential threats and vulnerabilities.",
-        content2:
+        content3:
           "With our team of experts conducting thorough audits of your systems, you can identify weaknesses and areas of improvement.",
-        content2:
+        content4:
           "Our services cover internal controls, risk management, cybersecurity, and compliance. We use the latest tools and continuously monitor your systems for suspicious activity.",
       },
       offeringsSetion: {
@@ -2582,75 +2570,67 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Digital Systems Auditing",
-            image: "/business-value-enhancement-services.png",
+            heading: "Digital Systems and Technology Assurance Auditing",
+            image: "/audit-and-assurance-services/secondary-image-1.png",
             icon: currency,
             content:
-              "Utilize advanced tools like ACL and IDEA for in-depth audits of your digital systems and evaluate their effectiveness, security, and compliance with prevailing standards.",
+              "Utilize advanced tools like ACL and IDEA for in-depth audits of your digital systems and evaluate their effectiveness, security, and compliance, ensuring your IT infrastructure's resilience and future readiness against evolving tech trends. This service combines a thorough evaluation of both system performance and future-proofing measures.",
           },
           {
             num: "02",
             heading: "Risk Management and Compliance",
-            image: "/business-value-enhancement-services.png",
+            image: "/audit-and-assurance-services/secondary-image-2.png",
             icon: currency,
             content:
-              "Leverage our expertise in risk assessment frameworks to identify potential risks and safeguard your organization against potential legal and financial liabilities.",
+              "Leverage our expertise in risk assessment frameworks to identify potential risks and safeguard your organization against potential legal and financial liabilities. We ensure that your business adheres to all pertinent regulations, minimizing exposure.",
           },
           {
             num: "03",
-            heading: "Cybersecurity Assessment",
-            image: "/business-value-enhancement-services.png",
+            heading: "Cybersecurity and IT Governance Assessment",
+            image: "/audit-and-assurance-services/secondary-image-3.png",
             icon: currency,
             content:
-              "Leverage our expertise in cybersecurity tools, including Nessus and Nmap, to dive deep into your systems to uncover and reinforce potential vulnerabilities.",
+              "Dive deep into your systems with cybersecurity tools like Nessus and Nmap to uncover vulnerabilities, while structuring your IT governance around best practices like COBIT and ITIL to align IT strategies with business goals. This dual approach strengthens both security and strategic IT management.",
           },
           {
             num: "04",
-            heading: "Process Verification and Validation",
-            image: "/business-value-enhancement-services.png",
+            heading: "Process Verification and Data Integrity Validation",
+            image: "/audit-and-assurance-services/secondary-image-4.png",
             icon: currency,
             content:
-              "Implement process mapping and analysis tools to scrutinize every step of your workflows, verifying system integrity and operational excellence.",
+              " Implement process mapping and analysis tools to scrutinize every step of your workflows, ensuring system integrity and operational excellence and vigilantly managing your data to maintain its accuracy and reliability for decision-making.",
           },
           {
             num: "05",
-            heading: "Data Integrity and Quality Assurance",
-            image: "/business-value-enhancement-services.png",
+            heading: "Compliance Strategy Development and Implementation",
+            image: "/audit-and-assurance-services/secondary-image-5.png",
             icon: currency,
             content:
-              "Vigilantly monitor and manage your data to prevent inaccuracies and inconsistencies, ensuring that decision-makers have access to reliable and precise information.",
+              "Create and implement robust compliance strategies that align with industry standards and regulations, reducing risk and fostering a culture of compliance. We provide comprehensive support to integrate these strategies into your daily operations.",
           },
           {
             num: "06",
-            heading: "IT Governance Evaluation",
-            image: "/business-value-enhancement-services.png",
+            heading: "Performance Auditing",
+            image: "/audit-and-assurance-services/secondary-image-6.png",
             icon: currency,
             content:
-              "Structure your IT governance framework around best practices like COBIT and ITIL to ensure your IT strategies support your business goals.",
+              " Evaluate the efficiency and effectiveness of operations, providing recommendations to improve performance and optimize resource utilization. Our audits identify areas where resources can be better allocated to enhance productivity.",
           },
           {
             num: "07",
-            heading: "Compliance Strategy Development",
-            image: "/business-value-enhancement-services.png",
+            heading: "Performance Auditing and Data Quality Assurance",
+            image: "/audit-and-assurance-services/secondary-image-7.png",
             icon: currency,
             content:
-              "Create & implement robust compliance strategies that align with industry standards and regulations, reducing risk and fostering a culture of compliance.",
+              "Assess operational efficiency and effectiveness while ensuring data integrity and quality. This integrated approach ensures that your organization operates optimally with accurate and reliable data.",
           },
           {
             num: "08",
-            heading: "Performance Auditing",
-            image: "/business-value-enhancement-services.png",
+            heading: "Emerging Technology and Cybersecurity Assessment",
+            image: "/audit-and-assurance-services/secondary-image-8.png",
             icon: currency,
             content:
-              "Evaluate the efficiency and effectiveness of operations, providing recommendations to improve performance and optimize resource utilization.",
-          },
-          {
-            num: "09",
-            heading: "Technology Assurance",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Stay ahead with technology assurance services that evaluate your IT infrastructure's resilience and future readiness against evolving tech trends.",
+              " Stay ahead of technological advancements and safeguard your systems against cybersecurity threats. This service ensures that your organization is protected against current threats and prepared for future technological challenges.",
           },
         ],
       },
@@ -2676,7 +2656,7 @@ const subServicePagesContent = {
               "Audit supply chain and operational systems to prevent disruptions and maintain productivity.",
           },
           {
-            icon: engineering,
+            icon: retail,
             heading: "RETAIL",
             content:
               "Protect consumer data and ensure transactional integrity with comprehensive retail auditing.",
@@ -2693,19 +2673,19 @@ const subServicePagesContent = {
         mainHeading: "Why Trust Qcentrio with Your Audit and Assurance Needs?",
         list: [
           {
-            image: whyChooseImg1,
+            image: audit1,
             heading: "Expertise and Precision",
             content:
               "Our team of auditors brings unparalleled precision to each engagement, ensuring your systems are thoroughly evaluated.",
           },
           {
-            image: whyChooseImg2,
+            image: audit2,
             heading: "Customized Solutions",
             content:
               "We provide auditing solutions tailored to your unique operational needs, delivering actionable insights.",
           },
           {
-            image: whyChooseImg3,
+            image: audit3,
             heading: "Ethical Standards",
             content:
               "Integrity is at the core of our services, and we are committed to upholding the highest ethical standards in all our audits.",
@@ -2715,7 +2695,8 @@ const subServicePagesContent = {
     },
     2: {
       heroSectionData: {
-        heading: "TRANSFORMING HEALTHCARE WITH EXPERT EPIC INTEGRATION",
+        heading1: "TRANSFORMING HEALTHCARE",
+        heading2: "WITH EXPERT EPIC INTEGRATION",
       },
       metaData: {
         title: "Expert EPIC Advisory Services | Qcentrio",
@@ -2727,6 +2708,7 @@ const subServicePagesContent = {
         link: "/offerings/advisory-and-strategic-services",
         current: "EPIC Advisory Services",
       },
+      bannerImage: epicBanner,
       contactHead:
         "Enhance your healthcare services with E2E EPIC Advisory services",
       contentSection: {
@@ -2736,7 +2718,11 @@ const subServicePagesContent = {
         content1:
           "As healthcare continues to advance, the need for cohesive and streamlined Electronic Health Record (EHR) systems becomes crucial.",
         content2:
-          "At Qcentrio, we offer expert EPIC Advisory Services to simplify the integration of EPIC's leading medical software into existing hospital information systems. Our services ensure that healthcare providers can focus on what matters most — patient care, by seamlessly integrating EPIC's top-tier medical software into existing hospital information systems despite the complexity of varying data standards and programming languages.",
+          "As healthcare continues to advance, the need for cohesive and streamlined Electronic Health Record (EHR) systems becomes crucial.",
+        content3:
+          "At Qcentrio, we offer expert EPIC Advisory Services to simplify the integration of EPIC's leading medical software into existing hospital information systems.",
+        content4:
+          "Our services ensure that healthcare providers can focus on what matters most — patient care, by seamlessly integrating EPIC's top-tier medical software into existing hospital information systems despite the complexity of varying data standards and programming languages.",
       },
       offeringsSetion: {
         mainHeading:
@@ -2746,66 +2732,66 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "EHR Integration Expertise",
-            image: "/business-value-enhancement-services.png",
+            image: "/epic-advisory-services/secondary-image-1.png",
             icon: currency,
             content:
-              "Optimize your workflows for patient data management by ensuring HIPAA-compliant storage and efficient data collection through custom API development.",
+              "Optimize your workflows for patient data management by ensuring HIPAA-compliant storage and efficient data collection through custom API development. This includes implementing secure data exchange protocols to safeguard patient information while enhancing accessibility for healthcare providers.",
           },
           {
             num: "02",
             heading: "Data Migration",
-            image: "/business-value-enhancement-services.png",
+            image: "/epic-advisory-services/secondary-image-2.png",
             icon: currency,
             content:
-              "Migrate your enterprise data to EPIC platforms by ensuring data integrity and continuity of your care throughout the entire process.",
+              "Migrate your enterprise data to EPIC platforms by ensuring data integrity and continuity of care throughout the entire process. We employ advanced data validation techniques to prevent data loss and ensure a seamless transition.",
           },
           {
             num: "03",
             heading: "Go-Live Solutions",
-            image: "/business-value-enhancement-services.png",
+            image: "/epic-advisory-services/secondary-image-3.png",
             icon: currency,
             content:
-              "Our seasoned project managers provide comprehensive support for operational readiness, ensuring a smooth transition to EPIC systems.",
+              " Our seasoned project managers provide comprehensive support for operational readiness, ensuring a smooth transition to EPIC systems. This involves conducting thorough pre-go-live checks and simulations to anticipate and mitigate potential issues.",
           },
           {
             num: "04",
             heading: "Healthcare Ecosystem Expansion",
-            image: "/business-value-enhancement-services.png",
+            image: "/epic-advisory-services/secondary-image-4.png",
             icon: currency,
             content:
-              "Enhance the patient experience by integrating telehealth, pharmacy management, and other medical software solutions into the EPIC ecosystem.",
+              "Enhance the patient experience by integrating telehealth, pharmacy management, and other medical software solutions into the EPIC ecosystem. Our approach includes the customization of interfaces to meet the unique needs of various healthcare departments.",
           },
           {
             num: "05",
             heading: "Compliance and Security Consulting",
-            image: "/business-value-enhancement-services.png",
+            image: "/epic-advisory-services/secondary-image-5.png",
             icon: currency,
             content:
-              "Navigate the complex landscape of healthcare regulations with our expert consulting on compliance and security within the EPIC framework.",
+              "Navigate the complex landscape of healthcare regulations with our expert consulting on compliance and security within the EPIC framework. We focus on implementing robust security measures exceeding industry standards to protect patient and institutional data.",
           },
           {
             num: "06",
             heading: "Interoperability Solutions",
-            image: "/business-value-enhancement-services.png",
+            image: "/epic-advisory-services/secondary-image-6.png",
             icon: currency,
             content:
-              "Bridge the gap between various healthcare systems and devices, ensuring seamless data exchange and interoperability within the EPIC ecosystem for comprehensive patient care.",
+              "Bridge the gap between various healthcare systems and devices, ensuring seamless data exchange and interoperability within the EPIC ecosystem for comprehensive patient care. Our solutions include the use of the latest standards in health informatics to facilitate effective communication across platforms.",
           },
           {
             num: "07",
             heading: "Custom Workflow Design",
-            image: "/business-value-enhancement-services.png",
+            image: "/epic-advisory-services/secondary-image-7.png",
             icon: currency,
             content:
-              "Design custom workflows within the EPIC system to enhance clinical productivity, reduce administrative burden, and improve patient outcomes through tailored EHR functionalities.",
+              "Design custom workflows within the EPIC system to enhance clinical productivity, reduce administrative burden, and improve patient outcomes through tailored EHR functionalities. We optimize these workflows by incorporating end-user feedback, ensuring they are both intuitive and effective.",
           },
           {
             num: "08",
             heading: "Training and Education",
-            image: "/business-value-enhancement-services.png",
+            image: "/epic-advisory-services/secondary-image-8.png",
             icon: currency,
             content:
-              "Get extensive training and educational programs to ensure your healthcare professionals are fully equipped to utilize the EPIC system's capabilities, providing a proficient and confident workforce.",
+              "Get extensive training and educational programs to ensure your healthcare professionals are fully equipped to utilize the EPIC system's capabilities, providing a proficient and confident workforce. Our training is designed with adaptability, catering to different learning styles and proficiency levels to maximize learning outcomes.",
           },
         ],
       },
@@ -2826,7 +2812,7 @@ const subServicePagesContent = {
               "Adapt to the growing demands of telehealth with integrated EPIC solutions that support remote care delivery.",
           },
           {
-            icon: engineering,
+            icon: hospitality,
             heading: "PHARMACY MANAGEMENT",
             content:
               "Streamline pharmacy operations with EPIC integration, ensuring precise medication tracking and patient safety.",
@@ -2837,19 +2823,19 @@ const subServicePagesContent = {
         mainHeading: "Why Qcentrio for Your EPIC Advisory Needs?",
         list: [
           {
-            image: whyChooseImg1,
+            image: epic1,
             heading: "UNMATCHED EXPERTISE",
             content:
               "Qcentrio's team deeply understands EPIC systems, enabling us to provide top-quality advisory services.",
           },
           {
-            image: whyChooseImg2,
+            image: epic2,
             heading: "TAILORED INTEGRATION",
             content:
               "We offer customized solutions that fit your unique healthcare setting and meet the specific needs of your patients and staff.",
           },
           {
-            image: whyChooseImg3,
+            image: epic3,
             heading: "PATIENT-CENTRIC APPROACH",
             content:
               "We focus on improving scalability, technology adoption, and patient care, ensuring the best outcomes for your healthcare services.",
@@ -2859,8 +2845,9 @@ const subServicePagesContent = {
     },
     3: {
       heroSectionData: {
-        heading:
-          "SEAMLESS INTEGRATION WITH EHR SYSTEM FOR ENHANCED CLINICAL, OPERATIONAL, AND FINANCIAL EFFICIENCIES",
+        heading1: "SEAMLESS INTEGRATION WITH EHR SYSTEM",
+        heading2:
+          "FOR ENHANCED CLINICAL, OPERATIONAL, AND FINANCIAL EFFICIENCIES",
       },
       metaData: {
         title: "Expert Oracle Cerner Advisory Services | Qcentrio",
@@ -2872,6 +2859,7 @@ const subServicePagesContent = {
         link: "/offerings/advisory-and-strategic-services",
         current: "Oracle Cerner Advisory Services",
       },
+      bannerImage: oracleBanner,
       contactHead:
         "Tap into Qcentrio's Oracle Cerner Advisory Services to transform your healthcare operations",
       contentSection: {
@@ -2881,7 +2869,11 @@ const subServicePagesContent = {
         content1:
           "Healthcare institutions face the challenge of integrating next-gen EHR systems into their complex operational framework.",
         content2:
-          "As a leading name in medical software, Oracle Cerner presents an opportunity for transformative efficiency. Qcentrio is at the forefront of this integration, simplifying the web of EHR system incorporation with expert-led Oracle Cerner Advisory Services, ensuring healthcare providers can achieve the peak of operational excellence and patient care.",
+          "Healthcare institutions face the challenge of integrating next-gen EHR systems into their complex operational framework.",
+        content3:
+          "As a leading name in medical software, Oracle Cerner presents an opportunity for transformative efficiency.",
+        content4:
+          "Qcentrio is at the forefront of this integration, simplifying the web of EHR system incorporation with expert-led Oracle Cerner Advisory Services, ensuring healthcare providers can achieve the peak of operational excellence and patient care.",
       },
       offeringsSetion: {
         mainHeading: "QCENTRIO'S ORACLE CERNER ADVISORY SERVICES",
@@ -2889,83 +2881,69 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Oracle Cerner Implementation",
-            image: "/business-value-enhancement-services.png",
+            heading: "Oracle Cerner Implementation and Customized Solutions",
+            image: "/oracle-cerner-advisory-services/secondary-image-1.png",
             icon: currency,
             content:
-              "Implement Oracle Cerner's suite of solutions, tailoring the EHR system to streamline processes for increased efficiency.",
+              "Implement Oracle Cerner's suite of solutions, tailoring the EHR system to streamline processes for increased efficiency and creating bespoke solutions specifically designed to meet the multifaceted needs of your healthcare environment. ",
           },
           {
             num: "02",
-            heading: "Customized Cerner Solutions",
-            image: "/business-value-enhancement-services.png",
+            heading:
+              "Operational Excellence, Compliance, and Continuous Support",
+            image: "/oracle-cerner-advisory-services/secondary-image-2.png",
             icon: currency,
             content:
-              "Create bespoke Cerner solutions specifically designed to meet the multifaceted needs of your healthcare environment.",
+              "Streamline patient data workflows, ensure security and privacy, navigate regulatory compliance complexities, and receive ongoing optimization and support to elevate your Cerner EHR system performance constantly. ",
           },
           {
             num: "03",
-            heading: "Operational Excellence & Compliance",
-            image: "/business-value-enhancement-services.png",
+            heading: "Healthcare Data Analytics and System Customization",
+            image: "/oracle-cerner-advisory-services/secondary-image-3.png",
             icon: currency,
             content:
-              "Streamline patient data workflows, ensure security and privacy, and navigate regulatory compliance complexities.",
+              "Unlock the full potential of your enterprise data to leverage actionable insights that improve clinical outcomes and operational efficiency while extending the functionality of your Oracle Cerner platform with custom integrations.",
           },
           {
             num: "04",
-            heading: "Continuous Improvement & Support",
-            image: "/business-value-enhancement-services.png",
+            heading: "Training, User Adoption, and System Integration",
+            image: "/oracle-cerner-advisory-services/secondary-image-4.png",
             icon: currency,
             content:
-              "Receive ongoing optimization and support to constantly elevate your Cerner EHR system performance.",
+              "Provide comprehensive training services to ensure high user adoption rates, maximize the value of your EHR investment, and facilitate system customization and integration tailored to your organizational needs. ",
           },
           {
             num: "05",
-            heading: "Healthcare Data Analytics",
-            image: "/business-value-enhancement-services.png",
+            heading:
+              "Migration, Data Conversion, and Interoperability Solutions",
+            image: "/oracle-cerner-advisory-services/secondary-image-5.png",
             icon: currency,
             content:
-              "Unlock your enterprise data's full potential to leverage actionable insights, improving clinical outcomes and operational efficiency.",
+              "Transition from legacy systems to the Oracle Cerner platform, ensuring no data loss and continuity in patient care while enhancing patient care with custom interoperability solutions that enable effective communication with other healthcare systems. ",
           },
           {
             num: "06",
-            heading: "System Customization and Integration",
-            image: "/business-value-enhancement-services.png",
+            heading: "Performance Optimization and Reliability",
+            image: "/oracle-cerner-advisory-services/secondary-image-6.png",
             icon: currency,
             content:
-              "Extend the functionality of your Oracle Cerner platform with custom integrations that cater to your unique organizational needs.",
+              " Our performance optimization services maximize the efficiency and reliability of your Oracle Cerner EHR, ensuring your system operates at peak performance. This focus on optimization helps avoid downtime and improves the overall user experience.",
           },
           {
             num: "07",
-            heading: "Training and User Adoption",
-            image: "/business-value-enhancement-services.png",
+            heading: "Interoperability and Data Integration",
+            image: "/oracle-cerner-advisory-services/secondary-image-7.png",
             icon: currency,
             content:
-              "Get comprehensive training services to ensure high user adoption rates, maximizing the value of your EHR investment.",
+              "Enhance patient care with custom interoperability solutions that enable Oracle Cerner to communicate effectively with other healthcare systems and seamlessly integrate diverse data sources and applications. This ensures a holistic view of patient health and streamlined care delivery.",
           },
           {
             num: "08",
-            heading: "Migration & Data Conversion",
-            image: "/business-value-enhancement-services.png",
+            heading: "Continuous Improvement and Data Security",
+            image: "/oracle-cerner-advisory-services/secondary-image-8.png",
             icon: currency,
             content:
-              "Transition from legacy systems to the Oracle Cerner platform, ensuring no data loss and continuity in patient care.",
-          },
-          {
-            num: "09",
-            heading: "Interoperability Solutions",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Enhance patient care with custom interoperability solutions that enable Oracle Cerner to communicate effectively with other healthcare systems.",
-          },
-          {
-            num: "10",
-            heading: "Performance Optimization",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Maximize the efficiency and reliability of your Oracle Cerner EHR with our performance optimization services, ensuring your system operates at peak performance.",
+              "Receive ongoing optimization and support to elevate your Cerner EHR system performance, focusing on continuous improvement and stringent data security measures. These efforts are critical for maintaining system effectiveness and protecting sensitive patient data.",
           },
         ],
       },
@@ -2997,19 +2975,19 @@ const subServicePagesContent = {
         mainHeading: "Why Partner with Qcentrio for Oracle Cerner Advisory?",
         list: [
           {
-            image: whyChooseImg1,
+            image: oracle1,
             heading: "Unequalled Expertise",
             content:
               "Our team's deep expertise in Oracle Cerner ensures a superior advisory experience from start to finish.",
           },
           {
-            image: whyChooseImg2,
+            image: oracle2,
             heading: "Comprehensive Support",
             content:
               "From the initial implementation to continuous system improvements, our full spectrum services are designed for your success.",
           },
           {
-            image: whyChooseImg3,
+            image: oracle3,
             heading: "Commitment to Excellence",
             content:
               "We are dedicated to helping healthcare organizations achieve the highest standards in patient care through advanced technology solutions.",
@@ -3019,7 +2997,8 @@ const subServicePagesContent = {
     },
     4: {
       heroSectionData: {
-        heading: "NAVIGATE AND MITIGATE DIGITAL RISKS WITH CONFIDENCE",
+        heading1: "NAVIGATE AND MITIGATE DIGITAL RISKS",
+        heading2: "WITH CONFIDENCE",
       },
       metaData: {
         title:
@@ -3032,15 +3011,20 @@ const subServicePagesContent = {
         link: "/offerings/advisory-and-strategic-services",
         current: "Risk Advisory Services",
       },
+      bannerImage: riskBanner,
       contactHead: "Strengthen Your Business Against Digital Threats",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
         heading:
           "Secure Your Digital Horizon with Qcentrio's Risk Advisory Services",
         content1:
-          "As we move towards a more digital world, the possibility of cyber threats looms larger than ever. With the risk of data breaches and compliance lapses, it's crucial for companies to be proactive and vigilant in safeguarding their operations. ",
+          "As we move towards a more digital world, the possibility of cyber threats looms larger than ever.",
         content2:
-          "At Qcentrio, we provide expert Risk Advisory Services, focusing on identifying, analyzing, and mitigating digital risks. Our team of professionals utilizes advanced tools, seasoned expertise, and strategic software like RSA Archer and IBM OpenPages to ensure your enterprise stays secure and compliant.",
+          "With the risk of data breaches and compliance lapses, it's crucial for companies to be proactive and vigilant in safeguarding their operations.",
+        content3:
+          "At Qcentrio, we provide expert Risk Advisory Services, focusing on identifying, analyzing, and mitigating digital risks.",
+        content4:
+          "Our team of professionals utilizes advanced tools, seasoned expertise, and strategic software like RSA Archer and IBM OpenPages to ensure your enterprise stays secure and compliant.",
       },
       offeringsSetion: {
         mainHeading: "OUR COMPREHENSIVE RISK ADVISORY SERVICES",
@@ -3048,75 +3032,67 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Digital Risk Assessment",
-            image: "/business-value-enhancement-services.png",
+            heading: "Digital Risk Assessment and Cybersecurity Strategy",
+            image: "/risk-advisory-services/secondary-image-1.png",
             icon: currency,
             content:
-              "Uncover and evaluate potential digital risks to your operations with our comprehensive assessments using advanced analytics tools.",
+              "Uncover and evaluate potential digital risks with advanced analytics tools, and develop tailored cybersecurity strategies leveraging platforms like Splunk and FireEye. This integrated service ensures a robust defense mechanism for your organization's infrastructure.",
           },
           {
             num: "02",
-            heading: "Cybersecurity Strategy and Planning",
-            image: "/business-value-enhancement-services.png",
+            heading: "Compliance, Regulatory Advisory, and Data Protection",
+            image: "/risk-advisory-services/secondary-image-2.png",
             icon: currency,
             content:
-              "Develop robust cybersecurity strategies tailored to your unique digital infrastructure needs, leveraging platforms like Splunk and FireEye.",
+              "Navigate complex regulations like GDPR, HIPAA, and SOCC with expert advisory services, ensuring your practices are up-to-date while maintaining the integrity and confidentiality of your data using the latest encryption software. ",
           },
           {
             num: "03",
-            heading: "Compliance and Regulatory Advisory",
-            image: "/business-value-enhancement-services.png",
+            heading: "Threat Intelligence and Incident Response",
+            image: "/risk-advisory-services/secondary-image-3.png",
             icon: currency,
             content:
-              "Navigate the complex terrain of GDPR, HIPAA, and SOCC compliance with our expert advisory services, ensuring your practices are up to date.",
+              "Stay ahead of potential threats with cutting-edge monitoring tools and prepare for cybersecurity incidents with expert strategies to minimize damage and recovery time. Our proactive and reactive approaches protect your operations from evolving security threats.",
           },
           {
             num: "04",
-            heading: "Threat Intelligence and Monitoring",
-            image: "/business-value-enhancement-services.png",
+            heading: "Business Continuity and Disaster Recovery Planning",
+            image: "/risk-advisory-services/secondary-image-4.png",
             icon: currency,
             content:
-              "Stay ahead of potential threats with our cutting-edge monitoring tools, gaining the intelligence to take proactive security measures.",
+              "Develop robust business continuity and disaster recovery plans with strategic guidance using tools like Veeam and Zerto. We ensure your organization is prepared to continue operations and recover quickly from any disaster, minimizing downtime and operational impact.",
           },
           {
             num: "05",
-            heading: "Business Continuity and Disaster Recovery Planning",
-            image: "/business-value-enhancement-services.png",
+            heading: "Risk Management Program Development",
+            image: "/risk-advisory-services/secondary-image-5.png",
             icon: currency,
             content:
-              "Create solid business continuity and disaster recovery plans with our strategic guidance using tools like Veeam and Zerto.",
+              "Design and implement a structured risk management program that integrates seamlessly with your business operations, ensuring ongoing vigilance and response readiness. Our approach is to embed risk management deeply into the fabric of your organization to enhance resilience.",
           },
           {
             num: "06",
-            heading: "Data Protection and Privacy",
-            image: "/business-value-enhancement-services.png",
+            heading: "Vendor Risk Management",
+            image: "/risk-advisory-services/secondary-image-6.png",
             icon: currency,
             content:
-              "Ensure the integrity and confidentiality of your data with our data protection advisory, which leverages the latest encryption software.",
+              "Safeguard your supply chain with our vendor risk management services, assessing and mitigating risks associated with third-party providers. This service includes thorough evaluations and monitoring to ensure your vendors meet compliance and security standards.",
           },
           {
             num: "07",
-            heading: "Risk Management Program Development",
-            image: "/business-value-enhancement-services.png",
+            heading: "Data Privacy and Security",
+            image: "/risk-advisory-services/secondary-image-7.png",
             icon: currency,
             content:
-              "Design and implement a structured risk management program that integrates seamlessly with your business operations, ensuring ongoing vigilance and response readiness.",
+              "Enhance data protection with comprehensive privacy services that safeguard user information and ensure compliance with global data protection regulations. We provide strategies to manage data privacy risks effectively.",
           },
           {
             num: "08",
-            heading: "Vendor Risk Management",
-            image: "/business-value-enhancement-services.png",
+            heading: "Cybersecurity Enhancement and Continuous Monitoring",
+            image: "/risk-advisory-services/secondary-image-8.png",
             icon: currency,
             content:
-              "Safeguard your supply chain with our vendor risk management services, assessing and mitigating risks associated with third-party providers.",
-          },
-          {
-            num: "09",
-            heading: "Incident Response and Readiness",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Prepare for and respond to cybersecurity incidents with our expert strategies, minimizing potential damage and recovery time for your business.",
+              "Develop and enhance cybersecurity measures with ongoing strategic planning and continuous monitoring. This ensures that your cybersecurity posture is robust, adaptive, and capable of defending against new and emerging threats.",
           },
         ],
       },
@@ -3137,7 +3113,7 @@ const subServicePagesContent = {
               "Safeguard financial data against cyber threats and ensure compliance with evolving financial regulations.",
           },
           {
-            icon: manufacturing,
+            icon: eCommerce,
             heading: "E-COMMERCE",
             content:
               "Secure online transactions and customer data while navigating the complexities of digital retail risk management.",
@@ -3166,19 +3142,19 @@ const subServicePagesContent = {
         mainHeading: "Why Partner with Qcentrio for Risk Advisory?",
         list: [
           {
-            image: whyChooseImg1,
+            image: risk1,
             heading: "Expertise in Digital Risk Management",
             content:
               "Our team has the latest tools and knowledge to offer bespoke risk advisory services.",
           },
           {
-            image: whyChooseImg2,
+            image: risk2,
             heading: "Custom Solutions for Your Business",
             content:
               "We provide tailored strategies that align with your company's risk profile and business goals.",
           },
           {
-            image: whyChooseImg3,
+            image: risk3,
             heading: "Strategic and Actionable Advice",
             content:
               "Our recommendations are not just insightful but practical and designed for immediate implementation.",
@@ -3188,8 +3164,8 @@ const subServicePagesContent = {
     },
     5: {
       heroSectionData: {
-        heading:
-          "ENSURE SUPERIOR QUALITY AND PERFORMANCE IN YOUR DIGITAL SOLUTIONS",
+        heading1: "ENSURE SUPERIOR QUALITY AND PERFORMANCE",
+        heading2: "IN YOUR DIGITAL SOLUTIONS",
       },
       metaData: {
         title: "Specialty QA and Development Services | Qcentrio",
@@ -3201,6 +3177,7 @@ const subServicePagesContent = {
         link: "/offerings/advisory-and-strategic-services",
         current: "Specialty Services",
       },
+      bannerImage: specialtyBanner,
       contactHead:
         "Enhance the value of your digital products and stay ahead of the competition",
       contentSection: {
@@ -3208,9 +3185,13 @@ const subServicePagesContent = {
         heading:
           "Exemplify Digital Excellence with Qcentrio’s Specialty Services",
         content1:
-          "Customers across the globe demand the best when it comes to digital products. For them quality and functionality are not just aspirations but basic expectations. ",
+          "Customers across the globe demand the best when it comes to digital products.",
         content2:
-          "At Qcentrio, we can amplify the standard of your digital products and ensure they perform at their best. With our Specialty Services, we deliver exceptional quality assurance services that uphold the integrity and performance of your digital offerings. Our commitment to quality and attention to detail make us the ideal partner to help you achieve your digital goals. ",
+          "For them quality and functionality are not just aspirations but basic expectations. ",
+        content3:
+          "At Qcentrio, we can amplify the standard of your digital products and ensure they perform at their best. With our Specialty Services, we deliver exceptional quality assurance services that uphold the integrity and performance of your digital offerings.",
+        content4:
+          "Our commitment to quality and attention to detail make us the ideal partner to help you achieve your digital goals. ",
       },
       offeringsSetion: {
         mainHeading: "EXPERIENCE OUR COMPREHENSIVE SPECIALTY SERVICES",
@@ -3219,50 +3200,66 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "E2E Quality Assurance",
-            image: "/business-value-enhancement-services.png",
+            image: "/specialty-services/secondary-image-1.png",
             icon: currency,
             content:
-              "Employing industry-leading tools like Selenium, TestComplete, and JIRA, our QA team performs extensive testing to identify and rectify software defects at every development stage.",
+              "Employ industry-leading tools like Selenium, TestComplete, and JIRA, where our QA team performs extensive testing to identify and rectify software defects at every development stage. This holistic approach ensures the highest quality output through rigorous validation at all phases.",
           },
           {
             num: "02",
             heading: "Automated Performance, Usability, and Security Testing",
-            image: "/business-value-enhancement-services.png",
+            image: "/specialty-services/secondary-image-2.png",
             icon: currency,
             content:
-              "We use sophisticated suites like Jenkins, Appium, LoadRunner, JMeter, OWASP ZAP, and Burp Suite to ensure your software excels in every metric.",
+              "Utilize sophisticated suites like Jenkins, Appium, LoadRunner, JMeter, OWASP ZAP, and Burp Suite to ensure your software excels in every metric. We optimize performance, enhance usability, and secure software against potential threats.",
           },
           {
             num: "03",
             heading: "Continuous Integration and Deployment",
-            image: "/business-value-enhancement-services.png",
+            image: "/specialty-services/secondary-image-3.png",
             icon: currency,
             content:
-              "With CI/CD tools such as GitLab CI and CircleCI, we streamline development processes to deliver superior digital products rapidly.",
+              "With CI/CD tools such as GitLab CI and CircleCI, we streamline development processes to deliver superior digital products rapidly. This methodology reduces time-to-market and increases deployment frequency without sacrificing quality.",
           },
           {
             num: "04",
             heading: "Accessibility Testing",
-            image: "/business-value-enhancement-services.png",
+            image: "/specialty-services/secondary-image-4.png",
             icon: currency,
             content:
-              "Ensure your digital solutions are accessible to all users, including those with disabilities. Our comprehensive accessibility audits help you meet and exceed ADA compliance.",
+              "Ensure your digital solutions are accessible to all users, including those with disabilities. Our comprehensive accessibility audits help you meet and exceed ADA compliance, making your products universally usable and inclusive.",
           },
           {
             num: "05",
             heading: "Mobile Application Testing",
-            image: "/business-value-enhancement-services.png",
+            image: "/specialty-services/secondary-image-5.png",
             icon: currency,
             content:
-              "Address the unique challenges of mobile platforms with our targeted testing strategies, ensuring your apps perform optimally on a wide range of devices and operating systems.",
+              " Address the unique challenges of mobile platforms with our targeted testing strategies, ensuring your apps perform optimally on a wide range of devices and operating systems. We cover everything from usability to performance and security in different mobile environments.",
           },
           {
             num: "06",
             heading: "API and Web Services Testing",
-            image: "/business-value-enhancement-services.png",
+            image: "/specialty-services/secondary-image-6.png",
             icon: currency,
             content:
-              "Verify your APIs and web services' functionality, reliability, and security to ensure seamless integration and data exchange within your software ecosystems.",
+              "Verify your APIs and web services' functionality, reliability, and security to ensure seamless integration and data exchange within your software ecosystems. This service is crucial for maintaining high interoperability and robustness in multi-platform solutions.",
+          },
+          {
+            num: "07",
+            heading: "Cloud Testing and Optimization",
+            image: "/specialty-services/secondary-image-7.png",
+            icon: currency,
+            content:
+              "Evaluate and optimize your cloud-based applications and infrastructure to ensure they are secure, scalable, and performing at their best. Our cloud testing services include load testing, stress testing, and security audits of cloud deployments.",
+          },
+          {
+            num: "08",
+            heading: "UX/UI Design Validation",
+            image: "/specialty-services/secondary-image-8.png",
+            icon: currency,
+            content:
+              "Test and improve your product's user interface and user experience design to ensure they are intuitive and engaging. Our UX/UI validation process includes user feedback sessions, A/B testing, and usability testing to enhance overall user satisfaction.",
           },
         ],
       },
@@ -3276,19 +3273,19 @@ const subServicePagesContent = {
               "Tailor our services to technology firms looking for rigorous QA testing to support innovative software development.",
           },
           {
-            icon: finace,
+            icon: eCommerce,
             heading: "E-COMMERCE",
             content:
               "For e-commerce platforms requiring robust performance and security testing to handle high traffic and sensitive customer data.",
           },
           {
-            icon: manufacturing,
+            icon: healthcare,
             heading: "HEALTHCARE",
             content:
               "Adapt our services for healthcare applications needing end-to-end quality assurance to ensure compliance and patient data protection.",
           },
           {
-            icon: engineering,
+            icon: finace,
             heading: "FINANCE AND BANKING",
             content:
               "Implement rigorous testing protocols for financial software to ensure secure transactions, regulatory compliance, and a seamless user experience.",
@@ -3300,7 +3297,7 @@ const subServicePagesContent = {
               "Customize testing services for educational platforms, ensuring reliability and user-friendliness to support learning at all levels.",
           },
           {
-            icon: travel,
+            icon: automotive,
             heading: "AUTOMOTIVE",
             content:
               "Apply specialized testing for automotive software, from in-car entertainment systems to diagnostic and navigation tools, ensuring safety & peak performance.",
@@ -3311,19 +3308,19 @@ const subServicePagesContent = {
         mainHeading: "Why Opt for Qcentrio for Specialty Services?",
         list: [
           {
-            image: whyChooseImg1,
+            image: specialty1,
             heading: "Tailored Expertise",
             content:
               "Our QA specialists bring precision and attention to detail, ensuring your software stands out for its quality and reliability.",
           },
           {
-            image: whyChooseImg2,
+            image: specialty2,
             heading: "Advanced Methodologies",
             content:
               "We apply the latest testing methodologies that cover all facets of quality assurance to meet the dynamic needs of your digital products.",
           },
           {
-            image: whyChooseImg3,
+            image: specialty3,
             heading: "Comprehensive Reports",
             content:
               "Benefit from transparent reporting throughout the QA process, fostering continuous improvement and excellence.",
@@ -3496,8 +3493,8 @@ const subServicePagesContent = {
   serviceThree: {
     1: {
       heroSectionData: {
-        heading:
-          "Experience Seamless Blockchain Integration for Business Excellence",
+        heading1: "Experience Seamless Blockchain Integration",
+        heading2: "for Business Excellence",
       },
       metaData: {
         title:
@@ -3517,9 +3514,13 @@ const subServicePagesContent = {
         heading:
           "Discover Qcentrio’s Blockchain Integration and Deployment Services for Transformational Impact",
         content1:
-          "Integrating and deploying blockchain technology presents significant challenges due to its complexity and the need for deep technical expertise. Organizations often struggle to realize their full potential, which can hinder the timely adoption and scalability of blockchain solutions within business operations. ",
+          "Integrating and deploying blockchain technology presents significant challenges due to its complexity and the need for deep technical expertise.",
         content2:
-          "Qcentrio addresses these challenges by providing tailored blockchain integration and deployment services that align with your specific business requirements. Our team of experts ensures that blockchain technology enhances operational efficiency and security without disrupting existing workflows. By partnering with Qcentrio, your organization gains access to comprehensive blockchain solutions, from strategic planning through seamless implementation, enabling you to secure a competitive edge in your industry and stay ahead of the curve.",
+          "Organizations often struggle to realize their full potential, which can hinder the timely adoption and scalability of blockchain solutions within business operations. ",
+        content3:
+          "Qcentrio addresses these challenges by providing tailored blockchain integration and deployment services that align with your specific business requirements. Our team of experts ensures that blockchain technology enhances operational efficiency and security without disrupting existing workflows. ",
+        content4:
+          "By partnering with Qcentrio, your organization gains access to comprehensive blockchain solutions, from strategic planning through seamless implementation, enabling you to secure a competitive edge in your industry and stay ahead of the curve.",
       },
       offeringsSetion: {
         mainHeading:
@@ -3532,7 +3533,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Forge a distinct and impactful blockchain strategy specifically crafted to align with your business goals, positioning you to outpace competitors in the evolving digital landscape.",
+              "Create a distinct and impactful blockchain strategy specifically crafted to align with your business goals, positioning you to outpace competitors in the evolving digital landscape. We provide expert insights into blockchain technology trends and help you identify strategic opportunities for its application.",
           },
           {
             num: "02",
@@ -3540,7 +3541,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Seamlessly integrate blockchain technology into your existing systems, enhancing security and operational efficiency and streamlining business processes for improved agility without disrupting your operations.",
+              "Seamlessly integrate blockchain technology into your existing systems, enhancing security and operational efficiency and streamlining business processes for improved agility without disrupting your operations. Our integration services also include comprehensive risk assessments to ensure the new technology complements your IT landscape.",
           },
           {
             num: "03",
@@ -3548,7 +3549,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Execute and deploy tailored blockchain solutions that are meticulously optimized for your specific business environment to meet your unique operational demands.",
+              "Execute and deploy tailored blockchain solutions that are meticulously optimized for your specific business environment to meet your unique operational demands. We ensure these solutions are robust and flexible enough to adapt to future changes and technological advancements.",
           },
           {
             num: "04",
@@ -3556,7 +3557,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Get continuous support and maintenance for your blockchain solutions, ensuring they operate at peak performance, any issues are promptly resolved, and business continuity is assured.",
+              "Get continuous support and maintenance for your blockchain solutions, ensuring they operate at peak performance, any issues are promptly resolved, and business continuity is assured. Our dedicated team monitors system health around the clock to pre-emptively address potential disruptions.",
           },
           {
             num: "05",
@@ -3564,7 +3565,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Design your blockchain architecture to scale effortlessly with your business growth, managing increased transactions and data volumes without compromising performance.",
+              "Design your blockchain architecture to scale effortlessly with your business growth, managing increased transactions and data volumes without compromising performance. We utilize leading-edge technologies and frameworks to ensure your blockchain solution can handle evolving workload demands.",
           },
           {
             num: "06",
@@ -3572,7 +3573,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Conduct comprehensive audits of smart contracts to verify their security and functionality before deployment, minimizing potential risks and ensuring reliability.",
+              "Conduct comprehensive audits of smart contracts to verify their security and functionality before deployment, minimizing potential risks and ensuring reliability. Our auditing process involves multiple verification stages to catch and correct any flaws or inefficiencies.",
           },
           {
             num: "07",
@@ -3580,7 +3581,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Implement advanced blockchain-based identity verification systems to bolster security and protect user privacy, ensuring the confidentiality of sensitive customer information.",
+              " Implement advanced blockchain-based identity verification systems to bolster security and protect user privacy, ensuring the confidentiality of sensitive customer information. These solutions provide a more secure and efficient method of managing identities than traditional models.",
           },
           {
             num: "08",
@@ -3588,7 +3589,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "These services facilitate interoperability across different blockchain platforms, enhancing functionality and broadening the scope of potential applications while ensuring seamless data flow between systems.",
+              "These services facilitate interoperability across different blockchain platforms, enhancing functionality and broadening the scope of potential applications while ensuring seamless data flow between systems. We employ advanced protocols for secure and efficient communication across various blockchain networks.",
           },
         ],
       },
@@ -3672,8 +3673,8 @@ const subServicePagesContent = {
     },
     2: {
       heroSectionData: {
-        heading:
-          "Confidently Deploy and Maintain Trustworthy Blockchain Systems",
+        heading1: "Confidently Deploy and Maintain",
+        heading2: "Trustworthy Blockchain Systems",
       },
       metaData: {
         title: "Blockchain Security & Compliance Solutions Support | Qcentrio",
@@ -3685,15 +3686,20 @@ const subServicePagesContent = {
         link: "/offerings/blockchain-advisory-and-offerings",
         current: "Blockchain Security & Compliance Solutions",
       },
+      bannerImage: blckchainSecurityBanner,
       contactHead: "Launch your blockchain strategy with confidence",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
         heading:
           "Secure Your Blockchain Infrastructure with Qcentrio's Blockchain Security & Compliance Solutions Support",
         content1:
-          "Securing digital assets and maintaining compliance in the quickly evolving blockchain landscape are critical challenges. These challenges can impact the integrity and trust of your business operations. However, with Qcentrio's expert solutions, you can overcome these challenges. Our services are designed to simplify the complexity of regulatory requirements, which can vary significantly across different jurisdictions, and ensure the security and compliance of your blockchain infrastructure.",
+          "Securing digital assets and maintaining compliance in the quickly evolving blockchain landscape are critical challenges. These challenges can impact the integrity and trust of your business operations.",
         content2:
-          "Qcentrio's Blockchain Security and Compliance services address these challenges head-on. We provide a fortified ecosystem for your blockchain applications, mitigating risks and ensuring adherence to the latest regulatory frameworks. Our unique approach safeguards your digital transactions and aligns seamlessly with global compliance standards, ensuring your blockchain initiatives are secure and compliant. Partner with us to empower your organization with robust security and compliance solutions that support sustainable business growth and innovation.",
+          "However, with Qcentrio's expert solutions, you can overcome these challenges. Our services are designed to simplify the complexity of regulatory requirements, which can vary significantly across different jurisdictions, and ensure the security and compliance of your blockchain infrastructure.",
+        content3:
+          "Qcentrio's Blockchain Security and Compliance services address these challenges head-on. We provide a fortified ecosystem for your blockchain applications, mitigating risks and ensuring adherence to the latest regulatory frameworks. Our unique approach safeguards your digital transactions and aligns seamlessly with global compliance standards, ensuring your blockchain initiatives are secure and compliant.",
+        content4:
+          "Partner with us to empower your organization with robust security and compliance solutions that support sustainable business growth and innovation.",
       },
       offeringsSetion: {
         mainHeading:
@@ -3702,83 +3708,77 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Smart Contract Auditing",
-            image: "/business-value-enhancement-services.png",
+            heading: "Smart Contract Auditing and Compliance Strategy",
+            image:
+              "/blockchain-security-and--compliance-solutions/secondary-image-1.png",
             icon: currency,
             content:
-              "Conduct rigorous testing and security verification of smart contracts to identify vulnerabilities, ensure contractual integrity, safeguard against unauthorized modifications, and ensure the contract performs as intended.",
+              "Conduct rigorous testing and security verification of smart contracts to identify vulnerabilities and ensure compliance with KYC, AML, and other regulatory requirements, safeguarding against unauthorized modifications and illegal activities. This dual focus ensures that contracts are secure and fully compliant with legal standards.",
           },
           {
             num: "02",
-            heading: "Compliance Strategy",
-            image: "/business-value-enhancement-services.png",
+            heading: "Blockchain Data Security and Privacy Solutions",
+            image:
+              "/blockchain-security-and--compliance-solutions/secondary-image-2.png",
             icon: currency,
             content:
-              "Develop and implement robust compliance frameworks tailored to meet KYC, AML, and other regulatory requirements within blockchain solutions, ensuring lawful operations and preventing misuse of illegal activities.",
+              "Employ advanced cryptographic techniques to protect the integrity and confidentiality of blockchain data, integrating privacy-by-design principles to ensure compliance with privacy laws and regulations. This comprehensive approach maintains trust and reliability in data security while addressing privacy concerns.",
           },
           {
             num: "03",
-            heading: "Blockchain Data Security",
-            image: "/business-value-enhancement-services.png",
+            heading: "Risk Management and Regulatory Compliance Audits",
+            image:
+              "/blockchain-security-and--compliance-solutions/secondary-image-3.png",
             icon: currency,
             content:
-              "Employ advanced cryptographic techniques to protect the integrity and confidentiality of blockchain data across transactions, essential for maintaining trust and reliability in the data's security.",
+              "Craft and manage detailed risk profiles specific to blockchain assets and operations and execute thorough compliance audits to ensure operations adhere to current regulations and legal standards. This service ensures that blockchain operations are both secure and legally compliant.",
           },
           {
             num: "04",
-            heading: "Risk Management for Blockchain",
-            image: "/business-value-enhancement-services.png",
+            heading:
+              "Decentralized Application (DApp) Security and Incident Response",
+            image:
+              "/blockchain-security-and--compliance-solutions/secondary-image-4.png",
             icon: currency,
             content:
-              "Craft and manage detailed risk profiles specific to blockchain assets and operations, incorporating threat modeling and mitigation strategies to secure blockchain operations against potential risks.",
+              "Perform comprehensive security assessments for DApps and develop proactive blockchain-specific incident response plans. This ensures secure user interactions and robust transaction processing while preparing for immediate action in case of security breaches.",
           },
           {
             num: "05",
-            heading: "Decentralized Application (DApp) Security",
-            image: "/business-value-enhancement-services.png",
+            heading:
+              "Blockchain Infrastructure Security and Network Management",
+            image:
+              "/blockchain-security-and--compliance-solutions/secondary-image-5.png",
             icon: currency,
             content:
-              "Perform comprehensive security assessments for DApps to ensure secure user interactions and robust transaction processing and protect against vulnerabilities exploitable by malicious actors.",
+              "Establish a secure blockchain network architecture to prevent unauthorized access and resist network attacks, including implementing robust identity verification systems and access controls. This setup is crucial for maintaining the security and integrity of the blockchain network and ensuring operational security.",
           },
           {
             num: "06",
-            heading: "Regulatory Compliance Audits",
-            image: "/business-value-enhancement-services.png",
+            heading: "Blockchain Identity and Access Management",
+            image:
+              "/blockchain-security-and--compliance-solutions/secondary-image-6.png",
             icon: currency,
             content:
-              "Execute thorough audits to ensure that all facets of blockchain operations comply with current regulations and legal standards, maintaining operations within legal boundaries and safeguarding against illegal use.",
+              " Implement secure identity verification systems and robust access controls to prevent unauthorized operations and ensure user authenticity. This critical service maintains authorized access and enhances operational security within blockchain ecosystems.",
           },
           {
             num: "07",
-            heading: "Blockchain Infrastructure Security",
-            image: "/business-value-enhancement-services.png",
+            heading: "Privacy and Data Protection for Blockchain",
+            image:
+              "/blockchain-security-and--compliance-solutions/secondary-image-7.png",
             icon: currency,
             content:
-              "Establish a secure blockchain network architecture to prevent unauthorized access and resist network attacks, crucial for maintaining the security and integrity of the blockchain network.",
+              "Address data privacy concerns by integrating personal data protection strategies within blockchain systems, ensuring operations comply with stringent privacy laws and enhancing user trust.",
           },
           {
             num: "08",
-            heading: "Privacy Solutions for Blockchain",
-            image: "/business-value-enhancement-services.png",
+            heading: "Performance Optimization and Security Enhancement",
+            image:
+              "/blockchain-security-and--compliance-solutions/secondary-image-8.png",
             icon: currency,
             content:
-              "Address data privacy concerns within blockchain systems by integrating personal data protection and privacy-by-design principles, ensuring operations comply with privacy laws and regulations.",
-          },
-          {
-            num: "09",
-            heading: "Incident Response Planning",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Develop proactive, blockchain-specific incident response plans for immediate action in the event of security breaches, crucial for minimizing impact and enabling swift recovery from disruptions.",
-          },
-          {
-            num: "10",
-            heading: "Blockchain Identity and Access Management",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Implement secure identity verification systems and robust access controls to prevent unauthorized operations and ensure user authenticity, critical for maintaining authorized access and operational security within blockchain ecosystems.",
+              "Continuously optimize blockchain performance while enhancing security measures to keep up with evolving threats and technological advancements. This ensures that the blockchain solutions remain efficient, effective, and secure against new vulnerabilities.",
           },
         ],
       },
@@ -3787,31 +3787,31 @@ const subServicePagesContent = {
           "Tailored Blockchain Security & Compliance Solutions Support for Diverse Markets",
         list: [
           {
-            icon: healthcare,
+            icon: finace,
             heading: "Fintech and Banking",
             content:
               "Secure transactions and safeguard sensitive financial data using blockchain to enhance customer trust and streamline compliance.",
           },
           {
-            icon: finace,
+            icon: healthcare,
             heading: "Healthcare",
             content:
               "Integrate blockchain for secure, decentralized records management to protect patient data and ensure regulatory compliance.",
           },
           {
-            icon: manufacturing,
+            icon: supplyChain,
             heading: "Supply Chain",
             content:
               "Track products from origin to consumer with immutable records to reduce fraud and improve efficiency.",
           },
           {
-            icon: engineering,
+            icon: retail,
             heading: "Retail",
             content:
               "Verify product authenticity and origin and safeguard consumer data and transaction security.",
           },
           {
-            icon: aerospace,
+            icon: realEstate,
             heading: "Real Estate",
             content:
               "Get a transparent and immutable record of property transactions, enhancing trust among parties.",
@@ -3841,19 +3841,19 @@ const subServicePagesContent = {
           "Empower Your Blockchain Initiatives with Robust Security and Compliance",
         list: [
           {
-            image: whyChooseImg1,
+            image: blckchainSecurity1,
             heading: "Bespoke Blockchain Frameworks",
             content:
               "Create distinctive strategies that align with your visionary business goals and harness the full potential of blockchain technology.",
           },
           {
-            image: whyChooseImg2,
+            image: blckchainSecurity2,
             heading: "Strategic Expertise and Agile Execution",
             content:
               "From conceptualization to execution, our team delivers end-to-end support, ensuring your blockchain journey is seamless, robust, and effective.",
           },
           {
-            image: whyChooseImg3,
+            image: blckchainSecurity3,
             heading: "Rigorous Security and Regulatory Adherence",
             content:
               "We commit to safeguarding your blockchain ventures and encompass rigorous adherence to evolving regulations.",
@@ -3863,8 +3863,8 @@ const subServicePagesContent = {
     },
     3: {
       heroSectionData: {
-        heading:
-          "Unlock Business Innovation with Blockchain-Driven Security and Transparency",
+        heading1: "Unlock Business Innovation",
+        heading2: "with Blockchain-Driven Security and Transparency",
       },
       metaData: {
         title: "Comprehensive Blockchain Solution Development | Qcentrio",
@@ -3883,9 +3883,13 @@ const subServicePagesContent = {
         heading:
           "Secure Digital Transactions with Qcentrio's Blockchain Expertise",
         content1:
-          "As enterprises gradually function in a digital-first environment, securing transactions and maintaining transparency becomes critical. They need to address this challenge head-on by leveraging a transformative solution like blockchain technology to enhance security, clarity, and transparency across all operations.",
+          "As enterprises gradually function in a digital-first environment, securing transactions and maintaining transparency becomes critical.",
         content2:
-          "At Qcentrio, we recognize the strategic importance of blockchain in strengthening business innovation and security. Our comprehensive suite of blockchain services and our blockchain experts can help with your enterprise's unique challenges. Partnering with us ensures your organization fully capitalizes on blockchain's capabilities, enhancing operational efficiency and trust in every transaction.",
+          "They need to address this challenge head-on by leveraging a transformative solution like blockchain technology to enhance security, clarity, and transparency across all operations.",
+        content3:
+          "At Qcentrio, we recognize the strategic importance of blockchain in strengthening business innovation and security. Our comprehensive suite of blockchain services and our blockchain experts can help with your enterprise's unique challenges.",
+        content4:
+          "Partnering with us ensures your organization fully capitalizes on blockchain's capabilities, enhancing operational efficiency and trust in every transaction.",
       },
       offeringsSetion: {
         mainHeading: "Explore Our Blockchain Solutions Development Services",
@@ -3893,99 +3897,68 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Blockchain Consultancy",
+            heading: "Blockchain Consultancy and Custom Solutions",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Navigate the complexities of blockchain technology with expert consultation that tailors strategic blockchain solutions to enhance business efficiency and security, aligning perfectly with specific enterprise needs.",
+              "Navigate the complexities of blockchain technology with expert consultation that tailors strategic solutions to enhance business efficiency and security, along with receiving personalized services closely aligned with your business goals. This ensures a deep understanding of your specific needs and the creation of perfectly aligned blockchain strategies.",
           },
           {
             num: "02",
-            heading: "Smart Contract Development",
+            heading: "Smart Contract Development and Security Solutions",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Automate and secure business agreements using advanced smart contracts on platforms like Ethereum and Hyperledger. These contracts are designed to be immutable, transparent, and self-executing, thus reducing fraud and errors and streamlining operations.",
+              "Automate and secure business agreements using advanced smart contracts on platforms like Ethereum and Hyperledger while protecting blockchain infrastructures with advanced security protocols that ensure the integrity and trustworthiness of digital transactions. This dual focus enhances both the functionality and security of your blockchain operations.",
           },
           {
             num: "03",
-            heading: "Custom Blockchain Solutions",
+            heading: "Blockchain Architecture Design and Network Management",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Receive personalized blockchain services closely aligned with individual business goals through a collaborative approach that ensures each solution is precisely tailored to meet unique requirements.",
+              " Develop a robust and scalable blockchain infrastructure tailored to meet unique business requirements and efficiently manage various types of blockchain networks—public, private, or consortium. This integrated service provides end-to-end solutions from design to deployment, ensuring high performance and security.",
           },
           {
             num: "04",
-            heading: "Ongoing Blockchain Support",
+            heading:
+              "Decentralized Applications (DApps) Development and Integration",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Benefit from continuous expert support and maintenance, ensuring blockchain systems are consistently updated, secure, and performing optimally.",
+              "Create custom decentralized applications built on blockchain technology to enhance security, user experience, and functionality, and enhance existing systems by integrating blockchain technology to improve transparency and operational efficiency. This service makes each application decentralized, secure, and seamlessly integrated with existing workflows.",
           },
           {
             num: "05",
-            heading: "Blockchain Architecture Design",
+            heading: "Tokenization and Blockchain for Supply Chain Management",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Develop a robust and scalable blockchain infrastructure to meet unique business requirements, ensuring high performance and enhanced security through meticulously planned architecture.",
+              "Comprehensive tokenization strategies unlock new possibilities in asset management and value exchange, transforming supply chain operations with blockchain technology to enhance traceability and efficiency. This service offers innovative solutions for asset management and operational challenges in supply chains.",
           },
           {
             num: "06",
-            heading: "Blockchain Network Management",
+            heading: "Ongoing Blockchain Support and Performance Optimization",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Efficiently manage and deploy various types of blockchain networks—public, private, or consortium—to fit organizational needs, with comprehensive support ensuring smooth and efficient network operation.",
+              "Benefit from continuous expert support and maintenance, ensuring blockchain systems are consistently updated, secure, and performing optimally. Our ongoing support ensures your blockchain solutions adapt to technological advancements and changing business needs.",
           },
           {
             num: "07",
-            heading: "Decentralized Applications (DApps) Development",
+            heading: "Blockchain Network Design and Scalability Solutions",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Create custom decentralized applications built on blockchain technology to enhance security, user experience, and functionality, making each application decentralized, secure, and scalable.",
+              "Custom-design blockchain infrastructure that supports business goals with robust, scalable, and secure networks, tailored to include all aspects of network architecture, consensus mechanisms, and governance models. This ensures your blockchain solutions are scalable and can grow with your business.",
           },
           {
             num: "08",
-            heading: "Blockchain Integration",
+            heading: "Regulatory Compliance and Privacy Solutions",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Enhance existing systems by seamlessly integrating blockchain technology to improve transparency, security, and operational efficiency with custom solutions that integrate smoothly without disrupting existing workflows.",
-          },
-          {
-            num: "09",
-            heading: "Tokenization Services",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Unlock new possibilities in asset management and value exchange with comprehensive tokenization strategies, offering secure, scalable, and compliant solutions that revolutionize asset utilization and accessibility.",
-          },
-          {
-            num: "10",
-            heading: "Blockchain Network Design",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Custom-design blockchain infrastructure that supports business goals with robust, scalable, and secure networks, tailored to include all aspects of network architecture, consensus mechanisms, and governance models.",
-          },
-          {
-            num: "11",
-            heading: "Blockchain for Supply Chain Management",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Transform supply chain operations with blockchain technology, enhancing traceability, reducing fraud, and improving efficiency through customized solutions tailored to specific supply chain challenges.",
-          },
-          {
-            num: "12",
-            heading: "Blockchain Security Solutions",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Protect blockchain infrastructures with advanced security protocols that ensure the integrity and trustworthiness of digital transactions. These protocols cover all security aspects, from crucial management to smart contract security.",
+              "Ensure your blockchain solutions comply with legal standards such as GDPR and HIPAA, incorporating privacy-by-design principles to manage data securely and legally. This service is crucial for maintaining compliance and safeguarding user privacy across all blockchain operations.",
           },
         ],
       },
@@ -4056,8 +4029,8 @@ const subServicePagesContent = {
     },
     4: {
       heroSectionData: {
-        heading:
-          "Capitalize on Blockchain for Enhanced Security, Transparency, and Efficiency",
+        heading1: "Capitalize on Blockchain",
+        heading2: "for Enhanced Security, Transparency, and Efficiency",
       },
       metaData: {
         title: "Blockchain Strategy and Advisory | Innovate with Qcentrio",
@@ -4069,6 +4042,7 @@ const subServicePagesContent = {
         link: "/offerings/blockchain-advisory-and-offerings",
         current: "Blockchain Strategy and Advisory",
       },
+      bannerImage: blockchainStrategyBanner,
       contactHead:
         "Begin your Blockchain transformation today with expert advisory",
       contentSection: {
@@ -4076,9 +4050,13 @@ const subServicePagesContent = {
         heading:
           "Command the Future of Tech with Qcentrio’s Blockchain Strategy and Advisory",
         content1:
-          "Blockchain technology fundamentally transforms industries by enhancing security, transparency, and efficiency. To stay competitive, businesses must capitalize on blockchain's benefits, driving more incredible innovation while maintaining the integrity and efficiency of their operations.",
+          "Blockchain technology fundamentally transforms industries by enhancing security, transparency, and efficiency.",
         content2:
-          "At Qcentrio, we offer specialized blockchain strategy and advisory services to empower your business to leverage this transformative technology. Our experts provide comprehensive guidance through the complexities of blockchain integration, ensuring your initiatives are strategic, practically implementable, and highly innovative. Embrace our expertise to lead your industry in the blockchain revolution.",
+          "To stay competitive, businesses must capitalize on blockchain's benefits, driving more incredible innovation while maintaining the integrity and efficiency of their operations.",
+        content3:
+          "At Qcentrio, we offer specialized blockchain strategy and advisory services to empower your business to leverage this transformative technology. Our experts provide comprehensive guidance through the complexities of blockchain integration, ensuring your initiatives are strategic, practically implementable, and highly innovative.",
+        content4:
+          "Embrace our expertise to lead your industry in the blockchain revolution.",
       },
       offeringsSetion: {
         mainHeading:
@@ -4087,131 +4065,71 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Blockchain Advisory",
-            image: "/business-value-enhancement-services.png",
+            heading: "Blockchain Advisory and DLT Solutions",
+            image: "/blockchain-strategy-and-advisory/secondary-image-1.png",
             icon: currency,
             content:
-              "Navigate your blockchain journey with seasoned consultants providing strategic insights and development roadmaps tailored to align blockchain initiatives with your corporate objectives.",
+              "Navigate your blockchain journey with seasoned consultants who provide strategic insights and development roadmaps. Deploy distributed Ledger Technology (DLT) to enhance process efficiency and secure data integrity. This helps you align blockchain initiatives with corporate objectives while ensuring data remains tamper-proof and transactions transparent.",
           },
           {
             num: "02",
-            heading: "DLT Solutions",
-            image: "/business-value-enhancement-services.png",
+            heading:
+              "Innovative Contracts Development and Tokenization Strategies",
+            image: "/blockchain-strategy-and-advisory/secondary-image-2.png",
             icon: currency,
             content:
-              "Deploy Distributed Ledger Technology (DLT) to enhance process efficiency and secure data integrity. These custom services offer a tamper-proof platform essential for transparent and reliable transactions.",
+              "Revolutionize your operations with smart contracts that automate and secure transactions, alongside unlocking innovative asset monetization through tokenization. These strategies increase operational efficiency, reduce overhead, and enhance asset liquidity and security.",
           },
           {
             num: "03",
-            heading: "Innovative Contracts Development",
-            image: "/business-value-enhancement-services.png",
+            heading:
+              "Blockchain Security Services and Private Blockchain Networks",
+            image: "/blockchain-strategy-and-advisory/secondary-image-3.png",
             icon: currency,
             content:
-              "Revolutionize your operations with smart contracts that automate and secure transactions. These self-executing contracts minimize the need for intermediaries, enhancing operational efficiency and reducing overhead.",
+              "Fortify your cybersecurity with robust blockchain-based solutions that safeguard digital assets and operational continuity, and construct bespoke, permissioned blockchain environments for enhanced data privacy and control. This approach ensures comprehensive protection and privacy across your blockchain operations.",
           },
           {
             num: "04",
-            heading: "Blockchain Security Services",
-            image: "/business-value-enhancement-services.png",
+            heading:
+              "Decentralized Application (dApp) Development and Integration Services",
+            image: "/blockchain-strategy-and-advisory/secondary-image-4.png",
             icon: currency,
             content:
-              "Fortify your cybersecurity with robust blockchain-based solutions that safeguard digital assets and operational continuity against emerging cyber threats.",
+              "Dive into the decentralized economy with scalable, user-friendly dApps that align with your business model and seamlessly integrate blockchain technology with existing infrastructures. These services ensure adaptability to market changes and enhance current systems without disruption.",
           },
           {
             num: "05",
-            heading: "Tokenization Strategies",
-            image: "/business-value-enhancement-services.png",
+            heading: "Blockchain for IoT and Cross-Chain Integration Services",
+            image: "/blockchain-strategy-and-advisory/secondary-image-5.png",
             icon: currency,
             content:
-              "Unlock innovative asset monetization and security avenues through tokenization. This strategy increases asset liquidity and market accessibility while ensuring transaction security.",
+              "Enhance the integrity and reliability of IoT device networks through blockchain technology, and facilitate interoperability across diverse blockchain platforms with expert cross-chain integration. This ensures secure data exchanges and improved system management, enabling seamless ecosystem communication.",
           },
           {
             num: "06",
-            heading: "Private Blockchain Networks",
-            image: "/business-value-enhancement-services.png",
+            heading: "Blockchain Governance and Training",
+            image: "/blockchain-strategy-and-advisory/secondary-image-6.png",
             icon: currency,
             content:
-              "Construct bespoke, permissioned blockchain environments tailored for enhanced data privacy and control, enabling streamlined data and operations management.",
+              "Develop comprehensive governance models for your blockchain networks to ensure clarity in operations and compliance with regulatory standards, and equip your team with cutting-edge knowledge through targeted training and workshops. This helps promote effective management and keeps your team ahead in a rapidly evolving digital landscape.",
           },
           {
             num: "07",
-            heading: "Decentralized Application (dApp) Development",
-            image: "/business-value-enhancement-services.png",
+            heading: "Digital Identity Solutions and Blockchain Analytics",
+            image: "/blockchain-strategy-and-advisory/secondary-image-7.png",
             icon: currency,
             content:
-              "Dive into the decentralized economy with scalable, user-friendly dApps that are congruent with your business model, offering adaptability to market changes.",
+              "Implement blockchain technology to create immutable digital identities, enhance user authentication processes, and extract valuable insights from blockchain transaction data with sophisticated analytics tools. These solutions enhance privacy and drive strategic decision-making, respectively.",
           },
           {
             num: "08",
-            heading: "Blockchain Integration Services",
-            image: "/business-value-enhancement-services.png",
+            heading:
+              "Enterprise Blockchain Transformation and Cryptocurrency Exchange Solutions",
+            image: "/blockchain-strategy-and-advisory/secondary-image-8.png",
             icon: currency,
             content:
-              "Seamlessly integrate blockchain technology with existing infrastructures, leveraging its inherent benefits to enhance current systems without disruption.",
-          },
-          {
-            num: "09",
-            heading: "Blockchain for Internet of Things (IoT)",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Enhance the integrity and reliability of IoT device networks through blockchain technology, ensuring secure data exchanges and improved system management.",
-          },
-          {
-            num: "10",
-            heading: "Cross-Chain Integration Services",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Expert cross-chain integration facilitates interoperability across diverse blockchain platforms, enabling seamless communication and functionality between blockchain ecosystems.",
-          },
-          {
-            num: "11",
-            heading: "Blockchain Governance Framework",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Develop comprehensive governance models for your blockchain networks to ensure clarity in operations and compliance with regulatory standards.",
-          },
-          {
-            num: "12",
-            heading: "Blockchain Training and Workshops",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Equip your team with cutting-edge knowledge on blockchain technology through targeted training and workshops, ensuring they remain ahead in a rapidly evolving digital landscape.",
-          },
-          {
-            num: "13",
-            heading: "Digital Identity Solutions",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Implement blockchain technology to create immutable digital identities, enhancing user authentication processes and privacy across digital interactions.",
-          },
-          {
-            num: "14",
-            heading: "Blockchain Analytics",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Extract valuable insights from blockchain transaction data with sophisticated analytics tools, driving strategic decision-making and enhancing operational efficiencies.",
-          },
-          {
-            num: "15",
-            heading: "Cryptocurrency Exchange Solutions",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Establish secure and efficient cryptocurrency exchange platforms with advanced development services, facilitating reliable and user-friendly trading experiences.",
-          },
-          {
-            num: "16",
-            heading: "Enterprise Blockchain Transformation",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Integrate blockchain technology across enterprise-level systems for a holistic digital transformation, boosting security and streamlining operations, unlocking the full potential of blockchain capabilities.",
+              "Integrate blockchain technology across enterprise-level systems for holistic digital transformation, boosting security and streamlining operations and establishing secure and efficient cryptocurrency exchange platforms. This helps unlock the full potential of blockchain capabilities and facilitate reliable trading experiences.",
           },
         ],
       },
@@ -4220,25 +4138,19 @@ const subServicePagesContent = {
           "Unlock the Power of Blockchain Across Various Sectors with Qcentrio",
         list: [
           {
-            icon: healthcare,
-            heading: "Finance",
-            content:
-              "Transform financial operations by embedding blockchain to ensure secure and transparent transactions, speed up settlements, and strengthen trust.",
-          },
-          {
             icon: finace,
             heading: "FINANCE",
             content:
               "Our GenAI services offer fresh insights for financial decisions, from portfolio optimization to fraud detection, revolutionizing traditional economic analysis and risk management.",
           },
           {
-            icon: manufacturing,
+            icon: healthcare,
             heading: "Healthcare",
             content:
               "Transform patient care by deploying blockchain to bolster data integrity and traceability and ensure unparalleled security for medical records.",
           },
           {
-            icon: engineering,
+            icon: supplyChain,
             heading: "Supply Chain Management",
             content:
               "Enhance supply chain transparency and control by utilizing decentralized ledger technology for real-time tracking and authentication of goods.",
@@ -4256,7 +4168,7 @@ const subServicePagesContent = {
               "Build consumer confidence by adopting blockchain to confirm product authenticity and streamline supply chain processes.",
           },
           {
-            icon: eCommerce,
+            icon: energy,
             heading: "Energy",
             content:
               "Innovate in renewable energy trading and grid management by integrating blockchain for more efficient, transparent transactions.",
@@ -4268,13 +4180,13 @@ const subServicePagesContent = {
               "Advance communication systems and billing transparency by applying blockchain, setting the stage for future innovations.",
           },
           {
-            icon: softwareTechnology,
+            icon: media,
             heading: "Media and Entertainment",
             content:
               "Protect intellectual property and manage royalties more effectively by harnessing blockchain for greater transparency.",
           },
           {
-            icon: softwareTechnology,
+            icon: automotive,
             heading: "Automotive",
             content:
               "Improve the traceability and security of automotive supply chains and features by leveraging blockchain, enhancing operational efficiency and safety.",
@@ -4285,19 +4197,19 @@ const subServicePagesContent = {
         mainHeading: "Why Qcentrio Stands Out in Blockchain Advisory?",
         list: [
           {
-            image: whyChooseImg1,
+            image: blockchainStrategy1,
             heading: "Tailored Blockchain Strategies",
             content:
               "Design unique solutions that align with your business vision and blockchain’s capabilities.",
           },
           {
-            image: whyChooseImg2,
+            image: blockchainStrategy2,
             heading: "Expertise and Execution",
             content:
               "A team of experts who provide comprehensive support from strategy development to solution deployment.",
           },
           {
-            image: whyChooseImg3,
+            image: blockchainStrategy3,
             heading: "Security and Compliance",
             content:
               "High standards of security and adherence to regulations to protect your blockchain investments.",
@@ -4309,8 +4221,8 @@ const subServicePagesContent = {
   serviceFour: {
     1: {
       heroSectionData: {
-        heading:
-          "BREAK DOWN SILOS AND ENABLE SEAMLESS COMMUNICATION WITH COLLABORATION AND PRODUCTIVITY SOLUTIONS",
+        heading1: "BREAK DOWN SILOS AND ENABLE SEAMLESS COMMUNICATION",
+        heading2: "WITH COLLABORATION AND PRODUCTIVITY SOLUTIONS",
       },
       metaData: {
         title: "Collaboration and Productivity Solutions Support | Qcentrio",
@@ -4329,9 +4241,12 @@ const subServicePagesContent = {
         heading:
           "Craft Your Path to Enhanced Collaboration and Productivity with Qcentrio",
         content1:
-          "Today, staying ahead means keeping pace with technological advancements and leveraging them to redefine how we work. At the core of this transformation is the need for robust Collaboration and Productivity Solutions that enhance efficiency and foster a culture of innovation and teamwork.",
+          "Today, staying ahead means keeping pace with technological advancements and leveraging them to redefine how we work.",
         content2:
-          "At Qcentrio, we seamlessly integrate productivity tools such as Microsoft Teams, Asana, and Slack, ensuring a highly efficient digital workspace that enhances project management, productivity, and communication.",
+          "At the core of this transformation is the need for robust Collaboration and Productivity Solutions that enhance efficiency and foster a culture of innovation and teamwork.",
+        content3: "At Qcentrio,",
+        content4:
+          "we seamlessly integrate productivity tools such as Microsoft Teams, Asana, and Slack, ensuring a highly efficient digital workspace that enhances project management, productivity, and communication.",
       },
       offeringsSetion: {
         mainHeading:
@@ -4352,7 +4267,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Streamline your internal and external communications with platforms that combine messaging, video conferencing, and project management capabilities.",
+              "Streamline your internal and external communications with platforms that combine messaging, video conferencing, and project management capabilities. This integration facilitates a more connected and efficient environment by reducing the need for multiple disjointed tools.",
           },
           {
             num: "02",
@@ -4360,7 +4275,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Foster a collaborative culture with digital workspaces that allow teams to share ideas, files, and feedback in real time.",
+              "Develop a collaborative culture with digital workspaces that allow teams to share ideas, files, and feedback in real-time. These workspaces are designed to replicate the dynamics of physical office environments, enhancing teamwork and creativity regardless of geographical location.",
           },
           {
             num: "03",
@@ -4368,7 +4283,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Gain insights into team productivity and collaboration patterns with advanced analytics, enabling you to make data-driven decisions that boost efficiency.",
+              "Gain insights into team productivity and collaboration patterns with advanced analytics, enabling you to make data-driven decisions that boost efficiency. This allows for optimizing workflows and identifying areas where improvements can be made.",
           },
           {
             num: "04",
@@ -4376,7 +4291,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Improve team communication with instant messaging, shared calendars, and real-time notifications to keep everyone on the same page.",
+              "Improve team communication with instant messaging, shared calendars, and real-time notifications to keep everyone on the same page. These tools are essential for maintaining synchronization across various team activities and schedules.",
           },
           {
             num: "05",
@@ -4384,7 +4299,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Enhance project management with our comprehensive project management solutions support. Assign tasks, track progress, manage resources, meet deadlines, and encourage collaboration for success.",
+              "Enhance project management with our comprehensive solutions support. Assign tasks, track progress, manage resources, meet deadlines, and encourage collaboration for success. This holistic approach ensures that all project aspects are covered, from initiation to completion.",
           },
           {
             num: "06",
@@ -4392,7 +4307,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Improve your team's collaboration, communication, and task management by integrating tools and applications of your choice into a unified platform.",
+              "Improve your team's collaboration, communication, and task management by integrating tools and applications of your choice into a unified platform. This seamless integration enhances user experience and streamlines workflows, promoting productivity.",
           },
           {
             num: "07",
@@ -4400,7 +4315,15 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Use dynamic scheduling and resource allocation tools to optimize team productivity by allocating tasks based on skills and workload, reducing burnout risk.",
+              "Use dynamic scheduling and resource allocation tools to optimize team productivity by allocating tasks based on skills and workload, reducing burnout risk. This strategic management aids in maximizing the efficiency of resource utilization and ensuring optimal team performance.",
+          },
+          {
+            num: "08",
+            heading: "Remote Work Solutions",
+            image: "/business-value-enhancement-services.png",
+            icon: currency,
+            content:
+              "Provide tools and technologies specifically designed to support remote work, including secure virtual private network (VPN) access, advanced cybersecurity measures, and cloud-based collaboration tools. This service ensures remote teams can work effectively and securely, mirroring the in-office experience as closely as possible.",
           },
         ],
       },
@@ -4473,8 +4396,8 @@ const subServicePagesContent = {
     },
     2: {
       heroSectionData: {
-        heading:
-          "OPTIMIZE YOUR DIGITAL TOUCHPOINTS FOR SEAMLESS CUSTOMER JOURNEY WITH ROBUST CRM SYSTEMS",
+        heading1: "OPTIMIZE YOUR DIGITAL TOUCHPOINTS",
+        heading2: "FOR SEAMLESS CUSTOMER JOURNEY WITH ROBUST CRM SYSTEMS",
       },
       metaData: {
         title: "CRM System Solutions for Business Growth | Qcentrio",
@@ -4492,8 +4415,11 @@ const subServicePagesContent = {
         heading:
           "Revolutionize Customer Management with Qcentrio’s CRM System Solutions",
         content1:
-          "In a world where customer relationships dictate business success, Qcentrio reimagines CRM system solutions to empower companies to manage and nurture these connections effectively. By integrating industry-leading tools like Salesforce, Microsoft Dynamics, and SAP CRM, we elevate your customer interactions to new heights, ensuring that every touchpoint is an opportunity for growth and engagement.",
-        content2: "",
+          "In a world where customer relationships dictate business success, Qcentrio reimagines CRM system solutions to empower companies to manage and nurture these connections effectively.",
+        content2:
+          "By integrating industry-leading tools like Salesforce, Microsoft Dynamics, and SAP CRM, we elevate your customer interactions to new heights, ensuring that every touchpoint is an opportunity for growth and engagement.",
+        content3: "",
+        content4: "",
       },
       offeringsSetion: {
         mainHeading:
@@ -4506,7 +4432,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "With our end-to-end implementation services, you can tap into Salesforce's full potential for comprehensive customer relationship management and marketing automation.",
+              "With our end-to-end implementation services, you can tap into Salesforce's full potential for complete customer relationship management and marketing automation. Our expert team guides you through the customization and deployment process, ensuring your system is optimized for your business needs.",
           },
           {
             num: "02",
@@ -4514,7 +4440,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Experience versatility with Microsoft Dynamics CRM, tailored to enhance customer engagement and business processes through customization and seamless integration.",
+              "Experience flexibility with Microsoft Dynamics CRM, custom-made to enhance customer engagement and business processes through customization and seamless integration. We provide training and support to help your team maximize the platform's capabilities.",
           },
           {
             num: "03",
@@ -4522,7 +4448,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Utilize the robust functionality of SAP CRM to gain deep customer insights and streamline operations, personalized to fit your business model.",
+              "Utilize SAP CRM's robust functionality to gain deep customer insights and streamline operations, personalized to fit your business model. Our services include system adjustments and enhancements that ensure SAP CRM aligns perfectly with your business processes.",
           },
           {
             num: "04",
@@ -4530,7 +4456,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Maximize your CRM's performance with our optimization strategies and analytics insights, ensuring you capture and utilize every piece of customer data effectively.",
+              "Maximize your CRM's performance with our optimization strategies and analytics insights, ensuring you capture and utilize every piece of customer data effectively. We improve user interfaces and workflows to enhance user adoption and data quality.",
           },
           {
             num: "05",
@@ -4538,7 +4464,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Get a CRM solution built from the ground up to address your specific business needs, with custom features that fit your company's workflow.",
+              "Get a CRM solution built from the ground up to address your business needs with custom features that fit your company's workflow. This bespoke solution is designed to integrate smoothly with your existing technology stack.",
           },
           {
             num: "06",
@@ -4546,7 +4472,23 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Transition to a more efficient system with our seamless CRM migration services, ensuring no data is lost and every team member is up to speed with new tools.",
+              "Transition to a more efficient system with our seamless CRM migration services, ensuring no data is lost and every team member is up to speed with new tools. We provide comprehensive change management to minimize disruption during the migration process.",
+          },
+          {
+            num: "07",
+            heading: "CRM Training and User Adoption",
+            image: "/business-value-enhancement-services.png",
+            icon: currency,
+            content:
+              "Enhance your team's proficiency with customized training programs designed to accelerate user adoption and maximize the utility of your CRM system. We ensure all users are confident in utilizing the system, which is crucial for achieving the desired ROI.",
+          },
+          {
+            num: "08",
+            heading: "CRM Integration Services",
+            image: "/business-value-enhancement-services.png",
+            icon: currency,
+            content:
+              "Seamlessly integrate your CRM with other essential business systems, such as ERP, marketing automation tools, and customer service platforms. This integration facilitates a unified view of customer interactions across all touchpoints, enhancing service delivery and customer satisfaction.",
           },
         ],
       },
@@ -4605,8 +4547,8 @@ const subServicePagesContent = {
     },
     3: {
       heroSectionData: {
-        heading:
-          "MAXIMIZE YOUR DATA'S POTENTIAL AND DRIVE INFORMED BUSINESS DECISIONS",
+        heading1: "MAXIMIZE YOUR DATA'S POTENTIAL",
+        heading2: "AND DRIVE INFORMED BUSINESS DECISIONS",
       },
       metaData: {
         title: "Data Analytics and Business Intelligence Services | Qcentrio",
@@ -4625,9 +4567,13 @@ const subServicePagesContent = {
         heading:
           "Harness the Power of Data Analytics and Business Intelligence with Qcentrio",
         content1:
-          "Data is a pivotal asset for businesses seeking a competitive edge in the digital age. To make it happen, enterprises need comprehensive data analytics and business intelligence capabilities to translate vast amounts of data into actionable insights.",
+          "Data is a pivotal asset for businesses seeking a competitive edge in the digital age.",
         content2:
-          "At Qcentrio, we stand at the forefront of this domain, offering unparalleled expertise in data analytics and business intelligence services. With our advanced skills in Microsoft Power BI, Google Analytics, Tableau, and integration with platforms like SQL Server and Hadoop, we empower businesses to make strategic decisions informed by data.",
+          "To make it happen, enterprises need comprehensive data analytics and business intelligence capabilities to translate vast amounts of data into actionable insights.",
+        content3:
+          "At Qcentrio, we stand at the forefront of this domain, offering unparalleled expertise in data analytics and business intelligence services.",
+        content4:
+          "With our advanced skills in Microsoft Power BI, Google Analytics, Tableau, and integration with platforms like SQL Server and Hadoop, we empower businesses to make strategic decisions informed by data.",
       },
       offeringsSetion: {
         mainHeading: "OUR DATA ANALYTICS AND BUSINESS INTELLIGENCE OFFERINGS",
@@ -4639,7 +4585,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Leverage our expertise in data warehousing with technologies like Amazon Redshift and Microsoft Azure SQL database, paired with in-depth analysis using Tableau and Power BI.",
+              "Leverage our expertise in data warehousing with technologies like Amazon Redshift and Microsoft Azure SQL database, paired with in-depth analysis using Tableau and Power BI. This service provides a strong foundation for handling large datasets efficiently while delivering actionable insights.",
           },
           {
             num: "02",
@@ -4647,7 +4593,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Utilize specialized tools, such as Tableau for interactive data visualizations, Microsoft Power BI for dynamic reports, and Google Analytics for web traffic insights.",
+              "Utilize specialized tools, such as Tableau for interactive data visualizations, Microsoft Power BI for dynamic reports, and Google Analytics for web traffic insights. These tools enable your organization to visualize data effectively, ensuring insights are comprehensible and actionable.",
           },
           {
             num: "03",
@@ -4655,7 +4601,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "At Qcentrio, we recognize that each business has unique needs. We deliver custom BI solutions molded to your requirements, integrating robust tools like Apache Spark for real-time data processing.",
+              "At Qcentrio, we recognize that each business has unique needs. We deliver custom BI solutions molded to your requirements, integrating robust tools like Apache Spark for real-time data processing. This tailored approach ensures that solutions are specifically designed to meet your business's distinct challenges and opportunities.",
           },
           {
             num: "04",
@@ -4663,7 +4609,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Streamline the collection and integration of data from various sources, ensuring accuracy and accessibility for analysis. Implement management practices that maintain the integrity and security of your data across the board.",
+              "Streamline the collection and integration of data from various sources, ensuring accuracy and accessibility for analysis. Implement management practices that maintain the integrity and security of your data across the board. This ensures your data ecosystem is scalable, secure, and primed for analysis.",
           },
           {
             num: "05",
@@ -4671,7 +4617,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Employ advanced predictive models and machine learning algorithms to forecast trends, customer behavior, and business outcomes, turning data into a predictive tool for strategic planning.",
+              "Employ advanced predictive models and machine learning algorithms to forecast trends, customer behavior, and business outcomes, turning data into a predictive tool for strategic planning. Our approach helps you stay ahead of the curve by anticipating market shifts and customer needs.",
           },
           {
             num: "06",
@@ -4679,7 +4625,23 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Access insights as they happen with real-time analytics. Create comprehensive, up-to-the-minute reports that allow for agile decision-making and immediate action in response to market changes..",
+              "Access insights as they happen with real-time analytics. Create comprehensive, up-to-the-minute reports that allow for agile decision-making and immediate action in response to market changes. This capability is crucial for organizations looking to maintain a competitive edge in fast-moving industries.",
+          },
+          {
+            num: "07",
+            heading: "Data Governance and Compliance",
+            image: "/business-value-enhancement-services.png",
+            icon: currency,
+            content:
+              " Implement rigorous data governance frameworks to ensure compliance with regulations such as GDPR and HIPAA. This service helps you manage the risks associated with data privacy and security, ensuring your organization's data practices meet statutory requirements.",
+          },
+          {
+            num: "08",
+            heading: "Advanced Data Visualization Techniques",
+            image: "/business-value-enhancement-services.png",
+            icon: currency,
+            content:
+              "Explore complex data sets with advanced visualization techniques that reveal patterns, trends, and anomalies. Our experts use cutting-edge technology to create intuitive and engaging visual representations, enhancing your ability to make informed decisions based on complex data.",
           },
         ],
       },
@@ -4802,91 +4764,69 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Advanced Analytics and Forecasting",
+            heading:
+              "Advanced Analytics, Forecasting, and Predictive Analytics",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Dive into the future of your business with Qcentrio's cutting-edge analytics. We employ sophisticated AI/ML models beyond traditional data analysis, offering deep insights and accurate forecasting that drive strategic decision-making.",
+              "Dive into the future of your business with cutting-edge analytics and implement advanced AI/ML algorithms to analyze data and forecast future trends, providing actionable insights for informed decision-making and strategic planning. This allows for a deeper and more comprehensive analysis to support decision-making processes.",
           },
           {
             num: "02",
-            heading: "AI-Driven Process Optimization",
+            heading: "AI-Driven Process Optimization and Operationalization",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Transform your operational processes with our AI-powered optimization. Qcentrio streamlines workflows, enhancing efficiency and output while minimizing waste and reducing costs.",
+              "Transform your operational processes with our AI-powered optimization and operationalization, ensuring your AI investments are fully realized by embedding intelligence into every layer of your business operations. This integration enhances efficiency, output, and overall business performance.",
           },
           {
             num: "03",
-            heading: "Machine Learning Operationalization",
+            heading: "Machine Learning and Delivering Business Insights",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Qcentrio is not just about creating models; it’s about bringing them to life within your operational ecosystem. Our ML operationalization ensures your AI investments are fully realized, embedding intelligence into every layer of your business operations.",
+              "Establish a robust framework for Machine Learning models with tailored solutions that scale your business intelligence in real-time, enhancing your capability to respond swiftly to market changes. This approach ensures your models are continuously refined to meet evolving business needs.",
           },
           {
             num: "04",
-            heading: "Predictive Analytics",
+            heading:
+              "Personalized Customer Interactions and AI-Enhanced Customer Service",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Employ our advanced AI/ML algorithms to analyze data and forecast future trends, providing actionable insights for informed decision-making and strategic planning.",
+              "Embrace AI-driven personalization to deliver tailored experiences that engage and delight your end users, and transform your customer support with AI-enhanced capabilities that respond with human-like accuracy. This helps improve customer engagement and satisfaction across multiple touchpoints.",
           },
           {
             num: "05",
-            heading: "Personalized Customer Interactions",
+            heading: "Bespoke AI/ML Solutions and Process/Platform Automation",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Embrace AI-driven personalization with Qcentrio. We deliver tailored experiences that engage and delight your end users, providing recommendations and services that hit the mark every time.",
+              "Develop AI and ML solutions that align with your business goals and automate processes for increased efficiency, enabling you to automate routine tasks, reduce errors, and focus on strategic activities. This ensures seamless integration and impactful outcomes while enhancing operational efficiency.",
           },
           {
             num: "06",
-            heading: "Bespoke AI/ML Solutions",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Our commitment is to your success. We develop AI and ML solutions that align with your business goals and industry requirements, ensuring seamless integration and impactful outcomes.",
-          },
-          {
-            num: "07",
-            heading: "Process/Platform Automation",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Leverage AI and ML to automate processes for increased efficiency. Qcentrio's solutions enable you to automate routine tasks, reduce errors, and shift your team's focus to strategic activities that propel business growth. ",
-          },
-          {
-            num: "08",
             heading: "Real-Time Data Processing and Analysis",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Harness the speed and accuracy of real-time data processing with Qcentrio’s advanced AI/ML systems. Make faster, more informed decisions as our technology sifts through vast information streams to deliver the insights that matter most, right when you need them.",
+              "Harness the speed and accuracy of real-time data processing with our advanced AI/ML systems to make faster, more informed decisions as technology sifts through vast information streams, delivering critical insights when you need them most. This helps in maintaining a competitive edge in fast-paced industries.",
           },
           {
-            num: "09",
-            heading: "AI-Enhanced Customer Service",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Transform your customer support with AI-enhanced capabilities. Our solutions understand and respond to customer queries with human-like accuracy, ensuring higher satisfaction rates and freeing your customer service team to handle more complex issues.",
-          },
-          {
-            num: "10",
+            num: "07",
             heading: "Robotic Process Automation (RPA)",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Amplify your efficiency with Qcentrio's RPA solutions. By automating repetitive tasks, our AI-driven robots save time and reduce human error, allowing your workforce to concentrate on creative and strategic tasks that add real value to your business.",
+              "Amplify your efficiency with RPA solutions that automate repetitive tasks, saving time and reducing human error, allowing your workforce to concentrate on creative and strategic tasks that add real value to your business. This streamlines operations and enhances productivity across various departments.",
           },
           {
-            num: "11",
-            heading: "Delivering Business Insights",
+            num: "08",
+            heading: "AI-Integrated Security Measures",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Establish a robust framework for Machine Learning models with Qcentrio. We onboard our top talent to tailor these models to each unique case, scaling your business intelligence in real-time.",
+              "Implement AI-enhanced security protocols to monitor and protect data, providing a secure environment for your AI and ML operations. This service is crucial to safeguard sensitive information and ensure the integrity of your data-driven initiatives.",
           },
         ],
       },
@@ -4991,43 +4931,67 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Empower Your Business with Open AI / ChatGPT Integration",
+            heading: "Open AI/ChatGPT Integration",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency. This integration is ideal for enhancing customer service and streamlining internal communications.",
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI for Insightful Decisions",
+            heading: "Advanced Analytics and AI",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Unlock actionable insights and innovate faster with our advanced analytics tools and AI models. Automate up to 70% of workforce tasks, enabling a focus on strategic business activities and reducing operational costs. Our solutions are designed to transform complex data into clear, actionable insights that drive decision-making.",
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation for Industry-Specific Needs",
+            heading: "Strategic AI Implementation",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Our calculated approach ensures AI aligns with your business goals. We develop custom AI solutions for industries like finance and healthcare, enhancing customer engagement and anticipating market trends. Personalized solutions ensure that AI initiatives are directly correlated with your strategic objectives.",
           },
           {
             num: "04",
-            heading: "Boost Productivity with Automation Solutions",
+            heading: "Productivity with Automation Solutions",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "Streamline operations with our automation offerings. Automate routine tasks, enhance productivity, and refocus your workforce on high-value activities, reducing burnout and promoting innovation. This approach not only improves efficiency but also enhances employee satisfaction and retention.",
           },
           {
             num: "05",
-            heading: "End-to-End Generative AI Integration for Business Growth",
+            heading: "End-to-end Generative AI Integration",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency.",
+              "With our end-to-end GenAI integration services, optimize critical business areas like marketing, sales, and R&D. Leverage AI to enhance efficiency and drive growth. This comprehensive service ensures that all facets of your business can benefit from AI's transformative powers.",
+          },
+          {
+            num: "06",
+            heading: "Data Visualization and Reporting",
+            image: "/business-value-enhancement-services.png",
+            icon: currency,
+            content:
+              "Visualize your data with state-of-the-art tools that make complex information easy to understand and actionable. Our platforms support real-time data updates, allowing your team to make timely, informed decisions based on the latest information.",
+          },
+          {
+            num: "07",
+            heading: "Data Governance and Compliance",
+            image: "/business-value-enhancement-services.png",
+            icon: currency,
+            content:
+              "Ensure your data management practices are compliant with global regulations with our data governance services. We help you implement strong policies that protect your data and your company’s reputation while ensuring operational transparency.",
+          },
+          {
+            num: "08",
+            heading: "Customer Behavior Analytics",
+            image: "/business-value-enhancement-services.png",
+            icon: currency,
+            content:
+              "Utilize AI to gain deep insights into customer behavior and preferences, enabling personalized marketing strategies and product development. This helps you stay ahead of market trends and meet your customers' needs more effectively.",
           },
         ],
       },
@@ -5150,99 +5114,70 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Process and Platform Assessments",
+            heading:
+              "Process and Platform Assessments with Business Case Preparation",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "We comprehensively assess your company's processes and platforms to provide you with a tailored and effective RPA solution. By aligning our strategy with your business objectives, we ensure a fit-for-purpose solution that meets your unique needs and requirements.",
+              "We comprehensively assess your company's processes and platforms, developing a solid business case for RPA implementation. This strategic alignment with your business objectives ensures an ideal solution that maximizes your return on investment.",
           },
           {
             num: "02",
-            heading: "Business Case Preparation and Process Triage",
+            heading:
+              "SoP Creation, Automation Requirements, and System Integration",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "If you're considering implementing RPA in your business, we can assist you in developing a solid business case and determining which areas should take priority. Our expertise can help you successfully implement and maximize your return on investment.",
+              "Specialize in developing standard operating procedures and capturing detailed automation requirements, ensuring efficient RPA implementation and seamless system integration. This approach enhances productivity and minimizes disruption to existing workflows.",
           },
           {
             num: "03",
-            heading: "SoP Creation and Automation Requirements Capture",
+            heading:
+              "Proof of Concept, Pilot Programs, and RPA Roadmap Creation",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Our team specializes in developing standard operating procedures and detailed automation requirements to ensure efficient and effective robotic process automation (RPA) implementation in businesses, resulting in increased productivity and streamlined processes.",
+              "We help you conduct pilot programs and proofs of concept to demonstrate RPA's potential impact, followed by creating a strategic roadmap and Center of Excellence (CoE) to guide your RPA journey. This process ensures informed decision-making and fosters continuous improvement.",
           },
           {
             num: "04",
-            heading: "Proof of Concept and Pilot Programs",
+            heading: "RPA Strategy and Custom Implementation",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "To ensure the successful deployment of RPA, we first conduct pilot programs and proofs of concept. This helps us demonstrate the potential impact of RPA on your operations and make informed decisions for a smoother implementation.",
+              "Begin with a comprehensive analysis of your business processes to identify automation opportunities, then craft and implement custom RPA solutions tailored to your operational needs. This method transforms operations using leading tools and innovative strategies.",
           },
           {
             num: "05",
-            heading: "RPA Roadmap Creation and CoE Setup",
+            heading: "Continuous Monitoring, Support, and Bot Maintenance",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "We help you plan your journey with Robotic Process Automation (RPA) and create a Center of Excellence (CoE) to promote innovation and best practices in your organization. Our goal is to optimize your business processes and increase efficiency.",
+              "Receive ongoing monitoring and comprehensive support, including bot maintenance and health checks, to ensure optimal performance and sustainability of your RPA operations. This service reduces downtime and maintains operational excellence.",
           },
           {
             num: "06",
-            heading: "RPA Strategy and Implementation",
+            heading: "Training and Skill Development for RPA Users",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Our approach to RPA begins with a comprehensive analysis of your business processes to pinpoint automation opportunities. We then craft a tailored strategy to transform your operations using leading tools like UiPath, Blue Prism, and Automation Anywhere.",
+              "Equip your team with the necessary skills and knowledge through extensive training programs. This commitment to skill development ensures your workforce can fully leverage and support RPA technologies effectively.",
           },
           {
             num: "07",
-            heading: "Custom RPA Solutions",
+            heading: "Custom RPA Solutions for Complex Tasks",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Our custom RPA solutions are designed to help your business automate complex tasks like data entry, invoice processing, and customer inquiries. By doing so, we boost efficiency and promote innovation while tailoring our offerings to meet your specific needs.",
+              "Design RPA solutions to automate complex business tasks such as data entry, invoice processing, and customer inquiries. These custom solutions boost efficiency, enhance accuracy, and support scalable innovation tailored to your specific needs.",
           },
           {
             num: "08",
-            heading: "System Integration and Optimization",
+            heading: "Advanced Analytics and Reporting",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "When implementing RPA solutions, ensuring smooth integration with existing systems is essential to avoid disrupting business operations. Our solutions are designed to seamlessly incorporate your workflows, optimizing efficiency without causing any disruptions.",
-          },
-          {
-            num: "09",
-            heading: "Continuous Monitoring and Support",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Efficient operational workflows are crucial to business success. Our RPA solutions enable smooth integration with existing systems, streamlining workflows without disrupting business rhythm. This helps businesses optimize efficiency and achieve operational excellence.",
-          },
-          {
-            num: "10",
-            heading: "Training and Skill Development",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Our company doesn't just deploy RPA solutions and leave you alone. Our commitment to your success includes ongoing monitoring and support to ensure optimal performance and quick resolution of any issues that may arise.",
-          },
-          {
-            num: "11",
-            heading: "Bot Support and Maintenance",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Our comprehensive bot support services cover everything from routine maintenance and monitoring to health checks and release management. This ensures your RPA operations run smoothly and sustainably, with minimal downtime and maximum efficiency.",
-          },
-          {
-            num: "12",
-            heading: "Custom Reporting and Analytics",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Our team analyzes your tech environment to determine the best way to incorporate RPA with your current systems, ensuring that the automation process is as smooth as possible and that there are no disruptions to your business operations.",
+              "Analyze the impact of RPA on your business with custom reporting and advanced analytics. This ensures that the integration of RPA into your operations is continually refined and aligned with business objectives, leading to measurable improvements.",
           },
         ],
       },
@@ -5310,8 +5245,8 @@ const subServicePagesContent = {
   serviceSix: {
     1: {
       heroSectionData: {
-        heading:
-          "Harness the Power of Cloud Computing with Full Stack AWS Capabilities",
+        heading1: "Harness the Power of Cloud Computing",
+        heading2: "with Full Stack AWS Capabilities",
       },
       metaData: {
         title: "Advanced AWS Services and Support | Qcentrio",
@@ -5329,9 +5264,13 @@ const subServicePagesContent = {
         image: "http://localhost:3000/sub-service-content-side-image.png",
         heading: "Future-Proof Your Business with Qcentrio's AWS Expertise",
         content1:
-          "Today, enterprises constantly turn to cloud technology to transform their businesses and make them scalable and agile. Amazon Web Services (AWS) offers a premier infrastructure that provides many cloud-based solutions to help companies achieve their goals.",
+          "Today, enterprises constantly turn to cloud technology to transform their businesses and make them scalable and agile.",
         content2:
-          "At Qcentrio, we understand the importance of AWS implementation for businesses of all sizes and industries. Our team of seasoned professionals can help you leverage the power of AWS to the fullest extent, providing tailored services that align with your unique business requirements. Whether you need assistance with migration, integration, or ongoing support, we can customize our services to meet your needs.",
+          "Amazon Web Services (AWS) offers a premier infrastructure that provides many cloud-based solutions to help companies achieve their goals.",
+        content3:
+          "At Qcentrio, we understand the importance of AWS implementation for businesses of all sizes and industries. Our team of seasoned professionals can help you leverage the power of AWS to the fullest extent, providing tailored services that align with your unique business requirements.",
+        content4:
+          "Whether you need assistance with migration, integration, or ongoing support, we can customize our services to meet your needs.",
       },
       offeringsSetion: {
         mainHeading:
@@ -5364,14 +5303,6 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "Security and Compliance Assurance",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "We understand how critical it is to keep your cloud environment secure. With our advanced AWS security support, you can adhere to the best compliance practices. With such a secure environment, you can have peace of mind knowing that your data and applications are safe from cyber threats and other security vulnerabilities.",
-          },
-          {
-            num: "05",
             heading: "Continuous AWS Support",
             image: "/business-value-enhancement-services.png",
             icon: currency,
@@ -5379,7 +5310,7 @@ const subServicePagesContent = {
               "Streamline your software development process and accelerate your time-to-market by leveraging AWS DevOps tools to automate your CI/CD pipeline. With these tools, and us as your partner, you can improve your software delivery process, increase deployment frequency, and enhance the overall quality of your software.",
           },
           {
-            num: "06",
+            num: "05",
             heading: "AWS Managed Services",
             image: "/business-value-enhancement-services.png",
             icon: currency,
@@ -5387,7 +5318,7 @@ const subServicePagesContent = {
               "With Qcentrio as your AWS partner, you can manage your AWS infrastructure seamlessly and optimize its performance and cost. Our team of experts can help you offload the day-to-day management of your cloud environment, leaving you with more time to focus on your business goals.",
           },
           {
-            num: "07",
+            num: "06",
             heading: "AWS Data Analytics",
             image: "/business-value-enhancement-services.png",
             icon: currency,
@@ -5395,7 +5326,7 @@ const subServicePagesContent = {
               "Gain valuable insights from your business data with AWS’s powerful data processing and analytics capabilities. AWS makes it easy to uncover meaningful patterns and trends in your data. You can make data-driven decisions to help your business thrive by leveraging these insights. So why wait? Start tapping into the power of AWS today with Qcentrio.",
           },
           {
-            num: "08",
+            num: "07",
             heading: "AWS DevOps Automation",
             image: "/business-value-enhancement-services.png",
             icon: currency,
@@ -5403,7 +5334,7 @@ const subServicePagesContent = {
               "Innovate and bring new products to market quickly by leveraging AWS DevOps tools and automating your software delivery pipeline, making it more efficient, reliable, and scalable. With DevOps, you can reduce your time to market and increase deployment frequency, allowing you to stay ahead of the competition.",
           },
           {
-            num: "09",
+            num: "08",
             heading: "AWS Machine Learning and AI Services",
             image: "/business-value-enhancement-services.png",
             icon: currency,
@@ -5485,8 +5416,8 @@ const subServicePagesContent = {
     },
     2: {
       heroSectionData: {
-        heading:
-          "LIFT YOUR BUSINESS INTO AZURE FOR UNMATCHED PERFORMANCE AND SCALABILITY",
+        heading1: "LIFT YOUR BUSINESS INTO AZURE",
+        heading2: "FOR UNMATCHED PERFORMANCE AND SCALABILITY",
       },
       metaData: {
         title: "Azure Cloud Services | Seamless Integration and Optimization",
@@ -5504,9 +5435,12 @@ const subServicePagesContent = {
         image: "http://localhost:3000/sub-service-content-side-image.png",
         heading: "Embrace Cloud Innovation with Comprehensive Azure Services",
         content1:
-          "Azure offers a robust cloud platform that empowers businesses to stay agile and adaptable in the increasingly dynamic and complex market. With it, companies can build a future-proof digital environment that scales with their growth and unleashes their full potential. All they need is a strategic Azure partner.",
-        content2:
-          "At Qcentrio, we specialize in Azure and deliver end-to-end services that ensure businesses can capitalize on the full spectrum of cloud computing capabilities, from infrastructure to analytics and beyond. Our Azure experts work closely with clients to understand their unique business needs and design tailored offerings that align with their strategic objectives—Trust Qcentrio to help your business stay ahead of the curve and thrive in the digital age.",
+          "Azure offers a robust cloud platform that empowers businesses to stay agile and adaptable in the increasingly dynamic and complex market. With it, companies can build a future-proof digital environment that scales with their growth and unleashes their full potential.",
+        content2: "All they need is a strategic Azure partner.",
+        content3:
+          "At Qcentrio, we specialize in Azure and deliver end-to-end services that ensure businesses can capitalize on the full spectrum of cloud computing capabilities, from infrastructure to analytics and beyond.",
+        content4:
+          "Our Azure experts work closely with clients to understand their unique business needs and design tailored offerings that align with their strategic objectives—Trust Qcentrio to help your business stay ahead of the curve and thrive in the digital age.",
       },
       offeringsSetion: {
         mainHeading: "EXPLORE OUR AZURE SERVICES AND OFFERINGS",
@@ -5514,91 +5448,68 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Comprehensive Azure Integration",
+            heading: "Comprehensive Azure Integration and Managed Services",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Employ AWS CloudFormation and Azure DevOps to develop a precise strategy for Azure cloud integration, aligning technology with business objectives.",
+              "Employ Azure DevOps to develop precise strategies for Azure cloud integration that align technology with business objectives. Benefit from full-spectrum managed services for ongoing management, monitoring, and optimization of your cloud resources.",
           },
           {
             num: "02",
-            heading: "Azure Managed Services",
+            heading: "Azure DevOps & Software Development Lifecycle Management",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Benefit from our full-spectrum managed services for Azure, including ongoing management, monitoring, and optimizing your cloud resources for peak performance.",
+              "Accelerate your software development lifecycle with Azure DevOps capabilities, implementing continuous integration and delivery to enhance collaboration and streamline deployment. This approach ensures faster time-to-market and improved deployment quality.",
           },
           {
             num: "03",
-            heading: "Azure DevOps Capabilities",
+            heading:
+              "Data Migration, Security, and Robust Cloud Infrastructure",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Accelerate your software development lifecycle with our Azure DevOps capabilities. Implement continuous integration and delivery to enhance collaboration and streamline deployment.",
+              "Utilize Azure Site Recovery and advanced security measures like encryption and IAM policies for seamless data transfer while building a resilient and scalable cloud infrastructure that supports growing business demands and ensures efficient resource management.",
           },
           {
             num: "04",
-            heading: "Data Migration and Security",
+            heading: "Azure IoT Offerings and Advanced Analytics",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Utilize AWS Data Migration Service and Azure Site Recovery for seamless data transfer, reinforced with robust security measures like encryption and IAM policies.",
+              "Unlock the potential of the Internet of Things with Azure, creating intelligent, connected solutions that gather and analyze data from devices across your operations. Leverage the capability of Azure analytics to process big data and deploy AI models that inform strategic decisions.",
           },
           {
             num: "05",
-            heading: "Robust Cloud Infrastructure",
+            heading: "Cloud Application Modernization and PaaS Solutions",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Build resilient and scalable cloud infrastructure to support growing business demands, ensuring seamless migration and efficient resource management.",
+              "Refresh legacy applications with our application modernization services, leveraging Azure’s PaaS and container services. This increases scalability and reduces operational costs, making your applications future-ready.",
           },
           {
             num: "06",
-            heading: "Azure IoT Offerings",
+            heading: "Cloud Security Posture Management and Disaster Recovery",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Unlock the potential of the Internet of Things with Azure, creating intelligent, connected solutions that gather data and insights from devices across your operations.",
+              "Strengthen your Azure deployments with advanced cloud security posture management and ensure business resilience with Azure's disaster recovery capabilities. This approach protects against threats and minimizes downtime with robust backup solutions and failover systems.",
           },
           {
             num: "07",
-            heading: "Advanced Analytics and AI",
+            heading: "Customized Azure Solutions and Hybrid Integration",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Drive innovation with Azure’s analytics and AI services, from processing big data to deploying intelligent models that shape business strategies.",
+              "Create tailored hybrid and cloud-native solutions using Azure services that integrate seamlessly with your existing technology stack. This allows for a complete and cohesive cloud ecosystem tailored to your specific business needs.",
           },
           {
             num: "08",
-            heading: "Cloud Application Modernization",
+            heading: "Business Continuity and Operational Resilience",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Refresh legacy applications with our application modernization services, leveraging Azure’s PaaS and container services for increased scalability and reduced operational costs.",
-          },
-          {
-            num: "09",
-            heading: "Cloud Security Posture Management",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Strengthen your Azure deployments with our cloud security posture management, ensuring your cloud assets are protected against threats and vulnerabilities.",
-          },
-          {
-            num: "10",
-            heading: "Disaster Recovery and Continuity",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Minimize downtime with Azure's disaster recovery capabilities, implementing failover systems and backup solutions for business resilience.",
-          },
-          {
-            num: "11",
-            heading: "Customized Offerings",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Create hybrid and cloud-native solutions using Azure services, customized to integrate with your existing technology stack for a complete cloud ecosystem.",
+              "Use Microsoft Azure’s disaster recovery tools and strategies to ensure continuous operation and minimize downtime, which is crucial for maintaining business continuity and safeguarding critical business functions.",
           },
         ],
       },
@@ -5675,8 +5586,8 @@ const subServicePagesContent = {
     },
     3: {
       heroSectionData: {
-        heading:
-          "TRANSFORM YOUR CONVENTIONAL IT BY TRANSITIONING TO CLOUD WITH CONFIDENCE",
+        heading1: "TRANSFORM YOUR CONVENTIONAL IT",
+        heading2: "BY TRANSITIONING TO CLOUD WITH CONFIDENCE",
       },
       metaData: {
         title: "Comprehensive Cloud Infrastructure Services | Qcentrio",
@@ -5695,9 +5606,13 @@ const subServicePagesContent = {
         heading:
           "Modernize Your Business with Scalable Cloud Infrastructure Services from Qcentrio",
         content1:
-          "Businesses today need to be agile and scalable to keep up with the rapidly changing market conditions. This is where the cloud comes in. By leveraging the full potential of the cloud, businesses can achieve automation, scalability, flexibility, and innovation.",
+          "Businesses today need to be agile and scalable to keep up with the rapidly changing market conditions.",
         content2:
-          "Qcentrio's Cloud Infrastructure Services enable a smooth transition to the cloud, making businesses more service-focused, secure, and agile. We provide complete support for clients transitioning to popular cloud platforms like AWS, Azure, and GCP, with minimal downtime and maximum efficiency. With our unique consultative approach, automation capabilities, and advanced digital platforms & frameworks, we deliver technology enablement, tool-based service delivery, and operational excellence to the IT infrastructure needs of global companies.",
+          "This is where the cloud comes in. By leveraging the full potential of the cloud, businesses can achieve automation, scalability, flexibility, and innovation.",
+        content3:
+          "Qcentrio's Cloud Infrastructure Services enable a smooth transition to the cloud, making businesses more service-focused, secure, and agile. We provide complete support for clients transitioning to popular cloud platforms like AWS, Azure, and GCP, with minimal downtime and maximum efficiency.",
+        content4:
+          "With our unique consultative approach, automation capabilities, and advanced digital platforms & frameworks, we deliver technology enablement, tool-based service delivery, and operational excellence to the IT infrastructure needs of global companies.",
       },
       offeringsSetion: {
         mainHeading: "EXPLORE QCENTRIO'S CLOUD INFRASTRUCTURE SERVICES",
@@ -5705,99 +5620,67 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Cloud Assessment and Strategy",
+            heading: "Cloud Assessment, Strategy, and Setup",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Utilize advanced tools such as AWS CloudFormation and Azure DevOps for a comprehensive evaluation and strategic cloud adoption planning.",
+              "Utilize advanced tools like AWS CloudFormation and Azure DevOps for comprehensive evaluation and strategic planning, paired with optimized setup and configuration of cloud solutions. This integrated approach ensures your cloud infrastructure aligns perfectly with business objectives and performs optimally.",
           },
           {
             num: "02",
-            heading: "Data Migration and Security",
+            heading: "Data Migration, Security, and Compliance Audits",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Employ robust services like AWS Data Migration Service and Azure Site Recovery to transfer data securely through encryption and identity access management.",
+              "Employ robust services such as AWS Data Migration Service and Azure Site Recovery to securely transfer data, ensuring compliance with encryption and IAM standards. Our cloud compliance audits also confirm adherence to international regulations, enhancing trust and security.",
           },
           {
             num: "03",
-            heading: "Integration with Salesforce",
+            heading: "CRM Integration and Managed Services",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Enhance CRM capabilities by integrating Salesforce with cloud platforms, streamlining data flow for improved customer relationship management.",
+              "Enhance CRM capabilities by integrating platforms like Salesforce and streamlining data flow for improved customer relationship management, complemented by continuous support and education on best practices for cloud integration. This ensures your CRM systems leverage cloud efficiencies and remain at the forefront of customer engagement strategies.",
           },
           {
             num: "04",
-            heading: "Setup and Configuration",
+            heading: "Hybrid Cloud Optimization and Customized Solutions",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Implement optimized cloud solutions with Amazon EC2, Azure Virtual Machines, and Google Compute Engine for peak performance.",
+              "Achieve the perfect balance between private and public cloud environments with our hybrid cloud solutions, optimizing for cost, performance, and security. We also develop tailored hybrid and cloud-native solutions using cutting-edge technologies like Kubernetes and Docker, ensuring your cloud infrastructure meets specific business needs.",
           },
           {
             num: "05",
-            heading: "Managed Services",
+            heading: "Cloud Operations and Infrastructure Consulting",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Get continuous support post-deployment, including decommissioning legacy systems and education on best practices for cloud integration.",
+              "Streamline your cloud operations with services offering real-time monitoring, automated scaling, and continuous optimization. Consult with our experts to design scalable, resilient, and secure cloud infrastructure tailored to support your business’s growth and operational demands.",
           },
           {
             num: "06",
-            heading: "Hybrid Cloud Optimization",
+            heading: "Disaster Recovery and Business Continuity",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "With our hybrid cloud solutions, you can achieve the perfect balance between private and public cloud environments, optimizing for cost, performance, and security.",
+              "Develop and implement robust disaster recovery strategies that maintain business continuity, minimizing potential downtimes and data loss in any cloud environment. This strategic planning is crucial for protecting your operations against unforeseen disruptions.",
           },
           {
             num: "07",
-            heading: "Cloud Ops",
+            heading: "Customer Experience Enhancements",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Streamline your cloud operations with our Cloud Ops services, offering real-time monitoring, automated scaling, and continuous optimization to maintain system health and efficiency.",
+              "Leverage cloud technologies to enhance customer experiences, providing seamless, responsive, personalized interactions across all customer touchpoints. This service ensures that your customer interactions are enhanced by the latest cloud capabilities.",
           },
           {
             num: "08",
-            heading: "Infrastructure Consulting",
+            heading: "Cloud Compliance and Security",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Consult with our cloud experts to design and deploy scalable, resilient, and secure cloud infrastructure tailored to your business's unique needs and growth goals.",
-          },
-          {
-            num: "09",
-            heading: "Customer Experience (CX) Services",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Enhance customer experiences by leveraging cloud technologies to provide seamless, responsive, and personalized interactions across all customer touchpoints.",
-          },
-          {
-            num: "10",
-            heading: "Cloud Compliance Audits",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Ensure your cloud infrastructure adheres to international standards and industry regulations with our comprehensive compliance audit services.",
-          },
-          {
-            num: "11",
-            heading: "Disaster Recovery Planning",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Develop and implement robust disaster recovery strategies to maintain business continuity in the cloud, minimizing potential downtimes and data loss.",
-          },
-          {
-            num: "11",
-            heading: "Customized Offerings",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Develop hybrid, cloud-native solutions with technologies like Kubernetes and Docker tailored to your business requirements.",
+              "Ensure your cloud deployments meet stringent compliance requirements and protect data with advanced security measures. Our comprehensive approach includes regular audits and continuous updates to security practices, keeping your cloud environment secure and compliant with evolving regulations.",
           },
         ],
       },
@@ -5868,7 +5751,8 @@ const subServicePagesContent = {
     },
     4: {
       heroSectionData: {
-        heading: "Make Your IT Infrastructure Best-In-Class",
+        heading1: "Make Your IT Infrastructure",
+        heading2: "Best-In-Class",
       },
       metaData: {
         title: "Continuous IT Support & Managed Services | Qcentrio",
@@ -5886,9 +5770,13 @@ const subServicePagesContent = {
         image: "http://localhost:3000/sub-service-content-side-image.png",
         heading: "Elevate Your IT Operations with Qcentrio's Managed Services",
         content1:
-          "The stability and efficiency of IT infrastructure are foundational to business success. It helps maintain the integrity and efficiency of your IT systems, allowing you to focus on strategic growth and operational excellence.",
+          "The stability and efficiency of IT infrastructure are foundational to business success.",
         content2:
-          "Qcentrio's Continuous IT Support and Managed Services are designed to ensure your operations remain seamless, with minimal downtime and peak performance. Our service offerings include proactive maintenance, thorough system monitoring, and expert troubleshooting, all customized to meet your business's unique needs.",
+          "It helps maintain the integrity and efficiency of your IT systems, allowing you to focus on strategic growth and operational excellence.",
+        content3:
+          "Qcentrio's Continuous IT Support and Managed Services are designed to ensure your operations remain seamless, with minimal downtime and peak performance.",
+        content4:
+          "Our service offerings include proactive maintenance, thorough system monitoring, and expert troubleshooting, all customized to meet your business's unique needs.",
       },
       offeringsSetion: {
         mainHeading:
@@ -5897,22 +5785,14 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Proactive Maintenance and Monitoring",
+            heading: "Proactive Maintenance, Monitoring & Updates",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Stay ahead of issues with 24/7 monitoring and maintenance, preventing potential downtime. Our team of experts will continuously monitor your systems, allowing for quick identification and resolution of problems.",
+              "Stay ahead of issues with 24/7 monitoring and maintenance and keep your systems up-to-date with the latest features and functionalities. Our team of experts will continuously monitor your systems, allowing for quick identification and resolution of problems.",
           },
           {
             num: "02",
-            heading: "Timely Updates/Upgrades",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Keep your systems up-to-date with the latest features and functionalities to ensure continuous operational excellence. Our seamless integration of updates ensures that your systems are always at the cutting edge.",
-          },
-          {
-            num: "03",
             heading: "Expert Troubleshooting",
             image: "/business-value-enhancement-services.png",
             icon: currency,
@@ -5920,15 +5800,15 @@ const subServicePagesContent = {
               "Our team offers prompt and responsive support to keep your operations running smoothly. We understand the importance of minimizing disruption and maintaining productivity, so we provide efficient troubleshooting to resolve any issues that may arise promptly.",
           },
           {
-            num: "04",
+            num: "03",
             heading: "Customized IT Strategies",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Align your IT operations with your business goals by creating tailored IT strategies and customized solutions to meet your business's unique needs. We can work closely with you to develop the right approach that helps you achieve your objectives most efficiently and effectively..",
+              "Align your IT operations with your business goals by creating tailored IT strategies and customized solutions to meet your business's unique needs. We can work closely with you to develop the right approach that helps you achieve your objectives most efficiently and effectively.",
           },
           {
-            num: "05",
+            num: "04",
             heading: "Infrastructure Optimization",
             image: "/business-value-enhancement-services.png",
             icon: currency,
@@ -5936,7 +5816,7 @@ const subServicePagesContent = {
               "We optimize your IT infrastructure to ensure it functions at its best, providing you with the resources needed to grow your business. Our expertise lies in enhancing the functionality of your IT infrastructure to maximize efficiency and fuel your business's growth.",
           },
           {
-            num: "06",
+            num: "05",
             heading: "Disaster Recovery Planning",
             image: "/business-value-enhancement-services.png",
             icon: currency,
@@ -5944,7 +5824,7 @@ const subServicePagesContent = {
               "Implement robust disaster recovery strategies to protect data and maintain continuity. We help you develop and implement disaster recovery strategies to ensure that your data is protected and your operations continue to run smoothly in the event of a disaster.",
           },
           {
-            num: "07",
+            num: "06",
             heading: "Cloud Transition and Management",
             image: "/business-value-enhancement-services.png",
             icon: currency,
@@ -5952,7 +5832,7 @@ const subServicePagesContent = {
               "Our expert guidance can help you make a smooth transition to the cloud while providing flexibility and scalability benefits. We can be your strategic partner if you are new to the cloud or looking to improve your existing cloud infrastructure.",
           },
           {
-            num: "08",
+            num: "07",
             heading: "Network Management Services",
             image: "/business-value-enhancement-services.png",
             icon: currency,
@@ -5960,20 +5840,12 @@ const subServicePagesContent = {
               ": Optimize and manage your entire network infrastructure, ensuring high-speed connectivity, reliability, and security across your organization. Our support services ensure your network operates at peak performance, enabling your team to work efficiently and seamlessly. ",
           },
           {
-            num: "09",
+            num: "08",
             heading: "End-User Support Services",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
               "Our services are designed to provide your staff with the technical support they need to be productive. Our dedicated helpdesk services ensure that all of your employees' technical queries and challenges are resolved promptly, allowing them to focus on their work without interruptions.",
-          },
-          {
-            num: "10",
-            heading: "IT Compliance Services",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Navigate the complex world of IT compliance easily by ensuring that your systems always comply with all regulatory requirements and industry standards. You can rely on our expertise to keep your systems up-to-date with compliance regulations and standards.",
           },
         ],
       },
@@ -6051,7 +5923,8 @@ const subServicePagesContent = {
     },
     5: {
       heroSectionData: {
-        heading: "Navigate the Digital Space with Confidence",
+        heading1: "Navigate the Digital Space",
+        heading2: "with Confidence",
       },
       metaData: {
         title: "Robustrsecurity Solutions and Services Support | Qcentrio",
@@ -6070,9 +5943,13 @@ const subServicePagesContent = {
         heading:
           "Secure Your Enterprise Future with Qcentrio's Cybersecurity Expertise",
         content1:
-          "Cyber threats have increased significantly recently and become more sophisticated, posing a direct threat to the integrity of your enterprise data. As senior executives, your strategic oversight is pivotal in promoting a secure digital framework.",
+          "Cyber threats have increased significantly recently and become more sophisticated, posing a direct threat to the integrity of your enterprise data.",
         content2:
-          "At Qcentrio, we offer a robust suite of Cybersecurity Solutions, starting with a detailed assessment of your current security posture and concluding with implementing customized measures tailored to your business needs. Trust in Qcentrio to strengthen your defenses, ensuring your business's resilience and continuity in the face of digital threats.",
+          "As senior executives, your strategic oversight is pivotal in promoting a secure digital framework.",
+        content3:
+          "At Qcentrio, we offer a robust suite of Cybersecurity Solutions, starting with a detailed assessment of your current security posture and concluding with implementing customized measures tailored to your business needs.",
+        content4:
+          "Trust in Qcentrio to strengthen your defenses, ensuring your business's resilience and continuity in the face of digital threats.",
       },
       offeringsSetion: {
         mainHeading:
@@ -6085,7 +5962,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "We begin by evaluating your digital ecosystem, identifying vulnerabilities, and enhancing your security posture.",
+              "We begin by evaluating your digital ecosystem, identifying vulnerabilities, and enhancing your security posture. This initial assessment forms the backbone of a strategic plan to strengthen your defenses against cyber threats, tailoring solutions to address specific security gaps.",
           },
           {
             num: "02",
@@ -6093,7 +5970,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "We implement robust cybersecurity measures post-assessment, utilizing top-tier tools and services from leading industry providers.",
+              "After the assessment, we implement robust cybersecurity measures utilizing top-tier tools and services from leading industry providers. Our solutions are designed to address identified risks and adapt to the evolving landscape of cyber threats, ensuring long-term resilience.",
           },
           {
             num: "03",
@@ -6101,7 +5978,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "We provide comprehensive data protection and compliance services to ensure that your cybersecurity strategies meet all relevant regulations.",
+              "Our comprehensive data protection and compliance services ensure your cybersecurity strategies align with all relevant regulations. We help you navigate the complexities of regulatory requirements, ensuring your data-handling practices are both secure and compliant.",
           },
           {
             num: "04",
@@ -6109,7 +5986,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Take advantage of ongoing vigilance with our monitoring services that safeguard your systems against the latest threats.",
+              "Take advantage of ongoing vigilance with our monitoring services that safeguard your systems against the latest threats. Our proactive approach allows us to detect and address potential vulnerabilities before they can be exploited, maintaining the integrity of your digital assets.",
           },
           {
             num: "05",
@@ -6117,7 +5994,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "With our advanced monitoring systems, we help you detect intrusions in real time and respond swiftly to mitigate risks and prevent potential breaches.",
+              "Our advanced monitoring systems help you detect intrusions in real time and respond swiftly to mitigate risks and prevent potential breaches. This rapid response capability minimizes downtime and protects your organization from significant damage and loss.",
           },
           {
             num: "06",
@@ -6125,7 +6002,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Get specialized security protocols embedded in your systems to protect your cloud deployments on platforms like AWS, Azure, and GCP.",
+              "Protect your cloud deployments on platforms like AWS, Azure, and GCP with specialized security protocols embedded in your systems. Our cloud security services ensure that your data remains secure, regardless of where it is stored or how it is accessed.",
           },
           {
             num: "07",
@@ -6133,7 +6010,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Implement robust email filtering and phishing prevention strategies to safeguard against sophisticated email-borne threats.",
+              "Implement robust email filtering and phishing prevention strategies to safeguard against sophisticated email-borne threats. Our solutions reduce the risk of phishing attacks, often the entry point for more serious cyber threats.",
           },
           {
             num: "08",
@@ -6141,7 +6018,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Equip your staff with the knowledge to recognize and respond to cybersecurity threats with comprehensive training programs.",
+              "Equip your staff with the knowledge to recognize and respond to cybersecurity threats with comprehensive training programs. These programs are essential for fostering a security-conscious culture where every employee can act as a first line of defense against cyber threats.",
           },
         ],
       },
@@ -6213,8 +6090,8 @@ const subServicePagesContent = {
     },
     6: {
       heroSectionData: {
-        heading:
-          "Navigate the Future with Google Cloud’s Advanced Capabilities",
+        heading1: "Navigate the Future",
+        heading2: "with Google Cloud’s Advanced Capabilities",
       },
       metaData: {
         title: "Comprehensive GCP Services and Support | Qcentrio",
@@ -6233,9 +6110,13 @@ const subServicePagesContent = {
         heading:
           "Embrace the Full Potential of Google Cloud with Qcentrio’s GCP Expertise",
         content1:
-          "For businesses aiming to capitalize on cloud technology, Google Cloud Platform (GCP) offers agility and innovation second to none. It gives enterprises the strategic advantage they need with a gamut of services.",
+          "For businesses aiming to capitalize on cloud technology, Google Cloud Platform (GCP) offers agility and innovation second to none.",
         content2:
-          "At Qcentrio, we double down on our GCP expertise to help your organization equip with the essential tools to enhance and streamline your cloud infrastructure. By partnering with us, you ensure a seamless, secure, and efficient transition to the cloud, leveraging Google’s next-gen technologies. Our dedicated team of GCP experts is committed to customizing solutions that optimize performance, scalability, and security, ensuring your business fully harnesses the potential of the cloud to drive growth and innovation.",
+          "It gives enterprises the strategic advantage they need with a gamut of services.",
+        content3:
+          "At Qcentrio, we double down on our GCP expertise to help your organization equip with the essential tools to enhance and streamline your cloud infrastructure. By partnering with us, you ensure a seamless, secure, and efficient transition to the cloud, leveraging Google’s next-gen technologies.",
+        content4:
+          "Our dedicated team of GCP experts is committed to customizing solutions that optimize performance, scalability, and security, ensuring your business fully harnesses the potential of the cloud to drive growth and innovation.",
       },
       offeringsSetion: {
         mainHeading: "Qcentrio’s Spectrum of GCP Services ",
@@ -6247,7 +6128,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Tailored GCP integration services to consolidate your infrastructure and leverage the full range of Google Cloud’s computing and hosting solutions for robust, future-ready business operations.",
+              "Personalized GCP integration services consolidate your infrastructure and leverage the full range of Google Cloud’s computing and hosting solutions for robust, future-ready business operations. Our integrations are designed to streamline your workflows and maximize the efficiency of your cloud resources, ensuring you stay ahead in a competitive market.",
           },
           {
             num: "02",
@@ -6255,7 +6136,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Expert deployment and management, utilizing GCP’s Kubernetes Engine for container orchestration and Cloud Functions for responsive, event-driven applications.",
+              "Expert deployment and management, utilizing GCP’s Kubernetes Engine for container orchestration and Cloud Functions for responsive, event-driven applications. This service ensures that your applications are deployed efficiently and can scale dynamically in response to user demand, reducing overhead and improving service reliability.",
           },
           {
             num: "03",
@@ -6263,7 +6144,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Transformational insights with GCP’s BigQuery and AI Platform, providing powerful analytics and machine learning capabilities for data-driven decision-making.",
+              "Gain transformational insights with GCP’s BigQuery and AI Platform, offering powerful analytics and machine learning capabilities for data-driven decision-making. We help you unlock the value of your data, enabling predictive analytics and smarter business strategies that can drive growth and innovation.",
           },
           {
             num: "04",
@@ -6271,7 +6152,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Comprehensive security and compliance solutions ensure your data is managed with the utmost integrity and meets regulatory requirements with GCP’s cutting-edge security tools.",
+              "Our comprehensive security and compliance solutions ensure your data is managed with the utmost integrity and meets regulatory requirements with GCP’s cutting-edge security tools. We focus on safeguarding your data assets and ensuring compliance across all operations, reducing risk and enhancing trust with your customers.",
           },
           {
             num: "05",
@@ -6279,7 +6160,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Develop custom cloud architectures on GCP that are meticulously designed to meet the specific requirements of your applications and workloads for enhanced performance and scalability.",
+              "Develop custom cloud architectures on GCP that are meticulously designed to meet the specific requirements of your applications and workloads for enhanced performance and scalability. This tailored approach ensures your infrastructure supports your business needs effectively, adapting to changing demands without compromising on speed or quality.",
           },
           {
             num: "06",
@@ -6287,7 +6168,7 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Migrate your existing workloads and applications to GCP with minimal disruption, leveraging our expertise in GCP migration for a smooth transition and quick adoption.",
+              "Migrate your existing workloads and applications to GCP with minimal disruption, leveraging our expertise for a smooth transition and quick adoption. Our strategic planning minimizes downtime, ensuring business continuity and a seamless migration experience that accelerates your cloud transformation journey.",
           },
           {
             num: "07",
@@ -6295,15 +6176,15 @@ const subServicePagesContent = {
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Utilize our cost management services to maximize your investment in GCP, ensuring you only pay for the resources you need while maintaining optimal performance.",
+              "Utilize our cost management services to maximize your investment in GCP, ensuring you only pay for the resources you need while maintaining optimal performance. We implement cost-effective strategies that optimize resource usage and reduce expenses, ensuring you achieve the best possible return on your cloud investment.",
           },
           {
-            num: "07",
+            num: "08",
             heading: "GCP Managed Services",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Allow our team to manage your GCP environment, handling all operational tasks, from routine maintenance to proactive monitoring and optimization, enabling you to focus on your core business functions.",
+              "Allow our team to manage your GCP environment, handling all operational tasks, from routine maintenance to proactive monitoring and optimization. This comprehensive management frees you to focus on your core business functions, enhancing productivity and enabling innovation without the burden of day-to-day cloud operations management.",
           },
         ],
       },
@@ -6374,8 +6255,8 @@ const subServicePagesContent = {
     },
     7: {
       heroSectionData: {
-        heading:
-          "Unlock Global Potential by Next-Gen Offshore Development Centre",
+        heading1: "Unlock Global Potential",
+        heading2: "by Next-Gen Offshore Development Centre",
       },
       metaData: {
         title: "Specialized Offshore Development Centre Services | Qcentrio",
@@ -6394,9 +6275,13 @@ const subServicePagesContent = {
         heading:
           "Extend Your Global Reach with Qcentrio’s Offshore Development Centre Services",
         content1:
-          "As markets globalize, the strategic expansion of your enterprise through an Offshore Development Centre (ODC) becomes essential. Without it, you cannot empower your global operations and enhance your capacity for innovation and competitive advantage in the international marketplace.",
+          "As markets globalize, the strategic expansion of your enterprise through an Offshore Development Centre (ODC) becomes essential.",
         content2:
-          "At Qcentrio, we specialize in establishing ODCs that function as a seamless extension of your business, delivering a comprehensive range of IT services beyond mere software development. We excel in navigating the complexities of managing remote teams, providing robust infrastructure, and ensuring round-the-clock support. This enables your offshored operations to perform with the same efficacy and integration as your onshore activities.",
+          " Without it, you cannot empower your global operations and enhance your capacity for innovation and competitive advantage in the international marketplace.",
+        content3:
+          "At Qcentrio, we specialize in establishing ODCs that function as a seamless extension of your business, delivering a comprehensive range of IT services beyond mere software development. We excel in navigating the complexities of managing remote teams, providing robust infrastructure, and ensuring round-the-clock support.",
+        content4:
+          "This enables your offshored operations to perform with the same efficacy and integration as your onshore activities.",
       },
       offeringsSetion: {
         mainHeading: "Discover Qcentrio’s Offshore Development Centre Services",
@@ -6404,99 +6289,69 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Customized Team",
+            heading: "Customized Team and Cultural Integration",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Build your offshore team with professionals meticulously selected to meet your project requirements and embody your company's culture and values. We ensure your team is customized to suit your project-specific needs, ensuring they fit the job perfectly.",
+              " Build your offshore team with professionals selected to meet your project requirements and embody your company's culture and values. This will ensure seamless operational integration between your onshore and offshore teams, helping promote cohesion and maintain consistent business practices across geographies.",
           },
           {
             num: "02",
-            heading: "Best-in-Class Infrastructure and Facilities",
+            heading:
+              "Best-in-Class Infrastructure and Flexible Resource Allocation",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Our ODCs boast the latest modern technology suites, ensuring your offshore team operates in an environment conducive to high productivity and security. We provide state-of-the-art infrastructure and facilities that enable your team to work efficiently and effectively.",
+              "Our ODCs boast the latest modern technology suites in an environment conducive to high productivity and security. They can also rapidly adapt team size and skills to match project demands. This ensures your team operates efficiently and can scale quickly to meet evolving project needs.",
           },
           {
             num: "03",
-            heading: "Full-Spectrum Development and Testing",
+            heading:
+              "Full-Spectrum Development, Testing, and Quality Assurance",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "We cover every aspect of software development and testing, ensuring your products meet the highest standards and market demands. We provide end-to-end development and testing services so that you can focus on your core business while we take care of the rest.",
+              "Cover every software development and testing aspect, ensuring your products meet the highest standards and market demands. Our rigorous QA protocols and comprehensive development services allow you to focus on core business priorities.",
           },
           {
             num: "04",
-            heading: "Ongoing Support and Maintenance",
+            heading: "Strategic Project Management and Ongoing Support",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Benefit from continuous maintenance and IT support to ensure your software remains current and performs flawlessly. We offer continuing support and maintenance services to ensure your software is always up-to-date and running smoothly.",
+              "Implement efficient project management strategies for timely delivery aligned with business objectives, supported by continuous maintenance and IT support to ensure software performance. This dual focus guarantees your projects stay on track and your applications run smoothly.",
           },
           {
             num: "05",
-            heading: "Strategic Project Management",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Implement efficient project management strategies to ensure timely delivery and alignment with business objectives. We provide strategic project management services to ensure your project is timely, within budget and aligned with your business objectives.",
-          },
-          {
-            num: "06",
             heading: "IP Protection and Data Security",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Safeguard the integrity of your intellectual property and data with our robust security protocols and stringent compliance measures. We prioritize security and ensure that your intellectual property and data are always protected using the latest security protocols and compliance measures.",
+              "Safeguard the integrity of your intellectual property and data with robust security protocols and stringent compliance measures. We prioritize top-tier security practices to protect your assets and ensure confidentiality and integrity in all operations.",
           },
           {
-            num: "07",
-            heading: "Cultural and Operational Integration",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Create a seamless operational link between your onshore and offshore teams, preserving cohesion and unified business practices. We help you foster a seamless link between your onshore and offshore teams by ensuring they are culturally and operationally integrated.",
-          },
-          {
-            num: "08",
-            heading: "Flexible Resource Allocation",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              ": Rapidly adapt your team size and skill set to match project demands, ensuring agility and optimal resource utilization. Our flexible resource allocation services empower you to respond quickly to your project's demands, ensuring you always have the right resources at the right time.",
-          },
-          {
-            num: "09",
+            num: "06",
             heading: "Dedicated Research and Development",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Our Offshore Development Centers (ODCs) have specialized R&D teams that focus on innovation and explore new technologies to keep you ahead of the curve. We can help you stay updated with the latest industry trends and advancements.",
+              "Leverage specialized R&D teams at our Offshore Development Centers to foster innovation and explore new technologies, keeping you ahead of the curve in industry trends and advancements. This ensures your solutions remain cutting-edge and relevant.",
           },
           {
-            num: "10",
-            heading: "Quality Assurance and Risk Management",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "We have rigorous QA protocols and risk management strategies to ensure the highest quality output and mitigate potential offshore development risks. Rest assured that your project is in good hands and will be delivered on time and budget.",
-          },
-          {
-            num: "11",
-            heading: "Language and Communication Training",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "We provide dedicated language and communication training for offshore teams to overcome language barriers and ensure clear and effective cross-cultural collaboration. This will help you communicate more efficiently with your offshore team and achieve better results.",
-          },
-          {
-            num: "12",
+            num: "07",
             heading: "Advanced Analytics and Reporting",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "You can utilize our advanced analytics to gain insights into your offshore operations, with regular reporting to track progress and inform decision-making. This will help you make data-driven decisions and optimize your offshore development processes.",
+              "Utilize our advanced analytics to gain deep insights into your offshore operations, with regular reporting to track progress and inform strategic decision-making. This enables you to make data-driven decisions that optimize your offshore development processes.",
+          },
+          {
+            num: "08",
+            heading: "Communication Training and Support",
+            image: "/business-value-enhancement-services.png",
+            icon: currency,
+            content:
+              " Provide dedicated language and communication training for offshore teams to overcome language barriers and ensure clear, effective cross-cultural collaboration. Enhanced communication skills lead to better project outcomes and more efficient team dynamics.",
           },
         ],
       },
@@ -6580,7 +6435,8 @@ const subServicePagesContent = {
     },
     8: {
       heroSectionData: {
-        heading: "MAKE THE MOST OF EVERY CUSTOMER INTERACTION WITH SALESFORCE",
+        heading1: "MAKE THE MOST OF EVERY CUSTOMER INTERACTION",
+        heading2: "WITH SALESFORCE",
       },
       metaData: {
         title: "Expert Salesforce Integration and Optimization | Qcentrio",
@@ -6602,7 +6458,11 @@ const subServicePagesContent = {
         content1:
           "Strong customer relationships require constant building and nurturing of customer relationships for sustainable growth and long-term success. ",
         content2:
-          "Salesforce, the world's #1 CRM platform, can transform your company’s customer interactions, and Qcentrio leads the space by offering customized Salesforce capabilities. You can optimize your sales, customer service, and marketing efforts with us. Our team designs customized Salesforce solutions that increase productivity, streamline workflows, and provide valuable insights, enabling your businesses to achieve sustainable growth and success.",
+          "Salesforce, the world's #1 CRM platform, can transform your company’s customer interactions, and Qcentrio leads the space by offering customized Salesforce capabilities.",
+        content3:
+          "You can optimize your sales, customer service, and marketing efforts with us.",
+        content4:
+          "Our team designs customized Salesforce solutions that increase productivity, streamline workflows, and provide valuable insights, enabling your businesses to achieve sustainable growth and success.",
       },
       offeringsSetion: {
         mainHeading: "QCENTRIO'S SALESFORCE SERVICES INCLUDE",
@@ -6610,75 +6470,67 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Custom Salesforce Integration",
+            heading: "Custom Salesforce Integration and Data Connectivity",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Develop Salesforce solutions that align with your business needs in finance, healthcare, or retail to fit seamlessly into your operations.",
+              "Develop Salesforce solutions specific to industries like finance, healthcare, or retail and enhance data connectivity across your value chain. This integration ensures your Salesforce ecosystem is cohesive, improving data accessibility and operational coherence.",
           },
           {
             num: "02",
-            heading: "Seamless Data Connectivity",
+            heading: "Efficiency and Process Automation",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Create a cohesive Salesforce ecosystem that enhances the flow of customer data across your business units, ensuring accessibility and empowering management.",
+              "Utilize Salesforce to automate tasks and streamline processes, enhancing operational efficiency and customer relationship management. This automation drives productivity and improves service delivery by reducing manual efforts and errors.",
           },
           {
             num: "03",
-            heading: "EFFICIENCY AND PROCESS AUTOMATION",
+            heading: "Predictive Customer Engagement and Analytics",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Utilize Salesforce to automate tasks and streamline processes, improving operational efficiency and customer relationship management.",
+              "Leverage Salesforce AI and analytics to forecast customer needs and analyze behavior, proactively engaging them and driving informed decision-making. This approach not only enhances customer satisfaction but also boosts sales through targeted marketing strategies.",
           },
           {
             num: "04",
-            heading: "Predictive Customer Engagement",
+            heading: "Salesforce Cloud and Mobile Integration",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Apply Salesforce AI to anticipate customer needs and trends, proactively engaging them with solutions catering to future requirements.",
+              " Seamlessly integrate Salesforce with cloud services like AWS, GCP, and Azure and extend its capabilities to mobile devices. This dual integration ensures unified access to customer data across platforms and enhances CRM functionality for teams on the go.",
           },
           {
             num: "05",
-            heading: "Analytics and Customer Insights",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Build Salesforce analytics capabilities to gain deep insights into customer behavior, driving informed decision-making that enhances satisfaction and sales.",
-          },
-          {
-            num: "06",
-            heading: "Salesforce Cloud Integration",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Seamlessly integrate Salesforce with cloud services like AWS, GCP, and Azure, enabling unified access to customer data across platforms.",
-          },
-          {
-            num: "07",
-            heading: "Salesforce Mobile Solutions",
-            image: "/business-value-enhancement-services.png",
-            icon: currency,
-            content:
-              "Extend Salesforce's power to mobile devices, ensuring your sales and service teams have full CRM capabilities on the go, anytime, anywhere.",
-          },
-          {
-            num: "08",
             heading: "Custom App Development on Salesforce",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Build bespoke Salesforce applications tailored to your unique business processes, enhancing functionality and user engagement.",
+              "Build bespoke Salesforce applications tailored to your unique business processes, enhancing functionality and user engagement. These custom apps are designed to fit perfectly within your operational framework, providing tailored solutions that improve efficiency and user experience.",
           },
           {
-            num: "09",
+            num: "06",
             heading: "Salesforce Training and Adoption",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
-              "Provide comprehensive training programs to ensure your team can fully leverage Salesforce functionality, maximizing ROI through increased adoption rates.",
+              " Provide comprehensive training programs to ensure your team fully leverages Salesforce functionality, thereby maximizing ROI through increased adoption rates. Effective training enhances user competence and confidence, leading to better utilization of the CRM system.",
+          },
+          {
+            num: "07",
+            heading: "Advanced Security and Compliance Management",
+            image: "/business-value-enhancement-services.png",
+            icon: currency,
+            content:
+              "Enhance your Salesforce deployments with robust security measures and compliance management. We ensure your Salesforce environment adheres to the latest security protocols and regulatory requirements, protecting sensitive data and maintaining trust.",
+          },
+          {
+            num: "08",
+            heading: "Innovative Solutions with Salesforce IoT and AI",
+            image: "/business-value-enhancement-services.png",
+            icon: currency,
+            content:
+              "Harness the power of Salesforce IoT and AI to create innovative solutions that transform customer interactions and operational processes. These technologies enable you to develop smarter, more responsive services that anticipate customer needs and optimize operations.",
           },
         ],
       },

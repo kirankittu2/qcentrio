@@ -14,7 +14,7 @@ export default function Pagination({ paginationNum, page }) {
     } else {
       params.append("page", num.toString());
     }
-    return `${pathname}?${params.toString()}#articles`;
+    return `${pathname}?${params.toString()}`;
   }
 
   const paginationButtons = [];

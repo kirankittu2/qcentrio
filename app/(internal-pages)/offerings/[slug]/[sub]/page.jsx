@@ -48,13 +48,25 @@ function SubServiceContent({ data }) {
   return (
     <div className="sub-service-content-section">
       <div className="sub-service-content-section-column-1">
-        <h2> {data.heading}</h2>
-        <p>{data.content1}</p>
-        <p>{data.content2}</p>
+        <h2
+          data-option="strip-slide-up"
+          className="animate strip-slide-up strip-slide-black">
+          {data.heading}
+        </h2>
+        <p data-option="up" className="animate animate-hidden">
+          {data.content1}
+        </p>
+        <p data-option="up" className="animate animate-hidden">
+          {data.content2}
+        </p>
       </div>
       <div className="sub-service-content-section-column-2">
-        <p>{data.content3}</p>
-        <p className="highlight">{data.content4}</p>
+        <p data-option="up" className="animate animate-hidden">
+          {data.content3}
+        </p>
+        <p data-option="up" className="highlight animate animate-hidden">
+          {data.content4}
+        </p>
       </div>
     </div>
   );
@@ -96,7 +108,9 @@ function ServicesOfSubService({ data }) {
         {data.mainHeading}
       </h2>
       <div className="services-of-sub-service-holder">
-        <div></div>
+        <div className="subservice-aniation-container">
+          <SubserviceAnimation />
+        </div>
         {data.list.map((item, index) => {
           return (
             <div
@@ -111,6 +125,1766 @@ function ServicesOfSubService({ data }) {
             </div>
           );
         })}
+      </div>
+    </div>
+  );
+}
+
+function SubserviceAnimation() {
+  return (
+    <div class="main-wrapper">
+      <div class="sphere-wrapper">
+        <div class="plane plane-1">
+          <div class="spoke spoke-1">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-2">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-3">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-4">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-5">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-6">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-7">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-8">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-9">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-10">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-11">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-12">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-13">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-14">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-15">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-16">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-17">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-18">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-19">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-20">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-21">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-22">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-23">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-24">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-25">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-26">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-27">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-28">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-29">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-30">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-31">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-32">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-33">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-34">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-35">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-36">
+            <div class="dot"></div>
+          </div>
+        </div>
+
+        <div class="plane plane-2">
+          <div class="spoke spoke-1">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-2">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-3">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-4">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-5">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-6">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-7">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-8">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-9">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-10">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-11">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-12">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-13">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-14">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-15">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-16">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-17">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-18">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-19">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-20">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-21">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-22">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-23">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-24">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-25">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-26">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-27">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-28">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-29">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-30">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-31">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-32">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-33">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-34">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-35">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-36">
+            <div class="dot"></div>
+          </div>
+        </div>
+
+        <div class="plane plane-3">
+          <div class="spoke spoke-1">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-2">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-3">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-4">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-5">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-6">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-7">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-8">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-9">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-10">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-11">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-12">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-13">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-14">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-15">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-16">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-17">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-18">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-19">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-20">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-21">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-22">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-23">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-24">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-25">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-26">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-27">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-28">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-29">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-30">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-31">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-32">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-33">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-34">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-35">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-36">
+            <div class="dot"></div>
+          </div>
+        </div>
+
+        <div class="plane plane-4">
+          <div class="spoke spoke-1">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-2">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-3">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-4">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-5">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-6">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-7">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-8">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-9">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-10">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-11">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-12">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-13">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-14">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-15">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-16">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-17">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-18">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-19">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-20">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-21">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-22">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-23">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-24">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-25">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-26">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-27">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-28">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-29">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-30">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-31">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-32">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-33">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-34">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-35">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-36">
+            <div class="dot"></div>
+          </div>
+        </div>
+
+        <div class="plane plane-5">
+          <div class="spoke spoke-1">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-2">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-3">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-4">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-5">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-6">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-7">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-8">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-9">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-10">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-11">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-12">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-13">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-14">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-15">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-16">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-17">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-18">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-19">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-20">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-21">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-22">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-23">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-24">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-25">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-26">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-27">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-28">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-29">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-30">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-31">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-32">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-33">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-34">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-35">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-36">
+            <div class="dot"></div>
+          </div>
+        </div>
+
+        <div class="plane plane-6">
+          <div class="spoke spoke-1">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-2">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-3">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-4">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-5">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-6">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-7">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-8">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-9">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-10">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-11">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-12">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-13">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-14">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-15">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-16">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-17">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-18">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-19">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-20">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-21">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-22">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-23">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-24">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-25">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-26">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-27">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-28">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-29">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-30">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-31">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-32">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-33">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-34">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-35">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-36">
+            <div class="dot"></div>
+          </div>
+        </div>
+
+        <div class="plane plane-7">
+          <div class="spoke spoke-1">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-2">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-3">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-4">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-5">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-6">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-7">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-8">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-9">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-10">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-11">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-12">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-13">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-14">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-15">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-16">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-17">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-18">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-19">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-20">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-21">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-22">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-23">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-24">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-25">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-26">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-27">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-28">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-29">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-30">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-31">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-32">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-33">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-34">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-35">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-36">
+            <div class="dot"></div>
+          </div>
+        </div>
+
+        <div class="plane plane-8">
+          <div class="spoke spoke-1">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-2">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-3">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-4">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-5">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-6">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-7">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-8">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-9">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-10">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-11">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-12">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-13">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-14">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-15">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-16">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-17">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-18">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-19">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-20">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-21">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-22">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-23">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-24">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-25">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-26">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-27">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-28">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-29">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-30">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-31">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-32">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-33">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-34">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-35">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-36">
+            <div class="dot"></div>
+          </div>
+        </div>
+
+        <div class="plane plane-9">
+          <div class="spoke spoke-1">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-2">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-3">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-4">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-5">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-6">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-7">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-8">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-9">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-10">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-11">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-12">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-13">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-14">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-15">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-16">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-17">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-18">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-19">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-20">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-21">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-22">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-23">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-24">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-25">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-26">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-27">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-28">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-29">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-30">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-31">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-32">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-33">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-34">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-35">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-36">
+            <div class="dot"></div>
+          </div>
+        </div>
+
+        <div class="plane plane-10">
+          <div class="spoke spoke-1">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-2">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-3">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-4">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-5">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-6">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-7">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-8">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-9">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-10">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-11">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-12">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-13">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-14">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-15">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-16">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-17">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-18">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-19">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-20">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-21">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-22">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-23">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-24">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-25">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-26">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-27">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-28">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-29">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-30">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-31">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-32">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-33">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-34">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-35">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-36">
+            <div class="dot"></div>
+          </div>
+        </div>
+
+        <div class="plane plane-11">
+          <div class="spoke spoke-1">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-2">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-3">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-4">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-5">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-6">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-7">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-8">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-9">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-10">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-11">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-12">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-13">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-14">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-15">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-16">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-17">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-18">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-19">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-20">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-21">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-22">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-23">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-24">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-25">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-26">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-27">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-28">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-29">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-30">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-31">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-32">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-33">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-34">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-35">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-36">
+            <div class="dot"></div>
+          </div>
+        </div>
+
+        <div class="plane plane-12">
+          <div class="spoke spoke-1">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-2">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-3">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-4">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-5">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-6">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-7">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-8">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-9">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-10">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-11">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-12">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-13">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-14">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-15">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-16">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-17">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-18">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-19">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-20">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-21">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-22">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-23">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-24">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-25">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-26">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-27">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-28">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-29">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-30">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-31">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-32">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-33">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-34">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-35">
+            <div class="dot"></div>
+          </div>
+
+          <div class="spoke spoke-36">
+            <div class="dot"></div>
+          </div>
+        </div>
       </div>
     </div>
   );

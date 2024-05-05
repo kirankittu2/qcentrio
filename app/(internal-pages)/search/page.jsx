@@ -30,7 +30,7 @@ export default async function Products({ searchParams }) {
 function SearchHeading({ searchParams, data, page }) {
   return (
     <div className="search-page-heading-section">
-      <h1 className="all-results-heading">
+      <h1 className="all-results-heading ">
         All Results {searchParams?.q && `for "${searchParams.q}"`}
       </h1>
       <p className="total-results">

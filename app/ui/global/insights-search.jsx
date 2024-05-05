@@ -17,14 +17,14 @@ export default function InsightsSearchBar() {
     } else {
       params.delete("item");
     }
-    replace(`${pathname}?${params.toString()}#articles`);
+    replace(`${pathname}?${params.toString()}`);
   }, 300);
 
   return (
     <div className="search-container">
       <input
         onChange={(e) => handleSearch(e.target.value)}
-        className="search"
+        className="search "
         placeholder="Search Keywords"></input>
       <Image className="input-icon" src={search} alt="" />
     </div>

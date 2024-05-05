@@ -98,7 +98,7 @@
     padding-right: clamp(50px, 7.81vw, 140px);
     padding-top: 50px;
     padding-bottom: 50px;
-
+    overflow: hidden;
 }
 
 .about-us-map-section .global-presence-section .section-heading,.about-us-map-section .global-presence-section .global-presence-sub-heading{

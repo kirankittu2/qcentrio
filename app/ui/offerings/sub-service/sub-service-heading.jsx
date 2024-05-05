@@ -17,10 +17,20 @@ export function SubServiceHeading({ data, bannerImage }) {
 
   return (
     <div className="sub-service-hero-section">
-      <div className="">
-        <h1 className="sub-service-hero-heading">{data.heading1}</h1>
-        <h2 className="sub-service-hero-sub-heading">{data.heading2}</h2>
-        <p className="sub-service-hero-content">
+      <div>
+        <h1
+          data-option="strip-slide-up"
+          className="sub-service-hero-heading animate strip-slide-up strip-slide-green">
+          {data.heading1}
+        </h1>
+        <h2
+          data-option="up"
+          className="sub-service-hero-sub-heading animate animate-hidden">
+          {data.heading2}
+        </h2>
+        <p
+          data-option="up"
+          className="sub-service-hero-content animate animate-hidden">
           At Qcentrio, our business optimization and analytics services enhance
           your operations by reviewing and improving processes, instilling best
           practices, and providing a clear roadmap for optimized processes.
