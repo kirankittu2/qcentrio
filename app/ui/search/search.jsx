@@ -31,53 +31,52 @@ export default function Search() {
   }
 
   return (
-    <div className="search-bar-container">
-      <input
-        onChange={(e) => setSearchTerm(e.target.value)}
-        placeholder="Type Keyword"></input>
-      <div
-        onMouseOver={() => setDropdown(true)}
-        onMouseLeave={() => setDropdown(false)}
-        className="search-dropdown">
-        {searchTermDropdown} <span className="chevron bottom"></span>
-        {dropdown && (
-          <div className="search-dropdown-item-list">
-            <div
-              onClick={(e) => {
-                setDropdown(false);
-                setSearchTermDropdown(e.target.textContent);
-              }}
-              className="search-dropdown-item">
-              All
+    <div className="search-bar-wrapper">
+      <div className="search-bar-container">
+        <input
+          onChange={(e) => setSearchTerm(e.target.value)}
+          placeholder="Type Keyword"></input>
+        <div onClick={() => setDropdown(!dropdown)} className="search-dropdown">
+          {searchTermDropdown} <span className="chevron bottom"></span>
+          {dropdown && (
+            <div className="search-dropdown-item-list">
+              <div
+                onClick={(e) => {
+                  setDropdown(false);
+                  setSearchTermDropdown(e.target.textContent);
+                }}
+                className="search-dropdown-item">
+                All
+              </div>
+              <div
+                onClick={(e) => {
+                  setDropdown(false);
+                  setSearchTermDropdown(e.target.textContent);
+                }}
+                className="search-dropdown-item">
+                Perspectives
+              </div>
+              <div
+                onClick={(e) => {
+                  setDropdown(false);
+                  setSearchTermDropdown(e.target.textContent);
+                }}
+                className="search-dropdown-item">
+                Offerings
+              </div>
+              <div
+                onClick={(e) => {
+                  setDropdown(false);
+                  setSearchTermDropdown(e.target.textContent);
+                }}
+                className="search-dropdown-item">
+                Case Studies
+              </div>
             </div>
-            <div
-              onClick={(e) => {
-                setDropdown(false);
-                setSearchTermDropdown(e.target.textContent);
-              }}
-              className="search-dropdown-item">
-              Perspectives
-            </div>
-            <div
-              onClick={(e) => {
-                setDropdown(false);
-                setSearchTermDropdown(e.target.textContent);
-              }}
-              className="search-dropdown-item">
-              Offerings
-            </div>
-            <div
-              onClick={(e) => {
-                setDropdown(false);
-                setSearchTermDropdown(e.target.textContent);
-              }}
-              className="search-dropdown-item">
-              Case Studies
-            </div>
-          </div>
-        )}
+          )}
+        </div>
+        <Button onClick={sumbitSearch} name="Search" />
       </div>
-      <Button onClick={sumbitSearch} name="Search" />
     </div>
   );
 }

@@ -24,17 +24,20 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
       </li>
       <li
         onClick={(event) => {
-          if (event.target.getAttribute("data-option") == "link") {
-            setServiceHovered(!servicesHovered);
-          }
-          if (resourcesHovered == true) {
-            setResHovered(!resourcesHovered);
+          if (
+            event.target.getAttribute("data-option") == "link" &&
+            servicesHovered == false
+          ) {
+            setServiceHovered(true);
           }
         }}
         className={`main-nav-link ${
           pathname.includes("/offerings") ? "active" : ""
         }`}>
-        <Link data-option="link" className="link-with-down-arrow" href="">
+        <Link
+          data-option="link"
+          className="link-with-down-arrow"
+          href={servicesHovered ? "/offerings" : ""}>
           Offerings
           {/* <span className="w-[8px] h-[8px] relative">
             <Image

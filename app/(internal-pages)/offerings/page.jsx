@@ -15,6 +15,7 @@ import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Path5 from "@/app/ui/global/path-5";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
+import OfferingGlobeAnimation from "@/app/ui/global/globe-animation";
 
 export const metadata = {
   title: "Delivering Innovative Solutions to Help Businesses Grow – Qcentrio",
@@ -40,14 +41,14 @@ export default function ServicesListing() {
 function ServiceListingHeadSection() {
   return (
     <div className="balance-section service-listing-heading-section">
-      <div>
-        <Image
+      {/* <Image
           data-option="left"
           className="globe-image hidden-left animate"
           src={globe}
           alt=""
-        />
-      </div>
+        /> */}
+      <OfferingGlobeAnimation />
+
       <div>
         <h1 className="heading1">OUR SERVICES</h1>
         <h2

@@ -118,6 +118,17 @@ body {
   zoom: 1;
 }
 
+#canvas{
+  background-color: white;
+  position: relative;
+}
+
+#canvas > canvas{
+  position: absolute;
+  top: -159px;
+  left: -535px;
+}
+
 .globe-animation {
   width: 100%;
   height: 100%; 
@@ -3609,10 +3620,14 @@ th, td {
   border-radius: 10px;
 } 
 
+.search-bar-wrapper{
+  margin-left: -140px;
+}
+
 .search-bar-container input{
   width: 500px;
   border: none;
-  border-right: 2px solid #f9f9f9;
+  border-right: 1px solid #f9f9f9;
 }
 
 .search-bar-container input:focus{
@@ -3627,11 +3642,15 @@ th, td {
 .search-dropdown{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0px 30px;
   font-family: "Quadran-Light";
   position: relative;
   width: 200px;
+}
+
+.search-dropdown .chevron::before{
+  border-color: var(--primary-color);
 }
 
 .search-page-heading-section{
@@ -3704,9 +3723,10 @@ th, td {
   left: 0;
   background-color: white;
   width: 100%;
-  border: 1px solid rgba(112,112,112, 0.05);
-  border-bottom: 0px;
-  border-radius: 3px;
+  border-bottom: 1px solid rgba(112,112,112, 0.05);
+  border-left: 1px solid rgba(112,112,112, 0.05);
+  border-right: 1px solid rgba(112,112,112, 0.05);
+  /* border-radius: 3px; */
 }
 
 .search-dropdown-item{
@@ -4334,8 +4354,10 @@ th, td {
   position: relative;
 }
 
-.service-listing-heading-section div {
+.service-listing-heading-section > div {
+  width: 50%;
   flex: 1;
+  height: 500px;
 }
 
 .service-listing-heading-section .heading1 {
@@ -4864,7 +4886,7 @@ th, td {
   justify-content: center;
   align-items: center;
   /* min-height: 100vh; */
-  background-color: black; 
+  /* background-color: black;  */
   overflow: hidden;
   position: relative;
 }
@@ -5122,7 +5144,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0s alternate both;
    -moz-animation: pulsate .5s infinite 0s alternate both;
    animation: pulsate .5s infinite 0s alternate both;
-   background: #ff9955;
+   background: #089768;
 }
 
 .spoke-1 .dot,
@@ -5131,7 +5153,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.05555556s alternate both;
    -moz-animation: pulsate .5s infinite 0.05555556s alternate both;
    animation: pulsate .5s infinite 0.05555556s alternate both;
-   background: #ffb255;
+   background: #129a6d;
 }
 
 .spoke-2 .dot,
@@ -5140,7 +5162,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.11111111s alternate both;
    -moz-animation: pulsate .5s infinite 0.11111111s alternate both;
    animation: pulsate .5s infinite 0.11111111s alternate both;
-   background: #ffd255;
+   background: #2d9d78;
 }
 
 .spoke-3 .dot,
@@ -5149,7 +5171,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.16666667s alternate both;
    -moz-animation: pulsate .5s infinite 0.16666667s alternate both;
    animation: pulsate .5s infinite 0.16666667s alternate both;
-   background: #ffee55;
+   background: #41977a;
 }
 
 .spoke-4 .dot,
@@ -5158,7 +5180,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.22222222s alternate both;
    -moz-animation: pulsate .5s infinite 0.22222222s alternate both;
    animation: pulsate .5s infinite 0.22222222s alternate both;
-   background: #f4ff55;
+   background: #589480;
 }
 
 .spoke-5 .dot,
@@ -5167,7 +5189,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.27777778s alternate both;
    -moz-animation: pulsate .5s infinite 0.27777778s alternate both;
    animation: pulsate .5s infinite 0.27777778s alternate both;
-   background: #d7ff55;
+   background: #648e80;
 }
 
 .spoke-6 .dot,
@@ -5176,7 +5198,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.33333333s alternate both;
    -moz-animation: pulsate .5s infinite 0.33333333s alternate both;
    animation: pulsate .5s infinite 0.33333333s alternate both;
-   background: #bbff55;
+   background: #678b7f;
 }
 
 .spoke-7 .dot,
@@ -5185,7 +5207,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.38888889s alternate both;
    -moz-animation: pulsate .5s infinite 0.38888889s alternate both;
    animation: pulsate .5s infinite 0.38888889s alternate both;
-   background: #9fff55;
+   background: #6d8c81;
 }
 
 .spoke-8 .dot,
@@ -5194,7 +5216,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.44444444s alternate both;
    -moz-animation: pulsate .5s infinite 0.44444444s alternate both;
    animation: pulsate .5s infinite 0.44444444s alternate both;
-   background: #82ff55;
+   background: #769087;
 }
 
 .spoke-9 .dot,
@@ -5203,7 +5225,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.5s alternate both;
    -moz-animation: pulsate .5s infinite 0.5s alternate both;
    animation: pulsate .5s infinite 0.5s alternate both;
-   background: #66ff55;
+   background: #7f938c;
 }
 
 .spoke-10 .dot,
@@ -5212,7 +5234,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.55555556s alternate both;
    -moz-animation: pulsate .5s infinite 0.55555556s alternate both;
    animation: pulsate .5s infinite 0.55555556s alternate both;
-   background: #55ff60;
+   background: #616b68;
 }
 
 .spoke-11 .dot,
@@ -5221,7 +5243,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.61111111s alternate both;
    -moz-animation: pulsate .5s infinite 0.61111111s alternate both;
    animation: pulsate .5s infinite 0.61111111s alternate both;
-   background: #55ff7d;
+   background: #505554;
 }
 
 .spoke-12 .dot,
@@ -5230,7 +5252,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.66666666s alternate both;
    -moz-animation: pulsate .5s infinite 0.66666666s alternate both;
    animation: pulsate .5s infinite 0.66666666s alternate both;
-   background: #55ff99;
+   background: #515454;
 }
 
 .spoke-13 .dot,
@@ -5239,7 +5261,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.72222222s alternate both;
    -moz-animation: pulsate .5s infinite 0.72222222s alternate both;
    animation: pulsate .5s infinite 0.72222222s alternate both;
-   background: #55ffb5;
+   background: #404242;
 }
 
 .spoke-14 .dot,
@@ -5248,7 +5270,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.77777778s alternate both;
    -moz-animation: pulsate .5s infinite 0.77777778s alternate both;
    animation: pulsate .5s infinite 0.77777778s alternate both;
-   background: #55ffd2;
+   background: #2f3030;
 }
 
 .spoke-15 .dot,
@@ -5257,7 +5279,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.82333333s alternate both;
    -moz-animation: pulsate .5s infinite 0.82333333s alternate both;
    animation: pulsate .5s infinite 0.82333333s alternate both;
-   background: #55ffee;
+   background: #2c2d2d;
 }
 
 .spoke-16 .dot,
@@ -5266,7 +5288,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.88888888s alternate both;
    -moz-animation: pulsate .5s infinite 0.88888888s alternate both;
    animation: pulsate .5s infinite 0.88888888s alternate both;
-   background: #55f4ff;
+   background: #1d1e1e;
 }
 
 .spoke-17 .dot,
@@ -5275,7 +5297,7 @@ th, td {
    -o-animation: pulsate .5s infinite 0.94444444s alternate both;
    -moz-animation: pulsate .5s infinite 0.94444444s alternate both;
    animation: pulsate .5s infinite 0.94444444s alternate both;
-   background: #55f7ff;
+   background: #1b1c1c;
 }
 
 .spoke-18 .dot,
@@ -5284,7 +5306,7 @@ th, td {
    -o-animation: pulsate .5s infinite 1s alternate both;
    -moz-animation: pulsate .5s infinite 1s alternate both;
    animation: pulsate .5s infinite 1s alternate both;
-   background: #55f7ff;
+   background: #0d0d0d;
 }
 
 @keyframes rotate3D {

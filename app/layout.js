@@ -7,15 +7,14 @@ import dynamic from "next/dynamic";
 import Animate from "./ui/global/animate";
 import Script from "next/script";
 import CookieConsent from "./ui/global/cookie-consent";
-import { getCookie } from "cookies-next";
-import { cookies } from "next/headers";
 import Image from "next/image";
 import cookieImage from "@/public/cookie.svg";
+import { checkCookie } from "./lib/utils";
 const Cursor = dynamic(() => import("./ui/global/cursor"), { ssr: false });
 
-export default function RootLayout({ children }) {
-  const cookieStore = cookies();
-  const consent = cookieStore.get("qcentrio-cookie-consent");
+export default async function RootLayout({ children }) {
+  const consent = await checkCookie();
+  console.log(consent);
   return (
     <html lang="en">
       <head></head>

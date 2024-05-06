@@ -109,7 +109,7 @@ function ServicesOfSubService({ data }) {
       </h2>
       <div className="services-of-sub-service-holder">
         <div className="subservice-aniation-container">
-          {/* <SubserviceAnimation /> */}
+          <SubserviceAnimation />
         </div>
         {data.list.map((item, index) => {
           return (

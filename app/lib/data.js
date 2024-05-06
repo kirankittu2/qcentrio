@@ -54,6 +54,8 @@ import oracleBanner from "@/public/oracle-cerner-advisory-services/main-bg.png";
 import riskBanner from "@/public/risk-advisory-services/main-bg.png";
 import blockchainStrategyBanner from "@/public/blockchain-strategy-and-advisory/main-bg.png";
 import blckchainSecurityBanner from "@/public/blockchain-security-and--compliance-solutions/main-bg.png";
+import blckchainSolutionBanner from "@/public/blockchain-solution-development/main-bg.png";
+import bolckchainIntegrationBanner from "@/public/blockchain-integration-and-deployment-services/main-bg.png";
 import erpIcon1 from "@/public/erp-solutions-support/01_02.svg";
 import erpIcon2 from "@/public/erp-solutions-support/02_02.svg";
 import erpIcon3 from "@/public/erp-solutions-support/03_02.svg";
@@ -113,6 +115,12 @@ import blockchainStrategy3 from "@/public/blockchain-strategy-and-advisory/third
 import blckchainSecurity1 from "@/public/blockchain-security-and--compliance-solutions/third-image-1.png";
 import blckchainSecurity2 from "@/public/blockchain-security-and--compliance-solutions/third-image-2.png";
 import blckchainSecurity3 from "@/public/blockchain-security-and--compliance-solutions/third-image-3.png";
+import blckchainSolution1 from "@/public/blockchain-solution-development/third-image-1.png";
+import blckchainSolution2 from "@/public/blockchain-solution-development/third-image-2.png";
+import blckchainSolution3 from "@/public/blockchain-solution-development/third-image-3.png";
+import blockchainIntegration1 from "@/public/blockchain-integration-and-deployment-services/third-image-1.png";
+import blockchainIntegration2 from "@/public/blockchain-integration-and-deployment-services/third-image-2.png";
+import blockchainIntegration3 from "@/public/blockchain-integration-and-deployment-services/third-image-3.png";
 // import product3 from "@/public/product-engineering-services/third-image-3.png";
 import currency from "@/public/currency.svg";
 
@@ -3507,6 +3515,7 @@ const subServicePagesContent = {
         link: "/offerings/blockchain-advisory-and-offerings",
         current: "Blockchain Integration and Deployment Services",
       },
+      bannerImage: bolckchainIntegrationBanner,
       contactHead:
         "Experience next-gen blockchain solutions for secured and seamless operation",
       contentSection: {
@@ -3530,7 +3539,8 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "Blockchain Strategy and Consultation",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/blockchain-integration-and-deployment-services/secondary-image-1.png",
             icon: currency,
             content:
               "Create a distinct and impactful blockchain strategy specifically crafted to align with your business goals, positioning you to outpace competitors in the evolving digital landscape. We provide expert insights into blockchain technology trends and help you identify strategic opportunities for its application.",
@@ -3538,7 +3548,8 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "Custom Blockchain Integration",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/blockchain-integration-and-deployment-services/secondary-image-2.png",
             icon: currency,
             content:
               "Seamlessly integrate blockchain technology into your existing systems, enhancing security and operational efficiency and streamlining business processes for improved agility without disrupting your operations. Our integration services also include comprehensive risk assessments to ensure the new technology complements your IT landscape.",
@@ -3546,7 +3557,8 @@ const subServicePagesContent = {
           {
             num: "03",
             heading: "Blockchain Deployment",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/blockchain-integration-and-deployment-services/secondary-image-3.png",
             icon: currency,
             content:
               "Execute and deploy tailored blockchain solutions that are meticulously optimized for your specific business environment to meet your unique operational demands. We ensure these solutions are robust and flexible enough to adapt to future changes and technological advancements.",
@@ -3554,7 +3566,8 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "Post-Deployment Support and Maintenance",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/blockchain-integration-and-deployment-services/secondary-image-4.png",
             icon: currency,
             content:
               "Get continuous support and maintenance for your blockchain solutions, ensuring they operate at peak performance, any issues are promptly resolved, and business continuity is assured. Our dedicated team monitors system health around the clock to pre-emptively address potential disruptions.",
@@ -3562,7 +3575,8 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "Blockchain Scalability Solutions",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/blockchain-integration-and-deployment-services/secondary-image-5.png",
             icon: currency,
             content:
               "Design your blockchain architecture to scale effortlessly with your business growth, managing increased transactions and data volumes without compromising performance. We utilize leading-edge technologies and frameworks to ensure your blockchain solution can handle evolving workload demands.",
@@ -3570,7 +3584,8 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "Smart Contract Auditing",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/blockchain-integration-and-deployment-services/secondary-image-6.png",
             icon: currency,
             content:
               "Conduct comprehensive audits of smart contracts to verify their security and functionality before deployment, minimizing potential risks and ensuring reliability. Our auditing process involves multiple verification stages to catch and correct any flaws or inefficiencies.",
@@ -3578,7 +3593,8 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "Decentralized Identity Solutions",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/blockchain-integration-and-deployment-services/secondary-image-7.png",
             icon: currency,
             content:
               " Implement advanced blockchain-based identity verification systems to bolster security and protect user privacy, ensuring the confidentiality of sensitive customer information. These solutions provide a more secure and efficient method of managing identities than traditional models.",
@@ -3586,7 +3602,8 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "Cross-Chain Integration Services",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/blockchain-integration-and-deployment-services/secondary-image-8.png",
             icon: currency,
             content:
               "These services facilitate interoperability across different blockchain platforms, enhancing functionality and broadening the scope of potential applications while ensuring seamless data flow between systems. We employ advanced protocols for secure and efficient communication across various blockchain networks.",
@@ -3597,19 +3614,19 @@ const subServicePagesContent = {
         mainHeading: "Leverage Blockchain Across Various Industries",
         list: [
           {
-            icon: healthcare,
+            icon: finace,
             heading: "Finance",
             content:
               "Secure financial transactions and automate record-keeping, reducing fraud and enhancing compliance.",
           },
           {
-            icon: finace,
+            icon: healthcare,
             heading: "Healthcare",
             content:
               "Improve the security of patient records and enhance data sharing across providers with blockchain solutions.",
           },
           {
-            icon: manufacturing,
+            icon: supplyChain,
             heading: "Supply Chain",
             content:
               "Increase transparency and traceability in supply chains, reducing delays and potential fraud.",
@@ -3621,7 +3638,7 @@ const subServicePagesContent = {
               "Enhance public sector transparency and trust by securely storing and managing sensitive data.",
           },
           {
-            icon: manufacturing,
+            icon: retail,
             heading: "Retail",
             content:
               "Streamline inventory management and enhance consumer trust through transparent supply chain verification.",
@@ -3639,7 +3656,7 @@ const subServicePagesContent = {
               "Reduce fraud and automate claims processing with immutable and transparent record-keeping.",
           },
           {
-            icon: manufacturing,
+            icon: telecommunication,
             heading: "Telecommunications",
             content:
               "Enhance security and efficiency in billing systems and secure sensitive customer data.",
@@ -3651,19 +3668,19 @@ const subServicePagesContent = {
           "Why Choose Qcentrio for Blockchain Integration and Deployment?",
         list: [
           {
-            image: whyChooseImg1,
+            image: blockchainIntegration1,
             heading: "Expertise in Blockchain Technology",
             content:
               "Rely on our deep expertise to deliver blockchain solutions that drive real business results.",
           },
           {
-            image: whyChooseImg2,
+            image: blockchainIntegration2,
             heading: "Enhanced Security and Efficiency",
             content:
               "With blockchain, experience enhanced security and operational efficiency, safeguarding your transactions and data.",
           },
           {
-            image: whyChooseImg3,
+            image: blockchainIntegration3,
             heading: "Comprehensive Support",
             content:
               "From strategy to post-deployment, our team is with you every step, ensuring your blockchain solutions are always at peak performance.",
@@ -3876,6 +3893,7 @@ const subServicePagesContent = {
         link: "/offerings/blockchain-advisory-and-offerings",
         current: "Blockchain Solution Development",
       },
+      bannerImage: blckchainSolutionBanner,
       contactHead:
         "Integrate blockchain into your business to unlock innovation and drive business success",
       contentSection: {
@@ -3898,7 +3916,7 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "Blockchain Consultancy and Custom Solutions",
-            image: "/business-value-enhancement-services.png",
+            image: "/blockchain-solution-development/secondary-image-1.png",
             icon: currency,
             content:
               "Navigate the complexities of blockchain technology with expert consultation that tailors strategic solutions to enhance business efficiency and security, along with receiving personalized services closely aligned with your business goals. This ensures a deep understanding of your specific needs and the creation of perfectly aligned blockchain strategies.",
@@ -3906,7 +3924,7 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "Smart Contract Development and Security Solutions",
-            image: "/business-value-enhancement-services.png",
+            image: "/blockchain-solution-development/secondary-image-2.png",
             icon: currency,
             content:
               "Automate and secure business agreements using advanced smart contracts on platforms like Ethereum and Hyperledger while protecting blockchain infrastructures with advanced security protocols that ensure the integrity and trustworthiness of digital transactions. This dual focus enhances both the functionality and security of your blockchain operations.",
@@ -3914,7 +3932,7 @@ const subServicePagesContent = {
           {
             num: "03",
             heading: "Blockchain Architecture Design and Network Management",
-            image: "/business-value-enhancement-services.png",
+            image: "/blockchain-solution-development/secondary-image-3.png",
             icon: currency,
             content:
               " Develop a robust and scalable blockchain infrastructure tailored to meet unique business requirements and efficiently manage various types of blockchain networks—public, private, or consortium. This integrated service provides end-to-end solutions from design to deployment, ensuring high performance and security.",
@@ -3923,7 +3941,7 @@ const subServicePagesContent = {
             num: "04",
             heading:
               "Decentralized Applications (DApps) Development and Integration",
-            image: "/business-value-enhancement-services.png",
+            image: "/blockchain-solution-development/secondary-image-4.png",
             icon: currency,
             content:
               "Create custom decentralized applications built on blockchain technology to enhance security, user experience, and functionality, and enhance existing systems by integrating blockchain technology to improve transparency and operational efficiency. This service makes each application decentralized, secure, and seamlessly integrated with existing workflows.",
@@ -3931,7 +3949,7 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "Tokenization and Blockchain for Supply Chain Management",
-            image: "/business-value-enhancement-services.png",
+            image: "/blockchain-solution-development/secondary-image-5.png",
             icon: currency,
             content:
               "Comprehensive tokenization strategies unlock new possibilities in asset management and value exchange, transforming supply chain operations with blockchain technology to enhance traceability and efficiency. This service offers innovative solutions for asset management and operational challenges in supply chains.",
@@ -3939,7 +3957,7 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "Ongoing Blockchain Support and Performance Optimization",
-            image: "/business-value-enhancement-services.png",
+            image: "/blockchain-solution-development/secondary-image-6.png",
             icon: currency,
             content:
               "Benefit from continuous expert support and maintenance, ensuring blockchain systems are consistently updated, secure, and performing optimally. Our ongoing support ensures your blockchain solutions adapt to technological advancements and changing business needs.",
@@ -3947,7 +3965,7 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "Blockchain Network Design and Scalability Solutions",
-            image: "/business-value-enhancement-services.png",
+            image: "/blockchain-solution-development/secondary-image-7.png",
             icon: currency,
             content:
               "Custom-design blockchain infrastructure that supports business goals with robust, scalable, and secure networks, tailored to include all aspects of network architecture, consensus mechanisms, and governance models. This ensures your blockchain solutions are scalable and can grow with your business.",
@@ -3955,7 +3973,7 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "Regulatory Compliance and Privacy Solutions",
-            image: "/business-value-enhancement-services.png",
+            image: "/blockchain-solution-development/secondary-image-8.png",
             icon: currency,
             content:
               "Ensure your blockchain solutions comply with legal standards such as GDPR and HIPAA, incorporating privacy-by-design principles to manage data securely and legally. This service is crucial for maintaining compliance and safeguarding user privacy across all blockchain operations.",
@@ -3966,31 +3984,31 @@ const subServicePagesContent = {
         mainHeading: "Blockchain Solutions Tailored for Every Industry",
         list: [
           {
-            icon: healthcare,
+            icon: finace,
             heading: "Financial Services",
             content:
               "Secure transactions and automate compliance processes with blockchain to revolutionize financial operations.",
           },
           {
-            icon: finace,
+            icon: healthcare,
             heading: "Healthcare",
             content:
               ": Ensure patient data integrity and security while enabling transparent access with blockchain solutions.",
           },
           {
-            icon: manufacturing,
+            icon: supplyChain,
             heading: "Supply Chain Management",
             content:
               "Enhance transparency and traceability in supply chains through decentralized blockchain networks.",
           },
           {
-            icon: engineering,
+            icon: energy,
             heading: "Energy",
             content:
               "Optimize energy distribution and trading systems with blockchain for increased transparency and efficiency.",
           },
           {
-            icon: aerospace,
+            icon: media,
             heading: "Media and Entertainment",
             content:
               "Protect intellectual property rights and streamline royalty payments through blockchain technology.",
@@ -4007,19 +4025,19 @@ const subServicePagesContent = {
         mainHeading: "Why Choose Qcentrio for Blockchain Development?",
         list: [
           {
-            image: whyChooseImg1,
+            image: blckchainSolution1,
             heading: "Customized Solutions",
             content:
               "Our blockchain services are tailored to meet your business's unique challenges and demands.",
           },
           {
-            image: whyChooseImg2,
+            image: blckchainSolution2,
             heading: "Expertise and Experience",
             content:
               "Rely on our extensive expertise in blockchain technology to deliver innovative and effective solutions.",
           },
           {
-            image: whyChooseImg3,
+            image: blckchainSolution3,
             heading: "Enhanced Security",
             content:
               "With blockchain, experience unprecedented security levels that protect your transactions and data integrity.",
