@@ -2,6 +2,7 @@ import Image from "next/image";
 import Button from "./button";
 import SocialLinks from "./social-links";
 import Link from "next/link";
+import FooterEmail from "./footer-email";
 
 export default function Footer() {
   return (
@@ -126,14 +127,7 @@ export default function Footer() {
                 </label>
               </div>
             </div>
-            <div
-              data-option="up"
-              className="lets-talk-container animate animate-hidden">
-              <input type="text" placeholder="Email Address" />
-              <div className="input-btn">
-                <Button name="Subscribe" />
-              </div>
-            </div>
+            <FooterEmail />
           </div>
         </div>
       </div>

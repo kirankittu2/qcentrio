@@ -227,27 +227,27 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
     },
     {
       content:
-        "Specializing in AI solutions to revolutionize and drive business growth.",
+        "Streamline operations, unlock data insights, and innovate with our end-to-end advanced technology solutions.",
       link: "/offerings/advanced-technology-solutions",
     },
     {
       content:
-        "Specializing in AI solutions to revolutionize and drive business growth.",
+        "Navigate complexity, mitigate risk, and thrive with our tailored advisory and strategic services.",
       link: "/offerings/advisory-and-strategic-services",
     },
     {
       content:
-        "Specializing in AI solutions to revolutionize and drive business growth.",
+        "Transform data into actionable insights for smarter decisions and a more efficient business.",
       link: "/offerings/business-optimization-and-analytics-services",
     },
     {
       content:
-        "Specializing in AI solutions to revolutionize and drive business growth.",
+        "Securely navigate the future of transactions with our comprehensive blockchain strategy, development, and integration services",
       link: "/offerings/blockchain-advisory-and-offerings",
     },
     {
       content:
-        "Specializing in AI solutions to revolutionize and drive business growth.",
+        "Empower your business with secure, scalable cloud solutions: Infrastructure, platforms, security, and ongoing support.",
       link: "/offerings/cloud-infra-and-security-services",
     },
   ];

@@ -49,31 +49,17 @@ export default function OfferingGlobeAnimation() {
     const controls = new OrbitControls(camera, canvas);
     controls.enableZoom = false;
 
-    // Resize Handler
-    // function handleResize() {
-    //   camera.aspect = window.innerWidth / window.innerHeight;
-    //   camera.updateProjectionMatrix();
-    //   renderer.setSize(window.innerWidth, window.innerHeight);
-    // }
-
-    // window.addEventListener("resize", handleResize);
-
     // Animation Loop
     function animate() {
       requestAnimationFrame(animate);
       controls.update();
-      mesh.rotation.y = Date.now() * 0.00006;
-      mesh.rotation.x = Date.now() * -0.00002;
+      mesh.rotation.y = Date.now() * 0.00009;
+      mesh.rotation.x = Date.now() * -0.00009;
       renderer.render(scene, camera);
       updateScreenPosition(renderer, camera);
     }
 
     animate();
-
-    // Clean up
-    // return () => {
-    //   window.removeEventListener("resize", handleResize);
-    // };
   }, []);
 
   // Update Screen Position

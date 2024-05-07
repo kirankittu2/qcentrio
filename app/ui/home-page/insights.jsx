@@ -31,7 +31,6 @@ export default function Insignts({ title, subheading }) {
     let isScrolled = false;
 
     function handleScroll() {
-      console.log("Hello");
       isScrolled = true;
       const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {

@@ -56,6 +56,19 @@ import blockchainStrategyBanner from "@/public/blockchain-strategy-and-advisory/
 import blckchainSecurityBanner from "@/public/blockchain-security-and--compliance-solutions/main-bg.png";
 import blckchainSolutionBanner from "@/public/blockchain-solution-development/main-bg.png";
 import bolckchainIntegrationBanner from "@/public/blockchain-integration-and-deployment-services/main-bg.png";
+import roboticsBanner from "@/public/robotic-process-automation-offerings/main-bg.png";
+import dataAnalystBanner from "@/public/data-analytics-and-business-intelligence-services/main-bg.png";
+import gcpBanner from "@/public/gcp-services-and-support/main-bg.png";
+import crmBanner from "@/public/crm-system-solutions/main-bg.png";
+import genAiBanner from "@/public/generative-ai-solutions-and-offerings/main-bg.png";
+import aimlBanner from "@/public/ai-and-ml-services/main-bg.png";
+import azureBanner from "@/public/azure-cloud-services/main-bg.png";
+import itsupportBanner from "@/public/continuous-it-support-and-managed-services/main-bg.png";
+import awsBanner from "@/public/aws-services-and-support/main-bg.png";
+import cloudBanner from "@/public/cloud-infrastructure-services/main-bg.png";
+import salesforceBanner from "@/public/salesforce-integration-and-optimization/main-bg.png";
+import cyberBanner from "@/public/cybersecurity-solutions-and-services/main-bg.png";
+import offshoreBanner from "@/public/offshore-development-centre-services/main-bg.png";
 import erpIcon1 from "@/public/erp-solutions-support/01_02.svg";
 import erpIcon2 from "@/public/erp-solutions-support/02_02.svg";
 import erpIcon3 from "@/public/erp-solutions-support/03_02.svg";
@@ -94,6 +107,7 @@ import software2 from "@/public/software-and-application-development/third-image
 import software3 from "@/public/software-and-application-development/third-image-3.png";
 import product1 from "@/public/product-engineering-services/third-image-1.png";
 import product2 from "@/public/product-engineering-services/third-image-2.png";
+// import product3 from "@/public/product-engineering-services/third-image-3.png";
 import audit1 from "@/public/audit-and-assurance-services/third-image-1.png";
 import audit2 from "@/public/audit-and-assurance-services/third-image-2.png";
 import audit3 from "@/public/audit-and-assurance-services/third-image-3.png";
@@ -121,7 +135,45 @@ import blckchainSolution3 from "@/public/blockchain-solution-development/third-i
 import blockchainIntegration1 from "@/public/blockchain-integration-and-deployment-services/third-image-1.png";
 import blockchainIntegration2 from "@/public/blockchain-integration-and-deployment-services/third-image-2.png";
 import blockchainIntegration3 from "@/public/blockchain-integration-and-deployment-services/third-image-3.png";
-// import product3 from "@/public/product-engineering-services/third-image-3.png";
+import robotics1 from "@/public/robotic-process-automation-offerings/third-image-1.png";
+import robotics2 from "@/public/robotic-process-automation-offerings/third-image-2.png";
+import robotics3 from "@/public/robotic-process-automation-offerings/third-image-3.png";
+import crm1 from "@/public/crm-system-solutions/third-image-1.png";
+import crm2 from "@/public/crm-system-solutions/third-image-2.png";
+import crm3 from "@/public/crm-system-solutions/third-image-3.png";
+import dataAnalyst1 from "@/public/data-analytics-and-business-intelligence-services/third-image-1.png";
+import dataAnalyst2 from "@/public/data-analytics-and-business-intelligence-services/third-image-2.png";
+import dataAnalyst3 from "@/public/data-analytics-and-business-intelligence-services/third-image-3.png";
+import gcp1 from "@/public/gcp-services-and-support/third-image-1.png";
+import gcp2 from "@/public/gcp-services-and-support/third-image-2.png";
+import gcp3 from "@/public/gcp-services-and-support/third-image-3.png";
+import genAi1 from "@/public/generative-ai-solutions-and-offerings/third-image-1.png";
+import genAi2 from "@/public/generative-ai-solutions-and-offerings/third-image-2.png";
+import genAi3 from "@/public/generative-ai-solutions-and-offerings/third-image-3.png";
+import aiml1 from "@/public/ai-and-ml-services/third-image-1.png";
+import aiml2 from "@/public/ai-and-ml-services/third-image-2.png";
+import aiml3 from "@/public/ai-and-ml-services/third-image-3.png";
+import azure1 from "@/public/azure-cloud-services/third-image-1.png";
+import azure2 from "@/public/azure-cloud-services/third-image-2.png";
+import azure3 from "@/public/azure-cloud-services/third-image-3.png";
+import itsupport1 from "@/public/continuous-it-support-and-managed-services/third-image-1.png";
+import itsupport2 from "@/public/continuous-it-support-and-managed-services/third-image-2.png";
+import itsupport3 from "@/public/continuous-it-support-and-managed-services/third-image-3.png";
+import aws1 from "@/public/aws-services-and-support/third-image-1.png";
+import aws2 from "@/public/aws-services-and-support/third-image-2.png";
+import aws3 from "@/public/aws-services-and-support/third-image-3.png";
+import cloud1 from "@/public/cloud-infrastructure-services/third-image-1.png";
+import cloud2 from "@/public/cloud-infrastructure-services/third-image-2.png";
+import cloud3 from "@/public/cloud-infrastructure-services/third-image-3.png";
+import salesforce1 from "@/public/salesforce-integration-and-optimization/third-image-1.png";
+import salesforce2 from "@/public/salesforce-integration-and-optimization/third-image-2.png";
+import salesforce3 from "@/public/salesforce-integration-and-optimization/third-image-3.png";
+import cyber1 from "@/public/cybersecurity-solutions-and-services/third-image-1.png";
+import cyber2 from "@/public/cybersecurity-solutions-and-services/third-image-2.png";
+import cyber3 from "@/public/cybersecurity-solutions-and-services/third-image-3.png";
+import offshore1 from "@/public/offshore-development-centre-services/third-image-1.png";
+import offshore2 from "@/public/offshore-development-centre-services/third-image-2.png";
+import offshore3 from "@/public/offshore-development-centre-services/third-image-3.png";
 import currency from "@/public/currency.svg";
 
 const blogs = {
@@ -4427,6 +4479,7 @@ const subServicePagesContent = {
         link: "/offerings/business-optimization-and-analytics-services",
         current: "CRM System Solutions",
       },
+      bannerImage: crmBanner,
       contactHead: "Transform your customer relationships today",
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
@@ -4447,7 +4500,7 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "Salesforce Implementation",
-            image: "/business-value-enhancement-services.png",
+            image: "/crm-system-solutions/secondary-image-1.png",
             icon: currency,
             content:
               "With our end-to-end implementation services, you can tap into Salesforce's full potential for complete customer relationship management and marketing automation. Our expert team guides you through the customization and deployment process, ensuring your system is optimized for your business needs.",
@@ -4455,7 +4508,7 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "Microsoft Dynamics CRM",
-            image: "/business-value-enhancement-services.png",
+            image: "/crm-system-solutions/secondary-image-2.png",
             icon: currency,
             content:
               "Experience flexibility with Microsoft Dynamics CRM, custom-made to enhance customer engagement and business processes through customization and seamless integration. We provide training and support to help your team maximize the platform's capabilities.",
@@ -4463,7 +4516,7 @@ const subServicePagesContent = {
           {
             num: "03",
             heading: "SAP CRM Services",
-            image: "/business-value-enhancement-services.png",
+            image: "/crm-system-solutions/secondary-image-3.png",
             icon: currency,
             content:
               "Utilize SAP CRM's robust functionality to gain deep customer insights and streamline operations, personalized to fit your business model. Our services include system adjustments and enhancements that ensure SAP CRM aligns perfectly with your business processes.",
@@ -4471,7 +4524,7 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "CRM Optimization and Analytics",
-            image: "/business-value-enhancement-services.png",
+            image: "/crm-system-solutions/secondary-image-4.png",
             icon: currency,
             content:
               "Maximize your CRM's performance with our optimization strategies and analytics insights, ensuring you capture and utilize every piece of customer data effectively. We improve user interfaces and workflows to enhance user adoption and data quality.",
@@ -4479,7 +4532,7 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "Custom CRM Development",
-            image: "/business-value-enhancement-services.png",
+            image: "/crm-system-solutions/secondary-image-5.png",
             icon: currency,
             content:
               "Get a CRM solution built from the ground up to address your business needs with custom features that fit your company's workflow. This bespoke solution is designed to integrate smoothly with your existing technology stack.",
@@ -4487,7 +4540,7 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "CRM Migration Services",
-            image: "/business-value-enhancement-services.png",
+            image: "/crm-system-solutions/secondary-image-6.png",
             icon: currency,
             content:
               "Transition to a more efficient system with our seamless CRM migration services, ensuring no data is lost and every team member is up to speed with new tools. We provide comprehensive change management to minimize disruption during the migration process.",
@@ -4495,7 +4548,7 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "CRM Training and User Adoption",
-            image: "/business-value-enhancement-services.png",
+            image: "/crm-system-solutions/secondary-image-7.png",
             icon: currency,
             content:
               "Enhance your team's proficiency with customized training programs designed to accelerate user adoption and maximize the utility of your CRM system. We ensure all users are confident in utilizing the system, which is crucial for achieving the desired ROI.",
@@ -4503,7 +4556,7 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "CRM Integration Services",
-            image: "/business-value-enhancement-services.png",
+            image: "/crm-system-solutions/secondary-image-8.png",
             icon: currency,
             content:
               "Seamlessly integrate your CRM with other essential business systems, such as ERP, marketing automation tools, and customer service platforms. This integration facilitates a unified view of customer interactions across all touchpoints, enhancing service delivery and customer satisfaction.",
@@ -4532,7 +4585,7 @@ const subServicePagesContent = {
               "Streamlined sales processes and customer service in manufacturing CRM.",
           },
           {
-            icon: engineering,
+            icon: retail,
             heading: "RETAIL",
             content:
               "Engage shoppers with CRM analytics that drive sales and loyalty.",
@@ -4543,19 +4596,19 @@ const subServicePagesContent = {
         mainHeading: "Why Partner with Qcentrio for Your CRM Solutions?",
         list: [
           {
-            image: whyChooseImg1,
+            image: crm1,
             heading: "Extensive CRM Expertise",
             content:
               "Qcentrio brings a wealth of knowledge and experience with CRM systems like Salesforce, Dynamics 365, and SAP, allowing us to provide tailored support.",
           },
           {
-            image: whyChooseImg2,
+            image: crm2,
             heading: "Customization and Integration",
             content:
               "Your unique business demands are met with our custom CRM designs, ensuring seamless integration into your existing workflows.",
           },
           {
-            image: whyChooseImg3,
+            image: crm3,
             heading: "Enduring Support and Advancement",
             content:
               "We enhance CRM system proficiency and user adoption by providing your team with the necessary skills. Our experts are available to ensure peak performance, even beyond launch.",
@@ -4578,6 +4631,7 @@ const subServicePagesContent = {
         link: "/offerings/business-optimization-and-analytics-services",
         current: "Data Analytics and Business Intelligence",
       },
+      bannerImage: dataAnalystBanner,
       contactHead:
         "Unlock the full potential of your business with data-driven decision-making",
       contentSection: {
@@ -4600,7 +4654,8 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "Comprehensive Data Solutions",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/data-analytics-and-business-intelligence-services/secondary-image-1.png",
             icon: currency,
             content:
               "Leverage our expertise in data warehousing with technologies like Amazon Redshift and Microsoft Azure SQL database, paired with in-depth analysis using Tableau and Power BI. This service provides a strong foundation for handling large datasets efficiently while delivering actionable insights.",
@@ -4608,7 +4663,8 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "Specialized Analytics Tools",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/data-analytics-and-business-intelligence-services/secondary-image-2.png",
             icon: currency,
             content:
               "Utilize specialized tools, such as Tableau for interactive data visualizations, Microsoft Power BI for dynamic reports, and Google Analytics for web traffic insights. These tools enable your organization to visualize data effectively, ensuring insights are comprehensible and actionable.",
@@ -4616,7 +4672,8 @@ const subServicePagesContent = {
           {
             num: "03",
             heading: "Customized BI Solutions",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/data-analytics-and-business-intelligence-services/secondary-image-3.png",
             icon: currency,
             content:
               "At Qcentrio, we recognize that each business has unique needs. We deliver custom BI solutions molded to your requirements, integrating robust tools like Apache Spark for real-time data processing. This tailored approach ensures that solutions are specifically designed to meet your business's distinct challenges and opportunities.",
@@ -4624,7 +4681,8 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "Data Integration and Management",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/data-analytics-and-business-intelligence-services/secondary-image-4.png",
             icon: currency,
             content:
               "Streamline the collection and integration of data from various sources, ensuring accuracy and accessibility for analysis. Implement management practices that maintain the integrity and security of your data across the board. This ensures your data ecosystem is scalable, secure, and primed for analysis.",
@@ -4632,7 +4690,8 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "Predictive Analytics and Machine Learning",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/data-analytics-and-business-intelligence-services/secondary-image-5.png",
             icon: currency,
             content:
               "Employ advanced predictive models and machine learning algorithms to forecast trends, customer behavior, and business outcomes, turning data into a predictive tool for strategic planning. Our approach helps you stay ahead of the curve by anticipating market shifts and customer needs.",
@@ -4640,7 +4699,8 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "Real-Time Analytics and Reporting",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/data-analytics-and-business-intelligence-services/secondary-image-6.png",
             icon: currency,
             content:
               "Access insights as they happen with real-time analytics. Create comprehensive, up-to-the-minute reports that allow for agile decision-making and immediate action in response to market changes. This capability is crucial for organizations looking to maintain a competitive edge in fast-moving industries.",
@@ -4648,7 +4708,8 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "Data Governance and Compliance",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/data-analytics-and-business-intelligence-services/secondary-image-7.png",
             icon: currency,
             content:
               " Implement rigorous data governance frameworks to ensure compliance with regulations such as GDPR and HIPAA. This service helps you manage the risks associated with data privacy and security, ensuring your organization's data practices meet statutory requirements.",
@@ -4656,7 +4717,8 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "Advanced Data Visualization Techniques",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/data-analytics-and-business-intelligence-services/secondary-image-8.png",
             icon: currency,
             content:
               "Explore complex data sets with advanced visualization techniques that reveal patterns, trends, and anomalies. Our experts use cutting-edge technology to create intuitive and engaging visual representations, enhancing your ability to make informed decisions based on complex data.",
@@ -4668,31 +4730,31 @@ const subServicePagesContent = {
           "DATA ANALYTICS AND BUSINESS INTELLIGENCE TAILORED TO YOUR INDUSTRY NEEDS",
         list: [
           {
-            icon: healthcare,
+            icon: manufacturing,
             heading: "MANUFACTURING",
             content:
               "Leverage data to make informed decisions, improve patient outcomes, streamline operations, and support clinical decisions.",
           },
           {
-            icon: finace,
+            icon: healthcare,
             heading: "HEALTHCARE",
             content:
               "Leverage data to make informed decisions, improve patient outcomes, streamline operations, and support clinical decisions.",
           },
           {
-            icon: manufacturing,
+            icon: finace,
             heading: "FINANCE",
             content:
               "Gain insights into financial trends, customer behavior, and market movements to strategic investments and operational improvements.",
           },
           {
-            icon: engineering,
+            icon: retail,
             heading: "RETAIL",
             content:
               "Harness the power of data to personalize customer experiences, forecast market trends, and optimize inventory management for increased sales and customer loyalty.",
           },
           {
-            icon: aerospace,
+            icon: energy,
             heading: "ENERGY",
             content:
               "Deploy data analytics for efficient energy management, from demand forecasting to distribution optimization, reducing costs and conserving resources.",
@@ -4704,13 +4766,13 @@ const subServicePagesContent = {
               "Enhance route optimization, freight management, and operational efficiency with data-driven insights. Predict and respond swiftly to logistical challenges.",
           },
           {
-            icon: eCommerce,
+            icon: telecommunication,
             heading: "TELECOMMUNICATIONS",
             content:
               "Utilize data analytics to manage vast networks efficiently, predict maintenance needs, understand customer usage patterns, and develop competitive pricing strategies.",
           },
           {
-            icon: realEstate,
+            icon: eCommerce,
             heading: "E-COMMERCE",
             content:
               "Boost your online retail strategy with analytics that fine-tune customer journeys, optimize inventory management, and personalized shopping experiences to drive sales and customer loyalty.",
@@ -4722,19 +4784,19 @@ const subServicePagesContent = {
           "Why Choose Qcentrio for Data Analytics and Business Intelligence?",
         list: [
           {
-            image: whyChooseImg1,
+            image: dataAnalyst1,
             heading: "Expertise Across Diverse Tools",
             content:
               "Our team is proficient in various data analytics and BI tools, ensuring you have the right technology to extract maximum value from your data.",
           },
           {
-            image: whyChooseImg2,
+            image: dataAnalyst2,
             heading: "Customized Solutions Tailored to Your Needs",
             content:
               "We go beyond off-the-shelf solutions, providing customized strategies that align with your business goals and industry-specific challenges.",
           },
           {
-            image: whyChooseImg3,
+            image: dataAnalyst3,
             heading: "Continuous Support for Sustained Success",
             content:
               "Our relationship with clients doesn't end with implementation. We offer continuous support and guidance to ensure your success in data-driven strategies.",
@@ -4759,6 +4821,7 @@ const subServicePagesContent = {
         link: "/offerings/business-value-enhancement-services",
         current: "Artificial Intelligence/Machine Learning Offerings",
       },
+      bannerImage: aimlBanner,
       contactHead:
         "Transform business decisions with AI/ML-led actionable insights",
       contentSection: {
@@ -4784,7 +4847,7 @@ const subServicePagesContent = {
             num: "01",
             heading:
               "Advanced Analytics, Forecasting, and Predictive Analytics",
-            image: "/business-value-enhancement-services.png",
+            image: "/ai-and-ml-services/secondary-image-1.png",
             icon: currency,
             content:
               "Dive into the future of your business with cutting-edge analytics and implement advanced AI/ML algorithms to analyze data and forecast future trends, providing actionable insights for informed decision-making and strategic planning. This allows for a deeper and more comprehensive analysis to support decision-making processes.",
@@ -4792,7 +4855,7 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "AI-Driven Process Optimization and Operationalization",
-            image: "/business-value-enhancement-services.png",
+            image: "/ai-and-ml-services/secondary-image-2.png",
             icon: currency,
             content:
               "Transform your operational processes with our AI-powered optimization and operationalization, ensuring your AI investments are fully realized by embedding intelligence into every layer of your business operations. This integration enhances efficiency, output, and overall business performance.",
@@ -4800,7 +4863,7 @@ const subServicePagesContent = {
           {
             num: "03",
             heading: "Machine Learning and Delivering Business Insights",
-            image: "/business-value-enhancement-services.png",
+            image: "/ai-and-ml-services/secondary-image-3.png",
             icon: currency,
             content:
               "Establish a robust framework for Machine Learning models with tailored solutions that scale your business intelligence in real-time, enhancing your capability to respond swiftly to market changes. This approach ensures your models are continuously refined to meet evolving business needs.",
@@ -4809,7 +4872,7 @@ const subServicePagesContent = {
             num: "04",
             heading:
               "Personalized Customer Interactions and AI-Enhanced Customer Service",
-            image: "/business-value-enhancement-services.png",
+            image: "/ai-and-ml-services/secondary-image-4.png",
             icon: currency,
             content:
               "Embrace AI-driven personalization to deliver tailored experiences that engage and delight your end users, and transform your customer support with AI-enhanced capabilities that respond with human-like accuracy. This helps improve customer engagement and satisfaction across multiple touchpoints.",
@@ -4817,7 +4880,7 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "Bespoke AI/ML Solutions and Process/Platform Automation",
-            image: "/business-value-enhancement-services.png",
+            image: "/ai-and-ml-services/secondary-image-5.png",
             icon: currency,
             content:
               "Develop AI and ML solutions that align with your business goals and automate processes for increased efficiency, enabling you to automate routine tasks, reduce errors, and focus on strategic activities. This ensures seamless integration and impactful outcomes while enhancing operational efficiency.",
@@ -4825,7 +4888,7 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "Real-Time Data Processing and Analysis",
-            image: "/business-value-enhancement-services.png",
+            image: "/ai-and-ml-services/secondary-image-6.png",
             icon: currency,
             content:
               "Harness the speed and accuracy of real-time data processing with our advanced AI/ML systems to make faster, more informed decisions as technology sifts through vast information streams, delivering critical insights when you need them most. This helps in maintaining a competitive edge in fast-paced industries.",
@@ -4833,7 +4896,7 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "Robotic Process Automation (RPA)",
-            image: "/business-value-enhancement-services.png",
+            image: "/ai-and-ml-services/secondary-image-7.png",
             icon: currency,
             content:
               "Amplify your efficiency with RPA solutions that automate repetitive tasks, saving time and reducing human error, allowing your workforce to concentrate on creative and strategic tasks that add real value to your business. This streamlines operations and enhances productivity across various departments.",
@@ -4841,7 +4904,7 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "AI-Integrated Security Measures",
-            image: "/business-value-enhancement-services.png",
+            image: "/ai-and-ml-services/secondary-image-8.png",
             icon: currency,
             content:
               "Implement AI-enhanced security protocols to monitor and protect data, providing a secure environment for your AI and ML operations. This service is crucial to safeguard sensitive information and ensure the integrity of your data-driven initiatives.",
@@ -4870,13 +4933,13 @@ const subServicePagesContent = {
               "ML-driven predictive maintenance, optimized supply chains, and intelligent quality control boost productivity while reducing downtime and operational costs.",
           },
           {
-            icon: engineering,
+            icon: retail,
             heading: "RETAIL",
             content:
               "Enhance customer experiences with personalized recommendations, inventory optimization, and market trend analysis to increase sales and customer loyalty.",
           },
           {
-            icon: aerospace,
+            icon: energy,
             heading: "ENERGY",
             content:
               "Deploy smart grid analytics for efficient energy distribution, demand forecasting, and sustainable operations, contributing to energy conservation and cost savings.",
@@ -4893,19 +4956,19 @@ const subServicePagesContent = {
         mainHeading: "Why Choose Qcentrio for AI/ML Solutions?",
         list: [
           {
-            image: whyChooseImg1,
+            image: aiml1,
             heading: "Expertise in AI/ML Technologies",
             content:
               "Our solutions range from advisory to model development and ongoing managed services, ensuring you have the expertise you need at every step.",
           },
           {
-            image: whyChooseImg2,
+            image: aiml2,
             heading: "Customized Solutions for Your Industry",
             content:
               "Our AI/ML models are not one-size-fits-all; they are trained on specialized data and tailored to meet your business's unique challenges and opportunities.",
           },
           {
-            image: whyChooseImg3,
+            image: aiml3,
             heading: "Innovative Ecosystem at Your Disposal",
             content:
               "Gain access to a full stack ecosystem of data, AI, and ML independent software vendors (ISVs) for accelerated value creation and sustained innovation.",
@@ -4928,6 +4991,7 @@ const subServicePagesContent = {
         link: "/offerings/business-value-enhancement-services",
         current: "Generative AI Solutions and Offerings",
       },
+      bannerImage: genAiBanner,
       contactHead:
         "Build confidence in your AI/ML models and revolutionize your operations",
       contentSection: {
@@ -4950,7 +5014,8 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "Open AI/ChatGPT Integration",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/generative-ai-solutions-and-offerings/secondary-image-1.png",
             icon: currency,
             content:
               "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency. This integration is ideal for enhancing customer service and streamlining internal communications.",
@@ -4958,7 +5023,8 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "Advanced Analytics and AI",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/generative-ai-solutions-and-offerings/secondary-image-2.png",
             icon: currency,
             content:
               "Unlock actionable insights and innovate faster with our advanced analytics tools and AI models. Automate up to 70% of workforce tasks, enabling a focus on strategic business activities and reducing operational costs. Our solutions are designed to transform complex data into clear, actionable insights that drive decision-making.",
@@ -4966,7 +5032,8 @@ const subServicePagesContent = {
           {
             num: "03",
             heading: "Strategic AI Implementation",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/generative-ai-solutions-and-offerings/secondary-image-3.png",
             icon: currency,
             content:
               "Our calculated approach ensures AI aligns with your business goals. We develop custom AI solutions for industries like finance and healthcare, enhancing customer engagement and anticipating market trends. Personalized solutions ensure that AI initiatives are directly correlated with your strategic objectives.",
@@ -4974,7 +5041,8 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "Productivity with Automation Solutions",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/generative-ai-solutions-and-offerings/secondary-image-4.png",
             icon: currency,
             content:
               "Streamline operations with our automation offerings. Automate routine tasks, enhance productivity, and refocus your workforce on high-value activities, reducing burnout and promoting innovation. This approach not only improves efficiency but also enhances employee satisfaction and retention.",
@@ -4982,7 +5050,8 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "End-to-end Generative AI Integration",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/generative-ai-solutions-and-offerings/secondary-image-5.png",
             icon: currency,
             content:
               "With our end-to-end GenAI integration services, optimize critical business areas like marketing, sales, and R&D. Leverage AI to enhance efficiency and drive growth. This comprehensive service ensures that all facets of your business can benefit from AI's transformative powers.",
@@ -4990,7 +5059,8 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "Data Visualization and Reporting",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/generative-ai-solutions-and-offerings/secondary-image-6.png",
             icon: currency,
             content:
               "Visualize your data with state-of-the-art tools that make complex information easy to understand and actionable. Our platforms support real-time data updates, allowing your team to make timely, informed decisions based on the latest information.",
@@ -4998,7 +5068,8 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "Data Governance and Compliance",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/generative-ai-solutions-and-offerings/secondary-image-7.png",
             icon: currency,
             content:
               "Ensure your data management practices are compliant with global regulations with our data governance services. We help you implement strong policies that protect your data and your company’s reputation while ensuring operational transparency.",
@@ -5006,7 +5077,8 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "Customer Behavior Analytics",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/generative-ai-solutions-and-offerings/secondary-image-8.png",
             icon: currency,
             content:
               "Utilize AI to gain deep insights into customer behavior and preferences, enabling personalized marketing strategies and product development. This helps you stay ahead of market trends and meet your customers' needs more effectively.",
@@ -5078,19 +5150,19 @@ const subServicePagesContent = {
           "Why Choose Qcentrio for Generative AI Solutions and Offerings?",
         list: [
           {
-            image: whyChooseImg1,
+            image: genAi1,
             heading: "Expertise in Generative AI",
             content:
               "We offer a comprehensive suite of AI solutions, from advisory to model development and ongoing managed services.",
           },
           {
-            image: whyChooseImg2,
+            image: genAi2,
             heading: "Customized Solutions",
             content:
               "Our domain-specific models are trained on specialized data, ensuring they meet your unique business needs.",
           },
           {
-            image: whyChooseImg3,
+            image: genAi3,
             heading: "Innovative Ecosystem",
             content:
               "Access our ecosystem of data and AI-independent software vendors (ISVs) to expedite value creation.",
@@ -5113,6 +5185,7 @@ const subServicePagesContent = {
         link: "/offerings/business-value-enhancement-services",
         current: "Robotic Process Automation Services",
       },
+      bannerImage: roboticsBanner,
       contactHead:
         "Experience Next-Level Efficiency with Qcentrio’s RPA Offerings",
       contentSection: {
@@ -5134,7 +5207,8 @@ const subServicePagesContent = {
             num: "01",
             heading:
               "Process and Platform Assessments with Business Case Preparation",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/robotic-process-automation-offerings/secondary-image-1.png",
             icon: currency,
             content:
               "We comprehensively assess your company's processes and platforms, developing a solid business case for RPA implementation. This strategic alignment with your business objectives ensures an ideal solution that maximizes your return on investment.",
@@ -5143,7 +5217,8 @@ const subServicePagesContent = {
             num: "02",
             heading:
               "SoP Creation, Automation Requirements, and System Integration",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/robotic-process-automation-offerings/secondary-image-2.png",
             icon: currency,
             content:
               "Specialize in developing standard operating procedures and capturing detailed automation requirements, ensuring efficient RPA implementation and seamless system integration. This approach enhances productivity and minimizes disruption to existing workflows.",
@@ -5152,7 +5227,8 @@ const subServicePagesContent = {
             num: "03",
             heading:
               "Proof of Concept, Pilot Programs, and RPA Roadmap Creation",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/robotic-process-automation-offerings/secondary-image-3.png",
             icon: currency,
             content:
               "We help you conduct pilot programs and proofs of concept to demonstrate RPA's potential impact, followed by creating a strategic roadmap and Center of Excellence (CoE) to guide your RPA journey. This process ensures informed decision-making and fosters continuous improvement.",
@@ -5160,7 +5236,8 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "RPA Strategy and Custom Implementation",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/robotic-process-automation-offerings/secondary-image-4.png",
             icon: currency,
             content:
               "Begin with a comprehensive analysis of your business processes to identify automation opportunities, then craft and implement custom RPA solutions tailored to your operational needs. This method transforms operations using leading tools and innovative strategies.",
@@ -5168,7 +5245,8 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "Continuous Monitoring, Support, and Bot Maintenance",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/robotic-process-automation-offerings/secondary-image-5.png",
             icon: currency,
             content:
               "Receive ongoing monitoring and comprehensive support, including bot maintenance and health checks, to ensure optimal performance and sustainability of your RPA operations. This service reduces downtime and maintains operational excellence.",
@@ -5176,7 +5254,8 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "Training and Skill Development for RPA Users",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/robotic-process-automation-offerings/secondary-image-6.png",
             icon: currency,
             content:
               "Equip your team with the necessary skills and knowledge through extensive training programs. This commitment to skill development ensures your workforce can fully leverage and support RPA technologies effectively.",
@@ -5184,7 +5263,8 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "Custom RPA Solutions for Complex Tasks",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/robotic-process-automation-offerings/secondary-image-7.png",
             icon: currency,
             content:
               "Design RPA solutions to automate complex business tasks such as data entry, invoice processing, and customer inquiries. These custom solutions boost efficiency, enhance accuracy, and support scalable innovation tailored to your specific needs.",
@@ -5192,7 +5272,8 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "Advanced Analytics and Reporting",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/robotic-process-automation-offerings/secondary-image-8.png",
             icon: currency,
             content:
               "Analyze the impact of RPA on your business with custom reporting and advanced analytics. This ensures that the integration of RPA into your operations is continually refined and aligned with business objectives, leading to measurable improvements.",
@@ -5221,7 +5302,7 @@ const subServicePagesContent = {
               "Embrace RPA in manufacturing for real-time inventory management, quality control, and supply chain optimization, which will reduce costs and improve productivity.",
           },
           {
-            icon: engineering,
+            icon: realEstate,
             heading: "REAL ESTATE",
             content:
               "Streamline property management in real estate, from tenant screening to financial reconciliations, ensuring smooth operations.",
@@ -5239,19 +5320,19 @@ const subServicePagesContent = {
         mainHeading: "Why Choose Qcentrio for RPA Offerings?",
         list: [
           {
-            image: whyChooseImg1,
+            image: robotics1,
             heading: "Domain Expertise in RPA",
             content:
               "Our RPA offerings redefine process management by combining intelligent automation, deep domain knowledge, and thousands of hours of learning and testing in complex environments.",
           },
           {
-            image: whyChooseImg2,
+            image: robotics2,
             heading: "Platform & Technology-Agnostic Approach",
             content:
               "We prioritize metric improvement, cost savings, and ROI. Supported by over 1,00 RPA experts, we offer a comprehensive suite of offerings, from advisory to bot support, ensuring process perfection.",
           },
           {
-            image: whyChooseImg3,
+            image: robotics3,
             heading: "People–Process–Technology Framework",
             content:
               "To scale RPA successfully, Qcentrio combines expertise across people, processes, and technology. Our team harmonizes KPIs for effective resource allocation and change management.",
@@ -5276,6 +5357,7 @@ const subServicePagesContent = {
         link: "/offerings/cloud-infra-and-security-services",
         current: "AWS Services and Offerings",
       },
+      bannerImage: awsBanner,
       contactHead:
         "Get ready to transform your business with AWS's scalability and innovation",
       contentSection: {
@@ -5298,7 +5380,7 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "E2E AWS Integration",
-            image: "/business-value-enhancement-services.png",
+            image: "/aws-services-and-support/secondary-image-1.png",
             icon: currency,
             content:
               "We offer comprehensive AWS integration services for your business, enabling you to streamline your operations and drive innovation. Benefit from seamless transitions and strategic implementations as we help you harness the full potential of cloud technologies to transform your organization.",
@@ -5306,7 +5388,7 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "Scalable Cloud Infrastructure",
-            image: "/business-value-enhancement-services.png",
+            image: "/aws-services-and-support/secondary-image-2.png",
             icon: currency,
             content:
               "Build a secure and scalable cloud infrastructure on AWS that aligns with your business goals. Our services support promotes agility, reliability, and cost-effectiveness, enabling you to innovate faster. And with us as your, you can future-proof your cloud environment and achieve sustainable growth.",
@@ -5314,7 +5396,7 @@ const subServicePagesContent = {
           {
             num: "03",
             heading: "Computing and Storage Solutions",
-            image: "/business-value-enhancement-services.png",
+            image: "/aws-services-and-support/secondary-image-3.png",
             icon: currency,
             content:
               "AWS's EC2 and S3 services offer a reliable and flexible solution for your computing needs. With secure and scalable storage options, you can easily store and access your data on the cloud. Whether a small business or a large enterprise, we help you leverage AWS's compute and storage solutions. ",
@@ -5322,7 +5404,7 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "Continuous AWS Support",
-            image: "/business-value-enhancement-services.png",
+            image: "/aws-services-and-support/secondary-image-4.png",
             icon: currency,
             content:
               "Streamline your software development process and accelerate your time-to-market by leveraging AWS DevOps tools to automate your CI/CD pipeline. With these tools, and us as your partner, you can improve your software delivery process, increase deployment frequency, and enhance the overall quality of your software.",
@@ -5330,7 +5412,7 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "AWS Managed Services",
-            image: "/business-value-enhancement-services.png",
+            image: "/aws-services-and-support/secondary-image-5.png",
             icon: currency,
             content:
               "With Qcentrio as your AWS partner, you can manage your AWS infrastructure seamlessly and optimize its performance and cost. Our team of experts can help you offload the day-to-day management of your cloud environment, leaving you with more time to focus on your business goals.",
@@ -5338,7 +5420,7 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "AWS Data Analytics",
-            image: "/business-value-enhancement-services.png",
+            image: "/aws-services-and-support/secondary-image-6.png",
             icon: currency,
             content:
               "Gain valuable insights from your business data with AWS’s powerful data processing and analytics capabilities. AWS makes it easy to uncover meaningful patterns and trends in your data. You can make data-driven decisions to help your business thrive by leveraging these insights. So why wait? Start tapping into the power of AWS today with Qcentrio.",
@@ -5346,7 +5428,7 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "AWS DevOps Automation",
-            image: "/business-value-enhancement-services.png",
+            image: "/aws-services-and-support/secondary-image-7.png",
             icon: currency,
             content:
               "Innovate and bring new products to market quickly by leveraging AWS DevOps tools and automating your software delivery pipeline, making it more efficient, reliable, and scalable. With DevOps, you can reduce your time to market and increase deployment frequency, allowing you to stay ahead of the competition.",
@@ -5354,7 +5436,7 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "AWS Machine Learning and AI Services",
-            image: "/business-value-enhancement-services.png",
+            image: "/aws-services-and-support/secondary-image-8.png",
             icon: currency,
             content:
               "Build intelligent solutions that can perceive, hear, speak, comprehend, and engage with your data and users like never before. By leveraging these technologies, you can transform your data into actionable insights, optimize your business processes, and enhance the customer experience.",
@@ -5377,7 +5459,7 @@ const subServicePagesContent = {
               "Leverage AWS for secure financial transactions, data analytics, and meeting stringent industry regulations.",
           },
           {
-            icon: manufacturing,
+            icon: eCommerce,
             heading: "E-commerce",
             content:
               "Scale your e-commerce platforms with AWS's flexible computing resources and robust security measures.",
@@ -5389,7 +5471,7 @@ const subServicePagesContent = {
               "Enhance educational offerings with AWS's cloud solutions for remote learning and educational resource management.",
           },
           {
-            icon: aerospace,
+            icon: realEstate,
             heading: "Real Estate",
             content:
               "Utilize AWS services to securely manage property listings, client interactions, and back-end operations in the cloud.",
@@ -5401,7 +5483,7 @@ const subServicePagesContent = {
               "Implement AWS cloud solutions to streamline public sector processes, enhance civic engagement, and improve governmental service delivery.",
           },
           {
-            icon: eCommerce,
+            icon: telecommunication,
             heading: "Telecommunications",
             content:
               "Deploy AWS to support vast telecom networks, improve data analytics and customer experience, and innovate with new services at scale.",
@@ -5412,19 +5494,19 @@ const subServicePagesContent = {
         mainHeading: "Why Opt for Qcentrio for AWS Services?",
         list: [
           {
-            image: whyChooseImg1,
+            image: aws1,
             heading: "Bespoke AWS Services Support",
             content:
               "Our services are personalized to meet your business's unique needs, delivering agile and cost-effective cloud infrastructure solutions.",
           },
           {
-            image: whyChooseImg2,
+            image: aws2,
             heading: "AWS Accreditation",
             content:
               "Experience peace of mind with our team of certified AWS professionals who deeply understand AWS services. ",
           },
           {
-            image: whyChooseImg3,
+            image: aws3,
             heading: "Streamlined Processes",
             content:
               "Experience efficient cloud migration and management with our systematic approach to AWS integration.",
@@ -5447,6 +5529,7 @@ const subServicePagesContent = {
         link: "/offerings/cloud-infra-and-security-services",
         current: "Azure Services and Offerings",
       },
+      bannerImage: azureBanner,
       contactHead:
         "Begin your journey towards a scalable, innovative infrastructure today",
       contentSection: {
@@ -5467,7 +5550,7 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "Comprehensive Azure Integration and Managed Services",
-            image: "/business-value-enhancement-services.png",
+            image: "/azure-cloud-services/secondary-image-1.png",
             icon: currency,
             content:
               "Employ Azure DevOps to develop precise strategies for Azure cloud integration that align technology with business objectives. Benefit from full-spectrum managed services for ongoing management, monitoring, and optimization of your cloud resources.",
@@ -5475,7 +5558,7 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "Azure DevOps & Software Development Lifecycle Management",
-            image: "/business-value-enhancement-services.png",
+            image: "/azure-cloud-services/secondary-image-2.png",
             icon: currency,
             content:
               "Accelerate your software development lifecycle with Azure DevOps capabilities, implementing continuous integration and delivery to enhance collaboration and streamline deployment. This approach ensures faster time-to-market and improved deployment quality.",
@@ -5484,7 +5567,7 @@ const subServicePagesContent = {
             num: "03",
             heading:
               "Data Migration, Security, and Robust Cloud Infrastructure",
-            image: "/business-value-enhancement-services.png",
+            image: "/azure-cloud-services/secondary-image-3.png",
             icon: currency,
             content:
               "Utilize Azure Site Recovery and advanced security measures like encryption and IAM policies for seamless data transfer while building a resilient and scalable cloud infrastructure that supports growing business demands and ensures efficient resource management.",
@@ -5492,7 +5575,7 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "Azure IoT Offerings and Advanced Analytics",
-            image: "/business-value-enhancement-services.png",
+            image: "/azure-cloud-services/secondary-image-4.png",
             icon: currency,
             content:
               "Unlock the potential of the Internet of Things with Azure, creating intelligent, connected solutions that gather and analyze data from devices across your operations. Leverage the capability of Azure analytics to process big data and deploy AI models that inform strategic decisions.",
@@ -5500,7 +5583,7 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "Cloud Application Modernization and PaaS Solutions",
-            image: "/business-value-enhancement-services.png",
+            image: "/azure-cloud-services/secondary-image-5.png",
             icon: currency,
             content:
               "Refresh legacy applications with our application modernization services, leveraging Azure’s PaaS and container services. This increases scalability and reduces operational costs, making your applications future-ready.",
@@ -5508,7 +5591,7 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "Cloud Security Posture Management and Disaster Recovery",
-            image: "/business-value-enhancement-services.png",
+            image: "/azure-cloud-services/secondary-image-6.png",
             icon: currency,
             content:
               "Strengthen your Azure deployments with advanced cloud security posture management and ensure business resilience with Azure's disaster recovery capabilities. This approach protects against threats and minimizes downtime with robust backup solutions and failover systems.",
@@ -5516,7 +5599,7 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "Customized Azure Solutions and Hybrid Integration",
-            image: "/business-value-enhancement-services.png",
+            image: "/azure-cloud-services/secondary-image-7.png",
             icon: currency,
             content:
               "Create tailored hybrid and cloud-native solutions using Azure services that integrate seamlessly with your existing technology stack. This allows for a complete and cohesive cloud ecosystem tailored to your specific business needs.",
@@ -5524,7 +5607,7 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "Business Continuity and Operational Resilience",
-            image: "/business-value-enhancement-services.png",
+            image: "/azure-cloud-services/secondary-image-8.png",
             icon: currency,
             content:
               "Use Microsoft Azure’s disaster recovery tools and strategies to ensure continuous operation and minimize downtime, which is crucial for maintaining business continuity and safeguarding critical business functions.",
@@ -5553,19 +5636,19 @@ const subServicePagesContent = {
               "Azure cloud service offerings that support manufacturing processes, from supply chain optimization to IoT and innovative factory enablement.",
           },
           {
-            icon: engineering,
+            icon: retail,
             heading: "RETAIL",
             content:
               "Harness Azure to analyze customer data, manage inventory efficiently, and provide a personalized shopping experience with intelligent recommendations.",
           },
           {
-            icon: aerospace,
+            icon: automotive,
             heading: "AUTOMOTIVE",
             content:
               "Utilize Azure to drive innovation in the automotive industry, from enhancing vehicle design with AI and simulation to improving manufacturing efficiency with IoT solutions.",
           },
           {
-            icon: travel,
+            icon: logistics,
             heading: "LOGISTICS AND SUPPLY CHAIN",
             content:
               "Implement Azure cloud solutions to optimize logistics operations, enhance supply chain visibility, and predict market demands with advanced analytics.",
@@ -5582,19 +5665,19 @@ const subServicePagesContent = {
         mainHeading: "Transform Your Operations with Our Azure Cloud Expertise",
         list: [
           {
-            image: whyChooseImg1,
+            image: azure1,
             heading: "Tailored Azure Strategies",
             content:
               "We provide Azure cloud services for your business, considering every nuance of your industry's needs to ensure a perfect fit.",
           },
           {
-            image: whyChooseImg2,
+            image: azure2,
             heading: "Seamless Cloud Transition",
             content:
               "Our seamless transition services are designed to minimize disruption, ensuring a smooth shift to Azure’s cloud environment.",
           },
           {
-            image: whyChooseImg3,
+            image: azure3,
             heading: "Ongoing Support and Optimization",
             content:
               "Experience continuous improvement with our dedicated support, helping your business stay ahead in a rapidly evolving digital landscape.",
@@ -5617,6 +5700,7 @@ const subServicePagesContent = {
         link: "/offerings/cloud-infra-and-security-services",
         current: "Cloud Infrastructure Services",
       },
+      bannerImage: cloudBanner,
       contactHead:
         "Unlock the potential of the cloud and revolutionize your IT infrastructure",
       contentSection: {
@@ -5639,7 +5723,7 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "Cloud Assessment, Strategy, and Setup",
-            image: "/business-value-enhancement-services.png",
+            image: "/cloud-infrastructure-services/second-image-1.png",
             icon: currency,
             content:
               "Utilize advanced tools like AWS CloudFormation and Azure DevOps for comprehensive evaluation and strategic planning, paired with optimized setup and configuration of cloud solutions. This integrated approach ensures your cloud infrastructure aligns perfectly with business objectives and performs optimally.",
@@ -5647,7 +5731,7 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "Data Migration, Security, and Compliance Audits",
-            image: "/business-value-enhancement-services.png",
+            image: "/cloud-infrastructure-services/second-image-2.png",
             icon: currency,
             content:
               "Employ robust services such as AWS Data Migration Service and Azure Site Recovery to securely transfer data, ensuring compliance with encryption and IAM standards. Our cloud compliance audits also confirm adherence to international regulations, enhancing trust and security.",
@@ -5655,7 +5739,7 @@ const subServicePagesContent = {
           {
             num: "03",
             heading: "CRM Integration and Managed Services",
-            image: "/business-value-enhancement-services.png",
+            image: "/cloud-infrastructure-services/second-image-3.png",
             icon: currency,
             content:
               "Enhance CRM capabilities by integrating platforms like Salesforce and streamlining data flow for improved customer relationship management, complemented by continuous support and education on best practices for cloud integration. This ensures your CRM systems leverage cloud efficiencies and remain at the forefront of customer engagement strategies.",
@@ -5663,7 +5747,7 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "Hybrid Cloud Optimization and Customized Solutions",
-            image: "/business-value-enhancement-services.png",
+            image: "/cloud-infrastructure-services/second-image-4.png",
             icon: currency,
             content:
               "Achieve the perfect balance between private and public cloud environments with our hybrid cloud solutions, optimizing for cost, performance, and security. We also develop tailored hybrid and cloud-native solutions using cutting-edge technologies like Kubernetes and Docker, ensuring your cloud infrastructure meets specific business needs.",
@@ -5671,7 +5755,7 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "Cloud Operations and Infrastructure Consulting",
-            image: "/business-value-enhancement-services.png",
+            image: "/cloud-infrastructure-services/second-image-5.png",
             icon: currency,
             content:
               "Streamline your cloud operations with services offering real-time monitoring, automated scaling, and continuous optimization. Consult with our experts to design scalable, resilient, and secure cloud infrastructure tailored to support your business’s growth and operational demands.",
@@ -5679,7 +5763,7 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "Disaster Recovery and Business Continuity",
-            image: "/business-value-enhancement-services.png",
+            image: "/cloud-infrastructure-services/second-image-6.png",
             icon: currency,
             content:
               "Develop and implement robust disaster recovery strategies that maintain business continuity, minimizing potential downtimes and data loss in any cloud environment. This strategic planning is crucial for protecting your operations against unforeseen disruptions.",
@@ -5687,7 +5771,7 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "Customer Experience Enhancements",
-            image: "/business-value-enhancement-services.png",
+            image: "/cloud-infrastructure-services/second-image-7.png",
             icon: currency,
             content:
               "Leverage cloud technologies to enhance customer experiences, providing seamless, responsive, personalized interactions across all customer touchpoints. This service ensures that your customer interactions are enhanced by the latest cloud capabilities.",
@@ -5695,7 +5779,7 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "Cloud Compliance and Security",
-            image: "/business-value-enhancement-services.png",
+            image: "/cloud-infrastructure-services/second-image-8.png",
             icon: currency,
             content:
               "Ensure your cloud deployments meet stringent compliance requirements and protect data with advanced security measures. Our comprehensive approach includes regular audits and continuous updates to security practices, keeping your cloud environment secure and compliant with evolving regulations.",
@@ -5724,7 +5808,7 @@ const subServicePagesContent = {
               "Integrate IoT and cloud technologies to streamline production processes, enhancing operational efficiency and real-time data analysis.",
           },
           {
-            icon: engineering,
+            icon: retail,
             heading: "RETAIL",
             content:
               "Utilize cloud infrastructure to manage e-commerce platforms, ensuring scalability to meet consumer demands.",
@@ -5747,19 +5831,19 @@ const subServicePagesContent = {
         mainHeading: "Why Partner with Qcentrio for Cloud Infrastructure?",
         list: [
           {
-            image: whyChooseImg1,
+            image: cloud1,
             heading: "Expert Guidance & Customized Integration",
             content:
               "Our experts provide customized integration strategies for your cloud journey, aligned with your company's growth and innovation vision.",
           },
           {
-            image: whyChooseImg2,
+            image: cloud2,
             heading: "Tailored Cloud Solutions ",
             content:
               "We offer bespoke cloud solutions designed to transform your business with tailored systems and processes that meet your specific needs.",
           },
           {
-            image: whyChooseImg3,
+            image: cloud3,
             heading: "Streamlined Cloud Adoption ",
             content:
               "We specialize in efficient cloud infrastructure transformations that minimize complexities and enable rapid and seamless transitions to the cloud.",
@@ -5782,6 +5866,7 @@ const subServicePagesContent = {
         link: "/offerings/cloud-infra-and-security-services",
         current: "Continuous IT Support & Managed Services",
       },
+      bannerImage: itsupportBanner,
       contactHead:
         "Ensure your infrastructure is perpetually at its best with continuous IT excellence",
       contentSection: {
@@ -5804,7 +5889,8 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "Proactive Maintenance, Monitoring & Updates",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/continuous-it-support-and-managed-services/secondary-image-1.png",
             icon: currency,
             content:
               "Stay ahead of issues with 24/7 monitoring and maintenance and keep your systems up-to-date with the latest features and functionalities. Our team of experts will continuously monitor your systems, allowing for quick identification and resolution of problems.",
@@ -5812,7 +5898,8 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "Expert Troubleshooting",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/continuous-it-support-and-managed-services/secondary-image-2.png",
             icon: currency,
             content:
               "Our team offers prompt and responsive support to keep your operations running smoothly. We understand the importance of minimizing disruption and maintaining productivity, so we provide efficient troubleshooting to resolve any issues that may arise promptly.",
@@ -5820,7 +5907,8 @@ const subServicePagesContent = {
           {
             num: "03",
             heading: "Customized IT Strategies",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/continuous-it-support-and-managed-services/secondary-image-3.png",
             icon: currency,
             content:
               "Align your IT operations with your business goals by creating tailored IT strategies and customized solutions to meet your business's unique needs. We can work closely with you to develop the right approach that helps you achieve your objectives most efficiently and effectively.",
@@ -5828,7 +5916,8 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "Infrastructure Optimization",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/continuous-it-support-and-managed-services/secondary-image-4.png",
             icon: currency,
             content:
               "We optimize your IT infrastructure to ensure it functions at its best, providing you with the resources needed to grow your business. Our expertise lies in enhancing the functionality of your IT infrastructure to maximize efficiency and fuel your business's growth.",
@@ -5836,7 +5925,8 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "Disaster Recovery Planning",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/continuous-it-support-and-managed-services/secondary-image-5.png",
             icon: currency,
             content:
               "Implement robust disaster recovery strategies to protect data and maintain continuity. We help you develop and implement disaster recovery strategies to ensure that your data is protected and your operations continue to run smoothly in the event of a disaster.",
@@ -5844,7 +5934,8 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "Cloud Transition and Management",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/continuous-it-support-and-managed-services/secondary-image-6.png",
             icon: currency,
             content:
               "Our expert guidance can help you make a smooth transition to the cloud while providing flexibility and scalability benefits. We can be your strategic partner if you are new to the cloud or looking to improve your existing cloud infrastructure.",
@@ -5852,7 +5943,8 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "Network Management Services",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/continuous-it-support-and-managed-services/secondary-image-7.png",
             icon: currency,
             content:
               ": Optimize and manage your entire network infrastructure, ensuring high-speed connectivity, reliability, and security across your organization. Our support services ensure your network operates at peak performance, enabling your team to work efficiently and seamlessly. ",
@@ -5860,7 +5952,8 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "End-User Support Services",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/continuous-it-support-and-managed-services/secondary-image-8.png",
             icon: currency,
             content:
               "Our services are designed to provide your staff with the technical support they need to be productive. Our dedicated helpdesk services ensure that all of your employees' technical queries and challenges are resolved promptly, allowing them to focus on their work without interruptions.",
@@ -5889,7 +5982,7 @@ const subServicePagesContent = {
               "Support academic excellence with uninterrupted access to educational technology.",
           },
           {
-            icon: engineering,
+            icon: logistics,
             heading: "Logistics and Supply Chain",
             content:
               "Strengthen the backbone of your logistics network with robust IT support that ensures seamless operations and real-time tracking.",
@@ -5901,13 +5994,13 @@ const subServicePagesContent = {
               "Protect sensitive client information and support case management systems with secure and reliable IT infrastructure.",
           },
           {
-            icon: travel,
+            icon: hospitality,
             heading: "Hospitality and Travel",
             content:
               "Deliver exceptional customer service with uninterrupted IT systems that support booking engines, customer management, and operational tools.",
           },
           {
-            icon: eCommerce,
+            icon: energy,
             heading: "Energy and Utilities",
             content:
               "Ensure the integrity and reliability of critical energy infrastructure with comprehensive IT management that supports innovative grid technologies and data analytics.",
@@ -5919,19 +6012,19 @@ const subServicePagesContent = {
           "Why Choose Qcentrio for Continuous IT Support and Managed Services?",
         list: [
           {
-            image: whyChooseImg1,
+            image: itsupport1,
             heading: "Uninterrupted Business Operations",
             content:
               "Our managed services are designed to keep your business running smoothly, day or night.",
           },
           {
-            image: whyChooseImg2,
+            image: itsupport2,
             heading: "Custom-fit Solutions",
             content:
               "We don’t just support your IT needs; we anticipate them, ensuring your services scale with your business.",
           },
           {
-            image: whyChooseImg3,
+            image: itsupport3,
             heading: "Certified Expertise",
             content:
               "Our team comprises industry-certified experts dedicated to maintaining and elevating your IT operations.",
@@ -5954,6 +6047,7 @@ const subServicePagesContent = {
         link: "/offerings/cloud-infra-and-security-services",
         current: "Cybersecurity Solutions and Services Support",
       },
+      bannerImage: cyberBanner,
       contactHead:
         "Protect your sensitive data and online assets today with expert cybersecurity measures",
       contentSection: {
@@ -5977,7 +6071,8 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "Comprehensive Security Assessment",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/cybersecurity-solutions-and-services/secondary-image-1.png",
             icon: currency,
             content:
               "We begin by evaluating your digital ecosystem, identifying vulnerabilities, and enhancing your security posture. This initial assessment forms the backbone of a strategic plan to strengthen your defenses against cyber threats, tailoring solutions to address specific security gaps.",
@@ -5985,7 +6080,8 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "Customized Security Solutions",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/cybersecurity-solutions-and-services/secondary-image-2.png",
             icon: currency,
             content:
               "After the assessment, we implement robust cybersecurity measures utilizing top-tier tools and services from leading industry providers. Our solutions are designed to address identified risks and adapt to the evolving landscape of cyber threats, ensuring long-term resilience.",
@@ -5993,7 +6089,8 @@ const subServicePagesContent = {
           {
             num: "03",
             heading: "Data Protection and Compliance",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/cybersecurity-solutions-and-services/secondary-image-3.png",
             icon: currency,
             content:
               "Our comprehensive data protection and compliance services ensure your cybersecurity strategies align with all relevant regulations. We help you navigate the complexities of regulatory requirements, ensuring your data-handling practices are both secure and compliant.",
@@ -6001,7 +6098,8 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "Continuous Monitoring and Support",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/cybersecurity-solutions-and-services/secondary-image-4.png",
             icon: currency,
             content:
               "Take advantage of ongoing vigilance with our monitoring services that safeguard your systems against the latest threats. Our proactive approach allows us to detect and address potential vulnerabilities before they can be exploited, maintaining the integrity of your digital assets.",
@@ -6009,7 +6107,8 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "Intrusion Detection and Response",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/cybersecurity-solutions-and-services/secondary-image-5.png",
             icon: currency,
             content:
               "Our advanced monitoring systems help you detect intrusions in real time and respond swiftly to mitigate risks and prevent potential breaches. This rapid response capability minimizes downtime and protects your organization from significant damage and loss.",
@@ -6017,7 +6116,8 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "Cloud Security Services",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/cybersecurity-solutions-and-services/secondary-image-6.png",
             icon: currency,
             content:
               "Protect your cloud deployments on platforms like AWS, Azure, and GCP with specialized security protocols embedded in your systems. Our cloud security services ensure that your data remains secure, regardless of where it is stored or how it is accessed.",
@@ -6025,7 +6125,8 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "Phishing Prevention and Email Security",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/cybersecurity-solutions-and-services/secondary-image-7.png",
             icon: currency,
             content:
               "Implement robust email filtering and phishing prevention strategies to safeguard against sophisticated email-borne threats. Our solutions reduce the risk of phishing attacks, often the entry point for more serious cyber threats.",
@@ -6033,7 +6134,8 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "Cybersecurity Training and Awareness Programs",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/cybersecurity-solutions-and-services/secondary-image-8.png",
             icon: currency,
             content:
               "Equip your staff with the knowledge to recognize and respond to cybersecurity threats with comprehensive training programs. These programs are essential for fostering a security-conscious culture where every employee can act as a first line of defense against cyber threats.",
@@ -6057,7 +6159,7 @@ const subServicePagesContent = {
               "Secure financial data and transactions with stringent security protocols and regular compliance checks.",
           },
           {
-            icon: manufacturing,
+            icon: retail,
             heading: "Retail",
             content:
               "Safeguard online retail platforms against cyber threats, ensuring customer data protection and trust.",
@@ -6069,7 +6171,7 @@ const subServicePagesContent = {
               "Secure sensitive operational data in the transportation sector, from logistic operations to customer data, with robust cybersecurity frameworks.",
           },
           {
-            icon: aerospace,
+            icon: hospitality,
             heading: "Hospitality",
             content:
               "Implement security solutions to protect guests' personal information and transaction data in the hospitality industry.",
@@ -6086,19 +6188,19 @@ const subServicePagesContent = {
         mainHeading: "Why Partner with Qcentrio for Cybersecurity?",
         list: [
           {
-            image: whyChooseImg1,
+            image: cyber1,
             heading: "Expert Team",
             content:
               ": Our certified professionals provide comprehensive security solutions, ensuring a seamless defense system with minimal operational interruption.",
           },
           {
-            image: whyChooseImg2,
+            image: cyber2,
             heading: "Custom-Fit Security",
             content:
               "We offer tailored security strategies that are cost-effective and perfectly aligned with your specific business needs.",
           },
           {
-            image: whyChooseImg3,
+            image: cyber3,
             heading: "Ongoing Support",
             content:
               "With Qcentrio, you get more than just the initial setup; you receive continual support and updates to your cybersecurity measures.",
@@ -6121,6 +6223,7 @@ const subServicePagesContent = {
         link: "/offerings/cloud-infra-and-security-services",
         current: "GCP Services and Support",
       },
+      bannerImage: gcpBanner,
       contactHead:
         "Propel your business forward by leveraging Google Cloud’s capabilities",
       contentSection: {
@@ -6143,7 +6246,7 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "GCP Tools Integration",
-            image: "/business-value-enhancement-services.png",
+            image: "/gcp-services-and-support/secondary-image-1.png",
             icon: currency,
             content:
               "Personalized GCP integration services consolidate your infrastructure and leverage the full range of Google Cloud’s computing and hosting solutions for robust, future-ready business operations. Our integrations are designed to streamline your workflows and maximize the efficiency of your cloud resources, ensuring you stay ahead in a competitive market.",
@@ -6151,7 +6254,7 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "Seamless Application Deployment",
-            image: "/business-value-enhancement-services.png",
+            image: "/gcp-services-and-support/secondary-image-2.png",
             icon: currency,
             content:
               "Expert deployment and management, utilizing GCP’s Kubernetes Engine for container orchestration and Cloud Functions for responsive, event-driven applications. This service ensures that your applications are deployed efficiently and can scale dynamically in response to user demand, reducing overhead and improving service reliability.",
@@ -6159,7 +6262,7 @@ const subServicePagesContent = {
           {
             num: "03",
             heading: "Data Analytics & Machine Learning",
-            image: "/business-value-enhancement-services.png",
+            image: "/gcp-services-and-support/secondary-image-3.png",
             icon: currency,
             content:
               "Gain transformational insights with GCP’s BigQuery and AI Platform, offering powerful analytics and machine learning capabilities for data-driven decision-making. We help you unlock the value of your data, enabling predictive analytics and smarter business strategies that can drive growth and innovation.",
@@ -6167,7 +6270,7 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "Enhanced Security and Compliance",
-            image: "/business-value-enhancement-services.png",
+            image: "/gcp-services-and-support/secondary-image-4.png",
             icon: currency,
             content:
               "Our comprehensive security and compliance solutions ensure your data is managed with the utmost integrity and meets regulatory requirements with GCP’s cutting-edge security tools. We focus on safeguarding your data assets and ensuring compliance across all operations, reducing risk and enhancing trust with your customers.",
@@ -6175,7 +6278,7 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "Custom GCP Architectures",
-            image: "/business-value-enhancement-services.png",
+            image: "/gcp-services-and-support/secondary-image-5.png",
             icon: currency,
             content:
               "Develop custom cloud architectures on GCP that are meticulously designed to meet the specific requirements of your applications and workloads for enhanced performance and scalability. This tailored approach ensures your infrastructure supports your business needs effectively, adapting to changing demands without compromising on speed or quality.",
@@ -6183,7 +6286,7 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "GCP Migration Services",
-            image: "/business-value-enhancement-services.png",
+            image: "/gcp-services-and-support/secondary-image-6.png",
             icon: currency,
             content:
               "Migrate your existing workloads and applications to GCP with minimal disruption, leveraging our expertise for a smooth transition and quick adoption. Our strategic planning minimizes downtime, ensuring business continuity and a seamless migration experience that accelerates your cloud transformation journey.",
@@ -6191,7 +6294,7 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "GCP Cost Optimization",
-            image: "/business-value-enhancement-services.png",
+            image: "/gcp-services-and-support/secondary-image-7.png",
             icon: currency,
             content:
               "Utilize our cost management services to maximize your investment in GCP, ensuring you only pay for the resources you need while maintaining optimal performance. We implement cost-effective strategies that optimize resource usage and reduce expenses, ensuring you achieve the best possible return on your cloud investment.",
@@ -6199,7 +6302,7 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "GCP Managed Services",
-            image: "/business-value-enhancement-services.png",
+            image: "/gcp-services-and-support/secondary-image-8.png",
             icon: currency,
             content:
               "Allow our team to manage your GCP environment, handling all operational tasks, from routine maintenance to proactive monitoring and optimization. This comprehensive management frees you to focus on your core business functions, enhancing productivity and enabling innovation without the burden of day-to-day cloud operations management.",
@@ -6216,31 +6319,31 @@ const subServicePagesContent = {
               "Leverage GCP to maintain patient data confidentiality, streamline operations, and support telemedicine.",
           },
           {
-            icon: finace,
+            icon: retail,
             heading: "Retail",
             content:
               "Utilize GCP to manage e-commerce platforms, analyze consumer behavior, and personalize customer experiences.",
           },
           {
-            icon: manufacturing,
+            icon: finace,
             heading: "Finance",
             content:
               "Implement GCP’s secure and compliant cloud solutions for financial operations, risk management, and real-time analytics.",
           },
           {
-            icon: engineering,
+            icon: manufacturing,
             heading: "Manufacturing",
             content:
               "Integrate GCP to optimize production processes, supply chain management, and predictive maintenance.",
           },
           {
-            icon: aerospace,
+            icon: automotive,
             heading: "Automotive",
             content:
               "Leverage GCP’s advanced analytics and machine learning capabilities to accelerate innovation in autonomous driving technologies and customer experience.",
           },
           {
-            icon: travel,
+            icon: media,
             heading: "Media & Entertainment",
             content:
               "Employ GCP to manage large datasets, streamline content delivery networks, and personalize viewer experiences across digital platforms.",
@@ -6251,19 +6354,19 @@ const subServicePagesContent = {
         mainHeading: "Why Choose Qcentrio for GCP Services?",
         list: [
           {
-            image: whyChooseImg1,
+            image: gcp1,
             heading: "Customized GCP Strategies",
             content:
               "Advanced GCP services support tailored to your business, ensuring a scalable, secure, and efficient cloud environment.",
           },
           {
-            image: whyChooseImg2,
+            image: gcp2,
             heading: "Expert GCP Integration",
             content:
               "A dedicated team of GCP experts offers end-to-end support from initial integration to continuous enhancement.",
           },
           {
-            image: whyChooseImg3,
+            image: gcp3,
             heading: "Scalability and Innovation",
             content:
               "Leverage GCP’s diverse offerings to foster growth and adaptability, keeping you ahead in a rapidly evolving digital landscape.",
@@ -6286,6 +6389,7 @@ const subServicePagesContent = {
         link: "/offerings/cloud-infra-and-security-services",
         current: "Offshore Development Centre Services",
       },
+      bannerImage: offshoreBanner,
       contactHead:
         "Scale your business operations with a dedicated Offshore Development Centre",
       contentSection: {
@@ -6308,7 +6412,8 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "Customized Team and Cultural Integration",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/offshore-development-centre-services/secondary-image-1.png",
             icon: currency,
             content:
               " Build your offshore team with professionals selected to meet your project requirements and embody your company's culture and values. This will ensure seamless operational integration between your onshore and offshore teams, helping promote cohesion and maintain consistent business practices across geographies.",
@@ -6317,7 +6422,8 @@ const subServicePagesContent = {
             num: "02",
             heading:
               "Best-in-Class Infrastructure and Flexible Resource Allocation",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/offshore-development-centre-services/secondary-image-2.png",
             icon: currency,
             content:
               "Our ODCs boast the latest modern technology suites in an environment conducive to high productivity and security. They can also rapidly adapt team size and skills to match project demands. This ensures your team operates efficiently and can scale quickly to meet evolving project needs.",
@@ -6326,7 +6432,8 @@ const subServicePagesContent = {
             num: "03",
             heading:
               "Full-Spectrum Development, Testing, and Quality Assurance",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/offshore-development-centre-services/secondary-image-3.png",
             icon: currency,
             content:
               "Cover every software development and testing aspect, ensuring your products meet the highest standards and market demands. Our rigorous QA protocols and comprehensive development services allow you to focus on core business priorities.",
@@ -6334,7 +6441,8 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "Strategic Project Management and Ongoing Support",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/offshore-development-centre-services/secondary-image-4.png",
             icon: currency,
             content:
               "Implement efficient project management strategies for timely delivery aligned with business objectives, supported by continuous maintenance and IT support to ensure software performance. This dual focus guarantees your projects stay on track and your applications run smoothly.",
@@ -6342,7 +6450,8 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "IP Protection and Data Security",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/offshore-development-centre-services/secondary-image-5.png",
             icon: currency,
             content:
               "Safeguard the integrity of your intellectual property and data with robust security protocols and stringent compliance measures. We prioritize top-tier security practices to protect your assets and ensure confidentiality and integrity in all operations.",
@@ -6350,7 +6459,8 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "Dedicated Research and Development",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/offshore-development-centre-services/secondary-image-6.png",
             icon: currency,
             content:
               "Leverage specialized R&D teams at our Offshore Development Centers to foster innovation and explore new technologies, keeping you ahead of the curve in industry trends and advancements. This ensures your solutions remain cutting-edge and relevant.",
@@ -6358,7 +6468,8 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "Advanced Analytics and Reporting",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/offshore-development-centre-services/secondary-image-7.png",
             icon: currency,
             content:
               "Utilize our advanced analytics to gain deep insights into your offshore operations, with regular reporting to track progress and inform strategic decision-making. This enables you to make data-driven decisions that optimize your offshore development processes.",
@@ -6366,7 +6477,8 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "Communication Training and Support",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/offshore-development-centre-services/secondary-image-8.png",
             icon: currency,
             content:
               " Provide dedicated language and communication training for offshore teams to overcome language barriers and ensure clear, effective cross-cultural collaboration. Enhanced communication skills lead to better project outcomes and more efficient team dynamics.",
@@ -6377,49 +6489,49 @@ const subServicePagesContent = {
         mainHeading: "ODC Services Tailored for Various Industries",
         list: [
           {
-            icon: healthcare,
+            icon: softwareTechnology,
             heading: "Software and Technology",
             content:
               "Support your tech-driven initiatives with a dedicated team of developers and IT specialists.",
           },
           {
-            icon: finace,
+            icon: healthcare,
             heading: "Healthcare",
             content:
               "Manage healthcare application development with teams understanding regulatory compliance and patient privacy concerns.",
           },
           {
-            icon: manufacturing,
+            icon: finace,
             heading: "Financial Services",
             content:
               "Ensure secure and efficient development of financial software solutions, including fintech innovations and banking systems.",
           },
           {
-            icon: engineering,
+            icon: telecommunication,
             heading: "Telecommunications",
             content:
               "Stay ahead in the fast-paced telecom sector with teams that can rapidly develop and test new applications and services.",
           },
           {
-            icon: aerospace,
+            icon: eCommerce,
             heading: "E-Commerce",
             content:
               "Develop robust e-commerce platforms with a team experienced in the latest online retail technologies and customer experience trends.",
           },
           {
-            icon: travel,
+            icon: automotive,
             heading: "Automotive",
             content:
               "Support automotive software development, including IoT, telematics, and automation, with an offshore team well-versed in automotive industry standards.",
           },
           {
-            icon: eCommerce,
+            icon: energy,
             heading: "Energy",
             content:
               ": Harness specialized knowledge in energy sector software, from oil and gas exploration data management to renewable energy grid integration.",
           },
           {
-            icon: realEstate,
+            icon: media,
             heading: "Entertainment & Media",
             content:
               "Create robust solutions for media management, streaming services, and content distribution with a tech team attuned to the entertainment industry's pulse.",
@@ -6431,19 +6543,19 @@ const subServicePagesContent = {
           "Why Partner with Qcentrio for Offshore Development Centre Services?",
         list: [
           {
-            image: whyChooseImg1,
+            image: offshore1,
             heading: "Customized Solutions",
             content:
               "Each ODC is tailored to fit your unique project requirements and perfectly aligns with your operational goals.",
           },
           {
-            image: whyChooseImg2,
+            image: offshore2,
             heading: "Scalability and Flexibility",
             content:
               "Our ODC services allow you to quickly adapt team sizes and skills to your changing needs.",
           },
           {
-            image: whyChooseImg3,
+            image: offshore3,
             heading: "Cost-Effective Expertise",
             content:
               "Gain access to a global talent pool and reduce operational costs while maintaining high-quality development standards.",
@@ -6467,6 +6579,7 @@ const subServicePagesContent = {
         link: "/offerings/cloud-infra-and-security-services",
         current: "Salesforce Services",
       },
+      bannerImage: salesforceBanner,
       contactHead:
         "Start optimizing customer relations with robust Salesforce capabilities",
       contentSection: {
@@ -6489,7 +6602,8 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "Custom Salesforce Integration and Data Connectivity",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/salesforce-integration-and-optimization/secondary-image-1.png",
             icon: currency,
             content:
               "Develop Salesforce solutions specific to industries like finance, healthcare, or retail and enhance data connectivity across your value chain. This integration ensures your Salesforce ecosystem is cohesive, improving data accessibility and operational coherence.",
@@ -6497,7 +6611,8 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "Efficiency and Process Automation",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/salesforce-integration-and-optimization/secondary-image-2.png",
             icon: currency,
             content:
               "Utilize Salesforce to automate tasks and streamline processes, enhancing operational efficiency and customer relationship management. This automation drives productivity and improves service delivery by reducing manual efforts and errors.",
@@ -6505,7 +6620,8 @@ const subServicePagesContent = {
           {
             num: "03",
             heading: "Predictive Customer Engagement and Analytics",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/salesforce-integration-and-optimization/secondary-image-3.png",
             icon: currency,
             content:
               "Leverage Salesforce AI and analytics to forecast customer needs and analyze behavior, proactively engaging them and driving informed decision-making. This approach not only enhances customer satisfaction but also boosts sales through targeted marketing strategies.",
@@ -6513,7 +6629,8 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "Salesforce Cloud and Mobile Integration",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/salesforce-integration-and-optimization/secondary-image-4.png",
             icon: currency,
             content:
               " Seamlessly integrate Salesforce with cloud services like AWS, GCP, and Azure and extend its capabilities to mobile devices. This dual integration ensures unified access to customer data across platforms and enhances CRM functionality for teams on the go.",
@@ -6521,7 +6638,8 @@ const subServicePagesContent = {
           {
             num: "05",
             heading: "Custom App Development on Salesforce",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/salesforce-integration-and-optimization/secondary-image-5.png",
             icon: currency,
             content:
               "Build bespoke Salesforce applications tailored to your unique business processes, enhancing functionality and user engagement. These custom apps are designed to fit perfectly within your operational framework, providing tailored solutions that improve efficiency and user experience.",
@@ -6529,7 +6647,8 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "Salesforce Training and Adoption",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/salesforce-integration-and-optimization/secondary-image-6.png",
             icon: currency,
             content:
               " Provide comprehensive training programs to ensure your team fully leverages Salesforce functionality, thereby maximizing ROI through increased adoption rates. Effective training enhances user competence and confidence, leading to better utilization of the CRM system.",
@@ -6537,7 +6656,8 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "Advanced Security and Compliance Management",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/salesforce-integration-and-optimization/secondary-image-7.png",
             icon: currency,
             content:
               "Enhance your Salesforce deployments with robust security measures and compliance management. We ensure your Salesforce environment adheres to the latest security protocols and regulatory requirements, protecting sensitive data and maintaining trust.",
@@ -6545,7 +6665,8 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "Innovative Solutions with Salesforce IoT and AI",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/salesforce-integration-and-optimization/secondary-image-8.png",
             icon: currency,
             content:
               "Harness the power of Salesforce IoT and AI to create innovative solutions that transform customer interactions and operational processes. These technologies enable you to develop smarter, more responsive services that anticipate customer needs and optimize operations.",
@@ -6556,20 +6677,20 @@ const subServicePagesContent = {
         mainHeading: "DEPLOY SALESFORCE SOLUTIONS ACROSS VARIOUS SECTORS",
         list: [
           {
-            icon: healthcare,
+            icon: finace,
             heading: "FINANCIAL SERVICES",
             content:
               "Manage client relations and complex financial data within Salesforce, ensuring security and regulatory compliance.",
           },
           {
-            icon: finace,
+            icon: healthcare,
             heading: "HEALTHCARE",
             content:
               "Coordinate patient interactions and streamline care management through customized Salesforce integrations.",
           },
 
           {
-            icon: engineering,
+            icon: retail,
             heading: "RETAIL",
             content:
               "Use Salesforce to personalize shopping experiences, manage loyalty programs, and analyze consumer trends.",
@@ -6581,13 +6702,13 @@ const subServicePagesContent = {
               "Enhance citizen engagement and inter-agency collaboration with Salesforce, ensuring transparency and efficiency in public sector management.",
           },
           {
-            icon: travel,
+            icon: automotive,
             heading: "AUTOMOTIVE",
             content:
               "Utilize Salesforce to track customer life cycles from initial inquiry through post-sale services, enhancing the buyer journey and after-sales support.",
           },
           {
-            icon: eCommerce,
+            icon: telecommunication,
             heading: "TELECOMMUNICATIONS",
             content:
               "Deploy Salesforce to manage vast customer interactions and service provisions and streamline the complexities of telecom operations.",
@@ -6598,19 +6719,19 @@ const subServicePagesContent = {
         mainHeading: "Why Opt for Qcentrio's Salesforce Expertise?",
         list: [
           {
-            image: whyChooseImg1,
+            image: salesforce1,
             heading: "Tailored Solutions",
             content:
               "Our Salesforce integrations are custom-built to address your business's unique challenges and objectives.",
           },
           {
-            image: whyChooseImg2,
+            image: salesforce2,
             heading: "Comprehensive Expertise",
             content:
               "We have deep expertise in Salesforce’s suite of services, including advanced analytics and AI for CRM.",
           },
           {
-            image: whyChooseImg3,
+            image: salesforce3,
             heading: "Continuous Support",
             content:
               "Benefit from our round-the-clock support and service, ensuring your Salesforce environment evolves with your business.",

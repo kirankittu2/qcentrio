@@ -884,6 +884,10 @@ header {
   position: relative;
 }
 
+.lets-talk-container form{
+  width: 100%;
+}
+
 .lets-talk-container input {
   flex: 1;
   padding: clamp(15px, 1.19vw, 23px) ;
@@ -3735,6 +3739,10 @@ th, td {
   text-align: center;
   padding: 10px 0px;
   border-top: 1px solid rgba(112,112,112, 0.05);
+}
+
+.search-dropdown-item:hover{
+  background-color: #f9f9f9;
 }
 
 /* Sub service Page */

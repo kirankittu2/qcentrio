@@ -11,9 +11,15 @@ export default function AllBlogs({ data, type, page, paginationNum }) {
           <InsightsSearchBar />
           <div className="most-search-column">
             Most Searched Keywords :
-            <span className="keywords">Case Studies,</span>
-            <span className="keywords">Thought Leadership Papers,</span>
-            <span className="keywords">Cloud Migration</span>
+            <Link href="/insights?item=blockchain">
+              <span className="keywords">Blockchain,</span>
+            </Link>
+            <Link href="/insights?item=data management">
+              <span className="keywords">Data Management,</span>
+            </Link>
+            <Link href="/insights?item=pharmaceutical&type=case-study">
+              <span className="keywords">Pharmaceutical</span>
+            </Link>
           </div>
         </div>
         <h2 className="filter-by-heading">Filter by</h2>

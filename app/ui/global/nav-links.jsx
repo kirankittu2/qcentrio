@@ -30,6 +30,9 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
           ) {
             setServiceHovered(true);
           }
+          if (pathname == "/offerings" && servicesHovered == true) {
+            setServiceHovered(false);
+          }
         }}
         className={`main-nav-link ${
           pathname.includes("/offerings") ? "active" : ""
@@ -37,7 +40,9 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
         <Link
           data-option="link"
           className="link-with-down-arrow"
-          href={servicesHovered ? "/offerings" : ""}>
+          href={
+            servicesHovered && pathname !== "/offerings" ? "/offerings" : ""
+          }>
           Offerings
           {/* <span className="w-[8px] h-[8px] relative">
             <Image
@@ -52,7 +57,11 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
               alt=""
             />
           </span> */}
-          <span data-option="link" className="chevron bottom active"></span>
+          <span
+            data-option="link"
+            className={`chevron bottom active ${
+              servicesHovered ? "rotate-180" : "rotate-0"
+            }`}></span>
         </Link>
       </li>
       <li

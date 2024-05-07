@@ -14,7 +14,6 @@ const Cursor = dynamic(() => import("./ui/global/cursor"), { ssr: false });
 
 export default async function RootLayout({ children }) {
   const consent = await checkCookie();
-  console.log(consent);
   return (
     <html lang="en">
       <head></head>

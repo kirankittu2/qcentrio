@@ -1,13 +1,11 @@
 "use client";
 
-import herobanner1 from "@/public/hero-banner-1.jpg";
-import herobanner2 from "@/public/hero-banner-2.webp";
-import herobanner3 from "@/public/hero-banner-3.jpg";
 import heroright from "@/public/hero-right.svg";
 import heroleft from "@/public/hero-left.svg";
 import Img from "next/image";
 import { useEffect, useRef, useState } from "react";
 import Button from "../global/button";
+import { homeslidesMail } from "@/app/lib/actions";
 
 export default function Carousel() {
   const conatiner = useRef(null);
@@ -18,6 +16,23 @@ export default function Carousel() {
 
   const [hovered, setHovered] = useState(false);
   const [inputHovered, setInputHovered] = useState(false);
+
+  function onSubmit(e) {
+    e.preventDefault();
+    const form = e.target;
+    const formData = new FormData(form);
+
+    grecaptcha.ready(function () {
+      grecaptcha
+        .execute("6LdTKMUpAAAAAOUf_fNbftCXwdXc5KLdgZov7P74", {
+          action: "submit",
+        })
+        .then(function (token) {
+          formData.append("g-recaptcha-response", token);
+          homeslidesMail(formData);
+        });
+    });
+  }
 
   useEffect(() => {
     const items = wrapper.current.querySelectorAll(".hero-slide");
@@ -176,18 +191,21 @@ export default function Carousel() {
               <p className="hero-sub-heading">
                 Aligned with Your Business&rsquo;s Current and Future Needs
               </p>
-              <div className="lets-talk-container">
-                <input
-                  type="text"
-                  placeholder="Email Address"
-                  className="home-carousel-input"
-                  onFocus={() => setInputHovered((hover) => (hover = true))}
-                  onBlur={() => setInputHovered((hover) => (hover = false))}
-                />
-                <div className="input-btn">
-                  <Button name="Lets Talk" />
+              <form onSubmit={onSubmit}>
+                <div className="lets-talk-container">
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder="Email Address"
+                    className="home-carousel-input"
+                    onFocus={() => setInputHovered((hover) => (hover = true))}
+                    onBlur={() => setInputHovered((hover) => (hover = false))}
+                  />
+                  <div className="input-btn">
+                    <Button name="Lets Talk" />
+                  </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
@@ -211,18 +229,21 @@ export default function Carousel() {
               <p className="hero-sub-heading">
                 With E2E Digital Transformation Services and Solutions
               </p>
-              <div className="lets-talk-container">
-                <input
-                  type="text"
-                  placeholder="Email Address"
-                  className="home-carousel-input"
-                  onFocus={() => setInputHovered((hover) => (hover = true))}
-                  onBlur={() => setInputHovered((hover) => (hover = false))}
-                />
-                <div className="input-btn">
-                  <Button name="Lets Talk" />
+              <form onSubmit={onSubmit}>
+                <div className="lets-talk-container">
+                  <input
+                    name="email"
+                    type="text"
+                    placeholder="Email Address"
+                    className="home-carousel-input"
+                    onFocus={() => setInputHovered((hover) => (hover = true))}
+                    onBlur={() => setInputHovered((hover) => (hover = false))}
+                  />
+                  <div className="input-btn">
+                    <Button name="Lets Talk" />
+                  </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
@@ -244,18 +265,21 @@ export default function Carousel() {
                 TAILORED STRATEGIES FOR MARKET AND BUSINESS RESILIENCE
               </h1>
               <p className="hero-sub-heading">Commitment to Continuity</p>
-              <div className="lets-talk-container">
-                <input
-                  type="text"
-                  placeholder="Email Address"
-                  className="home-carousel-input"
-                  onFocus={() => setInputHovered((hover) => (hover = true))}
-                  onBlur={() => setInputHovered((hover) => (hover = false))}
-                />
-                <div className="input-btn">
-                  <Button name="Lets Talk" />
+              <form onSubmit={onSubmit}>
+                <div className="lets-talk-container">
+                  <input
+                    name="email"
+                    type="text"
+                    placeholder="Email Address"
+                    className="home-carousel-input"
+                    onFocus={() => setInputHovered((hover) => (hover = true))}
+                    onBlur={() => setInputHovered((hover) => (hover = false))}
+                  />
+                  <div className="input-btn">
+                    <Button name="Lets Talk" />
+                  </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>

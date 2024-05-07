@@ -1,9 +1,26 @@
-import Image from "next/image";
-import comment from "@/public/comment.svg";
-import mail from "@/public/mail.svg";
+"use client";
+
+import { contactUsReactOutMail } from "@/app/lib/actions";
 import Button from "../global/button";
 
 export default function ReachOut() {
+  function onSubmit(e) {
+    e.preventDefault();
+    const form = e.target;
+    const formData = new FormData(form);
+
+    grecaptcha.ready(function () {
+      grecaptcha
+        .execute("6LdTKMUpAAAAAOUf_fNbftCXwdXc5KLdgZov7P74", {
+          action: "submit",
+        })
+        .then(function (token) {
+          formData.append("g-recaptcha-response", token);
+          contactUsReactOutMail(formData);
+        });
+    });
+  }
+
   return (
     <div className="reach-out-section">
       <div className="reach-out-container">
@@ -11,10 +28,13 @@ export default function ReachOut() {
         <p className="reach-out-sub-heading">
           Email us to discuss with our experts.
         </p>
-        <div className="reach-out-form">
-          <input placeholder="Email Address"></input>
-          <Button name="Request Call Back" />
-        </div>
+        <form onSubmit={onSubmit}>
+          <div className="reach-out-form">
+            <input name="email" placeholder="Email Address"></input>
+            <Button name="Request Call Back" />
+          </div>
+        </form>
+
         {/* <div className="reach-out-holders">
           <div className="reach-out-holder-column">
             <Image src={comment} alt="" />

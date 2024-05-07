@@ -4,7 +4,7 @@ import { useState } from "react";
 import Button from "../global/button";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
-export default function Search() {
+export default function Search({ item }) {
   const [searchTerm, setSearchTerm] = useState("");
   const [searchTermDropdown, setSearchTermDropdown] = useState("All");
   const [dropdown, setDropdown] = useState(false);
@@ -37,7 +37,11 @@ export default function Search() {
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="Type Keyword"></input>
         <div onClick={() => setDropdown(!dropdown)} className="search-dropdown">
-          {searchTermDropdown} <span className="chevron bottom"></span>
+          {searchTermDropdown}{" "}
+          <span
+            className={`chevron bottom ${
+              dropdown ? "rotate-180" : "rotate-0"
+            }`}></span>
           {dropdown && (
             <div className="search-dropdown-item-list">
               <div

@@ -17,7 +17,7 @@ export default async function Products({ searchParams }) {
     <div>
       <div className="hero search-page">
         <NavBarContainer />
-        <Search />
+        <Search item={item} />
       </div>
       <SearchHeading data={data} searchParams={searchParams} page={page} />
       <SearchMain data={data} page={page} />
@@ -27,7 +27,7 @@ export default async function Products({ searchParams }) {
   );
 }
 
-function SearchHeading({ searchParams, data, page }) {
+function SearchHeading({ searchParams, data }) {
   return (
     <div className="search-page-heading-section">
       <h1 className="all-results-heading ">

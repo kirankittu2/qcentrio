@@ -6,8 +6,68 @@ import fs from "fs";
 import zod from "zod";
 import { cookies } from "next/headers";
 
+// Home page hero section slide emails
+export async function homeslidesMail(formData) {
+  const token = formData.get("g-recaptcha-response");
+  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const response = await fetch(
+    `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
+    {
+      method: "POST",
+    }
+  );
+  const recaptchDataScore = await response.json();
+  // console.log(recaptchDataScore);
+  if (recaptchDataScore.score >= 0.5) {
+    const email = formData.get("email");
+
+    const data = {
+      email,
+    };
+    let parsedData;
+    const userSchema = zod.object({
+      email: zod.string().email(),
+    });
+    try {
+      parsedData = userSchema.parse(data);
+    } catch (error) {
+      console.error("Validation failed:", error.errors);
+    }
+    const emailTemplate = fs.readFileSync(
+      "app/email/home-page/hero-section-mail.html",
+      "utf8"
+    );
+
+    const info = await transporter.sendMail({
+      from: "info@qcentrio.com",
+      to: parsedData.email,
+      subject:
+        "Unlock Growth and Transformation with Our Data-Driven Solutions",
+      html: emailTemplate,
+    });
+
+    let htmlContent = "";
+    Object.entries(parsedData).forEach(([key, value]) => {
+      htmlContent += `<p>${key}: ${value}</p>`;
+    });
+
+    const owner = await transporter.sendMail({
+      from: "info@qcentrio.com",
+      to: "sai.harikiran@x-verity.com",
+      subject: "Form Filled",
+      html: htmlContent,
+    });
+
+    if (info.response.includes("OK") && owner.response.includes("OK")) {
+      redirect("/thank-you", "push");
+    }
+  } else {
+    console.error("Don't try to spam");
+  }
+}
+
 // Contact page email
-export async function sendMail(formData) {
+export async function contactMail(formData) {
   const token = formData.get("g-recaptcha-response");
   const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
   const response = await fetch(
@@ -65,10 +125,308 @@ export async function sendMail(formData) {
     const info = await transporter.sendMail({
       from: "info@qcentrio.com",
       to: parsedData.email,
-      subject: "Qcentrio",
+      subject: "Streamline, Secure, and Innovate with QCentrio",
       html: filledHtml,
     });
-    if (info.response.includes("OK")) {
+
+    let htmlContent = "";
+    Object.entries(parsedData).forEach(([key, value]) => {
+      htmlContent += `<p>${key}: ${value}</p>`;
+    });
+
+    const owner = await transporter.sendMail({
+      from: "info@qcentrio.com",
+      to: "sai.harikiran@x-verity.com",
+      subject: "Form Filled",
+      html: htmlContent,
+    });
+
+    if (info.response.includes("OK") && owner.response.includes("OK")) {
+      redirect("/thank-you", "push");
+    }
+  } else {
+    console.error("Don't try to spam");
+  }
+}
+
+// Contact us page main mail
+export async function contactusMaimMail(formData) {
+  const token = formData.get("g-recaptcha-response");
+  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const response = await fetch(
+    `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
+    {
+      method: "POST",
+    }
+  );
+  const recaptchDataScore = await response.json();
+  if (recaptchDataScore.score >= 0.5) {
+    const email = formData.get("email");
+    const firstname = formData.get("first-name");
+    const lastname = formData.get("last-name");
+    const phone = formData.get("contact");
+    const purpose = formData.get("purpose");
+    const message = formData.get("message");
+    const data = {
+      email,
+      firstname,
+      lastname,
+      phone,
+      purpose,
+      message,
+    };
+    let parsedData;
+    const userSchema = zod.object({
+      email: zod.string().email(),
+      firstname: zod.string(),
+      lastname: zod.string(),
+      phone: zod.string(),
+      purpose: zod.string(),
+      message: zod.string(),
+    });
+    try {
+      parsedData = userSchema.parse(data);
+    } catch (error) {
+      console.error("Validation failed:", error.errors);
+    }
+    const emailTemplate = fs.readFileSync(
+      "app/email/contact-us-page/hero-section-main.html",
+      "utf8"
+    );
+    const emailData = {
+      firstname: parsedData.firstname,
+      lastname: parsedData.lastname,
+    };
+    const fillPlaceholders = (template, data) => {
+      let filledTemplate = template;
+      for (const key in data) {
+        if (data.hasOwnProperty(key)) {
+          const regex = new RegExp(`{{${key}}}`, "g");
+          filledTemplate = filledTemplate.replace(regex, data[key]);
+        }
+      }
+      return filledTemplate;
+    };
+    const filledHtml = fillPlaceholders(emailTemplate, emailData);
+    const info = await transporter.sendMail({
+      from: "info@qcentrio.com",
+      to: parsedData.email,
+      subject: "Appreciation for contacting QCentrio",
+      html: filledHtml,
+    });
+
+    let htmlContent = "";
+    Object.entries(parsedData).forEach(([key, value]) => {
+      htmlContent += `<p>${key}: ${value}</p>`;
+    });
+
+    const owner = await transporter.sendMail({
+      from: "info@qcentrio.com",
+      to: "sai.harikiran@x-verity.com",
+      subject: "Form Filled",
+      html: htmlContent,
+    });
+
+    if (info.response.includes("OK") && owner.response.includes("OK")) {
+      redirect("/thank-you", "push");
+    }
+  } else {
+    console.error("Don't try to spam");
+  }
+}
+
+// Contact us reach out mail
+export async function contactUsReactOutMail(formData) {
+  const token = formData.get("g-recaptcha-response");
+  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const response = await fetch(
+    `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
+    {
+      method: "POST",
+    }
+  );
+  const recaptchDataScore = await response.json();
+  // console.log(recaptchDataScore);
+  if (recaptchDataScore.score >= 0.5) {
+    const email = formData.get("email");
+
+    const data = {
+      email,
+    };
+    let parsedData;
+    const userSchema = zod.object({
+      email: zod.string().email(),
+    });
+    try {
+      parsedData = userSchema.parse(data);
+    } catch (error) {
+      console.error("Validation failed:", error.errors);
+    }
+    const emailTemplate = fs.readFileSync(
+      "app/email/contact-us-page/request-callback-mail.html",
+      "utf8"
+    );
+
+    const info = await transporter.sendMail({
+      from: "info@qcentrio.com",
+      to: parsedData.email,
+      subject: "How to Reach Qcentrio",
+      html: emailTemplate,
+    });
+
+    let htmlContent = "";
+    Object.entries(parsedData).forEach(([key, value]) => {
+      htmlContent += `<p>${key}: ${value}</p>`;
+    });
+
+    const owner = await transporter.sendMail({
+      from: "info@qcentrio.com",
+      to: "sai.harikiran@x-verity.com",
+      subject: "Form Filled",
+      html: htmlContent,
+    });
+
+    if (info.response.includes("OK") && owner.response.includes("OK")) {
+      redirect("/thank-you", "push");
+    }
+  } else {
+    console.error("Don't try to spam");
+  }
+}
+
+// Footer email
+export async function footerMail(formData) {
+  const token = formData.get("g-recaptcha-response");
+  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const response = await fetch(
+    `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
+    {
+      method: "POST",
+    }
+  );
+  const recaptchDataScore = await response.json();
+  // console.log(recaptchDataScore);
+  if (recaptchDataScore.score >= 0.5) {
+    const email = formData.get("email");
+
+    const data = {
+      email,
+    };
+    let parsedData;
+    const userSchema = zod.object({
+      email: zod.string().email(),
+    });
+    try {
+      parsedData = userSchema.parse(data);
+    } catch (error) {
+      console.error("Validation failed:", error.errors);
+    }
+    const emailTemplate = fs.readFileSync("app/email/footer-mail.html", "utf8");
+
+    const info = await transporter.sendMail({
+      from: "info@qcentrio.com",
+      to: parsedData.email,
+      subject: "Stay ahead of the curve with our monthly insights!",
+      html: emailTemplate,
+    });
+
+    let htmlContent = "";
+    Object.entries(parsedData).forEach(([key, value]) => {
+      htmlContent += `<p>${key}: ${value}</p>`;
+    });
+
+    const owner = await transporter.sendMail({
+      from: "info@qcentrio.com",
+      to: "sai.harikiran@x-verity.com",
+      subject: "Form Filled",
+      html: htmlContent,
+    });
+
+    if (info.response.includes("OK") && owner.response.includes("OK")) {
+      redirect("/thank-you", "push");
+    }
+  } else {
+    console.error("Don't try to spam");
+  }
+}
+
+// Need something email
+export async function needSomethingMail(formData) {
+  const token = formData.get("g-recaptcha-response");
+  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const response = await fetch(
+    `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
+    {
+      method: "POST",
+    }
+  );
+  const recaptchDataScore = await response.json();
+  if (recaptchDataScore.score >= 0.5) {
+    const email = formData.get("email");
+    const firstname = formData.get("first-name");
+    const lastname = formData.get("last-name");
+    const phone = formData.get("contact");
+    const message = formData.get("message");
+    const data = {
+      email,
+      firstname,
+      lastname,
+      phone,
+      message,
+    };
+    let parsedData;
+    const userSchema = zod.object({
+      email: zod.string().email(),
+      firstname: zod.string(),
+      lastname: zod.string(),
+      phone: zod.string(),
+      message: zod.string(),
+    });
+    try {
+      parsedData = userSchema.parse(data);
+    } catch (error) {
+      console.error("Validation failed:", error.errors);
+    }
+    const emailTemplate = fs.readFileSync(
+      "app/email/need-something-mail.html",
+      "utf8"
+    );
+    const emailData = {
+      firstname: parsedData.firstname,
+      lastname: parsedData.lastname,
+    };
+    const fillPlaceholders = (template, data) => {
+      let filledTemplate = template;
+      for (const key in data) {
+        if (data.hasOwnProperty(key)) {
+          const regex = new RegExp(`{{${key}}}`, "g");
+          filledTemplate = filledTemplate.replace(regex, data[key]);
+        }
+      }
+      return filledTemplate;
+    };
+    const filledHtml = fillPlaceholders(emailTemplate, emailData);
+    const info = await transporter.sendMail({
+      from: "info@qcentrio.com",
+      to: parsedData.email,
+      subject:
+        "Drive Growth & Innovation: Your One-Stop Shop for Business Transformation",
+      html: filledHtml,
+    });
+
+    let htmlContent = "";
+    Object.entries(parsedData).forEach(([key, value]) => {
+      htmlContent += `<p>${key}: ${value}</p>`;
+    });
+
+    const owner = await transporter.sendMail({
+      from: "info@qcentrio.com",
+      to: "sai.harikiran@x-verity.com",
+      subject: "Form Filled",
+      html: htmlContent,
+    });
+
+    if (info.response.includes("OK") && owner.response.includes("OK")) {
       redirect("/thank-you", "push");
     }
   } else {
@@ -134,6 +492,64 @@ export async function singleMail(formData) {
     subject: "Coming soon page",
     html: parsedData.email,
   });
+}
+
+export async function insightsMail(formData) {
+  const token = formData.get("g-recaptcha-response");
+  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const response = await fetch(
+    `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
+    {
+      method: "POST",
+    }
+  );
+  const recaptchDataScore = await response.json();
+  // console.log(recaptchDataScore);
+  if (recaptchDataScore.score >= 0.5) {
+    const email = formData.get("email");
+
+    const data = {
+      email,
+    };
+    let parsedData;
+    const userSchema = zod.object({
+      email: zod.string().email(),
+    });
+    try {
+      parsedData = userSchema.parse(data);
+    } catch (error) {
+      console.error("Validation failed:", error.errors);
+    }
+    const emailTemplate = fs.readFileSync(
+      "app/email/insights-page/hero-section-mail.html",
+      "utf8"
+    );
+
+    const info = await transporter.sendMail({
+      from: "info@qcentrio.com",
+      to: parsedData.email,
+      subject: "Unleash your best with QCentrio Insights",
+      html: emailTemplate,
+    });
+
+    let htmlContent = "";
+    Object.entries(parsedData).forEach(([key, value]) => {
+      htmlContent += `<p>${key}: ${value}</p>`;
+    });
+
+    const owner = await transporter.sendMail({
+      from: "info@qcentrio.com",
+      to: "sai.harikiran@x-verity.com",
+      subject: "Form Filled",
+      html: htmlContent,
+    });
+
+    if (info.response.includes("OK") && owner.response.includes("OK")) {
+      redirect("/thank-you", "push");
+    }
+  } else {
+    console.error("Don't try to spam");
+  }
 }
 
 export async function storeCookie(formData) {

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Button from "./button";
 import needSomethingBanner from "@/public/need-something-banner.png";
 import close from "@/public/close.svg";
+import { needSomethingMail } from "@/app/lib/actions";
 
 export default function NeedSomethingModal({
   setNeedSomething,
@@ -21,7 +22,7 @@ export default function NeedSomethingModal({
         })
         .then(function (token) {
           formData.append("g-recaptcha-response", token);
-          sendMail(formData);
+          needSomethingMail(formData);
         });
     });
   }

@@ -155,6 +155,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
+  padding-top: 3px;
 }
 
 .global-presence-section .section-heading {
