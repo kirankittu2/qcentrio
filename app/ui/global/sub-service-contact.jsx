@@ -1,6 +1,6 @@
 "use client";
 
-import { sendMail } from "@/app/lib/actions";
+import { contactMail } from "@/app/lib/actions";
 import Button from "./button";
 import CustomUploadInput from "./custom-upload-input";
 import { useEffect, useRef } from "react";
@@ -19,7 +19,7 @@ export default function SubServiceContact({ heading, subheading, upload }) {
         })
         .then(function (token) {
           formData.append("g-recaptcha-response", token);
-          sendMail(formData);
+          contactMail(formData);
         });
     });
   }

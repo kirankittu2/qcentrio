@@ -1527,6 +1527,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "TRANSFORM YOUR ORGANIZATIONAL CAPABILITIES",
         heading2: "AND SUSTAIN YOUR COMPETITIVE ADVANTAGE",
+        content:
+          "Transforming your organizational capabilities requires focus on empowering your people, streamlining processes and fostering a culture of innovation. By strengthening these core elements, you'll be well-equipped to anticipate market shifts, adapt to changing customer demands, and continuously refine your offerings. This ongoing evolution ensures your organization remains a leader in its field, securing a sustainable competitive advantage.",
       },
       bannerImage: erpBanner,
       metaData: {
@@ -1559,7 +1561,7 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "QAD Advisory & Support Services",
+            heading: "QAD Expertise: Advisory & Support Services ",
             image: "/erp-solutions-support/01.png",
             icon: erpIcon1,
             content:
@@ -1575,7 +1577,8 @@ const subServicePagesContent = {
           },
           {
             num: "03",
-            heading: "Infor Advisory & Support Services",
+            heading:
+              "Unlocking Infor’s Potential: Advisory & Support Services ",
             image: "/erp-solutions-support/03.png",
             icon: erpIcon3,
             content:
@@ -1591,7 +1594,7 @@ const subServicePagesContent = {
           },
           {
             num: "05",
-            heading: "Custom ERP Developmen",
+            heading: "Tailored Solutions: Custom ERP Development ",
             image: "/erp-solutions-support/05.png",
             icon: erpIcon5,
             content:
@@ -1599,7 +1602,7 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "ERP Training and User Adoption",
+            heading: "Empowering Users: ERP Training & User Adoption",
             image: "/erp-solutions-support/06.png",
             icon: erpIcon6,
             content:
@@ -1607,7 +1610,7 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "Legacy System Migration",
+            heading: "Modernization Made Easy: Legacy System Migration ",
             image: "/erp-solutions-support/07.png",
             icon: erpIcon7,
             content:
@@ -1615,7 +1618,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "ERP Performance Optimization",
+            heading: "Boosting Efficiency: ERP Performance Optimization",
             image: "/erp-solutions-support/08.png",
             icon: erpIcon8,
             content:
@@ -1693,6 +1696,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "Harness the Power of Big Data",
         heading2: "for Informed Decision-Making",
+        content:
+          "By harnessing the power of big data, you gain access to a treasure trove of insights about your customers, operations, and market trends. This comprehensive approach involves collecting, analyzing, and interpreting vast amounts of data, revealing hidden patterns and correlations. In today's data-driven world, big data becomes the key to unlocking a future of informed success.",
       },
       bannerImage: bigDataBanner,
       metaData: {
@@ -1750,7 +1755,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "Data Visualization and Reporting",
+            heading: "Unveiling Insights with Data Visualization, Reporting ",
             image: "/big-data-services-and-solutions/04.png",
             icon: bigDataIcon4,
             content:
@@ -1782,7 +1787,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "Security and Compliance",
+            heading: "Building Trust with Security and Compliance Service",
             image: "/big-data-services-and-solutions/08.png",
             icon: bigDataIcon8,
             content:
@@ -1877,6 +1882,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "MAXIMIZE ENTERPRISE AGILITY AND INNOVATION",
         heading2: "WITH ADVANCED SAP SERVICES SUPPORT",
+        content:
+          "In today's dynamic business environment, agility and innovation are paramount for sustained success. Advanced SAP services support empowers you to unlock this potential within your enterprise. These specialized services focus on optimizing your SAP systems, streamlining processes, and ensuring seamless integration across your entire operation.",
       },
       metaData: {
         title: "Expert SAP Services and Support | Qcentrio",
@@ -1918,7 +1925,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading: "SAP S/4HANA Solutions",
+            heading: "Unlocking Business Agility: SAP S/4HANA Solutions",
             image: "/sap-services-and-support/secondary-image-2.png",
             icon: currency,
             content:
@@ -1926,7 +1933,8 @@ const subServicePagesContent = {
           },
           {
             num: "03",
-            heading: "SAP CRM & Customer Experience",
+            heading:
+              "Enhancing Customer Relationships: SAP CRM & Customer Experience",
             image: "/sap-services-and-support/secondary-image-3.png",
             icon: currency,
             content:
@@ -1934,7 +1942,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "SAP Analytics Solutions",
+            heading: "Data-Driven Decisions: SAP Analytics Solutions",
             image: "/sap-services-and-support/secondary-image-4.png",
             icon: currency,
             content:
@@ -1942,7 +1950,7 @@ const subServicePagesContent = {
           },
           {
             num: "05",
-            heading: "Continuous SAP Support",
+            heading: "Optimizing Performance: Continuous SAP Support",
             image: "/sap-services-and-support/secondary-image-5.png",
             icon: currency,
             content:
@@ -1950,7 +1958,7 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "SAP Cloud Platform Services",
+            heading: "Scaling in the Cloud: SAP Cloud Platform Services",
             image: "/sap-services-and-support/secondary-image-6.png",
             icon: currency,
             content:
@@ -1958,7 +1966,7 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "SAP Custom Development",
+            heading: "Building Tailored Solutions: SAP Custom Development",
             image: "/sap-services-and-support/secondary-image-7.png",
             icon: currency,
             content:
@@ -1966,7 +1974,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "SAP Training and Enablement",
+            heading: "Empowering Your Workforce: SAP Training and Enablement",
             image: "/sap-services-and-support/secondary-image-8.png",
             icon: currency,
             content:
@@ -2049,6 +2057,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "CONVERT YOUR IDEAS INTO",
         heading2: "LEADING SOFTWARE PRODUCTS",
+        content:
+          "Unleash your innovation and bring your groundbreaking software ideas to life. This proven process empowers you to transform your vision into market-leading products. By focusing on rigorous market validation, you'll ensure your product solves a real customer need. Next, an emphasis on user-centric design guarantees a delightful and intuitive experience.",
       },
       metaData: {
         title: "Tailored Software and Application Development | Qcentrio",
@@ -2082,7 +2092,7 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Java and Full Stack Development",
+            heading: "Crafting Web Applications With Java and Full Stack ",
             image:
               "/software-and-application-development/secondary-image-1.png",
             icon: currency,
@@ -2109,7 +2119,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "API and Integration Services",
+            heading: "Unleashing the Power of API and Integration Services",
             image:
               "/software-and-application-development/secondary-image-4.png",
             icon: currency,
@@ -2236,6 +2246,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "Navigate the Future",
         heading2: "with Smart IoT Integration",
+        content:
+          "Smart IoT integration streamlines processes, optimizes resource utilization, and fosters predictive maintenance, minimizing downtime and maximizing efficiency. Ultimately, this interconnected ecosystem empowers you to navigate the future with confidence, making your business more responsive, adaptable, and future-proof.",
       },
       bannerImage: iotBanner,
       metaData: {
@@ -2316,7 +2328,7 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "IoT Solutions for Smart Cities",
+            heading: "Implementing effective IOT solutions for smart cities",
             image: "/internet-of-things-solutions/07.png",
             icon: iotIcon7,
             content:
@@ -2419,6 +2431,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "BRING YOUR SOFTWARE",
         heading2: "VISION TO LIFE",
+        content:
+          "Watch your groundbreaking software vision become a reality. With this comprehensive strategy, you can transform your software vision from a spark of inspiration into a market-leading product that shapes the future of your industry. Meticulous development and rigorous testing safeguard the quality and reliability of your software",
       },
       metaData: {
         title: "Innovative Product Engineering Services | Qcentrio",
@@ -2474,7 +2488,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "UI/UX Design and User Research",
+            heading: "Diving deep into UI/UX design and user research ",
             image: "/product-engineering-services/secondary-image-4.png",
             icon: currency,
             content:
@@ -2482,7 +2496,7 @@ const subServicePagesContent = {
           },
           {
             num: "05",
-            heading: "Cloud and Data Engineering",
+            heading: "Unlock scalable insights with cloud and data engineering",
             image: "/product-engineering-services/secondary-image-5.png",
             icon: currency,
             content:
@@ -2506,7 +2520,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "Cybersecurity Implementation",
+            heading: "Build a secure future with cybersecurity solutions",
             image: "/product-engineering-services/secondary-image-8.png",
             icon: currency,
             content:
@@ -2757,6 +2771,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "TRANSFORMING HEALTHCARE",
         heading2: "WITH EXPERT EPIC INTEGRATION",
+        content:
+          "At Qcentrio our leading AI-based IT and analytical services can help enhance your healthcare business by enabling optimized outcomes, accurate results, and data point-based beneficial and cost-effective prescriptions.",
       },
       metaData: {
         title: "Expert EPIC Advisory Services | Qcentrio",
@@ -2778,7 +2794,7 @@ const subServicePagesContent = {
         content1:
           "As healthcare continues to advance, the need for cohesive and streamlined Electronic Health Record (EHR) systems becomes crucial.",
         content2:
-          "As healthcare continues to advance, the need for cohesive and streamlined Electronic Health Record (EHR) systems becomes crucial.",
+          "We help minimize human errors and provide real-time access to patient reports and vital statistics to help plan treatment.",
         content3:
           "At Qcentrio, we offer expert EPIC Advisory Services to simplify the integration of EPIC's leading medical software into existing hospital information systems.",
         content4:
@@ -2791,7 +2807,8 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "EHR Integration Expertise",
+            heading:
+              "EHR Integration Expertise For Consolidated and Easily Accessible Data",
             image: "/epic-advisory-services/secondary-image-1.png",
             icon: currency,
             content:
@@ -2799,7 +2816,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading: "Data Migration",
+            heading: "Data Migration: Securely, efficiently and Statutorily",
             image: "/epic-advisory-services/secondary-image-2.png",
             icon: currency,
             content:
@@ -2807,7 +2824,7 @@ const subServicePagesContent = {
           },
           {
             num: "03",
-            heading: "Go-Live Solutions",
+            heading: "Go-Live Solutions ensures it all goes flawless.",
             image: "/epic-advisory-services/secondary-image-3.png",
             icon: currency,
             content:
@@ -2815,7 +2832,8 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "Healthcare Ecosystem Expansion",
+            heading:
+              "Healthcare Ecosystem For All Your Hospital Stay and Medical Care Patients ",
             image: "/epic-advisory-services/secondary-image-4.png",
             icon: currency,
             content:
@@ -2831,7 +2849,8 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "Interoperability Solutions",
+            heading:
+              "Interoperability Solutions for Seamless Operations and Communication",
             image: "/epic-advisory-services/secondary-image-6.png",
             icon: currency,
             content:
@@ -2839,7 +2858,8 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "Custom Workflow Design",
+            heading:
+              "Custom Workflow Design For Faster Movement and Traceability Of All Tasks and Processes",
             image: "/epic-advisory-services/secondary-image-7.png",
             icon: currency,
             content:
@@ -2847,7 +2867,8 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "Training and Education",
+            heading:
+              "Training and Education: Making You An Expert Of What You DO",
             image: "/epic-advisory-services/secondary-image-8.png",
             icon: currency,
             content:
@@ -2908,6 +2929,8 @@ const subServicePagesContent = {
         heading1: "SEAMLESS INTEGRATION WITH EHR SYSTEM",
         heading2:
           "FOR ENHANCED CLINICAL, OPERATIONAL, AND FINANCIAL EFFICIENCIES",
+        content:
+          "At QCentrio our Oracle Cerner Integration experts help you to integrate it peacefully with EHR System. With hands-on in various projects gives them a deep knowledge of handling various scenario",
       },
       metaData: {
         title: "Expert Oracle Cerner Advisory Services | Qcentrio",
@@ -2929,7 +2952,7 @@ const subServicePagesContent = {
         content1:
           "Healthcare institutions face the challenge of integrating next-gen EHR systems into their complex operational framework.",
         content2:
-          "Healthcare institutions face the challenge of integrating next-gen EHR systems into their complex operational framework.",
+          "This is where our experts and knowledge come into the picture, implementing the Oracle’s most advanced and secured healthcare information systems.",
         content3:
           "As a leading name in medical software, Oracle Cerner presents an opportunity for transformative efficiency.",
         content4:
@@ -3555,6 +3578,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "Experience Seamless Blockchain Integration",
         heading2: "for Business Excellence",
+        content:
+          "Unify and simplify your operations with seamless blockchain integration. By experiencing seamless blockchain integration, you unlock a new level of business excellence, characterized by enhanced security, efficiency, and a collaborative ecosystem that propels your organization to new heights.",
       },
       metaData: {
         title:
@@ -3599,7 +3624,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading: "Custom Blockchain Integration",
+            heading: "Bridging the Gap: Custom Blockchain Integration",
             image:
               "/blockchain-integration-and-deployment-services/secondary-image-2.png",
             icon: currency,
@@ -3608,7 +3633,8 @@ const subServicePagesContent = {
           },
           {
             num: "03",
-            heading: "Blockchain Deployment",
+            heading:
+              "Revolutionizing Processes: Blockchain Deployment Services",
             image:
               "/blockchain-integration-and-deployment-services/secondary-image-3.png",
             icon: currency,
@@ -3626,7 +3652,7 @@ const subServicePagesContent = {
           },
           {
             num: "05",
-            heading: "Blockchain Scalability Solutions",
+            heading: "Ensuring Scalability: Blockchain Scalability Solutions",
             image:
               "/blockchain-integration-and-deployment-services/secondary-image-5.png",
             icon: currency,
@@ -3635,7 +3661,7 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "Smart Contract Auditing",
+            heading: "Securing the Future: Smart Contract Auditing",
             image:
               "/blockchain-integration-and-deployment-services/secondary-image-6.png",
             icon: currency,
@@ -3644,7 +3670,7 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "Decentralized Identity Solutions",
+            heading: "Empowering Individuals: Decentralized Identity Solutions",
             image:
               "/blockchain-integration-and-deployment-services/secondary-image-7.png",
             icon: currency,
@@ -3653,7 +3679,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "Cross-Chain Integration Services",
+            heading: "Breaking Down Barriers: Cross-Chain Integration",
             image:
               "/blockchain-integration-and-deployment-services/secondary-image-8.png",
             icon: currency,
@@ -3744,6 +3770,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "Confidently Deploy and Maintain",
         heading2: "Trustworthy Blockchain Systems",
+        content:
+          "Forge a path towards a secure and transparent future with the confident deployment and maintenance of trustworthy blockchain systems. This meticulous approach ensures your blockchain implementation meets the highest standards of security and reliability. By confidently deploying and maintaining trustworthy blockchain systems, you unlock a future of secure and efficient success.",
       },
       metaData: {
         title: "Blockchain Security & Compliance Solutions Support | Qcentrio",
@@ -3934,6 +3962,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "Unlock Business Innovation",
         heading2: "with Blockchain-Driven Security and Transparency",
+        content:
+          "By leveraging blockchain-driven security and transparency, you gain the confidence to explore new business models, streamline processes, and build stronger relationships with partners and customers. This secure foundation fosters a culture of innovation, propelling your business towards a future brimming with ground-breaking possibilities.",
       },
       metaData: {
         title: "Comprehensive Blockchain Solution Development | Qcentrio",
@@ -4101,6 +4131,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "Capitalize on Blockchain",
         heading2: "for Enhanced Security, Transparency, and Efficiency",
+        content:
+          "Blockchain technology unlocks a revolutionary approach to information management, offering enhanced security, transparency, and efficiency. By capitalizing on blockchain, you gain a powerful tool to revolutionize your operations, fostering collaboration, minimizing risk, and propelling your business towards a future of secure and efficient success.",
       },
       metaData: {
         title: "Blockchain Strategy and Advisory | Innovate with Qcentrio",
@@ -4293,6 +4325,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "BREAK DOWN SILOS AND ENABLE SEAMLESS COMMUNICATION",
         heading2: "WITH COLLABORATION AND PRODUCTIVITY SOLUTIONS",
+        content:
+          "QCENTRIO’s collaboration and productivity-based excellent solutions will help you organize your organization's communication and information and ensure that it is available at the right place for the right people at the right time.",
       },
       metaData: {
         title: "Collaboration and Productivity Solutions Support | Qcentrio",
@@ -4341,7 +4375,8 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading: "Collaborative Workspaces",
+            heading:
+              "Collaborative Workspaces Achieving Common Goal Collectively and Faster",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
@@ -4357,7 +4392,8 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "Team Communication Tools",
+            heading:
+              "Team Communication Tools make it easy for you and your team to communicate",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
@@ -4365,7 +4401,8 @@ const subServicePagesContent = {
           },
           {
             num: "05",
-            heading: "Project Management Solutions",
+            heading:
+              "Project Management Solutions To Face The Deadlines Boldly",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
@@ -4373,7 +4410,8 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "Integrated Workspaces",
+            heading:
+              "Integrated Workspaces To Make Both Work and The Work Place Apt",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
@@ -4389,7 +4427,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "Remote Work Solutions",
+            heading: "Advanced and Secure Remote Work Solutions",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
@@ -4468,6 +4506,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "OPTIMIZE YOUR DIGITAL TOUCHPOINTS",
         heading2: "FOR SEAMLESS CUSTOMER JOURNEY WITH ROBUST CRM SYSTEMS",
+        content:
+          "At QCENTRIO, our CRM System Solution is designed to capture all your customer journey to make personalised all customer interactions and various analyses.",
       },
       metaData: {
         title: "CRM System Solutions for Business Growth | Qcentrio",
@@ -4499,7 +4539,8 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Salesforce Implementation",
+            heading:
+              "Salesforce Implementation Through Right Strategy and Training",
             image: "/crm-system-solutions/secondary-image-1.png",
             icon: currency,
             content:
@@ -4507,7 +4548,8 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading: "Microsoft Dynamics CRM",
+            heading:
+              "Microsoft Dynamics CRM Implementing By Appropriate Methodology",
             image: "/crm-system-solutions/secondary-image-2.png",
             icon: currency,
             content:
@@ -4515,7 +4557,7 @@ const subServicePagesContent = {
           },
           {
             num: "03",
-            heading: "SAP CRM Services",
+            heading: "SAP CRM Services Meeting Bussiness Process Requirements",
             image: "/crm-system-solutions/secondary-image-3.png",
             icon: currency,
             content:
@@ -4523,7 +4565,8 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "CRM Optimization and Analytics",
+            heading:
+              "CRM Optimization and Analytics Helping Your Business Take Right Decision.",
             image: "/crm-system-solutions/secondary-image-4.png",
             icon: currency,
             content:
@@ -4531,7 +4574,7 @@ const subServicePagesContent = {
           },
           {
             num: "05",
-            heading: "Custom CRM Development",
+            heading: "Custom CRM Development To Meet Specific Goals.",
             image: "/crm-system-solutions/secondary-image-5.png",
             icon: currency,
             content:
@@ -4539,7 +4582,8 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "CRM Migration Services",
+            heading:
+              "CRM Migration Services A Smooth Transit To a Better World",
             image: "/crm-system-solutions/secondary-image-6.png",
             icon: currency,
             content:
@@ -4547,7 +4591,8 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "CRM Training and User Adoption",
+            heading:
+              "CRM Training and User Adoption: Designed As Per Your Team Skillset",
             image: "/crm-system-solutions/secondary-image-7.png",
             icon: currency,
             content:
@@ -4555,7 +4600,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "CRM Integration Services",
+            heading: "CRM Integration Services: Simply Weave In",
             image: "/crm-system-solutions/secondary-image-8.png",
             icon: currency,
             content:
@@ -4810,6 +4855,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY",
         heading2: "WITH BESPOKE AI/ML CAPABILITIES",
+        content:
+          "In today's dynamic business landscape, charting a clear path for your enterprise's future is crucial. By investing in bespoke solutions specifically tailored to your unique challenges and goals, you can unlock a wealth of data-driven insights. This empowers a shift from reactive decision-making to proactive strategy. These custom-designed approaches equip you to anticipate future market demands, streamline processes, and drive ground-breaking innovation.",
       },
       metaData: {
         title: "Artificial Intelligence/Machine Learning Offerings | Qcentrio",
@@ -4895,7 +4942,7 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "Robotic Process Automation (RPA)",
+            heading: "Unleashing the Power of Robotic Process Automation",
             image: "/ai-and-ml-services/secondary-image-7.png",
             icon: currency,
             content:
@@ -4903,7 +4950,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "AI-Integrated Security Measures",
+            heading: " Next-Generation Security Solutions Powered by AI",
             image: "/ai-and-ml-services/secondary-image-8.png",
             icon: currency,
             content:
@@ -4980,6 +5027,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "DEFINE YOUR ENTERPRISE'S FUTURE TRAJECTORY ",
         heading2: "WITH GENERATIVE AI SOLUTIONS AND OFFERINGS",
+        content:
+          "In today's ever-evolving marketplace, navigating your enterprise's future path demands a strategic and insightful approach. By leveraging cutting-edge solutions and expert guidance, you can unlock a wealth of data-driven insights to chart a course for long-term success. This empowers you to move beyond simply reacting to challenges and instead, proactively define your enterprise's trajectory.",
       },
       metaData: {
         title: "Generative AI Solutions and Offerings | Qcentrio",
@@ -5013,7 +5062,7 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Open AI/ChatGPT Integration",
+            heading: "Unlocking Synergies: OpenAI/ChatGPT Integration",
             image:
               "/generative-ai-solutions-and-offerings/secondary-image-1.png",
             icon: currency,
@@ -5022,7 +5071,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading: "Advanced Analytics and AI",
+            heading: "Beyond the Surface: Advanced Analytics and AI",
             image:
               "/generative-ai-solutions-and-offerings/secondary-image-2.png",
             icon: currency,
@@ -5031,7 +5080,7 @@ const subServicePagesContent = {
           },
           {
             num: "03",
-            heading: "Strategic AI Implementation",
+            heading: "Vision to Value: Strategic AI Implementation",
             image:
               "/generative-ai-solutions-and-offerings/secondary-image-3.png",
             icon: currency,
@@ -5058,7 +5107,7 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "Data Visualization and Reporting",
+            heading: "Insights with Data Visualization and Reporting",
             image:
               "/generative-ai-solutions-and-offerings/secondary-image-6.png",
             icon: currency,
@@ -5067,7 +5116,7 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "Data Governance and Compliance",
+            heading: "Building Trust: Data Governance & Compliance ",
             image:
               "/generative-ai-solutions-and-offerings/secondary-image-7.png",
             icon: currency,
@@ -5076,7 +5125,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "Customer Behavior Analytics",
+            heading: "Unveiling Customer Behaviour with Analytics",
             image:
               "/generative-ai-solutions-and-offerings/secondary-image-8.png",
             icon: currency,
@@ -5174,6 +5223,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "BOOST OPERATIONAL EFFICIENCY, GAIN E2E VISIBILITY",
         heading2: "AND OPTIMIZE IT RESOURCE UTILIZATION",
+        content:
+          "Streamline your operations and unlock a new level of performance with a comprehensive approach. By focusing on boosting operational efficiency, you'll eliminate waste and optimize processes. Gaining end-to-end visibility provides real-time insights across your entire operation, enabling faster and more informed decisions.",
       },
       metaData: {
         title: "Robotic Process Automation Offerings | Qcentrio",
@@ -5271,7 +5322,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "Advanced Analytics and Reporting",
+            heading: "Advanced Analytics and Prescriptive Reporting",
             image:
               "/robotic-process-automation-offerings/secondary-image-8.png",
             icon: currency,
@@ -5346,6 +5397,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "Harness the Power of Cloud Computing",
         heading2: "with Full Stack AWS Capabilities",
+        content:
+          "AWS' comprehensive suite of services empowers you to leverage cutting-edge solutions for compute, storage, databases, and more. This dynamic environment allows you to seamlessly scale resources up or down to meet your evolving needs, ensuring you have the power to handle even the most demanding workloads.",
       },
       metaData: {
         title: "Advanced AWS Services and Support | Qcentrio",
@@ -5379,7 +5432,7 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "E2E AWS Integration",
+            heading: "Streamlining Connectivity with E2E AWS Integration ",
             image: "/aws-services-and-support/secondary-image-1.png",
             icon: currency,
             content:
@@ -5387,7 +5440,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading: "Scalable Cloud Infrastructure",
+            heading: "Building for Growth: Scalable Cloud Infrastructure ",
             image: "/aws-services-and-support/secondary-image-2.png",
             icon: currency,
             content:
@@ -5395,7 +5448,7 @@ const subServicePagesContent = {
           },
           {
             num: "03",
-            heading: "Computing and Storage Solutions",
+            heading: "Flexible Computing and Storage Solutions ",
             image: "/aws-services-and-support/secondary-image-3.png",
             icon: currency,
             content:
@@ -5403,7 +5456,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "Continuous AWS Support",
+            heading: "Continuous Support for Your AWS Environment",
             image: "/aws-services-and-support/secondary-image-4.png",
             icon: currency,
             content:
@@ -5411,7 +5464,7 @@ const subServicePagesContent = {
           },
           {
             num: "05",
-            heading: "AWS Managed Services",
+            heading: "Leveraging AWS Managed Services through innovation",
             image: "/aws-services-and-support/secondary-image-5.png",
             icon: currency,
             content:
@@ -5419,7 +5472,7 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "AWS Data Analytics",
+            heading: "Unleashing Insights: Data Analytics on AWS",
             image: "/aws-services-and-support/secondary-image-6.png",
             icon: currency,
             content:
@@ -5427,7 +5480,7 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "AWS DevOps Automation",
+            heading: "Automating the Pipeline with AWS DevOps Tools",
             image: "/aws-services-and-support/secondary-image-7.png",
             icon: currency,
             content:
@@ -5435,7 +5488,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "AWS Machine Learning and AI Services",
+            heading: "The Power of AWS Machine Learning and AI Services",
             image: "/aws-services-and-support/secondary-image-8.png",
             icon: currency,
             content:
@@ -5518,6 +5571,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "LIFT YOUR BUSINESS INTO AZURE",
         heading2: "FOR UNMATCHED PERFORMANCE AND SCALABILITY",
+        content:
+          "Ascend to new heights of business agility with the unparalleled performance and scalability of Microsoft Azure. This robust cloud platform empowers you to shed the limitations of on-premises infrastructure, embracing a dynamic environment that readily adapts to your evolving needs. Scale resources up or down with ease, ensuring you have the processing power to tackle demanding workloads.",
       },
       metaData: {
         title: "Azure Cloud Services | Seamless Integration and Optimization",
@@ -5689,6 +5744,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "TRANSFORM YOUR CONVENTIONAL IT",
         heading2: "BY TRANSITIONING TO CLOUD WITH CONFIDENCE",
+        content:
+          "Embrace the future of agility and scalability with a confident transition to the cloud. This strategic move transforms your conventional IT infrastructure, unshackling you from the limitations of on-premises hardware. The cloud offers a dynamic environment that readily adapts to your evolving needs, allowing you to scale resources up or down with ease.",
       },
       metaData: {
         title: "Comprehensive Cloud Infrastructure Services | Qcentrio",
@@ -5770,7 +5827,7 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "Customer Experience Enhancements",
+            heading: "Elevating Interaction: Customer Experience Enhancements",
             image: "/cloud-infrastructure-services/second-image-7.png",
             icon: currency,
             content:
@@ -5778,7 +5835,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "Cloud Compliance and Security",
+            heading: "Strengthening Cloud Compliance and Security",
             image: "/cloud-infrastructure-services/second-image-8.png",
             icon: currency,
             content:
@@ -5855,6 +5912,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "Make Your IT Infrastructure",
         heading2: "Best-In-Class",
+        content:
+          "Elevate your business to the forefront of efficiency with a best-in-class IT infrastructure. This strategic transformation goes beyond simply upgrading hardware; it's a holistic approach that optimizes performance, security, and scalability. Imagine seamless data flow, robust cybersecurity measures, and the agility to adapt to changing demands.",
       },
       metaData: {
         title: "Continuous IT Support & Managed Services | Qcentrio",
@@ -5897,7 +5956,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading: "Expert Troubleshooting",
+            heading: "Resolving Challenges with Expert Troubleshooting ",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-2.png",
             icon: currency,
@@ -5906,7 +5965,7 @@ const subServicePagesContent = {
           },
           {
             num: "03",
-            heading: "Customized IT Strategies",
+            heading: "Charting Your Course: Customized IT Strategies ",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-3.png",
             icon: currency,
@@ -5915,7 +5974,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "Infrastructure Optimization",
+            heading: "Infrastructure Optimization Solutions",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-4.png",
             icon: currency,
@@ -5924,7 +5983,7 @@ const subServicePagesContent = {
           },
           {
             num: "05",
-            heading: "Disaster Recovery Planning",
+            heading: "Expect the Unexpected: Disaster Recovery Planning",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-5.png",
             icon: currency,
@@ -5933,7 +5992,7 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "Cloud Transition and Management",
+            heading: "Seamless Cloud transition and Management",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-6.png",
             icon: currency,
@@ -5942,7 +6001,7 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "Network Management Services",
+            heading: "Ensuring Network Reliability with Network Management ",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-7.png",
             icon: currency,
@@ -5951,7 +6010,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "End-User Support Services",
+            heading: "Empowering Your Users: End-User Support Services",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-8.png",
             icon: currency,
@@ -6036,6 +6095,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "Navigate the Digital Space",
         heading2: "with Confidence",
+        content:
+          "With the right approach, you can confidently explore and leverage the vast potential of the digital space. This journey starts with building a strong foundation of digital literacy, equipping yourself with the knowledge to navigate platforms and tools effectively. Furthermore, fostering critical thinking skills empowers you to discern reliable information and make informed decisions online.",
       },
       metaData: {
         title: "Robustrsecurity Solutions and Services Support | Qcentrio",
@@ -6079,7 +6140,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading: "Customized Security Solutions",
+            heading: "Customized Security Solutions for Your Business",
             image:
               "/cybersecurity-solutions-and-services/secondary-image-2.png",
             icon: currency,
@@ -6088,7 +6149,7 @@ const subServicePagesContent = {
           },
           {
             num: "03",
-            heading: "Data Protection and Compliance",
+            heading: "Safeguard your data with protection and compliance",
             image:
               "/cybersecurity-solutions-and-services/secondary-image-3.png",
             icon: currency,
@@ -6097,7 +6158,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "Continuous Monitoring and Support",
+            heading: "Vigilance with Continuous Monitoring and Support",
             image:
               "/cybersecurity-solutions-and-services/secondary-image-4.png",
             icon: currency,
@@ -6106,7 +6167,7 @@ const subServicePagesContent = {
           },
           {
             num: "05",
-            heading: "Intrusion Detection and Response",
+            heading: "Thwarting Threats: Intrusion Detection and Response",
             image:
               "/cybersecurity-solutions-and-services/secondary-image-5.png",
             icon: currency,
@@ -6115,7 +6176,7 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "Cloud Security Services",
+            heading: "Securing Cloud Journey: Cloud Security Services",
             image:
               "/cybersecurity-solutions-and-services/secondary-image-6.png",
             icon: currency,
@@ -6124,7 +6185,7 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "Phishing Prevention and Email Security",
+            heading: "Shielding  Inbox: Phishing Prevention and Email Security",
             image:
               "/cybersecurity-solutions-and-services/secondary-image-7.png",
             icon: currency,
@@ -6212,6 +6273,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "Navigate the Future",
         heading2: "with Google Cloud’s Advanced Capabilities",
+        content:
+          "Google Cloud's advanced capabilities empower you to chart a course for sustained growth. By leveraging Google Cloud's infrastructure, you gain the agility to adapt to market shifts, the power to analyze vast amounts of data, and the security to operate with confidence. Ultimately, Google Cloud becomes your trusted partner, equipping you to navigate the future with foresight, innovation, and a competitive edge.",
       },
       metaData: {
         title: "Comprehensive GCP Services and Support | Qcentrio",
@@ -6245,7 +6308,7 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "GCP Tools Integration",
+            heading: "Unifying your Ecosystem:  GCP Tools Integration",
             image: "/gcp-services-and-support/secondary-image-1.png",
             icon: currency,
             content:
@@ -6253,7 +6316,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading: "Seamless Application Deployment",
+            heading: "Effortless Application Deployment on GCP",
             image: "/gcp-services-and-support/secondary-image-2.png",
             icon: currency,
             content:
@@ -6261,7 +6324,7 @@ const subServicePagesContent = {
           },
           {
             num: "03",
-            heading: "Data Analytics & Machine Learning",
+            heading: "Insights with Data Analytics and Machine Learning ",
             image: "/gcp-services-and-support/secondary-image-3.png",
             icon: currency,
             content:
@@ -6269,7 +6332,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "Enhanced Security and Compliance",
+            heading: "Enhanced Security and Compliance on GCP",
             image: "/gcp-services-and-support/secondary-image-4.png",
             icon: currency,
             content:
@@ -6277,7 +6340,7 @@ const subServicePagesContent = {
           },
           {
             num: "05",
-            heading: "Custom GCP Architectures",
+            heading: "Building for the Future: Custom GCP Architectures",
             image: "/gcp-services-and-support/secondary-image-5.png",
             icon: currency,
             content:
@@ -6285,7 +6348,7 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "GCP Migration Services",
+            heading: "Streamlined GCP Migration Services",
             image: "/gcp-services-and-support/secondary-image-6.png",
             icon: currency,
             content:
@@ -6293,7 +6356,7 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "GCP Cost Optimization",
+            heading: "Control Your Cloud Spend with GCP Cost Optimization",
             image: "/gcp-services-and-support/secondary-image-7.png",
             icon: currency,
             content:
@@ -6301,7 +6364,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "GCP Managed Services",
+            heading: "Focus on Innovation: GCP Managed Services",
             image: "/gcp-services-and-support/secondary-image-8.png",
             icon: currency,
             content:
@@ -6378,6 +6441,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "Unlock Global Potential",
         heading2: "by Next-Gen Offshore Development Centre",
+        content:
+          "Beyond talent, a next-gen offshore center offers cost-efficiency, allowing you to optimize resources while maintaining the highest quality standards. By leveraging cutting-edge collaboration tools and secure communication protocols, you can seamlessly integrate this team into your existing workflows, ensuring smooth project execution.",
       },
       metaData: {
         title: "Specialized Offshore Development Centre Services | Qcentrio",
@@ -6449,7 +6514,7 @@ const subServicePagesContent = {
           },
           {
             num: "05",
-            heading: "IP Protection and Data Security",
+            heading: "Safeguarding Innovation: IP Protection and Data Security",
             image:
               "/offshore-development-centre-services/secondary-image-5.png",
             icon: currency,
@@ -6458,7 +6523,7 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "Dedicated Research and Development",
+            heading: "Dedicated Research and Development Services",
             image:
               "/offshore-development-centre-services/secondary-image-6.png",
             icon: currency,
@@ -6467,7 +6532,7 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "Advanced Analytics and Reporting",
+            heading: "Advanced analytics and reporting solutions",
             image:
               "/offshore-development-centre-services/secondary-image-7.png",
             icon: currency,
@@ -6567,6 +6632,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "MAKE THE MOST OF EVERY CUSTOMER INTERACTION",
         heading2: "WITH SALESFORCE",
+        content:
+          "Elevate every customer touchpoint into a powerful brand experience with Salesforce. This industry-leading CRM empowers you to gain a holistic view of your customer interactions, fostering stronger relationships and driving growth. By centralizing customer data on a unified platform, you can personalize marketing campaigns, streamline sales processes, and provide exceptional customer service.",
       },
       metaData: {
         title: "Expert Salesforce Integration and Optimization | Qcentrio",
@@ -6646,7 +6713,7 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "Salesforce Training and Adoption",
+            heading: "Unleashing the Power of Salesforce training ,adoption",
             image:
               "/salesforce-integration-and-optimization/secondary-image-6.png",
             icon: currency,

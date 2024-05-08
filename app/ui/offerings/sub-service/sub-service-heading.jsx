@@ -6,6 +6,7 @@ import image from "@/public/sample.png";
 import Image from "next/image";
 
 export function SubServiceHeading({ data, bannerImage }) {
+  console.log(data);
   const banner = useRef(null);
 
   useEffect(() => {
@@ -31,9 +32,7 @@ export function SubServiceHeading({ data, bannerImage }) {
         <p
           data-option="up"
           className="sub-service-hero-content animate animate-hidden">
-          At Qcentrio, our business optimization and analytics services enhance
-          your operations by reviewing and improving processes, instilling best
-          practices, and providing a clear roadmap for optimized processes.
+          {data.content ? data.content : ""}
         </p>
         <Button name="Get Started" />
       </div>

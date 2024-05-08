@@ -11,6 +11,10 @@ import GlobalPresence from "../../ui/contact-us/global-presence";
 import Path4 from "../../ui/global/path-4";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
+import settings from "@/public/settings.svg";
+import strategy from "@/public/strategy.svg";
+import support from "@/public/support.svg";
+import cloud from "@/public/cloud.svg";
 
 export const metadata = {
   title:
@@ -43,18 +47,22 @@ export default function ContactUs() {
         </h2>
         <div className="success-path-category-container">
           <Card
+            image={settings}
             title="Flexible Team"
             content="An adaptable and agile cloud team, fully equipped to efficiently and effectively scale up and down in response to fluctuating project requirements."
           />
           <Card
+            image={strategy}
             title="End-to-End Execution"
             content="Effortless, integrated coordination across IT, infrastructure, data engineering, and analytics provides comprehensive, robust support to the last mile."
           />
           <Card
+            image={support}
             title="Repeatable"
             content="Experience swift value realization with our user-friendly Playbooks and Code Plugins tailored for common scenarios, further enhanced with bespoke solutions."
           />
           <Card
+            image={cloud}
             title="Innovation"
             content="Dive into the future with our expert team, designing experiments for next-generation initiatives and bringing the latest innovations to your fingertips."
           />

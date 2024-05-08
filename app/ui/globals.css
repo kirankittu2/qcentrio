@@ -114,8 +114,8 @@ body {
   position: relative;
   transition: all 1s ease-in-out;
   overflow-x: hidden;
-  cursor: url('/cursor.svg') 15 15, pointer;
-  zoom: 1;
+  cursor: url('/cursor.png') 15 15, auto;
+
 }
 
 #canvas{
