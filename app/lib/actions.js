@@ -39,7 +39,7 @@ export async function homeslidesMail(formData) {
     );
 
     const info = await transporter.sendMail({
-      from: "info@qcentrio.com",
+      from: "kirankittu3760@gmail.com",
       to: parsedData.email,
       subject:
         "Unlock Growth and Transformation with Our Data-Driven Solutions",
@@ -52,8 +52,8 @@ export async function homeslidesMail(formData) {
     });
 
     const owner = await transporter.sendMail({
-      from: "info@qcentrio.com",
-      to: "sai.harikiran@x-verity.com",
+      from: "kirankittu3760@gmail.com",
+      to: "kirankittu3760@gmail.com",
       subject: "Form Filled",
       html: htmlContent,
     });
@@ -74,6 +74,9 @@ export async function contactMail(formData) {
     `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
     {
       method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
     }
   );
   const recaptchDataScore = await response.json();
@@ -504,7 +507,6 @@ export async function insightsMail(formData) {
     }
   );
   const recaptchDataScore = await response.json();
-  // console.log(recaptchDataScore);
   if (recaptchDataScore.score >= 0.5) {
     const email = formData.get("email");
 
@@ -580,9 +582,10 @@ export async function storeCookie(formData) {
 
   if (parsedData.code == secret_code) {
     cookies().set("qcentrio-access", "approved", {
-      // secure: true,
+      secure: true,
       expires: new Date(expireTime),
-      // domain: "qcentrio.com",
+      domain: "qcentrio.com",
+      sameSite: "none",
     });
     redirect("/", "push");
   } else {
@@ -592,7 +595,15 @@ export async function storeCookie(formData) {
 
 export async function cookieConsent() {
   try {
-    cookies().set("qcentrio-cookie-consent", "approved", {});
+    const now = new Date();
+    const expireTime = now.getTime() + 1000 * 60 * 60 * 24 * 7;
+
+    cookies().set("qcentrio-cookie-consent", "approved", {
+      secure: true,
+      expires: new Date(expireTime),
+      domain: "qcentrio.com",
+      sameSite: "none",
+    });
     return { success: true, message: "Cookie consent has been set." };
   } catch (error) {
     return {

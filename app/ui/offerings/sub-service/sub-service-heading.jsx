@@ -2,11 +2,9 @@
 
 import { useEffect, useRef } from "react";
 import Button from "../../global/button";
-import image from "@/public/sample.png";
 import Image from "next/image";
 
 export function SubServiceHeading({ data, bannerImage }) {
-  console.log(data);
   const banner = useRef(null);
 
   useEffect(() => {

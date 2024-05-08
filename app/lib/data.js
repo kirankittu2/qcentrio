@@ -1933,8 +1933,7 @@ const subServicePagesContent = {
           },
           {
             num: "03",
-            heading:
-              "Enhancing Customer Relationships: SAP CRM & Customer Experience",
+            heading: "Boosting customer relationships with SAP CRM",
             image: "/sap-services-and-support/secondary-image-3.png",
             icon: currency,
             content:
@@ -2624,6 +2623,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "SECURE YOUR DIGITAL FOOTPRINT",
         heading2: "FOCUS ON GROWTH",
+        content:
+          "At QCENTRIO, Audit and Assurance Services assess all media and social channels and campaigns to determine performance and suggest the best plan. It gives you a complete insight.",
       },
       contentSection: {
         image: "http://localhost:3000/sub-service-content-side-image.png",
@@ -2684,7 +2685,8 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "Performance Auditing",
+            heading:
+              "Performance Auditing: Economy, Efficiency and Effectiveness",
             image: "/audit-and-assurance-services/secondary-image-6.png",
             icon: currency,
             content:
@@ -2807,8 +2809,7 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading:
-              "EHR Integration Expertise For Consolidated and Easily Accessible Data",
+            heading: "EHR Integration For Consolidated and Easy Access",
             image: "/epic-advisory-services/secondary-image-1.png",
             icon: currency,
             content:
@@ -2832,8 +2833,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading:
-              "Healthcare Ecosystem For All Your Hospital Stay and Medical Care Patients ",
+            heading: "Healthcare Ecosystem For Hospital and Medical Needs ",
             image: "/epic-advisory-services/secondary-image-4.png",
             icon: currency,
             content:
@@ -2850,7 +2850,7 @@ const subServicePagesContent = {
           {
             num: "06",
             heading:
-              "Interoperability Solutions for Seamless Operations and Communication",
+              "Interoperability Solutions for Operations and Communication",
             image: "/epic-advisory-services/secondary-image-6.png",
             icon: currency,
             content:
@@ -2859,7 +2859,7 @@ const subServicePagesContent = {
           {
             num: "07",
             heading:
-              "Custom Workflow Design For Faster Movement and Traceability Of All Tasks and Processes",
+              "Custom Workflow Design For Faster Movement and Traceability",
             image: "/epic-advisory-services/secondary-image-7.png",
             icon: currency,
             content:
@@ -3082,6 +3082,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "NAVIGATE AND MITIGATE DIGITAL RISKS",
         heading2: "WITH CONFIDENCE",
+        content:
+          "At QCENTRIO, we develop a robust framework for Digital Risk Management. We monitor social media and the dark web to detect and prevent cyber security issues.",
       },
       metaData: {
         title:
@@ -3155,7 +3157,7 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "Vendor Risk Management",
+            heading: "Vendor Risk Management Helping into Vendor Visibility",
             image: "/risk-advisory-services/secondary-image-6.png",
             icon: currency,
             content:
@@ -3163,7 +3165,8 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "Data Privacy and Security",
+            heading:
+              "Data Privacy and Security: Protecting All Internal and External Data",
             image: "/risk-advisory-services/secondary-image-7.png",
             icon: currency,
             content:
@@ -3249,6 +3252,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "ENSURE SUPERIOR QUALITY AND PERFORMANCE",
         heading2: "IN YOUR DIGITAL SOLUTIONS",
+        content:
+          "At QCENTRIO, we have developed systems for data collection and analysis, as well as collecting feedback from various sources to monitor and evaluate your service performance.",
       },
       metaData: {
         title: "Specialty QA and Development Services | Qcentrio",
@@ -3282,7 +3287,7 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "E2E Quality Assurance",
+            heading: "E2E Quality Assurance: Verifying From Start to Finish",
             image: "/specialty-services/secondary-image-1.png",
             icon: currency,
             content:
@@ -3306,7 +3311,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "Accessibility Testing",
+            heading: "Accessibility Testing: Enabling Differently Abled",
             image: "/specialty-services/secondary-image-4.png",
             icon: currency,
             content:
@@ -3314,7 +3319,7 @@ const subServicePagesContent = {
           },
           {
             num: "05",
-            heading: "Mobile Application Testing",
+            heading: "Mobile Application Testing: Good to Go On The Go",
             image: "/specialty-services/secondary-image-5.png",
             icon: currency,
             content:
@@ -3322,7 +3327,8 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "API and Web Services Testing",
+            heading:
+              "API and Web Services Testing Ensuring Safe Data Transfer Mechanism",
             image: "/specialty-services/secondary-image-6.png",
             icon: currency,
             content:
@@ -3330,7 +3336,8 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "Cloud Testing and Optimization",
+            heading:
+              "Cloud Testing Optimization For Security, Performance, and Cost",
             image: "/specialty-services/secondary-image-7.png",
             icon: currency,
             content:
@@ -3338,7 +3345,8 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading: "UX/UI Design Validation",
+            heading:
+              "UX/UI Design Validation: Meeting the End User Preferences And Needs",
             image: "/specialty-services/secondary-image-8.png",
             icon: currency,
             content:
@@ -4021,8 +4029,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading:
-              "Decentralized Applications (DApps) Development and Integration",
+            heading: "Decentralized App Development/Integration",
             image: "/blockchain-solution-development/secondary-image-4.png",
             icon: currency,
             content:
@@ -4175,8 +4182,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading:
-              "Innovative Contracts Development and Tokenization Strategies",
+            heading: "Innovative Contract & Tokenization Strategies",
             image: "/blockchain-strategy-and-advisory/secondary-image-2.png",
             icon: currency,
             content:
@@ -4193,8 +4199,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading:
-              "Decentralized Application (dApp) Development and Integration Services",
+            heading: "Decentralised Application Development & Integration",
             image: "/blockchain-strategy-and-advisory/secondary-image-4.png",
             icon: currency,
             content:
@@ -4226,8 +4231,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading:
-              "Enterprise Blockchain Transformation and Cryptocurrency Exchange Solutions",
+            heading: "Enterprise Blockchain & Cryptocurrency Exchange",
             image: "/blockchain-strategy-and-advisory/secondary-image-8.png",
             icon: currency,
             content:
@@ -4348,9 +4352,9 @@ const subServicePagesContent = {
           "Today, staying ahead means keeping pace with technological advancements and leveraging them to redefine how we work.",
         content2:
           "At the core of this transformation is the need for robust Collaboration and Productivity Solutions that enhance efficiency and foster a culture of innovation and teamwork.",
-        content3: "At Qcentrio,",
+        content3: "We Have a Special Skillset Called The QCENTRIO Expertise",
         content4:
-          "we seamlessly integrate productivity tools such as Microsoft Teams, Asana, and Slack, ensuring a highly efficient digital workspace that enhances project management, productivity, and communication.",
+          "We seamlessly integrate productivity tools such as Microsoft Teams, Asana, and Slack, ensuring a highly efficient digital workspace that enhances project management, productivity, and communication.",
       },
       offeringsSetion: {
         mainHeading:
@@ -4529,8 +4533,10 @@ const subServicePagesContent = {
           "In a world where customer relationships dictate business success, Qcentrio reimagines CRM system solutions to empower companies to manage and nurture these connections effectively.",
         content2:
           "By integrating industry-leading tools like Salesforce, Microsoft Dynamics, and SAP CRM, we elevate your customer interactions to new heights, ensuring that every touchpoint is an opportunity for growth and engagement.",
-        content3: "",
-        content4: "",
+        content3:
+          "When CRM is integrated well with a well-researched strategy, the output is a boost in your business.",
+        content4:
+          "With expertise in various CRM tools and an understanding of different business models, we do it all peacefully. And that is why we say At Qcetrio, we have got it.",
       },
       offeringsSetion: {
         mainHeading:
@@ -4665,6 +4671,8 @@ const subServicePagesContent = {
       heroSectionData: {
         heading1: "MAXIMIZE YOUR DATA'S POTENTIAL",
         heading2: "AND DRIVE INFORMED BUSINESS DECISIONS",
+        content:
+          "At QCENTRIO, We have experts with the required skills to work on various data analytical tools to gather, dissect, and analyze data from all corners",
       },
       metaData: {
         title: "Data Analytics and Business Intelligence Services | Qcentrio",
@@ -4698,7 +4706,7 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading: "Comprehensive Data Solutions",
+            heading: "Comprehensive Data Solutions For Holistic Growth ",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-1.png",
             icon: currency,
@@ -4707,7 +4715,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading: "Specialized Analytics Tools",
+            heading: "Specialized Analytics Tools For Exponential Performance",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-2.png",
             icon: currency,
@@ -4716,7 +4724,7 @@ const subServicePagesContent = {
           },
           {
             num: "03",
-            heading: "Customized BI Solutions",
+            heading: "Customized BI Solutions: Meet Your Unique Needs",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-3.png",
             icon: currency,
@@ -4725,7 +4733,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "Data Integration and Management",
+            heading: "Data Integration And Management Fast Track Your Success",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-4.png",
             icon: currency,
@@ -4743,7 +4751,8 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "Real-Time Analytics and Reporting",
+            heading:
+              "Real-Time Analytics And Reporting Get Profitable Insights",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-6.png",
             icon: currency,
@@ -4752,7 +4761,7 @@ const subServicePagesContent = {
           },
           {
             num: "07",
-            heading: "Data Governance and Compliance",
+            heading: "Data Governance And Compliance Conform With Safety.",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-7.png",
             icon: currency,
@@ -4917,8 +4926,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading:
-              "Personalized Customer Interactions and AI-Enhanced Customer Service",
+            heading: "AI-powered personalization & customer service",
             image: "/ai-and-ml-services/secondary-image-4.png",
             icon: currency,
             content:
@@ -5256,8 +5264,7 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading:
-              "Process and Platform Assessments with Business Case Preparation",
+            heading: "RPA & Platform Assessment (Business Case)",
             image:
               "/robotic-process-automation-offerings/secondary-image-1.png",
             icon: currency,
@@ -5266,8 +5273,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading:
-              "SoP Creation, Automation Requirements, and System Integration",
+            heading: "SoP Creation, Automation & Integration",
             image:
               "/robotic-process-automation-offerings/secondary-image-2.png",
             icon: currency,
@@ -5612,7 +5618,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading: "Azure DevOps & Software Development Lifecycle Management",
+            heading: "Supervising Azure DevOps Operations & SDLC Management",
             image: "/azure-cloud-services/secondary-image-2.png",
             icon: currency,
             content:
@@ -5645,7 +5651,7 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading: "Cloud Security Posture Management and Disaster Recovery",
+            heading: "Cloud Security & Disaster Recovery",
             image: "/azure-cloud-services/secondary-image-6.png",
             icon: currency,
             content:
