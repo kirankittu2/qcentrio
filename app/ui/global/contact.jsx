@@ -3,21 +3,32 @@
 import { contactMail } from "@/app/lib/actions";
 import Button from "./button";
 import CustomUploadInput from "./custom-upload-input";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Contact({ heading, subheading, upload }) {
+  const [submitting, setSubmitting] = useState(true);
+  const [error, setError] = useState(true);
+  const router = useRouter();
+
   function onSubmit(e) {
     e.preventDefault();
     const form = e.target;
     const formData = new FormData(form);
-
+    setSubmitting(false);
     grecaptcha.ready(function () {
       grecaptcha
         .execute("6LdTKMUpAAAAAOUf_fNbftCXwdXc5KLdgZov7P74", {
           action: "submit",
         })
-        .then(function (token) {
+        .then(async function (token) {
           formData.append("g-recaptcha-response", token);
-          contactMail(formData);
+          const response = await contactMail(formData);
+          setSubmitting(response.success);
+          setError(response.success);
+          if (response.success) {
+            router.push("/thank-you");
+          }
         });
     });
   }
@@ -34,6 +45,7 @@ export default function Contact({ heading, subheading, upload }) {
         className="section-content contact-sub-heading animate-hidden animate">
         {subheading}
       </p>
+      {!error && <p className="form-error">Error Submitting Form</p>}
       <form onSubmit={onSubmit}>
         <div className="contact-column">
           <input
@@ -82,7 +94,7 @@ export default function Contact({ heading, subheading, upload }) {
           placeholder="Your Message"
           rows="10"></textarea>
         <div className="contact-btn-container">
-          <Button name="Contact Us" />
+          <Button name={!submitting ? "Submitting..." : "Contact Us"} />
         </div>
       </form>
     </div>

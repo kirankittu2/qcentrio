@@ -104,6 +104,18 @@ video{
   src: url("../../public/quadran/Quadran-Black.woff");
 }
 
+.form-error{
+  text-align: center;
+  color: red;
+  font-size: 16px;
+}
+
+#hero-carousel-content .form-error{
+  text-align: start;
+  color: white;
+  font-size: 16px;
+}
+
 body {
   max-width: 1920px;
   width: 100%;

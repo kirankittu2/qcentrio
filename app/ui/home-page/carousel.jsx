@@ -6,6 +6,7 @@ import Img from "next/image";
 import { useEffect, useRef, useState } from "react";
 import Button from "../global/button";
 import { homeslidesMail } from "@/app/lib/actions";
+import { useRouter } from "next/navigation";
 
 export default function Carousel() {
   const conatiner = useRef(null);
@@ -13,23 +14,30 @@ export default function Carousel() {
   const layer = useRef(null);
   const [index, setIndex] = useState(0);
   const [slideItem, setItem] = useState("");
-
   const [hovered, setHovered] = useState(false);
   const [inputHovered, setInputHovered] = useState(false);
+  const [submitting, setSubmitting] = useState(true);
+  const [error, setError] = useState(true);
+  const router = useRouter();
 
   function onSubmit(e) {
     e.preventDefault();
     const form = e.target;
     const formData = new FormData(form);
-
+    setSubmitting(false);
     grecaptcha.ready(function () {
       grecaptcha
         .execute("6LdTKMUpAAAAAOUf_fNbftCXwdXc5KLdgZov7P74", {
           action: "submit",
         })
-        .then(function (token) {
+        .then(async function (token) {
           formData.append("g-recaptcha-response", token);
-          homeslidesMail(formData);
+          const response = await homeslidesMail(formData);
+          setSubmitting(response.success);
+          setError(response.success);
+          if (response.success) {
+            router.push("/thank-you");
+          }
         });
     });
   }
@@ -117,20 +125,20 @@ export default function Carousel() {
     }
   }, [index, slideItem]);
 
-  useEffect(() => {
-    if (hovered == false) {
-      const items = wrapper.current.querySelectorAll(".hero-slide");
-      const intervalId = setInterval(() => {
-        setIndex((prevIndex) =>
-          prevIndex === items.length - 1 ? 0 : prevIndex + 1
-        );
-      }, 3000);
+  // useEffect(() => {
+  //   if (hovered == false) {
+  //     const items = wrapper.current.querySelectorAll(".hero-slide");
+  //     const intervalId = setInterval(() => {
+  //       setIndex((prevIndex) =>
+  //         prevIndex === items.length - 1 ? 0 : prevIndex + 1
+  //       );
+  //     }, 3000);
 
-      return () => {
-        clearInterval(intervalId);
-      };
-    }
-  }, [hovered]);
+  //     return () => {
+  //       clearInterval(intervalId);
+  //     };
+  //   }
+  // }, [hovered]);
 
   function handleRight() {
     if (index < wrapper.current.querySelectorAll(".hero-slide").length - 1) {
@@ -192,6 +200,7 @@ export default function Carousel() {
                 Aligned with Your Business&rsquo;s Current and Future Needs
               </p>
               <form onSubmit={onSubmit}>
+                {!error && <p className="form-error">Error Submitting Form</p>}
                 <div className="lets-talk-container">
                   <input
                     type="text"
@@ -202,7 +211,9 @@ export default function Carousel() {
                     onBlur={() => setInputHovered((hover) => (hover = false))}
                   />
                   <div className="input-btn">
-                    <Button name="Lets Talk" />
+                    <Button
+                      name={!submitting ? "Submitting..." : "Lets Talk"}
+                    />
                   </div>
                 </div>
               </form>
@@ -229,6 +240,8 @@ export default function Carousel() {
               <p className="hero-sub-heading">
                 With E2E Digital Transformation Services and Solutions
               </p>
+              {!error && <p className="form-error">Error Submitting Form</p>}
+
               <form onSubmit={onSubmit}>
                 <div className="lets-talk-container">
                   <input
@@ -240,7 +253,9 @@ export default function Carousel() {
                     onBlur={() => setInputHovered((hover) => (hover = false))}
                   />
                   <div className="input-btn">
-                    <Button name="Lets Talk" />
+                    <Button
+                      name={!submitting ? "Submitting..." : "Lets Talk"}
+                    />
                   </div>
                 </div>
               </form>
@@ -265,6 +280,7 @@ export default function Carousel() {
                 TAILORED STRATEGIES FOR MARKET AND BUSINESS RESILIENCE
               </h1>
               <p className="hero-sub-heading">Commitment to Continuity</p>
+              {!error && <p className="form-error">Error Submitting Form</p>}
               <form onSubmit={onSubmit}>
                 <div className="lets-talk-container">
                   <input
@@ -276,7 +292,9 @@ export default function Carousel() {
                     onBlur={() => setInputHovered((hover) => (hover = false))}
                   />
                   <div className="input-btn">
-                    <Button name="Lets Talk" />
+                    <Button
+                      name={!submitting ? "Submitting..." : "Lets Talk"}
+                    />
                   </div>
                 </div>
               </form>

@@ -2,21 +2,32 @@
 
 import { contactUsReactOutMail } from "@/app/lib/actions";
 import Button from "../global/button";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 export default function ReachOut() {
+  const [submitting, setSubmitting] = useState(true);
+  const [error, setError] = useState(true);
+  const router = useRouter();
+
   function onSubmit(e) {
     e.preventDefault();
     const form = e.target;
     const formData = new FormData(form);
-
+    setSubmitting(false);
     grecaptcha.ready(function () {
       grecaptcha
         .execute("6LdTKMUpAAAAAOUf_fNbftCXwdXc5KLdgZov7P74", {
           action: "submit",
         })
-        .then(function (token) {
+        .then(async function (token) {
           formData.append("g-recaptcha-response", token);
-          contactUsReactOutMail(formData);
+          const response = await contactUsReactOutMail(formData);
+          setSubmitting(response.success);
+          setError(response.success);
+          if (response.success) {
+            router.push("/thank-you");
+          }
         });
     });
   }
@@ -28,10 +39,13 @@ export default function ReachOut() {
         <p className="reach-out-sub-heading">
           Email us to discuss with our experts.
         </p>
+        {!error && <p className="form-error">Error Submitting Form</p>}
         <form onSubmit={onSubmit}>
           <div className="reach-out-form">
             <input name="email" placeholder="Email Address"></input>
-            <Button name="Request Call Back" />
+            <Button
+              name={!submitting ? "Submitting..." : "Request Call Back"}
+            />
           </div>
         </form>
 

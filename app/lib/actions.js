@@ -8,83 +8,84 @@ import { cookies } from "next/headers";
 
 // Home page hero section slide emails
 export async function homeslidesMail(formData) {
-  // const token = formData.get("g-recaptcha-response");
-  // const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
-  // const response = await fetch(
-  //   `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
-  //   {
-  //     method: "POST",
-  //   }
-  // );
-  // const recaptchDataScore = await response.json();
-  // // console.log(recaptchDataScore);
-  // if (recaptchDataScore.score >= 0.5) {
-  const email = formData.get("email");
-
-  const data = {
-    email,
-  };
-  let parsedData;
-  const userSchema = zod.object({
-    email: zod.string().email(),
-  });
-  try {
-    parsedData = userSchema.parse(data);
-  } catch (error) {
-    console.error("Validation failed:", error.errors);
-  }
-  const emailTemplate = fs.readFileSync(
-    "app/email/home-page/hero-section-mail.html",
-    "utf8"
+  const token = formData.get("g-recaptcha-response");
+  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const response = await fetch(
+    `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
+    {
+      method: "POST",
+    }
   );
+  const recaptchDataScore = await response.json();
+  // console.log(recaptchDataScore);
+  if (recaptchDataScore.score >= 0.5) {
+    const email = formData.get("email");
 
-  const mailOptions1 = {
-    from: "saiharikiran@outlook.com",
-    to: parsedData.email,
-    subject: "Unlock Growth and Transformation with Our Data-Driven Solutions",
-    html: emailTemplate,
-  };
-
-  const info = await new Promise((resolve, reject) => {
-    transporter.sendMail(mailOptions1, (error, info) => {
-      if (error) {
-        reject(error);
-      } else {
-        resolve(info);
-      }
+    const data = {
+      email,
+    };
+    let parsedData;
+    const userSchema = zod.object({
+      email: zod.string().email(),
     });
-  });
+    try {
+      parsedData = userSchema.parse(data);
+    } catch (error) {
+      console.error("Validation failed:", error.errors);
+    }
+    const emailTemplate = fs.readFileSync(
+      "app/email/home-page/hero-section-mail.html",
+      "utf8"
+    );
 
-  console.log(info);
+    const mailOptions1 = {
+      from: "saiharikiran@outlook.com",
+      to: parsedData.email,
+      subject:
+        "Unlock Growth and Transformation with Our Data-Driven Solutions",
+      html: emailTemplate,
+    };
 
-  let htmlContent = "";
-  Object.entries(parsedData).forEach(([key, value]) => {
-    htmlContent += `<p>${key}: ${value}</p>`;
-  });
-
-  const mailOptions2 = {
-    from: "saiharikiran@outlook.com",
-    to: "saiharikiran@outlook.com",
-    subject: "Form Filled",
-    html: htmlContent,
-  };
-
-  const owner = await new Promise((resolve, reject) => {
-    transporter.sendMail(mailOptions2, (error, info) => {
-      if (error) {
-        reject(error);
-      } else {
-        resolve(info);
-      }
+    const info = await new Promise((resolve, reject) => {
+      transporter.sendMail(mailOptions1, (error, info) => {
+        if (error) {
+          reject(error);
+        } else {
+          resolve(info);
+        }
+      });
     });
-  });
 
-  if (info.response.includes("OK") && owner.response.includes("OK")) {
-    redirect("/thank-you", "push");
+    console.log(info);
+
+    let htmlContent = "";
+    Object.entries(parsedData).forEach(([key, value]) => {
+      htmlContent += `<p>${key}: ${value}</p>`;
+    });
+
+    const mailOptions2 = {
+      from: "saiharikiran@outlook.com",
+      to: "saiharikiran@outlook.com",
+      subject: "Form Filled",
+      html: htmlContent,
+    };
+
+    const owner = await new Promise((resolve, reject) => {
+      transporter.sendMail(mailOptions2, (error, info) => {
+        if (error) {
+          reject(error);
+        } else {
+          resolve(info);
+        }
+      });
+    });
+
+    if (info.response.includes("OK") && owner.response.includes("OK")) {
+      return { success: true, message: "Mail sent successfully" };
+    }
+  } else {
+    return { success: false, message: "Error Occured" };
   }
-  // } else {
-  //   console.error("Don't try to spam");
-  // }
 }
 
 // Contact page email
@@ -147,7 +148,7 @@ export async function contactMail(formData) {
     };
     const filledHtml = fillPlaceholders(emailTemplate, emailData);
     const info = await transporter.sendMail({
-      from: "info@qcentrio.com",
+      from: "saiharikiran@outlook.com",
       to: parsedData.email,
       subject: "Streamline, Secure, and Innovate with QCentrio",
       html: filledHtml,
@@ -159,17 +160,17 @@ export async function contactMail(formData) {
     });
 
     const owner = await transporter.sendMail({
-      from: "info@qcentrio.com",
-      to: "sai.harikiran@x-verity.com",
+      from: "saiharikiran@outlook.com",
+      to: "saiharikiran@outlook.com",
       subject: "Form Filled",
       html: htmlContent,
     });
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
-      redirect("/thank-you", "push");
+      return { success: true, message: "Mail sent successfully" };
     }
   } else {
-    console.error("Don't try to spam");
+    return { success: false, message: "Error Occured" };
   }
 }
 
@@ -233,7 +234,7 @@ export async function contactusMaimMail(formData) {
     };
     const filledHtml = fillPlaceholders(emailTemplate, emailData);
     const info = await transporter.sendMail({
-      from: "info@qcentrio.com",
+      from: "saiharikiran@outlook.com",
       to: parsedData.email,
       subject: "Appreciation for contacting QCentrio",
       html: filledHtml,
@@ -245,17 +246,17 @@ export async function contactusMaimMail(formData) {
     });
 
     const owner = await transporter.sendMail({
-      from: "info@qcentrio.com",
-      to: "sai.harikiran@x-verity.com",
+      from: "saiharikiran@outlook.com",
+      to: "saiharikiran@outlook.com",
       subject: "Form Filled",
       html: htmlContent,
     });
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
-      redirect("/thank-you", "push");
+      return { success: true, message: "Mail sent successfully" };
     }
   } else {
-    console.error("Don't try to spam");
+    return { success: false, message: "Error Occured" };
   }
 }
 
@@ -292,7 +293,7 @@ export async function contactUsReactOutMail(formData) {
     );
 
     const info = await transporter.sendMail({
-      from: "info@qcentrio.com",
+      from: "saiharikiran@outlook.com",
       to: parsedData.email,
       subject: "How to Reach Qcentrio",
       html: emailTemplate,
@@ -304,17 +305,17 @@ export async function contactUsReactOutMail(formData) {
     });
 
     const owner = await transporter.sendMail({
-      from: "info@qcentrio.com",
-      to: "sai.harikiran@x-verity.com",
+      from: "saiharikiran@outlook.com",
+      to: "saiharikiran@outlook.com",
       subject: "Form Filled",
       html: htmlContent,
     });
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
-      redirect("/thank-you", "push");
+      return { success: true, message: "Mail sent successfully" };
     }
   } else {
-    console.error("Don't try to spam");
+    return { success: false, message: "Error Occured" };
   }
 }
 
@@ -348,7 +349,7 @@ export async function footerMail(formData) {
     const emailTemplate = fs.readFileSync("app/email/footer-mail.html", "utf8");
 
     const info = await transporter.sendMail({
-      from: "info@qcentrio.com",
+      from: "saiharikiran@outlook.com",
       to: parsedData.email,
       subject: "Stay ahead of the curve with our monthly insights!",
       html: emailTemplate,
@@ -360,22 +361,23 @@ export async function footerMail(formData) {
     });
 
     const owner = await transporter.sendMail({
-      from: "info@qcentrio.com",
-      to: "sai.harikiran@x-verity.com",
+      from: "saiharikiran@outlook.com",
+      to: "saiharikiran@outlook.com",
       subject: "Form Filled",
       html: htmlContent,
     });
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
-      redirect("/thank-you", "push");
+      return { success: true, message: "Mail sent successfully" };
     }
   } else {
-    console.error("Don't try to spam");
+    return { success: false, message: "Error Occured" };
   }
 }
 
 // Need something email
 export async function needSomethingMail(formData) {
+  console.log(formData);
   const token = formData.get("g-recaptcha-response");
   const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
   const response = await fetch(
@@ -431,7 +433,7 @@ export async function needSomethingMail(formData) {
     };
     const filledHtml = fillPlaceholders(emailTemplate, emailData);
     const info = await transporter.sendMail({
-      from: "info@qcentrio.com",
+      from: "saiharikiran@outlook.com",
       to: parsedData.email,
       subject:
         "Drive Growth & Innovation: Your One-Stop Shop for Business Transformation",
@@ -444,17 +446,17 @@ export async function needSomethingMail(formData) {
     });
 
     const owner = await transporter.sendMail({
-      from: "info@qcentrio.com",
-      to: "sai.harikiran@x-verity.com",
+      from: "saiharikiran@outlook.com",
+      to: "saiharikiran@outlook.com",
       subject: "Form Filled",
       html: htmlContent,
     });
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
-      redirect("/thank-you", "push");
+      return { success: true, message: "Mail sent successfully" };
     }
   } else {
-    console.error("Don't try to spam");
+    return { success: false, message: "Error Occured" };
   }
 }
 
@@ -518,6 +520,7 @@ export async function singleMail(formData) {
   });
 }
 
+// Insights email
 export async function insightsMail(formData) {
   const token = formData.get("g-recaptcha-response");
   const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
@@ -549,7 +552,7 @@ export async function insightsMail(formData) {
     );
 
     const info = await transporter.sendMail({
-      from: "info@qcentrio.com",
+      from: "saiharikiran@outlook.com",
       to: parsedData.email,
       subject: "Unleash your best with QCentrio Insights",
       html: emailTemplate,
@@ -561,17 +564,17 @@ export async function insightsMail(formData) {
     });
 
     const owner = await transporter.sendMail({
-      from: "info@qcentrio.com",
-      to: "sai.harikiran@x-verity.com",
+      from: "saiharikiran@outlook.com",
+      to: "saiharikiran@outlook.com",
       subject: "Form Filled",
       html: htmlContent,
     });
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
-      redirect("/thank-you", "push");
+      return { success: true, message: "Mail sent successfully" };
     }
   } else {
-    console.error("Don't try to spam");
+    return { success: false, message: "Error Occured" };
   }
 }
 
