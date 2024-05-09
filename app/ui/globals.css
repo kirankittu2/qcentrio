@@ -1592,7 +1592,6 @@ header {
   font-size: clamp(12px, 0.8333333333333333vw, 16px) ;
   border: 2px solid #0a996a2e;
   border-radius: 12px;
-  z-index: -1;
 }
 
 .contact-section textarea {
