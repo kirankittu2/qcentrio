@@ -621,10 +621,10 @@ export async function cookieConsent() {
     const expireTime = now.getTime() + 1000 * 60 * 60 * 24 * 7;
 
     cookies().set("qcentrio-cookie-consent", "approved", {
-      secure: true,
+      // secure: true,
       expires: new Date(expireTime),
-      domain: "qcentrio.com",
-      sameSite: "none",
+      // domain: "qcentrio.com",
+      // sameSite: "none",
     });
     return { success: true, message: "Cookie consent has been set." };
   } catch (error) {
