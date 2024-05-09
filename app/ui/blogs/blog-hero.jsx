@@ -27,6 +27,8 @@ export default function BlogHero() {
           setError(response.success);
           if (response.success) {
             router.push("/thank-you");
+          } else if (!response.success) {
+            setSubmitting(true);
           }
         });
     });

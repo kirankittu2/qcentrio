@@ -14,19 +14,15 @@ export default function Footer() {
               <Link
                 data-option="strip-slide-up"
                 className="animate strip-slide-up strip-slide-green"
-                href="http://localhost:3000/perspectives">
+                href="/perspectives">
                 Insights
               </Link>
             </h2>
             <p className="footer-item ">
-              <Link href="http://localhost:3000/perspectives">
-                Prespectives
-              </Link>
+              <Link href="/perspectives">Prespectives</Link>
             </p>
             <p className="footer-item ">
-              <Link href="http://localhost:3000/perspectives?type=case-study">
-                Case Studies
-              </Link>
+              <Link href="/perspectives?type=case-study">Case Studies</Link>
             </p>
             <p className="footer-item ">Thought Leadership</p>
             <p className="footer-item ">News</p>
@@ -38,7 +34,7 @@ export default function Footer() {
               Company
             </h2>
             <p className="footer-item ">
-              <Link href="http://localhost:3000/about-us">About Us</Link>
+              <Link href="/about-us">About Us</Link>
             </p>
             <p className="footer-item ">Careers</p>
           </div>

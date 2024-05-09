@@ -507,15 +507,15 @@ export async function singleMail(formData) {
   const filledHtml = fillPlaceholders(emailTemplate, emailData);
 
   await transporter.sendMail({
-    from: "sai.harikiran@x-verity.com",
+    from: "saiharikiran@outlook.com",
     to: parsedData.email,
     subject: "Qcentrio: We’re Upgrading!",
     html: filledHtml,
   });
 
   await transporter.sendMail({
-    from: "sai.harikiran@x-verity.com",
-    to: "sai.harikiran@x-verity.com",
+    from: "saiharikiran@outlook.com",
+    to: "saiharikiran@outlook.com",
     subject: "Coming soon page",
     html: parsedData.email,
   });

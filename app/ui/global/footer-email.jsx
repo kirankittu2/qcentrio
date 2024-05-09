@@ -31,6 +31,8 @@ export default function FooterEmail() {
             setError(response.success);
             if (response.success) {
               router.push("/thank-you");
+            } else if (!response.success) {
+              setSubmitting(true);
             }
           });
       });
@@ -38,8 +40,6 @@ export default function FooterEmail() {
       setTermsError(true);
     }
   }
-
-  const handleCheckboxChange = (event) => {};
 
   return (
     <>

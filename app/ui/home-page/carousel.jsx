@@ -37,6 +37,8 @@ export default function Carousel() {
           setError(response.success);
           if (response.success) {
             router.push("/thank-you");
+          } else if (!response.success) {
+            setSubmitting(true);
           }
         });
     });
