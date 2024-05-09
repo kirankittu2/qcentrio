@@ -12,15 +12,25 @@ import nodemailer from "nodemailer";
 //   },
 // });
 
-const transporter = nodemailer.createTransport({
-  host: "smtp-mail.outlook.com",
-  port: 587,
-  secure: false,
-  auth: {
-    user: "kirankittu3760@gmail.com",
-    pass: "tesssqlrggnzspue",
-  },
-});
+// const transporter = nodemailer.createTransport({
+//   host: "smtp-mail.outlook.com",
+//   port: 587,
+//   secure: true,
+//   auth: {
+//     user: "kirankittu3760@gmail.com",
+//     pass: "tesssqlrggnzspue",
+//   },
+// });
+
+// const transporter = nodemailer.createTransport({
+//   host: "smtp.office365.com",
+//   port: 587,
+//   secure: false,
+//   auth: {
+//     user: "saiharikiran@outlook.com",
+//     pass: "omnaxlwuycqjonkm",
+//   },
+// });
 
 // const transporter = nodemailer.createTransport({
 //   host: "smtp.office365.com",
@@ -31,5 +41,15 @@ const transporter = nodemailer.createTransport({
 //     pass: "Qcentrio@09",
 //   },
 // });
+
+const transporter = nodemailer.createTransport({
+  host: "	smtp-mail.outlook.com",
+  port: 587,
+  secure: false,
+  auth: {
+    user: "saiharikiran@outlook.com",
+    pass: "omnaxlwuycqjonkm",
+  },
+});
 
 export default transporter;

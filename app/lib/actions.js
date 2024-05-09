@@ -38,24 +38,46 @@ export async function homeslidesMail(formData) {
       "utf8"
     );
 
-    const info = await transporter.sendMail({
-      from: "kirankittu3760@gmail.com",
+    const mailOptions1 = {
+      from: "saiharikiran@outlook.com",
       to: parsedData.email,
       subject:
         "Unlock Growth and Transformation with Our Data-Driven Solutions",
       html: emailTemplate,
+    };
+
+    const info = await new Promise((resolve, reject) => {
+      transporter.sendMail(mailOptions1, (error, info) => {
+        if (error) {
+          reject(error);
+        } else {
+          resolve(info);
+        }
+      });
     });
+
+    console.log(info);
 
     let htmlContent = "";
     Object.entries(parsedData).forEach(([key, value]) => {
       htmlContent += `<p>${key}: ${value}</p>`;
     });
 
-    const owner = await transporter.sendMail({
-      from: "kirankittu3760@gmail.com",
-      to: "kirankittu3760@gmail.com",
+    const mailOptions2 = {
+      from: "saiharikiran@outlook.com",
+      to: "saiharikiran@outlook.com",
       subject: "Form Filled",
       html: htmlContent,
+    };
+
+    const owner = await new Promise((resolve, reject) => {
+      transporter.sendMail(mailOptions2, (error, info) => {
+        if (error) {
+          reject(error);
+        } else {
+          resolve(info);
+        }
+      });
     });
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
