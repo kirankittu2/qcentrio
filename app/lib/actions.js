@@ -604,10 +604,10 @@ export async function storeCookie(formData) {
 
   if (parsedData.code == secret_code) {
     cookies().set("qcentrio-access", "approved", {
-      secure: true,
+      // secure: true,
       expires: new Date(expireTime),
-      domain: "qcentrio.com",
-      sameSite: "none",
+      // domain: "qcentrio.com",
+      // sameSite: "none",
     });
     redirect("/", "push");
   } else {
