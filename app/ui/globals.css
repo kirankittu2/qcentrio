@@ -106,7 +106,7 @@ video{
 
 .form-error{
   text-align: center;
-  color: red;
+  color: #e7b0b0;
   font-size: 16px;
 }
 
@@ -114,6 +114,11 @@ video{
   text-align: start;
   color: white;
   font-size: 16px;
+}
+
+.privacy-policy-check-error{
+  font-size: 14px;
+  color: #e7b0b0;
 }
 
 body {
@@ -1587,6 +1592,7 @@ header {
   font-size: clamp(12px, 0.8333333333333333vw, 16px) ;
   border: 2px solid #0a996a2e;
   border-radius: 12px;
+  z-index: -1;
 }
 
 .contact-section textarea {
@@ -3014,6 +3020,12 @@ h2.blog-page-side-heading {
   margin-bottom: 20px;
 }
 
+.careers-contact-button{
+  display: flex;
+  justify-content: center;
+}
+
+
 .careers-contact-section h2.strip-slide-up span.row {
   line-height: 1.13;
   margin-top: -10px;
@@ -3665,7 +3677,24 @@ th, td {
   width: 200px;
 }
 
+.purpose-input-dropdown{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: "Quadran-Light";
+  position: relative;
+  width: 100%;
+  border: 2px solid #0a996a2e;
+  border-radius: 12px;
+  font-family: "Quadran-Medium";
+}
+
 .search-dropdown .chevron::before{
+  border-color: var(--primary-color);
+}
+
+.purpose-input-dropdown .chevron::before{
   border-color: var(--primary-color);
 }
 
@@ -3739,10 +3768,16 @@ th, td {
   left: 0;
   background-color: white;
   width: 100%;
-  border-bottom: 1px solid rgba(112,112,112, 0.05);
-  border-left: 1px solid rgba(112,112,112, 0.05);
-  border-right: 1px solid rgba(112,112,112, 0.05);
+  border-bottom: 2px solid rgba(112,112,112, 0.05);
+  border-left: 2px solid rgba(112,112,112, 0.05);
+  border-right: 2px solid rgba(112,112,112, 0.05);
+  z-index: 2;
   /* border-radius: 3px; */
+}
+
+.purpose-input-dropdown .search-dropdown-item-list{
+  border: 2px solid #0a996a2e;
+  border-radius: 12px;
 }
 
 .search-dropdown-item{
@@ -3751,9 +3786,22 @@ th, td {
   text-align: center;
   padding: 10px 0px;
   border-top: 1px solid rgba(112,112,112, 0.05);
+  border-radius: 12px;
 }
 
+.purpose-input-dropdown .search-dropdown-item{
+  padding: 10px 20px;
+}
+
+
+
 .search-dropdown-item:hover{
+  background-color: #E5F4EF;
+  color: var(--primary-color);
+  
+}
+
+.purpose-input-dropdown .search-dropdown-item-list{
   background-color: #f9f9f9;
 }
 

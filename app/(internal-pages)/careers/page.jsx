@@ -157,9 +157,9 @@ function Jobs() {
             and discover how you can contribute to the exciting world of IT
             innovation at Qcentrio.
           </p>
-          <p data-option="up" className="hr-mail animate animate-hidden">
-            hr@qcentrio.com
-          </p>
+          <Link href="/contact-us">
+            <Button name="Contact Us" />
+          </Link>
         </div>
         <div className="jobs-main">
           <div data-option="up" className="job animate animate-hidden">
@@ -359,9 +359,11 @@ function CareerContact() {
         Join Qcentrio and be part of our journey towards a brighter, more
         connected future.
       </h3>
-      <p data-option="up" className="animate animate-hidden">
-        Get in touch with us at <Link href="">hr@qcentrio.com</Link>
-      </p>
+      <div className="careers-contact-button">
+        <Link href="/contact-us">
+          <Button name="Contact Us" />
+        </Link>
+      </div>
     </div>
   );
 }

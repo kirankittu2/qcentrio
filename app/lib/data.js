@@ -2972,8 +2972,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading:
-              "Operational Excellence, Compliance, and Continuous Support",
+            heading: "Operational Excellence, Compliance, and Support",
             image: "/oracle-cerner-advisory-services/secondary-image-2.png",
             icon: currency,
             content:
@@ -3166,7 +3165,7 @@ const subServicePagesContent = {
           {
             num: "07",
             heading:
-              "Data Privacy and Security: Protecting All Internal and External Data",
+              "Safeguarding Internal & External Data: Privacy & Security",
             image: "/risk-advisory-services/secondary-image-7.png",
             icon: currency,
             content:
@@ -3327,8 +3326,7 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading:
-              "API and Web Services Testing Ensuring Safe Data Transfer Mechanism",
+            heading: "API & Web Service Testing: Secure Data Transfer",
             image: "/specialty-services/secondary-image-6.png",
             icon: currency,
             content:
@@ -3345,8 +3343,7 @@ const subServicePagesContent = {
           },
           {
             num: "08",
-            heading:
-              "UX/UI Design Validation: Meeting the End User Preferences And Needs",
+            heading: "Validating UX/UI: User-Centric Design",
             image: "/specialty-services/secondary-image-8.png",
             icon: currency,
             content:
@@ -4379,8 +4376,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading:
-              "Collaborative Workspaces Achieving Common Goal Collectively and Faster",
+            heading: "Work Together, Achieve More: Collaborative Workspaces",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
@@ -4397,7 +4393,7 @@ const subServicePagesContent = {
           {
             num: "04",
             heading:
-              "Team Communication Tools make it easy for you and your team to communicate",
+              "Team Communication Tools make it easy for you and your team",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
@@ -4414,8 +4410,7 @@ const subServicePagesContent = {
           },
           {
             num: "06",
-            heading:
-              "Integrated Workspaces To Make Both Work and The Work Place Apt",
+            heading: "Empowering Work & Workplace: Integrated Workspaces",
             image: "/business-value-enhancement-services.png",
             icon: currency,
             content:
@@ -4545,8 +4540,7 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading:
-              "Salesforce Implementation Through Right Strategy and Training",
+            heading: "Salesforce Implementation Strategy and Training",
             image: "/crm-system-solutions/secondary-image-1.png",
             icon: currency,
             content:
@@ -4554,8 +4548,7 @@ const subServicePagesContent = {
           },
           {
             num: "02",
-            heading:
-              "Microsoft Dynamics CRM Implementing By Appropriate Methodology",
+            heading: "Microsoft Dynamics CRM Implementation",
             image: "/crm-system-solutions/secondary-image-2.png",
             icon: currency,
             content:
@@ -4571,8 +4564,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading:
-              "CRM Optimization and Analytics Helping Your Business Take Right Decision.",
+            heading: "CRM Insights: Empower Better Choices",
             image: "/crm-system-solutions/secondary-image-4.png",
             icon: currency,
             content:
@@ -4598,7 +4590,7 @@ const subServicePagesContent = {
           {
             num: "07",
             heading:
-              "CRM Training and User Adoption: Designed As Per Your Team Skillset",
+              "CRM Training and User Adoption: As Per Your Team Skillset",
             image: "/crm-system-solutions/secondary-image-7.png",
             icon: currency,
             content:
@@ -4733,7 +4725,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading: "Data Integration And Management Fast Track Your Success",
+            heading: "Data Integration & Management: Drive Results",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-4.png",
             icon: currency,

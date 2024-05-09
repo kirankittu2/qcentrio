@@ -42,7 +42,7 @@ export default function ReachOut() {
         {!error && <p className="form-error">Error Submitting Form</p>}
         <form onSubmit={onSubmit}>
           <div className="reach-out-form">
-            <input name="email" placeholder="Email Address"></input>
+            <input name="email" placeholder="Email Address" required></input>
             <Button
               name={!submitting ? "Submitting..." : "Request Call Back"}
             />

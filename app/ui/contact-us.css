@@ -46,6 +46,7 @@
   outline: none;
   padding: 20px;
   font-family: "Quadran-Medium";
+  z-index: 1;
 }
 
 .contact-us-main-section-form .contact-column {

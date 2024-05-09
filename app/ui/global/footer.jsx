@@ -109,24 +109,7 @@ export default function Footer() {
               Subscribe to our Insights, our monthly look at the critical issues
               facing global businesses.
             </p>
-            <div
-              data-option="up"
-              className="privacy-policy-check-text animate animate-hidden">
-              <div className="footer-checkbox">
-                <input type="checkbox" id="privacy-policy" />
-                <label
-                  className="privacy-checkbox-text "
-                  htmlFor="privacy-policy">
-                  *I have read the&nbsp;
-                  <span>
-                    <Link className="" href="/privacy-policy">
-                      Privacy Policy
-                    </Link>
-                  </span>
-                  &nbsp;and agree to its terms.
-                </label>
-              </div>
-            </div>
+
             <FooterEmail />
           </div>
         </div>

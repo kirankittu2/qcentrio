@@ -3,7 +3,13 @@ import Link from "next/link";
 import BlogsConatiner from "./blogs-container";
 import InsightsSearchBar from "../global/insights-search";
 
-export default function AllBlogs({ data, type, page, paginationNum }) {
+export default function AllBlogs({
+  data,
+  type,
+  page,
+  paginationNum,
+  searchParams,
+}) {
   return (
     <>
       <div id="articles" className="topics-section balance-section">
@@ -67,7 +73,7 @@ export default function AllBlogs({ data, type, page, paginationNum }) {
           Latest {type == "perspectives" ? "Perspectives" : ""}
           {type == "case-study" ? "Case Studies" : ""}
         </h2>
-        <BlogsConatiner data={data} />
+        <BlogsConatiner data={data} searchParams={searchParams} />
       </div>
       <Pagination paginationNum={paginationNum} page={page} />
     </>

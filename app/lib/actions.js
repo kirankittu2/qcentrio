@@ -176,6 +176,7 @@ export async function contactMail(formData) {
 
 // Contact us page main mail
 export async function contactusMaimMail(formData) {
+  console.log(formData);
   const token = formData.get("g-recaptcha-response");
   const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
   const response = await fetch(

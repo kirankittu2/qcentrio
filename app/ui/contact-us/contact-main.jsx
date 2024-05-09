@@ -8,6 +8,8 @@ import { useState } from "react";
 export default function ContactMain() {
   const [submitting, setSubmitting] = useState(true);
   const [error, setError] = useState(true);
+  const [dropdown, setDropdown] = useState(false);
+  const [searchTermDropdown, setSearchTermDropdown] = useState("Inquires");
   const router = useRouter();
 
   function onSubmit(e) {
@@ -22,6 +24,7 @@ export default function ContactMain() {
         })
         .then(async function (token) {
           formData.append("g-recaptcha-response", token);
+          formData.append("purpose", searchTermDropdown);
           const response = await contactusMaimMail(formData);
           setSubmitting(response.success);
           setError(response.success);
@@ -51,21 +54,63 @@ export default function ContactMain() {
               data-option="up"
               name="first-name"
               type="text"
-              placeholder="First Name"></input>
+              placeholder="First Name"
+              required></input>
             <input
               className="animate-hidden animate"
               data-option="up"
               name="last-name"
               type="text"
-              placeholder="Last Name"></input>
+              placeholder="Last Name"
+              required></input>
           </div>
           <div className="contact-column">
-            <input
+            <div
               data-option="up"
-              type="text"
-              name="purpose"
-              className="animate-hidden animate"
-              placeholder="Purpose"></input>
+              onClick={() => setDropdown(!dropdown)}
+              className="purpose-input-dropdown animate animate-hidden">
+              {searchTermDropdown}{" "}
+              <span
+                className={`chevron bottom ${
+                  dropdown ? "rotate-180" : "rotate-0"
+                }`}></span>
+              {dropdown && (
+                <div className="search-dropdown-item-list">
+                  <div
+                    onClick={(e) => {
+                      setDropdown(false);
+                      setSearchTermDropdown(e.target.textContent);
+                    }}
+                    className="search-dropdown-item">
+                    Inquires
+                  </div>
+                  <div
+                    onClick={(e) => {
+                      setDropdown(false);
+                      setSearchTermDropdown(e.target.textContent);
+                    }}
+                    className="search-dropdown-item">
+                    Careers
+                  </div>
+                  <div
+                    onClick={(e) => {
+                      setDropdown(false);
+                      setSearchTermDropdown(e.target.textContent);
+                    }}
+                    className="search-dropdown-item">
+                    General Inquiries
+                  </div>
+                  <div
+                    onClick={(e) => {
+                      setDropdown(false);
+                      setSearchTermDropdown(e.target.textContent);
+                    }}
+                    className="search-dropdown-item">
+                    Business Inquires
+                  </div>
+                </div>
+              )}
+            </div>
           </div>
           <div className="contact-column">
             <input
@@ -73,7 +118,8 @@ export default function ContactMain() {
               data-option="up"
               type="text"
               name="email"
-              placeholder="Email Address"></input>
+              placeholder="Email Address"
+              required></input>
             <input
               className="animate-hidden animate"
               data-option="up"

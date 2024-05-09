@@ -28,6 +28,7 @@ export default async function Blogs({ searchParams }) {
         </div>
       </div>
       <AllBlogs
+        searchParams={searchParams}
         data={data}
         type={type}
         page={page}

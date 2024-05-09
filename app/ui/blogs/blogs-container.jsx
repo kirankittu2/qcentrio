@@ -3,70 +3,47 @@
 import Image from "next/image";
 import blogArrow from "@/public/blog-arrow.svg";
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import { usePathname, useSearchParams } from "next/navigation";
+import { useEffect, useRef } from "react";
 
-export default function BlogsConatiner(data) {
-  const searchParams = useSearchParams();
-  const [firstPath, setFirstPath] = useState(false);
+export default function BlogsConatiner({ data, searchParams }) {
+  const wrapper = useRef(null);
 
-  // useEffect(() => {
-  //   let timeoutIds = [];
+  useEffect(() => {
+    let options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.3,
+    };
+    const searchCards = wrapper.current.querySelectorAll(".card");
+    searchCards.forEach((element) => {
+      if (element.classList.contains("slideup")) {
+        element.classList.remove("slideup");
+      }
+    });
+    const observeElements = (selector, className) => {
+      const elements = document.querySelectorAll(selector);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(className);
+          }
+        });
+      }, options);
+      elements.forEach((el) => observer.observe(el));
+    };
 
-  //   if (firstPath == true) {
-  //     let delay = 50;
-  //     const cards = document.querySelectorAll(".blogs-container .card");
-  //     cards.forEach((card) => {
-  //       card.style.transition = "none";
-  //       card.classList.remove("slideup");
-  //     });
-  //     cards.forEach((card) => {
-  //       const timeoutId = setTimeout(() => {
-  //         card.style.transition = "all 0.5s cubic-bezier(0, 0.81, 1, 1.01)";
-  //         card.classList.add("slideup");
-  //       }, delay);
-  //       timeoutIds.push(timeoutId);
-  //       delay += 50;
-  //     });
-  //   }
-
-  //   return () => {
-  //     timeoutIds.forEach((timeoutId) => {
-  //       clearTimeout(timeoutId);
-  //     });
-  //   };
-  // }, [searchParams, firstPath]);
-
-  // useEffect(() => {
-  //   let options = {
-  //     root: null,
-  //     rootMargin: "0px",
-  //     threshold: 0.3,
-  //   };
-
-  //   const observeElements = (selector, className) => {
-  //     const elements = document.querySelectorAll(selector);
-  //     const observer = new IntersectionObserver((entries) => {
-  //       entries.forEach((entry) => {
-  //         if (entry.isIntersecting) {
-  //           entry.target.classList.add(className);
-  //           setFirstPath(true);
-  //         }
-  //       });
-  //     }, options);
-  //     elements.forEach((el) => observer.observe(el));
-  //   };
-
-  //   observeElements(".blogs-container > .card", "slideup");
-  // }, []);
-
+    observeElements(".card", "slideup");
+  }, [searchParams]);
   return (
-    <div className="blogs-container">
+    <div ref={wrapper} className="blogs-container">
       {data == null || data == undefined || data.length == 0
         ? "No Data Found"
-        : data.data.children.map((item, index) => {
+        : data.children.map((item, index) => {
             return (
-              <div key={index} className="card ">
+              <div
+                data-option="up"
+                key={index}
+                className="card animate animate-hidden">
                 <div className="card-image">
                   <Image fill src={item.image} alt="" />
                 </div>

@@ -52,7 +52,12 @@ export default function BlogHero() {
         <div
           data-option="up"
           className="lets-talk-container animate animate-hidden">
-          <input name="email" type="text" placeholder="Email Address" />
+          <input
+            name="email"
+            type="text"
+            placeholder="Email Address"
+            required
+          />
           <div className="input-btn">
             <Button name={!submitting ? "Submitting..." : "Lets Talk"} />
           </div>
