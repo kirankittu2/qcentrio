@@ -13,6 +13,7 @@ export default function Carousel() {
   const wrapper = useRef(null);
   const layer = useRef(null);
   const [index, setIndex] = useState(0);
+  const [clickedIndex, setClickedIndex] = useState(0);
   const [slideItem, setItem] = useState("");
   const [hovered, setHovered] = useState(false);
   const [inputHovered, setInputHovered] = useState(false);
@@ -22,6 +23,7 @@ export default function Carousel() {
 
   function onSubmit(e) {
     e.preventDefault();
+    setClickedIndex(e.target.getAttribute("data-index"));
     const form = e.target;
     const formData = new FormData(form);
     setSubmitting(false);
@@ -201,7 +203,7 @@ export default function Carousel() {
               <p className="hero-sub-heading">
                 Aligned with Your Business&rsquo;s Current and Future Needs
               </p>
-              <form onSubmit={onSubmit}>
+              <form data-index="0" onSubmit={onSubmit}>
                 {!error && <p className="form-error">Error Submitting Form</p>}
                 <div className="lets-talk-container">
                   <input
@@ -215,7 +217,11 @@ export default function Carousel() {
                   />
                   <div className="input-btn">
                     <Button
-                      name={!submitting ? "Submitting..." : "Lets Talk"}
+                      name={
+                        !submitting && clickedIndex == 0
+                          ? "Submitting..."
+                          : "Lets Talk"
+                      }
                     />
                   </div>
                 </div>
@@ -245,7 +251,7 @@ export default function Carousel() {
               </p>
               {!error && <p className="form-error">Error Submitting Form</p>}
 
-              <form onSubmit={onSubmit}>
+              <form data-index="1" onSubmit={onSubmit}>
                 <div className="lets-talk-container">
                   <input
                     name="email"
@@ -258,7 +264,11 @@ export default function Carousel() {
                   />
                   <div className="input-btn">
                     <Button
-                      name={!submitting ? "Submitting..." : "Lets Talk"}
+                      name={
+                        !submitting && clickedIndex == 1
+                          ? "Submitting..."
+                          : "Lets Talk"
+                      }
                     />
                   </div>
                 </div>
@@ -285,7 +295,7 @@ export default function Carousel() {
               </h1>
               <p className="hero-sub-heading">Commitment to Continuity</p>
               {!error && <p className="form-error">Error Submitting Form</p>}
-              <form onSubmit={onSubmit}>
+              <form data-index="2" onSubmit={onSubmit}>
                 <div className="lets-talk-container">
                   <input
                     name="email"
@@ -298,7 +308,11 @@ export default function Carousel() {
                   />
                   <div className="input-btn">
                     <Button
-                      name={!submitting ? "Submitting..." : "Lets Talk"}
+                      name={
+                        !submitting && clickedIndex == 2
+                          ? "Submitting..."
+                          : "Lets Talk"
+                      }
                     />
                   </div>
                 </div>

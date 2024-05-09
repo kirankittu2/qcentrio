@@ -43,15 +43,12 @@ import nodemailer from "nodemailer";
 // });
 
 const transporter = nodemailer.createTransport({
-  host: "smtp-mail.outlook.com",
-  port: 587,
-  secure: false,
+  host: "mail.qcentrio.com",
+  port: 465,
+  secure: true,
   auth: {
-    user: "saiharikiran@outlook.com",
-    pass: "vpdtddfbrvwpwfji",
-  },
-  tls: {
-    rejectUnauthorized: false,
+    user: "qcadmin",
+    pass: `Dj"Hi4PaJt9Kt_^`,
   },
 });
 

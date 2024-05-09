@@ -39,7 +39,7 @@ export async function homeslidesMail(formData) {
     );
 
     const mailOptions1 = {
-      from: "saiharikiran@outlook.com",
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
       to: parsedData.email,
       subject:
         "Unlock Growth and Transformation with Our Data-Driven Solutions",
@@ -64,8 +64,8 @@ export async function homeslidesMail(formData) {
     });
 
     const mailOptions2 = {
-      from: "saiharikiran@outlook.com",
-      to: "saiharikiran@outlook.com",
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
+      to: "qcadmin@180.133.167.72.host.secureserver.net",
       subject: "Form Filled",
       html: htmlContent,
     };
@@ -148,7 +148,7 @@ export async function contactMail(formData) {
     };
     const filledHtml = fillPlaceholders(emailTemplate, emailData);
     const info = await transporter.sendMail({
-      from: "saiharikiran@outlook.com",
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
       to: parsedData.email,
       subject: "Streamline, Secure, and Innovate with QCentrio",
       html: filledHtml,
@@ -160,8 +160,8 @@ export async function contactMail(formData) {
     });
 
     const owner = await transporter.sendMail({
-      from: "saiharikiran@outlook.com",
-      to: "saiharikiran@outlook.com",
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
+      to: "qcadmin@180.133.167.72.host.secureserver.net",
       subject: "Form Filled",
       html: htmlContent,
     });
@@ -235,7 +235,7 @@ export async function contactusMaimMail(formData) {
     };
     const filledHtml = fillPlaceholders(emailTemplate, emailData);
     const info = await transporter.sendMail({
-      from: "saiharikiran@outlook.com",
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
       to: parsedData.email,
       subject: "Appreciation for contacting QCentrio",
       html: filledHtml,
@@ -247,8 +247,8 @@ export async function contactusMaimMail(formData) {
     });
 
     const owner = await transporter.sendMail({
-      from: "saiharikiran@outlook.com",
-      to: "saiharikiran@outlook.com",
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
+      to: "qcadmin@180.133.167.72.host.secureserver.net",
       subject: "Form Filled",
       html: htmlContent,
     });
@@ -294,7 +294,7 @@ export async function contactUsReactOutMail(formData) {
     );
 
     const info = await transporter.sendMail({
-      from: "saiharikiran@outlook.com",
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
       to: parsedData.email,
       subject: "How to Reach Qcentrio",
       html: emailTemplate,
@@ -306,8 +306,8 @@ export async function contactUsReactOutMail(formData) {
     });
 
     const owner = await transporter.sendMail({
-      from: "saiharikiran@outlook.com",
-      to: "saiharikiran@outlook.com",
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
+      to: "qcadmin@180.133.167.72.host.secureserver.net",
       subject: "Form Filled",
       html: htmlContent,
     });
@@ -350,7 +350,7 @@ export async function footerMail(formData) {
     const emailTemplate = fs.readFileSync("app/email/footer-mail.html", "utf8");
 
     const info = await transporter.sendMail({
-      from: "saiharikiran@outlook.com",
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
       to: parsedData.email,
       subject: "Stay ahead of the curve with our monthly insights!",
       html: emailTemplate,
@@ -362,8 +362,8 @@ export async function footerMail(formData) {
     });
 
     const owner = await transporter.sendMail({
-      from: "saiharikiran@outlook.com",
-      to: "saiharikiran@outlook.com",
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
+      to: "qcadmin@180.133.167.72.host.secureserver.net",
       subject: "Form Filled",
       html: htmlContent,
     });
@@ -434,7 +434,7 @@ export async function needSomethingMail(formData) {
     };
     const filledHtml = fillPlaceholders(emailTemplate, emailData);
     const info = await transporter.sendMail({
-      from: "saiharikiran@outlook.com",
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
       to: parsedData.email,
       subject:
         "Drive Growth & Innovation: Your One-Stop Shop for Business Transformation",
@@ -447,8 +447,8 @@ export async function needSomethingMail(formData) {
     });
 
     const owner = await transporter.sendMail({
-      from: "saiharikiran@outlook.com",
-      to: "saiharikiran@outlook.com",
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
+      to: "qcadmin@180.133.167.72.host.secureserver.net",
       subject: "Form Filled",
       html: htmlContent,
     });
@@ -507,15 +507,15 @@ export async function singleMail(formData) {
   const filledHtml = fillPlaceholders(emailTemplate, emailData);
 
   await transporter.sendMail({
-    from: "saiharikiran@outlook.com",
+    from: "qcadmin@180.133.167.72.host.secureserver.net",
     to: parsedData.email,
     subject: "Qcentrio: We’re Upgrading!",
     html: filledHtml,
   });
 
   await transporter.sendMail({
-    from: "saiharikiran@outlook.com",
-    to: "saiharikiran@outlook.com",
+    from: "qcadmin@180.133.167.72.host.secureserver.net",
+    to: "qcadmin@180.133.167.72.host.secureserver.net",
     subject: "Coming soon page",
     html: parsedData.email,
   });
@@ -553,7 +553,7 @@ export async function insightsMail(formData) {
     );
 
     const info = await transporter.sendMail({
-      from: "saiharikiran@outlook.com",
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
       to: parsedData.email,
       subject: "Unleash your best with QCentrio Insights",
       html: emailTemplate,
@@ -565,8 +565,8 @@ export async function insightsMail(formData) {
     });
 
     const owner = await transporter.sendMail({
-      from: "saiharikiran@outlook.com",
-      to: "saiharikiran@outlook.com",
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
+      to: "qcadmin@180.133.167.72.host.secureserver.net",
       subject: "Form Filled",
       html: htmlContent,
     });

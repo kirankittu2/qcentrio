@@ -9,7 +9,8 @@ export default function ContactMain() {
   const [submitting, setSubmitting] = useState(true);
   const [error, setError] = useState(true);
   const [dropdown, setDropdown] = useState(false);
-  const [searchTermDropdown, setSearchTermDropdown] = useState("Inquires");
+  const [clicked, setClicked] = useState(false);
+  const [searchTermDropdown, setSearchTermDropdown] = useState("Purpose");
   const router = useRouter();
 
   function onSubmit(e) {
@@ -48,29 +49,30 @@ export default function ContactMain() {
         </h1>
       </div>
       {!error && <p className="form-error">Error Submitting Form</p>}
-      <div className="contact-us-main-section-form">
+      <div
+        data-option="up"
+        className="contact-us-main-section-form animate animate-hidden">
         <form onSubmit={onSubmit}>
           <div className="contact-column">
             <input
-              className="animate-hidden animate"
-              data-option="up"
               name="first-name"
               type="text"
               placeholder="First Name"
               required></input>
             <input
-              className="animate-hidden animate"
-              data-option="up"
               name="last-name"
               type="text"
               placeholder="Last Name"
               required></input>
           </div>
-          <div className="contact-column">
+          <div className="contact-column z-10">
             <div
-              data-option="up"
-              onClick={() => setDropdown(!dropdown)}
-              className="purpose-input-dropdown animate animate-hidden">
+              onClick={() => {
+                setDropdown(!dropdown);
+              }}
+              className={`purpose-input-dropdown ${
+                !clicked ? "text-[#a5a5a5]" : "text-black"
+              }`}>
               {searchTermDropdown}{" "}
               <span
                 className={`chevron bottom ${
@@ -81,6 +83,7 @@ export default function ContactMain() {
                   <div
                     onClick={(e) => {
                       setDropdown(false);
+                      setClicked(true);
                       setSearchTermDropdown(e.target.textContent);
                     }}
                     className="search-dropdown-item">
@@ -89,6 +92,7 @@ export default function ContactMain() {
                   <div
                     onClick={(e) => {
                       setDropdown(false);
+                      setClicked(true);
                       setSearchTermDropdown(e.target.textContent);
                     }}
                     className="search-dropdown-item">
@@ -97,6 +101,7 @@ export default function ContactMain() {
                   <div
                     onClick={(e) => {
                       setDropdown(false);
+                      setClicked(true);
                       setSearchTermDropdown(e.target.textContent);
                     }}
                     className="search-dropdown-item">
@@ -105,6 +110,7 @@ export default function ContactMain() {
                   <div
                     onClick={(e) => {
                       setDropdown(false);
+                      setClicked(true);
                       setSearchTermDropdown(e.target.textContent);
                     }}
                     className="search-dropdown-item">
@@ -116,24 +122,16 @@ export default function ContactMain() {
           </div>
           <div className="contact-column">
             <input
-              className="animate-hidden animate"
-              data-option="up"
               type="text"
               name="email"
               placeholder="Email Address"
               required></input>
             <input
-              className="animate-hidden animate"
-              data-option="up"
               type="text"
               name="contact"
               placeholder="Contact Number"></input>
           </div>
-          <textarea
-            data-option="up"
-            name="message"
-            className="animate-hidden animate"
-            placeholder="Your Message"></textarea>
+          <textarea name="message" placeholder="Your Message"></textarea>
           <Button name={!submitting ? "Submitting..." : "Submit Form"} />
         </form>
       </div>
