@@ -64,10 +64,10 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
             }`}></span>
         </Link>
       </li>
-      <li
+      {/* <li
         className={`main-nav-link ${pathname == "/products" ? "active" : ""}`}>
         <Link href="/products">Products</Link>
-      </li>
+      </li> */}
       <li
         className={`main-nav-link ${
           pathname == "/industries" ? "active" : ""
