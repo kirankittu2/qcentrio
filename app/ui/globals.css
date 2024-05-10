@@ -5651,7 +5651,7 @@ td {
   display: flex;
   gap: 5.2vw;
   /* transform: translateX( calc(-33.33333% - 33px)  ); */
-  animation: scroll3 3s linear infinite;
+  animation: scroll3 30s linear infinite;
   position: relative;
 }
 
