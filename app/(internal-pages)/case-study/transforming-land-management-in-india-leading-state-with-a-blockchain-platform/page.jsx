@@ -4,7 +4,7 @@ import BottomLine from "@/app/ui/case-study/bottom-line";
 import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
-import banner from "@/public/case-study-banner.png";
+import banner from "@/public/land-management/main-bg-1.png";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import TransformingLandManagementInIndia from "@/app/ui/case-study/transforming-land-management-in-india-case-study-toggle";
 

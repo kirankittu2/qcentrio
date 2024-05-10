@@ -5576,6 +5576,10 @@ td {
   margin-bottom: 20px;
 }
 
+.products-list-section .success-path-heading {
+  margin-bottom: 0px;
+}
+
 .products-list-section .products-hero-main-heading {
   text-align: center;
   margin-bottom: 40px;
@@ -7324,6 +7328,10 @@ td {
 
 .strip-slide-black span {
   color: black !important;
+}
+
+.strip-slide-grey span {
+  color: #404040 !important;
 }
 
 .strip-slide-green span {

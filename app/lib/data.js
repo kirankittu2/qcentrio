@@ -270,17 +270,17 @@ const caseStudies = {
       link: "/case-study/streamline-your-product-development-with-automated-vehicle-aerodynamics-simulations",
       type: "CASE STUDY",
     },
-    {
-      image: "/sharepoint-ecosystem.jpg",
-      homeImage: "/pharma-tech.jpg",
-      title: "Transforming a pharmaceutical major’s sharepoint ecosystem",
-      content1:
-        "A Leading pharmaceutical company embarked on a strategic journey to comprehensively overhaul its SharePoint ecosystem for enhanced collaboration.",
-      content2:
-        "By integrating Azure's robust cloud capabilities with their existing SharePoint infrastructure, the company not only streamlined workflows but also set a new standard for innovation in pharmaceutical information management.",
-      link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
-      type: "CASE STUDY",
-    },
+    // {
+    //   image: "/sharepoint-ecosystem.jpg",
+    //   homeImage: "/pharma-tech.jpg",
+    //   title: "Transforming a pharmaceutical major’s sharepoint ecosystem",
+    //   content1:
+    //     "A Leading pharmaceutical company embarked on a strategic journey to comprehensively overhaul its SharePoint ecosystem for enhanced collaboration.",
+    //   content2:
+    //     "By integrating Azure's robust cloud capabilities with their existing SharePoint infrastructure, the company not only streamlined workflows but also set a new standard for innovation in pharmaceutical information management.",
+    //   link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
+    //   type: "CASE STUDY",
+    // },
   ],
   pageNumber: 0,
 };
