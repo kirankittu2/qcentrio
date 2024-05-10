@@ -5661,6 +5661,14 @@ td {
   }
 }
 
+.horizontal-scroll3 img{
+  filter: grayscale(1);
+}
+
+.horizontal-scroll3 img:hover{
+  filter: grayscale(0);
+}
+
 
 
 @media screen and (max-width: 1764px) {
