@@ -5645,6 +5645,24 @@ td {
   margin-bottom: 50px;
 }
 
+.horizontal-scroll3 {
+  width: max-content;
+  height: unset;
+  display: flex;
+  gap: 5.2vw;
+  /* transform: translateX( calc(-33.33333% - 33px)  ); */
+  animation: scroll3 3s linear infinite;
+  position: relative;
+}
+
+@keyframes scroll3 {
+  to {
+    transform: translateX(calc(-50% - 3vw));
+  }
+}
+
+
+
 @media screen and (max-width: 1764px) {
   #path-2,
   #path-1 {
