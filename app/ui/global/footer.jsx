@@ -14,23 +14,31 @@ export default function Footer() {
               <Link
                 data-option="strip-slide-up"
                 className="animate strip-slide-up strip-slide-green"
-                href="/perspectives">
+                href="/insights"
+              >
                 Insights
               </Link>
             </h2>
             <p className="footer-item ">
-              <Link href="/perspectives">Prespectives</Link>
+              <Link href="/insights?type=perspectives">Prespectives</Link>
             </p>
             <p className="footer-item ">
-              <Link href="/perspectives?type=case-study">Case Studies</Link>
+              <Link href="/insights?type=case-studytype=case-study">
+                Case Studies
+              </Link>
             </p>
-            <p className="footer-item ">Thought Leadership</p>
-            <p className="footer-item ">News</p>
+            <p className="footer-item ">
+              <Link href="/insights">Thought Leadership</Link>
+            </p>
+            <p className="footer-item ">
+              <Link href="/insights">News</Link>
+            </p>
           </div>
           <div className="footer-column">
             <h2
               data-option="strip-slide-up"
-              className="footer-heading animate strip-slide-up strip-slide-green">
+              className="footer-heading animate strip-slide-up strip-slide-green"
+            >
               Company
             </h2>
             <p className="footer-item ">
@@ -41,7 +49,8 @@ export default function Footer() {
           <div className="footer-column">
             <h2
               data-option="strip-slide-up"
-              className="footer-heading animate strip-slide-up strip-slide-green">
+              className="footer-heading animate strip-slide-up strip-slide-green"
+            >
               Transformations
             </h2>
             <p className="footer-item ">
@@ -78,7 +87,8 @@ export default function Footer() {
           <div className="footer-column">
             <h2
               data-option="strip-slide-up"
-              className="footer-heading animate strip-slide-up strip-slide-green">
+              className="footer-heading animate strip-slide-up strip-slide-green"
+            >
               Legal
             </h2>
             <p className="footer-item ">
@@ -96,12 +106,14 @@ export default function Footer() {
           <div className="footer-form-column">
             <h2
               data-option="strip-slide-up"
-              className="footer-form-heading animate strip-slide-up strip-slide-black">
+              className="footer-form-heading animate strip-slide-up strip-slide-black"
+            >
               Stay ahead in a rapidly changing world.
             </h2>
             <p
               data-option="up"
-              className="footer-form-sub-heading animate animate-hidden">
+              className="footer-form-sub-heading animate animate-hidden"
+            >
               Subscribe to our Insights, our monthly look at the critical issues
               facing global businesses.
             </p>
