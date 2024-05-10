@@ -5590,57 +5590,56 @@ td {
     0% no-repeat padding-box;
 }
 
-.product{
+.product {
   display: flex;
   gap: 50px;
 }
 
-.product-column-1{
+.product-column-1 {
   width: 45%;
 }
 
-.product-column-2{
+.product-column-2 {
   width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.product-column-3{
+.product-column-3 {
   width: 10%;
   display: flex;
   align-items: end;
   justify-content: end;
 }
 
-.product-column-2 button{
+.product-column-2 button {
   width: fit-content;
 }
 
-.product-num{
+.product-num {
   font-family: "Quadran-Bold";
   font-size: 75px;
   color: #f2f2f2;
 }
 
-.dotted-lines{
+.dotted-lines {
   border-top: 3px dotted var(--primary-color);
   margin-bottom: 2px;
 }
 
-.dotted-lines-container{
+.dotted-lines-container {
   margin-top: 50px;
 }
 
-.products-brief-section{
+.products-brief-section {
   padding-top: 0px;
 }
 
-.products-brief-section .section-heading{
+.products-brief-section .section-heading {
   text-align: center;
   margin-bottom: 50px;
 }
-
 
 @media screen and (max-width: 1764px) {
   #path-2,
@@ -6936,6 +6935,12 @@ td {
   .job-experience {
     font-size: 13px;
     width: 100%;
+  }
+  .career-benefit-list {
+    display: inline-block;
+  }
+  .careers-benefits {
+    margin-bottom: 0px;
   }
 }
 /* Animation css */
