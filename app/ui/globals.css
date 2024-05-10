@@ -6450,6 +6450,28 @@ td {
 }
 
 @media screen and (max-width: 624px) {
+  .consent-close {
+    float: left;
+    margin-top: 15px;
+  }
+
+  .consent-message .btn {
+    font-size: 16px;
+    margin-bottom: 10px;
+    float: left;
+  }
+
+  .consent-message {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .consent-message p {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
   .discover-card {
     flex-direction: column;
     height: fit-content;
@@ -6636,6 +6658,75 @@ td {
   }
 }
 
+@media screen and (max-width: 430px) {
+  .main-logo-conatiner {
+    width: 110px;
+    height: 45px;
+  }
+  .hero-slide > div {
+    width: 100.8vw;
+  }
+  video {
+    opacity: 0.7;
+    /* height: clamp(419px, 32.8vw, 630px); */
+    height: 35.8vw;
+  }
+  .cookie-preferences {
+    width: 12vw;
+    height: 12vw;
+    padding: 2vw;
+  }
+  .modernize-container {
+    display: none;
+  }
+  .footer-form-column {
+  }
+  .footer-form-heading {
+    width: 100%;
+    margin: 0px auto;
+    line-height: 20px;
+    margin-bottom: 15px;
+    font-size: 28px;
+  }
+  .footer-checkbox label:before {
+    padding: 10px;
+    float: left;
+    margin-bottom: 1px;
+  }
+  .footer-form-column .lets-talk-container {
+    width: 100%;
+  }
+  .journey-carousel-image {
+    background-color: #f8ffed;
+  }
+  .sub-service-contact > div {
+    display: inline-block;
+  }
+  .contact-section-first-column {
+    width: 100%;
+  }
+  .contact-section-second-column {
+    display: none;
+  }
+  .contact-column input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .contact-column {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 0px;
+  }
+  .services-of-sub-service .section-heading {
+    width: 100%;
+  }
+  .subservice-aniation-container {
+    display: none;
+  }
+  .services-of-sub-service-holder {
+    padding: 0px 0px 40px 0px;
+  }
+}
 /* Animation css */
 
 .animate-hidden {
