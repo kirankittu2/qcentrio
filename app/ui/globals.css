@@ -6715,7 +6715,10 @@ td {
   .contact-column {
     width: 100%;
     display: inline-block;
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
+  }
+  .purpose-input-dropdown {
+    margin-bottom: 10px;
   }
   .services-of-sub-service .section-heading {
     width: 100%;
@@ -6725,6 +6728,25 @@ td {
   }
   .services-of-sub-service-holder {
     padding: 0px 0px 40px 0px;
+  }
+  .topics a {
+    width: 100%;
+  }
+  .topics a div {
+    font-size: 15px;
+    padding: 15px 20px;
+  }
+  .blog-page-social-column {
+    display: none;
+  }
+  .tags-container {
+    margin-left: 0px;
+  }
+  .contact-us-main-section {
+    display: inline-block !important;
+  }
+  .contact-us-main-section-content {
+    display: inline-block !important;
   }
 }
 /* Animation css */
