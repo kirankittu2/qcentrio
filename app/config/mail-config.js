@@ -52,4 +52,14 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+// const transporter = nodemailer.createTransport({
+//   host: "smtp.office365.com",
+//   port: 465,
+//   secure: true,
+//   auth: {
+//     user: "info@qcentrio.com",
+//     pass: "Qcentrio@09",
+//   },
+// });
+
 export default transporter;

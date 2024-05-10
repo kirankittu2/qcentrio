@@ -7,6 +7,14 @@ import consumer from "@/public/consumer-goods.png";
 import automotive from "@/public/automotive.png";
 import communication from "@/public/communication-and-media.png";
 import energy from "@/public/energy-and-utilities.png";
+import healtcare from "@/public/healthcare.png";
+import technology from "@/public/technology.png";
+import manufacturing from "@/public/manufacturing.png";
+import insurance from "@/public/insurance.png";
+import publicService from "@/public/public-service.png";
+import retail from "@/public/retail.png";
+import software from "@/public/software.png";
+import travel from "@/public/travel.png";
 import Image from "next/image";
 
 export default function TransformingSection() {
@@ -137,7 +145,7 @@ export default function TransformingSection() {
                 <Image
                   width={265}
                   height={277}
-                  src={automotive}
+                  src={healtcare}
                   style={{ width: "265px", height: "277px" }}
                   alt=""
                 />
@@ -167,7 +175,7 @@ export default function TransformingSection() {
                 <Image
                   width={265}
                   height={277}
-                  src={communication}
+                  src={manufacturing}
                   style={{ width: "265px", height: "277px" }}
                   alt=""
                 />
@@ -194,7 +202,7 @@ export default function TransformingSection() {
                 <Image
                   width={265}
                   height={277}
-                  src={energy}
+                  src={publicService}
                   style={{ width: "265px", height: "277px" }}
                   alt=""
                 />
@@ -221,7 +229,7 @@ export default function TransformingSection() {
                 <Image
                   width={265}
                   height={277}
-                  src={energy}
+                  src={software}
                   style={{ width: "265px", height: "277px" }}
                   alt=""
                 />
@@ -321,7 +329,7 @@ export default function TransformingSection() {
                 <Image
                   width={265}
                   height={277}
-                  src={aerospace}
+                  src={technology}
                   style={{ width: "265px", height: "277px" }}
                   alt=""
                 />
@@ -349,7 +357,7 @@ export default function TransformingSection() {
                 <Image
                   width={265}
                   height={277}
-                  src={banking}
+                  src={insurance}
                   style={{ width: "265px", height: "277px" }}
                   alt=""
                 />
@@ -378,7 +386,7 @@ export default function TransformingSection() {
                 <Image
                   width={265}
                   height={277}
-                  src={consumer}
+                  src={retail}
                   style={{ width: "265px", height: "277px" }}
                   alt=""
                 />
@@ -405,7 +413,7 @@ export default function TransformingSection() {
                 <Image
                   width={265}
                   height={277}
-                  src={consumer}
+                  src={travel}
                   style={{ width: "265px", height: "277px" }}
                   alt=""
                 />

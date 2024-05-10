@@ -2,6 +2,7 @@ import Button from "@/app/ui/global/button";
 import Contact from "@/app/ui/global/contact";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Footer from "@/app/ui/global/footer";
+import JobContact from "@/app/ui/global/job-contact";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 
 export default function Job() {
@@ -13,10 +14,9 @@ export default function Job() {
       <JobHead />
       <JobDescription />
       <div className="job-page-contact-form">
-        <Contact
+        <JobContact
           heading="Step into Tomorrow with Qcentrio"
           subheading="Join forces with Qcentrio to redefine your industry. Let's collaborate to unlock growth drivers, accelerate innovation, and shape the future."
-          upload={true}
         />
       </div>
       <Footer />

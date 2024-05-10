@@ -262,12 +262,12 @@ const caseStudies = {
     {
       image: "/automatic-vehicle.jpg",
       homeImage: "/vehicle-aerodynamics.jpg",
-      title: "Vehicle Aerodynamics Simulations for Automotive Company",
+      title: "Automate Vehicle Aero Simulations: Faster Product Development",
       content1:
         "Vehicle aerodynamics simulations enhance efficiency in automotive product development improve road handling and fuel economy.",
       content2:
         "By using advanced computational fluid dynamics (CFD) tools, automotive companies can simulate real-world conditions, assess performance impacts, and make informed decisions about design modifications before any physical prototype is built.",
-      link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
+      link: "/case-study/streamline-your-product-development-with-automated-vehicle-aerodynamics-simulations",
       type: "CASE STUDY",
     },
     {

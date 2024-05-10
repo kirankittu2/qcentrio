@@ -8,7 +8,7 @@ import uptri from "@/public/up-tri.svg";
 import downtri from "@/public/down-tri.svg";
 import { useState } from "react";
 
-export default function StreamlineCaseStudyToggle() {
+export default function ProductDevelopmentWithAutomatedVehicleAerodynamics() {
   const [context, togggleContext] = useState(true);
   const [challenges, togggleChallenges] = useState(true);
   const [solution, togggleSolution] = useState(true);
@@ -70,7 +70,9 @@ export default function StreamlineCaseStudyToggle() {
         {solution && (
           <>
             <div className="case-study-solution case-study-toogle-content-container">
-              <div className="case-study-toogle-content-highlight">
+              <div
+                data-option="up"
+                className="case-study-toogle-content-highlight animate animate-hidden">
                 SOLUTION
               </div>
               <SolutionContent />
@@ -85,19 +87,23 @@ export default function StreamlineCaseStudyToggle() {
 function ContextContent() {
   return (
     <div className="case-study-toogle-content-container">
-      <div className="case-study-toogle-content-image">
+      <div
+        data-option="up"
+        className="case-study-toogle-content-image animate animate-hidden">
         <Image src={context1} alt="" />
       </div>
-      <div className="case-study-toogle-content">
-        <div className="case-study-toogle-content-highlight">
+      <div className="case-study-toogle-content ">
+        <div
+          data-option="up"
+          className="case-study-toogle-content-highlight animate animate-hidden">
           CLIENT CONTEXT
         </div>
-        <h2 className="section-heading">
+        <h2 data-option="up" className="section-heading animate animate-hidden">
           A leading automotive OEM was looking to streamline their product
           development process by implementing simulation technology to predict
           vehicle aerodynamics.
         </h2>
-        <p className="section-content">
+        <p data-option="up" className="section-content animate animate-hidden">
           The automotive industry is constantly evolving, with new technologies
           and features being introduced at a rapid pace. As a result, automakers
           are under pressure to develop new products quickly and efficiently in
@@ -113,17 +119,23 @@ function ContextContent() {
 function ChallengeContent() {
   return (
     <div className="case-study-toogle-content-container">
-      <div className="case-study-toogle-content-image">
+      <div
+        data-option="up"
+        className="case-study-toogle-content-image animate animate-hidden">
         <Image src={context2} alt="" />
       </div>
 
       <div className="case-study-toogle-content">
-        <div className="case-study-toogle-content-highlight">CHALLENGES</div>
-        <h2 className="section-heading">
+        <div
+          data-option="up"
+          className="case-study-toogle-content-highlight animate animate-hidden">
+          CHALLENGES
+        </div>
+        <h2 data-option="up" className="section-heading animate animate-hidden">
           The client faced several challenges in their product development
           process:
         </h2>
-        <ul>
+        <ul data-option="up" className="animate animate-hidden">
           <li>
             <strong>
               Time-consuming and costly physical wind tunnel testing:
@@ -158,14 +170,20 @@ function SolutionContent() {
     <div className="case-study-solution-content-container">
       <div className="case-study-solution-row-1">
         <div className="case-study-solution-row-1-column-1">
-          <p className="section-content">
+          <p
+            data-option="up"
+            className="section-content animate animate-hidden">
             The client decided to implement automated vehicle aerodynamics
             simulations to address these challenges. The solution involved using
             computational fluid dynamics (CFD) software to simulate the flow of
             air around the vehicle and predict its aerodynamic performance.
           </p>
-          <p className="section-content">This would allow the client to:</p>
-          <ul>
+          <p
+            data-option="up"
+            className="section-content animate animate-hidden">
+            This would allow the client to:
+          </p>
+          <ul data-option="up" className="animate animate-hidden">
             <li>
               <p>
                 <strong>Reduce time and cost:</strong> By using simulation
@@ -206,7 +224,7 @@ function SolutionContent() {
               </p>
             </li>
           </ul>
-          <p>
+          <p data-option="up" className="animate animate-hidden">
             They were also able to identify potential issues early on in the
             development process, avoiding costly redesigns and delays. This
             helped them produce higher quality vehicles and maintain customer
@@ -230,13 +248,17 @@ function SolutionContent() {
         </div>
       </div>
       <div className="mb-[30px] impact">
-        <h2 className="general-text-bold">BUSINESS IMPACT</h2>
-        <p>
+        <h2
+          data-option="up"
+          className="general-text-bold animate animate-hidden">
+          BUSINESS IMPACT
+        </h2>
+        <p data-option="up" className="animate animate-hidden">
           The implementation of automated vehicle aerodynamics simulations had a
           significant impact on the client's product development process. They
           were able to:
         </p>
-        <ul>
+        <ul data-option="up" className="animate animate-hidden">
           <li>
             <strong>Save time and cost:</strong> By eliminating physical wind
             tunnel testing, the client saved millions of dollars in development

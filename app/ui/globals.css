@@ -59,12 +59,12 @@ video{
   border-color: white;
   content: '';
   display: inline-block;
-  height: 0.35em;
+  height: 0.45em;
   /* left: 0.85em; */
   position: relative;
   top: -0.25em;
   transform: rotate(-45deg);
-  width: 0.35em;
+  width: 0.45em;
 }
 
 .chevron.active::before{
@@ -309,6 +309,7 @@ textarea {
   font-size: var(--general-text);
   font-family: "Quadran-Bold";
   margin-bottom: 25px;
+  text-transform: uppercase;
 }
 
 .text-highlights {
@@ -872,6 +873,7 @@ header {
   line-height: clamp(20px, 3.312vw, 65px);
   margin-bottom: 10px;
   letter-spacing: -1px;
+  text-transform: uppercase;
 }
 
 .hero-heading.strip-slide-up span.row {
@@ -1575,6 +1577,26 @@ header {
   margin-right: auto;
 }
 
+.contact-section-main{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section{
+  padding-left: clamp(5px, 7.81vw, 140px);
+  padding-right: clamp(5px, 7.81vw, 140px);
+}
+
+.contact-form{
+  flex: 1;
+}
+
+.contact-section-main .modernize-container{
+  width: 25%;
+
+  height: unset;
+}
+
 .contact-section form {
   width: 90%;
   margin-right: auto;
@@ -2062,9 +2084,9 @@ header {
   padding: 10px 20px;
   white-space: nowrap;
   font-family: "Quadran-Regular";
-  opacity: 0;
+  /* opacity: 0;
   transform: translateY(70px);
-  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01); */
 }
 
 .blog-page-main-content .table-of-contents > ul > li::marker,
@@ -2082,6 +2104,13 @@ header {
 
 .blog-page-main-content .table-of-contents > ul > li:hover:before {
   content: url("../../public/hexagon-check-blog.svg");
+}
+
+.case-study-solution-row-1-column-2 ul > li::before{
+  content: url("../../public/hexagon-check-blog.svg");
+  position: absolute;
+  left: -30px;
+  top: 2px;
 }
 
 .table-of-contents ul ul {
@@ -3786,12 +3815,12 @@ th, td {
   padding: 10px 0px;
   border-top: 1px solid rgba(112,112,112, 0.05);
   border-radius: 12px;
+  color: black;
 }
 
 .purpose-input-dropdown .search-dropdown-item{
   padding: 10px 20px;
 }
-
 
 
 .search-dropdown-item:hover{

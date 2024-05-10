@@ -3,7 +3,9 @@
 import { contactMail } from "@/app/lib/actions";
 import Button from "./button";
 import CustomUploadInput from "./custom-upload-input";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
+import dynamic from "next/dynamic";
+const TextSlide = dynamic(() => import("./text-slide"), { ssr: false });
 
 export default function SubServiceContact({ heading, subheading, upload }) {
   const contact = useRef(null);
@@ -24,22 +26,19 @@ export default function SubServiceContact({ heading, subheading, upload }) {
     });
   }
 
-  useEffect(() => {
-    const modernizeTextElements = document.querySelectorAll(".modernize-text");
+  const data = [
+    "MODERNIZE",
+    "VISUALIZE",
+    "AUTHORIZE",
+    "SOCIALIZE",
+    "SENSITIZE",
+    "EMPHASIZE",
+    "PRIORITIZE",
+    "STABILIZE",
+    "ECONOMIZE",
+  ];
 
-    const handleMouseMove = (event) => {
-      const mouseX = event.clientX;
-      const windowWidth = window.innerWidth;
-      const scrollPercentage = (mouseX / windowWidth) * 100;
-
-      modernizeTextElements.forEach((element, index) => {
-        const topValue = `${scrollPercentage - 90}px`;
-        element.style.left = topValue;
-      });
-    };
-
-    contact.current.addEventListener("mousemove", handleMouseMove);
-  }, []);
+  const item = data[Math.floor(Math.random() * data.length)];
 
   return (
     <div
@@ -110,50 +109,7 @@ export default function SubServiceContact({ heading, subheading, upload }) {
           </form>
         </div>
         <div className="contact-section-second-column">
-          <div className="modernize-container">
-            <div className="modernize-column modernize-column-1">
-              <div className="modernize-text">
-                <div>MODERNIZE</div>
-                <div>MODERNIZE</div>
-              </div>
-            </div>
-            <div className="modernize-column modernize-column-2">
-              <div className="modernize-text">
-                <div>MODERNIZE</div>
-                <div>MODERNIZE</div>
-              </div>
-            </div>
-            <div className="modernize-column modernize-column-3">
-              <div className="modernize-text">
-                <div>MODERNIZE</div>
-                <div>MODERNIZE</div>
-              </div>
-            </div>
-            <div className="modernize-column modernize-column-4">
-              <div className="modernize-text">
-                <div>MODERNIZE</div>
-                <div>MODERNIZE</div>
-              </div>
-            </div>
-            <div className="modernize-column modernize-column-5">
-              <div className="modernize-text">
-                <div>MODERNIZE</div>
-                <div>MODERNIZE</div>
-              </div>
-            </div>
-            <div className="modernize-column modernize-column-6">
-              <div className="modernize-text">
-                <div>MODERNIZE</div>
-                <div>MODERNIZE</div>
-              </div>
-            </div>
-            <div className="modernize-column modernize-column-7">
-              <div className="modernize-text">
-                <div>MODERNIZE</div>
-                <div>MODERNIZE</div>
-              </div>
-            </div>
-          </div>
+          <TextSlide wrapper={contact} item={item} />
         </div>
       </div>
     </div>

@@ -38,47 +38,15 @@ export async function homeslidesMail(formData) {
       "utf8"
     );
 
-    const mailOptions1 = {
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: parsedData.email,
-      subject:
-        "Unlock Growth and Transformation with Our Data-Driven Solutions",
-      html: emailTemplate,
-    };
+    const info = await handleMailFillup(
+      parsedData,
+      "Unlock Growth and Transformation with Our Data-Driven Solutions",
+      emailTemplate
+    );
 
-    const info = await new Promise((resolve, reject) => {
-      transporter.sendMail(mailOptions1, (error, info) => {
-        if (error) {
-          reject(error);
-        } else {
-          resolve(info);
-        }
-      });
-    });
+    const emailTemplate2 = fs.readFileSync("app/email/main.html", "utf8");
 
-    console.log(info);
-
-    let htmlContent = "";
-    Object.entries(parsedData).forEach(([key, value]) => {
-      htmlContent += `<p>${key}: ${value}</p>`;
-    });
-
-    const mailOptions2 = {
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: "qcadmin@180.133.167.72.host.secureserver.net",
-      subject: "Form Filled",
-      html: htmlContent,
-    };
-
-    const owner = await new Promise((resolve, reject) => {
-      transporter.sendMail(mailOptions2, (error, info) => {
-        if (error) {
-          reject(error);
-        } else {
-          resolve(info);
-        }
-      });
-    });
+    const owner = await handleMainMailFillup(parsedData, emailTemplate2);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
       return { success: true, message: "Mail sent successfully" };
@@ -86,6 +54,40 @@ export async function homeslidesMail(formData) {
   } else {
     return { success: false, message: "Error Occured" };
   }
+}
+
+async function handleMailFillup(data, heading, template) {
+  const info = await transporter.sendMail({
+    from: "qcadmin@180.133.167.72.host.secureserver.net",
+    to: data.email,
+    subject: heading,
+    html: template,
+  });
+
+  return info;
+}
+
+async function handleMainMailFillup(data, template) {
+  let htmlContent = "";
+  Object.entries(data).forEach(([key, value]) => {
+    const capitalizedKey = capitalizeFirstLetter(key);
+    htmlContent += `<tr><td style="padding: 0px 25px 0px 25px">${capitalizedKey}: ${value}</td></tr>`;
+  });
+
+  const fullHTMLContent = template.replace("{{dynamicContent}}", htmlContent);
+
+  const owner = await transporter.sendMail({
+    from: "qcadmin@180.133.167.72.host.secureserver.net",
+    to: "qcadmin@180.133.167.72.host.secureserver.net",
+    subject: "Form Filled",
+    html: fullHTMLContent,
+  });
+
+  return owner;
+}
+
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 // Contact page email
@@ -147,23 +149,119 @@ export async function contactMail(formData) {
       return filledTemplate;
     };
     const filledHtml = fillPlaceholders(emailTemplate, emailData);
-    const info = await transporter.sendMail({
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: parsedData.email,
-      subject: "Streamline, Secure, and Innovate with QCentrio",
-      html: filledHtml,
+
+    const info = await handleMailFillup(
+      parsedData,
+      "Streamline, Secure, and Innovate with QCentrio",
+      filledHtml
+    );
+
+    const emailTemplate2 = fs.readFileSync("app/email/main.html", "utf8");
+
+    const owner = await handleMainMailFillup(parsedData, emailTemplate2);
+
+    if (info.response.includes("OK") && owner.response.includes("OK")) {
+      return { success: true, message: "Mail sent successfully" };
+    }
+  } else {
+    return { success: false, message: "Error Occured" };
+  }
+}
+
+export async function careersMail(formData) {
+  // console.log(formData);
+  const token = formData.get("g-recaptcha-response");
+  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const response = await fetch(
+    `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    }
+  );
+  const recaptchDataScore = await response.json();
+  if (recaptchDataScore.score >= 0.5) {
+    const email = formData.get("email");
+    const firstname = formData.get("first-name");
+    const lastname = formData.get("last-name");
+    const resume = formData.get("resume");
+    const message = formData.get("message");
+    const data = {
+      email,
+      firstname,
+      lastname,
+      resume,
+      message,
+    };
+    let parsedData;
+    const userSchema = zod.object({
+      email: zod.string().email(),
+      firstname: zod.string(),
+      lastname: zod.string(),
+      resume: zod.instanceof(File),
+      message: zod.string(),
     });
+    try {
+      parsedData = userSchema.parse(data);
+    } catch (error) {
+      console.error("Validation failed:", error.errors);
+    }
+    const emailTemplate = fs.readFileSync(
+      "app/email/careers-page/job-mail.html",
+      "utf8"
+    );
+    const emailData = {
+      firstname: parsedData.firstname,
+      lastname: parsedData.lastname,
+    };
+    const fillPlaceholders = (template, data) => {
+      let filledTemplate = template;
+      for (const key in data) {
+        if (data.hasOwnProperty(key)) {
+          const regex = new RegExp(`{{${key}}}`, "g");
+          filledTemplate = filledTemplate.replace(regex, data[key]);
+        }
+      }
+      return filledTemplate;
+    };
+    const filledHtml = fillPlaceholders(emailTemplate, emailData);
+    const fileBuffer = await resume.arrayBuffer();
+    const fileStream = Buffer.from(fileBuffer);
+
+    const info = await handleMailFillup(
+      parsedData,
+      "Streamline, Secure, and Innovate with QCentrio",
+      filledHtml
+    );
 
     let htmlContent = "";
-    Object.entries(parsedData).forEach(([key, value]) => {
-      htmlContent += `<p>${key}: ${value}</p>`;
+    Object.entries(data).forEach(([key, value]) => {
+      if (key !== "resume") {
+        const capitalizedKey = capitalizeFirstLetter(key);
+        htmlContent += `<tr><td style="padding: 0px 25px 0px 25px">${capitalizedKey}: ${value}</td></tr>`;
+      }
     });
+
+    const emailTemplate2 = fs.readFileSync("app/email/main.html", "utf8");
+
+    const fullHTMLContent = emailTemplate2.replace(
+      "{{dynamicContent}}",
+      htmlContent
+    );
 
     const owner = await transporter.sendMail({
       from: "qcadmin@180.133.167.72.host.secureserver.net",
       to: "qcadmin@180.133.167.72.host.secureserver.net",
       subject: "Form Filled",
-      html: htmlContent,
+      html: fullHTMLContent,
+      attachments: [
+        {
+          filename: resume.name, // Use original filename
+          content: fileStream,
+        },
+      ],
     });
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
@@ -176,7 +274,6 @@ export async function contactMail(formData) {
 
 // Contact us page main mail
 export async function contactusMaimMail(formData) {
-  console.log(formData);
   const token = formData.get("g-recaptcha-response");
   const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
   const response = await fetch(
@@ -234,24 +331,16 @@ export async function contactusMaimMail(formData) {
       return filledTemplate;
     };
     const filledHtml = fillPlaceholders(emailTemplate, emailData);
-    const info = await transporter.sendMail({
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: parsedData.email,
-      subject: "Appreciation for contacting QCentrio",
-      html: filledHtml,
-    });
 
-    let htmlContent = "";
-    Object.entries(parsedData).forEach(([key, value]) => {
-      htmlContent += `<p>${key}: ${value}</p>`;
-    });
+    const info = await handleMailFillup(
+      parsedData,
+      "Appreciation for contacting QCentrio",
+      filledHtml
+    );
 
-    const owner = await transporter.sendMail({
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: "qcadmin@180.133.167.72.host.secureserver.net",
-      subject: "Form Filled",
-      html: htmlContent,
-    });
+    const emailTemplate2 = fs.readFileSync("app/email/main.html", "utf8");
+
+    const owner = await handleMainMailFillup(parsedData, emailTemplate2);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
       return { success: true, message: "Mail sent successfully" };
@@ -293,24 +382,15 @@ export async function contactUsReactOutMail(formData) {
       "utf8"
     );
 
-    const info = await transporter.sendMail({
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: parsedData.email,
-      subject: "How to Reach Qcentrio",
-      html: emailTemplate,
-    });
+    const info = await handleMailFillup(
+      parsedData,
+      "How to Reach Qcentrio",
+      emailTemplate
+    );
 
-    let htmlContent = "";
-    Object.entries(parsedData).forEach(([key, value]) => {
-      htmlContent += `<p>${key}: ${value}</p>`;
-    });
+    const emailTemplate2 = fs.readFileSync("app/email/main.html", "utf8");
 
-    const owner = await transporter.sendMail({
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: "qcadmin@180.133.167.72.host.secureserver.net",
-      subject: "Form Filled",
-      html: htmlContent,
-    });
+    const owner = await handleMainMailFillup(parsedData, emailTemplate2);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
       return { success: true, message: "Mail sent successfully" };
@@ -349,24 +429,15 @@ export async function footerMail(formData) {
     }
     const emailTemplate = fs.readFileSync("app/email/footer-mail.html", "utf8");
 
-    const info = await transporter.sendMail({
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: parsedData.email,
-      subject: "Stay ahead of the curve with our monthly insights!",
-      html: emailTemplate,
-    });
+    const info = await handleMailFillup(
+      parsedData,
+      "Stay ahead of the curve with our monthly insights!",
+      emailTemplate
+    );
 
-    let htmlContent = "";
-    Object.entries(parsedData).forEach(([key, value]) => {
-      htmlContent += `<p>${key}: ${value}</p>`;
-    });
+    const emailTemplate2 = fs.readFileSync("app/email/main.html", "utf8");
 
-    const owner = await transporter.sendMail({
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: "qcadmin@180.133.167.72.host.secureserver.net",
-      subject: "Form Filled",
-      html: htmlContent,
-    });
+    const owner = await handleMainMailFillup(parsedData, emailTemplate2);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
       return { success: true, message: "Mail sent successfully" };
@@ -433,25 +504,16 @@ export async function needSomethingMail(formData) {
       return filledTemplate;
     };
     const filledHtml = fillPlaceholders(emailTemplate, emailData);
-    const info = await transporter.sendMail({
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: parsedData.email,
-      subject:
-        "Drive Growth & Innovation: Your One-Stop Shop for Business Transformation",
-      html: filledHtml,
-    });
 
-    let htmlContent = "";
-    Object.entries(parsedData).forEach(([key, value]) => {
-      htmlContent += `<p>${key}: ${value}</p>`;
-    });
+    const info = await handleMailFillup(
+      parsedData,
+      "Drive Growth & Innovation: Your One-Stop Shop for Business Transformation",
+      filledHtml
+    );
 
-    const owner = await transporter.sendMail({
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: "qcadmin@180.133.167.72.host.secureserver.net",
-      subject: "Form Filled",
-      html: htmlContent,
-    });
+    const emailTemplate2 = fs.readFileSync("app/email/main.html", "utf8");
+
+    const owner = await handleMainMailFillup(parsedData, emailTemplate2);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
       return { success: true, message: "Mail sent successfully" };
@@ -513,11 +575,23 @@ export async function singleMail(formData) {
     html: filledHtml,
   });
 
+  let htmlContent = "";
+  Object.entries(parsedData).forEach(([key, value]) => {
+    htmlContent += `<p>${key}: ${value}</p>`;
+  });
+
+  const emailTemplate2 = fs.readFileSync("app/email/main.html", "utf8");
+
+  const fullHTMLContent = emailTemplate2.replace(
+    "{{dynamicContent}}",
+    htmlContent
+  );
+
   await transporter.sendMail({
     from: "qcadmin@180.133.167.72.host.secureserver.net",
     to: "qcadmin@180.133.167.72.host.secureserver.net",
     subject: "Coming soon page",
-    html: parsedData.email,
+    html: fullHTMLContent,
   });
 }
 
@@ -552,24 +626,15 @@ export async function insightsMail(formData) {
       "utf8"
     );
 
-    const info = await transporter.sendMail({
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: parsedData.email,
-      subject: "Unleash your best with QCentrio Insights",
-      html: emailTemplate,
-    });
+    const info = await handleMailFillup(
+      parsedData,
+      "Unleash your best with QCentrio Insights",
+      emailTemplate
+    );
 
-    let htmlContent = "";
-    Object.entries(parsedData).forEach(([key, value]) => {
-      htmlContent += `<p>${key}: ${value}</p>`;
-    });
+    const emailTemplate2 = fs.readFileSync("app/email/main.html", "utf8");
 
-    const owner = await transporter.sendMail({
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: "qcadmin@180.133.167.72.host.secureserver.net",
-      subject: "Form Filled",
-      html: htmlContent,
-    });
+    const owner = await handleMainMailFillup(parsedData, emailTemplate2);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
       return { success: true, message: "Mail sent successfully" };
