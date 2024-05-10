@@ -4,7 +4,7 @@ import BottomLine from "@/app/ui/case-study/bottom-line";
 import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
-import banner from "@/public/case-study-banner.png";
+import banner from "@/public/pharmaceutical/main-bg-1.png";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import StreamlineCaseStudyToggle from "@/app/ui/case-study/product-development-with-automated-vehicle-aerodynamics-case-study-toggle";
 import TransformingPharmaceutical from "@/app/ui/case-study/transforming-pharmaceutical-case-study-toggle";
