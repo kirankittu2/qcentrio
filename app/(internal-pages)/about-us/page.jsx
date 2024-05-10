@@ -39,7 +39,9 @@ export default function AboutUs() {
           JOIN OUR JOURNEY TO REDEFINE AND LEAD THE INDUSTRY STATUS QUO
         </h2>
         <div className="join-us-buttons">
-          <Button name="Work with Us" />
+          <Link href="/careers">
+            <Button name="Work With Us" />
+          </Link>
           <div className="divider"></div>
           <Link href="/contact-us">
             <Button name="Talk to Us" />

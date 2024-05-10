@@ -6741,7 +6741,7 @@ td {
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (min-device-width: 350px) and (max-device-width: 430px) {
   .main-logo-conatiner {
     width: 110px;
     height: 45px;
@@ -6761,8 +6761,6 @@ td {
   }
   .modernize-container {
     display: none;
-  }
-  .footer-form-column {
   }
   .footer-form-heading {
     width: 100%;
@@ -6790,6 +6788,9 @@ td {
   }
   .contact-section-second-column {
     display: none;
+  }
+  .contact-column input {
+    font-size: 14px;
   }
   .contact-column input {
     width: 100%;
@@ -6830,6 +6831,138 @@ td {
   }
   .contact-us-main-section-content {
     display: inline-block !important;
+  }
+  .journey-section {
+    padding-bottom: 0px;
+  }
+  #path-3 {
+    display: none;
+  }
+  #path-4 {
+    display: none;
+  }
+  #path-8 {
+    display: none;
+  }
+  .reach-out-container {
+    width: 100% !important;
+    padding: 50px 50px !important;
+  }
+  .reach-out-form input {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  .reach-out-form {
+    display: inline-block;
+  }
+  .reach-out-form .btn {
+    width: 100%;
+  }
+  .showcase-heading {
+    font-size: 30px;
+  }
+  .showcase {
+    padding: 20px 40px;
+  }
+  .contact-us-sub-heading {
+    font-size: 14px !important;
+  }
+  .need-something-modal-inner {
+    width: 90%;
+    display: inline;
+  }
+  .need-something-modal-inner textarea {
+    font-size: 14px;
+    padding: 12px;
+  }
+  .need-something-modal-inner .contact-sub-heading {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .about-us-map-content {
+    display: inline-block !important;
+    width: 100%;
+  }
+  .about-us-map-num {
+    display: inline-block !important;
+  }
+  .about-us-services-head-container span {
+    width: auto !important;
+  }
+  .join-us-buttons .divider {
+    width: 10% !important;
+  }
+  .join-us-buttons {
+    display: inline-block !important;
+    width: 100%;
+  }
+  .join-us-buttons .btn {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+  }
+  .careers-contact-section h2 {
+    width: 80%;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .careers-contact-section h3 {
+    font-size: 18px;
+    width: 80%;
+  }
+  .showcase-list {
+    display: inline-block;
+  }
+  .career-showcase-card {
+    margin-bottom: 25px;
+  }
+  .career-showcase-section p {
+    width: 100%;
+  }
+  .careers-why-qcentrio p {
+    width: 100%;
+  }
+  .careers-why-qcentrio {
+    padding-bottom: 0px;
+  }
+  .careers-hero-section .hero-heading {
+    width: 100%;
+  }
+  .careers-hero-subheading {
+    width: 100%;
+    font-size: 20px;
+  }
+  .careers-buttons {
+    display: inline-block;
+  }
+  .careers-buttons a:last-child button {
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+  .jobs-section div:first-child {
+    display: inline-block;
+    width: 100%;
+  }
+  .jobs-section {
+    padding-left: 0px;
+  }
+  .jobs-content-heading {
+    font-size: 35px;
+    line-height: 38px;
+  }
+  .job-title {
+    font-size: 20px;
+    width: 100%;
+  }
+  .job-location {
+    font-size: 13px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .job-experience {
+    font-size: 13px;
+    width: 100%;
   }
 }
 /* Animation css */
