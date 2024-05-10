@@ -100,7 +100,7 @@ function ProductListScroll() {
       id="about"
       data-option="up"
       className="company-list-section animate animate-hidden">
-      <div className="horizontal-scroll3">
+      <div className="horizontal-scroll">
         <Image src={logo1} alt="" />
         <Image src={logo2} alt="" />
         <Image src={logo3} alt="" />
