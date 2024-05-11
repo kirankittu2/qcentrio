@@ -20,6 +20,7 @@ import logo10 from "@/public/products/10.png";
 import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
+import Link from "next/link";
 
 export default function Products() {
   return (
@@ -32,10 +33,12 @@ export default function Products() {
       <AllProducts />
       <ProductsBrief />
       <SubServiceWhyChooseSection />
-      <Contact
-        heading="Transform your banking operationswith leading solutions"
-        subheading="Contact Qcentrio today to discuss how our products can tailor-fit your needs and propel your business forward."
-      />
+      <div id="get-started">
+        <Contact
+          heading="Transform your banking operations with leading solutions"
+          subheading="Contact Qcentrio today to discuss how our products can tailor-fit your needs and propel your business forward."
+        />
+      </div>
       <Footer />
       <CopyrightBar />
     </div>
@@ -73,7 +76,9 @@ function ProductsMain() {
             suite of banking solutions, is ideally positioned to address these
             challenges across the US, Europe, Singapore, and Australia.
           </p>
-          <Button name="Get Started" />
+          <Link href="#get-started">
+            <Button name="Get Started" />
+          </Link>
         </div>
         <div>
           <Image
@@ -177,7 +182,9 @@ function AllProducts() {
             transactions, and comprehensive compliance tools, making it an
             essential tool for operations teams and call centers.
           </p>
-          <Button name="Book Demo" />
+          <Link href="/contact-us">
+            <Button name="Book Demo" />
+          </Link>
         </div>
         <div className="product-column-3 product-column">
           <div className="product-num">01</div>
@@ -209,7 +216,9 @@ function AllProducts() {
             institutions seeking to improve their reconciliation processes and
             customer service quality.
           </p>
-          <Button name="Book Demo" />
+          <Link href="/contact-us">
+            <Button name="Book Demo" />
+          </Link>
         </div>
         <div className="product-column-1 product-column">
           <Image
@@ -256,7 +265,9 @@ function AllProducts() {
             prevention and maintaining the institution’s reputation for
             security.
           </p>
-          <Button name="Book Demo" />
+          <Link href="/contact-us">
+            <Button name="Book Demo" />
+          </Link>
         </div>
         <div className="product-column-3 product-column">
           <div className="product-num">03</div>
@@ -287,7 +298,9 @@ function AllProducts() {
             an uncertain economic environment, thus ensuring sustained
             profitability and growth.
           </p>
-          <Button name="Book Demo" />
+          <Link href="/contact-us">
+            <Button name="Book Demo" />
+          </Link>
         </div>
         <div className="product-column-1 product-column">
           <Image
@@ -333,7 +346,9 @@ function AllProducts() {
             looking to transition from traditional to digital platforms,
             ensuring competitiveness in a rapidly changing financial landscape.
           </p>
-          <Button name="Book Demo" />
+          <Link href="/contact-us">
+            <Button name="Book Demo" />
+          </Link>
         </div>
         <div className="product-column-3 product-column">
           <div className="product-num">05</div>
@@ -365,7 +380,9 @@ function AllProducts() {
             crucial for institutions aiming to expand their digital services and
             customer reach.
           </p>
-          <Button name="Book Demo" />
+          <Link href="/contact-us">
+            <Button name="Book Demo" />
+          </Link>
         </div>
         <div className="product-column-1 product-column">
           <Image
@@ -411,7 +428,9 @@ function AllProducts() {
             strategies proactively, optimizing financial performance and
             ensuring robust regulatory compliance.
           </p>
-          <Button name="Book Demo" />
+          <Link href="/contact-us">
+            <Button name="Book Demo" />
+          </Link>
         </div>
         <div className="product-column-3 product-column">
           <div className="product-num">07</div>
@@ -432,12 +451,14 @@ function AllProducts() {
             transactions (frauds).
           </p>
           <p data-option="up" className="mb-[50px] animate animate-hidden">
-            ). It supports banks in staying compliant with regulatory
-            requirements and minimizes the risk of errors in international
-            transactions. Hence, Relier is a significant offering that assures
-            accuracy in cross-border banking operations.
+            It supports banks in staying compliant with regulatory requirements
+            and minimizes the risk of errors in international transactions.
+            Hence, Relier is a significant offering that assures accuracy in
+            cross-border banking operations.
           </p>
-          <Button name="Book Demo" />
+          <Link href="/contact-us">
+            <Button name="Book Demo" />
+          </Link>
         </div>
         <div className="product-column-1 product-column">
           <Image
@@ -452,7 +473,6 @@ function AllProducts() {
         </div>
       </div>
       <Lines />
-
       <div className="product">
         <div className="product-column-1 product-column">
           <Image
@@ -478,7 +498,9 @@ function AllProducts() {
             With the help of Advanced valuation algorithms, it considers
             stastical models to determine property values.
           </p>
-          <Button name="Book Demo" />
+          <Link href="/contact-us">
+            <Button name="Book Demo" />
+          </Link>
         </div>
         <div className="product-column-3 product-column">
           <div className="product-num">09</div>
@@ -486,49 +508,6 @@ function AllProducts() {
       </div>
       <Lines />
       <div className="product">
-        <div className="product-column-2 product-column">
-          <h2
-            data-option="strip-slide-up"
-            className="products-hero-main-heading animate strip-slide-up strip-slide-grey">
-            SAMS
-          </h2>
-          <p data-option="up" className="animate animate-hidden">
-            SAMS helps manage Non-Performing Assets and investments. It tracks
-            and manages recovery processes and provides solutions for Asset
-            identification, classification, Portfolio management, and risk
-            assessment. Other offerings include recovery strategies, compliance
-            & reporting.
-          </p>
-          <p data-option="up" className="mb-[50px] animate animate-hidden">
-            SAMS supports organizations to maximize the value of their
-            distressed assets and investments through effective recovery
-            strategies.
-          </p>
-          <Button name="Book Demo" />
-        </div>
-        <div className="product-column-1 product-column">
-          <Image
-            data-option="up"
-            className="animate animate-hidden"
-            src={product2}
-            alt=""
-          />
-        </div>
-        <div className="product-column-3 product-column">
-          <div className="product-num">10</div>
-        </div>
-      </div>
-      <Lines />
-
-      <div className="product">
-        <div className="product-column-1 product-column">
-          <Image
-            data-option="up"
-            className="animate animate-hidden"
-            src={product1}
-            alt=""
-          />
-        </div>
         <div className="product-column-2 product-column">
           <h2
             data-option="strip-slide-up"
@@ -545,7 +524,17 @@ function AllProducts() {
             PAGO makes payment processing seamless through financial visibility
             and operational efficiency.
           </p>
-          <Button name="Book Demo" />
+          <Link href="/contact-us">
+            <Button name="Book Demo" />
+          </Link>
+        </div>
+        <div className="product-column-1 product-column">
+          <Image
+            data-option="up"
+            className="animate animate-hidden"
+            src={product1}
+            alt=""
+          />
         </div>
         <div className="product-column-3 product-column">
           <div className="product-num">11</div>

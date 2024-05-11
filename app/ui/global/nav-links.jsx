@@ -5,13 +5,39 @@ import Link from "next/link";
 import Button from "./button";
 import logo from "@/public/logo.svg";
 import search from "@/public/search.svg";
-import tri from "@/public/up-tri.svg";
-import { useState } from "react";
-import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
+import close from "@/public/close.svg";
+import { usePathname, useSearchParams } from "next/navigation";
 
 export default function NavLinks({ setServiceHovered, servicesHovered }) {
   const [resourcesHovered, setResHovered] = useState(false);
+  const [open, setOpen] = useState(false);
   const pathname = usePathname();
+  const searchParams = useSearchParams().get("q");
+
+  useEffect(() => {
+    if (open) {
+      document.documentElement.style.overflowY = "hidden";
+      const menu = document.querySelector(".mobile-menu-container");
+      menu.classList.add("active");
+    } else {
+      document.documentElement.style.overflow = "auto";
+      const menu = document.querySelector(".mobile-menu-container");
+      menu.classList.remove("active");
+    }
+    return () => {
+      document.documentElement.style.overflow = "auto";
+    };
+  }, [open]);
+
+  useEffect(() => {
+    setOpen(false);
+    console.log(searchParams);
+  }, [searchParams]);
+
+  function openMenu() {
+    setOpen(!open);
+  }
 
   return (
     <>
@@ -135,7 +161,9 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
           </div>
         </Link>
       </li>
-      <li className="mobile-nav-button">M</li>
+      <li onClick={openMenu} className="mobile-nav-button">
+        {open ? <Image src={close} alt="" /> : "M"}
+      </li>
     </>
   );
 }

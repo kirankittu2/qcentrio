@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import Button from "../../global/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export function SubServiceHeading({ data, bannerImage }) {
   const banner = useRef(null);
@@ -32,7 +33,9 @@ export function SubServiceHeading({ data, bannerImage }) {
           className="sub-service-hero-content animate animate-hidden">
           {data.content ? data.content : ""}
         </p>
-        <Button name="Get Started" />
+        <Link href="#get-started">
+          <Button name="Get Started" />
+        </Link>
       </div>
       <div ref={banner}>
         <Image src={bannerImage ? bannerImage : ""} alt="" />

@@ -270,17 +270,17 @@ const caseStudies = {
       link: "/case-study/streamline-your-product-development-with-automated-vehicle-aerodynamics-simulations",
       type: "CASE STUDY",
     },
-    // {
-    //   image: "/sharepoint-ecosystem.jpg",
-    //   homeImage: "/pharma-tech.jpg",
-    //   title: "Transforming a pharmaceutical major’s sharepoint ecosystem",
-    //   content1:
-    //     "A Leading pharmaceutical company embarked on a strategic journey to comprehensively overhaul its SharePoint ecosystem for enhanced collaboration.",
-    //   content2:
-    //     "By integrating Azure's robust cloud capabilities with their existing SharePoint infrastructure, the company not only streamlined workflows but also set a new standard for innovation in pharmaceutical information management.",
-    //   link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
-    //   type: "CASE STUDY",
-    // },
+    {
+      image: "/sharepoint-ecosystem.jpg",
+      homeImage: "/pharma-tech.jpg",
+      title: "Transforming a pharmaceutical major’s sharepoint ecosystem",
+      content1:
+        "A Leading pharmaceutical company embarked on a strategic journey to comprehensively overhaul its SharePoint ecosystem for enhanced collaboration.",
+      content2:
+        "By integrating Azure's robust cloud capabilities with their existing SharePoint infrastructure, the company not only streamlined workflows but also set a new standard for innovation in pharmaceutical information management.",
+      link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
+      type: "CASE STUDY",
+    },
   ],
   pageNumber: 0,
 };
@@ -428,8 +428,8 @@ const mainServicesContent = {
       content2:
         "At Qcentrio, we cater to various industries, including Consumer Electronics, Automotive, Aerospace, Medical Devices, Telecom, Servers/storage, and Semiconductors. Our bespoke technology solutions are created to address your unique business challenges, enabling improved decision-making and heightened operational efficiency. Designed for agility and scalability, our solutions evolve with your business needs. And with round-the-clock support from certified professionals, you can rest assured of smooth operation and maintenance of your systems.",
       subheading:
-        "Automating Vehicle Aerodynamics Simulations for a Major Automotive Design Company",
-      link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
+        "Automate Vehicle Aero Simulations: Faster Product Development",
+      link: "/case-study/streamline-your-product-development-with-automated-vehicle-aerodynamics-simulations",
     },
     servicesContent: {
       heading: "NAVIGATE THE FUTURE CONFIDENTLY",
@@ -968,8 +968,8 @@ const mainServicesContent = {
       content2:
         "At Qcentrio, our business optimization and analytics services enhance your operations by reviewing and improving processes, instilling best practices, and providing a clear roadmap for optimized processes. We support change management for a smooth transition and identify inefficiencies to save time and effort. Our comprehensive data solutions, custom CRM implementations, and integrated workspace approach streamline team coordination. Partner with us to unlock your business's full potential.",
       subheading:
-        "Automating Vehicle Aerodynamics Simulations for a Major Automotive Design Company",
-      link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
+        "Automate Vehicle Aero Simulations: Faster Product Development",
+      link: "/case-study/streamline-your-product-development-with-automated-vehicle-aerodynamics-simulations",
     },
     servicesContent: {
       heading: "OPTIMIZE CORE BUSINESS PROCESSES",
@@ -1134,8 +1134,8 @@ const mainServicesContent = {
       content2:
         "As a leading provider of business value enhancement services, Qcentrio leverages its extensive domain experience to help you unlock the full potential of GenAI, AI/ML, and RPA. Our strategic approach ensures long-term business transformation while delivering immediate wins, enabling you to stay ahead in the digital age.",
       subheading:
-        "Automating Vehicle Aerodynamics Simulations for a Major Automotive Design Company",
-      link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
+        "Automate Vehicle Aero Simulations: Faster Product Development",
+      link: "/case-study/streamline-your-product-development-with-automated-vehicle-aerodynamics-simulations",
     },
     servicesContent: {
       heading: "DEFINE YOUR FUTURE TRAJECTORY",

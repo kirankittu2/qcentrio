@@ -9,6 +9,7 @@ import SuccessPath from "@/app/ui/offerings/success-path";
 import InsigntsNoCaro from "@/app/ui/global/insights-no-caro";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import { getServicePageData } from "@/app/lib/data";
+import Link from "next/link";
 
 export const metadata = {
   title: "Advanced Technology Solutions - Services",
@@ -36,7 +37,9 @@ export default function Services({ params }) {
             className="animate strip-slide-up strip-slide-white">
             {data.mainHeading}
           </h1>
-          <Button name="Get Started" />
+          <Link href="#get-started">
+            <Button name="Get Started" />
+          </Link>
         </div>
       </div>
       <Glimpse data={data.glimpseContent} />
@@ -44,10 +47,13 @@ export default function Services({ params }) {
       <StrategicPath data={data.strategicPathContent} />
       <SuccessPath data={data.successpathContent} />
       <InsigntsNoCaro />
-      <Contact
-        heading={data.contact.heading}
-        subheading={data.contact.subheading}
-      />
+      <div id="get-started">
+        <Contact
+          heading={data.contact.heading}
+          subheading={data.contact.subheading}
+        />
+      </div>
+
       <Footer />
       <CopyrightBar />
     </>

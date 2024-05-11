@@ -175,15 +175,13 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
   const caseStudies = [
     {
       image: whatNew,
-      title:
-        "Automating Vehicle Aerodynamics Simulations for a Major Automotive Design Company",
-      link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
+      title: "Automate Vehicle Aero Simulations: Faster Product Development",
+      link: "/case-study/streamline-your-product-development-with-automated-vehicle-aerodynamics-simulations",
     },
     {
       image: whatNew,
-      title:
-        "Automating Vehicle Aerodynamics Simulations for a Major Automotive Design Company",
-      link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
+      title: "Automate Vehicle Aero Simulations: Faster Product Development",
+      link: "/case-study/streamline-your-product-development-with-automated-vehicle-aerodynamics-simulations",
     },
     {
       image: whatNew,
@@ -192,9 +190,8 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
     },
     {
       image: whatNew,
-      title:
-        "Automating Vehicle Aerodynamics Simulations for a Major Automotive Design Company",
-      link: "/case-study/automating-vehicle-aerodynamics-simulations-for-a-major-automotive-design-company",
+      title: "Automate Vehicle Aero Simulations: Faster Product Development",
+      link: "/case-study/streamline-your-product-development-with-automated-vehicle-aerodynamics-simulations",
     },
     {
       image: whatNew,
@@ -658,9 +655,7 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
           <div className="what-new-col-container">
             <Image className="mb-[10px]" src={whatNew} alt="" />
             <div className="what-new-title">{caseStudies[index].title}</div>
-            <Link
-              className="w-fit mt-auto"
-              href="/case-study/enhancing-patient-care-with-bi-and-sql-analytics">
+            <Link className="w-fit mt-auto" href={caseStudies[index].link}>
               <div className="what-new-btn">
                 Learn More
                 <span className="mega-menu-arrow">

@@ -1,11 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import SubOfferings from "../home-page/sub-offerings";
 import Image from "next/image";
 import float from "@/public/float.svg";
 import arrow from "@/public/discover-arrow.svg";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import NeedSomethingModal from "./need-something-modal";
 

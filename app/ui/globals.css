@@ -31,6 +31,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 *,
@@ -130,7 +131,7 @@ body {
   padding: 0;
   position: relative;
   transition: all 1s ease-in-out;
-  overflow-x: hidden;
+  overflow: hidden;
   cursor: url("/cursor.png") 15 15, auto;
 }
 
@@ -419,6 +420,7 @@ header {
 .search-container {
   background-color: #f9f9f9;
   border-radius: 6px;
+  position: relative;
   /* padding: 20px; */
 }
 
@@ -1649,6 +1651,10 @@ header {
   padding-top: 50px;
   padding-bottom: 50px;
   border-top: 1px solid rgba(112, 112, 112, 0.18);
+}
+
+.terms{
+  text-align: end;
 }
 
 .footer-columns-holder .strip-slide-up span.row {
@@ -5669,7 +5675,103 @@ td {
   filter: grayscale(0);
 }
 
+/* Mobile menu */
+.mobile-menu-container{
+  width: 100%;
+  background: transparent linear-gradient(160deg, #089768 0%, #0A3815 100%) 0% 0% no-repeat padding-box;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  /* transform: translateX(100%); */
+  transition: all 0.5s linear;
+  padding-left: clamp(50px, 7.81vw, 140px);
+  padding-right: clamp(50px, 7.81vw, 140px);
+  padding-top: 110px;
+  padding-bottom: 50px;
+  overflow-y: auto;
+  position: fixed;
+  left: 100%;
+}
 
+.mobile-menu-container.active{
+  left: 0;
+}
+
+.mobile-menu-search-container{
+  position: relative;
+}
+
+.mobile-menu-search-container input{
+  width: 100%;
+}
+
+.mobile-menu-search-icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.mobile-menu-links-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  transition: all 1s linear;
+}
+
+.mobile-menu-link{
+  font-size: 16px;
+  font-family: "Quadran-Bold";
+  color: white;
+  
+}
+
+.mobile-menu-link a{
+  color: white;
+  text-decoration: none;
+}
+
+.mobile-mega-menu a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-mega-menu img{
+  margin-left: 30px;
+}
+
+.mobile-mega-menu-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 30px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 1s linear;
+}
+
+.mobile-mega-menu-container.active {
+  max-height: 1000px;
+}
+
+.mobile-mega-menu-container .mobile-menu-link{
+  font-family: "Quadran-Regular";
+}
+
+.mobile-mega-sub-menu-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.mobile-mega-sub-menu-container .mobile-menu-link{
+  font-size: 15px;
+  font-family: "Quadran-Light";
+}
 
 @media screen and (max-width: 1764px) {
   #path-2,
@@ -6572,6 +6674,11 @@ td {
 @media screen and (max-width: 500px) {
   .lets-talk-container {
     width: 90%;
+  }
+
+  .mobile-menu-container{
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .hero {

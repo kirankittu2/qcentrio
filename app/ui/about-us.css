@@ -89,7 +89,7 @@
     background-color: #E9E9E9;
 }
 
-.join-us-buttons button:last-child{
+.join-us-buttons > a:last-child button{
     background-color: black;
 }
 

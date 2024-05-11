@@ -37,7 +37,9 @@ export default function SubService({ params }) {
       <SubAccordianOfferings data={data.offeringsSetion} />
       <ServicesOfSubService data={data.servicesOfSubService} />
       <SubServiceWhyChooseSection data={data.whyChooseSection} />
-      <SubServiceContact heading={data.contactHead} />
+      <div id="get-started">
+        <SubServiceContact heading={data.contactHead} />
+      </div>
       <Footer />
       <CopyrightBar />
     </div>

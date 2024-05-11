@@ -10,6 +10,7 @@ import CookieConsent from "./ui/global/cookie-consent";
 import Image from "next/image";
 import cookieImage from "@/public/cookie.svg";
 import { checkCookie } from "./lib/utils";
+import MobileMenu from "./ui/global/mobile-menu";
 const Cursor = dynamic(() => import("./ui/global/cursor"), { ssr: false });
 
 export default async function RootLayout({ children }) {
@@ -46,6 +47,7 @@ export default async function RootLayout({ children }) {
           </div>
         )}
         <Animate />
+        <MobileMenu />
         <CookieConsent />
         <Cursor />
         <Script src="https://www.google.com/recaptcha/api.js?render=6LdTKMUpAAAAAOUf_fNbftCXwdXc5KLdgZov7P74"></Script>

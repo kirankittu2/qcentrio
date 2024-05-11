@@ -9,6 +9,7 @@ import TransformingSection from "@/app/ui/industries/transforming-section";
 import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
+import Link from "next/link";
 
 export const metadata = {
   title: "Empowering Industries - Upgrade Your Business with Qcentrio",
@@ -28,17 +29,22 @@ export default function Industries() {
             className="section-heading animate strip-slide-up strip-slide-white">
             INNOVATE AND LEAD IN YOUR INDUSTRY WITH TAILORED DIGITAL SERVICES
           </h1>
-          <Button name="Embrace the Future" />
+          <Link href="#embrace-the-future">
+            <Button name="Embrace the Future" />
+          </Link>
         </div>
       </div>
       <div className="industries-banner-decor"></div>
       <IndustrySpecific />
       <TransformingSection />
       <PartnerSection />
-      <Contact
-        heading="Step into Tomorrow with Qcentrio"
-        subheading="Join forces with Qcentrio to redefine your industry. Let's collaborate to unlock growth drivers, accelerate innovation, and shape the future."
-      />
+      <div id="embrace-the-future">
+        <Contact
+          heading="Step into Tomorrow with Qcentrio"
+          subheading="Join forces with Qcentrio to redefine your industry. Let's collaborate to unlock growth drivers, accelerate innovation, and shape the future."
+        />
+      </div>
+
       <Footer />
       <CopyrightBar />
     </div>

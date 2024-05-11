@@ -4,6 +4,7 @@ import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Footer from "@/app/ui/global/footer";
 import JobContact from "@/app/ui/global/job-contact";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
+import Link from "next/link";
 
 export default function Job() {
   return (
@@ -13,7 +14,7 @@ export default function Job() {
       </div>
       <JobHead />
       <JobDescription />
-      <div className="job-page-contact-form">
+      <div id="apply-now" className="job-page-contact-form">
         <JobContact
           heading="Step into Tomorrow with Qcentrio"
           subheading="Join forces with Qcentrio to redefine your industry. Let's collaborate to unlock growth drivers, accelerate innovation, and shape the future."
@@ -33,7 +34,9 @@ function JobHead() {
         className="animate strip-slide-up strip-slide-black">
         HYPERION DEVELOPER
       </h1>
-      <Button name="Apply Now" />
+      <Link href="#apply-now">
+        <Button name="Apply Now" />
+      </Link>
     </div>
   );
 }
