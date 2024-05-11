@@ -50,22 +50,26 @@ export default function AllBlogs({
               Case Studies
             </div>
           </Link>
-          <div
-            className={` topic ${
-              type == "thought-leadership"
-                ? "bg-[#089768] text-white"
-                : "bg-[#F9F9F9] text-black"
-            }`}>
-            ThoughtLeadership
-          </div>
-          <div
-            className={` topic ${
-              type == "news"
-                ? "bg-[#089768] text-white"
-                : "bg-[#F9F9F9] text-black"
-            }`}>
-            News / Press Release
-          </div>
+          <Link href="/insights">
+            <div
+              className={` topic ${
+                type == "thought-leadership"
+                  ? "bg-[#089768] text-white"
+                  : "bg-[#F9F9F9] text-black"
+              }`}>
+              ThoughtLeadership
+            </div>
+          </Link>
+          <Link href="/insights">
+            <div
+              className={` topic ${
+                type == "news"
+                  ? "bg-[#089768] text-white"
+                  : "bg-[#F9F9F9] text-black"
+              }`}>
+              News / Press Release
+            </div>
+          </Link>
         </div>
       </div>
       <div className="blog-articles-section blog-section">
