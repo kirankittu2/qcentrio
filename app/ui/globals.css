@@ -2084,9 +2084,9 @@ header {
   padding: 10px 20px;
   white-space: nowrap;
   font-family: "Quadran-Regular";
-  /* opacity: 0;
+  opacity: 0;
   transform: translateY(70px);
-  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01); */
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
 }
 
 .blog-page-main-content .table-of-contents > ul > li::marker,

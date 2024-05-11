@@ -6,12 +6,41 @@ import context2 from "@/public/land-management/secondary-image-2.png";
 
 import uptri from "@/public/up-tri.svg";
 import downtri from "@/public/down-tri.svg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function TransformingLandManagementInIndia() {
   const [context, togggleContext] = useState(true);
   const [challenges, togggleChallenges] = useState(true);
   const [solution, togggleSolution] = useState(true);
+
+  useEffect(() => {
+    let options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.3,
+    };
+    const observeElements = (selector, className) => {
+      const elements = document.querySelectorAll(selector);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(className);
+          }
+        });
+      }, options);
+      elements.forEach((el) => observer.observe(el));
+    };
+
+    observeElements(".case-study-toogle-content-container h2", "slideup");
+    observeElements(".case-study-toogle-content > p", "slideup");
+    observeElements(".case-study-solution-row-1-column-1 ul > li", "slideup");
+    observeElements(".case-study-toogle-content-image img", "slideup");
+    observeElements(".impact > ul > li", "slideup");
+    observeElements(".benefits-container h2", "slideup");
+    observeElements(".benefits-container li", "slideup");
+    observeElements(".case-study-toogle-content-highlight", "slideup");
+    observeElements(".benefits-container p", "slideup");
+  }, [context, challenges, solution]);
 
   return (
     <div className="case-study-showcase-container mb-[50px]">
@@ -70,9 +99,7 @@ export default function TransformingLandManagementInIndia() {
         {solution && (
           <>
             <div className="case-study-solution case-study-toogle-content-container">
-              <div
-                data-option="up"
-                className="case-study-toogle-content-highlight animate animate-hidden">
+              <div className="case-study-toogle-content-highlight ">
                 SOLUTION
               </div>
               <SolutionContent />
@@ -87,22 +114,18 @@ export default function TransformingLandManagementInIndia() {
 function ContextContent() {
   return (
     <div className="case-study-toogle-content-container">
-      <div
-        data-option="up"
-        className="case-study-toogle-content-image animate animate-hidden">
+      <div className="case-study-toogle-content-image ">
         <Image src={context1} alt="" />
       </div>
       <div className="case-study-toogle-content">
-        <div
-          data-option="up"
-          className="case-study-toogle-content-highlight animate animate-hidden">
+        <div className="case-study-toogle-content-highlight ">
           CLIENT CONTEXT
         </div>
-        <h2 data-option="up" className="section-heading animate animate-hidden">
+        <h2 className="section-heading ">
           Blockchain technology, a disruptive force in various industries, is
           poised to revolutionize land management.
         </h2>
-        <p data-option="up" className="section-content animate animate-hidden">
+        <p className="section-content ">
           The conventional methods of title deeds, land registration, and real
           estate transactions, often marred by opacity, fraud, and inefficiency,
           are ripe for a transformation. Blockchain offers a promising solution,
@@ -117,31 +140,25 @@ function ContextContent() {
 function ChallengeContent() {
   return (
     <div className="case-study-toogle-content-container">
-      <div
-        data-option="up"
-        className="case-study-toogle-content-image animate animate-hidden">
+      <div className="case-study-toogle-content-image ">
         <Image src={context2} alt="" />
       </div>
 
       <div className="case-study-toogle-content">
-        <div
-          data-option="up"
-          className="case-study-toogle-content-highlight animate animate-hidden">
-          CHALLENGES
-        </div>
-        <h2 data-option="up" className="section-heading animate animate-hidden">
+        <div className="case-study-toogle-content-highlight ">CHALLENGES</div>
+        <h2 className="section-heading ">
           Property transactions, cadastral mapping, land registration, and
           land-use planning are all included in the complicated and diverse
           field of land management.
         </h2>
-        <p data-option="up" className="animate animate-hidden">
+        <p className="">
           There are conflicts, land grabs, and inefficient land use because many
           of the world's current land management systems are antiquated,
           paper-based, and prone to mistakes (de Vries, 2021). A lack of
           accountability and transparency impedes investment, threatens social
           stability, and hinders economic development.
         </p>
-        <p data-option="up" className="animate animate-hidden">
+        <p className="">
           Blockchain technology will dramatically change the way land records
           are maintained and transactions are carried out. Blockchain is
           essentially a decentralized, immutable ledger that tracks transactions
@@ -149,7 +166,7 @@ function ChallengeContent() {
           transaction, or "block," to the one before it, a safe and clear chain
           of ownership is created (Afrianto et al., 2022).
         </p>
-        <p data-option="up" className="animate animate-hidden">
+        <p className="">
           Land management authorities can leverage the power of blockchain
           technology to create an unalterable record of property transactions,
           cadastral surveys, and land titles. This decentralized ledger system
@@ -157,7 +174,7 @@ function ChallengeContent() {
           eliminates the risk of fraudulent activities (Daniel and Ifejika
           Speranza, 2020).
         </p>
-        <p data-option="up" className="animate animate-hidden">
+        <p className="">
           Additionally, implementing blockchain-based smart contracts can
           automate and simplify real estate transactions by removing
           intermediaries and improving the efficiency of the entire process.
@@ -165,7 +182,7 @@ function ChallengeContent() {
           blockchain has great potential to revolutionize land management
           (Burzykowska, 2021).
         </p>
-        <p data-option="up" className="animate animate-hidden">
+        <p className="">
           Digital literacy among stakeholders, data privacy concerns, regulatory
           frameworks, and interoperability with current systems are a few. To
           prevent escalating already-existing disparities, it is also essential
@@ -182,13 +199,11 @@ function SolutionContent() {
     <div className="case-study-solution-content-container">
       <div className="case-study-solution-row-1">
         <div className="case-study-solution-row-1-column-1">
-          <h2
-            data-option="up"
-            className="section-heading animate animate-hidden">
+          <h2 className="section-heading ">
             Blockchain technology has unquestionable land management potential,
             but a few obstacles must be overcome.
           </h2>
-          <ul data-option="up" className="animate animate-hidden">
+          <ul className="">
             <li>
               Scalability: Worldwide land data volumes may be too much for
               current blockchain systems to manage. Although it presents
@@ -220,8 +235,8 @@ function SolutionContent() {
         </div>
         {/* <div className="case-study-solution-row-1-column-2">
           <div
-            data-option="up"
-            className="case-study-solution-technology-block animate animate-hidden">
+            
+            className="case-study-solution-technology-block ">
             <h2>TECHNOLOGIES AND TOOLS USED</h2>
             <ul>
               <li>Microsoft SQL Server</li>
@@ -232,12 +247,10 @@ function SolutionContent() {
         </div> */}
       </div>
       <div className="mb-[30px] impact">
-        <h2
-          data-option="up"
-          className="general-text-bold animate animate-hidden">
+        <h2 className="general-text-bold ">
           Beyond Efficiency: Blockchain for Sustainability
         </h2>
-        <ul data-option="up" className="animate animate-hidden">
+        <ul className="">
           <li>
             Traceability for Sustainable Supply Chains: Blockchain technology
             can guarantee ethical practices like deforestation-free agriculture
@@ -260,13 +273,11 @@ function SolutionContent() {
           </li>
         </ul>
       </div>
-      <div>
-        <h2
-          data-option="up"
-          className="general-text-bold animate animate-hidden">
+      <div className="benefits-container">
+        <h2 className="general-text-bold">
           Key Benefits of Blockchain in Land Management
         </h2>
-        <ul data-option="up" className="animate animate-hidden">
+        <ul className="">
           <li>
             Openness and Trust: Blockchain technology fosters openness by
             offering a shared, unchangeable record of land ownership and
@@ -297,7 +308,7 @@ function SolutionContent() {
             the blockchain.
           </li>
         </ul>
-        <p data-option="up" className="animate animate-hidden">
+        <p className="">
           Several nations and organizations have already launched initiatives
           for blockchain-based land management, with encouraging outcomes. For
           example, the Republic of Georgia deployed a blockchain-powered land
@@ -305,7 +316,7 @@ function SolutionContent() {
           transparency, and a notable decline in property-related conflicts
           (Howson, 2021).
         </p>
-        <p data-option="up" className="animate animate-hidden">
+        <p className="">
           In a similar vein, the World Bank's Land Administration and Management
           Program (LAMP) investigates how blockchain technology might enhance
           tenure security and land governance in developing nations. Through

@@ -5,12 +5,38 @@ import context1 from "@/public/pharmaceutical/secondary-image-1.png";
 // import context2 from "@/public/pharmaceutical/secondary-image-2.png";
 import uptri from "@/public/up-tri.svg";
 import downtri from "@/public/down-tri.svg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function TransformingPharmaceutical() {
   const [context, togggleContext] = useState(true);
-  const [challenges, togggleChallenges] = useState(true);
+  // const [challenges, togggleChallenges] = useState(true);
   const [solution, togggleSolution] = useState(true);
+
+  useEffect(() => {
+    let options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.3,
+    };
+    const observeElements = (selector, className) => {
+      const elements = document.querySelectorAll(selector);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(className);
+          }
+        });
+      }, options);
+      elements.forEach((el) => observer.observe(el));
+    };
+
+    observeElements(".case-study-toogle-content-container h2", "slideup");
+    observeElements(".case-study-toogle-content > p", "slideup");
+    observeElements(".case-study-toogle-content-image img", "slideup");
+    observeElements(".case-study-toogle-content-highlight", "slideup");
+    observeElements(".case-study-solution-row-1-column-1 > p", "slideup");
+    observeElements(".impact > ul > li", "slideup");
+  }, [context, solution]);
 
   return (
     <div className="case-study-showcase-container mb-[50px]">
@@ -69,9 +95,7 @@ export default function TransformingPharmaceutical() {
         {solution && (
           <>
             <div className="case-study-solution case-study-toogle-content-container">
-              <div
-                data-option="up"
-                className="case-study-toogle-content-highlight animate animate-hidden">
+              <div className="case-study-toogle-content-highlight ">
                 SOLUTION
               </div>
               <SolutionContent />
@@ -86,22 +110,18 @@ export default function TransformingPharmaceutical() {
 function ContextContent() {
   return (
     <div className="case-study-toogle-content-container">
-      <div
-        data-option="up"
-        className="case-study-toogle-content-image animate animate-hidden">
+      <div className="case-study-toogle-content-image ">
         <Image src={context1} alt="" />
       </div>
       <div className="case-study-toogle-content">
-        <div
-          data-option="up"
-          className="case-study-toogle-content-highlight animate animate-hidden">
+        <div className="case-study-toogle-content-highlight ">
           CLIENT CONTEXT
         </div>
-        <h2 data-option="up" className="section-heading animate animate-hidden">
+        <h2 className="section-heading ">
           A pharmaceutical giant faced issues with its SharePoint setup,
           including 9 TB of data and numerous sites and apps.
         </h2>
-        <p data-option="up" className="section-content animate animate-hidden">
+        <p className="section-content ">
           Compliance demands prompted a shift from a complex system to a
           streamlined cloud solution, overcoming limitations like SharePoint
           Online throttling to enhance agility and scalability.
@@ -173,25 +193,21 @@ function SolutionContent() {
     <div className="case-study-solution-content-container">
       <div className="case-study-solution-row-1">
         <div className="case-study-solution-row-1-column-1">
-          <p data-option="up" className="animate animate-hidden">
+          <p className="">
             Qcentrio provided an end-to-end migration to Office 365 SharePoint
             Online, converting SharePoint 2010 Farm solutions to the Cloud App
             Model and creating a compatible hybrid system with SharePoint 2013
             on-premises.
           </p>
-          <p data-option="up" className="animate animate-hidden">
+          <p className="">
             This allowed for robust enterprise search across the hybrid setup
             and offered solutions to SharePoint Online's limitations.
           </p>
         </div>
       </div>
       <div className="mb-[30px] impact">
-        <h2
-          data-option="up"
-          className="general-text-bold animate animate-hidden">
-          Business Impact
-        </h2>
-        <ul data-option="up" className="animate animate-hidden">
+        <h2 className="general-text-bold ">Business Impact</h2>
+        <ul className="">
           <li>50% reduction in Total Cost of Ownership</li>
           <li>Migration alignd with the client's infrastructure</li>
           <li>

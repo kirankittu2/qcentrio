@@ -49,27 +49,30 @@
 }
 
 .case-study-toogle-content .section-heading{
-  /* opacity: 0;
+  opacity: 0;
   transform: translateY(70px);
-  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01); */
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
   margin-bottom: 20px;
 }
 
 .case-study-solution-content-container .section-heading{
+  opacity: 0;
+  transform: translateY(70px);
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
   margin-bottom: 20px;
 }
 
 .case-study-toogle-content > ul > li, .case-study-solution-row-1-column-1 ul > li, .case-study-solution-row-1-column-1 > p, .case-study-toogle-content > p{
-  /* opacity: 0;
+  opacity: 0;
   transform: translateY(70px);
-  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01); */
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
 }
 
 .case-study-toogle-content-image img {
   min-width: 398px;
-  /* opacity: 0;
+  opacity: 0;
   transform: translateY(70px);
-  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01); */
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
 }
 
 .case-study-toogle-content-container .section-content {
@@ -84,9 +87,9 @@
   width: fit-content;
   margin-bottom: 20px;
   color: white;
-  /* opacity: 0;
+  opacity: 0;
   transform: translateY(70px);
-  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01); */
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
 }
 
 .case-study-solution.case-study-toogle-content-container {
@@ -124,6 +127,9 @@
   background-color: #f7ffec;
   width: fit-content;
   border-top: 5px solid var(--primary-color);
+  opacity: 0;
+  transform: translateY(70px);
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
 }
 
 .case-study-solution-technology-block h2 {
@@ -139,6 +145,21 @@
 .case-study-image-showcase-holder {
   padding: 30px;
   background-color: #f3f3f3;
+  opacity: 0;
+  transform: translateY(70px);
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
+}
+
+.benefits-container h2, .benefits-container li, .benefits-container p{
+  opacity: 0;
+  transform: translateY(70px);
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
+}
+
+.conclusion-container h2, .conclusion-container p{
+  opacity: 0;
+  transform: translateY(70px);
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
 }
 
 .case-study-image-showcase {
@@ -152,10 +173,16 @@
   font-family: "Quadran-Light";
 }
 
-.impact h2, .impact > ul > li, .impact > p{
-  /* opacity: 0;
+.impact > ul > li, .impact > p{
+  opacity: 0;
   transform: translateY(70px);
-  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01); */
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
+}
+
+.case-study-solution-content-container .impact > h2{
+  opacity: 0;
+  transform: translateY(70px);
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
 }
 
 /* .case-study-solution-content-container ul strong {

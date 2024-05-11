@@ -6,12 +6,48 @@ import context2 from "@/public/context-2.png";
 
 import uptri from "@/public/up-tri.svg";
 import downtri from "@/public/down-tri.svg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function ProductDevelopmentWithAutomatedVehicleAerodynamics() {
   const [context, togggleContext] = useState(true);
   const [challenges, togggleChallenges] = useState(true);
   const [solution, togggleSolution] = useState(true);
+
+  useEffect(() => {
+    let options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.3,
+    };
+    const observeElements = (selector, className) => {
+      const elements = document.querySelectorAll(selector);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(className);
+          }
+        });
+      }, options);
+      elements.forEach((el) => observer.observe(el));
+    };
+
+    observeElements(".case-study-toogle-content-container h2", "slideup");
+    observeElements(".case-study-toogle-content > p", "slideup");
+    observeElements(".case-study-toogle-content > ul > li", "slideup");
+    observeElements(".case-study-solution-row-1-column-1 > p", "slideup");
+    observeElements(".case-study-solution-row-1-column-1 ul > li", "slideup");
+    observeElements(".case-study-toogle-content-highlight", "slideup");
+    observeElements(".case-study-toogle-content-image img", "slideup");
+    observeElements(
+      ".case-study-solution-content-container .impact > h2",
+      "slideup"
+    );
+    observeElements(
+      ".case-study-solution-content-container .impact > p",
+      "slideup"
+    );
+    observeElements(".impact > ul > li", "slideup");
+  }, [context, challenges, solution]);
 
   return (
     <div className="case-study-showcase-container mb-[50px]">
@@ -70,9 +106,7 @@ export default function ProductDevelopmentWithAutomatedVehicleAerodynamics() {
         {solution && (
           <>
             <div className="case-study-solution case-study-toogle-content-container">
-              <div
-                data-option="up"
-                className="case-study-toogle-content-highlight animate animate-hidden">
+              <div className="case-study-toogle-content-highlight ">
                 SOLUTION
               </div>
               <SolutionContent />
@@ -87,23 +121,19 @@ export default function ProductDevelopmentWithAutomatedVehicleAerodynamics() {
 function ContextContent() {
   return (
     <div className="case-study-toogle-content-container">
-      <div
-        data-option="up"
-        className="case-study-toogle-content-image animate animate-hidden">
+      <div className="case-study-toogle-content-image ">
         <Image src={context1} alt="" />
       </div>
       <div className="case-study-toogle-content ">
-        <div
-          data-option="up"
-          className="case-study-toogle-content-highlight animate animate-hidden">
+        <div className="case-study-toogle-content-highlight ">
           CLIENT CONTEXT
         </div>
-        <h2 data-option="up" className="section-heading animate animate-hidden">
+        <h2 className="section-heading ">
           A leading automotive OEM was looking to streamline their product
           development process by implementing simulation technology to predict
           vehicle aerodynamics.
         </h2>
-        <p data-option="up" className="section-content animate animate-hidden">
+        <p className="section-content ">
           The automotive industry is constantly evolving, with new technologies
           and features being introduced at a rapid pace. As a result, automakers
           are under pressure to develop new products quickly and efficiently in
@@ -119,23 +149,17 @@ function ContextContent() {
 function ChallengeContent() {
   return (
     <div className="case-study-toogle-content-container">
-      <div
-        data-option="up"
-        className="case-study-toogle-content-image animate animate-hidden">
+      <div className="case-study-toogle-content-image ">
         <Image src={context2} alt="" />
       </div>
 
       <div className="case-study-toogle-content">
-        <div
-          data-option="up"
-          className="case-study-toogle-content-highlight animate animate-hidden">
-          CHALLENGES
-        </div>
-        <h2 data-option="up" className="section-heading animate animate-hidden">
+        <div className="case-study-toogle-content-highlight ">CHALLENGES</div>
+        <h2 className="section-heading ">
           The client faced several challenges in their product development
           process:
         </h2>
-        <ul data-option="up" className="animate animate-hidden">
+        <ul className="">
           <li>
             <strong>
               Time-consuming and costly physical wind tunnel testing:
@@ -170,20 +194,14 @@ function SolutionContent() {
     <div className="case-study-solution-content-container">
       <div className="case-study-solution-row-1">
         <div className="case-study-solution-row-1-column-1">
-          <p
-            data-option="up"
-            className="section-content animate animate-hidden">
+          <p className="section-content ">
             The client decided to implement automated vehicle aerodynamics
             simulations to address these challenges. The solution involved using
             computational fluid dynamics (CFD) software to simulate the flow of
             air around the vehicle and predict its aerodynamic performance.
           </p>
-          <p
-            data-option="up"
-            className="section-content animate animate-hidden">
-            This would allow the client to:
-          </p>
-          <ul data-option="up" className="animate animate-hidden">
+          <p className="section-content ">This would allow the client to:</p>
+          <ul className="">
             <li>
               <p>
                 <strong>Reduce time and cost:</strong> By using simulation
@@ -224,7 +242,7 @@ function SolutionContent() {
               </p>
             </li>
           </ul>
-          <p data-option="up" className="animate animate-hidden">
+          <p className="">
             They were also able to identify potential issues early on in the
             development process, avoiding costly redesigns and delays. This
             helped them produce higher quality vehicles and maintain customer
@@ -235,9 +253,7 @@ function SolutionContent() {
           </div> */}
         </div>
         <div className="case-study-solution-row-1-column-2">
-          <div
-            data-option="up"
-            className="case-study-solution-technology-block animate animate-hidden">
+          <div className="case-study-solution-technology-block ">
             <h2>Technologies USED</h2>
             <ul>
               <li>ANSYS Fluent</li>
@@ -248,17 +264,13 @@ function SolutionContent() {
         </div>
       </div>
       <div className="mb-[30px] impact">
-        <h2
-          data-option="up"
-          className="general-text-bold animate animate-hidden">
-          BUSINESS IMPACT
-        </h2>
-        <p data-option="up" className="animate animate-hidden">
+        <h2 className="general-text-bold ">BUSINESS IMPACT</h2>
+        <p className="">
           The implementation of automated vehicle aerodynamics simulations had a
           significant impact on the client's product development process. They
           were able to:
         </p>
-        <ul data-option="up" className="animate animate-hidden">
+        <ul className="">
           <li>
             <strong>Save time and cost:</strong> By eliminating physical wind
             tunnel testing, the client saved millions of dollars in development

@@ -8,13 +8,17 @@ import StrategicPath from "@/app/ui/offerings/strategic-path";
 import SuccessPath from "@/app/ui/offerings/success-path";
 import InsigntsNoCaro from "@/app/ui/global/insights-no-caro";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
-import { getServicePageData } from "@/app/lib/data";
+import { getServicePageData, getSubServicePageContent } from "@/app/lib/data";
 import Link from "next/link";
 
-export const metadata = {
-  title: "Advanced Technology Solutions - Services",
-  description: "Shapped in X-Verity",
-};
+export async function generateMetadata({ params }) {
+  const data = getSubServicePageContent(params.slug, params.sub);
+
+  return {
+    title: data.title,
+    description: data.description,
+  };
+}
 
 export default function Services({ params }) {
   const data = getServicePageData(params.slug);

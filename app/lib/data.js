@@ -418,6 +418,12 @@ const mainServicesContent = {
   0: {
     banner: "../../advanced-technology-solutions.png",
     breadCrump: "ADVANCED TECHNOLOGY SOLUTIONS",
+    metaData: {
+      title:
+        "Qcentrio - Advanced Technology Solutions for Efficient Business Growth",
+      description:
+        "Unlock the full potential of your business with Qcentrio. Our next-gen tech-stack and advanced AI capabilities help drive rapid insights for enhanced value and growth. See the difference today.",
+    },
     mainHeading:
       "DRIVE ENTERPRISE-WIDE EFFICIENCY, INNOVATION, AND GROWTH WITH ADVANCED TECHNOLOGY SOLUTIONS",
     glimpseContent: {
@@ -612,6 +618,12 @@ const mainServicesContent = {
   1: {
     banner: "../../advisory-and-strategic-services.png",
     breadCrump: "ADVISORY AND STRATEGIC SERVICES",
+    metaData: {
+      title:
+        "Qcentrio - Unlock Your Business's Potential with Strategic Advisory Services",
+      description:
+        "Qcentrio offers innovative advisory and strategic services to help businesses transform their digital strategies into a competitive advantage. Gain agility and positioning for sustained growth in today's data-compliant market with our expert team by your side.",
+    },
     mainHeading:
       "EMPOWER YOUR DIGITAL STRATEGY WITH CATEGORY-LEADING ADVISORY AND STRATEGIC SERVICES",
     glimpseContent: {
@@ -797,6 +809,12 @@ const mainServicesContent = {
   2: {
     banner: "../../blockchain-advisory-and-offerings.png",
     breadCrump: "BLOCKCHAIN ADVISORY AND OFFERINGS",
+    metaData: {
+      title:
+        "Qcentrio: Leading Blockchain Advisory and Offerings for Sustainable Growth",
+      description:
+        "With Qcentrio's blockchain advisory offerings, your business can embrace a future of security, efficiency, and innovation. Our experts will help you harness the power of blockchain for your enterprise operations.",
+    },
     mainHeading:
       "CREATE A RELIABLE, TRUSTED, AND SUSTAINABLE ECOSYSTEM FOR YOUR ENTERPRISE WITH BLOCKCHAIN ADVISORY AND OFFERINGS",
     glimpseContent: {
@@ -957,6 +975,12 @@ const mainServicesContent = {
   3: {
     banner: "../../business-optimization-and-analytics-services.png",
     breadCrump: "BUSINESS OPTIMIZATION AND ANALYTICS SERVICES",
+    metaData: {
+      title:
+        "Qcentrio - Unlock Growth with Business Optimization & Analytics Services",
+      description:
+        "Take your business to the next level with Qcentrio's optimization and analytics services. Our expert team can help you drive top-line and bottom-line growth by optimizing your operations, productivity, and products. Contact us today!",
+    },
     mainHeading:
       "ACHIEVE OPERATIONAL EXCELLENCE AND GROWTH WITH BUSINESS OPTIMIZATION AND ANALYTICS SERVICES",
     glimpseContent: {
@@ -1124,6 +1148,12 @@ const mainServicesContent = {
   4: {
     banner: "../../business-value-enhancement-services.png",
     breadCrump: "BUSINESS VALUE ENHANCEMENT SERVICES",
+    metaData: {
+      title:
+        "Accelerate Growth with Qcentrio's Business Value Enhancement Services",
+      description:
+        "Unlock the full potential of your business with Qcentrio. Our next-gen tech-stack and advanced AI capabilities help drive rapid insights for enhanced value and growth. See the difference today.",
+    },
     mainHeading:
       "FUEL GROWTH AND SCALE TIME TO INSIGHTS WITH BUSINESS VALUE ENHANCEMENT SERVICES",
     glimpseContent: {
@@ -1297,6 +1327,12 @@ const mainServicesContent = {
   5: {
     banner: "../../cloud-infra-and-security-services.png",
     breadCrump: "CLOUD INFRA AND SECURITY SERVICES",
+    metaData: {
+      title:
+        "Qcentrio - Leading Cloud Infra and Security Services for Agile Data Solutions",
+      description:
+        "Qcentrio offers top-notch cloud infrastructure and security services to help you become a data powerhouse. Stay ahead of the competition with our cutting-edge technology and real-time insights.",
+    },
     mainHeading:
       "MODERNIZE YOUR DATA ESTATE TO A CLOUD-READY, FUTURE-FIT, SCALABLE ECOSYSTEM",
     glimpseContent: {
@@ -6807,7 +6843,7 @@ const subServicePagesContent = {
   },
 };
 
-export function getSubServicePageContent(main, sub) {
+export function getSubServicePageContent(main, sub = "") {
   if (main == "advanced-technology-solutions") {
     if (sub == "erp-solutions-support") {
       return subServicePagesContent.serviceOne[1];
@@ -6821,6 +6857,8 @@ export function getSubServicePageContent(main, sub) {
       return subServicePagesContent.serviceOne[5];
     } else if (sub == "product-engineering-services") {
       return subServicePagesContent.serviceOne[6];
+    } else {
+      return mainServicesContent[0].metaData;
     }
   } else if (main == "advisory-and-strategic-services") {
     if (sub == "audit-and-assurance-services") {
@@ -6835,6 +6873,8 @@ export function getSubServicePageContent(main, sub) {
       return subServicePagesContent.serviceTwo[5];
     } else if (sub == "mergers-and-acquisitions-advisory-services") {
       return subServicePagesContent.serviceTwo[6];
+    } else {
+      return mainServicesContent[1].metaData;
     }
   } else if (main == "blockchain-advisory-and-offerings") {
     if (sub == "blockchain-integration-and-deployment") {
@@ -6845,6 +6885,8 @@ export function getSubServicePageContent(main, sub) {
       return subServicePagesContent.serviceThree[3];
     } else if (sub == "blockchain-strategy-and-advisory") {
       return subServicePagesContent.serviceThree[4];
+    } else {
+      return mainServicesContent[2].metaData;
     }
   } else if (main == "business-optimization-and-analytics-services") {
     if (sub == "collaboration-and-productivity-solutions") {
@@ -6853,6 +6895,8 @@ export function getSubServicePageContent(main, sub) {
       return subServicePagesContent.serviceFour[2];
     } else if (sub == "data-analytics-and-business-intelligence") {
       return subServicePagesContent.serviceFour[3];
+    } else {
+      return mainServicesContent[3].metaData;
     }
   } else if (main == "business-value-enhancement-services") {
     if (sub == "artificial-intelligence-machine-learning-offerings") {
@@ -6861,6 +6905,8 @@ export function getSubServicePageContent(main, sub) {
       return subServicePagesContent.serviceFive[2];
     } else if (sub == "robotic-process-automation-services") {
       return subServicePagesContent.serviceFive[3];
+    } else {
+      return mainServicesContent[4].metaData;
     }
   } else if (main == "cloud-infra-and-security-services") {
     if (sub == "aws-services-and-offerings") {
@@ -6879,6 +6925,8 @@ export function getSubServicePageContent(main, sub) {
       return subServicePagesContent.serviceSix[7];
     } else if (sub == "salesforce-services") {
       return subServicePagesContent.serviceSix[8];
+    } else {
+      return mainServicesContent[5].metaData;
     }
   }
 }

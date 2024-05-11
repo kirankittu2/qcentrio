@@ -5,6 +5,7 @@ import Link from "next/link";
 import Button from "./button";
 import logo from "@/public/logo.svg";
 import search from "@/public/search.svg";
+import menu from "@/public/menu.svg";
 import { useEffect, useState } from "react";
 import close from "@/public/close.svg";
 import { usePathname, useSearchParams } from "next/navigation";
@@ -162,7 +163,7 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
         </Link>
       </li>
       <li onClick={openMenu} className="mobile-nav-button">
-        {open ? <Image src={close} alt="" /> : "M"}
+        {open ? <Image src={close} alt="" /> : <Image src={menu} alt="" />}
       </li>
     </>
   );

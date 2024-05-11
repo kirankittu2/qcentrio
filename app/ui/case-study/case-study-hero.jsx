@@ -16,7 +16,7 @@ export default function CaseStudyHero({ data }) {
         className="lets-talk-container animate animate-hidden">
         <input type="text" placeholder="Email Address" required />
         <div className="input-btn">
-          <Button name="Lets Talk" />
+          <Button name="Download" />
         </div>
       </div>
     </div>

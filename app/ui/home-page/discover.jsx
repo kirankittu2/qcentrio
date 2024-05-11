@@ -40,12 +40,14 @@ export default function Discover() {
         </div>
         <div className="discover-content">
           <h2 className="discover-heading">Life at Qcentrio</h2>
-          <p className="discover-btn">
-            Discover
-            <span>
-              <Image fill src={arrow} alt="" />
-            </span>
-          </p>
+          <Link className="w-fit" href="/about-us">
+            <p className="discover-btn">
+              Discover
+              <span>
+                <Image fill src={arrow} alt="" />
+              </span>
+            </p>
+          </Link>
         </div>
       </div>
     </div>
