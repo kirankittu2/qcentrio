@@ -14,6 +14,7 @@ export default function AccordianOfferings({ data }) {
   const [previousIndex, setPreviousIndex] = useState(0);
   const [needSomething, setNeedSomething] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
+  const [clicked, setClicked] = useState(false);
   const refsArray = useRef([]);
   const router = useRouter();
   function changeCursor() {
@@ -22,6 +23,7 @@ export default function AccordianOfferings({ data }) {
   function defaultCursor() {
     document.querySelector(".cursor").classList.remove("hovered");
   }
+  let tempIndex = 0;
 
   function handleHover(i, event) {
     let hovered = false;
@@ -42,10 +44,17 @@ export default function AccordianOfferings({ data }) {
       !e.target.classList.contains("service-sub-offering") &&
       !e.target.classList.contains("service-sub-offering-span")
     ) {
-      const parentLink = e.currentTarget.getAttribute("data-link");
-      router.push(parentLink);
+      var screenWidth = window.screen.width;
+      if (screenWidth > 500) {
+        const parentLink = e.currentTarget.getAttribute("data-link");
+        router.push(parentLink);
+      }
     }
   }
+
+  console.log(tempIndex);
+  console.log(index);
+  console.log(clicked);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -130,7 +139,7 @@ export default function AccordianOfferings({ data }) {
                 style={{
                   backgroundImage: `${
                     index === i
-                      ? `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(${item.image})`
+                      ? `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(${item.image})`
                       : ""
                   }`,
                 }}

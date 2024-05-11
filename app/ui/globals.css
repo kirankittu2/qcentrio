@@ -3538,7 +3538,7 @@ td {
   /* left: 0; */
   height: 360px;
   width: 360px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   padding-top: 6px;
 }
 

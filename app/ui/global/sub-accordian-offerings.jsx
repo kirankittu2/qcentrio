@@ -56,12 +56,21 @@ export default function SubAccordianOfferings({ data }) {
       }
     });
 
-    const subOfferings = document.querySelectorAll(".service-sub-offerings");
-    subOfferings.forEach((item) => {
+    const headings = document.querySelectorAll(
+      ".accordian-offering-title-hidden"
+    );
+    headings.forEach((item) => {
       if (item.classList.contains("slideup")) {
         item.classList.remove("slideup");
       }
     });
+
+    // const subOfferings = document.querySelectorAll(".service-sub-offerings");
+    // subOfferings.forEach((item) => {
+    //   if (item.classList.contains("slideup")) {
+    //     item.classList.remove("slideup");
+    //   }
+    // });
 
     // const headings = document.querySelectorAll(
     //   ".accordian-offering-title-hidden"
@@ -109,7 +118,7 @@ export default function SubAccordianOfferings({ data }) {
                 style={{
                   backgroundImage: `${
                     index === i
-                      ? `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(${item.image})`
+                      ? `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(${item.image})`
                       : ""
                   }`,
                 }}
@@ -131,8 +140,8 @@ export default function SubAccordianOfferings({ data }) {
                   <h2 className="accordian-offering-title">{item.heading}</h2>
                   <div>
                     <h2
-                      // data-option="strip-slide-up"
-                      className="accordian-offering-title-hidden">
+                      data-option="up"
+                      className="accordian-offering-title-hidden animate animate-hidden">
                       {item.heading}
                     </h2>
                     <p

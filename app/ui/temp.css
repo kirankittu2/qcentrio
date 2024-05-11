@@ -433,6 +433,12 @@
   .search-result .breadcrump{
     font-size: 10px;
   }
+  .sub-service .breadcrump{
+    font-size: 10px;
+    margin-left: 25px;
+    margin-right: 50px;
+    padding-bottom: 35px;
+  }
   .search-bar-container button{
     border-radius: 6px;
   }
@@ -440,5 +446,184 @@
     flex-wrap: wrap;
     justify-content: space-between !important;
   }
+  .sub-service-content-section{
+    flex-direction: column;
+  }
+  .sub-service-content-section > div{
+    width: 100%;
+    padding: 30px;
+  }
+  .sub-service-content-section{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .sub-service-content-section-column-1 h2{
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .sub-service-content-section-column-2 {
+    border-left: 1px solid #d6d6d6;
+  }
+  .sub-service-content-section-column-1 {
+    border-bottom: 1px solid #d6d6d6; 
+  }
+  .accordian-offering{
+    width: 100%;
+    flex-direction: row;
+  }
+  .sub-service .accordian-offering > div:first-child{
+    display: flex;
+    flex-direction: row;
+  }
+  .accordian-offering-open-icon{
+    order: -1;
+    display: flex;
+    align-items: center;
+  }
+  .accordian-offering > div:first-child{
+    display: flex;
+    width: 100%;
+    order: 2;
+  }
+  .accordian-offering-divider{
+    width: 4px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .accordian-offering-head{
+    margin-bottom: unset;
+  }
+  .accordian-offering-open-icon > div{
+    width: 25px;
+    height: 25px;
+  }
+  .service-sub-offering{
+    font-size: 16px;
+  }
 
+
+
+  .accordian-offerings-container{
+    flex-direction: column;
+    height: fit-content;
+  }
+  .accordian-offering-title{
+    position: unset;
+    rotate: 0deg;
+    width: 100%;
+    height: fit-content;
+  }
+  .accordian-offerings-section  .section{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .sub-service .accordian-offering{
+    width: 100%;
+    flex-direction: row;
+  }
+  .need-something-block{
+    display: none;
+  }
+  .sub-service .accordian-offering > div:first-child{
+    width: unset !important;
+  }
+  .sub-service .accordian-offering > div:first-child{
+    flex-direction: row;
+    order: 2;
+  }
+  .sub-service .accordian-offering-open-icon{
+    order: -1;
+  }
+  .accordian-offering-title{
+    order: -1;
+    font-size: 16px;
+  }
+  .accordian-offering{
+    padding: 20px 20px !important;
+    gap: 10px;
+    max-height: 150px;
+    transition: max-height 1s;
+  }
+  .sub-service .accordian-offering-divider{
+    width: 4px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .accordian-offering.accordian-offering-active > div:first-child{
+    flex-direction: column;
+  }
+  .accordian-offering-title-hidden{
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+   .accordian-offering.accordian-offering-active{
+    max-height: 900px;
+    background-position: top 0% right 27%;
+  }
+
+  .accordian-offering-icon{
+    width: 80px;
+    height: 80px;
+  }
+  .accordian-offering-icon > div{
+    width: 30px;
+    height: 36px
+  }
+  .accordian-offering.accordian-offering-active .accordian-offering-head{
+    margin-bottom: 50px;
+  }
+  .sub-service .accordian-offering-open-icon > div{
+    width: 25px;
+    height: 25px;
+  }
+  .sub-service .accordian-offering-open-icon{
+    display: flex;
+    align-items: center;
+  }
+  .accordian-offering-number{
+    rotate: 90deg;
+    margin-bottom: -2px;
+  }
+  .accordian-offering-head > div:last-child{
+    display: flex;
+    align-items: center;
+  }
+  .accordian-offering.accordian-offering-active .accordian-offering-number{
+    rotate: 0deg;
+  }
+  .sub-service .accordian-offering-head{
+    margin-bottom: unset;
+  }
+  .sub-service-hero-section{
+    flex-direction: column;
+  }
+  .sub-service-hero-section > div:last-child{
+    position: unset;
+    order: -1;
+  }
+  .sub-service-hero-section > div{
+    width: 100%;
+  }
+  .sub-service-hero-section > div:first-child{
+    padding-right: 0px;
+  }
+  .sub-service-hero-heading{
+    font-size: 24px;
+    line-height: 20px;
+  }
+  .sub-service-hero-sub-heading{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .sub-service-hero-section{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .sub-service .hero{
+    height: unset;
+  }
 }
