@@ -5,6 +5,13 @@ import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import Search from "@/app/ui/search/search";
 import SearchMain from "@/app/ui/search/search-main";
 
+export const metadata = {
+  title:
+    "Enhance Your Search Results with Qcentrio's Cloud Security, RPA, and Blockchain Solutions",
+  description:
+    "Enhance your browsing experience with Qcentrio - the ultimate search bar. Quickly find what you're looking for with our intelligent algorithms and user-friendly interface.171 characters.",
+};
+
 export default async function Products({ searchParams }) {
   const item = searchParams?.q || "";
   const type = searchParams?.type || null;

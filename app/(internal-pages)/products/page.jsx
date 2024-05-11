@@ -22,6 +22,13 @@ import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Link from "next/link";
 
+export const metadata = {
+  title:
+    "Qcentrio: Empower Your Global Banking Services with Ameya's Innovative Products",
+  description:
+    "Discover the innovative products available through Qcentrio to empower your global banking services. Simplify remittance processes and ensure compliance with Ameya's cutting-edge solutions.",
+};
+
 export default function Products() {
   return (
     <div className="products">
@@ -220,7 +227,7 @@ function AllProducts() {
             <Button name="Book Demo" />
           </Link>
         </div>
-        <div className="product-column-1 product-column">
+        <div className="product-column-1  product-column product-column-reverse">
           <Image
             data-option="up"
             className="animate animate-hidden"
@@ -302,7 +309,7 @@ function AllProducts() {
             <Button name="Book Demo" />
           </Link>
         </div>
-        <div className="product-column-1 product-column">
+        <div className="product-column-1 product-column product-column-reverse">
           <Image
             data-option="up"
             className="animate animate-hidden"
@@ -384,7 +391,7 @@ function AllProducts() {
             <Button name="Book Demo" />
           </Link>
         </div>
-        <div className="product-column-1 product-column">
+        <div className="product-column-1 product-column product-column-reverse">
           <Image
             data-option="up"
             className="animate animate-hidden"
@@ -460,7 +467,7 @@ function AllProducts() {
             <Button name="Book Demo" />
           </Link>
         </div>
-        <div className="product-column-1 product-column">
+        <div className="product-column-1 product-column product-column-reverse">
           <Image
             data-option="up"
             className="animate animate-hidden"
@@ -528,7 +535,7 @@ function AllProducts() {
             <Button name="Book Demo" />
           </Link>
         </div>
-        <div className="product-column-1 product-column">
+        <div className="product-column-1 product-column product-column-reverse">
           <Image
             data-option="up"
             className="animate animate-hidden"
@@ -537,7 +544,7 @@ function AllProducts() {
           />
         </div>
         <div className="product-column-3 product-column">
-          <div className="product-num">11</div>
+          <div className="product-num">10</div>
         </div>
       </div>
       <Lines />

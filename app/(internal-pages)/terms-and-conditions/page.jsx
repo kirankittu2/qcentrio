@@ -5,6 +5,12 @@ import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import OtherLinks from "@/app/ui/privacy-policy/other-links";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Understand Our Terms of Use and Privacy Policy - Qcentrio",
+  description:
+    "Discover the terms and conditions of using Qcentrio's services. Our legal contract ensures a smooth and secure experience for all users. Visit our website to learn more.",
+};
+
 export default function PrivacyPolicy() {
   return (
     <div className="privacy-policy">

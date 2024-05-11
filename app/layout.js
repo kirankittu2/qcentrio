@@ -2,6 +2,7 @@ import "@/app/ui/globals.css";
 import "@/app/ui/case-study.css";
 import "@/app/ui/contact-us.css";
 import "@/app/ui/about-us.css";
+import "@/app/ui/temp.css";
 import "animate.css";
 import dynamic from "next/dynamic";
 import Animate from "./ui/global/animate";

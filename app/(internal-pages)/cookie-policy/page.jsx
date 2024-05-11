@@ -5,6 +5,13 @@ import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import OtherLinks from "@/app/ui/privacy-policy/other-links";
 import Link from "next/link";
 
+export const metadata = {
+  title:
+    "Qcentrio Cookies Policy: Learn About Our Use of Cookies and How to Manage Them",
+  description:
+    "Keep your data safe and secure with Qcentrio's cookie policy. Learn how we use cookies on our websites to provide you with the best experience while protecting your privacy. Read now.183 characters.",
+};
+
 export default function PrivacyPolicy() {
   return (
     <div className="privacy-policy">

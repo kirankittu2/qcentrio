@@ -8,6 +8,13 @@ import banner from "@/public/land-management/main-bg-1.png";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import TransformingLandManagementInIndia from "@/app/ui/case-study/transforming-land-management-in-india-case-study-toggle";
 
+export const metadata = {
+  title:
+    "Qcentrio - Revolutionizing Land Management with Blockchain Technology",
+  description:
+    "Experience the future of land management with Qcentrio - the blockchain platform that streamlines title deeds, land registration, and real estate transactions. Join us today!",
+};
+
 export default function CaseStudy() {
   const heroContent = {
     heading:

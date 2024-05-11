@@ -201,9 +201,8 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
     },
     {
       image: whatNew,
-      title:
-        "Transforming Pharmaceutical Major’s Sharepoint Ecosystem with Azure Migration",
-      link: "/case-study/transforming-pharmaceutical-major-sharepoint-ecosystem-with-azure-migration",
+      title: "Automate Vehicle Aero Simulations: Faster Product Development",
+      link: "/case-study/streamline-your-product-development-with-automated-vehicle-aerodynamics-simulations",
     },
   ];
 

@@ -8,6 +8,12 @@ import banner from "@/public/case-study-banner.png";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import EnhancingPatientCareWithBIandsSQLAnalytics from "@/app/ui/case-study/enhancing-patient-care-with-bi-and-sql-analytics-case-study-toggle";
 
+export const metadata = {
+  title: "Enhancing Patient Care with BI and SQL Analytics",
+  description:
+    "Improve patient care with Qcentrio - the leading BI and SQL analytics software for healthcare professionals. Streamline data processing and generate comprehensive reports with ease. Partner with us today to enhance your services!",
+};
+
 export default function CaseStudy() {
   const heroContent = {
     heading: "ENHANCING PATIENT CARE WITH BI AND SQL ANALYTICS AT QCENTRIO",

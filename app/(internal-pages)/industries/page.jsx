@@ -10,6 +10,7 @@ import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Link from "next/link";
+import TransformingSectionMobile from "@/app/ui/industries/transforming-section-mobile";
 
 export const metadata = {
   title: "Empowering Industries - Upgrade Your Business with Qcentrio",
@@ -26,7 +27,7 @@ export default function Industries() {
         <div className="industries-hero-content">
           <h1
             data-option="strip-slide-up"
-            className="section-heading animate strip-slide-up strip-slide-white">
+            className="section-heading animate strip-slide-up strip-slide-grey">
             INNOVATE AND LEAD IN YOUR INDUSTRY WITH TAILORED DIGITAL SERVICES
           </h1>
           <Link href="#embrace-the-future">
@@ -37,6 +38,7 @@ export default function Industries() {
       <div className="industries-banner-decor"></div>
       <IndustrySpecific />
       <TransformingSection />
+      <TransformingSectionMobile />
       <PartnerSection />
       <div id="embrace-the-future">
         <Contact

@@ -17,7 +17,7 @@ import software from "@/public/software.png";
 import travel from "@/public/travel.png";
 import Image from "next/image";
 
-export default function TransformingSection() {
+export default function TransformingSectionMobile() {
   const content1 = useRef(null);
   const content2 = useRef(null);
 
@@ -29,20 +29,36 @@ export default function TransformingSection() {
     content2.current.addEventListener("scroll", function () {
       content1.current.scrollTop = content2.current.scrollTop;
     });
+
+    let options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.3,
+    };
+    const observeElements = (selector, className) => {
+      const elements = document.querySelectorAll(selector);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(className);
+          }
+        });
+      }, options);
+      elements.forEach((el) => observer.observe(el));
+    };
+
+    observeElements(".transfromings-item", "slideup");
   }, []);
 
   return (
-    <div className="transfroming-section transfroming-section-desktop">
+    <div className="transfroming-section transfroming-section-mobile">
       <h2
         data-option="strip-slide-up"
         className="section-heading animate strip-slide-up strip-slide-green">
         TRANSFORMING SECTORS WITH SPECIALIZED DIGITAL STRATEGIES
       </h2>
       <div className="transfromings-scroll-list">
-        <div
-          data-option="up"
-          ref={content1}
-          className="transfromings-scroll-list-content animate animate-hidden">
+        <div ref={content1} className="transfromings-scroll-list-content ">
           <div className="transfromings-item">
             <div>
               <h2>Aerospace & Defense</h2>
@@ -237,10 +253,7 @@ export default function TransformingSection() {
             </div>
           </div>
         </div>
-        <div
-          data-option="up"
-          ref={content2}
-          className="transfromings-scroll-list-content animate animate-hidden">
+        <div ref={content2} className="transfromings-scroll-list-content ">
           <div className="transfromings-item">
             <div className="transfromings-item-image-container">
               <div>

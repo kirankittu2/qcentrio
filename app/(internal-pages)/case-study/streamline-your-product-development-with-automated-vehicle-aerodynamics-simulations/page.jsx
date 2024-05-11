@@ -1,16 +1,18 @@
 import Image from "next/image";
-import analytics1 from "@/public/analytics-1.png";
-import analytics2 from "@/public/analytics-2.png";
-import analytics3 from "@/public/analytics-3.png";
-import analytics4 from "@/public/analytics-4.png";
 import CaseStudyHero from "@/app/ui/case-study/case-study-hero";
-import BottomLine from "@/app/ui/case-study/bottom-line";
 import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import banner from "@/public/case-study-banner.png";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import ProductDevelopmentWithAutomatedVehicleAerodynamics from "@/app/ui/case-study/product-development-with-automated-vehicle-aerodynamics-case-study-toggle";
+
+export const metadata = {
+  title:
+    "Experience Streamlined Product Development with Automated Vehicle Aerodynamics Simulations at Qcentrio",
+  description:
+    "Streamline your vehicle development process with Qcentrio's automated simulations for predicting aerodynamics. Stay ahead in the ever-evolving automotive industry with our cutting-edge technology.",
+};
 
 export default function CaseStudy() {
   const heroContent = {

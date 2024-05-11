@@ -54,6 +54,10 @@ video {
   scroll-margin-top: 70px;
 }
 
+.transfroming-section-mobile{
+  display: none;
+}
+
 .chevron::before {
   border-style: solid;
   border-width: 0.13em 0.13em 0 0;
@@ -3099,6 +3103,7 @@ h2.blog-page-side-heading {
 
 /* Industries Page */
 .industries .hero {
+  background: unset;
   background-color: #f5f5f5;
   height: 808px;
   position: relative;
@@ -6850,236 +6855,7 @@ td {
   }
 }
 
-@media screen and (min-device-width: 350px) and (max-device-width: 430px) {
-  .main-logo-conatiner {
-    width: 110px;
-    height: 45px;
-  }
-  .hero-slide > div {
-    width: 100.8vw;
-  }
-  video {
-    opacity: 0.7;
-    /* height: clamp(419px, 32.8vw, 630px); */
-    height: 35.8vw;
-  }
-  .cookie-preferences {
-    width: 12vw;
-    height: 12vw;
-    padding: 2vw;
-  }
-  .modernize-container {
-    display: none;
-  }
-  .footer-form-heading {
-    width: 100%;
-    margin: 0px auto;
-    line-height: 20px;
-    margin-bottom: 15px;
-    font-size: 28px;
-  }
-  .footer-checkbox label:before {
-    padding: 10px;
-    float: left;
-    margin-bottom: 1px;
-  }
-  .footer-form-column .lets-talk-container {
-    width: 100%;
-  }
-  .journey-carousel-image {
-    background-color: #f8ffed;
-  }
-  .sub-service-contact > div {
-    display: inline-block;
-  }
-  .contact-section-first-column {
-    width: 100%;
-  }
-  .contact-section-second-column {
-    display: none;
-  }
-  .contact-column input {
-    font-size: 14px;
-  }
-  .contact-column input {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .contact-column {
-    width: 100%;
-    display: inline-block;
-    margin-bottom: 0px !important;
-  }
-  .purpose-input-dropdown {
-    margin-bottom: 10px;
-  }
-  .services-of-sub-service .section-heading {
-    width: 100%;
-  }
-  .subservice-aniation-container {
-    display: none;
-  }
-  .services-of-sub-service-holder {
-    padding: 0px 0px 40px 0px;
-  }
-  .topics a {
-    width: 100%;
-  }
-  .topics a div {
-    font-size: 15px;
-    padding: 15px 20px;
-  }
-  .blog-page-social-column {
-    display: none;
-  }
-  .tags-container {
-    margin-left: 0px;
-  }
-  .contact-us-main-section {
-    display: inline-block !important;
-  }
-  .contact-us-main-section-content {
-    display: inline-block !important;
-  }
-  .journey-section {
-    padding-bottom: 0px;
-  }
-  #path-3 {
-    display: none;
-  }
-  #path-4 {
-    display: none;
-  }
-  #path-8 {
-    display: none;
-  }
-  .reach-out-container {
-    width: 100% !important;
-    padding: 50px 50px !important;
-  }
-  .reach-out-form input {
-    width: 100% !important;
-    margin-bottom: 10px;
-  }
-  .reach-out-form {
-    display: inline-block;
-  }
-  .reach-out-form .btn {
-    width: 100%;
-  }
-  .showcase-heading {
-    font-size: 30px;
-  }
-  .showcase {
-    padding: 20px 40px;
-  }
-  .contact-us-sub-heading {
-    font-size: 14px !important;
-  }
-  .need-something-modal-inner {
-    width: 90%;
-    display: inline;
-  }
-  .need-something-modal-inner textarea {
-    font-size: 14px;
-    padding: 12px;
-  }
-  .need-something-modal-inner .contact-sub-heading {
-    font-size: 16px;
-    line-height: 20px;
-  }
-  .about-us-map-content {
-    display: inline-block !important;
-    width: 100%;
-  }
-  .about-us-map-num {
-    display: inline-block !important;
-  }
-  .about-us-services-head-container span {
-    width: auto !important;
-  }
-  .join-us-buttons .divider {
-    width: 10% !important;
-  }
-  .join-us-buttons {
-    display: inline-block !important;
-    width: 100%;
-  }
-  .join-us-buttons .btn {
-    width: 100%;
-    float: left;
-    margin-bottom: 10px;
-  }
-  .careers-contact-section h2 {
-    width: 80%;
-    font-size: 24px;
-    line-height: 28px;
-  }
-  .careers-contact-section h3 {
-    font-size: 18px;
-    width: 80%;
-  }
-  .showcase-list {
-    display: inline-block;
-  }
-  .career-showcase-card {
-    margin-bottom: 25px;
-  }
-  .career-showcase-section p {
-    width: 100%;
-  }
-  .careers-why-qcentrio p {
-    width: 100%;
-  }
-  .careers-why-qcentrio {
-    padding-bottom: 0px;
-  }
-  .careers-hero-section .hero-heading {
-    width: 100%;
-  }
-  .careers-hero-subheading {
-    width: 100%;
-    font-size: 20px;
-  }
-  .careers-buttons {
-    display: inline-block;
-  }
-  .careers-buttons a:last-child button {
-    background-color: black;
-    color: white;
-    width: 100%;
-  }
-  .jobs-section div:first-child {
-    display: inline-block;
-    width: 100%;
-  }
-  .jobs-section {
-    padding-left: 0px;
-  }
-  .jobs-content-heading {
-    font-size: 35px;
-    line-height: 38px;
-  }
-  .job-title {
-    font-size: 20px;
-    width: 100%;
-  }
-  .job-location {
-    font-size: 13px;
-    margin-bottom: 10px;
-    width: 100%;
-  }
-  .job-experience {
-    font-size: 13px;
-    width: 100%;
-  }
-  .career-benefit-list {
-    display: inline-block;
-  }
-  .careers-benefits {
-    margin-bottom: 0px;
-  }
-}
+
 /* Animation css */
 
 .animate-hidden {

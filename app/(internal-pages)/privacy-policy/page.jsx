@@ -5,6 +5,13 @@ import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import OtherLinks from "@/app/ui/privacy-policy/other-links";
 import Link from "next/link";
 
+export const metadata = {
+  title:
+    "Qcentrio Privacy Policy: Protecting Your Information and Ensuring GDPR Compliance",
+  description:
+    "Your privacy is important to us. Learn more about our commitment to safeguarding your information and keeping it confidential at Qcentrio - your trusted partner for privacy protection.",
+};
+
 export default function PrivacyPolicy() {
   return (
     <div className="privacy-policy">
