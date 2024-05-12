@@ -6133,7 +6133,7 @@ const subServicePagesContent = {
           "With the right approach, you can confidently explore and leverage the vast potential of the digital space. This journey starts with building a strong foundation of digital literacy, equipping yourself with the knowledge to navigate platforms and tools effectively. Furthermore, fostering critical thinking skills empowers you to discern reliable information and make informed decisions online.",
       },
       metaData: {
-        title: "Robustrsecurity Solutions and Services Support | Qcentrio",
+        title: "Robust Security Solutions and Services Support | Qcentrio",
         description:
           "Protect and Cybe future-proof your digital infrastructure with Qcentrio's advanced cybersecurity solutions. Experience comprehensive protection with our expert services.",
       },
@@ -6286,7 +6286,7 @@ const subServicePagesContent = {
             image: cyber1,
             heading: "Expert Team",
             content:
-              ": Our certified professionals provide comprehensive security solutions, ensuring a seamless defense system with minimal operational interruption.",
+              "Our certified professionals provide comprehensive security solutions, ensuring a seamless defense system with minimal operational interruption.",
           },
           {
             image: cyber2,

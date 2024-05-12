@@ -263,7 +263,9 @@ export default function SampleBlog() {
               situation with our experts.
             </p>
           </div>
-          <div className="tags-container">
+          <div
+            data-option="up"
+            className="tags-container animate animate-hidden">
             <div className="tag">Cloud Migration</div>
             <div className="tag">Cloud Security</div>
             <div className="tag">Cloud Data</div>

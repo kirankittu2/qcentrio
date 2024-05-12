@@ -27,7 +27,7 @@
   padding: 50px 0px;
   padding-left: 50px;
   padding-right: clamp(50px, 7.81vw, 140px);
-  cursor: pointer;
+  cursor: inherit;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -46,6 +46,7 @@ export default function ProductDevelopmentWithAutomatedVehicleAerodynamics() {
       ".case-study-solution-content-container .impact > p",
       "slideup"
     );
+    observeElements(".case-study-solution-technology-block", "slideup");
     observeElements(".impact > ul > li", "slideup");
   }, [context, challenges, solution]);
 

@@ -626,4 +626,78 @@
   .sub-service .hero{
     height: unset;
   }
+  .service-listing-heading-section > div{
+    width: 100%;
+  }
+  .job-head-section{
+    flex-direction: column;
+  }
+  .job-head-section h1{
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  .job-description-section{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .custom-file-input input{
+    margin-bottom: 0px;
+  }
+  .custom-file-input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  table{
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .job-description-heading{
+    margin-top: 30px;
+  }
+  .case-study-hero-content{
+    position: unset;
+    transform: unset;
+  }
+  .case-study-hero-content{
+    width: 100%;
+  }
+  .case-study-hero-content .breadcrump{
+    margin-top: 30px;
+  }
+  .case-study-toogle-content-highlight{
+    font-size: 16px;
+  }
+  .tags-container .tag{
+    white-space: unset;
+  }
+  .general-text-bold{
+    font-size: 16px;
+  }
+  .blog-page-main-image{
+    order: -1;
+  }
+  .blog-page-container{
+    padding-right: 50px;
+  }
+  .blog-page-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-page-hero .breadcrump{
+    order: -1;
+  }
+  .blog-page-hero .tags-container .tag{
+    opacity: unset;
+    transform: unset;
+    transition: unset;
+  }
+  .thank-you-content-holder{
+    width: 100%;
+    padding-left: 25px;
+  }
+  .thank-you-note{
+    padding: 15px;
+  }
 }
