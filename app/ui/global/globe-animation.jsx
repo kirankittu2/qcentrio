@@ -41,7 +41,9 @@ export default function OfferingGlobeAnimation() {
     });
     // renderer.setClearColor(0xffffff);
     renderer.setPixelRatio(window.devicePixelRatio);
-    renderer.setSize(1696, 816);
+    const tempWidth = (88.33 / 100) * window.innerWidth;
+    const tempHeight = (42.5 / 100) * window.innerWidth;
+    renderer.setSize(tempWidth, tempHeight);
     const canvas = renderer.domElement;
     canvasRef.current.appendChild(canvas);
 
