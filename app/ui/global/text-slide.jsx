@@ -1,6 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function TextSlide({ wrapper, item }) {
+  const mainSlide = useRef(null);
+
   useEffect(() => {
     const modernizeTextElements = document.querySelectorAll(".modernize-text");
 
@@ -8,10 +10,14 @@ export default function TextSlide({ wrapper, item }) {
       const mouseX = event.clientX;
       const windowWidth = window.innerWidth;
       const scrollPercentage = (mouseX / windowWidth) * 100;
-
+      const extendPixels = window.innerWidth <= 1600 ? 30 : 10;
+      console.log(extendPixels);
       modernizeTextElements.forEach((element, index) => {
-        const topValue = `${scrollPercentage - 90}px`;
-        element.style.left = topValue;
+        const topValue = `${
+          scrollPercentage - mainSlide.current.offsetWidth - extendPixels
+        }`;
+        const refinedTopValue = (topValue / 1920) * 100;
+        element.style.left = refinedTopValue + "vw";
       });
     };
 
@@ -37,7 +43,7 @@ export default function TextSlide({ wrapper, item }) {
           <div>{item}</div>
         </div>
       </div>
-      <div className="modernize-column modernize-column-4">
+      <div ref={mainSlide} className="modernize-column modernize-column-4">
         <div className="modernize-text">
           <div>{item}</div>
           <div>{item}</div>

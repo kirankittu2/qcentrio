@@ -175,6 +175,94 @@ import offshore1 from "@/public/offshore-development-centre-services/third-image
 import offshore2 from "@/public/offshore-development-centre-services/third-image-2.png";
 import offshore3 from "@/public/offshore-development-centre-services/third-image-3.png";
 import currency from "@/public/currency.svg";
+import blockchainIntegrationIcon1 from "@/public/blockchain-integration-and-deployment-services/blockchain-strategy.svg";
+import blockchainIntegrationIcon2 from "@/public/blockchain-integration-and-deployment-services/blockchain-integration.svg";
+import blockchainIntegrationIcon3 from "@/public/blockchain-integration-and-deployment-services/blockchain-deployment.svg";
+import blockchainIntegrationIcon4 from "@/public/blockchain-integration-and-deployment-services/post-deployment-maintenance.svg";
+import blockchainIntegrationIcon5 from "@/public/blockchain-integration-and-deployment-services/blockchain-scalability.svg";
+import blockchainIntegrationIcon6 from "@/public/blockchain-integration-and-deployment-services/smart-contract-auditing.svg";
+import blockchainIntegrationIcon7 from "@/public/blockchain-integration-and-deployment-services/decentralized-identity-solutons.svg";
+import blockchainIntegrationIcon8 from "@/public/blockchain-integration-and-deployment-services/cross-chain-integration.svg";
+import offshoreIcon1 from "@/public/offshore-development-centre-services/best-in-class-infrastructure.svg";
+import offshoreIcon2 from "@/public/offshore-development-centre-services/customised-team.svg";
+import offshoreIcon3 from "@/public/offshore-development-centre-services/quality-assurance.svg";
+import offshoreIcon4 from "@/public/offshore-development-centre-services/project-management.svg";
+import offshoreIcon5 from "@/public/offshore-development-centre-services/data-security.svg";
+import offshoreIcon6 from "@/public/offshore-development-centre-services/research-development.svg";
+import offshoreIcon7 from "@/public/offshore-development-centre-services/reporting-solution.svg";
+import offshoreIcon8 from "@/public/offshore-development-centre-services/advanced-training.svg";
+import awsIcon1 from "@/public/aws-services-and-offerings/aws-integration.svg";
+import awsIcon2 from "@/public/aws-services-and-offerings/cloud-infrastructure.svg";
+import awsIcon3 from "@/public/aws-services-and-offerings/education.svg";
+import awsIcon4 from "@/public/aws-services-and-offerings/continous-support.svg";
+import awsIcon5 from "@/public/aws-services-and-offerings/managed-services.svg";
+import awsIcon6 from "@/public/aws-services-and-offerings/data-analyst.svg";
+import awsIcon7 from "@/public/aws-services-and-offerings/automated-process.svg";
+import awsIcon8 from "@/public/aws-services-and-offerings/learning.svg";
+import itsupportIcon1 from "@/public/continuous-it-support-and-managed-services/maintenance.svg";
+import itsupportIcon2 from "@/public/continuous-it-support-and-managed-services/troubleshooting.svg";
+import itsupportIcon3 from "@/public/continuous-it-support-and-managed-services/strategic-planning.svg";
+import itsupportIcon4 from "@/public/continuous-it-support-and-managed-services/infrastructure-optimization.svg";
+import itsupportIcon5 from "@/public/continuous-it-support-and-managed-services/disaster-recovery.svg";
+import itsupportIcon6 from "@/public/continuous-it-support-and-managed-services/cloud-transition.svg";
+import itsupportIcon7 from "@/public/continuous-it-support-and-managed-services/network-management.svg";
+import itsupportIcon8 from "@/public/continuous-it-support-and-managed-services/end-user-support.svg";
+import azureIcon1 from "@/public/azure-services-and-offerings/azure-integration.svg";
+import azureIcon2 from "@/public/azure-services-and-offerings/sdlc-management.svg";
+import azureIcon3 from "@/public/azure-services-and-offerings/data-migration.svg";
+import azureIcon4 from "@/public/azure-services-and-offerings/advanced-analytics-iot.svg";
+import azureIcon5 from "@/public/azure-services-and-offerings/cloud-modernization.svg";
+import azureIcon6 from "@/public/azure-services-and-offerings/disaster-recovery.svg";
+import azureIcon7 from "@/public/azure-services-and-offerings/hybrid-integration.svg";
+import azureIcon8 from "@/public/azure-services-and-offerings/operation-resilience.svg";
+import cybersecurityIcon1 from "@/public/cybersecurity-solutions-and-services-support/security-assessment.svg";
+import cybersecurityIcon2 from "@/public/cybersecurity-solutions-and-services-support/security.svg";
+import cybersecurityIcon3 from "@/public/cybersecurity-solutions-and-services-support/data-protection.svg";
+import cybersecurityIcon4 from "@/public/cybersecurity-solutions-and-services-support/support.svg";
+import cybersecurityIcon5 from "@/public/cybersecurity-solutions-and-services-support/intrusion-detection.svg";
+import cybersecurityIcon6 from "@/public/cybersecurity-solutions-and-services-support/cloud-security.svg";
+import cybersecurityIcon7 from "@/public/cybersecurity-solutions-and-services-support/email-security.svg";
+import cybersecurityIcon8 from "@/public/cybersecurity-solutions-and-services-support/cyber-security.svg";
+import salesforceIcon1 from "@/public/salesforce-services/salesforce-data-integration.svg";
+import salesforceIcon2 from "@/public/salesforce-services/automation.svg";
+import salesforceIcon3 from "@/public/salesforce-services/customer-engagement.svg";
+import salesforceIcon4 from "@/public/salesforce-services/cloud-integration.svg";
+import salesforceIcon5 from "@/public/salesforce-services/app-development.svg";
+import salesforceIcon6 from "@/public/salesforce-services/training.svg";
+import salesforceIcon7 from "@/public/salesforce-services/security.svg";
+import salesforceIcon8 from "@/public/salesforce-services/innovative-solution.svg";
+import gcpIcon1 from "@/public/gcp-services-and-support/ecosystem.svg";
+import gcpIcon2 from "@/public/gcp-services-and-support/deployment.svg";
+import gcpIcon3 from "@/public/gcp-services-and-support/data-analytics-ml.svg";
+import gcpIcon4 from "@/public/gcp-services-and-support/security.svg";
+import gcpIcon5 from "@/public/gcp-services-and-support/gcp-architecture.svg";
+import gcpIcon6 from "@/public/gcp-services-and-support/cloud-migration.svg";
+import gcpIcon7 from "@/public/gcp-services-and-support/cloud-cost-optimisation.svg";
+import gcpIcon8 from "@/public/gcp-services-and-support/cloud-management.svg";
+import cloudIcon1 from "@/public/cloud-infrastructure-services/cloud-setup.svg";
+import cloudIcon2 from "@/public/cloud-infrastructure-services/data-migration.svg";
+import cloudIcon3 from "@/public/cloud-infrastructure-services/crm-integration.svg";
+import cloudIcon4 from "@/public/cloud-infrastructure-services/cloud-optimization.svg";
+import cloudIcon5 from "@/public/cloud-infrastructure-services/cloud-operations.svg";
+import cloudIcon6 from "@/public/cloud-infrastructure-services/disaster-recovery.svg";
+import cloudIcon7 from "@/public/cloud-infrastructure-services/customer-experience.svg";
+import cloudIcon8 from "@/public/cloud-infrastructure-services/security.svg";
+import blckchainSecurityIcon1 from "@/public/blockchain-security-and-compliance-solutions/smart-contract-auditing.svg";
+import blckchainSecurityIcon2 from "@/public/blockchain-security-and-compliance-solutions/privacy.svg";
+import blckchainSecurityIcon3 from "@/public/blockchain-security-and-compliance-solutions/risk-management.svg";
+import blckchainSecurityIcon4 from "@/public/blockchain-security-and-compliance-solutions/decentralized-security.svg";
+import blckchainSecurityIcon5 from "@/public/blockchain-security-and-compliance-solutions/network-management.svg";
+import blckchainSecurityIcon6 from "@/public/blockchain-security-and-compliance-solutions/access-management.svg";
+import blckchainSecurityIcon7 from "@/public/blockchain-security-and-compliance-solutions/data-protection.svg";
+import blckchainSecurityIcon8 from "@/public/blockchain-security-and-compliance-solutions/performance-optimization.svg";
+import blckchainSolutionIcon1 from "@/public/blockchain-solution-development/consultancy-custom-solutions.svg";
+import blckchainSolutionIcon2 from "@/public/blockchain-solution-development/development-secure.svg";
+import blckchainSolutionIcon3 from "@/public/blockchain-solution-development/blockchain-architecture.svg";
+import blckchainSolutionIcon4 from "@/public/blockchain-solution-development/app-development-integration.svg";
+import blckchainSolutionIcon5 from "@/public/blockchain-solution-development/supply-chain-management.svg";
+import blckchainSolutionIcon6 from "@/public/blockchain-solution-development/performance-optimization.svg";
+import blckchainSolutionIcon7 from "@/public/blockchain-solution-development/scalability-solutions.svg";
+import blckchainSolutionIcon8 from "@/public/blockchain-solution-development/privacy.svg";
 
 const blogs = {
   children: [
@@ -268,6 +356,30 @@ const caseStudies = {
       content2:
         "By using advanced computational fluid dynamics (CFD) tools, automotive companies can simulate real-world conditions, assess performance impacts, and make informed decisions about design modifications before any physical prototype is built.",
       link: "/case-study/streamline-your-product-development-with-automated-vehicle-aerodynamics-simulations",
+      type: "CASE STUDY",
+    },
+    {
+      image: "/automatic-vehicle.jpg",
+      homeImage: "/vehicle-aerodynamics.jpg",
+      title:
+        "Memorial Health Services’ Upgrade to BMC Track-It for Enhanced IT Service Management",
+      content1:
+        "Vehicle aerodynamics simulations enhance efficiency in automotive product development improve road handling and fuel economy.",
+      content2:
+        "By using advanced computational fluid dynamics (CFD) tools, automotive companies can simulate real-world conditions, assess performance impacts, and make informed decisions about design modifications before any physical prototype is built.",
+      link: "/case-study/memorial-health-services-upgrade-to-bmc",
+      type: "CASE STUDY",
+    },
+    {
+      image: "/automatic-vehicle.jpg",
+      homeImage: "/vehicle-aerodynamics.jpg",
+      title:
+        "City of San Mateo IT Department’s Transition to New Help Desk System with Qcentrio",
+      content1:
+        "Vehicle aerodynamics simulations enhance efficiency in automotive product development improve road handling and fuel economy.",
+      content2:
+        "By using advanced computational fluid dynamics (CFD) tools, automotive companies can simulate real-world conditions, assess performance impacts, and make informed decisions about design modifications before any physical prototype is built.",
+      link: "/case-study/san-mateo-it-department-transition-to-new-help-desk-system",
       type: "CASE STUDY",
     },
     // {
@@ -3659,7 +3771,7 @@ const subServicePagesContent = {
             heading: "Blockchain Strategy and Consultation",
             image:
               "/blockchain-integration-and-deployment-services/secondary-image-1.png",
-            icon: currency,
+            icon: blockchainIntegrationIcon1,
             content:
               "Create a distinct and impactful blockchain strategy specifically crafted to align with your business goals, positioning you to outpace competitors in the evolving digital landscape. We provide expert insights into blockchain technology trends and help you identify strategic opportunities for its application.",
           },
@@ -3668,7 +3780,7 @@ const subServicePagesContent = {
             heading: "Bridging the Gap: Custom Blockchain Integration",
             image:
               "/blockchain-integration-and-deployment-services/secondary-image-2.png",
-            icon: currency,
+            icon: blockchainIntegrationIcon2,
             content:
               "Seamlessly integrate blockchain technology into your existing systems, enhancing security and operational efficiency and streamlining business processes for improved agility without disrupting your operations. Our integration services also include comprehensive risk assessments to ensure the new technology complements your IT landscape.",
           },
@@ -3678,7 +3790,7 @@ const subServicePagesContent = {
               "Revolutionizing Processes: Blockchain Deployment Services",
             image:
               "/blockchain-integration-and-deployment-services/secondary-image-3.png",
-            icon: currency,
+            icon: blockchainIntegrationIcon3,
             content:
               "Execute and deploy tailored blockchain solutions that are meticulously optimized for your specific business environment to meet your unique operational demands. We ensure these solutions are robust and flexible enough to adapt to future changes and technological advancements.",
           },
@@ -3687,7 +3799,7 @@ const subServicePagesContent = {
             heading: "Post-Deployment Support and Maintenance",
             image:
               "/blockchain-integration-and-deployment-services/secondary-image-4.png",
-            icon: currency,
+            icon: blockchainIntegrationIcon4,
             content:
               "Get continuous support and maintenance for your blockchain solutions, ensuring they operate at peak performance, any issues are promptly resolved, and business continuity is assured. Our dedicated team monitors system health around the clock to pre-emptively address potential disruptions.",
           },
@@ -3696,7 +3808,7 @@ const subServicePagesContent = {
             heading: "Ensuring Scalability: Blockchain Scalability Solutions",
             image:
               "/blockchain-integration-and-deployment-services/secondary-image-5.png",
-            icon: currency,
+            icon: blockchainIntegrationIcon5,
             content:
               "Design your blockchain architecture to scale effortlessly with your business growth, managing increased transactions and data volumes without compromising performance. We utilize leading-edge technologies and frameworks to ensure your blockchain solution can handle evolving workload demands.",
           },
@@ -3705,7 +3817,7 @@ const subServicePagesContent = {
             heading: "Securing the Future: Smart Contract Auditing",
             image:
               "/blockchain-integration-and-deployment-services/secondary-image-6.png",
-            icon: currency,
+            icon: blockchainIntegrationIcon6,
             content:
               "Conduct comprehensive audits of smart contracts to verify their security and functionality before deployment, minimizing potential risks and ensuring reliability. Our auditing process involves multiple verification stages to catch and correct any flaws or inefficiencies.",
           },
@@ -3714,7 +3826,7 @@ const subServicePagesContent = {
             heading: "Empowering Individuals: Decentralized Identity Solutions",
             image:
               "/blockchain-integration-and-deployment-services/secondary-image-7.png",
-            icon: currency,
+            icon: blockchainIntegrationIcon7,
             content:
               " Implement advanced blockchain-based identity verification systems to bolster security and protect user privacy, ensuring the confidentiality of sensitive customer information. These solutions provide a more secure and efficient method of managing identities than traditional models.",
           },
@@ -3723,7 +3835,7 @@ const subServicePagesContent = {
             heading: "Breaking Down Barriers: Cross-Chain Integration",
             image:
               "/blockchain-integration-and-deployment-services/secondary-image-8.png",
-            icon: currency,
+            icon: blockchainIntegrationIcon8,
             content:
               "These services facilitate interoperability across different blockchain platforms, enhancing functionality and broadening the scope of potential applications while ensuring seamless data flow between systems. We employ advanced protocols for secure and efficient communication across various blockchain networks.",
           },
@@ -3849,7 +3961,7 @@ const subServicePagesContent = {
             heading: "Smart Contract Auditing and Compliance Strategy",
             image:
               "/blockchain-security-and--compliance-solutions/secondary-image-1.png",
-            icon: currency,
+            icon: blckchainSecurityIcon1,
             content:
               "Conduct rigorous testing and security verification of smart contracts to identify vulnerabilities and ensure compliance with KYC, AML, and other regulatory requirements, safeguarding against unauthorized modifications and illegal activities. This dual focus ensures that contracts are secure and fully compliant with legal standards.",
           },
@@ -3858,7 +3970,7 @@ const subServicePagesContent = {
             heading: "Blockchain Data Security and Privacy Solutions",
             image:
               "/blockchain-security-and--compliance-solutions/secondary-image-2.png",
-            icon: currency,
+            icon: blckchainSecurityIcon2,
             content:
               "Employ advanced cryptographic techniques to protect the integrity and confidentiality of blockchain data, integrating privacy-by-design principles to ensure compliance with privacy laws and regulations. This comprehensive approach maintains trust and reliability in data security while addressing privacy concerns.",
           },
@@ -3867,7 +3979,7 @@ const subServicePagesContent = {
             heading: "Risk Management and Regulatory Compliance Audits",
             image:
               "/blockchain-security-and--compliance-solutions/secondary-image-3.png",
-            icon: currency,
+            icon: blckchainSecurityIcon3,
             content:
               "Craft and manage detailed risk profiles specific to blockchain assets and operations and execute thorough compliance audits to ensure operations adhere to current regulations and legal standards. This service ensures that blockchain operations are both secure and legally compliant.",
           },
@@ -3877,7 +3989,7 @@ const subServicePagesContent = {
               "Decentralized Application (DApp) Security and Incident Response",
             image:
               "/blockchain-security-and--compliance-solutions/secondary-image-4.png",
-            icon: currency,
+            icon: blckchainSecurityIcon4,
             content:
               "Perform comprehensive security assessments for DApps and develop proactive blockchain-specific incident response plans. This ensures secure user interactions and robust transaction processing while preparing for immediate action in case of security breaches.",
           },
@@ -3887,7 +3999,7 @@ const subServicePagesContent = {
               "Blockchain Infrastructure Security and Network Management",
             image:
               "/blockchain-security-and--compliance-solutions/secondary-image-5.png",
-            icon: currency,
+            icon: blckchainSecurityIcon5,
             content:
               "Establish a secure blockchain network architecture to prevent unauthorized access and resist network attacks, including implementing robust identity verification systems and access controls. This setup is crucial for maintaining the security and integrity of the blockchain network and ensuring operational security.",
           },
@@ -3896,7 +4008,7 @@ const subServicePagesContent = {
             heading: "Blockchain Identity and Access Management",
             image:
               "/blockchain-security-and--compliance-solutions/secondary-image-6.png",
-            icon: currency,
+            icon: blckchainSecurityIcon6,
             content:
               " Implement secure identity verification systems and robust access controls to prevent unauthorized operations and ensure user authenticity. This critical service maintains authorized access and enhances operational security within blockchain ecosystems.",
           },
@@ -3905,7 +4017,7 @@ const subServicePagesContent = {
             heading: "Privacy and Data Protection for Blockchain",
             image:
               "/blockchain-security-and--compliance-solutions/secondary-image-7.png",
-            icon: currency,
+            icon: blckchainSecurityIcon7,
             content:
               "Address data privacy concerns by integrating personal data protection strategies within blockchain systems, ensuring operations comply with stringent privacy laws and enhancing user trust.",
           },
@@ -3914,7 +4026,7 @@ const subServicePagesContent = {
             heading: "Performance Optimization and Security Enhancement",
             image:
               "/blockchain-security-and--compliance-solutions/secondary-image-8.png",
-            icon: currency,
+            icon: blckchainSecurityIcon8,
             content:
               "Continuously optimize blockchain performance while enhancing security measures to keep up with evolving threats and technological advancements. This ensures that the blockchain solutions remain efficient, effective, and secure against new vulnerabilities.",
           },
@@ -4040,7 +4152,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "Blockchain Consultancy and Custom Solutions",
             image: "/blockchain-solution-development/secondary-image-1.png",
-            icon: currency,
+            icon: blckchainSolutionIcon1,
             content:
               "Navigate the complexities of blockchain technology with expert consultation that tailors strategic solutions to enhance business efficiency and security, along with receiving personalized services closely aligned with your business goals. This ensures a deep understanding of your specific needs and the creation of perfectly aligned blockchain strategies.",
           },
@@ -4048,7 +4160,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Smart Contract Development and Security Solutions",
             image: "/blockchain-solution-development/secondary-image-2.png",
-            icon: currency,
+            icon: blckchainSolutionIcon2,
             content:
               "Automate and secure business agreements using advanced smart contracts on platforms like Ethereum and Hyperledger while protecting blockchain infrastructures with advanced security protocols that ensure the integrity and trustworthiness of digital transactions. This dual focus enhances both the functionality and security of your blockchain operations.",
           },
@@ -4056,7 +4168,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "Blockchain Architecture Design and Network Management",
             image: "/blockchain-solution-development/secondary-image-3.png",
-            icon: currency,
+            icon: blckchainSolutionIcon3,
             content:
               " Develop a robust and scalable blockchain infrastructure tailored to meet unique business requirements and efficiently manage various types of blockchain networks—public, private, or consortium. This integrated service provides end-to-end solutions from design to deployment, ensuring high performance and security.",
           },
@@ -4064,7 +4176,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "Decentralized App Development/Integration",
             image: "/blockchain-solution-development/secondary-image-4.png",
-            icon: currency,
+            icon: blckchainSolutionIcon4,
             content:
               "Create custom decentralized applications built on blockchain technology to enhance security, user experience, and functionality, and enhance existing systems by integrating blockchain technology to improve transparency and operational efficiency. This service makes each application decentralized, secure, and seamlessly integrated with existing workflows.",
           },
@@ -4072,7 +4184,7 @@ const subServicePagesContent = {
             num: "05",
             heading: "Tokenization and Blockchain for Supply Chain Management",
             image: "/blockchain-solution-development/secondary-image-5.png",
-            icon: currency,
+            icon: blckchainSolutionIcon5,
             content:
               "Comprehensive tokenization strategies unlock new possibilities in asset management and value exchange, transforming supply chain operations with blockchain technology to enhance traceability and efficiency. This service offers innovative solutions for asset management and operational challenges in supply chains.",
           },
@@ -4080,7 +4192,7 @@ const subServicePagesContent = {
             num: "06",
             heading: "Ongoing Blockchain Support and Performance Optimization",
             image: "/blockchain-solution-development/secondary-image-6.png",
-            icon: currency,
+            icon: blckchainSolutionIcon6,
             content:
               "Benefit from continuous expert support and maintenance, ensuring blockchain systems are consistently updated, secure, and performing optimally. Our ongoing support ensures your blockchain solutions adapt to technological advancements and changing business needs.",
           },
@@ -4088,7 +4200,7 @@ const subServicePagesContent = {
             num: "07",
             heading: "Blockchain Network Design and Scalability Solutions",
             image: "/blockchain-solution-development/secondary-image-7.png",
-            icon: currency,
+            icon: blckchainSolutionIcon7,
             content:
               "Custom-design blockchain infrastructure that supports business goals with robust, scalable, and secure networks, tailored to include all aspects of network architecture, consensus mechanisms, and governance models. This ensures your blockchain solutions are scalable and can grow with your business.",
           },
@@ -4096,7 +4208,7 @@ const subServicePagesContent = {
             num: "08",
             heading: "Regulatory Compliance and Privacy Solutions",
             image: "/blockchain-solution-development/secondary-image-8.png",
-            icon: currency,
+            icon: blckchainSolutionIcon8,
             content:
               "Ensure your blockchain solutions comply with legal standards such as GDPR and HIPAA, incorporating privacy-by-design principles to manage data securely and legally. This service is crucial for maintaining compliance and safeguarding user privacy across all blockchain operations.",
           },
@@ -5468,7 +5580,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "Streamlining Connectivity with E2E AWS Integration ",
             image: "/aws-services-and-support/secondary-image-1.png",
-            icon: currency,
+            icon: awsIcon1,
             content:
               "We offer comprehensive AWS integration services for your business, enabling you to streamline your operations and drive innovation. Benefit from seamless transitions and strategic implementations as we help you harness the full potential of cloud technologies to transform your organization.",
           },
@@ -5476,7 +5588,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Building for Growth: Scalable Cloud Infrastructure ",
             image: "/aws-services-and-support/secondary-image-2.png",
-            icon: currency,
+            icon: awsIcon2,
             content:
               "Build a secure and scalable cloud infrastructure on AWS that aligns with your business goals. Our services support promotes agility, reliability, and cost-effectiveness, enabling you to innovate faster. And with us as your, you can future-proof your cloud environment and achieve sustainable growth.",
           },
@@ -5484,7 +5596,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "Flexible Computing and Storage Solutions ",
             image: "/aws-services-and-support/secondary-image-3.png",
-            icon: currency,
+            icon: awsIcon3,
             content:
               "AWS's EC2 and S3 services offer a reliable and flexible solution for your computing needs. With secure and scalable storage options, you can easily store and access your data on the cloud. Whether a small business or a large enterprise, we help you leverage AWS's compute and storage solutions. ",
           },
@@ -5492,7 +5604,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "Continuous Support for Your AWS Environment",
             image: "/aws-services-and-support/secondary-image-4.png",
-            icon: currency,
+            icon: awsIcon4,
             content:
               "Streamline your software development process and accelerate your time-to-market by leveraging AWS DevOps tools to automate your CI/CD pipeline. With these tools, and us as your partner, you can improve your software delivery process, increase deployment frequency, and enhance the overall quality of your software.",
           },
@@ -5500,7 +5612,7 @@ const subServicePagesContent = {
             num: "05",
             heading: "Leveraging AWS Managed Services through innovation",
             image: "/aws-services-and-support/secondary-image-5.png",
-            icon: currency,
+            icon: awsIcon5,
             content:
               "With Qcentrio as your AWS partner, you can manage your AWS infrastructure seamlessly and optimize its performance and cost. Our team of experts can help you offload the day-to-day management of your cloud environment, leaving you with more time to focus on your business goals.",
           },
@@ -5508,7 +5620,7 @@ const subServicePagesContent = {
             num: "06",
             heading: "Unleashing Insights: Data Analytics on AWS",
             image: "/aws-services-and-support/secondary-image-6.png",
-            icon: currency,
+            icon: awsIcon6,
             content:
               "Gain valuable insights from your business data with AWS’s powerful data processing and analytics capabilities. AWS makes it easy to uncover meaningful patterns and trends in your data. You can make data-driven decisions to help your business thrive by leveraging these insights. So why wait? Start tapping into the power of AWS today with Qcentrio.",
           },
@@ -5516,7 +5628,7 @@ const subServicePagesContent = {
             num: "07",
             heading: "Automating the Pipeline with AWS DevOps Tools",
             image: "/aws-services-and-support/secondary-image-7.png",
-            icon: currency,
+            icon: awsIcon7,
             content:
               "Innovate and bring new products to market quickly by leveraging AWS DevOps tools and automating your software delivery pipeline, making it more efficient, reliable, and scalable. With DevOps, you can reduce your time to market and increase deployment frequency, allowing you to stay ahead of the competition.",
           },
@@ -5524,7 +5636,7 @@ const subServicePagesContent = {
             num: "08",
             heading: "The Power of AWS Machine Learning and AI Services",
             image: "/aws-services-and-support/secondary-image-8.png",
-            icon: currency,
+            icon: awsIcon8,
             content:
               "Build intelligent solutions that can perceive, hear, speak, comprehend, and engage with your data and users like never before. By leveraging these technologies, you can transform your data into actionable insights, optimize your business processes, and enhance the customer experience.",
           },
@@ -5640,7 +5752,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "Comprehensive Azure Integration and Managed Services",
             image: "/azure-cloud-services/secondary-image-1.png",
-            icon: currency,
+            icon: azureIcon1,
             content:
               "Employ Azure DevOps to develop precise strategies for Azure cloud integration that align technology with business objectives. Benefit from full-spectrum managed services for ongoing management, monitoring, and optimization of your cloud resources.",
           },
@@ -5648,7 +5760,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Supervising Azure DevOps Operations & SDLC Management",
             image: "/azure-cloud-services/secondary-image-2.png",
-            icon: currency,
+            icon: azureIcon2,
             content:
               "Accelerate your software development lifecycle with Azure DevOps capabilities, implementing continuous integration and delivery to enhance collaboration and streamline deployment. This approach ensures faster time-to-market and improved deployment quality.",
           },
@@ -5657,7 +5769,7 @@ const subServicePagesContent = {
             heading:
               "Data Migration, Security, and Robust Cloud Infrastructure",
             image: "/azure-cloud-services/secondary-image-3.png",
-            icon: currency,
+            icon: azureIcon3,
             content:
               "Utilize Azure Site Recovery and advanced security measures like encryption and IAM policies for seamless data transfer while building a resilient and scalable cloud infrastructure that supports growing business demands and ensures efficient resource management.",
           },
@@ -5665,7 +5777,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "Azure IoT Offerings and Advanced Analytics",
             image: "/azure-cloud-services/secondary-image-4.png",
-            icon: currency,
+            icon: azureIcon4,
             content:
               "Unlock the potential of the Internet of Things with Azure, creating intelligent, connected solutions that gather and analyze data from devices across your operations. Leverage the capability of Azure analytics to process big data and deploy AI models that inform strategic decisions.",
           },
@@ -5673,7 +5785,7 @@ const subServicePagesContent = {
             num: "05",
             heading: "Cloud Application Modernization and PaaS Solutions",
             image: "/azure-cloud-services/secondary-image-5.png",
-            icon: currency,
+            icon: azureIcon5,
             content:
               "Refresh legacy applications with our application modernization services, leveraging Azure’s PaaS and container services. This increases scalability and reduces operational costs, making your applications future-ready.",
           },
@@ -5681,7 +5793,7 @@ const subServicePagesContent = {
             num: "06",
             heading: "Cloud Security & Disaster Recovery",
             image: "/azure-cloud-services/secondary-image-6.png",
-            icon: currency,
+            icon: azureIcon6,
             content:
               "Strengthen your Azure deployments with advanced cloud security posture management and ensure business resilience with Azure's disaster recovery capabilities. This approach protects against threats and minimizes downtime with robust backup solutions and failover systems.",
           },
@@ -5689,7 +5801,7 @@ const subServicePagesContent = {
             num: "07",
             heading: "Customized Azure Solutions and Hybrid Integration",
             image: "/azure-cloud-services/secondary-image-7.png",
-            icon: currency,
+            icon: azureIcon7,
             content:
               "Create tailored hybrid and cloud-native solutions using Azure services that integrate seamlessly with your existing technology stack. This allows for a complete and cohesive cloud ecosystem tailored to your specific business needs.",
           },
@@ -5697,7 +5809,7 @@ const subServicePagesContent = {
             num: "08",
             heading: "Business Continuity and Operational Resilience",
             image: "/azure-cloud-services/secondary-image-8.png",
-            icon: currency,
+            icon: azureIcon8,
             content:
               "Use Microsoft Azure’s disaster recovery tools and strategies to ensure continuous operation and minimize downtime, which is crucial for maintaining business continuity and safeguarding critical business functions.",
           },
@@ -5815,7 +5927,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "Cloud Assessment, Strategy, and Setup",
             image: "/cloud-infrastructure-services/second-image-1.png",
-            icon: currency,
+            icon: cloudIcon1,
             content:
               "Utilize advanced tools like AWS CloudFormation and Azure DevOps for comprehensive evaluation and strategic planning, paired with optimized setup and configuration of cloud solutions. This integrated approach ensures your cloud infrastructure aligns perfectly with business objectives and performs optimally.",
           },
@@ -5823,7 +5935,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Data Migration, Security, and Compliance Audits",
             image: "/cloud-infrastructure-services/second-image-2.png",
-            icon: currency,
+            icon: cloudIcon2,
             content:
               "Employ robust services such as AWS Data Migration Service and Azure Site Recovery to securely transfer data, ensuring compliance with encryption and IAM standards. Our cloud compliance audits also confirm adherence to international regulations, enhancing trust and security.",
           },
@@ -5831,7 +5943,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "CRM Integration and Managed Services",
             image: "/cloud-infrastructure-services/second-image-3.png",
-            icon: currency,
+            icon: cloudIcon3,
             content:
               "Enhance CRM capabilities by integrating platforms like Salesforce and streamlining data flow for improved customer relationship management, complemented by continuous support and education on best practices for cloud integration. This ensures your CRM systems leverage cloud efficiencies and remain at the forefront of customer engagement strategies.",
           },
@@ -5839,7 +5951,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "Hybrid Cloud Optimization and Customized Solutions",
             image: "/cloud-infrastructure-services/second-image-4.png",
-            icon: currency,
+            icon: cloudIcon4,
             content:
               "Achieve the perfect balance between private and public cloud environments with our hybrid cloud solutions, optimizing for cost, performance, and security. We also develop tailored hybrid and cloud-native solutions using cutting-edge technologies like Kubernetes and Docker, ensuring your cloud infrastructure meets specific business needs.",
           },
@@ -5847,7 +5959,7 @@ const subServicePagesContent = {
             num: "05",
             heading: "Cloud Operations and Infrastructure Consulting",
             image: "/cloud-infrastructure-services/second-image-5.png",
-            icon: currency,
+            icon: cloudIcon5,
             content:
               "Streamline your cloud operations with services offering real-time monitoring, automated scaling, and continuous optimization. Consult with our experts to design scalable, resilient, and secure cloud infrastructure tailored to support your business’s growth and operational demands.",
           },
@@ -5855,7 +5967,7 @@ const subServicePagesContent = {
             num: "06",
             heading: "Disaster Recovery and Business Continuity",
             image: "/cloud-infrastructure-services/second-image-6.png",
-            icon: currency,
+            icon: cloudIcon6,
             content:
               "Develop and implement robust disaster recovery strategies that maintain business continuity, minimizing potential downtimes and data loss in any cloud environment. This strategic planning is crucial for protecting your operations against unforeseen disruptions.",
           },
@@ -5863,7 +5975,7 @@ const subServicePagesContent = {
             num: "07",
             heading: "Elevating Interaction: Customer Experience Enhancements",
             image: "/cloud-infrastructure-services/second-image-7.png",
-            icon: currency,
+            icon: cloudIcon7,
             content:
               "Leverage cloud technologies to enhance customer experiences, providing seamless, responsive, personalized interactions across all customer touchpoints. This service ensures that your customer interactions are enhanced by the latest cloud capabilities.",
           },
@@ -5871,7 +5983,7 @@ const subServicePagesContent = {
             num: "08",
             heading: "Strengthening Cloud Compliance and Security",
             image: "/cloud-infrastructure-services/second-image-8.png",
-            icon: currency,
+            icon: cloudIcon8,
             content:
               "Ensure your cloud deployments meet stringent compliance requirements and protect data with advanced security measures. Our comprehensive approach includes regular audits and continuous updates to security practices, keeping your cloud environment secure and compliant with evolving regulations.",
           },
@@ -5984,7 +6096,7 @@ const subServicePagesContent = {
             heading: "Proactive Maintenance, Monitoring & Updates",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-1.png",
-            icon: currency,
+            icon: itsupportIcon1,
             content:
               "Stay ahead of issues with 24/7 monitoring and maintenance and keep your systems up-to-date with the latest features and functionalities. Our team of experts will continuously monitor your systems, allowing for quick identification and resolution of problems.",
           },
@@ -5993,7 +6105,7 @@ const subServicePagesContent = {
             heading: "Resolving Challenges with Expert Troubleshooting ",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-2.png",
-            icon: currency,
+            icon: itsupportIcon2,
             content:
               "Our team offers prompt and responsive support to keep your operations running smoothly. We understand the importance of minimizing disruption and maintaining productivity, so we provide efficient troubleshooting to resolve any issues that may arise promptly.",
           },
@@ -6002,7 +6114,7 @@ const subServicePagesContent = {
             heading: "Charting Your Course: Customized IT Strategies ",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-3.png",
-            icon: currency,
+            icon: itsupportIcon3,
             content:
               "Align your IT operations with your business goals by creating tailored IT strategies and customized solutions to meet your business's unique needs. We can work closely with you to develop the right approach that helps you achieve your objectives most efficiently and effectively.",
           },
@@ -6011,7 +6123,7 @@ const subServicePagesContent = {
             heading: "Infrastructure Optimization Solutions",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-4.png",
-            icon: currency,
+            icon: itsupportIcon4,
             content:
               "We optimize your IT infrastructure to ensure it functions at its best, providing you with the resources needed to grow your business. Our expertise lies in enhancing the functionality of your IT infrastructure to maximize efficiency and fuel your business's growth.",
           },
@@ -6020,7 +6132,7 @@ const subServicePagesContent = {
             heading: "Expect the Unexpected: Disaster Recovery Planning",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-5.png",
-            icon: currency,
+            icon: itsupportIcon5,
             content:
               "Implement robust disaster recovery strategies to protect data and maintain continuity. We help you develop and implement disaster recovery strategies to ensure that your data is protected and your operations continue to run smoothly in the event of a disaster.",
           },
@@ -6029,7 +6141,7 @@ const subServicePagesContent = {
             heading: "Seamless Cloud transition and Management",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-6.png",
-            icon: currency,
+            icon: itsupportIcon6,
             content:
               "Our expert guidance can help you make a smooth transition to the cloud while providing flexibility and scalability benefits. We can be your strategic partner if you are new to the cloud or looking to improve your existing cloud infrastructure.",
           },
@@ -6038,7 +6150,7 @@ const subServicePagesContent = {
             heading: "Ensuring Network Reliability with Network Management ",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-7.png",
-            icon: currency,
+            icon: itsupportIcon7,
             content:
               ": Optimize and manage your entire network infrastructure, ensuring high-speed connectivity, reliability, and security across your organization. Our support services ensure your network operates at peak performance, enabling your team to work efficiently and seamlessly. ",
           },
@@ -6047,7 +6159,7 @@ const subServicePagesContent = {
             heading: "Empowering Your Users: End-User Support Services",
             image:
               "/continuous-it-support-and-managed-services/secondary-image-8.png",
-            icon: currency,
+            icon: itsupportIcon8,
             content:
               "Our services are designed to provide your staff with the technical support they need to be productive. Our dedicated helpdesk services ensure that all of your employees' technical queries and challenges are resolved promptly, allowing them to focus on their work without interruptions.",
           },
@@ -6168,7 +6280,7 @@ const subServicePagesContent = {
             heading: "Comprehensive Security Assessment",
             image:
               "/cybersecurity-solutions-and-services/secondary-image-1.png",
-            icon: currency,
+            icon: cybersecurityIcon1,
             content:
               "We begin by evaluating your digital ecosystem, identifying vulnerabilities, and enhancing your security posture. This initial assessment forms the backbone of a strategic plan to strengthen your defenses against cyber threats, tailoring solutions to address specific security gaps.",
           },
@@ -6177,7 +6289,7 @@ const subServicePagesContent = {
             heading: "Customized Security Solutions for Your Business",
             image:
               "/cybersecurity-solutions-and-services/secondary-image-2.png",
-            icon: currency,
+            icon: cybersecurityIcon2,
             content:
               "After the assessment, we implement robust cybersecurity measures utilizing top-tier tools and services from leading industry providers. Our solutions are designed to address identified risks and adapt to the evolving landscape of cyber threats, ensuring long-term resilience.",
           },
@@ -6186,7 +6298,7 @@ const subServicePagesContent = {
             heading: "Safeguard your data with protection and compliance",
             image:
               "/cybersecurity-solutions-and-services/secondary-image-3.png",
-            icon: currency,
+            icon: cybersecurityIcon3,
             content:
               "Our comprehensive data protection and compliance services ensure your cybersecurity strategies align with all relevant regulations. We help you navigate the complexities of regulatory requirements, ensuring your data-handling practices are both secure and compliant.",
           },
@@ -6195,7 +6307,7 @@ const subServicePagesContent = {
             heading: "Vigilance with Continuous Monitoring and Support",
             image:
               "/cybersecurity-solutions-and-services/secondary-image-4.png",
-            icon: currency,
+            icon: cybersecurityIcon4,
             content:
               "Take advantage of ongoing vigilance with our monitoring services that safeguard your systems against the latest threats. Our proactive approach allows us to detect and address potential vulnerabilities before they can be exploited, maintaining the integrity of your digital assets.",
           },
@@ -6204,7 +6316,7 @@ const subServicePagesContent = {
             heading: "Thwarting Threats: Intrusion Detection and Response",
             image:
               "/cybersecurity-solutions-and-services/secondary-image-5.png",
-            icon: currency,
+            icon: cybersecurityIcon5,
             content:
               "Our advanced monitoring systems help you detect intrusions in real time and respond swiftly to mitigate risks and prevent potential breaches. This rapid response capability minimizes downtime and protects your organization from significant damage and loss.",
           },
@@ -6213,7 +6325,7 @@ const subServicePagesContent = {
             heading: "Securing Cloud Journey: Cloud Security Services",
             image:
               "/cybersecurity-solutions-and-services/secondary-image-6.png",
-            icon: currency,
+            icon: cybersecurityIcon6,
             content:
               "Protect your cloud deployments on platforms like AWS, Azure, and GCP with specialized security protocols embedded in your systems. Our cloud security services ensure that your data remains secure, regardless of where it is stored or how it is accessed.",
           },
@@ -6222,7 +6334,7 @@ const subServicePagesContent = {
             heading: "Shielding  Inbox: Phishing Prevention and Email Security",
             image:
               "/cybersecurity-solutions-and-services/secondary-image-7.png",
-            icon: currency,
+            icon: cybersecurityIcon7,
             content:
               "Implement robust email filtering and phishing prevention strategies to safeguard against sophisticated email-borne threats. Our solutions reduce the risk of phishing attacks, often the entry point for more serious cyber threats.",
           },
@@ -6231,7 +6343,7 @@ const subServicePagesContent = {
             heading: "Cybersecurity Training and Awareness Programs",
             image:
               "/cybersecurity-solutions-and-services/secondary-image-8.png",
-            icon: currency,
+            icon: cybersecurityIcon8,
             content:
               "Equip your staff with the knowledge to recognize and respond to cybersecurity threats with comprehensive training programs. These programs are essential for fostering a security-conscious culture where every employee can act as a first line of defense against cyber threats.",
           },
@@ -6344,7 +6456,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "Unifying your Ecosystem:  GCP Tools Integration",
             image: "/gcp-services-and-support/secondary-image-1.png",
-            icon: currency,
+            icon: gcpIcon1,
             content:
               "Personalized GCP integration services consolidate your infrastructure and leverage the full range of Google Cloud’s computing and hosting solutions for robust, future-ready business operations. Our integrations are designed to streamline your workflows and maximize the efficiency of your cloud resources, ensuring you stay ahead in a competitive market.",
           },
@@ -6352,7 +6464,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Effortless Application Deployment on GCP",
             image: "/gcp-services-and-support/secondary-image-2.png",
-            icon: currency,
+            icon: gcpIcon2,
             content:
               "Expert deployment and management, utilizing GCP’s Kubernetes Engine for container orchestration and Cloud Functions for responsive, event-driven applications. This service ensures that your applications are deployed efficiently and can scale dynamically in response to user demand, reducing overhead and improving service reliability.",
           },
@@ -6360,7 +6472,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "Insights with Data Analytics and Machine Learning ",
             image: "/gcp-services-and-support/secondary-image-3.png",
-            icon: currency,
+            icon: gcpIcon3,
             content:
               "Gain transformational insights with GCP’s BigQuery and AI Platform, offering powerful analytics and machine learning capabilities for data-driven decision-making. We help you unlock the value of your data, enabling predictive analytics and smarter business strategies that can drive growth and innovation.",
           },
@@ -6368,7 +6480,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "Enhanced Security and Compliance on GCP",
             image: "/gcp-services-and-support/secondary-image-4.png",
-            icon: currency,
+            icon: gcpIcon4,
             content:
               "Our comprehensive security and compliance solutions ensure your data is managed with the utmost integrity and meets regulatory requirements with GCP’s cutting-edge security tools. We focus on safeguarding your data assets and ensuring compliance across all operations, reducing risk and enhancing trust with your customers.",
           },
@@ -6376,7 +6488,7 @@ const subServicePagesContent = {
             num: "05",
             heading: "Building for the Future: Custom GCP Architectures",
             image: "/gcp-services-and-support/secondary-image-5.png",
-            icon: currency,
+            icon: gcpIcon5,
             content:
               "Develop custom cloud architectures on GCP that are meticulously designed to meet the specific requirements of your applications and workloads for enhanced performance and scalability. This tailored approach ensures your infrastructure supports your business needs effectively, adapting to changing demands without compromising on speed or quality.",
           },
@@ -6384,7 +6496,7 @@ const subServicePagesContent = {
             num: "06",
             heading: "Streamlined GCP Migration Services",
             image: "/gcp-services-and-support/secondary-image-6.png",
-            icon: currency,
+            icon: gcpIcon6,
             content:
               "Migrate your existing workloads and applications to GCP with minimal disruption, leveraging our expertise for a smooth transition and quick adoption. Our strategic planning minimizes downtime, ensuring business continuity and a seamless migration experience that accelerates your cloud transformation journey.",
           },
@@ -6392,7 +6504,7 @@ const subServicePagesContent = {
             num: "07",
             heading: "Control Your Cloud Spend with GCP Cost Optimization",
             image: "/gcp-services-and-support/secondary-image-7.png",
-            icon: currency,
+            icon: gcpIcon7,
             content:
               "Utilize our cost management services to maximize your investment in GCP, ensuring you only pay for the resources you need while maintaining optimal performance. We implement cost-effective strategies that optimize resource usage and reduce expenses, ensuring you achieve the best possible return on your cloud investment.",
           },
@@ -6400,7 +6512,7 @@ const subServicePagesContent = {
             num: "08",
             heading: "Focus on Innovation: GCP Managed Services",
             image: "/gcp-services-and-support/secondary-image-8.png",
-            icon: currency,
+            icon: gcpIcon8,
             content:
               "Allow our team to manage your GCP environment, handling all operational tasks, from routine maintenance to proactive monitoring and optimization. This comprehensive management frees you to focus on your core business functions, enhancing productivity and enabling innovation without the burden of day-to-day cloud operations management.",
           },
@@ -6513,7 +6625,7 @@ const subServicePagesContent = {
             heading: "Customized Team and Cultural Integration",
             image:
               "/offshore-development-centre-services/secondary-image-1.png",
-            icon: currency,
+            icon: offshoreIcon1,
             content:
               " Build your offshore team with professionals selected to meet your project requirements and embody your company's culture and values. This will ensure seamless operational integration between your onshore and offshore teams, helping promote cohesion and maintain consistent business practices across geographies.",
           },
@@ -6523,7 +6635,7 @@ const subServicePagesContent = {
               "Best-in-Class Infrastructure and Flexible Resource Allocation",
             image:
               "/offshore-development-centre-services/secondary-image-2.png",
-            icon: currency,
+            icon: offshoreIcon2,
             content:
               "Our ODCs boast the latest modern technology suites in an environment conducive to high productivity and security. They can also rapidly adapt team size and skills to match project demands. This ensures your team operates efficiently and can scale quickly to meet evolving project needs.",
           },
@@ -6533,7 +6645,7 @@ const subServicePagesContent = {
               "Full-Spectrum Development, Testing, and Quality Assurance",
             image:
               "/offshore-development-centre-services/secondary-image-3.png",
-            icon: currency,
+            icon: offshoreIcon3,
             content:
               "Cover every software development and testing aspect, ensuring your products meet the highest standards and market demands. Our rigorous QA protocols and comprehensive development services allow you to focus on core business priorities.",
           },
@@ -6542,7 +6654,7 @@ const subServicePagesContent = {
             heading: "Strategic Project Management and Ongoing Support",
             image:
               "/offshore-development-centre-services/secondary-image-4.png",
-            icon: currency,
+            icon: offshoreIcon4,
             content:
               "Implement efficient project management strategies for timely delivery aligned with business objectives, supported by continuous maintenance and IT support to ensure software performance. This dual focus guarantees your projects stay on track and your applications run smoothly.",
           },
@@ -6551,7 +6663,7 @@ const subServicePagesContent = {
             heading: "Safeguarding Innovation: IP Protection and Data Security",
             image:
               "/offshore-development-centre-services/secondary-image-5.png",
-            icon: currency,
+            icon: offshoreIcon5,
             content:
               "Safeguard the integrity of your intellectual property and data with robust security protocols and stringent compliance measures. We prioritize top-tier security practices to protect your assets and ensure confidentiality and integrity in all operations.",
           },
@@ -6560,7 +6672,7 @@ const subServicePagesContent = {
             heading: "Dedicated Research and Development Services",
             image:
               "/offshore-development-centre-services/secondary-image-6.png",
-            icon: currency,
+            icon: offshoreIcon6,
             content:
               "Leverage specialized R&D teams at our Offshore Development Centers to foster innovation and explore new technologies, keeping you ahead of the curve in industry trends and advancements. This ensures your solutions remain cutting-edge and relevant.",
           },
@@ -6569,7 +6681,7 @@ const subServicePagesContent = {
             heading: "Advanced analytics and reporting solutions",
             image:
               "/offshore-development-centre-services/secondary-image-7.png",
-            icon: currency,
+            icon: offshoreIcon7,
             content:
               "Utilize our advanced analytics to gain deep insights into your offshore operations, with regular reporting to track progress and inform strategic decision-making. This enables you to make data-driven decisions that optimize your offshore development processes.",
           },
@@ -6578,7 +6690,7 @@ const subServicePagesContent = {
             heading: "Communication Training and Support",
             image:
               "/offshore-development-centre-services/secondary-image-8.png",
-            icon: currency,
+            icon: offshoreIcon8,
             content:
               " Provide dedicated language and communication training for offshore teams to overcome language barriers and ensure clear, effective cross-cultural collaboration. Enhanced communication skills lead to better project outcomes and more efficient team dynamics.",
           },
@@ -6705,7 +6817,7 @@ const subServicePagesContent = {
             heading: "Custom Salesforce Integration and Data Connectivity",
             image:
               "/salesforce-integration-and-optimization/secondary-image-1.png",
-            icon: currency,
+            icon: salesforceIcon1,
             content:
               "Develop Salesforce solutions specific to industries like finance, healthcare, or retail and enhance data connectivity across your value chain. This integration ensures your Salesforce ecosystem is cohesive, improving data accessibility and operational coherence.",
           },
@@ -6714,7 +6826,7 @@ const subServicePagesContent = {
             heading: "Efficiency and Process Automation",
             image:
               "/salesforce-integration-and-optimization/secondary-image-2.png",
-            icon: currency,
+            icon: salesforceIcon2,
             content:
               "Utilize Salesforce to automate tasks and streamline processes, enhancing operational efficiency and customer relationship management. This automation drives productivity and improves service delivery by reducing manual efforts and errors.",
           },
@@ -6723,7 +6835,7 @@ const subServicePagesContent = {
             heading: "Predictive Customer Engagement and Analytics",
             image:
               "/salesforce-integration-and-optimization/secondary-image-3.png",
-            icon: currency,
+            icon: salesforceIcon3,
             content:
               "Leverage Salesforce AI and analytics to forecast customer needs and analyze behavior, proactively engaging them and driving informed decision-making. This approach not only enhances customer satisfaction but also boosts sales through targeted marketing strategies.",
           },
@@ -6732,7 +6844,7 @@ const subServicePagesContent = {
             heading: "Salesforce Cloud and Mobile Integration",
             image:
               "/salesforce-integration-and-optimization/secondary-image-4.png",
-            icon: currency,
+            icon: salesforceIcon4,
             content:
               " Seamlessly integrate Salesforce with cloud services like AWS, GCP, and Azure and extend its capabilities to mobile devices. This dual integration ensures unified access to customer data across platforms and enhances CRM functionality for teams on the go.",
           },
@@ -6741,7 +6853,7 @@ const subServicePagesContent = {
             heading: "Custom App Development on Salesforce",
             image:
               "/salesforce-integration-and-optimization/secondary-image-5.png",
-            icon: currency,
+            icon: salesforceIcon5,
             content:
               "Build bespoke Salesforce applications tailored to your unique business processes, enhancing functionality and user engagement. These custom apps are designed to fit perfectly within your operational framework, providing tailored solutions that improve efficiency and user experience.",
           },
@@ -6750,7 +6862,7 @@ const subServicePagesContent = {
             heading: "Unleashing the Power of Salesforce training ,adoption",
             image:
               "/salesforce-integration-and-optimization/secondary-image-6.png",
-            icon: currency,
+            icon: salesforceIcon6,
             content:
               " Provide comprehensive training programs to ensure your team fully leverages Salesforce functionality, thereby maximizing ROI through increased adoption rates. Effective training enhances user competence and confidence, leading to better utilization of the CRM system.",
           },
@@ -6759,7 +6871,7 @@ const subServicePagesContent = {
             heading: "Advanced Security and Compliance Management",
             image:
               "/salesforce-integration-and-optimization/secondary-image-7.png",
-            icon: currency,
+            icon: salesforceIcon7,
             content:
               "Enhance your Salesforce deployments with robust security measures and compliance management. We ensure your Salesforce environment adheres to the latest security protocols and regulatory requirements, protecting sensitive data and maintaining trust.",
           },
@@ -6768,7 +6880,7 @@ const subServicePagesContent = {
             heading: "Innovative Solutions with Salesforce IoT and AI",
             image:
               "/salesforce-integration-and-optimization/secondary-image-8.png",
-            icon: currency,
+            icon: salesforceIcon8,
             content:
               "Harness the power of Salesforce IoT and AI to create innovative solutions that transform customer interactions and operational processes. These technologies enable you to develop smarter, more responsive services that anticipate customer needs and optimize operations.",
           },
@@ -6984,6 +7096,226 @@ export async function searchBar(query, category = null, page) {
   }
   const sortedData = results.slice(startIndex, startIndex + 6);
   const pageNumber = Math.ceil(results.length / 6);
+  const newData = {
+    children: [...sortedData],
+    pageNumber: pageNumber,
+    totalResults: results.length,
+    startIndex: startIndex + 1,
+  };
+
+  return newData;
+}
+
+const jobs = [
+  {
+    title: "Java Python Developer",
+    location: "Mumbai, Chennai, Bangalore, Hyderabad, Pune",
+    type: "Remote",
+    exp: "4 - 8 years",
+    link: "",
+  },
+  {
+    title: "Airline Domain - Java Fullstack Developer",
+    location: "Mumbai, Bangalore, Chennai",
+    type: "Remote",
+    exp: "5 - 10 years",
+    link: "",
+  },
+  {
+    title: "SAP ECP/HCM Consultant - E2E Implementation",
+    location: "Hyderabad, Chennai, Bengaluru",
+    exp: "8 - 13 years",
+    type: "Remote",
+    link: "",
+  },
+  {
+    title: "Immediate Requirement Java Sql Developer",
+    location: "Chennai, Bengaluru, Mumbai (All Areas)",
+    exp: "5 - 10 years",
+    type: "On Site",
+    link: "",
+  },
+  {
+    title: "Airline Domain - Java Python Developer",
+    location: "Mumbai, Chennai, Bengaluru",
+    type: "Remote",
+    exp: "8 - 13 years",
+    link: "",
+  },
+  {
+    title: "Immediate Requirement Angular Developer",
+    location: "Hiring office located in Mumbai (All Areas)",
+    type: "On Site",
+    exp: "5 - 10 years",
+    link: "",
+  },
+  {
+    title: "Java Full Stack Developer - Spring/Hibernate",
+    location: "Mumbai, Chennai, Bengaluru",
+    type: "On Site",
+    exp: "4 - 9 years",
+    link: "",
+  },
+  {
+    title: "Associate Manager",
+    location: "Bangalore Rural, Chennai, Mumbai (All Areas)",
+    type: "On Site",
+    exp: "6 - 10 years",
+    link: "",
+  },
+  {
+    title: "SAP FICO & S/4 HANA Consultant - BTP Module",
+    location: "Mumbai, Delhi / NCR, Bengaluru",
+    type: "On Site",
+    exp: "8 - 13 years",
+    link: "",
+  },
+  {
+    title: "Immediate Requirement International Voice Process",
+    location: "Hiring office located in Bengaluru",
+    type: "On Site",
+    exp: "1 - 4 years",
+    link: "",
+  },
+  {
+    title: "Immediate requirement Hyperion Developer",
+    location: "Hiring office located in Bengaluru",
+    type: "On Site",
+    exp: "9 - 14 years",
+    link: "",
+  },
+  {
+    title: "Urgent requirement For Sr.Java Developer with SQL expertise",
+    location: "Chennai, Bengaluru",
+    type: "On Site",
+    exp: "6 - 10 years",
+    link: "",
+  },
+  {
+    title: "Airline Domain - Fullstack Developer",
+    location: "Chennai, Bengaluru, Mumbai (All Areas)",
+    type: "On Site",
+    exp: "4 - 9 years",
+    link: "",
+  },
+  {
+    title: "Immediate requirement Java Fullstack Developer",
+    location: "Hiring office located in Mumbai (All Areas)",
+    type: "On Site",
+    exp: "5 - 10 years",
+    link: "",
+  },
+  {
+    title: "Immediate requirement For Java Technical Lead",
+    location: "Hiring office located in Mumbai (All Areas)",
+    type: "On Site",
+    exp: "9 - 14 years",
+    link: "",
+  },
+  {
+    title: ".Net Developer - ASP/Blazor",
+    location: "Kolkata, Bengaluru",
+    type: "On Site",
+    exp: "6 - 10 years",
+    link: "",
+  },
+  {
+    title: "SAP FICO Consultant - Implementation & Support",
+    location: "Kolkata, Bengaluru",
+    type: "On Site",
+    exp: "8 - 13 years",
+    link: "",
+  },
+  {
+    title: "Immediate Requirement For SAP ECP/HCM Consultant",
+    location: "Hiring office located in Bengaluru",
+    type: "Remote",
+    exp: "9 - 14 years",
+    link: "",
+  },
+  {
+    title: "Hiring For Sr.Angular Developer - Airline Domain",
+    location: "Bangalore Rural, Chennai",
+    type: "On Site",
+    exp: "5 - 10 years",
+    link: "",
+  },
+  {
+    title: "Dft Design Engineer",
+    location: "Bangalore,Karnataka",
+    type: "On Site",
+    exp: "6 - 11 years",
+    link: "",
+  },
+  {
+    title: "Airline Domain - Java Technical Lead",
+    location: "Hiring office located in Mumbai",
+    type: "Remote",
+    exp: "10 - 19 years",
+    link: "",
+  },
+  {
+    title: "Airline Domain - Senior Angular developer",
+    location: "Hiring office located in Mumbai (All Areas)",
+    type: "Remote",
+    exp: "5 - 9 years",
+    link: "",
+  },
+  {
+    title: "Full Stack Developers",
+    location: "Pune, kharadhi",
+    type: "Hybrid",
+    exp: "7 - 10 years",
+    link: "",
+  },
+  {
+    title: "Hiring For SAP HCM/ECP Consultant",
+    location: "Hiring office located in Any where in india",
+    type: "Remote",
+    exp: "9 - 14 years",
+    link: "",
+  },
+  {
+    title: "Hyperion Developer",
+    location: "Hiring office located in Any where in india",
+    type: "Remote",
+    exp: "8 - 13 years",
+    link: "",
+  },
+  {
+    title: "SAP FICO & S/4 HANA Consultant - BTP Module",
+    location: "Andhra Pradesh, Karnataka, Kerala, Tamil Nadu",
+    type: "On Site",
+    exp: "8 - 13 years",
+    link: "",
+  },
+];
+
+export async function jobSearchBar(query, location, type = null, page) {
+  const startIndex = (page - 1) * 8;
+  let results = [];
+
+  results = results.concat(
+    jobs.filter((job) => {
+      return (
+        job.title.toLowerCase().includes(query.toLowerCase()) &&
+        job.location.toLowerCase().includes(location.toLowerCase())
+      );
+    })
+  );
+
+  if (type !== "any") {
+    if (type === "remote") {
+      results = results.filter((item) => item.type == "Remote");
+    } else if (type === "on site") {
+      results = results.filter((item) => item.type == "On Site");
+    } else if (type === "hybrid") {
+      results = results.filter((item) => item.type == "Hybrid");
+    }
+  }
+
+  const sortedData = results.slice(startIndex, startIndex + 8);
+  const pageNumber = Math.ceil(results.length / 8);
   const newData = {
     children: [...sortedData],
     pageNumber: pageNumber,

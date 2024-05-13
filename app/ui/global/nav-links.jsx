@@ -33,7 +33,6 @@ export default function NavLinks({ setServiceHovered, servicesHovered }) {
 
   useEffect(() => {
     setOpen(false);
-    console.log(searchParams);
   }, [searchParams]);
 
   function openMenu() {

@@ -16,6 +16,7 @@ import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Path5 from "@/app/ui/global/path-5";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import OfferingGlobeAnimation from "@/app/ui/global/globe-animation";
+import Link from "next/link";
 
 export const metadata = {
   title: "Delivering Innovative Solutions to Help Businesses Grow – Qcentrio",
@@ -30,7 +31,9 @@ export default function ServicesListing() {
         <NavBarContainer />
       </div>
       <ServiceListingHeadSection />
-      <AllServices />
+      <div id="get-started">
+        <AllServices />
+      </div>
       <BusinessTodaySection />
       <Footer />
       <CopyrightBar />
@@ -60,13 +63,17 @@ function ServiceListingHeadSection() {
         <h3 data-option="up" className="heading3 animate-hidden animate">
           INTO THE FUTURE
         </h3>
-        <div data-option="up" className="btn-container animate-hidden animate">
-          <p>Get Started</p>
-          <span>
-            <Image src={arrow} alt="" />
-          </span>
-          <Path5 />
-        </div>
+        <Link href="#get-started">
+          <div
+            data-option="up"
+            className="btn-container animate-hidden animate">
+            <p>Get Started</p>
+            <span>
+              <Image src={arrow} alt="" />
+            </span>
+          </div>
+        </Link>
+        <Path5 />
       </div>
     </div>
   );
@@ -147,7 +154,9 @@ function BusinessTodaySection() {
           Contact us now to get started and discover the power of
           Qcentrio&lsquo;s services.
         </p>
-        <Button name="Get Started" />
+        <Link className="w-fit ml-auto mr-auto" href="/contact-us">
+          <Button name="Get Started" />
+        </Link>
       </div>
     </div>
   );

@@ -52,10 +52,6 @@ export default function AccordianOfferings({ data }) {
     }
   }
 
-  console.log(tempIndex);
-  console.log(index);
-  console.log(clicked);
-
   useEffect(() => {
     const handleScroll = () => {
       setScrollPosition(window.scrollY);

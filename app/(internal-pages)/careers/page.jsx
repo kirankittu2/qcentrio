@@ -7,7 +7,6 @@ import showcase1 from "@/public/career-showcase-1.png";
 import showcase2 from "@/public/career-showcase-2.png";
 import showcase3 from "@/public/career-showcase-3.png";
 import Card from "@/app/ui/global/card";
-import Pagination from "@/app/ui/blogs/pagination";
 import Link from "next/link";
 import Button from "@/app/ui/global/button";
 import Path8 from "@/app/ui/global/path-8";
@@ -15,9 +14,9 @@ import settings from "@/public/settings.svg";
 import strategy from "@/public/strategy.svg";
 import support from "@/public/support.svg";
 import cloud from "@/public/cloud.svg";
-import arrow from "@/public/white-redirect-arrow.svg";
 import Script from "next/script";
-import { Suspense } from "react";
+import { jobSearchBar } from "@/app/lib/data";
+import Jobs from "@/app/ui/careers/search";
 
 export const metadata = {
   title:
@@ -26,7 +25,13 @@ export const metadata = {
     "Discover exciting careers and a fulfilling life at Qcentrio, the global IT leader in AI, cloud solutions, and innovation. Explore our job opportunities and join our team today!",
 };
 
-export default function Careers() {
+export default async function Careers({ searchParams }) {
+  const title = searchParams?.title || "";
+  const location = searchParams?.location || "";
+  const type = searchParams?.type || null;
+  const page = searchParams?.page || 1;
+  const results = await jobSearchBar(title, location, type, page);
+
   return (
     <div className="careers">
       <div className="hero">
@@ -35,7 +40,7 @@ export default function Careers() {
       <CareersHero />
       <CareersWhyQcentrio />
       <CareersCommunity />
-      <Jobs />
+      <Jobs results={results} page={page} />
       <Benefits />
       <CareerShowcase />
       <CareerContact />
@@ -137,85 +142,6 @@ function CareersCommunity() {
           content="Work in a diverse environment with equal opportunities."
         />
       </div>
-    </div>
-  );
-}
-
-function Jobs() {
-  return (
-    <div id="jobs" className="jobs-section">
-      <div>
-        <div className="jobs-content">
-          <h2
-            data-option="strip-slide-up"
-            className="jobs-content-heading animate strip-slide-up strip-slide-black">
-            Join Us: Be Part of Something Bigger
-          </h2>
-          <p data-option="up" className="animate animate-hidden">
-            If you're passionate about technology and eager to make a
-            difference, we'd love to hear from you. Explore our current openings
-            and discover how you can contribute to the exciting world of IT
-            innovation at Qcentrio.
-          </p>
-          <Link href="/contact-us">
-            <Button name="Contact Us" />
-          </Link>
-        </div>
-        <div className="jobs-main">
-          <div data-option="up" className="job animate animate-hidden">
-            <div>
-              <p className="job-location">
-                Location : Bangalore ( Remote / On-site )
-              </p>
-              <div className="job-experience">3 - 5 years Experience</div>
-              <div className="job-title">PHP Developer - Symfony/MySQL</div>
-            </div>
-            <div className="job-link-column">
-              <Link href="/careers/php-developer">
-                <div className="job-link">
-                  <Image src={arrow} alt="" />
-                </div>
-              </Link>
-            </div>
-          </div>
-          <div data-option="up" className="job animate animate-hidden">
-            <div>
-              <p className="job-location">
-                Location : Bangalore ( Remote / On-site )
-              </p>
-              <div className="job-experience">7 - 11 years Experience</div>
-              <div className="job-title"> Hyperion Developer</div>
-            </div>
-            <div className="job-link-column">
-              <Link href="/careers/hyperion-developer">
-                <div className="job-link">
-                  <Image src={arrow} alt="" />
-                </div>
-              </Link>
-            </div>
-          </div>
-
-          <div data-option="up" className="job animate animate-hidden">
-            <div>
-              <p className="job-location">
-                Location : Bangalore ( Remote / On-site )
-              </p>
-              <div className="job-experience">5 - 10 years Experience</div>
-              <div className="job-title"> SAP CPI Consultant</div>
-            </div>
-            <div className="job-link-column">
-              <Link href="/careers/sap-cpi-consultant">
-                <div className="job-link">
-                  <Image src={arrow} alt="" />
-                </div>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-      <Suspense>
-        <Pagination paginationNum="4" page="0" />
-      </Suspense>
     </div>
   );
 }
