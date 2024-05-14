@@ -700,4 +700,21 @@
   .thank-you-note{
     padding: 15px;
   }
+  .jobs-main-search-container{
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+  .job{
+    padding: 20px;
+  }
+  .accordian-offering-title{
+    white-space: unset;
+  }
+  .accordian-offering.accordian-offering-active .service-sub-offerings{
+    display: none;
+  }
+  .accordian-offering-content-hidden{
+    font-size: 16px;
+  }
 }

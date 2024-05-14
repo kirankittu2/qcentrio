@@ -40,7 +40,7 @@ export default function Discover() {
         </div>
         <div className="discover-content">
           <h2 className="discover-heading">Life at Qcentrio</h2>
-          <Link className="w-fit" href="/about-us">
+          <Link className="w-fit" href="/careers">
             <p className="discover-btn">
               Discover
               <span>

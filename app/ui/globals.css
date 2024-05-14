@@ -3353,6 +3353,7 @@ h2.blog-page-side-heading {
   font-size: 42px;
   font-family: "Quadran-Black";
   letter-spacing: -1px;
+  text-transform: uppercase;
 }
 
 .job-description-section {
@@ -3511,6 +3512,10 @@ td {
   background-size: cover;
   background-position: left -400px top 0px;
   background-blend-mode: multiply;
+}
+
+.sub-service .accordian-offering{
+  cursor: inherit;
 }
 
 .sub-service .accordian-offering {
@@ -4593,8 +4598,8 @@ td {
 
 #path-5 {
   position: absolute;
-  top: 65%;
-  right: -4vw;
+  top: 57%;
+  right: 10vw;
 }
 
 /* sub service page */
@@ -5763,14 +5768,21 @@ td {
 
 .mobile-menu-link{
   font-size: 16px;
-  font-family: "Quadran-Bold";
+  font-family: "Quadran-Black";
   color: white;
   
+}
+
+.mobile-mega-menu-container > .mobile-menu-link{
+  padding-left: 30px;
 }
 
 .mobile-menu-link a{
   color: white;
   text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
 }
 
 .mobile-mega-menu a{
@@ -5787,7 +5799,7 @@ td {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-left: 30px;
+  /* padding-left: 30px; */
   max-height: 0;
   overflow: hidden;
   transition: all 1s linear;
@@ -5797,20 +5809,30 @@ td {
   max-height: 1000px;
 }
 
-.mobile-mega-menu-container .mobile-menu-link{
-  font-family: "Quadran-Regular";
+.mobile-mega-menu-container > .mobile-menu-link{
+  font-family: "Quadran-Bold";
 }
 
 .mobile-mega-sub-menu-container{
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-left: 30px;
+  /* gap: 10px; */
+  /* padding-left: 30px; */
 }
 
 .mobile-mega-sub-menu-container .mobile-menu-link{
   font-size: 15px;
   font-family: "Quadran-Light";
+}
+
+.mobile-mega-sub-menu-container .mobile-menu-link a{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+
+.mobile-mega-sub-menu-container .mobile-menu-link:hover{
+  background-color: #089768;
 }
 
 @media screen and (max-width: 1764px) {

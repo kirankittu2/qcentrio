@@ -7,7 +7,6 @@ import service3 from "@/public/service-3.png";
 import service4 from "@/public/service-4.png";
 import service5 from "@/public/service-5.png";
 import service6 from "@/public/service-6.png";
-import globe from "@/public/globe.svg";
 
 import Button from "@/app/ui/global/button";
 import ServiceCard from "@/app/ui/global/service-card";

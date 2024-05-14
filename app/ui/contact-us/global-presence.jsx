@@ -37,7 +37,7 @@ export default function GlobalPresence() {
           num="3"
           image={country3}
           title="India"
-          content="Unit # 504D, 5th floor, 126(P), PSR Prime Tower, Gachibowli, Hyderabad, TN, 500032"
+          content="Unit # 504D, 5th floor, 126(P), PSR Prime Tower, Gachibowli, Hyderabad, India, 500032"
         />
         <CountryCard
           num="4"
@@ -73,7 +73,7 @@ export default function GlobalPresence() {
           num="3"
           image={country3}
           title="India"
-          content="Unit # 504D, 5th floor, 126(P), PSR Prime Tower, Gachibowli, Hyderabad, TN, 500032"
+          content="Unit # 504D, 5th floor, 126(P), PSR Prime Tower, Gachibowli, Hyderabad, India, 500032"
         />
         <CountryCard
           num="4"
@@ -109,7 +109,7 @@ export default function GlobalPresence() {
           num="3"
           image={country3}
           title="India"
-          content="Unit # 504D, 5th floor, 126(P), PSR Prime Tower, Gachibowli, Hyderabad, TN, 500032"
+          content="Unit # 504D, 5th floor, 126(P), PSR Prime Tower, Gachibowli, Hyderabad, India, 500032"
         />
         <CountryCard
           num="4"

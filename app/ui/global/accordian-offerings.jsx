@@ -96,6 +96,15 @@ export default function AccordianOfferings({ data }) {
       }
     });
 
+    const headings = document.querySelectorAll(
+      ".accordian-offering-title-hidden"
+    );
+    headings.forEach((item) => {
+      if (item.classList.contains("slideup")) {
+        item.classList.remove("slideup");
+      }
+    });
+
     // refsArray.current.forEach((item) => {
     //   const heading = item.querySelector(".accordian-offering-title-hidden");
     //   if (heading.classList.contains("animate")) {
@@ -141,8 +150,20 @@ export default function AccordianOfferings({ data }) {
                 }}
                 onClick={handleURLRedirect}
                 onMouseOver={(event) => handleHover(i, event)}
-                onMouseEnter={changeCursor}
-                onMouseLeave={defaultCursor}>
+                onMouseEnter={() => {
+                  if (window.innerWidth >= 900) {
+                    changeCursor();
+                  } else {
+                    document.body.style.cursor = "initial";
+                  }
+                }}
+                onMouseLeave={() => {
+                  if (window.innerWidth >= 900) {
+                    defaultCursor();
+                  } else {
+                    document.body.style.cursor = "initial";
+                  }
+                }}>
                 <div>
                   <div className="accordian-offering-head">
                     <div className="accordian-offering-icon">
@@ -157,8 +178,8 @@ export default function AccordianOfferings({ data }) {
                   <h2 className="accordian-offering-title">{item.heading}</h2>
                   <div>
                     <h2
-                      data-option="strip-slide-up"
-                      className="accordian-offering-title-hidden">
+                      data-option="up"
+                      className="accordian-offering-title-hidden animate animate-hidden">
                       {item.heading}
                     </h2>
                     <p

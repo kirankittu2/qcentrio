@@ -40,7 +40,7 @@ export default async function Careers({ searchParams }) {
       <CareersHero />
       <CareersWhyQcentrio />
       <CareersCommunity />
-      <Jobs results={results} page={page} />
+      <Jobs results={results} page={page} searchParams={searchParams} />
       <Benefits />
       <CareerShowcase />
       <CareerContact />

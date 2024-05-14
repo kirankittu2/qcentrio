@@ -263,6 +263,126 @@ import blckchainSolutionIcon5 from "@/public/blockchain-solution-development/sup
 import blckchainSolutionIcon6 from "@/public/blockchain-solution-development/performance-optimization.svg";
 import blckchainSolutionIcon7 from "@/public/blockchain-solution-development/scalability-solutions.svg";
 import blckchainSolutionIcon8 from "@/public/blockchain-solution-development/privacy.svg";
+import blockchainStrategyIcon1 from "@/public/blockchain-strategy-and-advisory/blockchain.svg";
+import blockchainStrategyIcon2 from "@/public/blockchain-strategy-and-advisory/innovative-contract.svg";
+import blockchainStrategyIcon3 from "@/public/blockchain-strategy-and-advisory/blockchain-security.svg";
+import blockchainStrategyIcon4 from "@/public/blockchain-strategy-and-advisory/development-integration.svg";
+import blockchainStrategyIcon5 from "@/public/blockchain-strategy-and-advisory/blockchain-iot.svg";
+import blockchainStrategyIcon6 from "@/public/blockchain-strategy-and-advisory/blockchain-training.svg";
+import blockchainStrategyIcon7 from "@/public/blockchain-strategy-and-advisory/blockchain-analytics.svg";
+import blockchainStrategyIcon8 from "@/public/blockchain-strategy-and-advisory/enterprise-blockchain.svg";
+import collabIcon1 from "@/public/collaboration-and-productivity-solutions/integration-communication.svg";
+import collabIcon2 from "@/public/collaboration-and-productivity-solutions/workspace.svg";
+import collabIcon3 from "@/public/collaboration-and-productivity-solutions/productivity-tracking.svg";
+import collabIcon4 from "@/public/collaboration-and-productivity-solutions/team-communication.svg";
+import collabIcon5 from "@/public/collaboration-and-productivity-solutions/project-management.svg";
+import collabIcon6 from "@/public/collaboration-and-productivity-solutions/workspace-management.svg";
+import collabIcon7 from "@/public/collaboration-and-productivity-solutions/dynamic-scheduling.svg";
+import collabIcon8 from "@/public/collaboration-and-productivity-solutions/remote-work.svg";
+import crmIcon1 from "@/public/crm-system-solutions/implementation.svg";
+import crmIcon2 from "@/public/crm-system-solutions/crm-microsoft.svg";
+import crmIcon3 from "@/public/crm-system-solutions/requirement-process.svg";
+import crmIcon4 from "@/public/crm-system-solutions/crm.svg";
+import crmIcon5 from "@/public/crm-system-solutions/crm-development.svg";
+import crmIcon6 from "@/public/crm-system-solutions/crm-migration.svg";
+import crmIcon7 from "@/public/crm-system-solutions/user-adoption.svg";
+import crmIcon8 from "@/public/crm-system-solutions/crm-integration.svg";
+import dataAnalystIcon1 from "@/public/data-analytics-and-business-intelligence/data-solution.svg";
+import dataAnalystIcon2 from "@/public/data-analytics-and-business-intelligence/exponential-performance.svg";
+import dataAnalystIcon3 from "@/public/data-analytics-and-business-intelligence/bi-solutions.svg";
+import dataAnalystIcon4 from "@/public/data-analytics-and-business-intelligence/data-integration.svg";
+import dataAnalystIcon5 from "@/public/data-analytics-and-business-intelligence/machine-learning.svg";
+import dataAnalystIcon6 from "@/public/data-analytics-and-business-intelligence/real-time-analytics.svg";
+import dataAnalystIcon7 from "@/public/data-analytics-and-business-intelligence/data-governance.svg";
+import dataAnalystIcon8 from "@/public/data-analytics-and-business-intelligence/data-visualization.svg";
+import auditIcon1 from "@/public/audit-and-assurance-services/technology-assurance.svg";
+import auditIcon2 from "@/public/audit-and-assurance-services/risk-management.svg";
+import auditIcon3 from "@/public/audit-and-assurance-services/cyber-security.svg";
+import auditIcon4 from "@/public/audit-and-assurance-services/process-verification.svg";
+import auditIcon5 from "@/public/audit-and-assurance-services/compliance-strategy.svg";
+import auditIcon6 from "@/public/audit-and-assurance-services/performance-auditing.svg";
+import auditIcon7 from "@/public/audit-and-assurance-services/data-quality.svg";
+import auditIcon8 from "@/public/audit-and-assurance-services/cyber-security_assessment.svg";
+import specialtyIcon1 from "@/public/specialty-services/quality-assurance.svg";
+import specialtyIcon2 from "@/public/specialty-services/testing.svg";
+import specialtyIcon3 from "@/public/specialty-services/deployment.svg";
+import specialtyIcon4 from "@/public/specialty-services/accessibility.svg";
+import specialtyIcon5 from "@/public/specialty-services/application-testing.svg";
+import specialtyIcon6 from "@/public/specialty-services/web-testing.svg";
+import specialtyIcon7 from "@/public/specialty-services/cloud-testing.svg";
+import specialtyIcon8 from "@/public/specialty-services/validating_user.svg";
+import oracleIcon1 from "@/public/oracle-cerner-advisory-services/customised-solutions.svg";
+import oracleIcon2 from "@/public/oracle-cerner-advisory-services/operational-excellence.svg";
+import oracleIcon3 from "@/public/oracle-cerner-advisory-services/health_analytics.svg";
+import oracleIcon4 from "@/public/oracle-cerner-advisory-services/user_adoption.svg";
+import oracleIcon5 from "@/public/oracle-cerner-advisory-services/migration.svg";
+import oracleIcon6 from "@/public/oracle-cerner-advisory-services/reliability.svg";
+import oracleIcon7 from "@/public/oracle-cerner-advisory-services/interoperability.svg";
+import oracleIcon8 from "@/public/oracle-cerner-advisory-services/data-security.svg";
+import riskIcon1 from "@/public/risk-advisory-services/cyber-security.svg";
+import riskIcon2 from "@/public/risk-advisory-services/data-protection.svg";
+import riskIcon3 from "@/public/risk-advisory-services/threat-intelligence.svg";
+import riskIcon4 from "@/public/risk-advisory-services/disaster-recovery.svg";
+import riskIcon5 from "@/public/risk-advisory-services/risk-management.svg";
+import riskIcon6 from "@/public/risk-advisory-services/vendor-risk.svg";
+import riskIcon7 from "@/public/risk-advisory-services/privacy-security.svg";
+import riskIcon8 from "@/public/risk-advisory-services/continous-monitoring.svg";
+import epicIcon1 from "@/public/epic-advisory-services/ehr-access.svg";
+import epicIcon2 from "@/public/epic-advisory-services/data-migration.svg";
+import epicIcon3 from "@/public/epic-advisory-services/flawless_solutions.svg";
+import epicIcon4 from "@/public/epic-advisory-services/healthcare-ecosystem.svg";
+import epicIcon5 from "@/public/epic-advisory-services/compliance.svg";
+import epicIcon6 from "@/public/epic-advisory-services/intreroperability.svg";
+import epicIcon7 from "@/public/epic-advisory-services/workflow.svg";
+import epicIcon8 from "@/public/epic-advisory-services/training.svg";
+import softwareIcon1 from "@/public/custom-software-application-development/java.svg";
+import softwareIcon2 from "@/public/custom-software-application-development/application-development.svg";
+import softwareIcon3 from "@/public/custom-software-application-development/cloud-app.svg";
+import softwareIcon4 from "@/public/custom-software-application-development/api.svg";
+import softwareIcon5 from "@/public/custom-software-application-development/modernization.svg";
+import softwareIcon6 from "@/public/custom-software-application-development/e-commerce.svg";
+import softwareIcon7 from "@/public/custom-software-application-development/erp-solutions.svg";
+import softwareIcon8 from "@/public/custom-software-application-development/saas-development.svg";
+import productIcon1 from "@/public/product-engineering-services/software-development.svg";
+import productIcon2 from "@/public/product-engineering-services/quality-assurance.svg";
+import productIcon3 from "@/public/product-engineering-services/product_lfe_cycle.svg";
+import productIcon4 from "@/public/product-engineering-services/user_experience.svg";
+import productIcon5 from "@/public/product-engineering-services/cloud_data.svg";
+import productIcon6 from "@/public/product-engineering-services/internet-of-things.svg";
+import productIcon7 from "@/public/product-engineering-services/block-chain.svg";
+import productIcon8 from "@/public/product-engineering-services/cyber-security.svg";
+import sapIcon1 from "@/public/comprehensive-sap-services/implementation.svg";
+import sapIcon2 from "@/public/comprehensive-sap-services/sap_solutions.svg";
+import sapIcon3 from "@/public/comprehensive-sap-services/customer_relationship.svg";
+import sapIcon4 from "@/public/comprehensive-sap-services/analytics_solutions.svg";
+import sapIcon5 from "@/public/comprehensive-sap-services/sap_support.svg";
+import sapIcon6 from "@/public/comprehensive-sap-services/tailored_solution.svg";
+import sapIcon7 from "@/public/comprehensive-sap-services/cloud-platform_service.svg";
+import sapIcon8 from "@/public/comprehensive-sap-services/empowering.svg";
+import aimlIcon1 from "@/public/artificial-Intelligence-machine-learning-offerings/predictive.svg";
+import aimlIcon2 from "@/public/artificial-Intelligence-machine-learning-offerings/ai_driven_process.svg";
+import aimlIcon3 from "@/public/artificial-Intelligence-machine-learning-offerings/machine_learning.svg";
+import aimlIcon4 from "@/public/artificial-Intelligence-machine-learning-offerings/ai_customer_service.svg";
+import aimlIcon5 from "@/public/artificial-Intelligence-machine-learning-offerings/machine-learning_ai_automation.svg";
+import aimlIcon6 from "@/public/artificial-Intelligence-machine-learning-offerings/data-processing.svg";
+import aimlIcon7 from "@/public/artificial-Intelligence-machine-learning-offerings/rpa.svg";
+import aimlIcon8 from "@/public/artificial-Intelligence-machine-learning-offerings/security-ai.svg";
+import roboticIcon1 from "@/public/robotic-process-automation-services/rpa_platform assessment.svg";
+import roboticIcon2 from "@/public/robotic-process-automation-services/sop.svg";
+import roboticIcon3 from "@/public/robotic-process-automation-services/proof_of_concept.svg";
+import roboticIcon4 from "@/public/robotic-process-automation-services/rpa_strategy.svg";
+import roboticIcon5 from "@/public/robotic-process-automation-services/bot_support_maintenance.svg";
+import roboticIcon6 from "@/public/robotic-process-automation-services/training_skill_development.svg";
+import roboticIcon7 from "@/public/robotic-process-automation-services/custom_rpa_solution.svg";
+import roboticIcon8 from "@/public/robotic-process-automation-services/analytics_prescriptive_reporting.svg";
+import genAiIcon1 from "@/public/generative-ai-solutions-and-offerings/chatgpt.svg";
+import genAiIcon2 from "@/public/generative-ai-solutions-and-offerings/advanced_analytics_ai.svg";
+import genAiIcon3 from "@/public/generative-ai-solutions-and-offerings/vision-value.svg";
+import genAiIcon4 from "@/public/generative-ai-solutions-and-offerings/productivity-automation-solutions.svg";
+import genAiIcon5 from "@/public/generative-ai-solutions-and-offerings/generative-ai-integration.svg";
+import genAiIcon6 from "@/public/generative-ai-solutions-and-offerings/insights-data-visualization.svg";
+import genAiIcon7 from "@/public/generative-ai-solutions-and-offerings/building_trust.svg";
+import genAiIcon8 from "@/public/generative-ai-solutions-and-offerings/customer_behavioue_analytics.svg";
 
 const blogs = {
   children: [
@@ -2067,7 +2187,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "SAP Implementation and Migration",
             image: "/sap-services-and-support/secondary-image-1.png",
-            icon: currency,
+            icon: sapIcon1,
             content:
               "Execute a seamless transition to advanced SAP platforms, with a focus on minimizing disruption and maximizing business value. We offer strategic planning and risk management to ensure a smooth migration.",
           },
@@ -2075,7 +2195,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Unlocking Business Agility: SAP S/4HANA Solutions",
             image: "/sap-services-and-support/secondary-image-2.png",
-            icon: currency,
+            icon: sapIcon2,
             content:
               "Leverage the next generation of the SAP business suite for faster, simpler, and more efficient business processes that propel decision-making. Our approach utilizes best practices to enhance system performance and user adoption.",
           },
@@ -2083,7 +2203,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "Boosting customer relationships with SAP CRM",
             image: "/sap-services-and-support/secondary-image-3.png",
-            icon: currency,
+            icon: sapIcon3,
             content:
               "Harness SAP CRM to deepen customer relationships and engagement, transform customer interactions, and boost sales growth. We provide tools for analytics-driven sales strategies and improved customer service capabilities.",
           },
@@ -2091,7 +2211,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "Data-Driven Decisions: SAP Analytics Solutions",
             image: "/sap-services-and-support/secondary-image-4.png",
-            icon: currency,
+            icon: sapIcon4,
             content:
               "Turn data into a strategic advantage with SAP Analytics, obtaining critical insights that drive better business outcomes. Our services include building bespoke dashboards and reports aligning with your business objectives.",
           },
@@ -2099,7 +2219,7 @@ const subServicePagesContent = {
             num: "05",
             heading: "Optimizing Performance: Continuous SAP Support",
             image: "/sap-services-and-support/secondary-image-5.png",
-            icon: currency,
+            icon: sapIcon5,
             content:
               " Benefit from uninterrupted SAP service excellence, ensuring your systems stay current, secure, and highly functional. We offer 24/7 support and proactive maintenance to help you avoid system downtimes and performance issues.",
           },
@@ -2107,7 +2227,7 @@ const subServicePagesContent = {
             num: "06",
             heading: "Scaling in the Cloud: SAP Cloud Platform Services",
             image: "/sap-services-and-support/secondary-image-6.png",
-            icon: currency,
+            icon: sapIcon6,
             content:
               "Harness the full power of cloud computing with SAP's cloud platform, ensuring flexible scalability and innovation in a secure cloud environment. We specialize in integrating existing systems with the cloud for a unified operation.",
           },
@@ -2115,7 +2235,7 @@ const subServicePagesContent = {
             num: "07",
             heading: "Building Tailored Solutions: SAP Custom Development",
             image: "/sap-services-and-support/secondary-image-7.png",
-            icon: currency,
+            icon: sapIcon7,
             content:
               "Tailor your SAP environment with custom-developed applications that meet your unique business processes and workflows for a competitive edge. Our development includes using advanced technologies like AI and machine learning for smarter, more efficient applications.",
           },
@@ -2123,7 +2243,7 @@ const subServicePagesContent = {
             num: "08",
             heading: "Empowering Your Workforce: SAP Training and Enablement",
             image: "/sap-services-and-support/secondary-image-8.png",
-            icon: currency,
+            icon: sapIcon8,
             content:
               "Equip your workforce with the necessary skills to maximize the use of SAP solutions through comprehensive training modules and user enablement programs. We focus on interactive and practical learning experiences to ensure high engagement and retention of material.",
           },
@@ -2242,7 +2362,7 @@ const subServicePagesContent = {
             heading: "Crafting Web Applications With Java and Full Stack ",
             image:
               "/software-and-application-development/secondary-image-1.png",
-            icon: currency,
+            icon: softwareIcon1,
             content:
               " Develop scalable, secure applications using the latest Java technologies. Cover all application layers from front-end to back-end with modern web development tools and techniques, ensuring robust enterprise solutions and seamless user experiences.",
           },
@@ -2251,7 +2371,7 @@ const subServicePagesContent = {
             heading: "MEAN Stack and Custom Application Development",
             image:
               "/software-and-application-development/secondary-image-2.png",
-            icon: currency,
+            icon: softwareIcon2,
             content:
               "Utilize the entire MEAN stack (MongoDB, Express, Angular, Node.js) for modern, efficient web applications combined with tailored solutions that meet specific business requirements, employing user-centric designs and agile methodologies.",
           },
@@ -2260,7 +2380,7 @@ const subServicePagesContent = {
             heading: "Mobile and Cloud Application Development",
             image:
               "/software-and-application-development/secondary-image-3.png",
-            icon: currency,
+            icon: softwareIcon3,
             content:
               "Create intuitive mobile applications for all devices using both native and cross-platform frameworks and develop scalable, flexible cloud-native applications across platforms like AWS, Azure, or Google Cloud.",
           },
@@ -2269,7 +2389,7 @@ const subServicePagesContent = {
             heading: "Unleashing the Power of API and Integration Services",
             image:
               "/software-and-application-development/secondary-image-4.png",
-            icon: currency,
+            icon: softwareIcon4,
             content:
               "Design and implement robust APIs using RESTful, SOAP, or GraphQL protocols to facilitate seamless integration and interoperability between various software systems, enhancing overall system efficiency.",
           },
@@ -2278,7 +2398,7 @@ const subServicePagesContent = {
             heading: "Legacy System Modernization and User Experience Design",
             image:
               "/software-and-application-development/secondary-image-5.png",
-            icon: currency,
+            icon: softwareIcon5,
             content:
               " Upgrade legacy systems with modern technologies to improve efficiency and UX design, focusing on user interaction and satisfaction with cutting-edge UX principles.",
           },
@@ -2287,7 +2407,7 @@ const subServicePagesContent = {
             heading: "eCommerce and SaaS Development",
             image:
               "/software-and-application-development/secondary-image-6.png",
-            icon: currency,
+            icon: softwareIcon6,
             content:
               "Develop custom eCommerce solutions using platforms like Magento, Shopify, or WooCommerce that drive sales and customer engagement, and build scalable SaaS platforms tailored to meet specific customer and business model needs.",
           },
@@ -2296,7 +2416,7 @@ const subServicePagesContent = {
             heading: "Enterprise Resource Planning (ERP) Solutions",
             image:
               "/software-and-application-development/secondary-image-7.png",
-            icon: currency,
+            icon: softwareIcon7,
             content:
               "Streamline business processes and enhance productivity with custom ERP software, seamlessly integrating various organizational functions using open-source and commercial systems.",
           },
@@ -2305,7 +2425,7 @@ const subServicePagesContent = {
             heading: "Software as a Service (SaaS) Development",
             image:
               "/software-and-application-development/secondary-image-8.png",
-            icon: currency,
+            icon: softwareIcon8,
             content:
               " Focus on creating cloud-based SaaS platforms that are scalable, accessible, and designed to serve diverse customer needs, employing modern development frameworks and tools.",
           },
@@ -2613,7 +2733,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "Software Development and Design",
             image: "/product-engineering-services/secondary-image-1.png",
-            icon: currency,
+            icon: productIcon1,
             content:
               "Create robust software solutions with user-centric design and seamless functionality, utilizing languages like Java, Python, C#, and PHP. This includes customized software solutions tailored to your business needs.",
           },
@@ -2621,7 +2741,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Agile and DevOps Integration with Quality Assurance",
             image: "/product-engineering-services/secondary-image-2.png",
-            icon: currency,
+            icon: productIcon2,
             content:
               " Integrate agile methodologies and DevOps practices for efficient and rapid development cycles, along with comprehensive QA and testing processes to ensure high-quality standards and continuous delivery.",
           },
@@ -2629,7 +2749,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "Product Lifecycle Management and Modernization",
             image: "/product-engineering-services/secondary-image-3.png",
-            icon: currency,
+            icon: productIcon3,
             content:
               "Manage the entire product journey from ideation through updates, adapting to changes and opportunities while implementing modernization strategies to stay ahead of technology trends and enhance performance.",
           },
@@ -2637,7 +2757,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "Diving deep into UI/UX design and user research ",
             image: "/product-engineering-services/secondary-image-4.png",
-            icon: currency,
+            icon: productIcon4,
             content:
               " Deliver intuitive and engaging user experiences, conducting user research and usability testing to design interfaces that enhance customer satisfaction and engagement.",
           },
@@ -2645,7 +2765,7 @@ const subServicePagesContent = {
             num: "05",
             heading: "Unlock scalable insights with cloud and data engineering",
             image: "/product-engineering-services/secondary-image-5.png",
-            icon: currency,
+            icon: productIcon5,
             content:
               "Utilize cloud technologies to build scalable software architectures and transform data into actionable insights. This includes cloud migration, data pipeline construction, and data analysis to inform strategic decisions.",
           },
@@ -2653,7 +2773,7 @@ const subServicePagesContent = {
             num: "06",
             heading: "Embedded Systems and IoT Development",
             image: "/product-engineering-services/secondary-image-6.png",
-            icon: currency,
+            icon: productIcon6,
             content:
               "Specialize in developing integrated embedded software for hardware devices and IoT applications, providing end-to-end services such as prototyping, firmware development, and hardware design.",
           },
@@ -2661,7 +2781,7 @@ const subServicePagesContent = {
             num: "07",
             heading: "Blockchain and Artificial Intelligence Integration",
             image: "/product-engineering-services/secondary-image-7.png",
-            icon: currency,
+            icon: productIcon7,
             content:
               "Implement blockchain technology for enhanced security and efficiency and integrate AI algorithms to add intelligence to your products, improving both user experience and operational efficiency.",
           },
@@ -2669,7 +2789,7 @@ const subServicePagesContent = {
             num: "08",
             heading: "Build a secure future with cybersecurity solutions",
             image: "/product-engineering-services/secondary-image-8.png",
-            icon: currency,
+            icon: productIcon8,
             content:
               " Incorporate advanced cybersecurity features, conduct security assessments, implement security controls, and provide ongoing monitoring to protect user data and comply with the latest security standards.",
           },
@@ -2795,7 +2915,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "Digital Systems and Technology Assurance Auditing",
             image: "/audit-and-assurance-services/secondary-image-1.png",
-            icon: currency,
+            icon: auditIcon1,
             content:
               "Utilize advanced tools like ACL and IDEA for in-depth audits of your digital systems and evaluate their effectiveness, security, and compliance, ensuring your IT infrastructure's resilience and future readiness against evolving tech trends. This service combines a thorough evaluation of both system performance and future-proofing measures.",
           },
@@ -2803,7 +2923,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Risk Management and Compliance",
             image: "/audit-and-assurance-services/secondary-image-2.png",
-            icon: currency,
+            icon: auditIcon2,
             content:
               "Leverage our expertise in risk assessment frameworks to identify potential risks and safeguard your organization against potential legal and financial liabilities. We ensure that your business adheres to all pertinent regulations, minimizing exposure.",
           },
@@ -2811,7 +2931,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "Cybersecurity and IT Governance Assessment",
             image: "/audit-and-assurance-services/secondary-image-3.png",
-            icon: currency,
+            icon: auditIcon3,
             content:
               "Dive deep into your systems with cybersecurity tools like Nessus and Nmap to uncover vulnerabilities, while structuring your IT governance around best practices like COBIT and ITIL to align IT strategies with business goals. This dual approach strengthens both security and strategic IT management.",
           },
@@ -2819,15 +2939,15 @@ const subServicePagesContent = {
             num: "04",
             heading: "Process Verification and Data Integrity Validation",
             image: "/audit-and-assurance-services/secondary-image-4.png",
-            icon: currency,
+            icon: auditIcon4,
             content:
               " Implement process mapping and analysis tools to scrutinize every step of your workflows, ensuring system integrity and operational excellence and vigilantly managing your data to maintain its accuracy and reliability for decision-making.",
           },
           {
             num: "05",
-            heading: "Compliance Strategy Development and Implementation",
+            heading: "Compliance Strategy Development and Execution",
             image: "/audit-and-assurance-services/secondary-image-5.png",
-            icon: currency,
+            icon: auditIcon5,
             content:
               "Create and implement robust compliance strategies that align with industry standards and regulations, reducing risk and fostering a culture of compliance. We provide comprehensive support to integrate these strategies into your daily operations.",
           },
@@ -2836,7 +2956,7 @@ const subServicePagesContent = {
             heading:
               "Performance Auditing: Economy, Efficiency and Effectiveness",
             image: "/audit-and-assurance-services/secondary-image-6.png",
-            icon: currency,
+            icon: auditIcon6,
             content:
               " Evaluate the efficiency and effectiveness of operations, providing recommendations to improve performance and optimize resource utilization. Our audits identify areas where resources can be better allocated to enhance productivity.",
           },
@@ -2844,7 +2964,7 @@ const subServicePagesContent = {
             num: "07",
             heading: "Performance Auditing and Data Quality Assurance",
             image: "/audit-and-assurance-services/secondary-image-7.png",
-            icon: currency,
+            icon: auditIcon7,
             content:
               "Assess operational efficiency and effectiveness while ensuring data integrity and quality. This integrated approach ensures that your organization operates optimally with accurate and reliable data.",
           },
@@ -2852,7 +2972,7 @@ const subServicePagesContent = {
             num: "08",
             heading: "Emerging Technology and Cybersecurity Assessment",
             image: "/audit-and-assurance-services/secondary-image-8.png",
-            icon: currency,
+            icon: auditIcon8,
             content:
               " Stay ahead of technological advancements and safeguard your systems against cybersecurity threats. This service ensures that your organization is protected against current threats and prepared for future technological challenges.",
           },
@@ -2959,7 +3079,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "EHR Integration For Consolidated and Easy Access",
             image: "/epic-advisory-services/secondary-image-1.png",
-            icon: currency,
+            icon: epicIcon1,
             content:
               "Optimize your workflows for patient data management by ensuring HIPAA-compliant storage and efficient data collection through custom API development. This includes implementing secure data exchange protocols to safeguard patient information while enhancing accessibility for healthcare providers.",
           },
@@ -2967,7 +3087,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Data Migration: Securely, efficiently and Statutorily",
             image: "/epic-advisory-services/secondary-image-2.png",
-            icon: currency,
+            icon: epicIcon2,
             content:
               "Migrate your enterprise data to EPIC platforms by ensuring data integrity and continuity of care throughout the entire process. We employ advanced data validation techniques to prevent data loss and ensure a seamless transition.",
           },
@@ -2975,7 +3095,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "Go-Live Solutions ensures it all goes flawless.",
             image: "/epic-advisory-services/secondary-image-3.png",
-            icon: currency,
+            icon: epicIcon3,
             content:
               " Our seasoned project managers provide comprehensive support for operational readiness, ensuring a smooth transition to EPIC systems. This involves conducting thorough pre-go-live checks and simulations to anticipate and mitigate potential issues.",
           },
@@ -2983,7 +3103,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "Healthcare Ecosystem For Hospital and Medical Needs ",
             image: "/epic-advisory-services/secondary-image-4.png",
-            icon: currency,
+            icon: epicIcon4,
             content:
               "Enhance the patient experience by integrating telehealth, pharmacy management, and other medical software solutions into the EPIC ecosystem. Our approach includes the customization of interfaces to meet the unique needs of various healthcare departments.",
           },
@@ -2991,7 +3111,7 @@ const subServicePagesContent = {
             num: "05",
             heading: "Compliance and Security Consulting",
             image: "/epic-advisory-services/secondary-image-5.png",
-            icon: currency,
+            icon: epicIcon5,
             content:
               "Navigate the complex landscape of healthcare regulations with our expert consulting on compliance and security within the EPIC framework. We focus on implementing robust security measures exceeding industry standards to protect patient and institutional data.",
           },
@@ -3000,16 +3120,16 @@ const subServicePagesContent = {
             heading:
               "Interoperability Solutions for Operations and Communication",
             image: "/epic-advisory-services/secondary-image-6.png",
-            icon: currency,
+            icon: epicIcon6,
             content:
               "Bridge the gap between various healthcare systems and devices, ensuring seamless data exchange and interoperability within the EPIC ecosystem for comprehensive patient care. Our solutions include the use of the latest standards in health informatics to facilitate effective communication across platforms.",
           },
           {
             num: "07",
             heading:
-              "Custom Workflow Design For Faster Movement and Traceability",
+              "Custom Workflow Design For Faster Motion and Traceability",
             image: "/epic-advisory-services/secondary-image-7.png",
-            icon: currency,
+            icon: epicIcon7,
             content:
               "Design custom workflows within the EPIC system to enhance clinical productivity, reduce administrative burden, and improve patient outcomes through tailored EHR functionalities. We optimize these workflows by incorporating end-user feedback, ensuring they are both intuitive and effective.",
           },
@@ -3018,7 +3138,7 @@ const subServicePagesContent = {
             heading:
               "Training and Education: Making You An Expert Of What You DO",
             image: "/epic-advisory-services/secondary-image-8.png",
-            icon: currency,
+            icon: epicIcon8,
             content:
               "Get extensive training and educational programs to ensure your healthcare professionals are fully equipped to utilize the EPIC system's capabilities, providing a proficient and confident workforce. Our training is designed with adaptability, catering to different learning styles and proficiency levels to maximize learning outcomes.",
           },
@@ -3114,7 +3234,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "Oracle Cerner Implementation and Customized Solutions",
             image: "/oracle-cerner-advisory-services/secondary-image-1.png",
-            icon: currency,
+            icon: oracleIcon1,
             content:
               "Implement Oracle Cerner's suite of solutions, tailoring the EHR system to streamline processes for increased efficiency and creating bespoke solutions specifically designed to meet the multifaceted needs of your healthcare environment. ",
           },
@@ -3122,7 +3242,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Operational Excellence, Compliance, and Support",
             image: "/oracle-cerner-advisory-services/secondary-image-2.png",
-            icon: currency,
+            icon: oracleIcon2,
             content:
               "Streamline patient data workflows, ensure security and privacy, navigate regulatory compliance complexities, and receive ongoing optimization and support to elevate your Cerner EHR system performance constantly. ",
           },
@@ -3130,7 +3250,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "Healthcare Data Analytics and System Customization",
             image: "/oracle-cerner-advisory-services/secondary-image-3.png",
-            icon: currency,
+            icon: oracleIcon3,
             content:
               "Unlock the full potential of your enterprise data to leverage actionable insights that improve clinical outcomes and operational efficiency while extending the functionality of your Oracle Cerner platform with custom integrations.",
           },
@@ -3138,7 +3258,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "Training, User Adoption, and System Integration",
             image: "/oracle-cerner-advisory-services/secondary-image-4.png",
-            icon: currency,
+            icon: oracleIcon4,
             content:
               "Provide comprehensive training services to ensure high user adoption rates, maximize the value of your EHR investment, and facilitate system customization and integration tailored to your organizational needs. ",
           },
@@ -3147,7 +3267,7 @@ const subServicePagesContent = {
             heading:
               "Migration, Data Conversion, and Interoperability Solutions",
             image: "/oracle-cerner-advisory-services/secondary-image-5.png",
-            icon: currency,
+            icon: oracleIcon5,
             content:
               "Transition from legacy systems to the Oracle Cerner platform, ensuring no data loss and continuity in patient care while enhancing patient care with custom interoperability solutions that enable effective communication with other healthcare systems. ",
           },
@@ -3155,7 +3275,7 @@ const subServicePagesContent = {
             num: "06",
             heading: "Performance Optimization and Reliability",
             image: "/oracle-cerner-advisory-services/secondary-image-6.png",
-            icon: currency,
+            icon: oracleIcon6,
             content:
               " Our performance optimization services maximize the efficiency and reliability of your Oracle Cerner EHR, ensuring your system operates at peak performance. This focus on optimization helps avoid downtime and improves the overall user experience.",
           },
@@ -3163,7 +3283,7 @@ const subServicePagesContent = {
             num: "07",
             heading: "Interoperability and Data Integration",
             image: "/oracle-cerner-advisory-services/secondary-image-7.png",
-            icon: currency,
+            icon: oracleIcon7,
             content:
               "Enhance patient care with custom interoperability solutions that enable Oracle Cerner to communicate effectively with other healthcare systems and seamlessly integrate diverse data sources and applications. This ensures a holistic view of patient health and streamlined care delivery.",
           },
@@ -3171,7 +3291,7 @@ const subServicePagesContent = {
             num: "08",
             heading: "Continuous Improvement and Data Security",
             image: "/oracle-cerner-advisory-services/secondary-image-8.png",
-            icon: currency,
+            icon: oracleIcon8,
             content:
               "Receive ongoing optimization and support to elevate your Cerner EHR system performance, focusing on continuous improvement and stringent data security measures. These efforts are critical for maintaining system effectiveness and protecting sensitive patient data.",
           },
@@ -3266,7 +3386,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "Digital Risk Assessment and Cybersecurity Strategy",
             image: "/risk-advisory-services/secondary-image-1.png",
-            icon: currency,
+            icon: riskIcon1,
             content:
               "Uncover and evaluate potential digital risks with advanced analytics tools, and develop tailored cybersecurity strategies leveraging platforms like Splunk and FireEye. This integrated service ensures a robust defense mechanism for your organization's infrastructure.",
           },
@@ -3274,7 +3394,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Compliance, Regulatory Advisory, and Data Protection",
             image: "/risk-advisory-services/secondary-image-2.png",
-            icon: currency,
+            icon: riskIcon2,
             content:
               "Navigate complex regulations like GDPR, HIPAA, and SOCC with expert advisory services, ensuring your practices are up-to-date while maintaining the integrity and confidentiality of your data using the latest encryption software. ",
           },
@@ -3282,7 +3402,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "Threat Intelligence and Incident Response",
             image: "/risk-advisory-services/secondary-image-3.png",
-            icon: currency,
+            icon: riskIcon3,
             content:
               "Stay ahead of potential threats with cutting-edge monitoring tools and prepare for cybersecurity incidents with expert strategies to minimize damage and recovery time. Our proactive and reactive approaches protect your operations from evolving security threats.",
           },
@@ -3290,7 +3410,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "Business Continuity and Disaster Recovery Planning",
             image: "/risk-advisory-services/secondary-image-4.png",
-            icon: currency,
+            icon: riskIcon4,
             content:
               "Develop robust business continuity and disaster recovery plans with strategic guidance using tools like Veeam and Zerto. We ensure your organization is prepared to continue operations and recover quickly from any disaster, minimizing downtime and operational impact.",
           },
@@ -3298,7 +3418,7 @@ const subServicePagesContent = {
             num: "05",
             heading: "Risk Management Program Development",
             image: "/risk-advisory-services/secondary-image-5.png",
-            icon: currency,
+            icon: riskIcon5,
             content:
               "Design and implement a structured risk management program that integrates seamlessly with your business operations, ensuring ongoing vigilance and response readiness. Our approach is to embed risk management deeply into the fabric of your organization to enhance resilience.",
           },
@@ -3306,7 +3426,7 @@ const subServicePagesContent = {
             num: "06",
             heading: "Vendor Risk Management Helping into Vendor Visibility",
             image: "/risk-advisory-services/secondary-image-6.png",
-            icon: currency,
+            icon: riskIcon6,
             content:
               "Safeguard your supply chain with our vendor risk management services, assessing and mitigating risks associated with third-party providers. This service includes thorough evaluations and monitoring to ensure your vendors meet compliance and security standards.",
           },
@@ -3315,7 +3435,7 @@ const subServicePagesContent = {
             heading:
               "Safeguarding Internal & External Data: Privacy & Security",
             image: "/risk-advisory-services/secondary-image-7.png",
-            icon: currency,
+            icon: riskIcon7,
             content:
               "Enhance data protection with comprehensive privacy services that safeguard user information and ensure compliance with global data protection regulations. We provide strategies to manage data privacy risks effectively.",
           },
@@ -3323,7 +3443,7 @@ const subServicePagesContent = {
             num: "08",
             heading: "Cybersecurity Enhancement and Continuous Monitoring",
             image: "/risk-advisory-services/secondary-image-8.png",
-            icon: currency,
+            icon: riskIcon8,
             content:
               "Develop and enhance cybersecurity measures with ongoing strategic planning and continuous monitoring. This ensures that your cybersecurity posture is robust, adaptive, and capable of defending against new and emerging threats.",
           },
@@ -3436,7 +3556,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "E2E Quality Assurance: Verifying From Start to Finish",
             image: "/specialty-services/secondary-image-1.png",
-            icon: currency,
+            icon: specialtyIcon1,
             content:
               "Employ industry-leading tools like Selenium, TestComplete, and JIRA, where our QA team performs extensive testing to identify and rectify software defects at every development stage. This holistic approach ensures the highest quality output through rigorous validation at all phases.",
           },
@@ -3444,7 +3564,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Automated Performance, Usability, and Security Testing",
             image: "/specialty-services/secondary-image-2.png",
-            icon: currency,
+            icon: specialtyIcon2,
             content:
               "Utilize sophisticated suites like Jenkins, Appium, LoadRunner, JMeter, OWASP ZAP, and Burp Suite to ensure your software excels in every metric. We optimize performance, enhance usability, and secure software against potential threats.",
           },
@@ -3452,7 +3572,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "Continuous Integration and Deployment",
             image: "/specialty-services/secondary-image-3.png",
-            icon: currency,
+            icon: specialtyIcon3,
             content:
               "With CI/CD tools such as GitLab CI and CircleCI, we streamline development processes to deliver superior digital products rapidly. This methodology reduces time-to-market and increases deployment frequency without sacrificing quality.",
           },
@@ -3460,7 +3580,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "Accessibility Testing: Enabling Differently Abled",
             image: "/specialty-services/secondary-image-4.png",
-            icon: currency,
+            icon: specialtyIcon4,
             content:
               "Ensure your digital solutions are accessible to all users, including those with disabilities. Our comprehensive accessibility audits help you meet and exceed ADA compliance, making your products universally usable and inclusive.",
           },
@@ -3468,7 +3588,7 @@ const subServicePagesContent = {
             num: "05",
             heading: "Mobile Application Testing: Good to Go On The Go",
             image: "/specialty-services/secondary-image-5.png",
-            icon: currency,
+            icon: specialtyIcon5,
             content:
               " Address the unique challenges of mobile platforms with our targeted testing strategies, ensuring your apps perform optimally on a wide range of devices and operating systems. We cover everything from usability to performance and security in different mobile environments.",
           },
@@ -3476,7 +3596,7 @@ const subServicePagesContent = {
             num: "06",
             heading: "API & Web Service Testing: Secure Data Transfer",
             image: "/specialty-services/secondary-image-6.png",
-            icon: currency,
+            icon: specialtyIcon6,
             content:
               "Verify your APIs and web services' functionality, reliability, and security to ensure seamless integration and data exchange within your software ecosystems. This service is crucial for maintaining high interoperability and robustness in multi-platform solutions.",
           },
@@ -3485,7 +3605,7 @@ const subServicePagesContent = {
             heading:
               "Cloud Testing Optimization For Security, Performance, and Cost",
             image: "/specialty-services/secondary-image-7.png",
-            icon: currency,
+            icon: specialtyIcon7,
             content:
               "Evaluate and optimize your cloud-based applications and infrastructure to ensure they are secure, scalable, and performing at their best. Our cloud testing services include load testing, stress testing, and security audits of cloud deployments.",
           },
@@ -3493,7 +3613,7 @@ const subServicePagesContent = {
             num: "08",
             heading: "Validating UX/UI: User-Centric Design",
             image: "/specialty-services/secondary-image-8.png",
-            icon: currency,
+            icon: specialtyIcon8,
             content:
               "Test and improve your product's user interface and user experience design to ensure they are intuitive and engaging. Our UX/UI validation process includes user feedback sessions, A/B testing, and usability testing to enhance overall user satisfaction.",
           },
@@ -3985,8 +4105,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading:
-              "Decentralized Application (DApp) Security and Incident Response",
+            heading: "Decentralized Application Security and Incident Response",
             image:
               "/blockchain-security-and--compliance-solutions/secondary-image-4.png",
             icon: blckchainSecurityIcon4,
@@ -3995,8 +4114,7 @@ const subServicePagesContent = {
           },
           {
             num: "05",
-            heading:
-              "Blockchain Infrastructure Security and Network Management",
+            heading: "Infrastructure Security and Network Management",
             image:
               "/blockchain-security-and--compliance-solutions/secondary-image-5.png",
             icon: blckchainSecurityIcon5,
@@ -4321,7 +4439,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "Blockchain Advisory and DLT Solutions",
             image: "/blockchain-strategy-and-advisory/secondary-image-1.png",
-            icon: currency,
+            icon: blockchainStrategyIcon1,
             content:
               "Navigate your blockchain journey with seasoned consultants who provide strategic insights and development roadmaps. Deploy distributed Ledger Technology (DLT) to enhance process efficiency and secure data integrity. This helps you align blockchain initiatives with corporate objectives while ensuring data remains tamper-proof and transactions transparent.",
           },
@@ -4329,7 +4447,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Innovative Contract & Tokenization Strategies",
             image: "/blockchain-strategy-and-advisory/secondary-image-2.png",
-            icon: currency,
+            icon: blockchainStrategyIcon2,
             content:
               "Revolutionize your operations with smart contracts that automate and secure transactions, alongside unlocking innovative asset monetization through tokenization. These strategies increase operational efficiency, reduce overhead, and enhance asset liquidity and security.",
           },
@@ -4338,7 +4456,7 @@ const subServicePagesContent = {
             heading:
               "Blockchain Security Services and Private Blockchain Networks",
             image: "/blockchain-strategy-and-advisory/secondary-image-3.png",
-            icon: currency,
+            icon: blockchainStrategyIcon3,
             content:
               "Fortify your cybersecurity with robust blockchain-based solutions that safeguard digital assets and operational continuity, and construct bespoke, permissioned blockchain environments for enhanced data privacy and control. This approach ensures comprehensive protection and privacy across your blockchain operations.",
           },
@@ -4346,7 +4464,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "Decentralised Application Development & Integration",
             image: "/blockchain-strategy-and-advisory/secondary-image-4.png",
-            icon: currency,
+            icon: blockchainStrategyIcon4,
             content:
               "Dive into the decentralized economy with scalable, user-friendly dApps that align with your business model and seamlessly integrate blockchain technology with existing infrastructures. These services ensure adaptability to market changes and enhance current systems without disruption.",
           },
@@ -4354,7 +4472,7 @@ const subServicePagesContent = {
             num: "05",
             heading: "Blockchain for IoT and Cross-Chain Integration Services",
             image: "/blockchain-strategy-and-advisory/secondary-image-5.png",
-            icon: currency,
+            icon: blockchainStrategyIcon5,
             content:
               "Enhance the integrity and reliability of IoT device networks through blockchain technology, and facilitate interoperability across diverse blockchain platforms with expert cross-chain integration. This ensures secure data exchanges and improved system management, enabling seamless ecosystem communication.",
           },
@@ -4362,7 +4480,7 @@ const subServicePagesContent = {
             num: "06",
             heading: "Blockchain Governance and Training",
             image: "/blockchain-strategy-and-advisory/secondary-image-6.png",
-            icon: currency,
+            icon: blockchainStrategyIcon6,
             content:
               "Develop comprehensive governance models for your blockchain networks to ensure clarity in operations and compliance with regulatory standards, and equip your team with cutting-edge knowledge through targeted training and workshops. This helps promote effective management and keeps your team ahead in a rapidly evolving digital landscape.",
           },
@@ -4370,7 +4488,7 @@ const subServicePagesContent = {
             num: "07",
             heading: "Digital Identity Solutions and Blockchain Analytics",
             image: "/blockchain-strategy-and-advisory/secondary-image-7.png",
-            icon: currency,
+            icon: blockchainStrategyIcon7,
             content:
               "Implement blockchain technology to create immutable digital identities, enhance user authentication processes, and extract valuable insights from blockchain transaction data with sophisticated analytics tools. These solutions enhance privacy and drive strategic decision-making, respectively.",
           },
@@ -4378,7 +4496,7 @@ const subServicePagesContent = {
             num: "08",
             heading: "Enterprise Blockchain & Cryptocurrency Exchange",
             image: "/blockchain-strategy-and-advisory/secondary-image-8.png",
-            icon: currency,
+            icon: blockchainStrategyIcon8,
             content:
               "Integrate blockchain technology across enterprise-level systems for holistic digital transformation, boosting security and streamlining operations and establishing secure and efficient cryptocurrency exchange platforms. This helps unlock the full potential of blockchain capabilities and facilitate reliable trading experiences.",
           },
@@ -4518,7 +4636,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "Integrated Communication Platforms",
             image: "/business-value-enhancement-services.png",
-            icon: currency,
+            icon: collabIcon1,
             content:
               "Streamline your internal and external communications with platforms that combine messaging, video conferencing, and project management capabilities. This integration facilitates a more connected and efficient environment by reducing the need for multiple disjointed tools.",
           },
@@ -4526,7 +4644,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Work Together, Achieve More: Collaborative Workspaces",
             image: "/business-value-enhancement-services.png",
-            icon: currency,
+            icon: collabIcon2,
             content:
               "Develop a collaborative culture with digital workspaces that allow teams to share ideas, files, and feedback in real-time. These workspaces are designed to replicate the dynamics of physical office environments, enhancing teamwork and creativity regardless of geographical location.",
           },
@@ -4534,7 +4652,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "Productivity Tracking and Analytics",
             image: "/business-value-enhancement-services.png",
-            icon: currency,
+            icon: collabIcon3,
             content:
               "Gain insights into team productivity and collaboration patterns with advanced analytics, enabling you to make data-driven decisions that boost efficiency. This allows for optimizing workflows and identifying areas where improvements can be made.",
           },
@@ -4543,7 +4661,7 @@ const subServicePagesContent = {
             heading:
               "Team Communication Tools make it easy for you and your team",
             image: "/business-value-enhancement-services.png",
-            icon: currency,
+            icon: collabIcon4,
             content:
               "Improve team communication with instant messaging, shared calendars, and real-time notifications to keep everyone on the same page. These tools are essential for maintaining synchronization across various team activities and schedules.",
           },
@@ -4552,7 +4670,7 @@ const subServicePagesContent = {
             heading:
               "Project Management Solutions To Face The Deadlines Boldly",
             image: "/business-value-enhancement-services.png",
-            icon: currency,
+            icon: collabIcon5,
             content:
               "Enhance project management with our comprehensive solutions support. Assign tasks, track progress, manage resources, meet deadlines, and encourage collaboration for success. This holistic approach ensures that all project aspects are covered, from initiation to completion.",
           },
@@ -4560,7 +4678,7 @@ const subServicePagesContent = {
             num: "06",
             heading: "Empowering Work & Workplace: Integrated Workspaces",
             image: "/business-value-enhancement-services.png",
-            icon: currency,
+            icon: collabIcon6,
             content:
               "Improve your team's collaboration, communication, and task management by integrating tools and applications of your choice into a unified platform. This seamless integration enhances user experience and streamlines workflows, promoting productivity.",
           },
@@ -4568,7 +4686,7 @@ const subServicePagesContent = {
             num: "07",
             heading: "Dynamic Scheduling and Resource Allocation Tools",
             image: "/business-value-enhancement-services.png",
-            icon: currency,
+            icon: collabIcon7,
             content:
               "Use dynamic scheduling and resource allocation tools to optimize team productivity by allocating tasks based on skills and workload, reducing burnout risk. This strategic management aids in maximizing the efficiency of resource utilization and ensuring optimal team performance.",
           },
@@ -4576,7 +4694,7 @@ const subServicePagesContent = {
             num: "08",
             heading: "Advanced and Secure Remote Work Solutions",
             image: "/business-value-enhancement-services.png",
-            icon: currency,
+            icon: collabIcon8,
             content:
               "Provide tools and technologies specifically designed to support remote work, including secure virtual private network (VPN) access, advanced cybersecurity measures, and cloud-based collaboration tools. This service ensures remote teams can work effectively and securely, mirroring the in-office experience as closely as possible.",
           },
@@ -4690,7 +4808,7 @@ const subServicePagesContent = {
             num: "01",
             heading: "Salesforce Implementation Strategy and Training",
             image: "/crm-system-solutions/secondary-image-1.png",
-            icon: currency,
+            icon: crmIcon1,
             content:
               "With our end-to-end implementation services, you can tap into Salesforce's full potential for complete customer relationship management and marketing automation. Our expert team guides you through the customization and deployment process, ensuring your system is optimized for your business needs.",
           },
@@ -4698,7 +4816,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "Microsoft Dynamics CRM Implementation",
             image: "/crm-system-solutions/secondary-image-2.png",
-            icon: currency,
+            icon: crmIcon2,
             content:
               "Experience flexibility with Microsoft Dynamics CRM, custom-made to enhance customer engagement and business processes through customization and seamless integration. We provide training and support to help your team maximize the platform's capabilities.",
           },
@@ -4706,7 +4824,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "SAP CRM Services Meeting Bussiness Process Requirements",
             image: "/crm-system-solutions/secondary-image-3.png",
-            icon: currency,
+            icon: crmIcon3,
             content:
               "Utilize SAP CRM's robust functionality to gain deep customer insights and streamline operations, personalized to fit your business model. Our services include system adjustments and enhancements that ensure SAP CRM aligns perfectly with your business processes.",
           },
@@ -4714,7 +4832,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "CRM Insights: Empower Better Choices",
             image: "/crm-system-solutions/secondary-image-4.png",
-            icon: currency,
+            icon: crmIcon4,
             content:
               "Maximize your CRM's performance with our optimization strategies and analytics insights, ensuring you capture and utilize every piece of customer data effectively. We improve user interfaces and workflows to enhance user adoption and data quality.",
           },
@@ -4722,25 +4840,23 @@ const subServicePagesContent = {
             num: "05",
             heading: "Custom CRM Development To Meet Specific Goals.",
             image: "/crm-system-solutions/secondary-image-5.png",
-            icon: currency,
+            icon: crmIcon5,
             content:
               "Get a CRM solution built from the ground up to address your business needs with custom features that fit your company's workflow. This bespoke solution is designed to integrate smoothly with your existing technology stack.",
           },
           {
             num: "06",
-            heading:
-              "CRM Migration Services A Smooth Transit To a Better World",
+            heading: "CRM Migration Services: Smooth Transit To a Better World",
             image: "/crm-system-solutions/secondary-image-6.png",
-            icon: currency,
+            icon: crmIcon6,
             content:
               "Transition to a more efficient system with our seamless CRM migration services, ensuring no data is lost and every team member is up to speed with new tools. We provide comprehensive change management to minimize disruption during the migration process.",
           },
           {
             num: "07",
-            heading:
-              "CRM Training and User Adoption: As Per Your Team Skillset",
+            heading: "Training and User Adoption: As Per Your Team Skillset",
             image: "/crm-system-solutions/secondary-image-7.png",
-            icon: currency,
+            icon: crmIcon7,
             content:
               "Enhance your team's proficiency with customized training programs designed to accelerate user adoption and maximize the utility of your CRM system. We ensure all users are confident in utilizing the system, which is crucial for achieving the desired ROI.",
           },
@@ -4748,7 +4864,7 @@ const subServicePagesContent = {
             num: "08",
             heading: "CRM Integration Services: Simply Weave In",
             image: "/crm-system-solutions/secondary-image-8.png",
-            icon: currency,
+            icon: crmIcon8,
             content:
               "Seamlessly integrate your CRM with other essential business systems, such as ERP, marketing automation tools, and customer service platforms. This integration facilitates a unified view of customer interactions across all touchpoints, enhancing service delivery and customer satisfaction.",
           },
@@ -4849,7 +4965,7 @@ const subServicePagesContent = {
             heading: "Comprehensive Data Solutions For Holistic Growth ",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-1.png",
-            icon: currency,
+            icon: dataAnalystIcon1,
             content:
               "Leverage our expertise in data warehousing with technologies like Amazon Redshift and Microsoft Azure SQL database, paired with in-depth analysis using Tableau and Power BI. This service provides a strong foundation for handling large datasets efficiently while delivering actionable insights.",
           },
@@ -4858,7 +4974,7 @@ const subServicePagesContent = {
             heading: "Specialized Analytics Tools For Exponential Performance",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-2.png",
-            icon: currency,
+            icon: dataAnalystIcon2,
             content:
               "Utilize specialized tools, such as Tableau for interactive data visualizations, Microsoft Power BI for dynamic reports, and Google Analytics for web traffic insights. These tools enable your organization to visualize data effectively, ensuring insights are comprehensible and actionable.",
           },
@@ -4867,7 +4983,7 @@ const subServicePagesContent = {
             heading: "Customized BI Solutions: Meet Your Unique Needs",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-3.png",
-            icon: currency,
+            icon: dataAnalystIcon3,
             content:
               "At Qcentrio, we recognize that each business has unique needs. We deliver custom BI solutions molded to your requirements, integrating robust tools like Apache Spark for real-time data processing. This tailored approach ensures that solutions are specifically designed to meet your business's distinct challenges and opportunities.",
           },
@@ -4876,7 +4992,7 @@ const subServicePagesContent = {
             heading: "Data Integration & Management: Drive Results",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-4.png",
-            icon: currency,
+            icon: dataAnalystIcon4,
             content:
               "Streamline the collection and integration of data from various sources, ensuring accuracy and accessibility for analysis. Implement management practices that maintain the integrity and security of your data across the board. This ensures your data ecosystem is scalable, secure, and primed for analysis.",
           },
@@ -4885,7 +5001,7 @@ const subServicePagesContent = {
             heading: "Predictive Analytics and Machine Learning",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-5.png",
-            icon: currency,
+            icon: dataAnalystIcon5,
             content:
               "Employ advanced predictive models and machine learning algorithms to forecast trends, customer behavior, and business outcomes, turning data into a predictive tool for strategic planning. Our approach helps you stay ahead of the curve by anticipating market shifts and customer needs.",
           },
@@ -4895,16 +5011,16 @@ const subServicePagesContent = {
               "Real-Time Analytics And Reporting Get Profitable Insights",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-6.png",
-            icon: currency,
+            icon: dataAnalystIcon6,
             content:
               "Access insights as they happen with real-time analytics. Create comprehensive, up-to-the-minute reports that allow for agile decision-making and immediate action in response to market changes. This capability is crucial for organizations looking to maintain a competitive edge in fast-moving industries.",
           },
           {
             num: "07",
-            heading: "Data Governance And Compliance Conform With Safety.",
+            heading: "Data Governance And Compliance Conform",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-7.png",
-            icon: currency,
+            icon: dataAnalystIcon7,
             content:
               " Implement rigorous data governance frameworks to ensure compliance with regulations such as GDPR and HIPAA. This service helps you manage the risks associated with data privacy and security, ensuring your organization's data practices meet statutory requirements.",
           },
@@ -4913,7 +5029,7 @@ const subServicePagesContent = {
             heading: "Advanced Data Visualization Techniques",
             image:
               "/data-analytics-and-business-intelligence-services/secondary-image-8.png",
-            icon: currency,
+            icon: dataAnalystIcon8,
             content:
               "Explore complex data sets with advanced visualization techniques that reveal patterns, trends, and anomalies. Our experts use cutting-edge technology to create intuitive and engaging visual representations, enhancing your ability to make informed decisions based on complex data.",
           },
@@ -5041,10 +5157,9 @@ const subServicePagesContent = {
         list: [
           {
             num: "01",
-            heading:
-              "Advanced Analytics, Forecasting, and Predictive Analytics",
+            heading: "Advanced Analytics and Predictive Analytics",
             image: "/ai-and-ml-services/secondary-image-1.png",
-            icon: currency,
+            icon: aimlIcon1,
             content:
               "Dive into the future of your business with cutting-edge analytics and implement advanced AI/ML algorithms to analyze data and forecast future trends, providing actionable insights for informed decision-making and strategic planning. This allows for a deeper and more comprehensive analysis to support decision-making processes.",
           },
@@ -5052,7 +5167,7 @@ const subServicePagesContent = {
             num: "02",
             heading: "AI-Driven Process Optimization and Operationalization",
             image: "/ai-and-ml-services/secondary-image-2.png",
-            icon: currency,
+            icon: aimlIcon2,
             content:
               "Transform your operational processes with our AI-powered optimization and operationalization, ensuring your AI investments are fully realized by embedding intelligence into every layer of your business operations. This integration enhances efficiency, output, and overall business performance.",
           },
@@ -5060,7 +5175,7 @@ const subServicePagesContent = {
             num: "03",
             heading: "Machine Learning and Delivering Business Insights",
             image: "/ai-and-ml-services/secondary-image-3.png",
-            icon: currency,
+            icon: aimlIcon3,
             content:
               "Establish a robust framework for Machine Learning models with tailored solutions that scale your business intelligence in real-time, enhancing your capability to respond swiftly to market changes. This approach ensures your models are continuously refined to meet evolving business needs.",
           },
@@ -5068,7 +5183,7 @@ const subServicePagesContent = {
             num: "04",
             heading: "AI-powered personalization & customer service",
             image: "/ai-and-ml-services/secondary-image-4.png",
-            icon: currency,
+            icon: aimlIcon4,
             content:
               "Embrace AI-driven personalization to deliver tailored experiences that engage and delight your end users, and transform your customer support with AI-enhanced capabilities that respond with human-like accuracy. This helps improve customer engagement and satisfaction across multiple touchpoints.",
           },
@@ -5076,7 +5191,7 @@ const subServicePagesContent = {
             num: "05",
             heading: "Bespoke AI/ML Solutions and Process/Platform Automation",
             image: "/ai-and-ml-services/secondary-image-5.png",
-            icon: currency,
+            icon: aimlIcon5,
             content:
               "Develop AI and ML solutions that align with your business goals and automate processes for increased efficiency, enabling you to automate routine tasks, reduce errors, and focus on strategic activities. This ensures seamless integration and impactful outcomes while enhancing operational efficiency.",
           },
@@ -5084,7 +5199,7 @@ const subServicePagesContent = {
             num: "06",
             heading: "Real-Time Data Processing and Analysis",
             image: "/ai-and-ml-services/secondary-image-6.png",
-            icon: currency,
+            icon: aimlIcon6,
             content:
               "Harness the speed and accuracy of real-time data processing with our advanced AI/ML systems to make faster, more informed decisions as technology sifts through vast information streams, delivering critical insights when you need them most. This helps in maintaining a competitive edge in fast-paced industries.",
           },
@@ -5092,7 +5207,7 @@ const subServicePagesContent = {
             num: "07",
             heading: "Unleashing the Power of Robotic Process Automation",
             image: "/ai-and-ml-services/secondary-image-7.png",
-            icon: currency,
+            icon: aimlIcon7,
             content:
               "Amplify your efficiency with RPA solutions that automate repetitive tasks, saving time and reducing human error, allowing your workforce to concentrate on creative and strategic tasks that add real value to your business. This streamlines operations and enhances productivity across various departments.",
           },
@@ -5100,7 +5215,7 @@ const subServicePagesContent = {
             num: "08",
             heading: " Next-Generation Security Solutions Powered by AI",
             image: "/ai-and-ml-services/secondary-image-8.png",
-            icon: currency,
+            icon: aimlIcon8,
             content:
               "Implement AI-enhanced security protocols to monitor and protect data, providing a secure environment for your AI and ML operations. This service is crucial to safeguard sensitive information and ensure the integrity of your data-driven initiatives.",
           },
@@ -5213,7 +5328,7 @@ const subServicePagesContent = {
             heading: "Unlocking Synergies: OpenAI/ChatGPT Integration",
             image:
               "/generative-ai-solutions-and-offerings/secondary-image-1.png",
-            icon: currency,
+            icon: genAiIcon1,
             content:
               "Integrate chatbots powered by generative AI to deliver natural responses and automate interactions. Our GPT4 services can significantly reduce your company's workload while maintaining process efficiency. This integration is ideal for enhancing customer service and streamlining internal communications.",
           },
@@ -5222,7 +5337,7 @@ const subServicePagesContent = {
             heading: "Beyond the Surface: Advanced Analytics and AI",
             image:
               "/generative-ai-solutions-and-offerings/secondary-image-2.png",
-            icon: currency,
+            icon: genAiIcon2,
             content:
               "Unlock actionable insights and innovate faster with our advanced analytics tools and AI models. Automate up to 70% of workforce tasks, enabling a focus on strategic business activities and reducing operational costs. Our solutions are designed to transform complex data into clear, actionable insights that drive decision-making.",
           },
@@ -5231,7 +5346,7 @@ const subServicePagesContent = {
             heading: "Vision to Value: Strategic AI Implementation",
             image:
               "/generative-ai-solutions-and-offerings/secondary-image-3.png",
-            icon: currency,
+            icon: genAiIcon3,
             content:
               "Our calculated approach ensures AI aligns with your business goals. We develop custom AI solutions for industries like finance and healthcare, enhancing customer engagement and anticipating market trends. Personalized solutions ensure that AI initiatives are directly correlated with your strategic objectives.",
           },
@@ -5240,7 +5355,7 @@ const subServicePagesContent = {
             heading: "Productivity with Automation Solutions",
             image:
               "/generative-ai-solutions-and-offerings/secondary-image-4.png",
-            icon: currency,
+            icon: genAiIcon4,
             content:
               "Streamline operations with our automation offerings. Automate routine tasks, enhance productivity, and refocus your workforce on high-value activities, reducing burnout and promoting innovation. This approach not only improves efficiency but also enhances employee satisfaction and retention.",
           },
@@ -5249,7 +5364,7 @@ const subServicePagesContent = {
             heading: "End-to-end Generative AI Integration",
             image:
               "/generative-ai-solutions-and-offerings/secondary-image-5.png",
-            icon: currency,
+            icon: genAiIcon5,
             content:
               "With our end-to-end GenAI integration services, optimize critical business areas like marketing, sales, and R&D. Leverage AI to enhance efficiency and drive growth. This comprehensive service ensures that all facets of your business can benefit from AI's transformative powers.",
           },
@@ -5258,7 +5373,7 @@ const subServicePagesContent = {
             heading: "Insights with Data Visualization and Reporting",
             image:
               "/generative-ai-solutions-and-offerings/secondary-image-6.png",
-            icon: currency,
+            icon: genAiIcon6,
             content:
               "Visualize your data with state-of-the-art tools that make complex information easy to understand and actionable. Our platforms support real-time data updates, allowing your team to make timely, informed decisions based on the latest information.",
           },
@@ -5267,7 +5382,7 @@ const subServicePagesContent = {
             heading: "Building Trust: Data Governance & Compliance ",
             image:
               "/generative-ai-solutions-and-offerings/secondary-image-7.png",
-            icon: currency,
+            icon: genAiIcon7,
             content:
               "Ensure your data management practices are compliant with global regulations with our data governance services. We help you implement strong policies that protect your data and your company’s reputation while ensuring operational transparency.",
           },
@@ -5276,7 +5391,7 @@ const subServicePagesContent = {
             heading: "Unveiling Customer Behaviour with Analytics",
             image:
               "/generative-ai-solutions-and-offerings/secondary-image-8.png",
-            icon: currency,
+            icon: genAiIcon8,
             content:
               "Utilize AI to gain deep insights into customer behavior and preferences, enabling personalized marketing strategies and product development. This helps you stay ahead of market trends and meet your customers' needs more effectively.",
           },
@@ -5407,7 +5522,7 @@ const subServicePagesContent = {
             heading: "RPA & Platform Assessment (Business Case)",
             image:
               "/robotic-process-automation-offerings/secondary-image-1.png",
-            icon: currency,
+            icon: roboticIcon1,
             content:
               "We comprehensively assess your company's processes and platforms, developing a solid business case for RPA implementation. This strategic alignment with your business objectives ensures an ideal solution that maximizes your return on investment.",
           },
@@ -5416,17 +5531,16 @@ const subServicePagesContent = {
             heading: "SoP Creation, Automation & Integration",
             image:
               "/robotic-process-automation-offerings/secondary-image-2.png",
-            icon: currency,
+            icon: roboticIcon2,
             content:
               "Specialize in developing standard operating procedures and capturing detailed automation requirements, ensuring efficient RPA implementation and seamless system integration. This approach enhances productivity and minimizes disruption to existing workflows.",
           },
           {
             num: "03",
-            heading:
-              "Proof of Concept, Pilot Programs, and RPA Roadmap Creation",
+            heading: "Proof of Concept and RPA Roadmap Creation",
             image:
               "/robotic-process-automation-offerings/secondary-image-3.png",
-            icon: currency,
+            icon: roboticIcon3,
             content:
               "We help you conduct pilot programs and proofs of concept to demonstrate RPA's potential impact, followed by creating a strategic roadmap and Center of Excellence (CoE) to guide your RPA journey. This process ensures informed decision-making and fosters continuous improvement.",
           },
@@ -5435,7 +5549,7 @@ const subServicePagesContent = {
             heading: "RPA Strategy and Custom Implementation",
             image:
               "/robotic-process-automation-offerings/secondary-image-4.png",
-            icon: currency,
+            icon: roboticIcon4,
             content:
               "Begin with a comprehensive analysis of your business processes to identify automation opportunities, then craft and implement custom RPA solutions tailored to your operational needs. This method transforms operations using leading tools and innovative strategies.",
           },
@@ -5444,7 +5558,7 @@ const subServicePagesContent = {
             heading: "Continuous Monitoring, Support, and Bot Maintenance",
             image:
               "/robotic-process-automation-offerings/secondary-image-5.png",
-            icon: currency,
+            icon: roboticIcon5,
             content:
               "Receive ongoing monitoring and comprehensive support, including bot maintenance and health checks, to ensure optimal performance and sustainability of your RPA operations. This service reduces downtime and maintains operational excellence.",
           },
@@ -5453,7 +5567,7 @@ const subServicePagesContent = {
             heading: "Training and Skill Development for RPA Users",
             image:
               "/robotic-process-automation-offerings/secondary-image-6.png",
-            icon: currency,
+            icon: roboticIcon6,
             content:
               "Equip your team with the necessary skills and knowledge through extensive training programs. This commitment to skill development ensures your workforce can fully leverage and support RPA technologies effectively.",
           },
@@ -5462,7 +5576,7 @@ const subServicePagesContent = {
             heading: "Custom RPA Solutions for Complex Tasks",
             image:
               "/robotic-process-automation-offerings/secondary-image-7.png",
-            icon: currency,
+            icon: roboticIcon7,
             content:
               "Design RPA solutions to automate complex business tasks such as data entry, invoice processing, and customer inquiries. These custom solutions boost efficiency, enhance accuracy, and support scalable innovation tailored to your specific needs.",
           },
@@ -5471,7 +5585,7 @@ const subServicePagesContent = {
             heading: "Advanced Analytics and Prescriptive Reporting",
             image:
               "/robotic-process-automation-offerings/secondary-image-8.png",
-            icon: currency,
+            icon: roboticIcon8,
             content:
               "Analyze the impact of RPA on your business with custom reporting and advanced analytics. This ensures that the integration of RPA into your operations is continually refined and aligned with business objectives, leading to measurable improvements.",
           },
@@ -7112,182 +7226,147 @@ const jobs = [
     location: "Mumbai, Chennai, Bangalore, Hyderabad, Pune",
     type: "Remote",
     exp: "4 - 8 years",
-    link: "",
+    link: "/careers/java-python-developer",
   },
   {
     title: "Airline Domain - Java Fullstack Developer",
     location: "Mumbai, Bangalore, Chennai",
     type: "Remote",
     exp: "5 - 10 years",
-    link: "",
+    link: "/careers/airline-domain-java-fullstack-developer",
   },
   {
     title: "SAP ECP/HCM Consultant - E2E Implementation",
     location: "Hyderabad, Chennai, Bengaluru",
     exp: "8 - 13 years",
     type: "Remote",
-    link: "",
+    link: "/careers/sap-ecp-hcm-consultant",
   },
   {
     title: "Immediate Requirement Java Sql Developer",
     location: "Chennai, Bengaluru, Mumbai (All Areas)",
     exp: "5 - 10 years",
     type: "On Site",
-    link: "",
+    link: "/careers/java-sql-developer",
   },
   {
     title: "Airline Domain - Java Python Developer",
     location: "Mumbai, Chennai, Bengaluru",
     type: "Remote",
     exp: "8 - 13 years",
-    link: "",
+    link: "/careers/airline-domain-java-python-developer",
   },
   {
     title: "Immediate Requirement Angular Developer",
     location: "Hiring office located in Mumbai (All Areas)",
     type: "On Site",
     exp: "5 - 10 years",
-    link: "",
+    link: "/careers/angular-developer",
   },
   {
     title: "Java Full Stack Developer - Spring/Hibernate",
     location: "Mumbai, Chennai, Bengaluru",
     type: "On Site",
     exp: "4 - 9 years",
-    link: "",
+    link: "/careers/java-fullstack-developer-spring-hibernate",
   },
   {
     title: "Associate Manager",
     location: "Bangalore Rural, Chennai, Mumbai (All Areas)",
     type: "On Site",
     exp: "6 - 10 years",
-    link: "",
+    link: "/careers/associate-manager",
   },
   {
     title: "SAP FICO & S/4 HANA Consultant - BTP Module",
     location: "Mumbai, Delhi / NCR, Bengaluru",
     type: "On Site",
     exp: "8 - 13 years",
-    link: "",
+    link: "/careers/sap-fico-bto-module",
   },
   {
     title: "Immediate Requirement International Voice Process",
     location: "Hiring office located in Bengaluru",
     type: "On Site",
     exp: "1 - 4 years",
-    link: "",
+    link: "/careers/international-voice-process",
   },
   {
     title: "Immediate requirement Hyperion Developer",
     location: "Hiring office located in Bengaluru",
     type: "On Site",
     exp: "9 - 14 years",
-    link: "",
-  },
-  {
-    title: "Urgent requirement For Sr.Java Developer with SQL expertise",
-    location: "Chennai, Bengaluru",
-    type: "On Site",
-    exp: "6 - 10 years",
-    link: "",
+    link: "/careers/hyperion-developer",
   },
   {
     title: "Airline Domain - Fullstack Developer",
     location: "Chennai, Bengaluru, Mumbai (All Areas)",
     type: "On Site",
     exp: "4 - 9 years",
-    link: "",
+    link: "/careers/airline-domain-fullstack-developer",
   },
   {
     title: "Immediate requirement Java Fullstack Developer",
     location: "Hiring office located in Mumbai (All Areas)",
     type: "On Site",
     exp: "5 - 10 years",
-    link: "",
+    link: "/careers/java-fullstack-developer",
   },
   {
     title: "Immediate requirement For Java Technical Lead",
     location: "Hiring office located in Mumbai (All Areas)",
     type: "On Site",
     exp: "9 - 14 years",
-    link: "",
+    link: "/careers/java-technical-lead",
   },
   {
     title: ".Net Developer - ASP/Blazor",
     location: "Kolkata, Bengaluru",
     type: "On Site",
     exp: "6 - 10 years",
-    link: "",
+    link: "/careers/dot-net-developer",
   },
   {
     title: "SAP FICO Consultant - Implementation & Support",
     location: "Kolkata, Bengaluru",
     type: "On Site",
     exp: "8 - 13 years",
-    link: "",
+    link: "/careers/sap-fico-consultant",
   },
   {
     title: "Immediate Requirement For SAP ECP/HCM Consultant",
     location: "Hiring office located in Bengaluru",
     type: "Remote",
     exp: "9 - 14 years",
-    link: "",
+    link: "/careers/sap-ecp-hcm-consultant",
   },
   {
     title: "Hiring For Sr.Angular Developer - Airline Domain",
     location: "Bangalore Rural, Chennai",
     type: "On Site",
     exp: "5 - 10 years",
-    link: "",
+    link: "/careers/angular-developer-airline-domain",
   },
   {
     title: "Dft Design Engineer",
     location: "Bangalore,Karnataka",
     type: "On Site",
     exp: "6 - 11 years",
-    link: "",
-  },
-  {
-    title: "Airline Domain - Java Technical Lead",
-    location: "Hiring office located in Mumbai",
-    type: "Remote",
-    exp: "10 - 19 years",
-    link: "",
+    link: "/careers/dft-design-engineer",
   },
   {
     title: "Airline Domain - Senior Angular developer",
     location: "Hiring office located in Mumbai (All Areas)",
     type: "Remote",
     exp: "5 - 9 years",
-    link: "",
+    link: "/careers/airline-domain-senior-angular-developer",
   },
   {
     title: "Full Stack Developers",
     location: "Pune, kharadhi",
     type: "Hybrid",
     exp: "7 - 10 years",
-    link: "",
-  },
-  {
-    title: "Hiring For SAP HCM/ECP Consultant",
-    location: "Hiring office located in Any where in india",
-    type: "Remote",
-    exp: "9 - 14 years",
-    link: "",
-  },
-  {
-    title: "Hyperion Developer",
-    location: "Hiring office located in Any where in india",
-    type: "Remote",
-    exp: "8 - 13 years",
-    link: "",
-  },
-  {
-    title: "SAP FICO & S/4 HANA Consultant - BTP Module",
-    location: "Andhra Pradesh, Karnataka, Kerala, Tamil Nadu",
-    type: "On Site",
-    exp: "8 - 13 years",
-    link: "",
+    link: "/careers/full-stack-developers",
   },
 ];
 

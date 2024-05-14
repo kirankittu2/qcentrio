@@ -1,6 +1,6 @@
 "use client";
 
-const { Suspense, useState } = require("react");
+const { Suspense, useState, useEffect } = require("react");
 const { default: Pagination } = require("../blogs/pagination");
 const { default: Image } = require("next/image");
 const { default: Link } = require("next/link");
@@ -16,6 +16,33 @@ export default function Jobs({ results, page }) {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { replace } = useRouter();
+
+  useEffect(() => {
+    let options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.3,
+    };
+    const searchCards = document.querySelectorAll(".job");
+    searchCards.forEach((element) => {
+      if (element.classList.contains("slideup")) {
+        element.classList.remove("slideup");
+      }
+    });
+    const observeElements = (selector, className) => {
+      const elements = document.querySelectorAll(selector);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(className);
+          }
+        });
+      }, options);
+      elements.forEach((el) => observer.observe(el));
+    };
+
+    observeElements(".job", "slideup");
+  }, [searchParams]);
 
   function sumbitSearch() {
     const params = new URLSearchParams(searchParams);
@@ -133,7 +160,7 @@ export default function Jobs({ results, page }) {
                     <div className="job-title"> {job.title}</div>
                   </div>
                   <div className="job-link-column">
-                    <Link href="/careers/php-developer">
+                    <Link href={job.link}>
                       <div className="job-link">
                         <Image src={arrow} alt="" />
                       </div>

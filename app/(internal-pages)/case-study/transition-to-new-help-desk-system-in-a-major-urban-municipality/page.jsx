@@ -6,7 +6,6 @@ import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import banner from "@/public/case-study-banner.png";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
-import EnhancingPatientCareWithBIandsSQLAnalytics from "@/app/ui/case-study/enhancing-patient-care-with-bi-and-sql-analytics-case-study-toggle";
 import SanMateo from "@/app/ui/case-study/san-mateo-case-study-toggle";
 
 // export const metadata = {
@@ -17,14 +16,13 @@ import SanMateo from "@/app/ui/case-study/san-mateo-case-study-toggle";
 
 export default function CaseStudy() {
   const heroContent = {
-    heading:
-      "City of San Mateo IT Department’s Transition to New Help Desk System with Qcentrio",
+    heading: "Transition to New Help Desk System in a Major Urban Municipality",
   };
 
   const bottomlineContent = {
     heading: "Bottomline",
     content:
-      "The City of San Mateo’s IT department exemplifies how selecting the right technological tools and systems, with adept support from partners like Qcentrio, can transform the efficiency and effectiveness of government services. BMC Track-It! in San Mateo's success has rendered it a recommended solution for other cities aiming to enhance their IT operations, underscoring IT’s vital role in boosting municipal operations and service delivery.",
+      "This urban city municipality’s IT department illustrates how selecting the right technological tools and systems with adept support from partners like Qcentrio can transform the efficiency and effectiveness of government services. BMC Track-It 's success has made it a recommended solution for other municipalities aiming to enhance their IT operations, underscoring IT’s vital role in boosting municipal operations and service delivery.",
   };
 
   return (
