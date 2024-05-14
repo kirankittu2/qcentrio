@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import context1 from "@/public/context-1.png";
-import context2 from "@/public/context-2.png";
+import context1 from "@/public/san-matreo/image-01.webp";
+import context2 from "@/public/san-matreo/image-02.webp";
 
 import uptri from "@/public/up-tri.svg";
 import downtri from "@/public/down-tri.svg";
@@ -138,14 +138,14 @@ function ContextContent() {
           CLIENT CONTEXT
         </div>
         <h2 className="section-heading ">
-          The City of San Mateo, supporting a population of 90,000 and managing
-          a workforce across 22 locations, struggled significantly with its help
-          desk system.
+          A major urban municipality, managing a workforce across 22 locations
+          and supporting a population of 90,000, faced significant challenges
+          with its help desk system.
         </h2>
         <p className="section-content ">
-          The preexisting software was poorly implemented, resulting in lost
-          work orders and a lack of clarity regarding the status of user
-          requests.
+          The existing software was poorly implemented, leading to
+          inefficiencies such as lost work orders and a lack of clarity on
+          request status for users.
         </p>
       </div>
     </div>
@@ -162,15 +162,15 @@ function ChallengeContent() {
       <div className="case-study-toogle-content">
         <div className="case-study-toogle-content-highlight ">CHALLENGES</div>
         <h2 className="section-heading ">
-          Young Vu, the Senior Project Manager, pinpointed the core issue: the
-          staff resorted to paper tickets because the previous system was not
+          The Senior Project Manager identified the core issue: the staff
+          resorted to paper tickets because the previous system was not
           user-friendly.
         </h2>
         <p className="">
-          This inefficiency led to delays and confusion, impacting the city's
-          capability to serve its residents effectively. Vu’s primary objective
-          was to enhance customer service through a system that boosted
-          communication and transparency for users.
+          This inefficiency led to delays and confusion, impacting the
+          municipality's capability to serve its residents effectively. The
+          primary objective was to enhance customer service through a system
+          that boosted communication and transparency for users.
         </p>
       </div>
     </div>
@@ -182,18 +182,17 @@ function SolutionContent() {
     <div className="case-study-solution-content-container">
       <div className="case-study-solution-row-1">
         <div className="case-study-solution-row-1-column-1">
-          <h2 className="section-heading ">
-            Navigating through strict municipal purchasing guidelines, Vu
-            searched for a new system.
-          </h2>
+          {/* <h2 className="section-heading ">
+            Navigating through strict municipal purchasing guidelines, the
+            search for a new system included site visits and evaluations of
+            systems used in other cities.
+          </h2> */}
           <p className="section-content ">
-            This included site visits and evaluations of systems used in other
-            cities.
-          </p>
-          <p className="">
-            With the assistance of Qcentrio, Vu and his team explored multiple
-            options, ultimately selecting BMC Track-It! for its high
-            satisfaction scores across various user groups.
+            Navigating through strict municipal purchasing guidelines, the
+            search for a new system included site visits and evaluations of
+            systems used in other cities. With the assistance of Qcentrio,
+            multiple options were explored, ultimately selecting BMC Track-It
+            for its high satisfaction scores across various user groups.
           </p>
         </div>
         {/* <div className="case-study-solution-row-1-column-2">
@@ -211,20 +210,17 @@ function SolutionContent() {
         <h2 className="general-text-bold ">Implementation</h2>
         <p>
           Qcentrio played a crucial role in the swift and efficient setup of BMC
-          Track-It!, which was noted for its user-friendly interface and ease of
-          implementation. The new system went live within days, markedly
-          enhancing the IT department's operational efficiency. It facilitated
-          improved handling of IT requests via a web self-service portal, which
-          automatically generated work tickets and updated users about the
-          status of their requests.
+          Track-It, which was well-known for its user-friendly interface and
+          ease of implementation. The system was up and running within a few
+          days, significantly improving the IT department's operation
+          efficiency. It facilitated better handling of IT requests via a web
+          self-service portal, automatically generating work tickets and
+          updating users on the status of their requests.
         </p>
       </div>
       <div className="case-study-general-text">
         <h2 className="general-text-bold">Benefits</h2>
-        <p>
-          The introduction of BMC Track-It facilitated by Qcentrio, delivered
-          multiple benefits:
-        </p>
+        <p>Implementing BMC Track-It! brought numerous advantages:</p>
         <ul>
           <li>
             <strong>Cost Efficiency:</strong> Automation of ticket generation

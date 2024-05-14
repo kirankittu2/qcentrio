@@ -4,7 +4,7 @@ import BottomLine from "@/app/ui/case-study/bottom-line";
 import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
-import banner from "@/public/case-study-banner.png";
+import banner from "@/public/san-matreo/banner.webp";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import SanMateo from "@/app/ui/case-study/san-mateo-case-study-toggle";
 

@@ -30,10 +30,19 @@ import agriculture from "@/public/internet-of-things-solutions/agriculture.svg";
 import logistics from "@/public/internet-of-things-solutions/logistics.svg";
 import utilities from "@/public/internet-of-things-solutions/utilities.svg";
 import eCommerce from "@/public/web-trolley.svg";
+import publicSector from "@/public/blockchain-strategy-and-advisory/government-public-sector.svg";
 import telecommunication from "@/public/big-data-services-and-solutions/tele-communication.svg";
 import energy from "@/public/big-data-services-and-solutions/energy.svg";
 import media from "@/public/big-data-services-and-solutions/media-and-entertainment.svg";
+import government from "@/public/salesforce-services/government.svg";
+import legal from "@/public/blockchain-security-and-compliance-solutions/legal.svg";
+import insurance from "@/public/blockchain-integration-and-deployment-services/insurance.svg";
+import techSoftware from "@/public/specialty-services/technology-software.svg";
+import eduTech from "@/public/specialty-services/education technology.svg";
+import education from "@/public/azure-services-and-offerings/education.svg";
 import realEstate from "@/public/building.svg";
+import techIt from "@/public/audit-and-assurance-services/tech-it.svg";
+import transportation from "@/public/cybersecurity-solutions-and-services-support/transportation.svg";
 import softwareTechnology from "@/public/software-engineer.svg";
 import whyChooseImg1 from "@/public/sub-service-why-choose-1.png";
 import whyChooseImg2 from "@/public/sub-service-why-choose-2.png";
@@ -479,8 +488,8 @@ const caseStudies = {
       type: "CASE STUDY",
     },
     {
-      image: "/automatic-vehicle.jpg",
-      homeImage: "/vehicle-aerodynamics.jpg",
+      image: "/memorial/thumbnail.webp",
+      homeImage: "/memorial/thumbnail.webp",
       title:
         "Memorial Health Services’ Upgrade to BMC Track-It for Enhanced IT Service Management",
       content1:
@@ -491,15 +500,15 @@ const caseStudies = {
       type: "CASE STUDY",
     },
     {
-      image: "/automatic-vehicle.jpg",
-      homeImage: "/vehicle-aerodynamics.jpg",
+      image: "/san-matreo/thumbnail.webp",
+      homeImage: "/san-matreo/thumbnail.webp",
       title:
-        "City of San Mateo IT Department’s Transition to New Help Desk System with Qcentrio",
+        "Transition to New Help Desk System in a Major Urban Municipality ",
       content1:
         "Vehicle aerodynamics simulations enhance efficiency in automotive product development improve road handling and fuel economy.",
       content2:
         "By using advanced computational fluid dynamics (CFD) tools, automotive companies can simulate real-world conditions, assess performance impacts, and make informed decisions about design modifications before any physical prototype is built.",
-      link: "/case-study/san-mateo-it-department-transition-to-new-help-desk-system",
+      link: "/case-study/transition-to-new-help-desk-system-in-a-major-urban-municipality",
       type: "CASE STUDY",
     },
     // {
@@ -2283,7 +2292,7 @@ const subServicePagesContent = {
               "Utilize SAP to streamline supply chain management, production planning, and customer experiences in the automotive industry for greater efficiency and innovation.",
           },
           {
-            icon: travel,
+            icon: publicSector,
             heading: "PUBLIC SECTOR",
             content:
               "Deploy SAP solutions to enhance public services delivery, improve stakeholder engagement, and drive digital transformation in government operations.",
@@ -2823,7 +2832,7 @@ const subServicePagesContent = {
               "Create compliant and reliable software that enhances functionality while maintaining data privacy and security.",
           },
           {
-            icon: aerospace,
+            icon: telecommunication,
             heading: "Telecom",
             content:
               "Innovate telecommunications software for better connectivity and user experiences, catering to the ever-evolving user needs and industry trends.",
@@ -3006,7 +3015,7 @@ const subServicePagesContent = {
               "Protect consumer data and ensure transactional integrity with comprehensive retail auditing.",
           },
           {
-            icon: aerospace,
+            icon: techIt,
             heading: "TECH AND IT",
             content:
               "Get customized audit services for the tech & IT industry, addressing IP protection and software licensing compliance.",
@@ -3472,19 +3481,19 @@ const subServicePagesContent = {
               "Secure online transactions and customer data while navigating the complexities of digital retail risk management.",
           },
           {
-            icon: engineering,
+            icon: telecommunication,
             heading: "TELECOMMUNICATIONS",
             content:
               "Address the complex security challenges inherent in the telecom sector, ensuring robust protection against fraud, data breaches, and infrastructure threats.",
           },
           {
-            icon: aerospace,
+            icon: energy,
             heading: "ENERGY AND UTILITIES",
             content:
               "Safeguard critical infrastructure and data, adapting to the energy sector's unique regulatory requirements and potential cyber-physical threats.",
           },
           {
-            icon: travel,
+            icon: government,
             heading: "GOVERNMENT AND PUBLIC SERVICES",
             content:
               "Get expert risk advisory services for government and public entities to efficiently manage and mitigate risks associated with digital transformation, data security, etc.",
@@ -3623,7 +3632,7 @@ const subServicePagesContent = {
         mainHeading: "OUR SPECIALTY SERVICES CATER TO DIVERSE INDUSTRIES:",
         list: [
           {
-            icon: healthcare,
+            icon: techSoftware,
             heading: "TECHNOLOGY AND SOFTWARE",
             content:
               "Tailor our services to technology firms looking for rigorous QA testing to support innovative software development.",
@@ -3647,7 +3656,7 @@ const subServicePagesContent = {
               "Implement rigorous testing protocols for financial software to ensure secure transactions, regulatory compliance, and a seamless user experience.",
           },
           {
-            icon: aerospace,
+            icon: eduTech,
             heading: "EDUCATION TECHNOLOGY",
             content:
               "Customize testing services for educational platforms, ensuring reliability and user-friendliness to support learning at all levels.",
@@ -3983,7 +3992,7 @@ const subServicePagesContent = {
               "Increase transparency and traceability in supply chains, reducing delays and potential fraud.",
           },
           {
-            icon: manufacturing,
+            icon: government,
             heading: "Government",
             content:
               "Enhance public sector transparency and trust by securely storing and managing sensitive data.",
@@ -4001,7 +4010,7 @@ const subServicePagesContent = {
               "Ensure product authenticity and streamline operations with blockchain-based tracking systems.",
           },
           {
-            icon: manufacturing,
+            icon: insurance,
             heading: "Insurance",
             content:
               "Reduce fraud and automate claims processing with immutable and transparent record-keeping.",
@@ -4185,19 +4194,19 @@ const subServicePagesContent = {
               "Get a transparent and immutable record of property transactions, enhancing trust among parties.",
           },
           {
-            icon: travel,
+            icon: government,
             heading: "Government",
             content:
               "Enable transparent governance and foster trust by making governmental processes more accountable.",
           },
           {
-            icon: eCommerce,
+            icon: education,
             heading: "Education",
             content:
               "Protect academic credentials and ensure verifiable data on the blockchain to prevent tampering and fraud.",
           },
           {
-            icon: realEstate,
+            icon: legal,
             heading: "Legal",
             content:
               "Automate and secure legal transactions to minimize disputes and ensure enforceability across parties involved.",
@@ -4366,7 +4375,7 @@ const subServicePagesContent = {
               "Protect intellectual property rights and streamline royalty payments through blockchain technology.",
           },
           {
-            icon: travel,
+            icon: government,
             heading: "Government",
             content:
               "Increase governmental transparency and reduce fraud with secure blockchain applications.",
@@ -4525,7 +4534,7 @@ const subServicePagesContent = {
               "Enhance supply chain transparency and control by utilizing decentralized ledger technology for real-time tracking and authentication of goods.",
           },
           {
-            icon: aerospace,
+            icon: government,
             heading: "Government and Public Sector",
             content:
               "Implement blockchain to modernize public services and record-keeping, thereby increasing transparency and security in government operations.",
@@ -4658,8 +4667,7 @@ const subServicePagesContent = {
           },
           {
             num: "04",
-            heading:
-              "Team Communication Tools make it easy for you and your team",
+            heading: "Communication Tools make it easy for you and your team",
             image: "/business-value-enhancement-services.png",
             icon: collabIcon4,
             content:
@@ -4723,13 +4731,13 @@ const subServicePagesContent = {
               "Enhance production efficiency and supply chain logistics with integrated communication.",
           },
           {
-            icon: engineering,
+            icon: techSoftware,
             heading: "SOFTWARE TECHNOLOGY",
             content:
               "Accelerate innovation with tools that support agile development and team synchronization.",
           },
           {
-            icon: aerospace,
+            icon: education,
             heading: "EDUCATION",
             content:
               "Enrich learning through collaborative platforms and administrative efficiency.",
@@ -5778,7 +5786,7 @@ const subServicePagesContent = {
               "Scale your e-commerce platforms with AWS's flexible computing resources and robust security measures.",
           },
           {
-            icon: engineering,
+            icon: education,
             heading: "Education",
             content:
               "Enhance educational offerings with AWS's cloud solutions for remote learning and educational resource management.",
@@ -5790,7 +5798,7 @@ const subServicePagesContent = {
               "Utilize AWS services to securely manage property listings, client interactions, and back-end operations in the cloud.",
           },
           {
-            icon: travel,
+            icon: government,
             heading: "Government",
             content:
               "Implement AWS cloud solutions to streamline public sector processes, enhance civic engagement, and improve governmental service delivery.",
@@ -5969,7 +5977,7 @@ const subServicePagesContent = {
               "Implement Azure cloud solutions to optimize logistics operations, enhance supply chain visibility, and predict market demands with advanced analytics.",
           },
           {
-            icon: eCommerce,
+            icon: education,
             heading: "EDUCATION",
             content:
               "Deploy scalable Azure solutions to facilitate remote learning platforms, manage large volumes of educational content, and provide analytics on student performance.",
@@ -6131,13 +6139,13 @@ const subServicePagesContent = {
               "Utilize cloud infrastructure to manage e-commerce platforms, ensuring scalability to meet consumer demands.",
           },
           {
-            icon: aerospace,
+            icon: education,
             heading: "EDUCATION",
             content:
               "Utilize cloud services to foster collaborative learning environments with scalable solutions for virtual classrooms and content management.",
           },
           {
-            icon: travel,
+            icon: government,
             heading: "GOVERNMENT",
             content:
               "Implement secure and compliant cloud infrastructure that meets the specific needs of public sector organizations, ensuring data sovereignty and public trust.",
@@ -6295,7 +6303,7 @@ const subServicePagesContent = {
               "Safeguard secure transactions and compliance with robust IT infrastructures.",
           },
           {
-            icon: manufacturing,
+            icon: education,
             heading: "Education",
             content:
               "Support academic excellence with uninterrupted access to educational technology.",
@@ -6307,7 +6315,7 @@ const subServicePagesContent = {
               "Strengthen the backbone of your logistics network with robust IT support that ensures seamless operations and real-time tracking.",
           },
           {
-            icon: aerospace,
+            icon: legal,
             heading: "Legal Services",
             content:
               "Protect sensitive client information and support case management systems with secure and reliable IT infrastructure.",
@@ -6486,7 +6494,7 @@ const subServicePagesContent = {
               "Safeguard online retail platforms against cyber threats, ensuring customer data protection and trust.",
           },
           {
-            icon: engineering,
+            icon: transportation,
             heading: "Transportation",
             content:
               "Secure sensitive operational data in the transportation sector, from logistic operations to customer data, with robust cybersecurity frameworks.",
@@ -6498,7 +6506,7 @@ const subServicePagesContent = {
               "Implement security solutions to protect guests' personal information and transaction data in the hospitality industry.",
           },
           {
-            icon: travel,
+            icon: education,
             heading: "Education",
             content:
               "Protect student data and academic research with tailored cybersecurity measures designed for educational institutions.",
@@ -7023,7 +7031,7 @@ const subServicePagesContent = {
               "Use Salesforce to personalize shopping experiences, manage loyalty programs, and analyze consumer trends.",
           },
           {
-            icon: aerospace,
+            icon: government,
             heading: "GOVERNMENT",
             content:
               "Enhance citizen engagement and inter-agency collaboration with Salesforce, ensuring transparency and efficiency in public sector management.",

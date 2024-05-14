@@ -5,8 +5,8 @@ import Script from "next/script";
 
 export default function Discover() {
   return (
-    <div className="discover-section balance-section">
-      <div className="discover-card ">
+    <div className="discover-section balance-section ">
+      <div data-option="up" className="discover-card animate animate-hidden">
         {/* <div className="discover-block-space"></div> */}
         <div className="discover-block">
           <Script src="https://cdn.lordicon.com/lordicon.js"></Script>
@@ -28,7 +28,7 @@ export default function Discover() {
           </Link>
         </div>
       </div>
-      <div className="discover-card">
+      <div data-option="up" className="discover-card animate animate-hidden">
         {/* <div className="discover-block-space"></div> */}
         <div className="discover-block">
           <Script src="https://cdn.lordicon.com/lordicon.js"></Script>

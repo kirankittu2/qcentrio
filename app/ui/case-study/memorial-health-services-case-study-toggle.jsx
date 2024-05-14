@@ -1,14 +1,14 @@
 "use client";
 
 import Image from "next/image";
-import context1 from "@/public/context-1.png";
-import context2 from "@/public/context-2.png";
+import context1 from "@/public/memorial/image-01.webp";
+import context2 from "@/public/memorial/image-02.webp";
 
 import uptri from "@/public/up-tri.svg";
 import downtri from "@/public/down-tri.svg";
 import { useEffect, useState } from "react";
 
-export default function SanMateo() {
+export default function Memorial() {
   const [context, togggleContext] = useState(true);
   const [challenges, togggleChallenges] = useState(true);
   const [solution, togggleSolution] = useState(true);

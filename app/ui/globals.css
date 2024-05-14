@@ -315,6 +315,11 @@ textarea {
   text-transform: uppercase;
 }
 
+.case-study-solution-content-container .general-text-bold {
+  margin-bottom: 10px;
+}
+
+
 .text-highlights {
   color: var(--primary-color);
 }

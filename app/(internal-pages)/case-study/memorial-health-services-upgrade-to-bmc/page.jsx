@@ -4,9 +4,9 @@ import BottomLine from "@/app/ui/case-study/bottom-line";
 import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
-import banner from "@/public/case-study-banner.png";
+import banner from "@/public/memorial/banner.webp";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
-import SanMateo from "@/app/ui/case-study/san-mateo-case-study-toggle";
+import Memorial from "@/app/ui/case-study/memorial-health-services-case-study-toggle";
 
 // export const metadata = {
 //   title: "Enhancing Patient Care with BI and SQL Analytics",
@@ -36,7 +36,7 @@ export default function CaseStudy() {
         <CaseStudyHero data={heroContent} />
       </div>
 
-      <SanMateo />
+      <Memorial />
       <BottomLine data={bottomlineContent} />
       <Contact
         heading="Experience the Qcentrio Difference"
