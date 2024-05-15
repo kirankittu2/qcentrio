@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import context1 from "@/public/land-management/secondary-image-1.png";
-import context2 from "@/public/land-management/secondary-image-2.png";
+import context1 from "@/public/transforming-land-management-ecosystem-with-blockchain-technology/image-01.webp";
+import context2 from "@/public/transforming-land-management-ecosystem-with-blockchain-technology/image-02.webp";
 
 import uptri from "@/public/up-tri.svg";
 import downtri from "@/public/down-tri.svg";

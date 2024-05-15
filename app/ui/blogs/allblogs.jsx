@@ -23,8 +23,8 @@ export default function AllBlogs({
             <Link href="/insights?item=data management">
               <span className="keywords">Data Management,</span>
             </Link>
-            <Link href="/insights?item=pharmaceutical&type=case-study">
-              <span className="keywords">Pharmaceutical</span>
+            <Link href="/insights?item=land management&type=case-study">
+              <span className="keywords">Land Management</span>
             </Link>
           </div>
         </div>

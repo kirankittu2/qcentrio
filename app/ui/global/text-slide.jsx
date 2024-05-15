@@ -10,11 +10,12 @@ export default function TextSlide({ wrapper, item }) {
       const mouseX = event.clientX;
       const windowWidth = window.innerWidth;
       const scrollPercentage = (mouseX / windowWidth) * 100;
-      const extendPixels = window.innerWidth <= 1600 ? 30 : 10;
-      console.log(extendPixels);
+      const extendPixels = window.innerWidth <= 1600 ? 22 : 5;
+      const computedStyle = window.getComputedStyle(mainSlide.current);
+      const fontSize = computedStyle.getPropertyValue("font-size");
       modernizeTextElements.forEach((element, index) => {
         const topValue = `${
-          scrollPercentage - mainSlide.current.offsetWidth - extendPixels
+          scrollPercentage - parseInt(fontSize, 10) - extendPixels
         }`;
         const refinedTopValue = (topValue / 1920) * 100;
         element.style.left = refinedTopValue + "vw";
@@ -43,8 +44,8 @@ export default function TextSlide({ wrapper, item }) {
           <div>{item}</div>
         </div>
       </div>
-      <div ref={mainSlide} className="modernize-column modernize-column-4">
-        <div className="modernize-text">
+      <div className="modernize-column modernize-column-4">
+        <div ref={mainSlide} className="modernize-text">
           <div>{item}</div>
           <div>{item}</div>
         </div>

@@ -3,7 +3,7 @@ import CaseStudyHero from "@/app/ui/case-study/case-study-hero";
 import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
-import banner from "@/public/case-study-banner.png";
+import banner from "@/public/streamline-your-product-development-with-automated-vehicle-aerodyn/banner.png";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import ProductDevelopmentWithAutomatedVehicleAerodynamics from "@/app/ui/case-study/product-development-with-automated-vehicle-aerodynamics-case-study-toggle";
 

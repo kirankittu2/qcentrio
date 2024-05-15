@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Button from "../global/button";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
@@ -11,6 +11,20 @@ export default function Search({ item }) {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { replace } = useRouter();
+
+  useEffect(() => {
+    setSearchTerm(
+      capitalizeEveryWord(searchParams.get("q") ? searchParams.get("q") : "")
+    );
+  }, [searchParams]);
+
+  function capitalizeEveryWord(str) {
+    let words = str.split(" ");
+    for (let i = 0; i < words.length; i++) {
+      words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
+    }
+    return words.join(" ");
+  }
 
   function sumbitSearch() {
     const params = new URLSearchParams(searchParams);
@@ -35,7 +49,8 @@ export default function Search({ item }) {
       <div className="search-bar-container">
         <input
           onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="Type Keyword"></input>
+          placeholder="Type Keyword"
+          value={searchTerm}></input>
         <div onClick={() => setDropdown(!dropdown)} className="search-dropdown">
           {searchTermDropdown}{" "}
           <span

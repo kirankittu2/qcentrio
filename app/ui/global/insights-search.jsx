@@ -24,7 +24,7 @@ export default function InsightsSearchBar() {
     <div className="search-container">
       <input
         onChange={(e) => handleSearch(e.target.value)}
-        className="search "
+        className="search"
         placeholder="Search Keywords"></input>
       <Image className="input-icon" src={search} alt="" />
     </div>

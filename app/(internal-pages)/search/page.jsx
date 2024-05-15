@@ -33,10 +33,19 @@ export default async function Products({ searchParams }) {
 }
 
 function SearchHeading({ searchParams, data }) {
+  function capitalizeEveryWord(str) {
+    let words = str.split(" ");
+    for (let i = 0; i < words.length; i++) {
+      words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
+    }
+    return words.join(" ");
+  }
+
   return (
     <div className="search-page-heading-section">
       <h1 className="all-results-heading ">
-        All Results {searchParams?.q && `for "${searchParams.q}"`}
+        All Results{" "}
+        {searchParams?.q && `for "${capitalizeEveryWord(searchParams.q)}"`}
       </h1>
       <p className="total-results">
         SHOWING {data.startIndex}-{data.startIndex + data.children.length - 1}{" "}

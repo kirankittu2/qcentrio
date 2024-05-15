@@ -33,7 +33,18 @@ import eCommerce from "@/public/web-trolley.svg";
 import publicSector from "@/public/blockchain-strategy-and-advisory/government-public-sector.svg";
 import telecommunication from "@/public/big-data-services-and-solutions/tele-communication.svg";
 import energy from "@/public/big-data-services-and-solutions/energy.svg";
+import hospitals from "@/public/oracle-cerner-advisory-services/hospitals.svg";
+import clinics from "@/public/oracle-cerner-advisory-services/clinics.svg";
+import hospitalClinics from "@/public/epic-advisory-services/hospitals-clinics.svg";
+import pharmacy from "@/public/epic-advisory-services/pharmacy-management.svg";
+import telemedicine from "@/public/epic-advisory-services/telemedicine.svg";
+import care from "@/public/oracle-cerner-advisory-services/speciality-care.svg";
 import media from "@/public/big-data-services-and-solutions/media-and-entertainment.svg";
+import electronics from "@/public/product-engineering-services/consumer-electronics.svg";
+import medicalDevice from "@/public/product-engineering-services/medical-device.svg";
+import semiConductor from "@/public/product-engineering-services/semi-conductor.svg";
+import server from "@/public/product-engineering-services/server-storage.svg";
+import vendor from "@/public/product-engineering-services/software-vendor.svg";
 import government from "@/public/salesforce-services/government.svg";
 import legal from "@/public/blockchain-security-and-compliance-solutions/legal.svg";
 import insurance from "@/public/blockchain-integration-and-deployment-services/insurance.svg";
@@ -202,7 +213,7 @@ import offshoreIcon7 from "@/public/offshore-development-centre-services/reporti
 import offshoreIcon8 from "@/public/offshore-development-centre-services/advanced-training.svg";
 import awsIcon1 from "@/public/aws-services-and-offerings/aws-integration.svg";
 import awsIcon2 from "@/public/aws-services-and-offerings/cloud-infrastructure.svg";
-import awsIcon3 from "@/public/aws-services-and-offerings/education.svg";
+import awsIcon3 from "@/public/aws-services-and-offerings/flexible-computing.svg";
 import awsIcon4 from "@/public/aws-services-and-offerings/continous-support.svg";
 import awsIcon5 from "@/public/aws-services-and-offerings/managed-services.svg";
 import awsIcon6 from "@/public/aws-services-and-offerings/data-analyst.svg";
@@ -392,6 +403,7 @@ import genAiIcon5 from "@/public/generative-ai-solutions-and-offerings/generativ
 import genAiIcon6 from "@/public/generative-ai-solutions-and-offerings/insights-data-visualization.svg";
 import genAiIcon7 from "@/public/generative-ai-solutions-and-offerings/building_trust.svg";
 import genAiIcon8 from "@/public/generative-ai-solutions-and-offerings/customer_behavioue_analytics.svg";
+import collabBanner from "@/public/collaboration-and-productivity-solutions/main-bg.png";
 
 const blogs = {
   children: [
@@ -466,8 +478,9 @@ const caseStudies = {
     },
 
     {
-      homeImage: "/land-management.jpg",
-      image: "/land-management-cs.jpg",
+      homeImage: "/land-management.png",
+      image:
+        "/transforming-land-management-ecosystem-with-blockchain-technology/thumbnail.webp",
       title: "Land Management in India Leading with a Blockchain Platform",
       content1:
         "Pioneering Indian state is revolutionizing land management by implementing an blockchain platform to enhancing security.",
@@ -477,31 +490,31 @@ const caseStudies = {
       type: "CASE STUDY",
     },
     {
-      image: "/automatic-vehicle.jpg",
-      homeImage: "/vehicle-aerodynamics.jpg",
+      image:
+        "/streamline-your-product-development-with-automated-vehicle-aerodyn/thumbnail.webp",
+      homeImage: "/automate-vehicle.png",
       title: "Automate Vehicle Aero Simulations: Faster Product Development",
       content1:
-        "Vehicle aerodynamics simulations enhance efficiency in automotive product development improve road handling and fuel economy.",
+        "Automakers can now streamline product development and optimize fuel efficiency by using automated aerodynamic simulations for vehicles",
       content2:
-        "By using advanced computational fluid dynamics (CFD) tools, automotive companies can simulate real-world conditions, assess performance impacts, and make informed decisions about design modifications before any physical prototype is built.",
+        "Imagine reducing development time and achieving peak fuel economy – all through automated simulations!",
       link: "/case-study/streamline-your-product-development-with-automated-vehicle-aerodynamics-simulations",
       type: "CASE STUDY",
     },
     {
       image: "/memorial/thumbnail.webp",
-      homeImage: "/memorial/thumbnail.webp",
-      title:
-        "Memorial Health Services’ Upgrade to BMC Track-It for Enhanced IT Service Management",
+      homeImage: "/memorial-health-services.png",
+      title: "MHS Upgrade to BMC Track-It for Enhanced IT Service Management",
       content1:
-        "Vehicle aerodynamics simulations enhance efficiency in automotive product development improve road handling and fuel economy.",
+        "Memorial Health Services have been upgraded to BMC Track-It, enhancing their overall IT service management.",
       content2:
-        "By using advanced computational fluid dynamics (CFD) tools, automotive companies can simulate real-world conditions, assess performance impacts, and make informed decisions about design modifications before any physical prototype is built.",
+        "Imagine improved service delivery, streamlined workflows, and a happier IT team – that's the benefit of a next-level service management system.",
       link: "/case-study/memorial-health-services-upgrade-to-bmc",
       type: "CASE STUDY",
     },
     {
       image: "/san-matreo/thumbnail.webp",
-      homeImage: "/san-matreo/thumbnail.webp",
+      homeImage: "/major-urban-municipality.png",
       title:
         "Transition to New Help Desk System in a Major Urban Municipality ",
       content1:
@@ -2808,7 +2821,7 @@ const subServicePagesContent = {
         mainHeading: "INDUSTRIES QCENTRIO SERVES IN PRODUCT ENGINEERING",
         list: [
           {
-            icon: healthcare,
+            icon: electronics,
             heading: "Consumer Electronics",
             content:
               "Design intuitive software that powers the latest consumer technology devices, enhancing user experience and enabling seamless connectivity. ",
@@ -2826,7 +2839,7 @@ const subServicePagesContent = {
               "Engineer complex software systems that meet the rigorous demands of the aerospace industry, ensuring high reliability, safety, and performance.",
           },
           {
-            icon: engineering,
+            icon: medicalDevice,
             heading: "Medical Devices",
             content:
               "Create compliant and reliable software that enhances functionality while maintaining data privacy and security.",
@@ -2838,19 +2851,19 @@ const subServicePagesContent = {
               "Innovate telecommunications software for better connectivity and user experiences, catering to the ever-evolving user needs and industry trends.",
           },
           {
-            icon: travel,
+            icon: server,
             heading: "Servers/Storage",
             content:
               "Build robust software for server and storage solutions that manage vast amounts of data, ensuring scalability, flexibility, and faster time to market.",
           },
           {
-            icon: eCommerce,
+            icon: semiConductor,
             heading: "Semiconductors",
             content:
               "Craft precise software to control and monitor semiconductor manufacturing processes, increasing efficiency, accuracy, and quality.",
           },
           {
-            icon: realEstate,
+            icon: vendor,
             heading: "Independent Software Vendors (ISVs)",
             content:
               "Support ISVs with comprehensive product engineering to bring new software solutions to market, helping them stay ahead in the competitive market.",
@@ -3158,19 +3171,19 @@ const subServicePagesContent = {
           "QCENTRIO'S EPIC ADVISORY SERVICES ACROSS HEALTHCARE SECTORS",
         list: [
           {
-            icon: healthcare,
+            icon: hospitalClinics,
             heading: "HOSPITALS AND CLINICS",
             content:
               "Elevate patient care with integrated EHR solutions tailored for fast-paced hospital environments and specialized clinics.",
           },
           {
-            icon: finace,
+            icon: telemedicine,
             heading: "TELEMEDICINE",
             content:
               "Adapt to the growing demands of telehealth with integrated EPIC solutions that support remote care delivery.",
           },
           {
-            icon: hospitality,
+            icon: pharmacy,
             heading: "PHARMACY MANAGEMENT",
             content:
               "Streamline pharmacy operations with EPIC integration, ensuring precise medication tracking and patient safety.",
@@ -3311,19 +3324,19 @@ const subServicePagesContent = {
           "INDUSTRY-SPECIFIC GENERATIVE AI OFFERINGS FOR SECTOR-WIDE INNOVATION AND EFFICIENCY",
         list: [
           {
-            icon: healthcare,
+            icon: hospitals,
             heading: "HOSPITALS",
             content:
               "Implement a fully integrated EHR system to coordinate patient care and optimize hospital workflows.",
           },
           {
-            icon: finace,
+            icon: clinics,
             heading: "CLINICS",
             content:
               "Deploy Cerner's ambulatory solutions to enhance patient engagement and streamline clinic operations.",
           },
           {
-            icon: manufacturing,
+            icon: care,
             heading: "SPECIALTY CARE",
             content:
               "Tailor Cerner's specialized functionalities to the unique requirements of various medical specialties.",
@@ -4614,6 +4627,7 @@ const subServicePagesContent = {
         link: "/offerings/business-optimization-and-analytics-services",
         current: "Collaboration and Productivity Solutions",
       },
+      bannerImage: collabBanner,
       contactHead:
         "Harness the true potential of collaboration and productivity solutions",
       contentSection: {
@@ -4644,7 +4658,8 @@ const subServicePagesContent = {
           {
             num: "01",
             heading: "Integrated Communication Platforms",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/collaboration-and-productivity-solutions/Integrated-Communication-Platforms.png",
             icon: collabIcon1,
             content:
               "Streamline your internal and external communications with platforms that combine messaging, video conferencing, and project management capabilities. This integration facilitates a more connected and efficient environment by reducing the need for multiple disjointed tools.",
@@ -4652,7 +4667,8 @@ const subServicePagesContent = {
           {
             num: "02",
             heading: "Work Together, Achieve More: Collaborative Workspaces",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/collaboration-and-productivity-solutions/Work-Together-Achieve-More-Collaborative-Workspaces.png",
             icon: collabIcon2,
             content:
               "Develop a collaborative culture with digital workspaces that allow teams to share ideas, files, and feedback in real-time. These workspaces are designed to replicate the dynamics of physical office environments, enhancing teamwork and creativity regardless of geographical location.",
@@ -4660,7 +4676,8 @@ const subServicePagesContent = {
           {
             num: "03",
             heading: "Productivity Tracking and Analytics",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/collaboration-and-productivity-solutions/Productivity-Tracking-and-Analytics.png",
             icon: collabIcon3,
             content:
               "Gain insights into team productivity and collaboration patterns with advanced analytics, enabling you to make data-driven decisions that boost efficiency. This allows for optimizing workflows and identifying areas where improvements can be made.",
@@ -4668,7 +4685,8 @@ const subServicePagesContent = {
           {
             num: "04",
             heading: "Communication Tools make it easy for you and your team",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/collaboration-and-productivity-solutions/Communication-Tools-make-it-easy-for-you-and-your-team.png",
             icon: collabIcon4,
             content:
               "Improve team communication with instant messaging, shared calendars, and real-time notifications to keep everyone on the same page. These tools are essential for maintaining synchronization across various team activities and schedules.",
@@ -4677,7 +4695,8 @@ const subServicePagesContent = {
             num: "05",
             heading:
               "Project Management Solutions To Face The Deadlines Boldly",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/collaboration-and-productivity-solutions/Project-Management-Solutions-To-Face-The-Deadlines-Boldly.png",
             icon: collabIcon5,
             content:
               "Enhance project management with our comprehensive solutions support. Assign tasks, track progress, manage resources, meet deadlines, and encourage collaboration for success. This holistic approach ensures that all project aspects are covered, from initiation to completion.",
@@ -4685,7 +4704,8 @@ const subServicePagesContent = {
           {
             num: "06",
             heading: "Empowering Work & Workplace: Integrated Workspaces",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/collaboration-and-productivity-solutions/Empowering-Work-&-Workplace-Integrated-Workspaces.png",
             icon: collabIcon6,
             content:
               "Improve your team's collaboration, communication, and task management by integrating tools and applications of your choice into a unified platform. This seamless integration enhances user experience and streamlines workflows, promoting productivity.",
@@ -4693,7 +4713,8 @@ const subServicePagesContent = {
           {
             num: "07",
             heading: "Dynamic Scheduling and Resource Allocation Tools",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/collaboration-and-productivity-solutions/Dynamic-Scheduling-and-Resource-Allocation-Tools.png",
             icon: collabIcon7,
             content:
               "Use dynamic scheduling and resource allocation tools to optimize team productivity by allocating tasks based on skills and workload, reducing burnout risk. This strategic management aids in maximizing the efficiency of resource utilization and ensuring optimal team performance.",
@@ -4701,7 +4722,8 @@ const subServicePagesContent = {
           {
             num: "08",
             heading: "Advanced and Secure Remote Work Solutions",
-            image: "/business-value-enhancement-services.png",
+            image:
+              "/collaboration-and-productivity-solutions/Advanced-and-Secure-Remote-Work-Solutions.png",
             icon: collabIcon8,
             content:
               "Provide tools and technologies specifically designed to support remote work, including secure virtual private network (VPN) access, advanced cybersecurity measures, and cloud-based collaboration tools. This service ensures remote teams can work effectively and securely, mirroring the in-office experience as closely as possible.",
