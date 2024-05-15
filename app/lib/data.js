@@ -518,9 +518,9 @@ const caseStudies = {
       title:
         "Transition to New Help Desk System in a Major Urban Municipality ",
       content1:
-        "Vehicle aerodynamics simulations enhance efficiency in automotive product development improve road handling and fuel economy.",
+        "A major city with service issues due to a clunky help desk system switched to BMC Track-It.",
       content2:
-        "By using advanced computational fluid dynamics (CFD) tools, automotive companies can simulate real-world conditions, assess performance impacts, and make informed decisions about design modifications before any physical prototype is built.",
+        "This new system improved communication, automated tasks, and empowered users, leading to happier citizens and a more efficient IT department.",
       link: "/case-study/transition-to-new-help-desk-system-in-a-major-urban-municipality",
       type: "CASE STUDY",
     },

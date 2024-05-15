@@ -9,9 +9,9 @@ import ProductDevelopmentWithAutomatedVehicleAerodynamics from "@/app/ui/case-st
 
 export const metadata = {
   title:
-    "Experience Streamlined Product Development with Automated Vehicle Aerodynamics Simulations at Qcentrio",
+    "Streamline Vehicle Development with Automated Aerodynamics Simulations",
   description:
-    "Streamline your vehicle development process with Qcentrio's automated simulations for predicting aerodynamics. Stay ahead in the ever-evolving automotive industry with our cutting-edge technology.",
+    "Slash development time and cost! Discover how automated vehicle aerodynamic simulations can revolutionize your car design process. Download the case study to learn more.",
 };
 
 export default function CaseStudy() {
@@ -27,7 +27,7 @@ export default function CaseStudy() {
         <div>
           <Image src={banner} alt="" />
         </div>
-        <CaseStudyHero data={heroContent} />
+        <CaseStudyHero data={heroContent} value="product" />
       </div>
       <ProductDevelopmentWithAutomatedVehicleAerodynamics />
       {/* <BottomLine data={bottomlineContent} /> */}

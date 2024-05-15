@@ -8,11 +8,12 @@ import banner from "@/public/san-matreo/banner.webp";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import SanMateo from "@/app/ui/case-study/san-mateo-case-study-toggle";
 
-// export const metadata = {
-//   title: "Enhancing Patient Care with BI and SQL Analytics",
-//   description:
-//     "Improve patient care with Qcentrio - the leading BI and SQL analytics software for healthcare professionals. Streamline data processing and generate comprehensive reports with ease. Partner with us today to enhance your services!",
-// };
+export const metadata = {
+  title:
+    "Streamlined Government Services: City Upgrades Help Desk for Improved Efficiency",
+  description:
+    "Discover how a major city transformed its IT operations with a new help desk system. Learn how they achieved cost savings, enhanced user experience, and improved service delivery. Download the case study now!",
+};
 
 export default function CaseStudy() {
   const heroContent = {
@@ -32,7 +33,7 @@ export default function CaseStudy() {
         <div>
           <Image src={banner} alt="" />
         </div>
-        <CaseStudyHero data={heroContent} />
+        <CaseStudyHero data={heroContent} value="desk" />
       </div>
 
       <SanMateo />

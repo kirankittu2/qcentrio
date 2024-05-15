@@ -9,9 +9,9 @@ import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import EnhancingPatientCareWithBIandsSQLAnalytics from "@/app/ui/case-study/enhancing-patient-care-with-bi-and-sql-analytics-case-study-toggle";
 
 export const metadata = {
-  title: "Enhancing Patient Care with BI and SQL Analytics",
+  title: "Improve Patient Care with Powerful BI & SQL Analytics with Qcentrio ",
   description:
-    "Improve patient care with Qcentrio - the leading BI and SQL analytics software for healthcare professionals. Streamline data processing and generate comprehensive reports with ease. Partner with us today to enhance your services!",
+    "Discover how Qcentrio's BI and SQL analytics solution transformed healthcare for senior living facilities. Learn how it boosted decision-making, improved patient care, and enhanced operational efficiency. Download the case study now!",
 };
 
 export default function CaseStudy() {
@@ -32,7 +32,7 @@ export default function CaseStudy() {
         <div>
           <Image src={banner} alt="" />
         </div>
-        <CaseStudyHero data={heroContent} />
+        <CaseStudyHero data={heroContent} value="bisql" />
       </div>
 
       <EnhancingPatientCareWithBIandsSQLAnalytics />

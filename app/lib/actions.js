@@ -5,6 +5,7 @@ import transporter from "../config/mail-config";
 import fs from "fs";
 import zod from "zod";
 import { cookies } from "next/headers";
+import path from "path";
 
 // Home page hero section slide emails
 export async function homeslidesMail(formData) {
@@ -635,6 +636,158 @@ export async function insightsMail(formData) {
     const emailTemplate2 = fs.readFileSync("app/email/main.html", "utf8");
 
     const owner = await handleMainMailFillup(parsedData, emailTemplate2);
+
+    if (info.response.includes("OK") && owner.response.includes("OK")) {
+      return { success: true, message: "Mail sent successfully" };
+    }
+  } else {
+    return { success: false, message: "Error Occured" };
+  }
+}
+
+// Case study email
+export async function caseStudyMail(formData) {
+  const token = formData.get("g-recaptcha-response");
+  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const response = await fetch(
+    `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
+    {
+      method: "POST",
+    }
+  );
+  const recaptchDataScore = await response.json();
+  console.log(recaptchDataScore);
+  if (recaptchDataScore.score >= 0.5) {
+    const email = formData.get("email");
+    const type = formData.get("type");
+
+    const data = {
+      email,
+      type,
+    };
+    let parsedData;
+    const userSchema = zod.object({
+      email: zod.string().email(),
+      type: zod.string(),
+    });
+    try {
+      parsedData = userSchema.parse(data);
+    } catch (error) {
+      console.error("Validation failed:", error.errors);
+    }
+
+    let emailTemplate;
+    let fileStream;
+    let subject;
+    let filename;
+    if (type == "bisql") {
+      emailTemplate = fs.readFileSync(
+        "app/email/case-study/bi-and-sql.html",
+        "utf8"
+      );
+      fileStream = fs.createReadStream(
+        path.join("public", "/case-study-pdfs/enhancing_patient_care.pdf")
+      );
+      filename = path.basename(
+        path.join("public", "/case-study-pdfs/enhancing_patient_care.pdf")
+      );
+      subject =
+        "Your Requested Case Study: Enhancing Patient Care with BI and SQL Analytics at Qcentrio";
+    } else if (type == "bmc") {
+      emailTemplate = fs.readFileSync(
+        "app/email/case-study/bmc-track-it.html",
+        "utf8"
+      );
+      fileStream = fs.createReadStream(
+        path.join("public", "/case-study-pdfs/memorial-health-services.pdf")
+      );
+      filename = path.basename(
+        path.join("public", "/case-study-pdfs/memorial-health-services.pdf")
+      );
+      subject =
+        "Your Requested Case Study: Memorial Health Services Improves Patient Care with BMC Track-It!";
+    } else if (type == "desk") {
+      emailTemplate = fs.readFileSync(
+        "app/email/case-study/help-desk-system.html",
+        "utf8"
+      );
+      fileStream = fs.createReadStream(
+        path.join("public", "/case-study-pdfs/city-of-san-mateo.pdf")
+      );
+      filename = path.basename(
+        path.join("public", "/case-study-pdfs/city-of-san-mateo.pdf")
+      );
+      subject =
+        "Your Requested Case Study: Transition to a New Help Desk System";
+    } else if (type == "land") {
+      emailTemplate = fs.readFileSync(
+        "app/email/case-study/land-management.html",
+        "utf8"
+      );
+      fileStream = fs.createReadStream(
+        path.join("public", "/case-study-pdfs/land-management-ecosystem.pdf")
+      );
+      filename = path.basename(
+        path.join("public", "/case-study-pdfs/land-management-ecosystem.pdf")
+      );
+      subject =
+        "Your Requested Case Study: Transforming Land Management with Blockchain Technology";
+    } else if (type == "product") {
+      emailTemplate = fs.readFileSync(
+        "app/email/case-study/product-development.html",
+        "utf8"
+      );
+      fileStream = fs.createReadStream(
+        path.join(
+          "public",
+          "/case-study-pdfs/automated-vehicle-aerodynamics.pdf"
+        )
+      );
+      filename = path.basename(
+        path.join(
+          "public",
+          "/case-study-pdfs/automated-vehicle-aerodynamics.pdf"
+        )
+      );
+      subject =
+        "Your Requested Case Study: Streamline Your Product Development with Automated Vehicle Aerodynamics!";
+    }
+
+    const info = await transporter.sendMail({
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
+      to: parsedData.email,
+      subject: subject,
+      html: emailTemplate,
+      attachments: [
+        {
+          filename: filename,
+          content: fileStream,
+        },
+      ],
+    });
+
+    let htmlContent = "";
+    Object.entries(data).forEach(([key, value]) => {
+      if (key !== "resume") {
+        const capitalizedKey = capitalizeFirstLetter(key);
+        htmlContent += `<tr><td style="padding: 0px 25px 0px 25px">${capitalizedKey}: ${value}</td></tr>`;
+      }
+    });
+
+    const emailTemplate2 = fs.readFileSync("app/email/main.html", "utf8");
+
+    const fullHTMLContent = emailTemplate2.replace(
+      "{{dynamicContent}}",
+      htmlContent
+    );
+
+    const owner = await transporter.sendMail({
+      from: "qcadmin@180.133.167.72.host.secureserver.net",
+      to: "qcadmin@180.133.167.72.host.secureserver.net",
+      subject: "Form Filled",
+      html: fullHTMLContent,
+    });
+    console.log(owner);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
       return { success: true, message: "Mail sent successfully" };

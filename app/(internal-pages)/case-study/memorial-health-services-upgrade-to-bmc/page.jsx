@@ -8,11 +8,12 @@ import banner from "@/public/memorial/banner.webp";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import Memorial from "@/app/ui/case-study/memorial-health-services-case-study-toggle";
 
-// export const metadata = {
-//   title: "Enhancing Patient Care with BI and SQL Analytics",
-//   description:
-//     "Improve patient care with Qcentrio - the leading BI and SQL analytics software for healthcare professionals. Streamline data processing and generate comprehensive reports with ease. Partner with us today to enhance your services!",
-// };
+export const metadata = {
+  title:
+    "Memorial Health Services Boosts Patient Care with Improved IT Management",
+  description:
+    "See how Memorial Health Services streamlined IT operations using BMC Track-It! This case study reveals how they improved service desk efficiency, asset management, and ultimately, patient care. Download it now!",
+};
 
 export default function CaseStudy() {
   const heroContent = {
@@ -33,7 +34,7 @@ export default function CaseStudy() {
         <div>
           <Image src={banner} alt="" />
         </div>
-        <CaseStudyHero data={heroContent} />
+        <CaseStudyHero data={heroContent} value="bmc" />
       </div>
 
       <Memorial />
