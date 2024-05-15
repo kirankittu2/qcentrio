@@ -717,4 +717,7 @@
   .accordian-offering-content-hidden{
     font-size: 16px;
   }
+  .not-found-content h1{
+    line-height: 80px;
+  }
 }

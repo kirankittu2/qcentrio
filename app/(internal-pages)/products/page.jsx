@@ -23,10 +23,9 @@ import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Link from "next/link";
 
 export const metadata = {
-  title:
-    "Qcentrio: Empower Your Global Banking Services with Ameya's Innovative Products",
+  title: "Global Authorized Partner of Qcentrio Banking Solutions | Qcentrio",
   description:
-    "Discover the innovative products available through Qcentrio to empower your global banking services. Simplify remittance processes and ensure compliance with Ameya's cutting-edge solutions.",
+    "Discover banking and financial solutions from Qcentrio, including Remitree, Conciliare, and Sherlock, available globally through Qcentrio. Enhance your operations with our trusted, innovative technology in the US, Europe, Singapore, and Australia.",
 };
 
 export default function Products() {
@@ -64,8 +63,7 @@ function ProductsMain() {
           <h1
             data-option="strip-slide-up"
             className="products-hero-main-heading animate strip-slide-up strip-slide-grey">
-            EMPOWER YOUR BANKING SERVICES GLOBALLY WITH AMEYA’S INNOVATIVE
-            SOLUTIONS THROUGH QCENTRIO
+            EMPOWER YOUR BANKING SERVICES GLOBALLY WITH QCENTRIO SOLUTIONS
           </h1>
           <p
             data-option="up"
@@ -79,9 +77,12 @@ function ProductsMain() {
           <p
             data-option="up"
             className="products-hero-main-highlight animate animate-hidden">
-            Qcentrio, as the authorized global partner of Ameya’s comprehensive
-            suite of banking solutions, is ideally positioned to address these
-            challenges across the US, Europe, Singapore, and Australia.
+            Qcentrio’s comprehensive suite of banking solutions, is ideally
+            positioned to address these challenges across the US, Europe,
+            Singapore, and Australia. It enables financial institutions
+            worldwide to leverage cutting-edge technologies to enhance
+            operational efficiency, reduce costs, and elevate customer
+            satisfaction.
           </p>
           <Link href="#get-started">
             <Button name="Get Started" />
@@ -568,7 +569,7 @@ function ProductsBrief() {
       <h2
         data-option="strip-slide-up"
         className="section-heading animate strip-slide-up strip-slide-grey">
-        Tailored Ameya Solutions From Qcentrio for the Global Financial Industry
+        Tailored Qcentrio Solutions for the Global Financial Industry
       </h2>
       <div class="success-path-container">
         <div
@@ -619,7 +620,7 @@ function SubServiceWhyChooseSection() {
         data-option="strip-slide-up"
         className="section-heading animate strip-slide-up strip-slide-white">
         PROVIDING UNMATCHED VALUE TO FINANCIAL INSTITUTIONS GLOBALLY BY
-        DISTRIBUTING AMEYA’S SOLUTIONS
+        DISTRIBUTING QCENTRIO’S SOLUTIONS
       </h2>
 
       <div className="sub-services-why-choose-cards-holder">

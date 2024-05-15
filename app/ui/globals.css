@@ -134,7 +134,7 @@ body {
   margin-right: auto;
   padding: 0;
   position: relative;
-  transition: all 1s ease-in-out;
+  /* transition: all 1s ease-in-out; */
   overflow: hidden;
   cursor: url("/cursor.png") 15 15, auto;
 }
@@ -5838,6 +5838,57 @@ td {
 
 .mobile-mega-sub-menu-container .mobile-menu-link:hover{
   background-color: #089768;
+}
+
+
+/* 
+  Not Found Page
+*/
+.not-found{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  transition: unset;
+}
+
+.not-found .hero {
+  background: transparent linear-gradient(113deg, #089768 0%, #000000 100%) 0%
+    0% no-repeat padding-box;
+  padding-bottom: clamp(50px, 7.81vw, 80px);
+}
+
+.not-found-footer{
+  height: 16px;
+  background: transparent linear-gradient(91deg, #089768 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.not-found-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.not-found-content h1{
+  font-size: clamp(66px, 5.2083333vw, 100px);
+  color: var(--primary-color);
+  font-family: "Quadran-Black";
+  text-align: center;
+  line-height: 7.29vw;
+}
+
+.not-found-content p{
+  font-size: clamp(15px, 1.1979vw, 23px);
+  font-family: "Quadran-Bold";
+  color: black;
+  text-align: center;
+  margin-bottom: clamp(20px, 1.6vw, 30px);
+}
+
+.not-found-content a{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1764px) {

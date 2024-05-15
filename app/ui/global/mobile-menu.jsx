@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import search from "@/public/search.svg";
+import searchIcon from "@/public/search.svg";
 import tri from "@/public/up-tri.svg";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
@@ -30,7 +30,7 @@ export default function MobileMenu() {
           onKeyDown={handleKeyDown}
           ref={search}
           placeholder="Search"></input>
-        <Image className="mobile-menu-search-icon" src={search} alt="" />
+        <Image className="mobile-menu-search-icon" src={searchIcon} alt="" />
       </div>
       <div className="mobile-menu-links-container">
         <div

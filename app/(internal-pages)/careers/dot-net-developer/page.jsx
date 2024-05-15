@@ -5,6 +5,10 @@ import JobContact from "@/app/ui/global/job-contact";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import Link from "next/link";
 
+export const metadata = {
+  title: ".Net Developer - ASP/Blazor | Qcentrio Careers",
+};
+
 export default function Job() {
   return (
     <div className="job-page">
