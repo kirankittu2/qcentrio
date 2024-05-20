@@ -23,7 +23,7 @@ export default function Industries() {
     <div className="industries">
       <div className="hero">
         <NavBarContainer />
-        <Image className="industries-banner" src={banner} alt="" />
+        <Image fill className="industries-banner" src={banner} alt="" />
         <div className="industries-hero-content">
           <h1
             data-option="strip-slide-up"
@@ -34,8 +34,8 @@ export default function Industries() {
             <Button name="Embrace the Future" />
           </Link>
         </div>
+        <div className="industries-banner-decor"></div>
       </div>
-      <div className="industries-banner-decor"></div>
       <IndustrySpecific />
       <TransformingSection />
       <TransformingSectionMobile />
@@ -89,7 +89,9 @@ function PartnerSection() {
       </h2>
       <div className="partner-cards-container">
         <div data-option="up" className="partner-card animate animate-hidden">
-          <Image src={domain} alt="" />
+          <div className="relative h-[200px] partner-cards-image">
+            <Image fill src={domain} alt="" />
+          </div>
           <div className="partner-card-content">
             <h2>
               <span>DEEP DOMAIN</span> EXPERTISE
@@ -103,7 +105,9 @@ function PartnerSection() {
           </div>
         </div>
         <div data-option="up" className="partner-card animate animate-hidden">
-          <Image src={category} alt="" />
+          <div className="relative h-[200px] partner-cards-image">
+            <Image fill src={category} alt="" />
+          </div>
           <div className="partner-card-content">
             <h2>
               CATEGORY - <span>BEST TIME</span> TO VALUE
@@ -117,7 +121,9 @@ function PartnerSection() {
           </div>
         </div>
         <div data-option="up" className="partner-card animate animate-hidden">
-          <Image src={client} alt="" />
+          <div className="relative h-[200px] partner-cards-image">
+            <Image fill src={client} alt="" />
+          </div>
           <div className="partner-card-content">
             <h2>
               <span>CLIENT - CENTRIC</span> FOCUS

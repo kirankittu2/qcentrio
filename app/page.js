@@ -241,8 +241,6 @@ export default function Home() {
       </div>
       <CompanyList />
       <About />
-      {/* <Services  /> */}
-      {/* <Offerings data={services} /> */}
       <AccordianOfferings data={services} />
       <Journey />
       <WhyQcentrio />

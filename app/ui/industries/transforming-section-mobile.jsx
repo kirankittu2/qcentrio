@@ -22,14 +22,6 @@ export default function TransformingSectionMobile() {
   const content2 = useRef(null);
 
   useEffect(() => {
-    content1.current.addEventListener("scroll", function () {
-      content2.current.scrollTop = content1.current.scrollTop;
-    });
-
-    content2.current.addEventListener("scroll", function () {
-      content1.current.scrollTop = content2.current.scrollTop;
-    });
-
     let options = {
       root: null,
       rootMargin: "0px",
@@ -87,6 +79,34 @@ export default function TransformingSectionMobile() {
             </div>
           </div>
           <div className="transfromings-item">
+            <div className="transfromings-item-image-container">
+              <div>
+                <Image
+                  width={265}
+                  height={277}
+                  src={automotive}
+                  style={{ width: "265px", height: "277px" }}
+                  alt=""
+                />
+              </div>
+            </div>
+            <div>
+              <h2>Automotive</h2>
+              <p>
+                Experience how leading automotive industry experts drive their
+                enterprises forward with <span>digital services</span> that
+                support the integration of autonomous, connected, and
+                eco-friendly technologies.
+              </p>
+              <p>
+                We help automotive leaders redefine the customer journey and
+                streamline production with{" "}
+                <span>intelligent, data-driven solutions.</span>
+              </p>
+            </div>
+          </div>
+
+          <div className="transfromings-item">
             <div>
               <h2>Banking</h2>
               <p>
@@ -112,6 +132,35 @@ export default function TransformingSectionMobile() {
               </div>
             </div>
           </div>
+          <div className="transfromings-item">
+            <div className="transfromings-item-image-container">
+              <div>
+                <Image
+                  width={265}
+                  height={277}
+                  src={communication}
+                  style={{ width: "265px", height: "277px" }}
+                  alt=""
+                />
+              </div>
+            </div>
+            <div>
+              <h2>Communications & Media</h2>
+              <p>
+                Engage audiences with compelling digital media experiences,
+                utilizing <span>data analytics for strategic engagement</span>{" "}
+                and monetization across various platforms and channels, ensuring
+                every message resonates in the{" "}
+                <span>dynamic media sector.</span>
+              </p>
+              <p>
+                Further, we accelerate <span>adoption</span> and{" "}
+                <span>time-to-market</span> and build innovative business
+                structures with our service support.
+              </p>
+            </div>
+          </div>
+
           <div className="transfromings-item">
             <div>
               <h2>Consumer Goods & Services</h2>
@@ -139,6 +188,34 @@ export default function TransformingSectionMobile() {
               </div>
             </div>
           </div>
+          <div className="transfromings-item">
+            <div className="transfromings-item-image-container">
+              <div>
+                <Image
+                  width={265}
+                  height={277}
+                  src={energy}
+                  style={{ width: "265px", height: "277px" }}
+                  alt=""
+                />
+              </div>
+            </div>
+            <div>
+              <h2>Energy & Utilities</h2>
+              <p>
+                Embrace digital solutions for sustainable resource management
+                and <span>implement renewable technologies</span> and{" "}
+                <span>smart grid systems</span> to power operations with
+                efficiency and forward-thinking sustainability practices.
+              </p>
+              <p>
+                Further, streamline utility management with innovative grid
+                technologies and <span>digital services</span> that ensure
+                reliability and efficiency.
+              </p>
+            </div>
+          </div>
+
           <div className="transfromings-item">
             <div>
               <h2>Healthcare</h2>
@@ -168,6 +245,35 @@ export default function TransformingSectionMobile() {
               </div>
             </div>
           </div>
+          <div className="transfromings-item">
+            <div className="transfromings-item-image-container">
+              <div>
+                <Image
+                  width={265}
+                  height={277}
+                  src={technology}
+                  style={{ width: "265px", height: "277px" }}
+                  alt=""
+                />
+              </div>
+            </div>
+            <div>
+              <h2>Technology</h2>
+              <p>
+                Build innovative products and services for your end customers
+                with our plethora of digital services support. Maintain a{" "}
+                <span>cutting-edge position</span> in the high-tech landscape
+                with next-gen capabilities that nurture rapid development and
+                deployment.
+              </p>
+              <p>
+                Embrace{" "}
+                <span>cloud, IoT, AI, GenAI, and Blockchain technologies</span>{" "}
+                to stay relevant and win in the long run.
+              </p>
+            </div>
+          </div>
+
           <div className="transfromings-item">
             <div>
               <h2>Manufacturing</h2>
@@ -199,172 +305,6 @@ export default function TransformingSectionMobile() {
             </div>
           </div>
           <div className="transfromings-item">
-            <div>
-              <h2>Public Service</h2>
-              <p>
-                Embrace the continuous change to drive{" "}
-                <span>measurable impact</span> for individuals and the community
-                by deploying digital solutions to modernize public services,
-                enhancing community engagement and operational transparency.
-              </p>
-              <p>
-                Improve <span>resource management</span> and{" "}
-                <span>citizen services</span> with technology that advances
-                public trust and civic engagement.
-              </p>
-            </div>
-            <div className="transfromings-item-image-container">
-              <div>
-                <Image
-                  width={265}
-                  height={277}
-                  src={publicService}
-                  style={{ width: "265px", height: "277px" }}
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-          <div className="transfromings-item">
-            <div>
-              <h2>Software and Applications</h2>
-              <p>
-                Develop innovative software and platforms with{" "}
-                <span>agile, responsive digital solutions</span>. Get tailored
-                services to meet the demands of the constantly changing and
-                evolving digital sector, driving profitable growth and advancing
-                adaptability.
-              </p>
-              <p>
-                Realize this <span>2X faster</span> with the category-best
-                development, deployment, and scaling approach.
-              </p>
-            </div>
-            <div className="transfromings-item-image-container">
-              <div>
-                <Image
-                  width={265}
-                  height={277}
-                  src={software}
-                  style={{ width: "265px", height: "277px" }}
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div ref={content2} className="transfromings-scroll-list-content ">
-          <div className="transfromings-item">
-            <div className="transfromings-item-image-container">
-              <div>
-                <Image
-                  width={265}
-                  height={277}
-                  src={automotive}
-                  style={{ width: "265px", height: "277px" }}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div>
-              <h2>Automotive</h2>
-              <p>
-                Experience how leading automotive industry experts drive their
-                enterprises forward with <span>digital services</span> that
-                support the integration of autonomous, connected, and
-                eco-friendly technologies.
-              </p>
-              <p>
-                We help automotive leaders redefine the customer journey and
-                streamline production with{" "}
-                <span>intelligent, data-driven solutions.</span>
-              </p>
-            </div>
-          </div>
-          <div className="transfromings-item">
-            <div className="transfromings-item-image-container">
-              <div>
-                <Image
-                  width={265}
-                  height={277}
-                  src={communication}
-                  style={{ width: "265px", height: "277px" }}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div>
-              <h2>Communications & Media</h2>
-              <p>
-                Engage audiences with compelling digital media experiences,
-                utilizing <span>data analytics for strategic engagement</span>{" "}
-                and monetization across various platforms and channels, ensuring
-                every message resonates in the{" "}
-                <span>dynamic media sector.</span>
-              </p>
-              <p>
-                Further, we accelerate <span>adoption</span> and{" "}
-                <span>time-to-market</span> and build innovative business
-                structures with our service support.
-              </p>
-            </div>
-          </div>
-          <div className="transfromings-item">
-            <div className="transfromings-item-image-container">
-              <div>
-                <Image
-                  width={265}
-                  height={277}
-                  src={energy}
-                  style={{ width: "265px", height: "277px" }}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div>
-              <h2>Energy & Utilities</h2>
-              <p>
-                Embrace digital solutions for sustainable resource management
-                and <span>implement renewable technologies</span> and{" "}
-                <span>smart grid systems</span> to power operations with
-                efficiency and forward-thinking sustainability practices.
-              </p>
-              <p>
-                Further, streamline utility management with innovative grid
-                technologies and <span>digital services</span> that ensure
-                reliability and efficiency.
-              </p>
-            </div>
-          </div>
-          <div className="transfromings-item">
-            <div className="transfromings-item-image-container">
-              <div>
-                <Image
-                  width={265}
-                  height={277}
-                  src={technology}
-                  style={{ width: "265px", height: "277px" }}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div>
-              <h2>Technology</h2>
-              <p>
-                Build innovative products and services for your end customers
-                with our plethora of digital services support. Maintain a{" "}
-                <span>cutting-edge position</span> in the high-tech landscape
-                with next-gen capabilities that nurture rapid development and
-                deployment.
-              </p>
-              <p>
-                Embrace{" "}
-                <span>cloud, IoT, AI, GenAI, and Blockchain technologies</span>{" "}
-                to stay relevant and win in the long run.
-              </p>
-            </div>
-          </div>
-          <div className="transfromings-item">
             <div className="transfromings-item-image-container">
               <div>
                 <Image
@@ -393,6 +333,34 @@ export default function TransformingSectionMobile() {
               </p>
             </div>
           </div>
+
+          <div className="transfromings-item">
+            <div>
+              <h2>Public Service</h2>
+              <p>
+                Embrace the continuous change to drive{" "}
+                <span>measurable impact</span> for individuals and the community
+                by deploying digital solutions to modernize public services,
+                enhancing community engagement and operational transparency.
+              </p>
+              <p>
+                Improve <span>resource management</span> and{" "}
+                <span>citizen services</span> with technology that advances
+                public trust and civic engagement.
+              </p>
+            </div>
+            <div className="transfromings-item-image-container">
+              <div>
+                <Image
+                  width={265}
+                  height={277}
+                  src={publicService}
+                  style={{ width: "265px", height: "277px" }}
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
           <div className="transfromings-item">
             <div className="transfromings-item-image-container">
               <div>
@@ -418,6 +386,34 @@ export default function TransformingSectionMobile() {
                 <span>seamless, personalized shopping experiences</span> that
                 build loyalty and drive short- and long-term sales.
               </p>
+            </div>
+          </div>
+
+          <div className="transfromings-item">
+            <div>
+              <h2>Software and Applications</h2>
+              <p>
+                Develop innovative software and platforms with{" "}
+                <span>agile, responsive digital solutions</span>. Get tailored
+                services to meet the demands of the constantly changing and
+                evolving digital sector, driving profitable growth and advancing
+                adaptability.
+              </p>
+              <p>
+                Realize this <span>2X faster</span> with the category-best
+                development, deployment, and scaling approach.
+              </p>
+            </div>
+            <div className="transfromings-item-image-container">
+              <div>
+                <Image
+                  width={265}
+                  height={277}
+                  src={software}
+                  style={{ width: "265px", height: "277px" }}
+                  alt=""
+                />
+              </div>
             </div>
           </div>
           <div className="transfromings-item">

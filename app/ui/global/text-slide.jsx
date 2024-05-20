@@ -10,7 +10,7 @@ export default function TextSlide({ wrapper, item }) {
       const mouseX = event.clientX;
       const windowWidth = window.innerWidth;
       const scrollPercentage = (mouseX / windowWidth) * 100;
-      const extendPixels = window.innerWidth <= 1600 ? 22 : 5;
+      const extendPixels = window.innerWidth <= 1600 ? 28 : 5;
       const computedStyle = window.getComputedStyle(mainSlide.current);
       const fontSize = computedStyle.getPropertyValue("font-size");
       modernizeTextElements.forEach((element, index) => {

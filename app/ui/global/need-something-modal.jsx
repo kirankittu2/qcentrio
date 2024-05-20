@@ -56,7 +56,7 @@ export default function NeedSomethingModal({
         <div className="need-something-modal-image">
           <Image fill src={needSomethingBanner} alt="" />
         </div>
-        <div className="p-[50px]">
+        <div className="need-something-modal-content">
           <div className="need-something-modal-close">
             <Image
               data-name="modal"

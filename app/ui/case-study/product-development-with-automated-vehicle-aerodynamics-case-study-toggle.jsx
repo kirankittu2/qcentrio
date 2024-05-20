@@ -255,7 +255,7 @@ function SolutionContent() {
         </div>
         <div className="case-study-solution-row-1-column-2">
           <div className="case-study-solution-technology-block ">
-            <h2>Technologies USED</h2>
+            <h2>TECHNOLOGIES USED</h2>
             <ul>
               <li>ANSYS Fluent</li>
               <li>OpenFOAM</li>

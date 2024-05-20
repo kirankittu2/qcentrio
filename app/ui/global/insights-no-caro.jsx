@@ -18,8 +18,8 @@ export default function InsigntsNoCaro() {
       <div className="blogs-container">
         <div data-option="up" className="card animate-hidden animate">
           <div>
-            <div>
-              <Image width={1226} height={360} src={blogs[0].image} alt="" />
+            <div className="card-image">
+              <Image fill src={blogs[0].image} alt="" />
             </div>
             <div className="blog-card-heading">
               <h2 className="card-heading">{blogs[0].title}</h2>
@@ -39,8 +39,8 @@ export default function InsigntsNoCaro() {
         </div>
         <div data-option="up" className="card animate-hidden animate">
           <div>
-            <div>
-              <Image width={1226} height={360} src={blogs[1].image} alt="" />
+            <div className="card-image">
+              <Image fill src={blogs[1].image} alt="" />
             </div>
             <div className="blog-card-heading">
               <h2 className="card-heading">{blogs[1].title}</h2>
@@ -60,8 +60,8 @@ export default function InsigntsNoCaro() {
         </div>
         <div data-option="up" className="card animate-hidden animate">
           <div>
-            <div>
-              <Image width={1226} height={360} src={blogs[2].image} alt="" />
+            <div className="card-image">
+              <Image fill src={blogs[2].image} alt="" />
             </div>
             <div className="blog-card-heading">
               <h2 className="card-heading">{blogs[2].title}</h2>

@@ -10,6 +10,7 @@ import { getAllBlogs } from "@/app/lib/data";
 
 export default function Insignts({ title, subheading }) {
   const wrapper = useRef(null);
+  const container = useRef(null);
   const card = useRef(null);
   const [index, setIndex] = useState(1);
   const blogs = getAllBlogs();
@@ -111,7 +112,7 @@ export default function Insignts({ title, subheading }) {
           {subheading}
         </p>
       </div>
-      <div className="blogs-container">
+      <div ref={container} className="blogs-container">
         <div ref={wrapper} className="insights-wrapper ">
           {blogs.slice(-1).map((blog, index) => {
             return (

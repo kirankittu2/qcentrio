@@ -169,7 +169,7 @@ function Benefits() {
               trigger="loop"
               delay="1500"
               colors="primary:#079766"
-              style={{ width: "64px", height: "64px" }}></lord-icon>
+              style={{ width: "3.33vw", height: "3.33vw" }}></lord-icon>
           </div>
           <h2>
             Competitive <br /> Salaries
@@ -184,7 +184,7 @@ function Benefits() {
               trigger="loop"
               delay="1500"
               colors="primary:#079766"
-              style={{ width: "64px", height: "64px" }}></lord-icon>
+              style={{ width: "3.33vw", height: "3.33vw" }}></lord-icon>
           </div>
           <h2>Health and Wellness Programs</h2>
           <p>Ensuring your physical and mental well-being.</p>
@@ -197,7 +197,7 @@ function Benefits() {
               trigger="loop"
               delay="1500"
               colors="primary:#079766"
-              style={{ width: "64px", height: "64px" }}></lord-icon>
+              style={{ width: "3.33vw", height: "3.33vw" }}></lord-icon>
           </div>
           <h2>
             Professional <br /> Development
@@ -212,7 +212,7 @@ function Benefits() {
               trigger="loop"
               delay="1500"
               colors="primary:#079766"
-              style={{ width: "64px", height: "64px" }}></lord-icon>
+              style={{ width: "3.33vw", height: "3.33vw" }}></lord-icon>
           </div>
           <h2>
             Work-Life <br /> Balance
@@ -227,7 +227,7 @@ function Benefits() {
               trigger="loop"
               delay="1500"
               colors="primary:#079766"
-              style={{ width: "64px", height: "64px" }}></lord-icon>
+              style={{ width: "3.33vw", height: "3.33vw" }}></lord-icon>
           </div>
           <h2>
             Continuous <br /> Learning

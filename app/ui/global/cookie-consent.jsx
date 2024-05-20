@@ -33,16 +33,16 @@ export default function CookieConsent() {
 
   useEffect(() => {
     if (banner) {
-      document.body.style.overflow = "hidden";
-      document.body.style.width = "100%";
+      document.documentElement.style.overflow = "hidden";
+      document.documentElement.style.width = "100%";
     } else {
-      document.body.style.overflow = "auto";
-      document.body.style.width = "";
+      document.documentElement.style.overflow = "auto";
+      document.documentElement.style.width = "";
     }
 
     return () => {
-      document.body.style.overflow = "auto";
-      document.body.style.width = "";
+      document.documentElement.style.overflow = "auto";
+      document.documentElement.style.width = "";
     };
   }, [banner]);
 

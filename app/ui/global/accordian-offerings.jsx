@@ -45,7 +45,7 @@ export default function AccordianOfferings({ data }) {
       !e.target.classList.contains("service-sub-offering-span")
     ) {
       var screenWidth = window.screen.width;
-      if (screenWidth > 500) {
+      if (screenWidth > 1279) {
         const parentLink = e.currentTarget.getAttribute("data-link");
         router.push(parentLink);
       }
@@ -66,16 +66,16 @@ export default function AccordianOfferings({ data }) {
 
   useEffect(() => {
     if (needSomething) {
-      document.body.style.overflow = "hidden";
-      document.body.style.width = "100%";
+      document.documentElement.style.overflow = "hidden";
+      document.documentElement.style.width = "100%";
     } else {
-      document.body.style.overflow = "auto";
-      document.body.style.width = "";
+      document.documentElement.style.overflow = "auto";
+      document.documentElement.style.width = "";
     }
 
     return () => {
-      document.body.style.overflow = "auto";
-      document.body.style.width = "";
+      document.documentElement.style.overflow = "auto";
+      document.documentElement.style.width = "";
     };
   }, [needSomething]);
 
@@ -104,19 +104,6 @@ export default function AccordianOfferings({ data }) {
         item.classList.remove("slideup");
       }
     });
-
-    // refsArray.current.forEach((item) => {
-    //   const heading = item.querySelector(".accordian-offering-title-hidden");
-    //   if (heading.classList.contains("animate")) {
-    //     heading.classList.remove("animate");
-    //   }
-    // });
-
-    // const currentOpeningCard = refsArray.current[index];
-    // const activeCardHeading = currentOpeningCard.querySelector(
-    //   ".accordian-offering-title-hidden"
-    // );
-    // activeCardHeading.classList.add("animate");
   }, [index]);
 
   return (
@@ -151,7 +138,7 @@ export default function AccordianOfferings({ data }) {
                 onClick={handleURLRedirect}
                 onMouseOver={(event) => handleHover(i, event)}
                 onMouseEnter={() => {
-                  if (window.innerWidth >= 900) {
+                  if (window.innerWidth >= 1280) {
                     changeCursor();
                   } else {
                     document.body.style.cursor = "initial";
@@ -208,6 +195,7 @@ export default function AccordianOfferings({ data }) {
               <h2 className="need-something-block-title">
                 Need Something
                 <span
+                  className="need-something-arrow-container"
                   style={{
                     display: "block",
                     width: "30px",
@@ -216,7 +204,12 @@ export default function AccordianOfferings({ data }) {
                     marginLeft: "18px",
                     marginTop: "3px",
                   }}>
-                  <Image fill src={arrow} alt="" />
+                  <Image
+                    className="need-something-arrow"
+                    fill
+                    src={arrow}
+                    alt=""
+                  />
                 </span>
               </h2>
             </div>
