@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
           </div>
         </div>
       </div>
-      <div className="h-[700px] w-full bg-[#F9F9F9] absolute top-0 z-[-1]"></div>
+      <div className="w-full bg-[#F9F9F9] absolute top-0 z-[-1] blogs-decor"></div>
       <Footer />
       <CopyrightBar />
     </>

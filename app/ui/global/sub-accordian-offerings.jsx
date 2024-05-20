@@ -64,34 +64,20 @@ export default function SubAccordianOfferings({ data }) {
         item.classList.remove("slideup");
       }
     });
-
-    // const subOfferings = document.querySelectorAll(".service-sub-offerings");
-    // subOfferings.forEach((item) => {
-    //   if (item.classList.contains("slideup")) {
-    //     item.classList.remove("slideup");
-    //   }
-    // });
-
-    // const headings = document.querySelectorAll(
-    //   ".accordian-offering-title-hidden"
-    // );
-    // headings.forEach((item) => {
-    //   item.classList.add("animate", "strip-slide-up", "strip-slide-white");
-    // });
   }, [index]);
 
   useEffect(() => {
     if (needSomething) {
-      document.body.style.overflow = "hidden";
-      document.body.style.width = "100%";
+      document.documentElement.style.overflow = "hidden";
+      document.documentElement.style.width = "100%";
     } else {
-      document.body.style.overflow = "auto";
-      document.body.style.width = "";
+      document.documentElement.style.overflow = "auto";
+      document.documentElement.style.width = "";
     }
 
     return () => {
-      document.body.style.overflow = "auto";
-      document.body.style.width = "";
+      document.documentElement.style.overflow = "auto";
+      document.documentElement.style.width = "";
     };
   }, [needSomething]);
 
@@ -169,6 +155,7 @@ export default function SubAccordianOfferings({ data }) {
               <h2 className="need-something-block-title">
                 Need Something
                 <span
+                  className="need-something-arrow-container"
                   style={{
                     display: "block",
                     width: "30px",
@@ -177,7 +164,12 @@ export default function SubAccordianOfferings({ data }) {
                     marginLeft: "18px",
                     marginTop: "3px",
                   }}>
-                  <Image fill src={arrow} alt="" />
+                  <Image
+                    className="need-something-arrow"
+                    fill
+                    src={arrow}
+                    alt=""
+                  />
                 </span>
               </h2>
             </div>

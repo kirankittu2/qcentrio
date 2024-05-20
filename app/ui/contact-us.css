@@ -32,7 +32,7 @@
 }
 
 .contact-us-sub-heading {
-  font-size: var(--general-text);
+  font-size: 1rem;
   font-family: "Quadran-Bold";
   color: var(--primary-color);
   margin-bottom: 40px;
@@ -68,7 +68,7 @@
 }
 
 .contact-us-column-1 .section-heading {
-  font-size: 55px;
+  font-size: 3.437rem;
   margin-bottom: 50px;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .reach-out-heading {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "Quadran-Bold";
   text-align: center;
   margin-bottom: 10px;
@@ -128,7 +128,7 @@
 }
 
 .reach-out-holders p {
-  font-size: var(--heading-highlight);
+  font-size: 1.25rem;
   font-family: "Quadran-Bold";
   text-align: center;
   letter-spacing: -1px;
@@ -168,7 +168,7 @@
 }
 
 .global-presence-sub-heading {
-  font-size: var(--general-text-no-frequent);
+  font-size: 1.125rem;
   font-family: "Quadran-Light";
   text-align: center;
   margin-bottom: 40px;
@@ -176,23 +176,23 @@
 
 .country-card-container {
   background-color: #f9f9f9;
-  padding: 40px;
+  padding: clamp(26px, 2.083333vw, 40px);
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 1;
-  max-width: 400px;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  max-width: 20.833vw;
+  padding-top: clamp(33px, 2.6041vw, 50px);
+  padding-bottom: clamp(13px, 1.04vw ,20px);
 }
 
 .country-num{
-  width: 59px;
-  height: 59px;
+  width: 3.125vw;
+  height: 3.125vw;
   border-radius: 50%;
   background-color: var(--primary-color);
   color: white;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: "Quadran-Bold";
   display: flex;
   justify-content: center;
@@ -204,8 +204,8 @@
 }
 
 .flag-container {
-  width: 72px;
-  height: 72px;
+  width: 3.645vw;
+  height: 3.645vw;
   border-radius: 50%;
   border: 3px solid #089768;
   padding: 4px;
@@ -213,7 +213,7 @@
 }
 
 .country-card-container h2 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: "Quadran-Bold";
   color: var(--primary-color);
   margin-bottom: 20px;
@@ -221,7 +221,7 @@
 }
 
 .country-card-container p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: "Quadran-Light";
   text-align: center;
 }

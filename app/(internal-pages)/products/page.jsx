@@ -105,8 +105,8 @@ function ProductList() {
   return (
     <div className="products-list-section">
       <p data-option="up" className="animate animate-hidden">
-        Our partnership with Ameya enables financial institutions worldwide to
-        leverage cutting-edge technologies to enhance operational efficiency,
+        Your partnership with Qcentrio enables financial institutions worldwide
+        to leverage cutting-edge technologies to enhance operational efficiency,
         reduce costs, and elevate customer satisfaction.
       </p>
       <h2

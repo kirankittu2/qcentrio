@@ -23,9 +23,10 @@
 }
 
 .case-study-toogle-button {
-  width: 460px;
-  padding: 50px 0px;
-  padding-left: 50px;
+  /* width: 460px; */
+  width: 23.95vw;
+  padding: clamp(33px, 2.6041vw, 50px) 0px;
+  padding-left: clamp(33px, 2.6041vw, 50px);
   padding-right: clamp(50px, 7.81vw, 140px);
   cursor: inherit;
   display: flex;
@@ -69,7 +70,8 @@
 }
 
 .case-study-toogle-content-image img {
-  min-width: 398px;
+  /* min-width: 398px; */
+  min-width: 20.72vw;
   opacity: 0;
   transform: translateY(70px);
   transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
@@ -81,7 +83,7 @@
 
 .case-study-toogle-content-highlight {
   font-family: "Quadran-Bold";
-  font-size: var(--general-text);
+  font-size: 1rem;
   padding: 14px 20px;
   background-color: var(--primary-color);
   width: fit-content;
@@ -123,7 +125,7 @@
 }
 
 .case-study-solution-technology-block {
-  padding: 30px;
+  padding: clamp(20px, 1.6vw, 30px);
   background-color: #f7ffec;
   width: fit-content;
   border-top: 5px solid var(--primary-color);
@@ -143,7 +145,7 @@
 }
 
 .case-study-image-showcase-holder {
-  padding: 30px;
+  padding: clamp(20px, 1.6vw, 30px);
   background-color: #f3f3f3;
   opacity: 0;
   transform: translateY(70px);
@@ -164,7 +166,7 @@
 
 .case-study-image-showcase {
   display: flex;
-  gap: 30px;
+  gap: clamp(20px, 1.6vw, 30px);
   flex-wrap: wrap;
 }
 
