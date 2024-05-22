@@ -494,6 +494,10 @@
     line-height: 22px;
   }
 
+  .why-qcentrio-card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .blogs-container{
     grid-template-columns: 1fr 1fr;
   }
@@ -567,6 +571,20 @@
 
   .services-of-sub-service-holder{
     gap: 30px;
+  }
+
+  .accordian-offering-title {
+    height: 360px;
+    width: 360px;
+    top: 100px;
+  }
+
+  .success-path-category-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .accordian-offerings-container{
+    height: 565px;
   }
 
   .services-of-sub-service .section-heading{
@@ -1718,6 +1736,10 @@
     margin-bottom: 10px;
   }
 
+  .success-path-category-container {
+    grid-template-columns: 1fr;
+  }
+
   .blog-hero{
     padding-left: 20px;
   }
@@ -1790,6 +1812,10 @@
   .accordian-offerings-section .section{
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .why-qcentrio-card-container {
+    grid-template-columns: 1fr;
   }
 
   .services-of-sub-service .section-heading{

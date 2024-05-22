@@ -5,7 +5,7 @@
 
 .contact .hero {
   padding-bottom: clamp(50px, 7.81vw, 80px);
-  background: transparent linear-gradient(96deg, #089768 0%, #000000 100%) 0% 0%
+  background: transparent linear-gradient(96deg, #00aa72 0%, #000000 100%) 0% 0%
     no-repeat padding-box;
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
@@ -200,6 +200,11 @@
   padding-bottom: clamp(13px, 1.04vw ,20px);
 }
 
+.country-card-container .country-card-time{
+  font-family: "Quadran-Bold";
+  font-size: 1.125rem;
+}
+
 .country-num{
   width: 3.125vw;
   height: 3.125vw;
@@ -230,7 +235,7 @@
   font-size: 1.125rem;
   font-family: "Quadran-Bold";
   color: var(--primary-color);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 

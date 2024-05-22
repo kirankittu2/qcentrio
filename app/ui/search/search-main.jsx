@@ -54,7 +54,7 @@ export default function SearchMain({ data, page, searchParams }) {
             </div>
           ))
         ) : (
-          <div>No Results Found</div>
+          <div className="no-results">No Results Found</div>
         )}
         <Pagination paginationNum={data.pageNumber} page={page} />
       </div>

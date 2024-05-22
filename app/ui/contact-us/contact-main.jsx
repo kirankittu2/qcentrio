@@ -87,15 +87,6 @@ export default function ContactMain() {
                       setSearchTermDropdown(e.target.textContent);
                     }}
                     className="search-dropdown-item">
-                    Inquires
-                  </div>
-                  <div
-                    onClick={(e) => {
-                      setDropdown(false);
-                      setClicked(true);
-                      setSearchTermDropdown(e.target.textContent);
-                    }}
-                    className="search-dropdown-item">
                     Careers
                   </div>
                   <div
