@@ -57,6 +57,7 @@ export default function GlobalPresence() {
           title="Switzerland"
           content="15 Chemin de Grange Canal, 1208, Geneva Switzerland"
         />
+
         <CountryCard
           num="1"
           image={country1}

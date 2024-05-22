@@ -71,11 +71,11 @@ export default function CookieConsent() {
               including to personalize content & offerings. By clicking “Accept
               Cookies” you agree to our use of cookies. For further details
               please visit our{" "}
-              <Link href="/privacy-policy">Privacy Policy</Link> and Cookies
-              Policy .
+              <Link href="/privacy-policy">Privacy Policy</Link> and{" "}
+              <Link href="/cookie-policy">Cookies Policy.</Link>
             </p>
             <form action={formAction}>
-              <Button name="Accept" />
+              <Button name="Accept Cookies" />
             </form>
             <div onClick={() => setBanner(false)} className="consent-close">
               <div>

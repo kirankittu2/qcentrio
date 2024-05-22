@@ -481,9 +481,9 @@ const caseStudies = {
       homeImage: "/land-management.png",
       image:
         "/transforming-land-management-ecosystem-with-blockchain-technology/thumbnail.webp",
-      title: "Land Management in India Leading with a Blockchain Platform",
+      title: "Leading Land Management Revolution with Blockchain Technology",
       content1:
-        "Pioneering Indian state is revolutionizing land management by implementing an blockchain platform to enhancing security.",
+        "Pioneering state is revolutionizing land management by implementing a blockchain platform to enhance security.",
       content2:
         "With the streamlined company data processing and improved accuracy of reporting that Qcentrio provided, actionable insights were offered in patient care and operational efficiency across the health network improvement.",
       link: "/case-study/transforming-land-management-in-india-leading-state-with-a-blockchain-platform",
