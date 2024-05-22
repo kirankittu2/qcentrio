@@ -25,6 +25,7 @@ import strategy from "@/public/strategy-white.svg";
 import growth from "@/public/growth.svg";
 import block from "@/public/block.svg";
 import cloud from "@/public/cloud-white.svg";
+import CountryScroll from "./ui/global/country-scroll";
 
 export const metadata = {
   title:
@@ -41,7 +42,7 @@ export default function Home() {
         num: "01",
         heading: "Business Value Enhancement",
         link: "offerings/business-value-enhancement-services",
-        image: "/business-value-enhancement-services.png",
+        image: "/business-value-enhancement-services-offerings.jpg",
         icon: currency,
         sub: [
           {
@@ -64,7 +65,7 @@ export default function Home() {
         num: "02",
         heading: "Advisory and Strategic",
         link: "offerings/advisory-and-strategic-services",
-        image: "/advisory-and-strategic-services.png",
+        image: "/advisory-and-strategic-services-offerings.jpg",
         icon: idea,
         sub: [
           {
@@ -98,8 +99,8 @@ export default function Home() {
       {
         num: "03",
         heading: "Business Optimization & Analytics",
-        link: "offerings/business-optimization-and-analytics-services",
-        image: "/business-optimization-and-analytics-services.png",
+        link: "offerings/business-optimization-and-analytics-services.jpg",
+        image: "/business-optimization-and-analytics-services-offerings.jpg",
         icon: strategy,
         sub: [
           {
@@ -253,6 +254,7 @@ export default function Home() {
         heading="Experience the Qcentrio Difference"
         subheading="Let us empower you to win, grow, and lead in the digital age with our leading-edge services, solutions, and strategic innovation."
       />
+      <CountryScroll />
       <Footer />
       <CopyrightBar />
     </>

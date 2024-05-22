@@ -1201,6 +1201,15 @@
 }
 
 @media screen and (max-width: 900px) {
+  .country-scroll-list-1, .country-scroll-list-2{
+    font-size: 30px;
+    gap: 50px;
+  }
+
+  .country-scroll-list-1{
+    margin-bottom: 10px;
+  }
+
   .sub-service-content-section{
     margin-left: 60px;
     margin-right: 60px;
@@ -1693,6 +1702,22 @@
 
 
 @media screen and (max-width: 600px) {
+
+  .country-scroll-list-1, .country-scroll-list-2{
+    font-size: 25px;
+    gap: 50px;
+  }
+
+  .copyright-section > .main-logo-conatiner > img{
+    inset: unset !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+  }
+
+  .country-scroll-list-1{
+    margin-bottom: 10px;
+  }
+
   .blog-hero{
     padding-left: 20px;
   }

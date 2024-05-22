@@ -7,6 +7,20 @@
   padding-bottom: clamp(50px, 7.81vw, 80px);
   background: transparent linear-gradient(96deg, #089768 0%, #000000 100%) 0% 0%
     no-repeat padding-box;
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .contact-us-main-section .hero-heading {
