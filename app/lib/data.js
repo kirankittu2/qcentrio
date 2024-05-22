@@ -7391,17 +7391,10 @@ const jobs = [
     exp: "5 - 9 years",
     link: "/careers/airline-domain-senior-angular-developer",
   },
-  {
-    title: "Full Stack Developers",
-    location: "Pune, kharadhi",
-    type: "Hybrid",
-    exp: "7 - 10 years",
-    link: "/careers/full-stack-developers",
-  },
 ];
 
 export async function jobSearchBar(query, location, type = null, page) {
-  const startIndex = (page - 1) * 8;
+  const startIndex = (page - 1) * 4;
   let results = [];
 
   results = results.concat(
@@ -7423,8 +7416,8 @@ export async function jobSearchBar(query, location, type = null, page) {
     }
   }
 
-  const sortedData = results.slice(startIndex, startIndex + 8);
-  const pageNumber = Math.ceil(results.length / 8);
+  const sortedData = results.slice(startIndex, startIndex + 4);
+  const pageNumber = Math.ceil(results.length / 4);
   const newData = {
     children: [...sortedData],
     pageNumber: pageNumber,

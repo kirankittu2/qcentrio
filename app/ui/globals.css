@@ -731,7 +731,7 @@ header {
   padding-bottom: clamp(5px, 7.81vw, 140px);
   /* background-color: var(--primary-color); */
   /* position: relative; */
-  background: transparent linear-gradient(113deg, #089768 0%, #000000 100%) 0%
+  background: transparent linear-gradient(113deg, #00aa72 0%, #000000 100%) 0%
     0% no-repeat padding-box;
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
@@ -754,7 +754,7 @@ header {
 .blog-hero {
   padding-left: clamp(50px, 7.81vw, 140px);
   padding-bottom: 80px;
-  background: transparent linear-gradient(119deg, #089768 0%, #0a3815 100%) 0%
+  background: transparent linear-gradient(119deg, #00aa72 0%, #0a3815 100%) 0%
     0% no-repeat padding-box;
   /* position: relative; */
   background-size: 200% 200%;
@@ -1500,7 +1500,7 @@ header {
 }
 
 .why-qcentrio-card-container {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   gap: 30px;
 }
@@ -2323,7 +2323,7 @@ h2.blog-page-side-heading {
 .thank-you-page {
   height: 100vh;
   padding-bottom: 0px;
-  background: transparent linear-gradient(123deg, #089768 0%, #0a3815 100%) 0%
+  background: transparent linear-gradient(123deg, #00aa72 0%, #0a3815 100%) 0%
     0% no-repeat padding-box;
   overflow: hidden;
 }
@@ -2618,14 +2618,14 @@ h2.blog-page-side-heading {
 .coming-soon-page-footer div {
   height: 16px;
   width: 100%;
-  background: transparent linear-gradient(91deg, #089768 0%, #000000 100%) 0% 0%
+  background: transparent linear-gradient(91deg, #00aa72 0%, #000000 100%) 0% 0%
     no-repeat padding-box;
 }
 
 .website-access-page-footer {
   height: 16px;
   width: 100%;
-  background: transparent linear-gradient(91deg, #089768 0%, #000000 100%) 0% 0%
+  background: transparent linear-gradient(91deg, #00aa72 0%, #000000 100%) 0% 0%
     no-repeat padding-box;
 }
 
@@ -2824,7 +2824,7 @@ h2.blog-page-side-heading {
 
 /* Careers page styles */
 .careers .hero {
-  background: transparent linear-gradient(113deg, #089768 0%, #000000 100%) 0%
+  background: transparent linear-gradient(113deg, #00aa72 0%, #000000 100%) 0%
     0% no-repeat padding-box;
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
@@ -3216,7 +3216,7 @@ h2.blog-page-side-heading {
   bottom: -4.0417vw;
   height: 8.6458vw;
   width: 100%;
-  background: transparent linear-gradient(96deg, #089768 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(96deg, #00aa72 0%, #000000 100%) 0% 0% no-repeat padding-box;
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
   z-index: 1;
@@ -3430,7 +3430,7 @@ h2.blog-page-side-heading {
 
 /* Jobs Page */
 .job-page .hero {
-  background: transparent linear-gradient(113deg, #089768 0%, #000000 100%) 0%
+  background: transparent linear-gradient(113deg, #00aa72 0%, #000000 100%) 0%
     0% no-repeat padding-box;
   padding-bottom: clamp(50px, 7.81vw, 80px);
 }
@@ -3569,7 +3569,8 @@ td {
   display: flex;
   gap: 20px;
   /* align-items: center;  */
-  height: 565px;
+  /* height: 565px; */
+  height: 31vw;
 }
 
 .accordian-offerings-section {
@@ -3669,10 +3670,13 @@ td {
   /* margin-left: 30px; */
   rotate: -90deg;
   position: absolute;
-  top: 100px;
+  /* top: 100px; */
+  top: 4.208vw;
   /* left: 0; */
-  height: 360px;
-  width: 360px;
+  /* height: 360px; */
+  /* width: 360px; */
+  height: 18.75vw;
+  width: 18.75vw;
   white-space: nowrap;
   padding-top: 6px;
 }
@@ -4246,7 +4250,7 @@ td {
 
 .bg-decor {
   height: clamp(266px, 20.8333vw, 400px);
-  background: transparent linear-gradient(109deg, #089768 0%, #000000 100%) 0%
+  background: transparent linear-gradient(109deg, #00aa72 0%, #000000 100%) 0%
     0% no-repeat padding-box;
   position: relative;
   z-index: -1;
@@ -4551,8 +4555,8 @@ td {
 }
 
 .success-path-category-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: clamp(20px, 1.6vw, 30px);
 }
 
@@ -4573,7 +4577,7 @@ td {
 
 /* main services page */
 .service-listing .hero {
-  background: transparent linear-gradient(96deg, #089768 0%, #000000 100%) 0% 0%
+  background: transparent linear-gradient(96deg, #00aa72 0%, #000000 100%) 0% 0%
     no-repeat padding-box;
   padding-bottom: clamp(50px, 7.81vw, 80px);
 }
@@ -4708,7 +4712,7 @@ td {
 /* sub service page */
 .sub-service .hero {
   padding-bottom: 0px;
-  background: transparent linear-gradient(97deg, #089768 0%, #000000 100%) 0% 0%
+  background: transparent linear-gradient(97deg, #00aa72 0%, #000000 100%) 0% 0%
     no-repeat padding-box;
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
@@ -5700,7 +5704,7 @@ td {
 .country-scroll-list-1 > div, 
 .country-scroll-list-2 > div
 {
-  background: linear-gradient(113deg, #089768 0%, #000000 100%); 
+  background: linear-gradient(113deg, #00aa72 0%, #000000 100%); 
   -webkit-text-fill-color: transparent; 
   -webkit-background-clip: text; 
 }
@@ -5874,7 +5878,7 @@ td {
 /* Mobile menu */
 .mobile-menu-container{
   width: 100%;
-  background: transparent linear-gradient(160deg, #089768 0%, #0A3815 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(160deg, #00aa72 0%, #0A3815 100%) 0% 0% no-repeat padding-box;
   height: 100vh;
   position: absolute;
   top: 0;
@@ -5999,14 +6003,14 @@ td {
 }
 
 .not-found .hero {
-  background: transparent linear-gradient(113deg, #089768 0%, #000000 100%) 0%
+  background: transparent linear-gradient(113deg, #00aa72 0%, #000000 100%) 0%
     0% no-repeat padding-box;
   padding-bottom: clamp(50px, 7.81vw, 80px);
 }
 
 .not-found-footer{
   height: 16px;
-  background: transparent linear-gradient(91deg, #089768 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(91deg, #00aa72 0%, #000000 100%) 0% 0% no-repeat padding-box;
 }
 
 .not-found-content{

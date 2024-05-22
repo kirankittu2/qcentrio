@@ -132,14 +132,6 @@ export default function Jobs({ results, page }) {
                     className="search-dropdown-item">
                     On Site
                   </div>
-                  <div
-                    onClick={(e) => {
-                      setDropdown(false);
-                      setTypeDropdown(e.target.textContent);
-                    }}
-                    className="search-dropdown-item">
-                    Hybrid
-                  </div>
                 </div>
               )}
             </div>

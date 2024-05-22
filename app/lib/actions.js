@@ -18,7 +18,6 @@ export async function homeslidesMail(formData) {
     }
   );
   const recaptchDataScore = await response.json();
-  // console.log(recaptchDataScore);
   if (recaptchDataScore.score >= 0.5) {
     const email = formData.get("email");
 
@@ -170,7 +169,6 @@ export async function contactMail(formData) {
 }
 
 export async function careersMail(formData) {
-  // console.log(formData);
   const token = formData.get("g-recaptcha-response");
   const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
   const response = await fetch(
@@ -362,7 +360,6 @@ export async function contactUsReactOutMail(formData) {
     }
   );
   const recaptchDataScore = await response.json();
-  // console.log(recaptchDataScore);
   if (recaptchDataScore.score >= 0.5) {
     const email = formData.get("email");
 
@@ -412,7 +409,6 @@ export async function footerMail(formData) {
     }
   );
   const recaptchDataScore = await response.json();
-  // console.log(recaptchDataScore);
   if (recaptchDataScore.score >= 0.5) {
     const email = formData.get("email");
 
@@ -450,7 +446,6 @@ export async function footerMail(formData) {
 
 // Need something email
 export async function needSomethingMail(formData) {
-  console.log(formData);
   const token = formData.get("g-recaptcha-response");
   const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
   const response = await fetch(
@@ -656,7 +651,6 @@ export async function caseStudyMail(formData) {
     }
   );
   const recaptchDataScore = await response.json();
-  console.log(recaptchDataScore);
   if (recaptchDataScore.score >= 0.5) {
     const email = formData.get("email");
     const type = formData.get("type");
@@ -787,7 +781,6 @@ export async function caseStudyMail(formData) {
       subject: "Form Filled",
       html: fullHTMLContent,
     });
-    console.log(owner);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
       return { success: true, message: "Mail sent successfully" };
