@@ -17,7 +17,7 @@ export default function InsightsSearchBar() {
     } else {
       params.delete("item");
     }
-    replace(`${pathname}?${params.toString()}`);
+    replace(`${pathname}?${params.toString()}#articles`);
   }, 300);
 
   return (

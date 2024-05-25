@@ -12,7 +12,9 @@ export default function Jobs({ results, page }) {
   const [title, setTitle] = useState("");
   const [location, setLocation] = useState("");
   const [typeDropdown, setTypeDropdown] = useState("Any");
+  const [locationDropdownText, setlocationDropdownText] = useState("Any");
   const [dropdown, setDropdown] = useState(false);
+  const [locationDropdown, setLocationDropdown] = useState(false);
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { replace } = useRouter();
@@ -42,7 +44,26 @@ export default function Jobs({ results, page }) {
     };
 
     observeElements(".job", "slideup");
+
+    setTypeDropdown(
+      capitalizeEveryWord(
+        searchParams?.get("type") ? searchParams?.get("type") : "Any"
+      )
+    );
+    setlocationDropdownText(
+      capitalizeEveryWord(
+        searchParams?.get("location") ? searchParams?.get("location") : "Any"
+      )
+    );
   }, [searchParams]);
+
+  function capitalizeEveryWord(str) {
+    let words = str.split(" ");
+    for (let i = 0; i < words.length; i++) {
+      words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
+    }
+    return words.join(" ");
+  }
 
   function sumbitSearch() {
     const params = new URLSearchParams(searchParams);
@@ -54,8 +75,8 @@ export default function Jobs({ results, page }) {
       params.delete("title");
     }
 
-    if (location) {
-      params.set("location", location.toLowerCase());
+    if (locationDropdownText) {
+      params.set("location", locationDropdownText.toLowerCase());
     } else {
       params.delete("location");
     }
@@ -66,7 +87,7 @@ export default function Jobs({ results, page }) {
       params.delete("type");
     }
 
-    replace(`${pathname}?${params.toString()}`);
+    replace(`${pathname}?${params.toString()}#jobs`);
   }
 
   return (
@@ -94,12 +115,87 @@ export default function Jobs({ results, page }) {
               onChange={(e) => setTitle(e.target.value)}
               placeholder="Job Title / Role"
             />
-            <input
+            {/* <input
               onChange={(e) => setLocation(e.target.value)}
               placeholder="Location"
-            />
+            /> */}
             <div
-              onClick={() => setDropdown(!dropdown)}
+              onClick={() => {
+                setLocationDropdown(!locationDropdown);
+                setDropdown(false);
+              }}
+              className="search-dropdown">
+              {locationDropdownText}{" "}
+              <span
+                className={`chevron bottom ${
+                  locationDropdown ? "rotate-180" : "rotate-0"
+                }`}></span>
+              {locationDropdown && (
+                <div className="search-dropdown-item-list">
+                  <div
+                    onClick={(e) => {
+                      setDropdown(false);
+                      setlocationDropdownText(e.target.textContent);
+                    }}
+                    className="search-dropdown-item">
+                    Any
+                  </div>
+                  <div
+                    onClick={(e) => {
+                      setDropdown(false);
+                      setlocationDropdownText(e.target.textContent);
+                    }}
+                    className="search-dropdown-item">
+                    Mumbai
+                  </div>
+                  <div
+                    onClick={(e) => {
+                      setDropdown(false);
+                      setlocationDropdownText(e.target.textContent);
+                    }}
+                    className="search-dropdown-item">
+                    Chennai
+                  </div>
+                  <div
+                    onClick={(e) => {
+                      setDropdown(false);
+                      setlocationDropdownText(e.target.textContent);
+                    }}
+                    className="search-dropdown-item">
+                    Bangalore
+                  </div>
+                  <div
+                    onClick={(e) => {
+                      setDropdown(false);
+                      setlocationDropdownText(e.target.textContent);
+                    }}
+                    className="search-dropdown-item">
+                    Hyderabad
+                  </div>
+                  <div
+                    onClick={(e) => {
+                      setDropdown(false);
+                      setlocationDropdownText(e.target.textContent);
+                    }}
+                    className="search-dropdown-item">
+                    Pune
+                  </div>
+                  <div
+                    onClick={(e) => {
+                      setDropdown(false);
+                      setlocationDropdownText(e.target.textContent);
+                    }}
+                    className="search-dropdown-item">
+                    Delhi
+                  </div>
+                </div>
+              )}
+            </div>
+            <div
+              onClick={() => {
+                setDropdown(!dropdown);
+                setLocationDropdown(false);
+              }}
               className="search-dropdown">
               {typeDropdown}{" "}
               <span
@@ -165,7 +261,7 @@ export default function Jobs({ results, page }) {
         </div>
       </div>
       <Suspense>
-        <Pagination paginationNum={results.pageNumber} page={page} />
+        <Pagination id="jobs" paginationNum={results.pageNumber} page={page} />
       </Suspense>
     </div>
   );

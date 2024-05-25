@@ -404,6 +404,7 @@ import genAiIcon6 from "@/public/generative-ai-solutions-and-offerings/insights-
 import genAiIcon7 from "@/public/generative-ai-solutions-and-offerings/building_trust.svg";
 import genAiIcon8 from "@/public/generative-ai-solutions-and-offerings/customer_behavioue_analytics.svg";
 import collabBanner from "@/public/collaboration-and-productivity-solutions/main-bg.png";
+import { any } from "zod";
 
 const blogs = {
   children: [
@@ -7396,6 +7397,7 @@ const jobs = [
 export async function jobSearchBar(query, location, type = null, page) {
   const startIndex = (page - 1) * 4;
   let results = [];
+  location = location == "any" ? "" : location;
 
   results = results.concat(
     jobs.filter((job) => {

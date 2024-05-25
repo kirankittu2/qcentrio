@@ -957,8 +957,8 @@ header {
 /* company section styles */
 .company-list-section {
   border-bottom: 1px solid #f3f1f1;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: clamp(33px, 2.6041vw, 50px);
+  padding-bottom: clamp(33px, 2.6041vw, 50px);
   overflow: hidden;
 }
 
@@ -966,21 +966,35 @@ header {
   width: max-content;
   height: clamp(25px, 2vw, 38px);
   display: flex;
-  gap: 5.2vw;
+  /* gap: 1vw; */
   /* transform: translateX( calc(-33.33333% - 33px)  ); */
   animation: scroll 30s linear infinite;
   position: relative;
 }
 
-.horizontal-scroll img {
-  /* height: clamp(26px, 2.08vw, 40px ); */
-  /* width: fit-content; */
+.company-list-image-container{
+  width: 15.625vw;
   height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.horizontal-scroll img {
+  left: 50% !important;
+  transform: translateX(-50%);
+  width: unset !important;
+  background-size: cover;
+  filter: grayscale(1);
+}
+
+.horizontal-scroll img:hover {
+  filter: grayscale(0);
 }
 
 @keyframes scroll {
   to {
-    transform: translateX(calc(-33.33333% - 1.718vw));
+    transform: translateX(calc(-50% - 1.9vw));
   }
 }
 
@@ -1501,7 +1515,7 @@ header {
 
 .why-qcentrio-card-container {
   display: grid;
-  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
 }
 
@@ -2914,6 +2928,10 @@ h2.blog-page-side-heading {
   margin-right: clamp(50px, 7.81vw, 140px);
 }
 
+#jobs{
+  scroll-margin: 50px;
+}
+
 .jobs-section .pagination-container {
   justify-content: flex-end;
 }
@@ -3007,6 +3025,8 @@ h2.blog-page-side-heading {
 .job-results-not-found{
   padding-left: 30px;
   padding-top: 30px;
+  font-size: 1.3rem;
+  font-family: "Quadran-Bold";
 }
 
 .job-title {
@@ -3671,7 +3691,7 @@ td {
   rotate: -90deg;
   position: absolute;
   /* top: 100px; */
-  top: 4.208vw;
+  top: 5.608vw;
   /* left: 0; */
   /* height: 360px; */
   /* width: 360px; */
@@ -3846,6 +3866,10 @@ td {
   width: 200px;
 }
 
+.jobs-main-search-container .search-dropdown{
+  width: unset;
+}
+
 .purpose-input-dropdown {
   display: flex;
   align-items: center;
@@ -3928,6 +3952,11 @@ td {
 
 .search-listing .pagination-container {
   justify-content: unset;
+}
+
+.no-results{
+  font-size: 1.2rem;
+  font-family: "Quadran-Bold";
 }
 
 .search-dropdown-item-list {
@@ -4250,10 +4279,24 @@ td {
 
 .bg-decor {
   height: clamp(266px, 20.8333vw, 400px);
-  background: transparent linear-gradient(109deg, #00aa72 0%, #000000 100%) 0%
+  background: transparent linear-gradient(271deg, #00aa72 0%, #000000 100%) 0%
     0% no-repeat padding-box;
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
   position: relative;
   z-index: -1;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 /* glimpse section styles */
@@ -4507,7 +4550,7 @@ td {
 
 .success-path-content-column .section-content {
   color: black;
-  margin-bottom: 0px;
+  /* margin-bottom: 0px; */
 }
 
 .success-path-percentage {
@@ -4558,6 +4601,10 @@ td {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: clamp(20px, 1.6vw, 30px);
+}
+
+.success-path-section .success-path-category-container{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .success-path-category img {
