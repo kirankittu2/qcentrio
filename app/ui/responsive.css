@@ -94,6 +94,21 @@
     padding: 7px;
   }
 
+  .horizontal-scroll {
+    animation: scroll 30s linear infinite;
+  }
+
+  @keyframes scroll {
+    to {
+      transform: translateX(calc(-50% - 1.4vw));
+    }
+  }
+
+  
+  .company-list-image-container{
+    width: 200px;
+  }
+
   .search-bar-container input{
     width: 100%
   }

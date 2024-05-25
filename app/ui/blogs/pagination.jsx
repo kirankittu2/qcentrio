@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 
-export default function Pagination({ paginationNum, page }) {
+export default function Pagination({ paginationNum, page, id }) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
@@ -14,7 +14,7 @@ export default function Pagination({ paginationNum, page }) {
     } else {
       params.append("page", num.toString());
     }
-    return `${pathname}?${params.toString()}`;
+    return `${pathname}?${params.toString()}${id ? "#" + id : ""}`;
   }
 
   const paginationButtons = [];

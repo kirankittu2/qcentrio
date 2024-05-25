@@ -19,11 +19,11 @@ export default function SuccessPath({ data }) {
               <div className="success-path-content-column">
                 <h2 className="success-path-heading">{item.heading}</h2>
                 <p className="section-content">{item.content}</p>
-                <p
+                {/* <p
                   data-option="num-up"
                   className="success-path-percentage animate">
                   {item.percentage}
-                </p>
+                </p> */}
                 <p className="success-path-content-highlight section-content">
                   {item.highlight}
                 </p>

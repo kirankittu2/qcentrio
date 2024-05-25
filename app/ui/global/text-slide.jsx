@@ -5,12 +5,15 @@ export default function TextSlide({ wrapper, item }) {
 
   useEffect(() => {
     const modernizeTextElements = document.querySelectorAll(".modernize-text");
+    let debounceTimeout;
 
     const handleMouseMove = (event) => {
       const mouseX = event.clientX;
       const windowWidth = window.innerWidth;
       const scrollPercentage = (mouseX / windowWidth) * 100;
-      const extendPixels = window.innerWidth <= 1600 ? 28 : 5;
+      const extendPixels =
+        window.innerWidth <= 1600 ? (window.innerWidth <= 1300 ? 40 : 30) : 5;
+      console.log(windowWidth);
       const computedStyle = window.getComputedStyle(mainSlide.current);
       const fontSize = computedStyle.getPropertyValue("font-size");
       modernizeTextElements.forEach((element, index) => {
@@ -22,7 +25,17 @@ export default function TextSlide({ wrapper, item }) {
       });
     };
 
-    wrapper.current.addEventListener("mousemove", handleMouseMove);
+    const debouncedMouseMove = (event) => {
+      clearTimeout(debounceTimeout);
+      debounceTimeout = setTimeout(() => handleMouseMove(event), 150); // Adjust the delay as needed
+    };
+
+    wrapper.current.addEventListener("mousemove", debouncedMouseMove);
+
+    // Cleanup function
+    return () => {
+      clearTimeout(debounceTimeout);
+    };
   }, [wrapper]);
   return (
     <div className="modernize-container">
