@@ -5,7 +5,6 @@ import philadelphia from "@/public/logos/children-hospital-of-philadelphia.svg";
 import cvs from "@/public/logos/cvs.svg";
 import reddy from "@/public/logos/dr_reddy.svg";
 import hertx from "@/public/logos/hertx.svg";
-import hp from "@/public/logos/hp.svg";
 import mount from "@/public/logos/mount-sinai-hospital.svg";
 import praxair from "@/public/logos/praxair.svg";
 import schneider from "@/public/logos/schneider.svg";
@@ -42,9 +41,6 @@ export default function CompanyList() {
         </div>
         <div className="company-list-image-container">
           <Image fill src={reddy} alt="" />
-        </div>
-        <div className="company-list-image-container">
-          <Image fill src={hp} alt="" />
         </div>
         <div className="company-list-image-container">
           <Image fill src={mount} alt="" />
@@ -88,9 +84,6 @@ export default function CompanyList() {
         </div>
         <div className="company-list-image-container">
           <Image fill src={reddy} alt="" />
-        </div>
-        <div className="company-list-image-container">
-          <Image fill src={hp} alt="" />
         </div>
         <div className="company-list-image-container">
           <Image fill src={mount} alt="" />
