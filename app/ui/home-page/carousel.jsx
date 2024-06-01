@@ -187,9 +187,9 @@ export default function Carousel() {
           <div>
             {/* <Img className="slide-image" src={herobanner1} alt="" /> */}
             <video
-              width="1780"
+              width="1920"
               height="630"
-              src="/Main_BG_01.mp4"
+              src="/videos/video1.mp4"
               autoPlay
               loop
               muted
@@ -236,7 +236,7 @@ export default function Carousel() {
           onMouseLeave={() => isActive(false)}>
           <div>
             <video
-              src="/Main_BG_02.mp4"
+              src="/videos/video2.mp4"
               autoPlay
               loop
               muted
@@ -244,7 +244,7 @@ export default function Carousel() {
             {/* <Img className="slide-image" src={herobanner2} alt="" /> */}
             <div id="hero-carousel-content" className="hero-content">
               <h1 className="hero-heading strip">
-                EMPOWERING GLOBAL BRANDS TO WIN, GROW, AND LEAD
+                EMPOWERING GLOBAL BRANDS TO WIN, GROW AND LEAD
               </h1>
               <p className="hero-sub-heading">
                 With E2E Digital Transformation Services and Solutions
@@ -284,7 +284,7 @@ export default function Carousel() {
           <div>
             {/* <Img className="slide-image" src={herobanner3} alt="" /> */}
             <video
-              src="/Main_BG_03.mp4"
+              src="/videos/video3.mp4"
               autoPlay
               loop
               muted

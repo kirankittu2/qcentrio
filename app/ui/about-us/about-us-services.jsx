@@ -26,16 +26,13 @@ export default function AboutUsServices() {
         <ServiceCard
           image={service1}
           title="Business Value Enhancement"
-          content=" Specializing in GenAI, AI, ML, and RPA solutions, we automate
-              processes, personalize experiences, and provide predictive
-              insights, revolutionizing operations and driving future business
-              growth."
+          content="Specializing in GenAI, AI, ML, and RPA solutions, we automate processes, personalize experiences, and provide predictive insights, revolutionizing operations and driving future business growth."
           link="/offerings/business-value-enhancement-services"
         />
         <ServiceCard
           image={service2}
           title="Advisory and Strategic Services"
-          content="Leading in SAP services (S/4HANA, CRM, Analytics), custom software development (JAVA, MEAN, Full Stack), IoT solutions, and innovative product engineering for global business transformation."
+          content="We are leading in SAP services (S/4HANA, CRM, Analytics), custom software development (JAVA, MEAN, Full Stack), IoT solutions, and innovative product engineering for global business transformation."
           link="/offerings/advisory-and-strategic-services"
         />
         <ServiceCard
@@ -53,7 +50,7 @@ export default function AboutUsServices() {
         <ServiceCard
           image={service5}
           title="Cloud Infrastructure & Security Services"
-          content="Empowering your digital shift with our cloud infrastructure and security services, resulting in tangible, measurable business impacts and ROI growth."
+          content="You empower your digital shift with our cloud infrastructure and security services, resulting in tangible, measurable business impacts and ROI growth."
           link="/offerings/cloud-infra-and-security-services"
         />
         <ServiceCard

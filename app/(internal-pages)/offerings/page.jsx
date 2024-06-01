@@ -16,6 +16,7 @@ import Path5 from "@/app/ui/global/path-5";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import OfferingGlobeAnimation from "@/app/ui/global/globe-animation";
 import Link from "next/link";
+import GlobeAnimation from "@/app/ui/globe-animation";
 
 export const metadata = {
   title: "Delivering Innovative Solutions to Help Businesses Grow – Qcentrio",
@@ -49,7 +50,8 @@ function ServiceListingHeadSection() {
           src={globe}
           alt=""
         /> */}
-      <OfferingGlobeAnimation />
+      {/* <OfferingGlobeAnimation /> */}
+      <GlobeAnimation />
 
       <div>
         <h1 className="heading1">OUR SERVICES</h1>

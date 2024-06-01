@@ -12,6 +12,7 @@ import Image from "next/image";
 import cookieImage from "@/public/cookie.svg";
 import { checkCookie } from "./lib/utils";
 import MobileMenu from "./ui/global/mobile-menu";
+import PageLoader from "./ui/page-loader";
 const Cursor = dynamic(() => import("./ui/global/cursor"), { ssr: false });
 
 export default async function RootLayout({ children }) {
@@ -47,6 +48,7 @@ export default async function RootLayout({ children }) {
             <Image src={cookieImage} alt="" />
           </div>
         )}
+        <PageLoader />
         <Animate />
         <MobileMenu />
         <CookieConsent />

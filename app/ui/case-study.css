@@ -1,6 +1,6 @@
 .case-study-hero {
-  padding-left: clamp(50px, 7.81vw, 140px);
-  padding-bottom: clamp(50px, 7.81vw, 140px);
+  /* padding-left: clamp(50px, 7.81vw, 140px); */
+  /* padding-bottom: clamp(50px, 7.81vw, 140px); */
   background: transparent linear-gradient(114deg, #00aa72 0%, #000000 100%) 0%
     0% no-repeat padding-box;
   background-size: 200% 200%;
@@ -23,7 +23,7 @@
 .case-study-hero-content {
   position: absolute;
   left: clamp(50px, 14.58vw, 280px);
-  top: 50%;
+  top: 55%;
   width: 55%;
   transform: translateY(-50%);
 }
@@ -46,6 +46,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.case-study-toogle-button img{
+  width: clamp(6px, 0.520833vw, 10px);
 }
 
 .case-study-toogle-button .breadcrump {
@@ -265,7 +269,7 @@
   }
 
   .case-study-toogle-button{
-    padding: 35px;
+    padding: 40px;
   }
 }
 
