@@ -23,18 +23,18 @@ export default function About() {
           cloud solutions, and strategic advisory services. Our collective
           objective toward unending innovation propels our mission to convey
           avant-garde, pragmatic solutions that do more than satisfy and often
-          exceed our clients&lsquo; needs. At the heart of our operations is a
+          exceed our clients' needs. At the heart of our operations is a
           people-first approach, which forms the bedrock of our corporate
-          identity. This is the approach that reinstates solemnness in
-          tailor-making transformation strategies well-resonated with your
-          business objectives. This means you can, for sure, be guaranteed that
-          they have the ability to assess digital maturity critically or the
-          ability to develop a strategic roadmap.
+          identity. This approach reinstates solemnness in tailor-making
+          transformation strategies that are well-resonated with your business
+          objectives. This means you can, for sure, be guaranteed that they can
+          assess digital maturity critically or the ability to develop a
+          strategic roadmap.
         </p>
         <p data-option="up" className="section-content animate animate-hidden">
-          Thus, these roadmaps empower global brands to not only expand their
-          horizons but also innovate and personalize the customer experience in
-          a manner that complies with strict regulatory compliance standards.
+          Thus, these roadmaps empower global brands to expand their horizons,
+          innovate, and personalize the customer experience while complying with
+          strict regulatory compliance standards.
         </p>
       </div>
       <div>
@@ -42,9 +42,9 @@ export default function About() {
           data-option="up"
           className="highlight-content animate animate-hidden">
           In a changing world with the initiatives of digitization, Qcentrio is
-          your partner on the way to the
+          your partner on the way to the{" "}
           <span>
-            &nbsp;digital zenith through AI, cloud technologies, and inventive
+            digital zenith through AI, cloud technologies, and inventive
             solutions strategically.
           </span>
         </p>
@@ -56,9 +56,8 @@ export default function About() {
           </h3>
         </div>
         <p data-option="up" className="section-content animate animate-hidden">
-          Qcentrio doesn&rsquo;t just respond to the digital era; we actively
-          shape it, ensuring that our partners are not only market participants
-          but leaders.
+          Qcentrio doesn't just respond to the digital era; we actively shape
+          it, ensuring that our partners are market participants and leaders.
         </p>
         {/* <div className="about-showcase-container">
           <div data-option="right" className="showcase hidden-right animate">

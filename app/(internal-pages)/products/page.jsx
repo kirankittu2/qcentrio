@@ -21,6 +21,8 @@ import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Link from "next/link";
+import CountryScroll from "@/app/ui/global/country-scroll";
+import ProductsModal from "@/app/ui/products/products-modal";
 
 export const metadata = {
   title: "Global Authorized Partner of Qcentrio Banking Solutions | Qcentrio",
@@ -45,6 +47,7 @@ export default function Products() {
           subheading="Contact Qcentrio today to discuss how our products can tailor-fit your needs and propel your business forward."
         />
       </div>
+      <CountryScroll />
       <Footer />
       <CopyrightBar />
     </div>
@@ -77,16 +80,14 @@ function ProductsMain() {
           <p
             data-option="up"
             className="products-hero-main-highlight animate animate-hidden">
-            Qcentrio’s comprehensive suite of banking solutions, is ideally
+            Qcentrio’s comprehensive suite of banking solutions is ideally
             positioned to address these challenges across the US, Europe,
             Singapore, and Australia. It enables financial institutions
             worldwide to leverage cutting-edge technologies to enhance
             operational efficiency, reduce costs, and elevate customer
             satisfaction.
           </p>
-          <Link href="#get-started">
-            <Button name="Get Started" />
-          </Link>
+          <ProductsModal />
         </div>
         <div>
           <Image
@@ -177,8 +178,8 @@ function AllProducts() {
           </h2>
           <p data-option="up" className="animate animate-hidden">
             Remitree is a sophisticated solution designed to streamline the
-            processing of both inward and outward foreign currency remittance
-            SWIFT messages. It offers a single-window setup with customizable
+            processing of inward and outward foreign currency remittance SWIFT
+            messages. It offers a single-window setup with customizable
             validations and a comprehensive workflow that allows different users
             to take appropriate actions until the final settlement is reached.
           </p>
@@ -190,9 +191,9 @@ function AllProducts() {
             transactions, and comprehensive compliance tools, making it an
             essential tool for operations teams and call centers.
           </p>
-          <Link href="/contact-us">
+          {/* <Link href="/contact-us">
             <Button name="Book Demo" />
-          </Link>
+          </Link> */}
         </div>
         <div className="product-column-3 product-column">
           <div className="product-num">01</div>
@@ -216,17 +217,17 @@ function AllProducts() {
             minimizing financial and reputational risks.
           </p>
           <p data-option="up" className="mb-[50px] animate animate-hidden">
-            Conciliare’s enterprise-wide platform streamlines workflows reduce
-            operational costs and improves productivity by facilitating quicker
+            Conciliare’s enterprise-wide platform streamlines workflows, reduces
+            operational costs, and improves productivity by facilitating quicker
             discrepancy resolution. The solution’s flexibility in configuration
             and exception tracking significantly enhances regulatory compliance
             and operational efficiency, making it an invaluable asset for
             institutions seeking to improve their reconciliation processes and
             customer service quality.
           </p>
-          <Link href="/contact-us">
+          {/* <Link href="/contact-us">
             <Button name="Book Demo" />
-          </Link>
+          </Link> */}
         </div>
         <div className="product-column-1  product-column product-column-reverse">
           <Image
@@ -273,9 +274,9 @@ function AllProducts() {
             prevention and maintaining the institution’s reputation for
             security.
           </p>
-          <Link href="/contact-us">
+          {/* <Link href="/contact-us">
             <Button name="Book Demo" />
-          </Link>
+          </Link> */}
         </div>
         <div className="product-column-3 product-column">
           <div className="product-num">03</div>
@@ -306,9 +307,9 @@ function AllProducts() {
             an uncertain economic environment, thus ensuring sustained
             profitability and growth.
           </p>
-          <Link href="/contact-us">
+          {/* <Link href="/contact-us">
             <Button name="Book Demo" />
-          </Link>
+          </Link> */}
         </div>
         <div className="product-column-1 product-column product-column-reverse">
           <Image
@@ -351,12 +352,12 @@ function AllProducts() {
             delivery through technology, enabling financial institutions to
             achieve profitable growth while minimizing risks and operational
             costs. It is an essential solution for small to medium-sized banks
-            looking to transition from traditional to digital platforms,
-            ensuring competitiveness in a rapidly changing financial landscape.
+            transitioning from traditional to digital platforms, ensuring
+            competitiveness in a rapidly changing financial landscape.
           </p>
-          <Link href="/contact-us">
+          {/* <Link href="/contact-us">
             <Button name="Book Demo" />
-          </Link>
+          </Link> */}
         </div>
         <div className="product-column-3 product-column">
           <div className="product-num">05</div>
@@ -379,18 +380,18 @@ function AllProducts() {
           </p>
           <p data-option="up" className="mb-[50px] animate animate-hidden">
             The solution’s flexibility allows for integrating new loan products
-            that are compliant with regulatory guidelines and offers both
-            automated and manual processing capabilities. It improves the loan
-            sanctioning cycle, reduces response times, and increases customer
-            satisfaction by providing a seamless experience. This system is
-            particularly beneficial in enabling branchless banking, allowing
-            customers to complete banking transactions conveniently, which is
-            crucial for institutions aiming to expand their digital services and
-            customer reach.
+            that are compliant with regulatory guidelines and offers automated
+            and manual processing capabilities. It improves the loan sanctioning
+            cycle, reduces response times, and increases customer satisfaction
+            by providing a seamless experience. This system is particularly
+            beneficial in enabling branchless banking, allowing customers to
+            complete banking transactions conveniently, which is crucial for
+            institutions aiming to expand their digital services and customer
+            reach.
           </p>
-          <Link href="/contact-us">
+          {/* <Link href="/contact-us">
             <Button name="Book Demo" />
-          </Link>
+          </Link> */}
         </div>
         <div className="product-column-1 product-column product-column-reverse">
           <Image
@@ -421,24 +422,24 @@ function AllProducts() {
             ALMANAC
           </h2>
           <p data-option="up" className="animate animate-hidden">
-            ALMANAC is an advanced asset liability management solution
-            integrating risk management, liquidity forecasting, and regulatory
+            ALMANAC is an advanced asset liability management solution that
+            integrates risk management, liquidity forecasting, and regulatory
             reporting into a cohesive platform. It provides financial
             institutions with tools for detailed financial analytics, scenario
             simulation, and long-term planning, enhancing their ability to make
             informed strategic decisions.
           </p>
           <p data-option="up" className="mb-[50px] animate animate-hidden">
-            It helps manage liquidity and interest rate risks, supports
+            It helps manage liquidity and interest rate risks supports
             compliance with Basel regulations, and facilitates efficient balance
             sheet management. Its predictive analytics and behavior modeling
-            capabilities allow banks to manage capital distribution and funding
-            strategies proactively, optimizing financial performance and
+            capabilities allow banks to proactively manage capital distribution
+            and funding strategies, optimizing financial performance and
             ensuring robust regulatory compliance.
           </p>
-          <Link href="/contact-us">
+          {/* <Link href="/contact-us">
             <Button name="Book Demo" />
-          </Link>
+          </Link> */}
         </div>
         <div className="product-column-3 product-column">
           <div className="product-num">07</div>
@@ -453,10 +454,9 @@ function AllProducts() {
             RELIER
           </h2>
           <p data-option="up" className="animate animate-hidden">
-            Relier offers smooth reconciliation and management of accounts that
-            a bank has with other banks (Nostro accounts). It offers risk
-            management by identifying potential errors and unauthorized
-            transactions (frauds).
+            Relier offers smooth reconciliation and management of bank accounts
+            with other banks (Nostro accounts). It also manages risk by
+            identifying potential errors and unauthorized transactions (frauds).
           </p>
           <p data-option="up" className="mb-[50px] animate animate-hidden">
             It supports banks in staying compliant with regulatory requirements
@@ -464,9 +464,9 @@ function AllProducts() {
             Hence, Relier is a significant offering that assures accuracy in
             cross-border banking operations.
           </p>
-          <Link href="/contact-us">
+          {/* <Link href="/contact-us">
             <Button name="Book Demo" />
-          </Link>
+          </Link> */}
         </div>
         <div className="product-column-1 product-column product-column-reverse">
           <Image
@@ -499,16 +499,16 @@ function AllProducts() {
           <p data-option="up" className="animate animate-hidden">
             Our PAS system helps with property valuations. It offers simple
             integration that helps complete the property valuation system in the
-            workflow. Built on a modular architecture, PAS has the capacity to
-            handle large volumes of property data.
+            workflow. Built on a modular architecture, PAS can handle large
+            volumes of property data.
           </p>
           <p data-option="up" className="mb-[50px] animate animate-hidden">
-            With the help of Advanced valuation algorithms, it considers
-            stastical models to determine property values.
+            With the help of advanced valuation algorithms, stastical models are
+            considered to determine property values.
           </p>
-          <Link href="/contact-us">
+          {/* <Link href="/contact-us">
             <Button name="Book Demo" />
-          </Link>
+          </Link> */}
         </div>
         <div className="product-column-3 product-column">
           <div className="product-num">09</div>
@@ -532,9 +532,9 @@ function AllProducts() {
             PAGO makes payment processing seamless through financial visibility
             and operational efficiency.
           </p>
-          <Link href="/contact-us">
+          {/* <Link href="/contact-us">
             <Button name="Book Demo" />
-          </Link>
+          </Link> */}
         </div>
         <div className="product-column-1 product-column product-column-reverse">
           <Image
@@ -641,7 +641,7 @@ function SubServiceWhyChooseSection() {
           <Image src={ameya3} alt="" />
           <h2>Customer Satisfaction</h2>
           <p>
-            Deliver faster, reliable, and more transparent services to your
+            Deliver faster, more reliable, and more transparent services to your
             customers across diverse markets.
           </p>
         </div>

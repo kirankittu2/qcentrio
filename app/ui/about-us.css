@@ -5,14 +5,14 @@
   width: 45%;
   /* transform: translateY(-50%); */
   margin-top: 50px;
-  margin-left: clamp(50px, 7.81vw, 140px);;
+  margin-left: clamp(25px, 14.58vw, 280px);
 }
 
 .about-us-blog-hero{
     background: transparent linear-gradient(110deg, #00aa72 0%, #000000 100%) 0% 0% no-repeat padding-box;
     background-size: 200% 200%;
     animation: gradient 10s ease infinite;
-    padding-left: clamp(50px, 7.81vw, 140px);
+    /* padding-left: clamp(50px, 7.81vw, 140px); */
     padding-bottom: 50px;
 }
 
@@ -108,8 +108,8 @@
 }
 
 .about-us-map-section{
-    padding-left: clamp(50px, 7.81vw, 140px);
-    padding-right: clamp(50px, 7.81vw, 140px);
+    padding-left: clamp(25px, 14.58vw, 280px);
+    padding-right: clamp(25px, 14.58vw, 280px);
     padding-top: 50px;
     padding-bottom: 50px;
     overflow: hidden;
@@ -229,7 +229,7 @@
     }
 
     .about-us-blog-hero{
-        padding-left: 20px;
+        /* padding-left: 20px; */
     }
 
     .join-us-buttons-container{

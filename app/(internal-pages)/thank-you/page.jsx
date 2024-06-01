@@ -23,18 +23,18 @@ function ThankYouPageContent() {
   const [count, setCount] = useState(3);
   const router = useRouter();
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (count > 0) {
-        setCount(count - 1);
-      } else {
-        router.back();
-        clearInterval(interval);
-      }
-    }, 1000);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     if (count > 0) {
+  //       setCount(count - 1);
+  //     } else {
+  //       router.back();
+  //       clearInterval(interval);
+  //     }
+  //   }, 1000);
 
-    return () => clearInterval(interval);
-  }, [count, router]);
+  //   return () => clearInterval(interval);
+  // }, [count, router]);
 
   return (
     <div className="thank-you-content-holder">

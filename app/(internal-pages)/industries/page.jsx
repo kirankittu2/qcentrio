@@ -72,8 +72,8 @@ function IndustrySpecific() {
         transformation strategies and service support. From aerospace to travel,
         we empower organizations to navigate technological advancements and
         competitive pressures while minimizing digital adoption risks, setting
-        agile practices, and helping you prioritize quick wins, and at the same
-        time, preparing you for scalable, long-term growth.
+        agile practices, helping you prioritize quick wins, and preparing you
+        for scalable, long-term growth.
       </p>
     </div>
   );

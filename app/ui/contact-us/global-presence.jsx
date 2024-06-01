@@ -11,7 +11,7 @@ import moment from "moment-timezone";
 import { useEffect, useState } from "react";
 
 const countries = {
-  USA: "America/New_York",
+  USA: "America/Chicago",
   Australia: "Australia/Sydney",
   India: "Asia/Kolkata",
   Singapore: "Asia/Singapore",

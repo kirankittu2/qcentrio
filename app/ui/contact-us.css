@@ -4,7 +4,7 @@
 }
 
 .contact .hero {
-  padding-bottom: clamp(50px, 7.81vw, 80px);
+  /* padding-bottom: clamp(50px, 7.81vw, 80px); */
   background: transparent linear-gradient(96deg, #00aa72 0%, #000000 100%) 0% 0%
     no-repeat padding-box;
   background-size: 200% 200%;

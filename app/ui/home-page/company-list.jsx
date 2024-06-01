@@ -22,89 +22,89 @@ export default function CompanyList() {
       className="company-list-section animate animate-hidden">
       <div className="horizontal-scroll">
         <div className="company-list-image-container">
-          <Image fill src={philadelphia} alt="" />
+          <Image src={philadelphia} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={zf} alt="" />
+          <Image src={zf} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={hertx} alt="" />
+          <Image src={hertx} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={bosch} alt="" />
+          <Image src={bosch} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={praxair} alt="" />
+          <Image src={praxair} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={cvs} alt="" />
+          <Image src={cvs} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={reddy} alt="" />
+          <Image src={reddy} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={mount} alt="" />
+          <Image src={mount} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={schneider} alt="" />
+          <Image src={schneider} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={sutherland} alt="" />
+          <Image src={sutherland} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={texas} alt="" />
+          <Image src={texas} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={linde} alt="" />
+          <Image src={linde} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={uber} alt="" />
+          <Image src={uber} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={walt} alt="" />
+          <Image src={walt} alt="" />
         </div>
 
         <div className="company-list-image-container">
-          <Image fill src={philadelphia} alt="" />
+          <Image src={philadelphia} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={zf} alt="" />
+          <Image src={zf} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={hertx} alt="" />
+          <Image src={hertx} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={bosch} alt="" />
+          <Image src={bosch} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={praxair} alt="" />
+          <Image src={praxair} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={cvs} alt="" />
+          <Image src={cvs} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={reddy} alt="" />
+          <Image src={reddy} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={mount} alt="" />
+          <Image src={mount} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={schneider} alt="" />
+          <Image src={schneider} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={sutherland} alt="" />
+          <Image src={sutherland} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={texas} alt="" />
+          <Image src={texas} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={linde} alt="" />
+          <Image src={linde} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={uber} alt="" />
+          <Image src={uber} alt="" />
         </div>
         <div className="company-list-image-container">
-          <Image fill src={walt} alt="" />
+          <Image src={walt} alt="" />
         </div>
       </div>
     </div>

@@ -247,14 +247,14 @@ export default function Home() {
       <WhyQcentrio />
       <Insignts
         title="Front and Center: Qcentrio Insights"
-        subheading="Stay abreast with the pulse of progress—our latest thought leadership, strategic insights, and forward-thinking perspectives."
+        subheading="Stay up-to-date with the pulse of progress—our latest thought leadership, strategic insights, and forward-thinking perspectives."
       />
       <Discover />
       <Contact
         heading="Experience the Qcentrio Difference"
         subheading="Let us empower you to win, grow, and lead in the digital age with our leading-edge services, solutions, and strategic innovation."
       />
-      {/* <CountryScroll /> */}
+
       <Footer />
       <CopyrightBar />
     </>
