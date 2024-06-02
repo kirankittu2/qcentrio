@@ -53,7 +53,19 @@ html {
   /* transition: 0.5s ease-out; */
   pointer-events: none;
   background-color: #003c28;
-  /* opacity: 0; */
+}
+
+.loader-number{
+  color: white;
+  /* margin-left: -0.564vw;
+  margin-top: 0.56vw; */
+  font-family: "Quadran-Bold";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  margin-top: 0.208vw;
 }
 
 .loader .el{
@@ -434,8 +446,11 @@ header {
   padding-left: clamp(25px, 14.58vw, 280px);
   padding-right: clamp(25px, 14.58vw, 280px);
   background-color: white;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 1000;
+  border-bottom: 1px solid #f3f1f1
 }
 
 .services-hero header{
@@ -768,12 +783,13 @@ header {
   /* position: relative; */
   background: transparent linear-gradient(113deg, #00aa72 0%, #000000 100%) 0%
     0% no-repeat padding-box;
-  /* background-size: 200% 200%; */
-  /* animation: gradient 10s ease infinite; */
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
   overflow-x: clip;
+  margin-top: 5.2083333vw;
 }
 
-/* @keyframes gradient {
+@keyframes gradient {
 	0% {
 		background-position: 0% 50%;
 	}
@@ -783,17 +799,16 @@ header {
 	100% {
 		background-position: 0% 50%;
 	}
-} */
+}
 
 
 .blog-hero {
-  /* padding-left: clamp(50px, 7.81vw, 140px); */
   padding-bottom: 80px;
   background: transparent linear-gradient(119deg, #00aa72 0%, #0a3815 100%) 0%
     0% no-repeat padding-box;
-  /* position: relative; */
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
+  margin-top: 5.2083333vw;
 }
 
 @keyframes gradient {
@@ -1008,7 +1023,7 @@ header {
 }
 
 .company-list-image-container{
-  /* width: 15.625vw; */
+  width: 150px;
   height: 100%;
   position: relative;
   display: flex;
@@ -1960,6 +1975,7 @@ header {
   padding-left: clamp(25px, 14.58vw, 280px);
   display: flex;
   gap: clamp(33px, 2.6041vw, 50px);
+  padding-top: 5.2083333vw;
 }
 
 .blog-page-content {
@@ -3268,6 +3284,7 @@ h2.blog-page-side-heading {
   margin-bottom: 7.2916vw;
   padding-left: unset;
   padding-bottom: unset;
+  /* margin-top: 0px; */
 }
 
 .industries header{
@@ -3722,6 +3739,7 @@ td {
 }
 
 .accordian-offering-number {
+  display: none;
   color: white;
   font-size: 1.375rem;
   font-family: "Quadran-Bold";
@@ -3878,6 +3896,7 @@ td {
 /* Search Page styles */
 .search-page {
   padding-bottom: 1px;
+  padding-top: 1px;
 }
 
 .search-bar-container {
@@ -4821,6 +4840,8 @@ td {
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
   height: 10.208vw;
+  position: relative;
+  margin-top: 0px;
 }
 
 @keyframes gradient {
@@ -4839,9 +4860,11 @@ td {
   margin-bottom: 0px;
   display: flex;
   align-items: center;
-  margin-top: 1.82291vw;
+  /* margin-top: 1.82291vw; */
   margin-left: clamp(25px, 14.58vw, 280px);
   text-transform: uppercase;
+  position: absolute;
+  bottom: 1.822vw;
 }
 
 .sub-service-heading-section {
@@ -6586,4 +6609,18 @@ td {
 .products-form-wrapper .search-dropdown-item-list{
   height: 200px;
   overflow-y: scroll;
+}
+
+@-moz-document url-prefix() {
+  .journey-carousel-section {
+    width: 70.6vw;
+  }
+
+  .journey-carousel-item > div{
+    width: 70.6vw;
+  }
+
+  .insights-wrapper .card > div{
+    width: 22.6vw;
+  }
 }
