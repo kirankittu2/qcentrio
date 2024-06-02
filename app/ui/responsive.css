@@ -85,6 +85,10 @@
     font-size: 16px;
   }
 
+  .hero{
+    margin-top: 88px;
+  }
+
   .need-something-modal-inner .contact-sub-heading{
     font-size: 24px;
     line-height: 28px;
@@ -557,7 +561,7 @@
   }
 
   .sub-service .breadcrump {
-    margin-top: 30px;
+    bottom: 29px;
   }
 
   .sub-service .hero {
@@ -1047,6 +1051,26 @@
     margin-bottom: 30px;
   }
 
+  .blog-hero {
+    margin-top: 80px;
+  }
+
+  .about-us-hero-content{
+    padding-top: 150px;
+  }
+
+  .blog-page-container {
+    padding-top: 80px;
+  }
+  
+  .case-study-hero {
+    padding-top: 80px;
+  }
+
+  .loader-number {
+    margin-top: 11px 
+  }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -1064,6 +1088,7 @@
 
   .industries .hero{
     height: fit-content;
+    margin-top: 86px;
     margin-bottom: 0px;
   }
 
@@ -1077,6 +1102,8 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
+
 
   .industries-hero-content .section-heading{
     text-align: center;
@@ -1582,7 +1609,7 @@
 
   .blog-hero{
     /* padding-left: 30px; */
-    /* padding-bottom: 50px; */
+    padding-bottom: 55px;
   }
 
   .blogs-hero-content{
@@ -2090,6 +2117,7 @@
 
   .sub-service .breadcrump{
     margin-left: 40px;
+    padding-right: 40px;
   }
 
   .products .hero{
@@ -2328,6 +2356,14 @@
 
 }
 
+@media screen and (max-width: 450px) {
+  .sub-service .breadcrump{
+    bottom: 21px;
+  }
+}
+
+
+
 @media screen and (max-width: 400px) {
   .search-list-item{
     display: none;
@@ -2348,5 +2384,27 @@
 
   .journey-carousel-section {
     width: 80.6vw;
+  }
+
+  .sub-service .breadcrump{
+    bottom: 30px;
+  }
+
+  .hero {
+    margin-top: 69px;
+  }
+
+  .blog-hero {
+    margin-top: 70px;
+  }
+   
+  .case-study-hero {
+    padding-top: 70px;
+  }
+}
+
+@media screen and (max-width: 341px) {
+  .sub-service .breadcrump {
+    bottom: 21px;
   }
 }

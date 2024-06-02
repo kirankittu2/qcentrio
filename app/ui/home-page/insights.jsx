@@ -16,10 +16,21 @@ export default function Insignts({ title, subheading }) {
   const blogs = getAllBlogs();
 
   useEffect(() => {
+    const screenWidth = window.innerWidth;
+
+    let observeCount;
+    if (screenWidth <= 520) {
+      observeCount = 1;
+    } else if (screenWidth <= 1279) {
+      observeCount = 2;
+    } else {
+      observeCount = 3;
+    }
+
     wrapper.current
       .querySelectorAll('.card[data-option="card-up"]')
       .forEach((element, index) => {
-        if (index >= 3) {
+        if (index >= observeCount) {
           element.classList.add("slideup");
         }
       });
@@ -43,8 +54,11 @@ export default function Insignts({ title, subheading }) {
           }
         });
       }, options);
+
       wrapper.current
-        .querySelectorAll('.card[data-option="card-up"]:nth-child(-n+3)')
+        .querySelectorAll(
+          '.card[data-option="card-up"]:nth-child(-n+' + observeCount + ")"
+        )
         .forEach((element) => {
           observer.observe(element);
         });
