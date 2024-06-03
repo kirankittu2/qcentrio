@@ -5,7 +5,7 @@
 }
 
 @media screen and (max-width: 1860px) {
-  .success-path-section .success-path-category-container{
+  .success-path-section .success-path-category-container, .about-us-why-qcentrio-section .success-path-category-container{
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
@@ -121,7 +121,7 @@
   }
 
   .horizontal-scroll {
-    gap: 80px;
+    /* gap: 80px; */
     animation: scroll 30s linear infinite;
   }
 
@@ -135,6 +135,14 @@
     flex-direction: column;
   }
 
+  .products-form-wrapper .contact-column input{
+    width: 100%;
+  }
+
+  .products-modal .purpose-input-dropdown{
+    width: 100%;
+  }
+
   .products-form-wrapper .contact-sub-heading{
     width: 80%;
   }
@@ -145,7 +153,7 @@
 
   
   .company-list-image-container{
-    /* width: 200px; */
+    width: 140px;
   }
 
   .search-bar-container input{
@@ -1181,7 +1189,7 @@
     margin-bottom: 30px;
   }
 
-  .success-path-section .success-path-category-container{
+  .success-path-section .success-path-category-container, .about-us-why-qcentrio-section .success-path-category-container{
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -1859,6 +1867,8 @@
 
   .hero{
     padding-bottom: 20px;
+      background: transparent linear-gradient(119deg, #00aa72 0%, #0a3815 100%) 0%
+    0% no-repeat padding-box;
   }
 
   .careers .hero{
@@ -2177,6 +2187,7 @@
 
   .hero-content{
     margin-left: 40px;
+    padding-right: 40px;
   }
 
   .lets-talk-container{
@@ -2223,7 +2234,7 @@
     padding-right: 40px;
   }
 
-  .success-path-section .success-path-category-container{
+  .success-path-section .success-path-category-container, .about-us-why-qcentrio-section .success-path-category-container{
     grid-template-columns: 1fr;
   }
 

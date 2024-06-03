@@ -88,9 +88,8 @@ html {
 
 
 video {
-  opacity: 0.7;
-  /* height: clamp(419px, 32.8vw, 630px); */
-  /* height: 32.8vw; */
+  opacity: 1;
+  filter: brightness(0.7);
 }
 
 .blog-page-hero {
@@ -771,34 +770,11 @@ header {
   align-items: center;
 }
 
-/* .cursor.is-moving {
-  transform: scale(0.4);
-} */
 
 /* Hero section styles */
 .hero {
-  /* padding-left: clamp(5px, 7.81vw, 140px); */
-  /* padding-bottom: clamp(5px, 7.81vw, 140px); */
-  /* background-color: var(--primary-color); */
-  /* position: relative; */
-  background: transparent linear-gradient(113deg, #00aa72 0%, #000000 100%) 0%
-    0% no-repeat padding-box;
-  background-size: 200% 200%;
-  animation: gradient 10s ease infinite;
   overflow-x: clip;
   margin-top: 5.2083333vw;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
 
 
@@ -1023,7 +999,7 @@ header {
 }
 
 .company-list-image-container{
-  width: 150px;
+  width: 7.8125vw;
   height: 100%;
   position: relative;
   display: flex;
@@ -1716,6 +1692,11 @@ header {
   font-size: 1rem;
   border: 2px solid #0a996a2e;
   border-radius: 12px;
+}
+
+.products-modal .contact-column input{
+  flex: unset;
+  width: 50%;
 }
 
 .contact-section textarea {
@@ -3956,6 +3937,11 @@ td {
   font-family: "Quadran-Medium";
 }
 
+.products-modal .purpose-input-dropdown{
+  /* flex: 1; */
+  width: 50%;
+}
+
 .search-dropdown .chevron::before {
   border-color: var(--primary-color);
 }
@@ -4679,7 +4665,7 @@ td {
   gap: clamp(20px, 1.6vw, 30px);
 }
 
-.success-path-section .success-path-category-container{
+.success-path-section .success-path-category-container, .about-us-why-qcentrio-section .success-path-category-container{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
@@ -4711,6 +4697,10 @@ td {
   gap: 30px;
   border-bottom: 1px solid #f3f1f1;
   position: relative;
+}
+
+.service-listing-heading-section canvas{
+  margin-top: -2.6041vw;
 }
 
 .service-listing-heading-section > div {
