@@ -20,7 +20,6 @@ import logo10 from "@/public/products/10.png";
 import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
-import Link from "next/link";
 import CountryScroll from "@/app/ui/global/country-scroll";
 import ProductsModal from "@/app/ui/products/products-modal";
 

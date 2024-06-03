@@ -55,7 +55,7 @@ function ProductsContactModal({ scrollPosition, setModalOpen }) {
   const [dropdown, setDropdown] = useState(false);
   const [clicked, setClicked] = useState(false);
   const [error, setError] = useState(true);
-  const [searchTermDropdown, setSearchTermDropdown] = useState("Purpose");
+  const [searchTermDropdown, setSearchTermDropdown] = useState("Product");
   const [submitting, setSubmitting] = useState(true);
   const router = useRouter();
 
@@ -130,7 +130,15 @@ function ProductsContactModal({ scrollPosition, setModalOpen }) {
               required
             />
           </div>
-          <div className="contact-column z-10">
+          <div className="contact-column">
+            <input
+              data-option="up"
+              name="email"
+              type="email"
+              placeholder="Email Address"
+              required
+            />
+
             <div
               onClick={() => {
                 setDropdown(!dropdown);
@@ -238,22 +246,6 @@ function ProductsContactModal({ scrollPosition, setModalOpen }) {
                 </div>
               )}
             </div>
-          </div>
-          <div className="contact-column">
-            <input
-              data-option="up"
-              name="email"
-              type="email"
-              placeholder="Email Address"
-              required
-            />
-
-            <input
-              data-option="up"
-              name="contact"
-              type="text"
-              placeholder="Contact Number"
-            />
           </div>
           <textarea
             data-option="up"

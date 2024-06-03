@@ -21,28 +21,28 @@ export default function AboutUSWhyQucentrio() {
       <div className="success-path-category-container">
         <Card
           image={image1}
-          title="Flexible Team"
-          content="A flexible and agile cloud team that can ramp up and down as needed."
+          title="People-First Approach"
+          content="Our company places great emphasis on nurturing talent and upholding substantial employee retention rates."
         />
         <Card
           image={image2}
-          title="End-to-End Execution"
-          content="A flexible and agile cloud team that can ramp up and down as needed."
+          title="Client-Centric Focus"
+          content="Our steadfast commitment to quality and client trust is mirrored in our unblemished 100% referenceability rate."
         />
         <Card
           image={image3}
-          title="Repeatable"
-          content="A flexible and agile cloud team that can ramp up and down as needed."
+          title="Strategic Innovation"
+          content="We lead enterprises through digital transformation with strategic foresight and expertise."
         />
         <Card
           image={image4}
-          title="Innovation"
-          content="A flexible and agile cloud team that can ramp up and down as needed."
+          title="Diverse Expertise"
+          content="Our team excels in managing complex projects and delivering sophisticated technology-based solutions."
         />
         <Card
           image={image5}
-          title="Flexible team"
-          content="A flexible and agile cloud team that can ramp up and down as needed."
+          title="Employee Satisfaction"
+          content="We pride ourselves on our high employee retention rate and focus on talent development."
         />
       </div>
     </div>

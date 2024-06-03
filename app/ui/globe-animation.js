@@ -34,21 +34,18 @@ export default function GlobeAnimation() {
       height: height * 2,
       phi: 0,
       theta: 0,
-      dark: 1,
+      dark: 0,
       diffuse: 1.2,
       mapSamples: 16000,
-      mapBrightness: 100,
-      baseColor: [0.031, 0.592, 0.408],
+      mapBrightness: 1000,
+      baseColor: [9.57, 9.57, 9.57],
       markerColor: [0, 0, 0],
-      glowColor: [0.8, 0.8, 0.8],
+      glowColor: [0.9, 0.9, 0.9],
       markers: [
-        // longitude latitude
-        { location: [37.7595, -122.4367], size: 0.03 },
-        { location: [40.7128, -74.006], size: 0.1 },
+        { location: [37.7595, -122.4367], size: 0 },
+        { location: [40.7128, -74.006], size: 0 },
       ],
       onRender: (state) => {
-        // Called on every animation frame.
-        // `state` will be an empty object, return updated params.
         state.phi = phi;
         phi += 0.01;
       },

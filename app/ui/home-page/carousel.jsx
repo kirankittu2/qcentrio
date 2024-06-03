@@ -189,7 +189,7 @@ export default function Carousel() {
             <video
               width="1920"
               height="630"
-              src="/videos/video1.mp4"
+              src="/sequence-1.mp4"
               autoPlay
               loop
               muted
@@ -236,7 +236,7 @@ export default function Carousel() {
           onMouseLeave={() => isActive(false)}>
           <div>
             <video
-              src="/videos/video2.mp4"
+              src="/sequence-2.mp4"
               autoPlay
               loop
               muted
@@ -284,7 +284,7 @@ export default function Carousel() {
           <div>
             {/* <Img className="slide-image" src={herobanner3} alt="" /> */}
             <video
-              src="/videos/video3.mp4"
+              src="/sequence-3.mp4"
               autoPlay
               loop
               muted
