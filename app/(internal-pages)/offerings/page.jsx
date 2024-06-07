@@ -17,6 +17,7 @@ import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import OfferingGlobeAnimation from "@/app/ui/global/globe-animation";
 import Link from "next/link";
 import GlobeAnimation from "@/app/ui/globe-animation";
+import CountryScroll from "@/app/ui/global/country-scroll";
 
 export const metadata = {
   title: "Delivering Innovative Solutions to Help Businesses Grow – Qcentrio",
@@ -35,6 +36,7 @@ export default function ServicesListing() {
         <AllServices />
       </div>
       <BusinessTodaySection />
+      <CountryScroll />
       <Footer />
       <CopyrightBar />
     </div>

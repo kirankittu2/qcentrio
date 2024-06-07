@@ -10,6 +10,7 @@ import InsigntsNoCaro from "@/app/ui/global/insights-no-caro";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import { getServicePageData, getSubServicePageContent } from "@/app/lib/data";
 import Link from "next/link";
+import CountryScroll from "@/app/ui/global/country-scroll";
 
 export async function generateMetadata({ params }) {
   const data = getSubServicePageContent(params.slug, params.sub);
@@ -57,7 +58,7 @@ export default function Services({ params }) {
           subheading={data.contact.subheading}
         />
       </div>
-
+      <CountryScroll />
       <Footer />
       <CopyrightBar />
     </>

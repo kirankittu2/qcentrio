@@ -1,6 +1,7 @@
 import { getSubServicePageContent } from "@/app/lib/data";
 import Button from "@/app/ui/global/button";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
+import CountryScroll from "@/app/ui/global/country-scroll";
 import Footer from "@/app/ui/global/footer";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import SubAccordianOfferings from "@/app/ui/global/sub-accordian-offerings";
@@ -40,6 +41,7 @@ export default function SubService({ params }) {
       <div id="get-started">
         <SubServiceContact heading={data.contactHead} />
       </div>
+      <CountryScroll />
       <Footer />
       <CopyrightBar />
     </div>

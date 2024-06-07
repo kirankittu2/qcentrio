@@ -64,12 +64,12 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 12px;
-  margin-top: 0.208vw;
+  font-size: 0.625VW;
+  margin-top: 0.808vw;
 }
 
 .loader .el{
-  height: 2.34375vw;
+  height: 3.34375vw;
 }
 
 .loader .coming-soon-wrapper{
@@ -890,7 +890,7 @@ header {
   align-items: center;
   gap: 5px;
   position: absolute;
-  bottom: 5.1vw;
+  top: 5.1vw;
   left: 14.58vw;
   font-size: 1.125rem;
   color: rgba(255, 255, 255, 0.4);

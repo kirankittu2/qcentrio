@@ -3,6 +3,7 @@ import AllBlogs from "@/app/ui/blogs/allblogs";
 import BlogHero from "@/app/ui/blogs/blog-hero";
 import Contact from "@/app/ui/global/contact";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
+import CountryScroll from "@/app/ui/global/country-scroll";
 import Footer from "@/app/ui/global/footer";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 
@@ -42,6 +43,7 @@ export default async function Blogs({ searchParams }) {
         heading="Experience the Qcentrio Difference"
         subheading="Let us empower you to win, grow, and lead in the digital age with our leading-edge services, solutions, and strategic innovation."
       />
+      <CountryScroll />
       <Footer />
       <CopyrightBar />
     </>

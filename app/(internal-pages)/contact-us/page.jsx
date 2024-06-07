@@ -15,6 +15,7 @@ import settings from "@/public/settings.svg";
 import strategy from "@/public/strategy.svg";
 import support from "@/public/support.svg";
 import cloud from "@/public/cloud.svg";
+import CountryScroll from "@/app/ui/global/country-scroll";
 
 export const metadata = {
   title:
@@ -71,6 +72,7 @@ export default function ContactUs() {
       </div>
       <ReachOut />
       <GlobalPresence />
+      <CountryScroll />
       <Footer />
       <CopyrightBar />
     </div>

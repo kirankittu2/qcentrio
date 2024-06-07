@@ -11,6 +11,7 @@ import Image from "next/image";
 import map from "@/public/map.svg";
 import people from "@/public/people.svg";
 import idea from "@/public/skilled.svg";
+import CountryScroll from "@/app/ui/global/country-scroll";
 
 export const metadata = {
   title:
@@ -47,6 +48,7 @@ export default function AboutUs() {
           </Link>
         </div>
       </div>
+      <CountryScroll />
       <Footer />
       <CopyrightBar />
     </>
