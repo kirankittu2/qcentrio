@@ -17,6 +17,7 @@ import cloud from "@/public/cloud.svg";
 import Script from "next/script";
 import { jobSearchBar } from "@/app/lib/data";
 import Jobs from "@/app/ui/careers/search";
+import CountryScroll from "@/app/ui/global/country-scroll";
 
 export const metadata = {
   title:
@@ -44,6 +45,7 @@ export default async function Careers({ searchParams }) {
       <Benefits />
       <CareerShowcase />
       <CareerContact />
+      <CountryScroll />
       <Footer />
       <CopyrightBar />
     </div>

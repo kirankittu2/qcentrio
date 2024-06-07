@@ -11,6 +11,7 @@ import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Link from "next/link";
 import TransformingSectionMobile from "@/app/ui/industries/transforming-section-mobile";
+import CountryScroll from "@/app/ui/global/country-scroll";
 
 export const metadata = {
   title: "Empowering Industries - Upgrade Your Business with Qcentrio",
@@ -46,7 +47,7 @@ export default function Industries() {
           subheading="Join forces with Qcentrio to redefine your industry. Let's collaborate to unlock growth drivers, accelerate innovation, and shape the future."
         />
       </div>
-
+      <CountryScroll />
       <Footer />
       <CopyrightBar />
     </div>
