@@ -77,7 +77,7 @@ export default function Carousel() {
       setTimeout(() => {
         items.forEach((item) => {
           item.querySelector(".hero-sub-heading").classList.add("slideup");
-          item.querySelector(".lets-talk-container").classList.add("slideup");
+          // item.querySelector(".lets-talk-container").classList.add("slideup");
         });
       }, 200);
 
@@ -93,33 +93,33 @@ export default function Carousel() {
   useEffect(() => {
     const items = wrapper.current.querySelectorAll(".hero-slide");
 
-    // items.forEach((item) => {
-    //   item.querySelector(".hero-sub-heading").classList.remove("slideup");
-    //   item.querySelector(".lets-talk-container").classList.remove("slideup");
-    // });
+    items.forEach((item) => {
+      item.querySelector(".hero-sub-heading").classList.remove("slideup");
+      // item.querySelector(".lets-talk-container").classList.remove("slideup");
+    });
 
-    // setTimeout(() => {
-    //   items.forEach((item) => {
-    //     item.querySelector(".hero-sub-heading").classList.add("slideup");
-    //     item.querySelector(".lets-talk-container").classList.add("slideup");
-    //   });
-    // }, 200);
+    setTimeout(() => {
+      items.forEach((item) => {
+        item.querySelector(".hero-sub-heading").classList.add("slideup");
+        // item.querySelector(".lets-talk-container").classList.add("slideup");
+      });
+    }, 200);
 
     if (slideItem !== "") {
       items.forEach((item) => {
         const slideIndex = item.getAttribute("data-index");
         if (slideIndex == index) {
           slideItem.classList.remove("active");
-          // const allspans = slideItem.querySelectorAll(".strip span:not(.row)");
-          // allspans.forEach((span, index) => {
-          //   span.classList.remove("letter-slide-animate");
-          // });
+          const allspans = slideItem.querySelectorAll(".strip span:not(.row)");
+          allspans.forEach((span, index) => {
+            span.classList.remove("letter-slide-animate");
+          });
 
-          // allspans.forEach((span, index) => {
-          //   setTimeout(() => {
-          //     span.classList.add("letter-slide-animate");
-          //   }, (index + 1) * 15);
-          // });
+          allspans.forEach((span, index) => {
+            setTimeout(() => {
+              span.classList.add("letter-slide-animate");
+            }, (index + 1) * 15);
+          });
           item.classList.add("active");
           wrapper.current.prepend(item);
           setItem(item);
@@ -129,20 +129,20 @@ export default function Carousel() {
     }
   }, [index, slideItem]);
 
-  useEffect(() => {
-    if (hovered == false) {
-      const items = wrapper.current.querySelectorAll(".hero-slide");
-      const intervalId = setInterval(() => {
-        setIndex((prevIndex) =>
-          prevIndex === items.length - 1 ? 0 : prevIndex + 1
-        );
-      }, 3000);
+  // useEffect(() => {
+  //   if (hovered == false) {
+  //     const items = wrapper.current.querySelectorAll(".hero-slide");
+  //     const intervalId = setInterval(() => {
+  //       setIndex((prevIndex) =>
+  //         prevIndex === items.length - 1 ? 0 : prevIndex + 1
+  //       );
+  //     }, 3000);
 
-      return () => {
-        clearInterval(intervalId);
-      };
-    }
-  }, [hovered]);
+  //     return () => {
+  //       clearInterval(intervalId);
+  //     };
+  //   }
+  // }, [hovered]);
 
   function handleRight() {
     if (index < wrapper.current.querySelectorAll(".hero-slide").length - 1) {
@@ -196,14 +196,14 @@ export default function Carousel() {
               playsInline>
               Your browser does not support the video tag.
             </video>
-            {/* <div id="hero-carousel-content" className="hero-content ">
+            <div id="hero-carousel-content" className="hero-content ">
               <h1 className="hero-heading strip">
                 PIONEERING E2E BUSINESS TRANSFORMATION
               </h1>
               <p className="hero-sub-heading">
                 Aligned with Your Business&rsquo;s Current and Future Needs
               </p>
-              <form data-index="0" onSubmit={onSubmit}>
+              {/* <form data-index="0" onSubmit={onSubmit}>
                 {!error && <p className="form-error">Error Submitting Form</p>}
                 <div className="lets-talk-container">
                   <input
@@ -225,8 +225,8 @@ export default function Carousel() {
                     />
                   </div>
                 </div>
-              </form>
-            </div> */}
+              </form> */}
+            </div>
           </div>
         </div>
         <div
@@ -242,7 +242,7 @@ export default function Carousel() {
               muted
               playsInline></video>
             {/* <Img className="slide-image" src={herobanner2} alt="" /> */}
-            {/* <div id="hero-carousel-content" className="hero-content">
+            <div id="hero-carousel-content" className="hero-content">
               <h1 className="hero-heading strip">
                 EMPOWERING GLOBAL BRANDS TO WIN, GROW AND LEAD
               </h1>
@@ -251,7 +251,7 @@ export default function Carousel() {
               </p>
               {!error && <p className="form-error">Error Submitting Form</p>}
 
-              <form data-index="1" onSubmit={onSubmit}>
+              {/* <form data-index="1" onSubmit={onSubmit}>
                 <div className="lets-talk-container">
                   <input
                     name="email"
@@ -272,8 +272,8 @@ export default function Carousel() {
                     />
                   </div>
                 </div>
-              </form>
-            </div> */}
+              </form> */}
+            </div>
           </div>
         </div>
         <div
@@ -289,13 +289,13 @@ export default function Carousel() {
               loop
               muted
               playsInline></video>
-            {/* <div id="hero-carousel-content" className="hero-content">
+            <div id="hero-carousel-content" className="hero-content">
               <h1 className="hero-heading strip">
                 TAILORED STRATEGIES FOR MARKET AND BUSINESS RESILIENCE
               </h1>
               <p className="hero-sub-heading">Commitment to Continuity</p>
               {!error && <p className="form-error">Error Submitting Form</p>}
-              <form data-index="2" onSubmit={onSubmit}>
+              {/* <form data-index="2" onSubmit={onSubmit}>
                 <div className="lets-talk-container">
                   <input
                     name="email"
@@ -316,8 +316,8 @@ export default function Carousel() {
                     />
                   </div>
                 </div>
-              </form>
-            </div> */}
+              </form> */}
+            </div>
           </div>
         </div>
       </div>

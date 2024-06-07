@@ -1823,6 +1823,10 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .hero-carousel-nav{
+    display: none;
+  }
+
   .transfromings-item{
     flex-direction: column;
   }
@@ -1857,11 +1861,11 @@
 
 @media screen and (max-width: 650px) {
   .hero-content{ 
-    position: unset;
-    transform: unset;
+    /* position: unset; */
+    /* transform: unset;
     margin-top: 20px;
     margin-left: 60px;
-    width: 90%;
+    width: 90%; */
   }
 
   .footer-columns-holder {
@@ -2202,8 +2206,10 @@
   }
 
   .hero-content{
-    margin-left: 40px;
+    /* margin-left: 40px; */
     padding-right: 40px;
+    left: 40px;
+    width: 80%;
   }
 
   .lets-talk-container{
@@ -2373,6 +2379,19 @@
     margin-left: unset;
     margin-top: 30px;
   }
+
+  .hero-sub-heading{
+    line-height: 18px;
+  }
+
+  .hero-content{
+    position: unset;
+    transform: unset;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 520px) {
@@ -2434,6 +2453,12 @@
    
   .case-study-hero {
     padding-top: 70px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .hero-content{
+    padding-bottom: 0px;
   }
 }
 
