@@ -3878,6 +3878,9 @@ td {
 .search-page {
   padding-bottom: 1px;
   padding-top: 1px;
+  background: transparent linear-gradient(110deg, #00aa72 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
 }
 
 .search-bar-container {

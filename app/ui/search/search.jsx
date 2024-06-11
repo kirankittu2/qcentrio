@@ -73,7 +73,7 @@ export default function Search({ item }) {
                   setSearchTermDropdown(e.target.textContent);
                 }}
                 className="search-dropdown-item">
-                Remote
+                Perspectives
               </div>
               <div
                 onClick={(e) => {
@@ -81,7 +81,7 @@ export default function Search({ item }) {
                   setSearchTermDropdown(e.target.textContent);
                 }}
                 className="search-dropdown-item">
-                On Site
+                Offerings
               </div>
               <div
                 onClick={(e) => {
