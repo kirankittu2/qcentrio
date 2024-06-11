@@ -151,6 +151,10 @@
     width: 450px;
   }
 
+  .services-hero-content{
+    bottom: 30px;
+  }
+
   
   .company-list-image-container{
     width: 140px;
@@ -2408,6 +2412,13 @@
 @media screen and (max-width: 450px) {
   .sub-service .breadcrump{
     bottom: 21px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .services-hero h1{
+    font-size: 20px;
+    line-height: 24px;
   }
 }
 

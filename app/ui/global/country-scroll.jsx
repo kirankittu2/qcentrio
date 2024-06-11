@@ -39,6 +39,7 @@ export default function CountryScroll() {
       );
       if (countryScrollContainer) {
         const { top } = countryScrollContainer.getBoundingClientRect();
+        console.log(top);
         setScrollOffset(top / 2);
       }
     };
@@ -69,16 +70,16 @@ export default function CountryScroll() {
 
       <div
         className="country-scroll-list-2"
-        style={{ transform: `translateX(calc(-50% + ${scrollOffset}px)` }}>
+        style={{ transform: `translateX(calc(-150% + ${scrollOffset}px)` }}>
         <div>Singapore {timeData.Singapore}</div>
         <div>United Kingdom {timeData["United Kingdom"]}</div>
-        <div>Switzerland {timeData.Switzerland}</div>
+        <div>India {timeData.India}</div>
         <div>USA {timeData.USA}</div>
         <div>Australia {timeData.Australia}</div>
-        <div>India {timeData.India}</div>
+        <div>Switzerland {timeData.Switzerland}</div>
         <div>Singapore {timeData.Singapore}</div>
         <div>United Kingdom {timeData["United Kingdom"]}</div>
-        <div>Switzerland {timeData.Switzerland}</div>
+        <div>USA {timeData.USA}</div>
       </div>
     </div>
   );
