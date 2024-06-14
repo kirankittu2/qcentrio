@@ -13,6 +13,7 @@ import cookieImage from "@/public/cookie.svg";
 import { checkCookie } from "./lib/utils";
 import MobileMenu from "./ui/global/mobile-menu";
 import PageLoader from "./ui/page-loader";
+import { GoogleTagManager } from "@next/third-parties/google";
 const Cursor = dynamic(() => import("./ui/global/cursor"), { ssr: false });
 
 export default async function RootLayout({ children }) {
@@ -41,6 +42,7 @@ export default async function RootLayout({ children }) {
           sizes="16x16"
           href="/favicon/favicon-16x16.png"></link>
       </head>
+      <GoogleTagManager gtmId="G-ML28Z8QK7R" />
       <body>
         {children}
         {consent && (
