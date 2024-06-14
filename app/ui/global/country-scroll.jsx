@@ -39,7 +39,6 @@ export default function CountryScroll() {
       );
       if (countryScrollContainer) {
         const { top } = countryScrollContainer.getBoundingClientRect();
-        console.log(top);
         setScrollOffset(top / 2);
       }
     };

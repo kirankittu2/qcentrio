@@ -16,7 +16,6 @@ export default function GlobeAnimation() {
     const updateCanvasSize = () => {
       const viewWidthTemp = (600 / 1920) * 100;
       const pixels = vwToPixels(viewWidthTemp);
-      console.log(pixels);
       setWidth(pixels);
       setHeight(pixels);
     };

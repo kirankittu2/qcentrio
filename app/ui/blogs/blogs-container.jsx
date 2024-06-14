@@ -34,7 +34,6 @@ export default function BlogsConatiner({ data, searchParams }) {
 
     observeElements(".card", "slideup");
   }, [searchParams]);
-  console.log(data);
   return (
     <div ref={wrapper} className="blogs-container">
       {data.children == null ||
