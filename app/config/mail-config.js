@@ -42,25 +42,25 @@ import nodemailer from "nodemailer";
 //   },
 // });
 
-// const transporter = nodemailer.createTransport({
-//   host: "smtp.gmail.com",
-//   port: 465,
-//   secure: true,
-//   auth: {
-//     user: "qcentrio@gmail.com",
-//     pass: `rnoq tndw qnpb pxnv`,
-//   },
-// });
-
 const transporter = nodemailer.createTransport({
-  host: "mail.qcentrio.com",
+  host: "smtp.gmail.com",
   port: 465,
   secure: true,
   auth: {
-    user: "qcadmin",
-    pass: `Dj"Hi4PaJt9Kt_^`,
+    user: "qcentrio@gmail.com",
+    pass: `rnoq tndw qnpb pxnv`,
   },
 });
+
+// const transporter = nodemailer.createTransport({
+//   host: "mail.qcentrio.com",
+//   port: 465,
+//   secure: true,
+//   auth: {
+//     user: "qcadmin",
+//     pass: `Dj"Hi4PaJt9Kt_^`,
+//   },
+// });
 
 // const transporter = nodemailer.createTransport({
 //   host: "smtp.office365.com",
