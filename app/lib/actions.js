@@ -58,7 +58,7 @@ export async function homeslidesMail(formData) {
 
 async function handleMailFillup(data, heading, template) {
   const info = await transporter.sendMail({
-    from: "qcadmin@180.133.167.72.host.secureserver.net",
+    from: "qcentrio@gmail.com",
     to: data.email,
     subject: heading,
     html: template,
@@ -77,8 +77,8 @@ async function handleMainMailFillup(data, template) {
   const fullHTMLContent = template.replace("{{dynamicContent}}", htmlContent);
 
   const owner = await transporter.sendMail({
-    from: "qcadmin@180.133.167.72.host.secureserver.net",
-    to: "qcadmin@180.133.167.72.host.secureserver.net",
+    from: "qcentrio@gmail.com",
+    to: "qcentrio@gmail.com",
     subject: "Form Filled",
     html: fullHTMLContent,
   });
@@ -251,8 +251,8 @@ export async function careersMail(formData) {
     );
 
     const owner = await transporter.sendMail({
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: "qcadmin@180.133.167.72.host.secureserver.net",
+      from: "qcentrio@gmail.com",
+      to: "qcentrio@gmail.com",
       subject: "Form Filled",
       html: fullHTMLContent,
       attachments: [
@@ -642,7 +642,7 @@ export async function singleMail(formData) {
   const filledHtml = fillPlaceholders(emailTemplate, emailData);
 
   await transporter.sendMail({
-    from: "qcadmin@180.133.167.72.host.secureserver.net",
+    from: "qcentrio@gmail.com",
     to: parsedData.email,
     subject: "Qcentrio: We’re Upgrading!",
     html: filledHtml,
@@ -661,8 +661,8 @@ export async function singleMail(formData) {
   );
 
   await transporter.sendMail({
-    from: "qcadmin@180.133.167.72.host.secureserver.net",
-    to: "qcadmin@180.133.167.72.host.secureserver.net",
+    from: "qcentrio@gmail.com",
+    to: "qcentrio@gmail.com",
     subject: "Coming soon page",
     html: fullHTMLContent,
   });
@@ -825,7 +825,7 @@ export async function caseStudyMail(formData) {
     }
 
     const info = await transporter.sendMail({
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
+      from: "qcentrio@gmail.com",
       to: parsedData.email,
       subject: subject,
       html: emailTemplate,
@@ -853,8 +853,8 @@ export async function caseStudyMail(formData) {
     );
 
     const owner = await transporter.sendMail({
-      from: "qcadmin@180.133.167.72.host.secureserver.net",
-      to: "qcadmin@180.133.167.72.host.secureserver.net",
+      from: "qcentrio@gmail.com",
+      to: "qcentrio@gmail.com",
       subject: "Form Filled",
       html: fullHTMLContent,
     });
