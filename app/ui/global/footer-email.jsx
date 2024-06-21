@@ -21,12 +21,13 @@ export default function FooterEmail() {
       setSubmitting(false);
       grecaptcha.ready(function () {
         grecaptcha
-          .execute("6LdTKMUpAAAAAOUf_fNbftCXwdXc5KLdgZov7P74", {
+          .execute("6LeHIP4pAAAAAFlkwmI4z7K9FZG21vtJ7-aiWlt0", {
             action: "submit",
           })
           .then(async function (token) {
             formData.append("g-recaptcha-response", token);
             const response = await footerMail(formData);
+            console.log(response);
             setSubmitting(response.success);
             setError(response.success);
             if (response.success) {

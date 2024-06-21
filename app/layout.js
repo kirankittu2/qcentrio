@@ -14,6 +14,7 @@ import { checkCookie } from "./lib/utils";
 import MobileMenu from "./ui/global/mobile-menu";
 import PageLoader from "./ui/page-loader";
 import { GoogleTagManager } from "@next/third-parties/google";
+
 const Cursor = dynamic(() => import("./ui/global/cursor"), { ssr: false });
 
 export default async function RootLayout({ children }) {
@@ -55,7 +56,7 @@ export default async function RootLayout({ children }) {
         <MobileMenu />
         <CookieConsent />
         <Cursor />
-        <Script src="https://www.google.com/recaptcha/api.js?render=6LdTKMUpAAAAAOUf_fNbftCXwdXc5KLdgZov7P74"></Script>
+        <Script src="https://www.google.com/recaptcha/api.js?render=6LeHIP4pAAAAAFlkwmI4z7K9FZG21vtJ7-aiWlt0"></Script>
       </body>
     </html>
   );

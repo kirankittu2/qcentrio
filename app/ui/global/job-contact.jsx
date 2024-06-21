@@ -25,7 +25,7 @@ export default function JobContact({ heading, subheading }) {
     setSubmitting(false);
     grecaptcha.ready(function () {
       grecaptcha
-        .execute("6LdTKMUpAAAAAOUf_fNbftCXwdXc5KLdgZov7P74", {
+        .execute("6LeHIP4pAAAAAFlkwmI4z7K9FZG21vtJ7-aiWlt0", {
           action: "submit",
         })
         .then(async function (token) {
