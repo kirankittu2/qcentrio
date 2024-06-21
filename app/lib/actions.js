@@ -10,7 +10,7 @@ import path from "path";
 // Home page hero section slide emails
 export async function homeslidesMail(formData) {
   const token = formData.get("g-recaptcha-response");
-  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const secretKey = "6LeHIP4pAAAAAB_9PA5TZca5isaJkIVUkCvDKxrL";
   const response = await fetch(
     `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
     {
@@ -93,7 +93,7 @@ function capitalizeFirstLetter(string) {
 // Contact page email
 export async function contactMail(formData) {
   const token = formData.get("g-recaptcha-response");
-  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const secretKey = "6LeHIP4pAAAAAB_9PA5TZca5isaJkIVUkCvDKxrL";
   const response = await fetch(
     `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
     {
@@ -170,7 +170,7 @@ export async function contactMail(formData) {
 
 export async function careersMail(formData) {
   const token = formData.get("g-recaptcha-response");
-  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const secretKey = "6LeHIP4pAAAAAB_9PA5TZca5isaJkIVUkCvDKxrL";
   const response = await fetch(
     `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
     {
@@ -274,7 +274,7 @@ export async function careersMail(formData) {
 // Contact us page main mail
 export async function contactusMaimMail(formData) {
   const token = formData.get("g-recaptcha-response");
-  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const secretKey = "6LeHIP4pAAAAAB_9PA5TZca5isaJkIVUkCvDKxrL";
   const response = await fetch(
     `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
     {
@@ -351,7 +351,7 @@ export async function contactusMaimMail(formData) {
 
 export async function productsModalData(formData) {
   const token = formData.get("g-recaptcha-response");
-  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const secretKey = "6LeHIP4pAAAAAB_9PA5TZca5isaJkIVUkCvDKxrL";
   const response = await fetch(
     `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
     {
@@ -429,7 +429,7 @@ export async function productsModalData(formData) {
 // Contact us reach out mail
 export async function contactUsReactOutMail(formData) {
   const token = formData.get("g-recaptcha-response");
-  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const secretKey = "6LeHIP4pAAAAAB_9PA5TZca5isaJkIVUkCvDKxrL";
   const response = await fetch(
     `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
     {
@@ -486,7 +486,6 @@ export async function footerMail(formData) {
     }
   );
   const recaptchDataScore = await response.json();
-  console.log(recaptchDataScore);
   if (recaptchDataScore.score >= 0.5) {
     const email = formData.get("email");
 
@@ -509,12 +508,10 @@ export async function footerMail(formData) {
       "Stay ahead of the curve with our monthly insights!",
       emailTemplate
     );
-    console.log(info);
 
     const emailTemplate2 = fs.readFileSync("app/email/main.html", "utf8");
 
     const owner = await handleMainMailFillup(parsedData, emailTemplate2);
-    console.log(owner);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
       return { success: true, message: "Mail sent successfully" };
@@ -529,7 +526,7 @@ export async function footerMail(formData) {
 // Need something email
 export async function needSomethingMail(formData) {
   const token = formData.get("g-recaptcha-response");
-  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const secretKey = "6LeHIP4pAAAAAB_9PA5TZca5isaJkIVUkCvDKxrL";
   const response = await fetch(
     `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
     {
@@ -676,7 +673,7 @@ export async function singleMail(formData) {
 // Insights email
 export async function insightsMail(formData) {
   const token = formData.get("g-recaptcha-response");
-  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const secretKey = "6LeHIP4pAAAAAB_9PA5TZca5isaJkIVUkCvDKxrL";
   const response = await fetch(
     `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
     {
@@ -725,7 +722,7 @@ export async function insightsMail(formData) {
 // Case study email
 export async function caseStudyMail(formData) {
   const token = formData.get("g-recaptcha-response");
-  const secretKey = "6LdTKMUpAAAAALkJxsSMgqRGpUnfFvQec0W4vZLu";
+  const secretKey = "6LeHIP4pAAAAAB_9PA5TZca5isaJkIVUkCvDKxrL";
   const response = await fetch(
     `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
     {

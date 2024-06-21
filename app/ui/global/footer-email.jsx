@@ -27,7 +27,6 @@ export default function FooterEmail() {
           .then(async function (token) {
             formData.append("g-recaptcha-response", token);
             const response = await footerMail(formData);
-            console.log(response);
             setSubmitting(response.success);
             setError(response.success);
             if (response.success) {
