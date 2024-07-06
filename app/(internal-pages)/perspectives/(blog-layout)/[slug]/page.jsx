@@ -4,6 +4,17 @@ import TableOfContent from "@/app/ui/blogs/table-of-content";
 import Image from "next/image";
 import { fetchSingleBlog } from "@/app/lib/server-data";
 
+export async function generateMetadata({ params }) {
+  const slug = params.slug;
+  const data = JSON.parse(await fetchSingleBlog(slug))[0];
+  const content = JSON.parse(data.content);
+
+  return {
+    title: content["meta-title"],
+    description: "",
+  };
+}
+
 export default async function Perspective({ params }) {
   const slug = params.slug;
   const data = JSON.parse(await fetchSingleBlog(slug))[0];

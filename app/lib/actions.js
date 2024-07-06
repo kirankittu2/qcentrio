@@ -173,7 +173,6 @@ export async function contactMail(formData) {
           parsedData.phone,
           parsedData.message,
         ]);
-        console.log(results);
       } catch (e) {
         console.log(e);
         return { success: false, message: "Error Occured" };
@@ -291,7 +290,6 @@ export async function careersMail(formData) {
           parsedData.email,
           parsedData.message,
         ]);
-        console.log(results);
       } catch (e) {
         console.log(e);
         return { success: false, message: "Error Occured" };
@@ -386,7 +384,6 @@ export async function contactusMaimMail(formData) {
           parsedData.phone,
           parsedData.message,
         ]);
-        console.log(results);
       } catch (e) {
         console.log(e);
         return { success: false, message: "Error Occured" };
@@ -520,7 +517,6 @@ export async function contactUsReactOutMail(formData) {
       try {
         const query = "INSERT INTO form_data (id,  email) VALUES (?, ?)";
         const results = await queryAsync(query, ["8", parsedData.email]);
-        console.log(results);
       } catch (e) {
         console.log(e);
         return { success: false, message: "Error Occured" };
@@ -574,7 +570,6 @@ export async function footerMail(formData) {
       try {
         const query = "INSERT INTO form_data (id,  email) VALUES (?, ?)";
         const results = await queryAsync(query, ["3", parsedData.email]);
-        console.log(results);
       } catch (e) {
         console.log(e);
         return { success: false, message: "Error Occured" };
@@ -667,7 +662,6 @@ export async function needSomethingMail(formData) {
           parsedData.phone,
           parsedData.message,
         ]);
-        console.log(results);
       } catch (e) {
         console.log(e);
         return { success: false, message: "Error Occured" };
@@ -796,7 +790,6 @@ export async function insightsMail(formData) {
       try {
         const query = "INSERT INTO form_data (id, email) VALUES (?, ?)";
         const results = await queryAsync(query, ["4", parsedData.email]);
-        console.log(results);
       } catch (e) {
         console.log(e);
         return { success: false, message: "Error Occured" };
@@ -954,7 +947,6 @@ export async function caseStudyMail(formData) {
       try {
         const query = "INSERT INTO form_data (id, email) VALUES (?, ?)";
         const results = await queryAsync(query, ["5", parsedData.email]);
-        console.log(results);
       } catch (e) {
         console.log(e);
         return { success: false, message: "Error Occured" };
