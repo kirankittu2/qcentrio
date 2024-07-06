@@ -230,6 +230,8 @@ export default async function Home() {
 
   const blogs = await fetchBlogs();
   const studies = await fetchCaseStudies();
+  console.log("blogs");
+  console.log(blogs);
 
   return (
     <>

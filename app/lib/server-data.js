@@ -1,6 +1,6 @@
 "use server";
 
-import connection from "./db";
+import pool, { closeConnection, createConnection } from "./db";
 
 export async function fetchBlogs() {
   try {
@@ -86,14 +86,11 @@ export async function insightSearch(type, item, page) {
   }
 }
 
-export async function queryAsync(sqlQuery, values = "") {
-  return new Promise((resolve, reject) => {
-    connection.query(sqlQuery, values, (error, results) => {
-      if (error) {
-        reject(error);
-      } else {
-        resolve(results);
-      }
-    });
-  });
+export async function queryAsync(sqlQuery, values = []) {
+  try {
+    const [rows, fields] = await pool.query(sqlQuery, values);
+    return rows;
+  } catch (error) {
+    throw error;
+  }
 }
