@@ -6,7 +6,6 @@ import Link from "next/link";
 import { useEffect, useRef } from "react";
 
 export default function BlogsConatiner({ data, searchParams }) {
-  console.log(searchParams);
   const wrapper = useRef(null);
 
   useEffect(() => {

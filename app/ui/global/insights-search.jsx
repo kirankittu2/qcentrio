@@ -7,7 +7,6 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function InsightsSearchBar({ searchParam }) {
-  console.log(searchParam);
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { replace } = useRouter();
