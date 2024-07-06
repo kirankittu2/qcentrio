@@ -68,21 +68,35 @@
   padding: 30px;
 }
 
-.case-study-toogle-content .section-heading{
+.case-study-toogle-content .dynamic-data h2{
+  font-family: "Quadran-Bold";
+  font-size: 1.875rem;
+  line-height: 2.125rem;
+  letter-spacing: -1px;
   opacity: 0;
   transform: translateY(70px);
   transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
   margin-bottom: 20px;
 }
 
-.case-study-solution-content-container .section-heading{
+.case-study-solution-content-container .dynamic-data h2{
   opacity: 0;
   transform: translateY(70px);
   transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
   margin-bottom: 20px;
+  font-family: "Quadran-Bold";
+  font-size: 1.875rem;
+  line-height: 2.125rem;
+  letter-spacing: -1px;
 }
 
-.case-study-toogle-content > ul > li, .case-study-solution-row-1-column-1 ul > li, .case-study-solution-row-1-column-1 > p, .case-study-toogle-content > p{
+.case-study-toogle-content .dynamic-data ul > li, .case-study-solution-row-1-column-1 ul > li, .case-study-solution-row-1-column-1 .dynamic-data > p, .case-study-toogle-content .dynamic-data > p{
+  opacity: 0;
+  transform: translateY(70px);
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
+}
+
+.impact .dynamic-data  ul > li{
   opacity: 0;
   transform: translateY(70px);
   transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
@@ -201,6 +215,12 @@
 }
 
 .case-study-solution-content-container .impact > h2{
+  opacity: 0;
+  transform: translateY(70px);
+  transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
+}
+
+.case-study-solution-content-container .impact .dynamic-data  p{
   opacity: 0;
   transform: translateY(70px);
   transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);

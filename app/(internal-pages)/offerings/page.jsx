@@ -14,7 +14,6 @@ import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
 import Path5 from "@/app/ui/global/path-5";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
-import OfferingGlobeAnimation from "@/app/ui/global/globe-animation";
 import Link from "next/link";
 import GlobeAnimation from "@/app/ui/globe-animation";
 import CountryScroll from "@/app/ui/global/country-scroll";
@@ -46,15 +45,7 @@ export default function ServicesListing() {
 function ServiceListingHeadSection() {
   return (
     <div className="balance-section service-listing-heading-section">
-      {/* <Image
-          data-option="left"
-          className="globe-image hidden-left animate"
-          src={globe}
-          alt=""
-        /> */}
-      {/* <OfferingGlobeAnimation /> */}
       <GlobeAnimation />
-
       <div>
         <h1 className="heading1">OUR SERVICES</h1>
         <h2

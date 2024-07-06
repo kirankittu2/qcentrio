@@ -93,7 +93,7 @@ video {
 }
 
 .blog-page-hero {
-  scroll-margin-top: 70px;
+  /* scroll-margin-top: 70px; */
 }
 
 .transfroming-section-mobile{
@@ -651,7 +651,7 @@ header {
 .menu-menu-container {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   z-index: 999;
   top: 0;
   left: 0;
@@ -1331,6 +1331,7 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
+  text-transform: uppercase;
 }
 
 .breadcrump a {
@@ -1982,6 +1983,8 @@ header {
 
 .blog-page-main-image {
   margin-bottom: 30px;
+  position: relative; 
+  height: 26.823vw; 
 }
 
 .blog-page-main-image img {
@@ -2041,18 +2044,18 @@ header {
   margin-bottom: 10px;
 }
 
-.blog-page-main-content h2 {
+.blog-page-main-content .dynamic-data > h2 {
   font-size: 2.125rem;
   font-family: "Quadran-Bold";
   margin-bottom: 10px;
   letter-spacing: -1px;
 }
 
-.blog-page-main-content > h2 {
+.blog-page-main-content .dynamic-data > h2 {
   opacity: 0;
   transform: translateY(70px);
   transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
-  scroll-margin-top: 70px;
+  scroll-margin-top: 180px;
 }
 
 .blog-page-main-content h3 {
@@ -2060,10 +2063,10 @@ header {
   font-family: "Quadran-Bold";
   letter-spacing: -0.5px;
   margin-bottom: 10px;
-  scroll-margin-top: 70px;
+  scroll-margin-top: 180px;
 }
 
-.blog-page-main-content > h3 {
+.blog-page-main-content .dynamic-data > h3 {
   opacity: 0;
   transform: translateY(70px);
   transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
@@ -2074,7 +2077,7 @@ header {
   margin-bottom: 10px;
 }
 
-.blog-page-main-content > p {
+.blog-page-main-content .dynamic-data > p {
   opacity: 0;
   transform: translateY(70px);
   transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);
@@ -2095,8 +2098,8 @@ header {
   position: relative;
 }
 
-.blog-page-main-content > ul > li,
-.blog-page-main-content > ol > li {
+.blog-page-main-content .dynamic-data > ul > li,
+.blog-page-main-content .dynamic-data > ol > li {
   opacity: 0;
   transform: translateY(70px);
   transition: all 1.2s cubic-bezier(0, 0.81, 1, 1.01);

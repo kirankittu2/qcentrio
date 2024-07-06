@@ -1,3 +1,4 @@
+import { MegaMenu } from "./mega-menu";
 import NavLinks from "./nav-links";
 
 export default function Navbar({ setServiceHovered, servicesHovered }) {

@@ -6,6 +6,7 @@ import fs from "fs";
 import zod from "zod";
 import { cookies } from "next/headers";
 import path from "path";
+import { queryAsync } from "./server-data";
 
 // Home page hero section slide emails
 export async function homeslidesMail(formData) {
@@ -161,6 +162,22 @@ export async function contactMail(formData) {
     const owner = await handleMainMailFillup(parsedData, emailTemplate2);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
+      try {
+        const query =
+          "INSERT INTO form_data (id, first_name, last_name, email_address, contact_number, message) VALUES (?, ?, ?, ?, ?, ?)";
+        const results = await queryAsync(query, [
+          "2",
+          parsedData.firstname,
+          parsedData.lastname,
+          parsedData.email,
+          parsedData.phone,
+          parsedData.message,
+        ]);
+        console.log(results);
+      } catch (e) {
+        console.log(e);
+        return { success: false, message: "Error Occured" };
+      }
       return { success: true, message: "Mail sent successfully" };
     }
   } else {
@@ -257,13 +274,28 @@ export async function careersMail(formData) {
       html: fullHTMLContent,
       attachments: [
         {
-          filename: resume.name, // Use original filename
+          filename: resume.name,
           content: fileStream,
         },
       ],
     });
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
+      try {
+        const query =
+          "INSERT INTO form_data (id, first_name, last_name, email, message) VALUES (?, ?, ?, ?, ?)";
+        const results = await queryAsync(query, [
+          "6",
+          parsedData.firstname,
+          parsedData.lastname,
+          parsedData.email,
+          parsedData.message,
+        ]);
+        console.log(results);
+      } catch (e) {
+        console.log(e);
+        return { success: false, message: "Error Occured" };
+      }
       return { success: true, message: "Mail sent successfully" };
     }
   } else {
@@ -342,6 +374,23 @@ export async function contactusMaimMail(formData) {
     const owner = await handleMainMailFillup(parsedData, emailTemplate2);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
+      try {
+        const query =
+          "INSERT INTO form_data (id, first_name, last_name, purpose, email, contact_number, message) VALUES (?, ?, ?, ?, ?, ?, ?)";
+        const results = await queryAsync(query, [
+          "7",
+          parsedData.firstname,
+          parsedData.lastname,
+          parsedData.purpose,
+          parsedData.email,
+          parsedData.phone,
+          parsedData.message,
+        ]);
+        console.log(results);
+      } catch (e) {
+        console.log(e);
+        return { success: false, message: "Error Occured" };
+      }
       return { success: true, message: "Mail sent successfully" };
     }
   } else {
@@ -468,6 +517,14 @@ export async function contactUsReactOutMail(formData) {
     const owner = await handleMainMailFillup(parsedData, emailTemplate2);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
+      try {
+        const query = "INSERT INTO form_data (id,  email) VALUES (?, ?)";
+        const results = await queryAsync(query, ["8", parsedData.email]);
+        console.log(results);
+      } catch (e) {
+        console.log(e);
+        return { success: false, message: "Error Occured" };
+      }
       return { success: true, message: "Mail sent successfully" };
     }
   } else {
@@ -514,6 +571,14 @@ export async function footerMail(formData) {
     const owner = await handleMainMailFillup(parsedData, emailTemplate2);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
+      try {
+        const query = "INSERT INTO form_data (id,  email) VALUES (?, ?)";
+        const results = await queryAsync(query, ["3", parsedData.email]);
+        console.log(results);
+      } catch (e) {
+        console.log(e);
+        return { success: false, message: "Error Occured" };
+      }
       return { success: true, message: "Mail sent successfully" };
     } else {
       return { success: false, message: "Error Occured" };
@@ -591,6 +656,22 @@ export async function needSomethingMail(formData) {
     const owner = await handleMainMailFillup(parsedData, emailTemplate2);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
+      try {
+        const query =
+          "INSERT INTO form_data (id, first_name, last_name,  email, contact_number, message) VALUES (?, ?, ?, ?, ?, ?)";
+        const results = await queryAsync(query, [
+          "9",
+          parsedData.firstname,
+          parsedData.lastname,
+          parsedData.email,
+          parsedData.phone,
+          parsedData.message,
+        ]);
+        console.log(results);
+      } catch (e) {
+        console.log(e);
+        return { success: false, message: "Error Occured" };
+      }
       return { success: true, message: "Mail sent successfully" };
     }
   } else {
@@ -712,6 +793,14 @@ export async function insightsMail(formData) {
     const owner = await handleMainMailFillup(parsedData, emailTemplate2);
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
+      try {
+        const query = "INSERT INTO form_data (id, email) VALUES (?, ?)";
+        const results = await queryAsync(query, ["4", parsedData.email]);
+        console.log(results);
+      } catch (e) {
+        console.log(e);
+        return { success: false, message: "Error Occured" };
+      }
       return { success: true, message: "Mail sent successfully" };
     }
   } else {
@@ -862,6 +951,14 @@ export async function caseStudyMail(formData) {
     });
 
     if (info.response.includes("OK") && owner.response.includes("OK")) {
+      try {
+        const query = "INSERT INTO form_data (id, email) VALUES (?, ?)";
+        const results = await queryAsync(query, ["5", parsedData.email]);
+        console.log(results);
+      } catch (e) {
+        console.log(e);
+        return { success: false, message: "Error Occured" };
+      }
       return { success: true, message: "Mail sent successfully" };
     }
   } else {

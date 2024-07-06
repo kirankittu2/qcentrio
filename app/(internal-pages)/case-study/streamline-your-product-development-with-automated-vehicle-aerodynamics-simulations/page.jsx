@@ -3,9 +3,9 @@ import CaseStudyHero from "@/app/ui/case-study/case-study-hero";
 import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
-import banner from "@/public/streamline-your-product-development-with-automated-vehicle-aerodyn/banner.png";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import ProductDevelopmentWithAutomatedVehicleAerodynamics from "@/app/ui/case-study/product-development-with-automated-vehicle-aerodynamics-case-study-toggle";
+import { fetchSingleCaseStudies } from "@/app/lib/server-data";
 
 export const metadata = {
   title:
@@ -14,10 +14,15 @@ export const metadata = {
     "Slash development time and cost! Discover how automated vehicle aerodynamic simulations can revolutionize your car design process. Download the case study to learn more.",
 };
 
-export default function CaseStudy() {
+export default async function CaseStudy() {
+  const caseStudyString = await fetchSingleCaseStudies(
+    "streamline-your-product-development-with-automated-vehicle-aerodynamics-simulations"
+  );
+  const caseStudy = JSON.parse(caseStudyString)[0];
+  const caseStudyContent = JSON.parse(caseStudy.content);
+
   const heroContent = {
-    heading:
-      "STREAMLINE YOUR PRODUCT DEVELOPMENT WITH AUTOMATED VEHICLE AERODYNAMICS SIMULATIONS ",
+    heading: caseStudy.name,
   };
 
   return (
@@ -25,12 +30,18 @@ export default function CaseStudy() {
       <div className="case-study-hero">
         <NavBarContainer />
         <div>
-          <Image src={banner} alt="" />
+          <Image
+            width={1560}
+            height={560}
+            src={caseStudy.featured_image}
+            alt=""
+          />
         </div>
         <CaseStudyHero data={heroContent} value="product" />
       </div>
-      <ProductDevelopmentWithAutomatedVehicleAerodynamics />
-      {/* <BottomLine data={bottomlineContent} /> */}
+      <ProductDevelopmentWithAutomatedVehicleAerodynamics
+        caseStudyContent={caseStudyContent}
+      />
       <Contact
         heading="Experience the Qcentrio Difference"
         subheading="Let us empower you to win, grow, and lead in the digital age with our leading-edge services, solutions, and strategic innovation."

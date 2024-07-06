@@ -128,11 +128,17 @@ export default function Animate() {
         elements.forEach((el) => observer.observe(el));
       };
 
-      observeElements(".blog-page-main-content > p", "slideup");
-      observeElements(".blog-page-main-content > h2", "slideup");
-      observeElements(".blog-page-main-content > h3", "slideup");
-      observeElements(".blog-page-main-content > ul > li", "slideup");
-      observeElements(".blog-page-main-content > ol > li", "slideup");
+      observeElements(".blog-page-main-content .dynamic-data p", "slideup");
+      observeElements(".blog-page-main-content .dynamic-data h2", "slideup");
+      observeElements(".blog-page-main-content .dynamic-data h3", "slideup");
+      observeElements(
+        ".blog-page-main-content .dynamic-data ul > li",
+        "slideup"
+      );
+      observeElements(
+        ".blog-page-main-content .dynamic-data ol > li",
+        "slideup"
+      );
       observeElements(".table-of-contents > ul > li", "slideup");
       // observeElements(".author-conatiner > div", "slideup");
       observeElements(".category-container > p", "slideup");

@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import arrow from "@/public/blog-arrow.svg";
-import triWhite from "@/public/up-tri-white.svg";
 import greenArrow from "@/public/discover-green-arrow.svg";
 import whatNew from "@/public/bi-andsql-analytics.png";
 import { useEffect, useRef, useState } from "react";
@@ -11,7 +10,6 @@ import { useEffect, useRef, useState } from "react";
 export function MegaMenu({ setServiceHovered, servicesHovered }) {
   const [index, setIndex] = useState(0);
   const [subindex, setSubIndex] = useState(0);
-  const [service, setService] = useState("Business Value Enhancement");
   const container = useRef(null);
   const links = [
     {
@@ -474,17 +472,17 @@ export function MegaMenu({ setServiceHovered, servicesHovered }) {
     ],
   ];
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setServiceHovered((prevState) => prevState == false);
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     setServiceHovered((prevState) => prevState == false);
+  //   };
 
-    window.addEventListener("scroll", handleScroll, { passive: true });
+  //   window.addEventListener("scroll", handleScroll, { passive: true });
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [setServiceHovered]);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, [setServiceHovered]);
 
   return (
     <div

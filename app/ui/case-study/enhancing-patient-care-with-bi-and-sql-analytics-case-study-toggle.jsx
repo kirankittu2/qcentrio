@@ -1,18 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import context1 from "@/public/context-1.png";
-import context2 from "@/public/context-2.png";
-import analytics1 from "@/public/analytics-1.png";
-import analytics2 from "@/public/analytics-2.png";
-import analytics3 from "@/public/analytics-3.png";
-import analytics4 from "@/public/analytics-4.png";
-
 import uptri from "@/public/up-tri.svg";
 import downtri from "@/public/down-tri.svg";
 import { useEffect, useState } from "react";
 
-export default function EnhancingPatientCareWithBIandsSQLAnalytics() {
+export default function EnhancingPatientCareWithBIandsSQLAnalytics({
+  caseStudyContent,
+}) {
   const [context, togggleContext] = useState(true);
   const [challenges, togggleChallenges] = useState(true);
   const [solution, togggleSolution] = useState(true);
@@ -36,10 +31,14 @@ export default function EnhancingPatientCareWithBIandsSQLAnalytics() {
     };
 
     observeElements(".case-study-toogle-content-container h2", "slideup");
-    observeElements(".case-study-toogle-content > p", "slideup");
-    observeElements(".case-study-solution-row-1-column-1 > p", "slideup");
+    observeElements(".case-study-toogle-content .dynamic-data > p", "slideup");
+
     observeElements(
-      ".case-study-solution-content-container .section-heading",
+      ".case-study-solution-row-1-column-1 .dynamic-data > p",
+      "slideup"
+    );
+    observeElements(
+      ".case-study-solution-content-container .dynamic-data h2",
       "slideup"
     );
     observeElements(".case-study-toogle-content-highlight", "slideup");
@@ -73,7 +72,7 @@ export default function EnhancingPatientCareWithBIandsSQLAnalytics() {
             {!context && <Image src={downtri} alt="" />}
           </div>
         </div>
-        {context && <ContextContent />}
+        {context && <ContextContent caseStudyContent={caseStudyContent} />}
       </div>
       <div className="case-study-showcase-toggle-container">
         <div className="case-study-toogle-button-container">
@@ -91,7 +90,7 @@ export default function EnhancingPatientCareWithBIandsSQLAnalytics() {
             {!challenges && <Image src={downtri} alt="" />}
           </div>
         </div>
-        {challenges && <ChallengeContent />}
+        {challenges && <ChallengeContent caseStudyContent={caseStudyContent} />}
       </div>
       <div className="case-study-showcase-toggle-container">
         <div className="case-study-toogle-button-container">
@@ -115,7 +114,7 @@ export default function EnhancingPatientCareWithBIandsSQLAnalytics() {
               <div className="case-study-toogle-content-highlight ">
                 SOLUTION
               </div>
-              <SolutionContent />
+              <SolutionContent caseStudyContent={caseStudyContent} />
             </div>
           </>
         )}
@@ -124,92 +123,83 @@ export default function EnhancingPatientCareWithBIandsSQLAnalytics() {
   );
 }
 
-function ContextContent() {
+function ContextContent({ caseStudyContent }) {
   return (
     <div className="case-study-toogle-content-container">
       <div className="case-study-toogle-content-image ">
-        <Image src={context1} alt="" />
+        <Image
+          width={398}
+          height={398}
+          src={caseStudyContent["context-image"]}
+          alt=""
+        />
       </div>
       <div className="case-study-toogle-content">
         <div className="case-study-toogle-content-highlight ">
           CLIENT CONTEXT
         </div>
-        <h2 className="section-heading ">
-          The client, a US-based business, provides software solutions to over
-          200 healthcare centers and retirement homes.
-        </h2>
-        <p className="section-content ">
-          Their software assists in processing data related to patients and
-          medication and generates various types of reports. To enhance their
-          services, the client partnered with Qcentrio, a company specializing
-          in business intelligence (BI) and analytics.
-        </p>
+        <div
+          className="dynamic-data"
+          dangerouslySetInnerHTML={{ __html: caseStudyContent.context }}
+        />
       </div>
     </div>
   );
 }
 
-function ChallengeContent() {
+function ChallengeContent({ caseStudyContent }) {
   return (
     <div className="case-study-toogle-content-container">
       <div className="case-study-toogle-content-image ">
-        <Image src={context2} alt="" />
+        <Image
+          width={398}
+          height={398}
+          src={caseStudyContent["challenge-image"]}
+          alt=""
+        />
       </div>
 
       <div className="case-study-toogle-content">
         <div className="case-study-toogle-content-highlight ">CHALLENGES</div>
-        <h2 className="section-heading ">
-          The client's Java data management and reporting application needed a
-          revamp to improve population health analytics and enable prompt
-          reporting.
-        </h2>
-        <p className="">
-          The goal was to provide healthcare centers with faster and more
-          accurate insights into patient care, medication management, and
-          operational efficiency.
-        </p>
+        <div
+          className="dynamic-data"
+          dangerouslySetInnerHTML={{ __html: caseStudyContent.challenge }}
+        />
       </div>
     </div>
   );
 }
 
-function SolutionContent() {
+function SolutionContent({ caseStudyContent }) {
+  const tagStrings = caseStudyContent.tags;
+  const tags = tagStrings.split(",");
+
+  const imageStrings = caseStudyContent["impact-images"];
+  const images = imageStrings.split(",");
+
   return (
     <div className="case-study-solution-content-container">
       <div className="case-study-solution-row-1">
         <div className="case-study-solution-row-1-column-1">
-          <h2 className="section-heading ">
-            Qcentrio's BI implementation team developed an analytical Microsoft
-            SQL Server data warehouse.
-          </h2>
-          <p className="section-content ">
-            This warehouse utilized a Transact-SQL script to load data from a
-            consolidated relational database, amalgamating information from 200
-            separate databases totaling 12GB during development.
-          </p>
-          <p className="">
-            With the new data warehouse in place, Qcentrio's BI developers
-            created reports using JReport, a Java-based reporting tool. The
-            reports covered various aspects of healthcare management, including:
-          </p>
-
+          <div
+            className="dynamic-data"
+            dangerouslySetInnerHTML={{ __html: caseStudyContent.solution }}
+          />
           <div className="tags-container ">
-            <div className="tag">Medication Classification</div>
-            <div className="tag">Missed Medications</div>
-            <div className="tag">Hospital Readmissions</div>
-            <div className="tag">Employee Performance</div>
-            <div className="tag">Community Marketing Activity Summary</div>
+            {tags.map((tag, index) => {
+              return (
+                <div key={index} className="tag">
+                  {tag}
+                </div>
+              );
+            })}
           </div>
         </div>
         <div className="case-study-solution-row-1-column-2">
-          <div className="case-study-solution-technology-block ">
-            <h2>TECHNOLOGIES AND TOOLS USED</h2>
-            <ul>
-              <li>Microsoft SQL Server</li>
-              <li>Transact-SQL</li>
-              <li>JReport</li>
-            </ul>
-          </div>
+          <div
+            className="case-study-solution-technology-block"
+            dangerouslySetInnerHTML={{ __html: caseStudyContent.technologies }}
+          />
         </div>
       </div>
       <div className="mb-[30px] impact">
@@ -217,41 +207,27 @@ function SolutionContent() {
         <div className="case-study-image-showcase">
           <div className="case-study-image-showcase-holder ">
             <h2 className="general-text-bold">REFERRAL REVENUE SOURCES</h2>
-            <Image src={analytics1} alt="" />
+            <Image width={678} height={426} src={images[0]} alt="" />
           </div>
           <div className="case-study-image-showcase-holder ">
             <h2 className="general-text-bold"></h2>
-            <Image src={analytics2} alt="" />
+            <Image width={392} height={426} src={images[1]} alt="" />
           </div>
           <div className="case-study-image-showcase-holder ">
             <h2 className="general-text-bold"></h2>
-            <Image src={analytics3} alt="" />
+            <Image width={1163} height={445} src={images[2]} alt="" />
           </div>
           <div className="case-study-image-showcase-holder ">
             <h2 className="general-text-bold">LENGTH OF STAY</h2>
-            <Image src={analytics4} alt="" />
+            <Image width={1163} height={436} src={images[3]} alt="" />
           </div>
         </div>
       </div>
       <div className="conclusion-container">
         <h2 className="general-text-bold ">CONCLUSION</h2>
-        <p className="">
-          <strong>Improved Management Processes:</strong> The new system's
-          prompt analytics reports allow healthcare centers and retirement homes
-          to benefit from improved management processes.
-        </p>
-        <p className="">
-          <strong>Enhanced Patient Care:</strong> With more accurate and timely
-          data on medication management and patient health, healthcare providers
-          can make better-informed decisions, leading to enhanced patient care.
-        </p>
-        <p className="">
-          <strong>Future Plans:</strong> Qcentrio and the client are planning to
-          develop OLAP (Online Analytical Processing) cubes for advanced
-          healthcare data analytics and information processing. This will
-          further enhance the capabilities of the BI solution, providing even
-          deeper insights into healthcare operations.
-        </p>
+        <div
+          dangerouslySetInnerHTML={{ __html: caseStudyContent.conclusion }}
+        />
       </div>
     </div>
   );

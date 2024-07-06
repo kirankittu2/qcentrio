@@ -7,6 +7,7 @@ import CopyrightBar from "@/app/ui/global/copyrightbar";
 import banner from "@/public/case-study-banner.png";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import EnhancingPatientCareWithBIandsSQLAnalytics from "@/app/ui/case-study/enhancing-patient-care-with-bi-and-sql-analytics-case-study-toggle";
+import { fetchSingleCaseStudies } from "@/app/lib/server-data";
 
 export const metadata = {
   title: "Improve Patient Care with Powerful BI & SQL Analytics with Qcentrio ",
@@ -14,15 +15,20 @@ export const metadata = {
     "Discover how Qcentrio's BI and SQL analytics solution transformed healthcare for senior living facilities. Learn how it boosted decision-making, improved patient care, and enhanced operational efficiency. Download the case study now!",
 };
 
-export default function CaseStudy() {
+export default async function CaseStudy() {
+  const caseStudyString = await fetchSingleCaseStudies(
+    "enhancing-patient-care-with-bi-and-sql-analytics-at-qcentrio"
+  );
+  const caseStudy = JSON.parse(caseStudyString)[0];
+  const caseStudyContent = JSON.parse(caseStudy.content);
+
   const heroContent = {
-    heading: "ENHANCING PATIENT CARE WITH BI AND SQL ANALYTICS AT QCENTRIO",
+    heading: caseStudy.name,
   };
 
   const bottomlineContent = {
     heading: "Bottomline",
-    content:
-      "A partnership between Qcentrio and the client has significantly <a>improved healthcare centers' and retirement homes' management and reporting capabilities.</a> The BI and SQL analytics solution has enabled faster and more accurate decision-making, ultimately contributing to better patient care and operational efficiency.",
+    content: caseStudyContent["bottom-line"],
   };
 
   return (
@@ -30,12 +36,19 @@ export default function CaseStudy() {
       <div className="case-study-hero">
         <NavBarContainer />
         <div>
-          <Image src={banner} alt="" />
+          <Image
+            width={1560}
+            height={560}
+            src={caseStudy.featured_image}
+            alt=""
+          />
         </div>
         <CaseStudyHero data={heroContent} value="bisql" />
       </div>
 
-      <EnhancingPatientCareWithBIandsSQLAnalytics />
+      <EnhancingPatientCareWithBIandsSQLAnalytics
+        caseStudyContent={caseStudyContent}
+      />
       <BottomLine data={bottomlineContent} />
       <Contact
         heading="Experience the Qcentrio Difference"

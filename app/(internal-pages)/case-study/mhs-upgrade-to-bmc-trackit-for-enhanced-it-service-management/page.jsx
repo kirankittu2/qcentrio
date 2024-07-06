@@ -4,9 +4,9 @@ import BottomLine from "@/app/ui/case-study/bottom-line";
 import Contact from "@/app/ui/global/contact";
 import Footer from "@/app/ui/global/footer";
 import CopyrightBar from "@/app/ui/global/copyrightbar";
-import banner from "@/public/memorial/banner.webp";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import Memorial from "@/app/ui/case-study/memorial-health-services-case-study-toggle";
+import { fetchSingleCaseStudies } from "@/app/lib/server-data";
 
 export const metadata = {
   title:
@@ -15,16 +15,20 @@ export const metadata = {
     "See how Memorial Health Services streamlined IT operations using BMC Track-It! This case study reveals how they improved service desk efficiency, asset management, and ultimately, patient care. Download it now!",
 };
 
-export default function CaseStudy() {
+export default async function CaseStudy() {
+  const caseStudyString = await fetchSingleCaseStudies(
+    "mhs-upgrade-to-bmc-trackit-for-enhanced-it-service-management"
+  );
+  const caseStudy = JSON.parse(caseStudyString)[0];
+  const caseStudyContent = JSON.parse(caseStudy.content);
+
   const heroContent = {
-    heading:
-      "Memorial Health Services’ Upgrade to BMC Track-It for Enhanced IT Service Management",
+    heading: caseStudy.name,
   };
 
   const bottomlineContent = {
     heading: "Bottomline",
-    content:
-      "Implementing BMC Track-It at Memorial Health Services exemplifies how the right IT service management tool can transform an organization's operational efficiency and service delivery. The system has not only streamlined IT operations across multiple locations but also ensured compliance with healthcare regulations, demonstrating a successful integration of technology and healthcare services.",
+    content: caseStudyContent["bottom-line"],
   };
 
   return (
@@ -32,12 +36,17 @@ export default function CaseStudy() {
       <div className="case-study-hero">
         <NavBarContainer />
         <div>
-          <Image src={banner} alt="" />
+          <Image
+            width={1560}
+            height={560}
+            src={caseStudy.featured_image}
+            alt=""
+          />
         </div>
         <CaseStudyHero data={heroContent} value="bmc" />
       </div>
 
-      <Memorial />
+      <Memorial caseStudyContent={caseStudyContent} />
       <BottomLine data={bottomlineContent} />
       <Contact
         heading="Experience the Qcentrio Difference"

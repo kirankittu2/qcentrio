@@ -14,7 +14,7 @@ export default function AllBlogs({
     <>
       <div id="articles" className="topics-section balance-section">
         <div className="topics-head-and-search mb-[30px]">
-          <InsightsSearchBar />
+          <InsightsSearchBar searchParam={searchParams} />
           <div className="most-search-column">
             Most Searched Keywords :
             <Link href="/insights?item=blockchain#articles">

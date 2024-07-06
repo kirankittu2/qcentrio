@@ -10,10 +10,13 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { getAllCaseStudies } from "@/app/lib/data";
 
-export default function Journey() {
+export default function Journey({ studiesServer }) {
   const item = useRef(null);
   const wrapper = useRef(null);
   const [index, setIndex] = useState(0);
+
+  const allStudies = JSON.parse(studiesServer);
+  const allStudiesContent = JSON.parse(allStudies[0].content);
 
   useEffect(() => {
     let translateValue = -index * (item.current.offsetWidth + 20) + "px";
@@ -56,7 +59,7 @@ export default function Journey() {
           data-option="up"
           className="journey-carousel-container animate-hidden animate">
           <div ref={wrapper} className="journey-carousel-wrapper ">
-            {studies.map((study, index) => {
+            {allStudies.map((study, index) => {
               return (
                 <div key={index} className="journey-carousel-item">
                   <div ref={item}>
@@ -64,15 +67,13 @@ export default function Journey() {
                       <Image
                         width={536}
                         height={591}
-                        src={study.homeImage}
+                        src={JSON.parse(study.content)["carousel-image"]}
                         alt=""
                       />
                     </div>
                     <div className="journey-carousel-content-container">
                       <h2 className="journey-carousel-title">SUCCESS STORY</h2>
-                      <h3 className="journey-carousel-heading">
-                        {study.title}
-                      </h3>
+                      <h3 className="journey-carousel-heading">{study.name}</h3>
                       <div className="journey-carousel-content">
                         <div>
                           <div className="journey-carousel-content-check-mark">
@@ -81,7 +82,7 @@ export default function Journey() {
                             </div>
                           </div>
                           <div className="section-content">
-                            {study.content1}
+                            {JSON.parse(study.content)["sub-heading-1"]}
                           </div>
                         </div>
                         <div>
@@ -91,11 +92,11 @@ export default function Journey() {
                             </div>
                           </div>
                           <div className="section-content">
-                            {study.content2}
+                            {JSON.parse(study.content)["sub-heading-2"]}
                           </div>
                         </div>
                       </div>
-                      <Link href={study.link}>
+                      <Link href={`/case-study/${study.slug}`}>
                         <Button name="Read More" />
                       </Link>
                     </div>

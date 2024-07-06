@@ -26,6 +26,7 @@ import growth from "@/public/growth.svg";
 import block from "@/public/block.svg";
 import cloud from "@/public/cloud-white.svg";
 import CountryScroll from "./ui/global/country-scroll";
+import { fetchBlogs, fetchCaseStudies } from "./lib/server-data";
 
 export const metadata = {
   title:
@@ -34,7 +35,7 @@ export const metadata = {
     "With Qcentrio, unlock digital excellence through advanced AI, cloud solutions and strategic innovation. Stay ahead of the curve in the ever-evolving IT industry with our cutting-edge services. Explore now!",
 };
 
-export default function Home() {
+export default async function Home() {
   const services = {
     images: [service1, service2, service3, service4, service5, service6],
     list: [
@@ -227,6 +228,9 @@ export default function Home() {
     ],
   };
 
+  const blogs = await fetchBlogs();
+  const studies = await fetchCaseStudies();
+
   return (
     <>
       <div className="hero">
@@ -243,11 +247,12 @@ export default function Home() {
       <CompanyList />
       <About />
       <AccordianOfferings data={services} />
-      <Journey />
+      <Journey studiesServer={studies} />
       <WhyQcentrio />
       <Insignts
         title="Front and Center: Qcentrio Insights"
         subheading="Stay up-to-date with the pulse of progress—our latest thought leadership, strategic insights, and forward-thinking perspectives."
+        blogs={blogs}
       />
       <Discover />
       <Contact

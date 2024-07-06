@@ -6,14 +6,13 @@ import Link from "next/link";
 import arrow from "@/public/insights-arrow.svg";
 import blogArrow from "@/public/blog-arrow.svg";
 import { useEffect, useRef, useState } from "react";
-import { getAllBlogs } from "@/app/lib/data";
 
-export default function Insignts({ title, subheading }) {
+export default function Insignts({ title, subheading, blogs }) {
   const wrapper = useRef(null);
   const container = useRef(null);
   const card = useRef(null);
   const [index, setIndex] = useState(1);
-  const blogs = getAllBlogs();
+  const allblogs = JSON.parse(blogs);
 
   useEffect(() => {
     const screenWidth = window.innerWidth;
@@ -104,7 +103,7 @@ export default function Insignts({ title, subheading }) {
         setTimeout(() => {
           wrapper.current.style.transition = "none";
           let translateValue =
-            -(blogs.length - 1) * (card.current.offsetWidth + 30) + "px";
+            -(allblogs.length - 1) * (card.current.offsetWidth + 30) + "px";
           wrapper.current.style.transform = `translateX(${translateValue})`;
           setIndex(wrapper.current.children.length - 4);
         }, 500);
@@ -128,7 +127,7 @@ export default function Insignts({ title, subheading }) {
       </div>
       <div ref={container} className="blogs-container">
         <div ref={wrapper} className="insights-wrapper ">
-          {blogs.slice(-1).map((blog, index) => {
+          {allblogs.slice(-1).map((blog, index) => {
             return (
               <div
                 data-option="card-up"
@@ -140,17 +139,19 @@ export default function Insignts({ title, subheading }) {
                     <Image
                       width={1226}
                       height={360}
-                      src={blog.image}
+                      src={blog.featured_image}
                       alt=""
                       className="blog-image"
                     />
                   </div>
                   <div className="blog-card-heading">
-                    <h2 className="card-heading">{blog.title}</h2>
+                    <h2 className="card-heading">{blog.name}</h2>
                   </div>
                   <div className="blog-card-content-container">
-                    <p className="section-content">{blog.content1}</p>
-                    <Link href={blog.link}>
+                    <p className="section-content">
+                      {JSON.parse(blog.content)["sub-heading-1"]}
+                    </p>
+                    <Link href={`/perspectives/${blog.slug}`}>
                       <div className="blogs-btn">
                         Learn More
                         <span>
@@ -167,7 +168,7 @@ export default function Insignts({ title, subheading }) {
               </div>
             );
           })}
-          {blogs.map((blog, index) => {
+          {allblogs.map((blog, index) => {
             return (
               <div
                 key={index}
@@ -178,17 +179,19 @@ export default function Insignts({ title, subheading }) {
                     <Image
                       width={1226}
                       height={360}
-                      src={blog.image}
+                      src={blog.featured_image}
                       alt=""
                       className="blog-image"
                     />
                   </div>
                   <div className="blog-card-heading">
-                    <h2 className="card-heading">{blog.title}</h2>
+                    <h2 className="card-heading">{blog.name}</h2>
                   </div>
                   <div className="blog-card-content-container">
-                    <p className="section-content">{blog.content1}</p>
-                    <Link href={blog.link}>
+                    <p className="section-content">
+                      {JSON.parse(blog.content)["sub-heading-1"]}
+                    </p>
+                    <Link href={`/perspectives/${blog.slug}`}>
                       <div className="blogs-btn">
                         Learn More
                         <span>
@@ -205,7 +208,7 @@ export default function Insignts({ title, subheading }) {
               </div>
             );
           })}
-          {blogs.slice(0, 2).map((blog, index) => {
+          {allblogs.slice(0, 2).map((blog, index) => {
             return (
               <div key={index} className="card">
                 <div>
@@ -213,17 +216,19 @@ export default function Insignts({ title, subheading }) {
                     <Image
                       width={1226}
                       height={360}
-                      src={blog.image}
+                      src={blog.featured_image}
                       alt=""
                       className="blog-image"
                     />
                   </div>
                   <div className="blog-card-heading">
-                    <h2 className="card-heading">{blog.title}</h2>
+                    <h2 className="card-heading">{blog.name}</h2>
                   </div>
                   <div className="blog-card-content-container">
-                    <p className="section-content">{blog.content1}</p>
-                    <Link href={blog.link}>
+                    <p className="section-content">
+                      {JSON.parse(blog.content)["sub-heading-1"]}
+                    </p>
+                    <Link href={`/perspectives/${blog.slug}`}>
                       <div className="blogs-btn">
                         Learn More
                         <span>

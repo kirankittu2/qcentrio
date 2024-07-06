@@ -56,6 +56,7 @@ export default async function RootLayout({ children }) {
         <MobileMenu />
         <CookieConsent />
         <Cursor />
+
         <Script src="https://www.google.com/recaptcha/api.js?render=6LeHIP4pAAAAAFlkwmI4z7K9FZG21vtJ7-aiWlt0"></Script>
       </body>
     </html>

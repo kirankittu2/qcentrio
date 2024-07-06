@@ -1,4 +1,4 @@
-import { getPaginationNumber, search } from "@/app/lib/data";
+import { insightSearch } from "@/app/lib/server-data";
 import AllBlogs from "@/app/ui/blogs/allblogs";
 import BlogHero from "@/app/ui/blogs/blog-hero";
 import Contact from "@/app/ui/global/contact";
@@ -18,7 +18,7 @@ export default async function Blogs({ searchParams }) {
   const type = searchParams?.type || "perspectives";
   const item = searchParams?.item || "";
   const page = searchParams?.page || 1;
-  const data = await search(type, item, page);
+  const data = JSON.parse(await insightSearch(type, item, page));
 
   return (
     <>

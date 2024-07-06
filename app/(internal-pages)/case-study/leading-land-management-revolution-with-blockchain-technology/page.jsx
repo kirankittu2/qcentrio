@@ -7,6 +7,7 @@ import CopyrightBar from "@/app/ui/global/copyrightbar";
 import banner from "@/public/transforming-land-management-ecosystem-with-blockchain-technology/banner.webp";
 import NavBarContainer from "@/app/ui/global/nav-bar-container";
 import TransformingLandManagementInIndia from "@/app/ui/case-study/transforming-land-management-in-india-case-study-toggle";
+import { fetchSingleCaseStudies } from "@/app/lib/server-data";
 
 export const metadata = {
   title: "Blockchain Revolutionizes Land Management: Transparency & Security",
@@ -14,16 +15,20 @@ export const metadata = {
     "Traditional land management is riddled with inefficiency and fraud. Discover how blockchain technology can transform the system for a more secure, transparent future. Download the case study and learn more!",
 };
 
-export default function CaseStudy() {
+export default async function CaseStudy() {
+  const caseStudyString = await fetchSingleCaseStudies(
+    "leading-land-management-revolution-with-blockchain-technology"
+  );
+  const caseStudy = JSON.parse(caseStudyString)[0];
+  const caseStudyContent = JSON.parse(caseStudy.content);
+
   const heroContent = {
-    heading:
-      "Transforming Land Management Ecosystem with Blockchain Technology",
+    heading: caseStudy.name,
   };
 
   const bottomlineContent = {
     heading: "Bottomline",
-    content:
-      "Through promoting efficiency, security, and transparency, blockchain technology presents a compelling opportunity to transform the land management ecosystem completely. Governments, organizations, and communities can unlock socio-economic benefits, improve land tenure security, and promote sustainable development by utilizing blockchain technology for land registration, cadastral mapping, and property transactions. The global adoption of blockchain technology is expected to increase. Cooperation between stakeholders, regulatory clarity, and capacity building will be crucial to realizing its potential to transform land management practices fully.",
+    content: caseStudyContent["bottom-line"],
   };
 
   return (
@@ -31,11 +36,16 @@ export default function CaseStudy() {
       <div className="case-study-hero">
         <NavBarContainer />
         <div>
-          <Image src={banner} alt="" />
+          <Image
+            width={1560}
+            height={560}
+            src={caseStudy.featured_image}
+            alt=""
+          />
         </div>
         <CaseStudyHero data={heroContent} value="land" />
       </div>
-      <TransformingLandManagementInIndia />
+      <TransformingLandManagementInIndia caseStudyContent={caseStudyContent} />
       <BottomLine data={bottomlineContent} />
       <Contact
         heading="Experience the Qcentrio Difference"
