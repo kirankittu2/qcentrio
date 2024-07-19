@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import ServiceCardClient from "./serice-card-client";
 
 export default function ServicesContent({ data }) {
