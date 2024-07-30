@@ -13,8 +13,10 @@ import { getAllCaseStudies } from "@/app/lib/data";
 export default function Journey({ studiesServer }) {
   const item = useRef(null);
   const wrapper = useRef(null);
+  const container = useRef(null);
   const [index, setIndex] = useState(0);
-
+  const [width, setWidth] = useState(0);
+  const [hovered, setHovered] = useState(false);
   const allStudies = JSON.parse(studiesServer);
   const allStudiesContent = JSON.parse(allStudies[0].content);
 
@@ -22,6 +24,22 @@ export default function Journey({ studiesServer }) {
     let translateValue = -index * (item.current.offsetWidth + 20) + "px";
     wrapper.current.style.transform = `translateX(${translateValue})`;
   }, [index]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (container.current) {
+        setWidth(container.current.offsetWidth);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   function handleRight() {
     if (index < wrapper.current.children.length - 1) {
@@ -35,6 +53,21 @@ export default function Journey({ studiesServer }) {
     }
   }
 
+  useEffect(() => {
+    if (hovered == false) {
+      const items = wrapper.current.querySelectorAll(".journey-carousel-item");
+      const intervalId = setInterval(() => {
+        setIndex((prevIndex) =>
+          prevIndex === items.length - 1 ? 0 : prevIndex + 1
+        );
+      }, 3000);
+
+      return () => {
+        clearInterval(intervalId);
+      };
+    }
+  }, [hovered]);
+
   const studies = getAllCaseStudies();
 
   return (
@@ -46,23 +79,35 @@ export default function Journey({ studiesServer }) {
           Real-life Journey of Success
         </h2>
         <div className="jouney-carousel-nav">
-          <div className="left" onClick={handleLeft}>
+          <div
+            className="left"
+            onMouseOver={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
+            onClick={handleLeft}>
             <Image fill src={journeyleft} alt="" />
           </div>
-          <div className="right" onClick={handleRight}>
+          <div
+            className="right"
+            onMouseOver={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
+            onClick={handleRight}>
             <Image fill src={journeyright} alt="" />
           </div>
         </div>
       </div>
-      <div className="journey-carousel-section">
+      <div ref={container} className="journey-carousel-section">
         <div
           data-option="up"
           className="journey-carousel-container animate-hidden animate">
           <div ref={wrapper} className="journey-carousel-wrapper ">
             {allStudies.map((study, index) => {
               return (
-                <div key={index} className="journey-carousel-item">
-                  <div ref={item}>
+                <div
+                  onMouseOver={() => setHovered(true)}
+                  onMouseLeave={() => setHovered(false)}
+                  key={index}
+                  className="journey-carousel-item">
+                  <div style={{ width: width + "px" }} ref={item}>
                     <div className="journey-carousel-image">
                       <Image
                         width={536}

@@ -794,11 +794,6 @@ const mainServicesContent = {
           content:
             "Setting strategic timelines for agile, phased rollouts, prioritizing quick wins and scalable, long-term growth.",
         },
-        {
-          index: 8,
-          title: "Monitoring & Management",
-          content: "Evolution",
-        },
       ],
     },
     successpathContent: {

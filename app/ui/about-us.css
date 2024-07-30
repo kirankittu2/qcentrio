@@ -1,9 +1,6 @@
 .about-us-hero-content{
-  /* position: absolute; */
-  /* left: clamp(50px, 7.81vw, 140px); */
   top: 50%;
   width: 45%;
-  /* transform: translateY(-50%); */
   padding-top: 7.8125vw;
   margin-left: clamp(25px, 14.58vw, 280px);
 }
@@ -12,7 +9,6 @@
     background: transparent linear-gradient(110deg, #00aa72 0%, #000000 100%) 0% 0% no-repeat padding-box;
     background-size: 200% 200%;
     animation: gradient 10s ease infinite;
-    /* padding-left: clamp(50px, 7.81vw, 140px); */
     padding-bottom: 50px;
 }
 
@@ -73,12 +69,20 @@
 
 /* join us buttons styles */
 .join-us-buttons-container{
-    background-color: #F7FFEC;
     margin-bottom: 50px;
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-left: clamp(50px, 7.81vw, 140px);
-    margin-right: clamp(50px, 7.81vw, 140px);
+}
+
+.join-us-buttons-container.balance-section{
+    padding-top: unset;
+    padding-bottom: unset;
+}
+
+.join-us-buttons-container > div{
+    background-color: #F7FFEC;
+    padding-top: clamp(33px, 2.6vw, 50px);
+    padding-bottom: clamp(33px, 2.6vw, 50px);
 }
 
 .join-us-buttons-container .section-heading{
@@ -144,9 +148,6 @@
 .about-us-map-content > div:last-child{
     flex: 1;
     margin-top: 30px;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: cen; */
 }
 
 .about-us-map-num{
@@ -169,7 +170,6 @@
     border: 3px solid #DEDEDE;
     width: 3.645vw;
     height: 3.645vw;
-    /* width: 70px; */
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -226,10 +226,6 @@
 @media screen and (max-width: 500px) {
     .about-us-hero-content{
         margin-left: 20px;
-    }
-
-    .about-us-blog-hero{
-        /* padding-left: 20px; */
     }
 
     .join-us-buttons-container{

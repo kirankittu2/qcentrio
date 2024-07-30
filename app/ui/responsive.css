@@ -29,14 +29,6 @@
   #path-8{
     display: none;
   }
-
-  .jobs-section{
-    /* padding-left: 0px; */
-  }
-
-  /* .accordian-offering > div:first-child{
-    width: 36.5vw;
-  } */
 }
 
 @media screen and (max-width: 1564px) {
@@ -47,9 +39,6 @@
 
 
 @media screen and (max-width: 1536px) {
-  /* .journey-carousel-item > div{
-    width: 85vw;
-  } */
 
   #path-5{
     top: 18.16vw;
@@ -79,6 +68,165 @@
   }
 }
 
+
+@media (min-width: 1279px) {
+  .section {
+    padding: clamp(33px, 2.6vw, 50px) clamp(50px, 14.58vw, 160px);
+  }
+
+  header {
+    padding-left: clamp(25px, 14.58vw, 160px);
+    padding-right: clamp(25px, 14.58vw, 160px);
+  }
+
+  .hero-content {
+    left: clamp(25px, 14.58vw, 160px);
+  }
+
+  .hero-carousel-num-nav {
+    left: clamp(25px, 14.58vw, 160px);
+  }
+
+  .balance-section{
+    padding-left: clamp(50px, 14.58vw, 160px);
+    padding-right: clamp(50px, 14.58vw, 160px);
+  }
+
+  .insights-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .insights-heading-container{
+    margin-right: 0px;
+  }
+
+  .footer-section{
+    padding-left: clamp(50px, 14.58vw, 160px);
+    padding-right: clamp(50px, 14.58vw, 160px);
+  }
+
+  .services-hero-content{
+    left: clamp(50px, 14.58vw, 160px);
+  }
+
+  .strategic-path-content{
+    padding-left: 0px;
+  }
+
+  .sub-service-hero-section{
+    padding-left: clamp(50px, 14.58vw, 160px);
+    padding-right: clamp(50px, 14.58vw, 160px);
+  }
+
+  .sub-service .breadcrump{
+    margin-left: clamp(50px, 14.58vw, 160px);
+  }
+
+  .sub-service-content-section{
+    margin-left: clamp(50px, 14.58vw, 160px);
+    margin-right: clamp(50px, 14.58vw, 160px);
+  }
+
+  .services-of-sub-service{
+    padding-left: clamp(50px, 14.58vw, 160px);
+    padding-right: clamp(50px, 14.58vw, 160px);
+  }
+  
+  .services-of-sub-service-holder{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .sub-services-why-choose-cards-holder img{
+    width: 100%;
+  }
+
+  .sub-service-contact > div{
+    gap: 50px;
+  }
+
+  .modernize-container{
+    justify-content: end;
+  }
+
+  .contact-section form{
+    width: 100%;
+    margin-left: unset;
+    margin-right: unset;
+  }
+
+  .industries-banner{
+    margin-left: clamp(50px, 14.58vw, 160px);
+  }
+
+  .industries-hero-content{
+    left: clamp(50px, 14.58vw, 160px);
+  }
+
+  .blogs-hero-content{
+    padding-left: clamp(50px, 14.58vw, 160px);
+  }
+
+  .blog-section{
+    padding-left: clamp(50px, 14.58vw, 160px);
+    padding-right: clamp(50px, 14.58vw, 160px);
+  }
+
+  .blog-page-container{
+    padding-left: clamp(50px, 14.58vw, 160px);
+    padding-right: clamp(50px, 14.58vw, 160px);
+  }
+
+  .case-study-hero-content{
+    left: clamp(50px, 14.58vw, 160px);
+  }
+
+  .case-study-toogle-content-container{
+    padding-left: clamp(50px, 14.58vw, 160px);
+    padding-right: clamp(50px, 14.58vw, 160px);
+  }
+
+  .about-us-hero-content{
+    margin-left: clamp(50px, 14.58vw, 160px)
+  }
+
+  .about-us-map-section{
+    padding-left: clamp(50px, 14.58vw, 160px);
+    padding-right: clamp(50px, 14.58vw, 160px);
+  }
+
+  .jobs-section{
+    padding-left: clamp(50px, 14.58vw, 160px);
+    padding-right: clamp(50px, 14.58vw, 160px);
+  }
+
+  .careers-contact-section{
+    margin-left: clamp(50px, 14.58vw, 160px);
+    margin-right: clamp(50px, 14.58vw, 160px);
+  }
+
+  .job-head-section{
+    margin-left: clamp(50px, 14.58vw, 160px);
+    margin-right: clamp(50px, 14.58vw, 160px);
+  }
+
+  .job-page .contact-section{
+    padding-left: clamp(50px, 14.58vw, 160px);
+    padding-right: clamp(50px, 14.58vw, 160px);
+  }
+
+  .search-page-heading-section{
+    margin-left: clamp(50px, 14.58vw, 160px);
+    margin-right: clamp(50px, 14.58vw, 160px);
+  }
+
+  .search-listing-section{
+    margin-left: clamp(50px, 14.58vw, 160px);
+    margin-right: clamp(50px, 14.58vw, 160px);
+  }
+}
 
 @media screen and (max-width: 1279px) {
   html{
@@ -126,7 +274,6 @@
   }
 
   .horizontal-scroll {
-    /* gap: 80px; */
     animation: scroll 30s linear infinite;
   }
 
@@ -621,10 +768,6 @@
     height: 45px;
   }
 
-  .loader .coming-soon-wrapper{
-    /* margin-top: 10.15vw; */
-  }
-
   .sub-service-content-section-column-1 h2{
     font-size: 24px;
     line-height: 28px;
@@ -671,8 +814,6 @@
   }
 
   .services-of-sub-service-holder{
-    /* padding-left: 0px; */
-    /* padding-right: 0px; */
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -858,8 +999,6 @@
     width: 460px;
   }
 
-
-  /*  */
   .accordian-offerings-container{
     flex-direction: column;
     height: fit-content;
@@ -1088,6 +1227,8 @@
     margin-top: 0.651vw;
     font-size: 10px;
   }
+
+
 
 }
 
@@ -1368,9 +1509,6 @@
   }
 
   .hero-content{ 
-    /* position: unset; */
-    /* transform: unset; */
-    /* margin-top: 20px; */
     left: 60px;
     width: 70%;
   } 
@@ -1393,18 +1531,9 @@
     padding-right: 60px;
   }
 
-  .hero{
-    /* padding-left: 30px; */
-    /* padding-bottom: 30px; */
-  }
-
   .about-us-hero-content{
     margin-left: 60px;
   }
-
-  /* .journey-carousel-container{
-    padding-left: 60px;
-  } */
 
   .careers-why-qcentrio{
     padding-left: 60px;
@@ -1447,10 +1576,6 @@
     width: 100vw;
   }
 
-  .hero-slide > div {
-    /* width: 96.8vw; */
-  }
-
   video{
     height: unset;
   }
@@ -1474,10 +1599,6 @@
     margin-left: 60px;
     margin-right: 60px;
   }
-
-  /* .hero-carousel-nav{
-    display: none;
-  } */
 
   .need-something-block{
     display: none;
@@ -1543,20 +1664,12 @@
     display: none;
   }
 
-  .case-study-hero{
-    /* padding-left: 30px; */
-  }
-
   .case-study-hero-content{
     left: 60px;
   }
 
   .services-hero{
     background-position: right -90px top 0px;
-  }
-
-  .services-hero{
-    /* padding-left: 30px; */
   }
 
   .services-hero-content{
@@ -1584,10 +1697,6 @@
   .services-of-sub-service-holder{
     padding-left: 30px;
     padding-right: 30px;
-  }
-
-  .blog-page-hero{
-    /* padding-left: 30px; */
   }
 
   .blog-page-container{
@@ -1627,13 +1736,7 @@
     margin-right: 20px;
   }
 
-  .industries header{
-    /* padding-left: 30px; */
-    /* margin-left: 30px; */
-  }
-
   .blog-hero{
-    /* padding-left: 30px; */
     padding-bottom: 55px;
   }
 
@@ -1684,16 +1787,17 @@
     padding-left: 60px;
   }
 
-  .journey-carousel-section{
-    margin-left: 60px;
-  }
-
   .journey-carousel-item > div{
     width: 86.09vw;
   }
 
   .journey-carousel-section{
     width: 86.6vw;
+  }
+
+  .journey-section {
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
 }
@@ -1869,13 +1973,6 @@
 }
 
 @media screen and (max-width: 650px) {
-  .hero-content{ 
-    /* position: unset; */
-    /* transform: unset;
-    margin-top: 20px;
-    margin-left: 60px;
-    width: 90%; */
-  }
 
   .footer-columns-holder {
     grid-template-columns: 1fr;
@@ -1891,7 +1988,6 @@
   }
 
   .hero{
-    /* padding-bottom: 20px; */
       background: transparent linear-gradient(119deg, #00aa72 0%, #0a3815 100%) 0%
     0% no-repeat padding-box;
   }
@@ -1932,10 +2028,6 @@
     grid-template-columns: 1fr;
   }
 
-  .blog-hero{
-    /* padding-left: 20px; */
-  }
-
   .blogs-hero-content{
     padding-left: 40px;
   }
@@ -1962,10 +2054,6 @@
     grid-template-columns: repeat(1, 1fr);
     padding-left: 20px;
     padding-right: 20px;
-  }
-
-  .journey-carousel-section{
-    margin-left: 40px;
   }
 
   .case-study-toogle-button{
@@ -2045,10 +2133,6 @@
     padding-left: 40px;
   }
 
-  .case-study-hero{
-    /* padding-left: 20px; */
-  }
-
   .services-of-sub-service{
     padding-left: 20px;
     padding-right: 20px;
@@ -2056,10 +2140,6 @@
 
   .blog-page-main-content{
     padding: 0;
-  }
-
-  .blog-page-hero{
-    /* padding-left: 20px; */
   }
 
   .table-of-contents, .reach-out{
@@ -2079,6 +2159,11 @@
   .careers-buttons{
     flex-direction: column;
     gap: 10px;
+  }
+
+  .journey-section{
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .search-page-heading-section{
@@ -2172,11 +2257,6 @@
     grid-template-columns: 1fr;
   }
 
-  .hero{
-    /* padding-left: 20px; */
-    /* padding-bottom: 20px; */
-  }
-
   .jobs-main-search-container .search-dropdown{
     padding: 12px 10px;
   }
@@ -2215,7 +2295,6 @@
   }
 
   .hero-content{
-    /* margin-left: 40px; */
     padding-right: 40px;
     left: 40px;
     width: 80%;
@@ -2224,10 +2303,6 @@
   .lets-talk-container{
     width: 80%;
   }
-
-  /* .journey-carousel-container{
-    padding-left: 40px;
-  } */
 
   .journey-heading-section{
     padding-left: 40px;
@@ -2288,10 +2363,6 @@
     text-align: center;
   }
 
-  .services-hero{
-    /* padding-left: 20px; */
-  }
-
   .services-hero-content{
     left: 40px;
   }
@@ -2347,7 +2418,6 @@
 
   .industries header{
     padding-left: 20px;
-    /* margin-left: 20px; */
   }
 
   .journey-carousel-section {

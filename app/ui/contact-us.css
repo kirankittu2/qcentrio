@@ -4,7 +4,6 @@
 }
 
 .contact .hero {
-  /* padding-bottom: clamp(50px, 7.81vw, 80px); */
   background: transparent linear-gradient(96deg, #00aa72 0%, #000000 100%) 0% 0%
     no-repeat padding-box;
   background-size: 200% 200%;
@@ -25,7 +24,6 @@
 
 .contact-us-main-section .hero-heading {
   color: black;
-  /* margin-top: 50px; */
   margin-bottom: 0px;
 }
 
@@ -173,8 +171,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* overflow: hidden; */
-  /* padding-top: 3px; */
 }
 
 .global-presence-section .section-heading {
@@ -257,6 +253,7 @@
 }
 
 #path-4 {
+  display: none;
   position: absolute;
   top: 40%;
   left: -5px;

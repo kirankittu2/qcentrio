@@ -8,7 +8,6 @@
   }
   video {
     opacity: 0.7;
-    /* height: clamp(419px, 32.8vw, 630px); */
     height: 35.8vw;
   }
   .cookie-preferences {
@@ -89,9 +88,6 @@
   .contact-us-main-section-content {
     display: inline-block !important;
   }
-  /* .journey-section {
-    padding-bottom: 0px;
-  } */
   #path-3 {
     display: none;
   }
@@ -198,10 +194,6 @@
     color: white;
     width: 100%;
   }
-  /* .jobs-section div:first-child {
-    display: inline-block;
-    width: 100%;
-  } */
   .jobs-section {
     padding-left: 0px;
   }
@@ -735,10 +727,6 @@
   #path-5 {
     display: none;
   }
-
-  /* .main-nav-link {
-    margin-left: 25px;
-  } */
 }
 
 @media screen and (max-width: 1620px) {
@@ -753,81 +741,16 @@
   }
 }
 
-@media screen and (max-width: 1404px) {
-  /* .main-nav-link {
-    display: none;
-  }
-
-  .mobile-nav-button {
-    display: block;
-  }
-
-  .discover-heading {
-    width: 100px;
-  }
-
-  .blog-page-social-column {
-    display: none;
-  } */
-}
-
 @media screen and (max-width: 1339px) {
-  /* footer styles */
-  /* .footer-column-container {
-    flex-direction: column;
-  } */
 
   .footer-columns-holder {
     justify-content: space-between;
     margin-bottom: 30px;
   }
 
-  /* .footer-form-heading {
-    text-align: center;
-    margin-bottom: 15px;
-  } */
-
-  /* .footer-form-sub-heading {
-    text-align: center;
-    margin-bottom: 15px;
-  } */
-
-  /* .privacy-policy-check-text {
-    justify-content: center;
-  } */
-
   .footer-form-column {
     margin-bottom: 30px;
   }
-
-  /* .social-links {
-    justify-content: center;
-  } */
-
-  /* home page why choose qcentrio */
-  .home-services-container,
-  .blogs-container,
-  .all-service-list-container {
-    /* grid-template-columns: 1fr 1fr; */
-  }
-
-  /* .discover-block {
-    width: 150px;
-  } */
-
-  /* .discover-block-space {
-    width: 150px;
-  } */
-
-  /* .all-service-list-container,
-  .services-container,
-  .services-of-sub-service-holder {
-    grid-template-columns: 1fr 1fr;
-  } */
-
-  /* .services-hero-content {
-    width: 60%;
-  } */
 }
 
 
@@ -839,9 +762,6 @@
 }
 
 @media screen and (max-width: 1279px) {
-  /* html{
-    font-size: 16px;
-  } */
 
   .services-container {
     gap: 30px;
@@ -1107,7 +1027,6 @@
 
   .discover-card {
     height: 175px;
-    /* padding: 40px; */
     margin-top: 100px;
   }
 
@@ -1151,9 +1070,6 @@
     font-size: 16px;
   }
 
-  /* .footer-form-heading{
-    font-size: 30px;
-  } */
 }
 
 @media screen and (max-width: 1200px) {
@@ -1242,10 +1158,6 @@
 }
 
 @media screen and (max-width: 1110px) {
-  /* .btn {
-    padding: 10px 25px;
-    min-width: unset;
-  } */
 
   .hero-content {
     position: unset;
@@ -1264,13 +1176,6 @@
     display: none;
   }
 
-  /* .lets-talk-container input {
-    padding: 18px;
-  } */
-
-  /* input {
-    padding: 10px;
-  } */
 
   .insights-arrows-holder {
     display: flex;
@@ -1313,12 +1218,6 @@
     padding-right: 0px;
   }
 
-  .discover-section {
-    /* flex-direction: column; */
-    /* gap: 75px; */
-    /* padding-top: 80px; */
-  }
-
   .discover-heading {
     width: unset;
   }
@@ -1348,18 +1247,6 @@
   .service-sub-heading {
     width: 90%;
   }
-  /* .btn {
-    padding: 10px 25px;
-    min-width: unset;
-  } */
-
-  /* .lets-talk-container input {
-    padding: 18px;
-  } */
-
-  /* .search-list-item {
-    display: none;
-  } */
 
   .about-section {
     flex-direction: column;
@@ -1417,10 +1304,6 @@
     height: 26px;
   }
 
-  /* .nav-contact-btn {
-    display: none;
-  } */
-
   .footer-column {
     width: 100%;
     margin-bottom: 20px;
@@ -1434,11 +1317,6 @@
   .footer-item {
     text-align: center;
   }
-
-  /* .section-heading {
-    font-size: 24px;
-    line-height: 30px;
-  } */
 
   .sub-heading {
     font-size: 20px;
@@ -1461,22 +1339,6 @@
     font-size: 20px;
     line-height: 24px;
   }
-
-  /* .contact-heading {
-    font-size: 34px;
-    line-height: 38px;
-    width: 100%;
-  } */
-
-  /* .footer-form-heading {
-    font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 10px;
-  } */
-
-  /* .discover-block-space {
-    margin-top: -46px;
-  } */
 
   .privacy-policy-content-section {
     flex-direction: column;
@@ -1527,22 +1389,6 @@
     line-height: 24px;
   }
 
-  /* .service-sub-heading {
-    width: 85%;
-    font-size: 20px;
-    line-height: 24px;
-  } */
-
-  /* .success-path-section .section-heading {
-    font-size: 24px;
-    line-height: 28px;
-  } */
-
-  /* .services-hero h1 {
-    font-size: 30px;
-    line-height: 34px;
-  } */
-
   .services-hero-content {
     width: 80%;
   }
@@ -1572,10 +1418,6 @@
     position: relative;
     display: none;
   }
-
-  /* .glimpse-section {
-    flex-direction: column;
-  } */
 
   .glimpse-column-1 {
     padding-right: 0px;

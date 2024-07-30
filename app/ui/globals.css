@@ -10,16 +10,13 @@
   --content-black: #000000;
 
   /* text styles */
-  /* --general-text: 16px; */
   --general-text: 0.8333333333333333vw;
   --general-text-no-frequent: 18px;
   --main-heading: 3.38vw;
   --main-heading-no-frequent: 55px;
   --sub-heading: 24px;
   --sub-heading: 1.25vw;
-  /* --section-main-heading: 32px; */
   --section-main-heading: 1.6vw;
-  /* --heading-highlight: 20px; */
   --heading-highlight: 1.04vw;
 
   /* genaral styles */
@@ -50,15 +47,12 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* transition: 0.5s ease-out; */
   pointer-events: none;
   background-color: #003c28;
 }
 
 .loader-number{
   color: white;
-  /* margin-left: -0.564vw;
-  margin-top: 0.56vw; */
   font-family: "Quadran-Bold";
   position: absolute;
   top: 50%;
@@ -92,10 +86,6 @@ video {
   filter: brightness(0.7);
 }
 
-.blog-page-hero {
-  /* scroll-margin-top: 70px; */
-}
-
 .transfroming-section-mobile{
   display: none;
 }
@@ -107,7 +97,6 @@ video {
   content: "";
   display: inline-block;
   height: 0.45em;
-  /* left: 0.85em; */
   position: relative;
   top: -0.25em;
   transform: rotate(-45deg);
@@ -176,7 +165,6 @@ body {
   margin-right: auto;
   padding: 0;
   position: relative;
-  /* transition: all 1s ease-in-out; */
   overflow: hidden;
   cursor: url("/cursor.png") 15 15, auto;
 }
@@ -223,7 +211,6 @@ p {
   padding: clamp(11px, 0.88vw, 17px) clamp(20px, 1.56vw, 30px);
   background-color: var(--primary-color);
   border-radius: var(--b-radius);
-  /* min-width: 163px; */
   cursor: inherit;
   white-space: nowrap;
 }
@@ -240,7 +227,6 @@ input {
   font-family: "Quadran-Medium";
   letter-spacing: -0.4px;
   border: 2px solid #f9f9f9;
-  /* cursor: none; */
 }
 
 ol {
@@ -287,7 +273,6 @@ textarea {
   resize: none;
   letter-spacing: -0.4px;
   font-family: "Quadran-Medium";
-  /* cursor: none; */
 }
 
 .section {
@@ -1385,13 +1370,15 @@ header {
 
 /* journey section styles */
 .journey-heading-section {
-  padding-left: clamp(50px, 14.58vw, 280px);
-  padding-right: clamp(50px, 14.58vw, 280px);
+  /* padding-left: clamp(50px, 14.58vw, 280px); */
+  /* padding-right: clamp(50px, 14.58vw, 280px); */
   padding-bottom: clamp(33px, 2.6vw, 50px);
 }
 
 .journey-section {
   padding-bottom: clamp(33px, 2.6vw, 50px);
+  padding-left: clamp(50px, 14.58vw, 160px);
+  padding-right: clamp(50px, 14.58vw, 160px);
 }
 
 .jouney-carousel-nav {
@@ -1437,7 +1424,6 @@ header {
 }
 
 .journey-carousel-item {
-  width: 1364px;
   margin-right: 20px;
 }
 
@@ -1499,11 +1485,6 @@ header {
   height: 100%;
   object-fit: cover;
   border-radius: 0px 0px 0px 60px;
-}
-
-.journey-carousel-section{
-  width: 70vw;
-  margin-left: 14.8vw;
 }
 
 .journey-carousel-wrapper {
@@ -3720,6 +3701,7 @@ td {
   width: 15.625vw;
   height: 15.625vw;
   padding-top: -1px;
+  pointer-events: none;
 }
 
 .accordian-offering-number {
@@ -5800,6 +5782,7 @@ td {
 }
 
 #path-8 {
+  display: none;
   position: absolute;
   top: 49%;
   left: 0;
