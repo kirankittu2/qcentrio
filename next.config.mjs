@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["localhost", "72.167.133.180"],
+    domains: ["localhost", "cms.qcentrio.com"],
   },
   async redirects() {
     return [
       {
         source: "/admin",
-        destination: "http://72.167.133.180:3001",
+        destination: "http://cms.qcentrio.com",
         permanent: true,
       },
     ];
