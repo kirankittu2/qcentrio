@@ -72,7 +72,7 @@ export default function ContactUs() {
       </div>
       <ReachOut />
       <GlobalPresence />
-      <CountryScroll />
+      {/* <CountryScroll /> */}
       <Footer />
       <CopyrightBar />
     </div>
