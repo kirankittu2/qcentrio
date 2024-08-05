@@ -1,22 +1,25 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
+import { useCookies } from "react-cookie";
 import Loader from "./loader";
 
-export default function PageLoader() {
-  const flag = localStorage.getItem("load");
+export default function PageLoader({ visible }) {
+  const [cookies, setCookie] = useCookies(["load"]);
   useEffect(() => {
     const load = document.querySelector(".loader");
-
-    if (!flag) {
+    if (!visible) {
       document.documentElement.classList.add("no-scroll");
-      load.style.opacity = "1";
+      if (load) {
+        load.style.opacity = "1";
+      }
 
       const handleLoad = () => {
         if (load) {
           load.style.opacity = "0";
           document.documentElement.classList.remove("no-scroll");
-          localStorage.setItem("load", true);
+          setCookie("load", true, { path: "/" });
         }
       };
 
@@ -34,7 +37,7 @@ export default function PageLoader() {
         };
       }
     }
-  }, [flag]);
+  }, [setCookie, visible]);
 
-  return <Loader flag={flag} />;
+  return <Loader />;
 }

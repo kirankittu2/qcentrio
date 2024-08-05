@@ -33,7 +33,7 @@ export default async function CaseStudy() {
           <Image
             width={1560}
             height={560}
-            src={caseStudy.featured_image}
+            src={caseStudyContent["card-image"]}
             alt=""
           />
         </div>

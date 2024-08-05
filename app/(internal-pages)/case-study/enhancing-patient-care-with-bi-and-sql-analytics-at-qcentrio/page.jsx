@@ -30,7 +30,6 @@ export default async function CaseStudy() {
     heading: "Bottomline",
     content: caseStudyContent["bottom-line"],
   };
-
   return (
     <>
       <div className="case-study-hero">
@@ -39,7 +38,7 @@ export default async function CaseStudy() {
           <Image
             width={1560}
             height={560}
-            src={caseStudy.featured_image}
+            src={caseStudyContent["card-image"]}
             alt=""
           />
         </div>

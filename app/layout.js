@@ -10,15 +10,16 @@ import Script from "next/script";
 import CookieConsent from "./ui/global/cookie-consent";
 import Image from "next/image";
 import cookieImage from "@/public/cookie.svg";
-import { checkCookie } from "./lib/utils";
+import { checkConsent, checkLoader } from "./lib/utils";
 import MobileMenu from "./ui/global/mobile-menu";
 import PageLoader from "./ui/page-loader";
 import { GoogleTagManager } from "@next/third-parties/google";
-
 const Cursor = dynamic(() => import("./ui/global/cursor"), { ssr: false });
 
 export default async function RootLayout({ children }) {
-  const consent = await checkCookie();
+  const consent = await checkConsent();
+  const load = await checkLoader();
+  console.log(load);
   return (
     <html lang="en">
       <head>
@@ -51,12 +52,11 @@ export default async function RootLayout({ children }) {
             <Image src={cookieImage} alt="" />
           </div>
         )}
-        <PageLoader />
+        {!load && <PageLoader visible={load} />}
         <Animate />
         <MobileMenu />
         <CookieConsent />
         <Cursor />
-
         <Script src="https://www.google.com/recaptcha/api.js?render=6LeHIP4pAAAAAFlkwmI4z7K9FZG21vtJ7-aiWlt0"></Script>
       </body>
     </html>

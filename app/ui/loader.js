@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import CircleAnime from "./global/circle-anime";
 
-export default function Loader({ flag }) {
+export default function Loader() {
   const [realCount, setCount] = useState(0);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export default function Loader({ flag }) {
   }, []);
 
   return (
-    <div style={{ opacity: flag ? "0" : "1" }} className="loader">
+    <div className="loader">
       <CircleAnime />
       <div className="loader-number">{realCount}%</div>
     </div>
