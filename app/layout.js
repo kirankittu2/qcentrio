@@ -19,7 +19,6 @@ const Cursor = dynamic(() => import("./ui/global/cursor"), { ssr: false });
 export default async function RootLayout({ children }) {
   const consent = await checkConsent();
   const load = await checkLoader();
-  console.log(load);
   return (
     <html lang="en">
       <head>
